@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-16T13:28:44.574Z",
+  "fetchedAt": "2026-10-16T14:19:47.971Z",
   "articles": [
     {
-      "id": "feed-4fef1e9e7ba6",
-      "title": "I built a bank statement to Excel converter that never uploads your PDF",
-      "excerpt": "Most \"PDF bank statement to Excel\" sites want you to upload the file. Think about what's on that PDF: your name, your address, your account number, and every payment you made last month. I wouldn't ha…",
-      "body": "Most \"PDF bank statement to Excel\" sites want you to upload the file. Think about what's on that PDF: your name, your address, your account number, and every payment you made last month. I wouldn't hand that to a site I'd never heard of, so when I built one for my own site I set one rule before writing any code. The file never leaves the browser tab. This is how it works, including the parts that are still fragile. It's plain JavaScript, one ES module of about 230 lines plus Mozilla's pdf.js, with no backend at all. If you'd rather try it before reading, it's live as a free bank statement to Excel converter on my studio's site. Reading text out of a PDF A PDF doesn't contain lines or tables.",
-      "author": "Philip",
+      "id": "feed-910f5c73885c",
+      "title": "Building a 60fps Canvas Frustum Camera for 4K System Architecture Presentations",
+      "excerpt": "When presenting a complex enterprise topology—whether it's a multi-region Kafka cluster, a distributed consensus state machine, or an intricate domain-driven microservices map—traditional slide decks…",
+      "body": "When presenting a complex enterprise topology—whether it's a multi-region Kafka cluster, a distributed consensus state machine, or an intricate domain-driven microservices map—traditional slide decks fail fundamentally: they shatter continuous spatial relationships into disconnected 2D rectangles . When you jump from a slide showing the global ingress gateway to another slide showing an internal Raft voting loop, your audience has to mentally reconstruct the spatial hierarchy from scratch.",
+      "author": "xiangc",
       "date": "2026-10-16",
       "readTime": "2 min",
       "section": "software",
@@ -14,75 +14,75 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 43,
-      "url": "https://dev.to/philipvdb/i-built-a-bank-statement-to-excel-converter-that-never-uploads-your-pdf-2e6n",
-      "image": "/images/feed/feed-4fef1e9e7ba6.webp",
+      "xpReward": 34,
+      "url": "https://dev.to/xiangc_92294/building-a-60fps-canvas-frustum-camera-for-4k-system-architecture-presentations-4hd",
+      "image": "/images/feed/feed-910f5c73885c.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-4cfa681e3ad0",
-      "title": "Browser Storage Guide: localStorage vs sessionStorage vs IndexedDB vs Cache API vs OPFS",
-      "excerpt": "Modern browsers offer multiple storage mechanisms, each with different tradeoffs. Choosing the right one depends on data size, structure, persistence requirements, and whether you need server-sync. He…",
-      "body": "Modern browsers offer multiple storage mechanisms, each with different tradeoffs. Choosing the right one depends on data size, structure, persistence requirements, and whether you need server-sync. Here's a practical comparison for Firefox web developers. The Storage Options localStorage sessionStorage Cookies IndexedDB Cache API OPFS Capacity ~5MB ~5MB ~4KB Hundreds of MB Hundreds of MB Gigabytes Data type Strings only Strings only Strings Structured Request/Response Files/Blobs Async No No No Yes Yes Yes Persists Until cleared Tab session Configurable Until cleared Until cleared Until cleared Server access No No Yes (sent in headers) No No No Available in workers No No No Yes Yes Yes localStorage Use for : small amounts of simple persistent data // Store localStorage .",
-      "author": "Weather Clock Dash",
+      "id": "feed-8927f7b4bc49",
+      "title": "PS5 Black Screen? Signs Your HDMI Port Is Failing (and What to Do)",
+      "excerpt": "amage the pins or lift the solder pads further, which turns a simple port replacement into a bigger board repair. Stop using it and leave it unplugged. Usually, You switch on your PS5 and the screen s…",
+      "body": "amage the pins or lift the solder pads further, which turns a simple port replacement into a bigger board repair. Stop using it and leave it unplugged. Can an HDMI port be repaired? Usually, You switch on your PS5 and the screen stays black, even though the console's lights and fans say it's running. Before you buy a new TV or cable, it's worth knowing that the HDMI port itself is one of the most common points of failure on modern consoles. Here's how to tell what's going on. Why HDMI ports fail The HDMI socket is soldered to the motherboard, and it takes a lot of physical stress. Cables get tugged, consoles get knocked, and plugging and unplugging over the years loosens the metal pins and the solder joints holding them. Once the port is damaged, no cable will fix it.",
+      "author": "Ammar Imran",
       "date": "2026-10-16",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Api"
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 34,
+      "url": "https://dev.to/ammarimran/ps5-black-screen-signs-your-hdmi-port-is-failing-and-what-to-do-51gp",
+      "image": "/images/feed/feed-8927f7b4bc49.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-2bc2fefa9ea9",
+      "title": "Alpenglow: How Solana Swaps Its Consensus in One Slot",
+      "excerpt": "Solana consensus has been using the same design since 2020. Every validator publishes votes as transactions in the blocks, adds increasingly strong lockouts and declares a block final once 32 more blo…",
+      "body": "Solana consensus has been using the same design since 2020. Every validator publishes votes as transactions in the blocks, adds increasingly strong lockouts and declares a block final once 32 more blocks have built upon it. It works, but it lacks a published safety proof, consumes over half of all transactions in the network, and its finality takes seconds despite the rest of the stack working in milliseconds. Alpenglow is its replacement. The design is due to Quentin Kniep, Jakub Sliwinski, and Roger Wattenhofer, who left ETH Zurich and joined Anza after publishing their research on liveness issues in TowerBFT. Alpenglow was published in May 2025.",
+      "author": "OrbitFlare RPC",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 34,
+      "url": "https://dev.to/orbitflarerpc/alpenglow-how-solana-swaps-its-consensus-in-one-slot-38o1",
+      "image": "/images/feed/feed-2bc2fefa9ea9.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-f69a6c989756",
+      "title": "SaaS Pricing Before Launch: Plans, Limits, and Free Trials",
+      "excerpt": "Five architecture decisions that let a pricing change stay a product change, rather than turn into a release project. A product manager moves Advanced Analytics from Pro to Business. In a pricing tabl…",
+      "body": "Five architecture decisions that let a pricing change stay a product change, rather than turn into a release project. A product manager moves Advanced Analytics from Pro to Business. In a pricing table, that is one line. In the product, plan checks may sit in the interface, API, background jobs, and support console. Updating the landing page takes an hour; releasing the new version can take weeks. That gap makes monetization a development task every time the team wants to test a new offer. Experiments slow down, users receive different access in different parts of the service, and support has to explain why a payment succeeded while a feature remains locked. I’m Anton Fokin, CEO of Qtim.",
+      "author": "Qtim",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
       ],
       "featured": true,
       "xpReward": 52,
-      "url": "https://dev.to/weatherclockdash/browser-storage-guide-localstorage-vs-sessionstorage-vs-indexeddb-vs-cache-api-vs-opfs-35ho",
-      "image": "/images/feed/feed-4cfa681e3ad0.webp",
+      "url": "https://dev.to/qtim/saas-pricing-before-launch-plans-limits-and-free-trials-n1d",
+      "image": "/images/feed/feed-f69a6c989756.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-4c7634f70da1",
-      "title": "Are Passkeys a Trap? How to Back Them Up So a Lost Phone Can't Lock You Out",
-      "excerpt": "The usual argument that passkeys are a trap goes like this: Apple, Google and Microsoft want your logins stuck in their ecosystems. In October 2026 that argument is a year out of date. You can now mov…",
-      "body": "The usual argument that passkeys are a trap goes like this: Apple, Google and Microsoft want your logins stuck in their ecosystems. In October 2026 that argument is a year out of date. You can now move passkeys out of Apple Passwords and Google Password Manager into a third-party manager with an official, encrypted transfer. The thing that will actually lock you out of your accounts is much less interesting. You have one phone, every passkey lives on it, and it ends up at the bottom of a lake. Further down is how I back them up so that can't happen: one synced manager you picked yourself, plus two hardware keys. Scott Helme published Passkeys are not a trap this week as a reply to a viral \"Passkeys are a trap. Do not use them\" post, and the Hacker News thread turned into the usual brawl.",
-      "author": "Alan West",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/alanwest/are-passkeys-a-trap-how-to-back-them-up-so-a-lost-phone-cant-lock-you-out-4noj",
-      "image": "/images/feed/feed-4c7634f70da1.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-b166413f0484",
-      "title": "Firefox Tab Management: From Tab Groups to Session Saver — Taming 100+ Tabs",
-      "excerpt": "Tab hoarding is real. Studies suggest most power users have 20–200+ tabs open at once. Firefox has more tab management tools than most people know about, and extensions like Tab Manager & Session Save…",
-      "body": "Tab hoarding is real. Studies suggest most power users have 20–200+ tabs open at once. Firefox has more tab management tools than most people know about, and extensions like Tab Manager &amp; Session Saver solve the deeper problem: saving and restoring named sessions of related tabs. The Tab Overload Problem Tabs serve different purposes: Reference — documentation, specs, articles you haven't read yet Work in progress — the 6 tabs for the feature you're building \"I'll read this later\" — articles bookmarked via tabs Background — email, Slack, calendar Research — 15 tabs for a decision you're making Having all of these in one browser window creates cognitive overhead. Context switching between \"work\" and \"research\" tabs means scrolling through everything.",
-      "author": "Weather Clock Dash",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/weatherclockdash/firefox-tab-management-from-tab-groups-to-session-saver-taming-100-tabs-mfd",
-      "image": "/images/feed/feed-b166413f0484.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-ae4cf1645b7d",
-      "title": "This Week's Proxy Exits: 11.9M New Addresses, Still Almost All Off Datacenter Space",
-      "excerpt": "Datacenter blocklists are still the default proxy defence in a lot of fraud stacks. The addresses showing up in proxy supply this week mostly were not in datacenters. Between 9–15 October 2026 (UTC),…",
-      "body": "Datacenter blocklists are still the default proxy defence in a lot of fraud stacks. The addresses showing up in proxy supply this week mostly were not in datacenters. Between 9–15 October 2026 (UTC) , the IP99 risk feed captured 11,931,269 proxy exit addresses it had not seen in the previous 7 days ( +23% vs the prior week). Source page: ip99.com/en/proxy-exits (generated 16 Oct 2026 UTC; re-check at publish if the window has rolled). What those addresses sit on Usage type Addresses Share Residential broadband 9,521,153 79.8% Mobile network 1,565,761 13.1% Gateway / NAT egress 498,628 4.2% Datacenter 269,729 2.3% Education network 45,853 0.4% Unclassified 30,145 0.3% About 65% were rated high-risk at the moment of capture. The rest still carried a proxy-class signal at a lower risk level.",
-      "author": "IP99",
+      "id": "feed-bf04a6eb1587",
+      "title": "I benchmarked 8 PDF extractors on 27 documents from 1 to 487 pages. Here's what broke, and what won.",
+      "excerpt": "I knew something was off when two numbers landed in the same afternoon. Every tool that reads the PDF text layer had scored exactly 0.00 on every chart in my corpus. Fine, I thought, the charts are im…",
+      "body": "I knew something was off when two numbers landed in the same afternoon. Every tool that reads the PDF text layer had scored exactly 0.00 on every chart in my corpus. Fine, I thought, the charts are images, there's nothing in the text layer to read. Then PyMuPDF came in at a perfect 1.00 on clean text. Every document. Every page-count bucket. Not 0.98. 1.00. The first number was telling me something true about the tools. The second was telling me something true about me. PyMuPDF got 1.00 because the \"ground truth\" for clean-text documents was PyMuPDF's own output. I'd written the answer key with one of the contestants and hadn't noticed. A reviewer did. So this is partly a benchmark write-up and partly a list of the ways a benchmark can quietly lie to the person who built it.",
+      "author": "Harshith Raju",
       "date": "2026-10-16",
       "readTime": "2 min",
       "section": "software",
@@ -91,9 +91,370 @@
       ],
       "featured": true,
       "xpReward": 45,
-      "url": "https://dev.to/ip99/this-weeks-proxy-exits-119m-new-addresses-still-almost-all-off-datacenter-space-3i0f",
-      "image": "/images/feed/feed-ae4cf1645b7d.webp",
+      "url": "https://dev.to/harshith_raju_6ba0e1f9a52/i-benchmarked-8-pdf-extractors-on-27-documents-from-1-to-487-pages-heres-what-broke-and-what-won-ca8",
+      "image": "/images/feed/feed-bf04a6eb1587.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-fdebd16dd70d",
+      "title": "Semantic HTML and Accessibility: Lessons from Building My First Portfolio",
+      "excerpt": "Introduction Building a website involves more than making content appear in a browser. A good website should have a clear structure, communicate meaning through its HTML, and be accessible to differen…",
+      "body": "Introduction Building a website involves more than making content appear in a browser. A good website should have a clear structure, communicate meaning through its HTML, and be accessible to different users. While building my personal portfolio, I explored semantic HTML and performed an accessibility audit to understand how these principles improve web development. What Is Semantic HTML? Semantic HTML uses elements that describe the purpose of their content. For example, \" \" identifies introductory content, \"\" represents navigation, \"\" identifies the primary content, and \"\" represents footer information. Using generic \" \" elements for every section may produce a visible webpage, but it doesn't communicate the same meaning to browsers, developers, and assistive technologies.",
+      "author": "Mr-Robot",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 35,
+      "url": "https://dev.to/wairimuevans/semantic-html-and-accessibility-lessons-from-building-my-first-portfolio-19a3",
+      "image": "/images/feed/feed-fdebd16dd70d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-4823f0a10b03",
+      "title": "The incredible flying Tesla Roadster is just for show",
+      "excerpt": "Last night, Elon Musk gave the people what they want: a car driving vertically up a multi-story ramp, launching off the edge, executing a mid-air \"kickflip\" over a lineup of Teslas, and landing via co…",
+      "body": "Last night, Elon Musk gave the people what they want: a car driving vertically up a multi-story ramp, launching off the edge, executing a mid-air \"kickflip\" over a lineup of Teslas, and landing via cold-gas thrusters. That's what the people want, right? \"We were promised flying cars,\" sure, but isn't the operative word in that statement \"we\"? Because as far as I can tell, everything we saw last night - while extremely cool and incredibly impressive - won't result in a real, production-ready car you can park, or, I guess, land in your driveway. Tesla's late-night demonstration in Waco, Texas, certainly gave some corners of the internet wh … Read the full story at The Verge.",
+      "author": "Andrew J. Hawkins",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.theverge.com/transportation/1012783/tesla-roadster-flying-stunt-production-reality-musk",
+      "image": "/images/feed/feed-4823f0a10b03.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-3ac488848c6e",
+      "title": "MapQuest will now show you where Flock cameras are in your neighborhood",
+      "excerpt": "You can see the locations of known outdoor surveillance cameras in the MapQuest app.",
+      "body": "You can see the locations of known outdoor surveillance cameras in the MapQuest app.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Kris Holt)",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
+      "image": "/images/feed/feed-3ac488848c6e.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-e85d526cbabd",
+      "title": "One of the Most Intriguing RPGs of 2027 Plays With Time Brilliantly",
+      "excerpt": "Eternal Anima is a new JRPG from Marvelous Inc. that uses time-manipulation to reinvent turn-based battles and class systems.",
+      "body": "The most unique component of Eternal Anima is its time-traveling mechanic, which sends Wade into the past to seek the powers of ancient heroes, allowing him to change the future. The most intriguing aspect of Eternal Anima’s time-manipulation theme, however, comes in the game’s turn-based battles, which offer a compelling new perspective on classic RPG gameplay.",
+      "author": "Michael McWhertor",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.polygon.com/eternal-anima-rpg-preview-ps5-switch-2-pc-xbox/",
+      "image": "/images/feed/feed-e85d526cbabd.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2399fb9e5bef",
+      "title": "25 Years Later, DC's Most Innovative Sci-Fi Show Changed Superheroes Forever",
+      "excerpt": "Smallville turns 25. Its focus on Clark Kent, friendship with Lex Luthor, and “no tights, no flights” rule helped change superhero TV.",
+      "body": "Bringing Superman to weekly television has never been easy. Special effects rarely matched the movies, and a superhero who could fly presented some obvious budget problems. Then Smallville premiered on The WB on Oct. 16, 2001, and found an ingenious workaround: Don't let Superman fly.",
+      "author": "Terry Terrones",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.polygon.com/smallville-25th-anniversary-superman/",
+      "image": "/images/feed/feed-2399fb9e5bef.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-d43b5ed3e287",
+      "title": "More Surprise Zelda: Ocarina Of Time Remake Footage Reveals One Of The Coolest Moments From The Original",
+      "excerpt": "Dark Link was one of the top 10 highlights of the N64 classic",
+      "body": "Dark Link was one of the top 10 highlights of the N64 classic\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://kotaku.com/more-surprise-zelda-ocarina-of-time-remake-footage-reveals-one-of-the-coolest-moments-from-the-original-2000746734",
+      "image": "/images/feed/feed-d43b5ed3e287.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-de66fdfb7b7b",
+      "title": "Supermassive black hole blasts out a neon 'treble clef' | Space photo of the day for Oct. 16, 2026",
+      "excerpt": "What looks like a neon pink treble clef floating out in space is actually a bizarre source of radio waves spotted deep in the cosmos.",
+      "body": "The \"treble clef\" galaxy cluster is an unusual source of radio waves, the Chandra X-ray observatory has found. (Image credit: X-ray: NASA/CXC/INAF-IRA/A. Botteon et al.; Infrared: UKIDSS-GPS ; Radio: ASTRON/LOFAR; Image processing: NASA/CXC/SAO/N. Wolk) What looks like a neon pink treble clef floating out in space is actually a bizarre source of radio waves spotted deep in the cosmos. What is it? Scientists using NASA's Chandra X-ray Observatory have peered far out into space to look at strange radio waves coming from what they have nicknamed the \"treble clef\" because of its distinct shape, which looks a lot like the musical notation.",
+      "author": " Chelsea Gohd ",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.space.com/astronomy/black-holes/supermassive-black-hole-blasts-out-a-neon-treble-clef-space-photo-of-the-day-for-oct-16-2026",
+      "image": "/images/feed/feed-de66fdfb7b7b.png",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-ca7957a7e1ef",
+      "title": "This cool accessory turns your bike electric in just three seconds",
+      "excerpt": "There are plenty of e-bike conversion kits designed to turn your existing bicycle electric, but most involve at least a bit of wrenching. Spiny 2 takes a different approach, using a removable friction…",
+      "body": "There are plenty of e-bike conversion kits designed to turn your existing bicycle electric, but most involve at least a bit of wrenching. Spiny 2 takes a different approach, using a removable friction-drive system that can apparently snap onto your bike in just three seconds. more…",
+      "author": "Micah Toll",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://electrek.co/2026/10/16/this-cool-accessory-turns-your-bike-electric-in-just-three-seconds/",
+      "image": "/images/feed/feed-ca7957a7e1ef.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-9480f2c22ec8",
+      "title": "Europe Needs Electric Freight Corridors, Not Just Electric Ships",
+      "excerpt": "Electric ships attract attention because the vessel is the visible technology. Put a large battery into an inland cargo vessel, replace the diesel propulsion system with electric motors, and the decar…",
+      "body": "Electric ships attract attention because the vessel is the visible technology. Put a large battery into an inland cargo vessel, replace the diesel propulsion system with electric motors, and the decarbonization story appears straightforward. Inland shipping looks particularly promising because many vessels travel repeatable routes between known terminals, where large ... [continued] The post Europe Needs Electric Freight Corridors, Not Just Electric Ships appeared first on CleanTechnica .",
+      "author": "Michael Barnard",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://cleantechnica.com/2026/10/16/china-electric-shipping-freight-infrastructure/",
+      "image": "/images/feed/feed-9480f2c22ec8.webp",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-a66a409ced5d",
+      "title": "Google AI Pro trials are misleading, and subscribers are finding out the hard way",
+      "excerpt": "Some Pro features require payment, even if your phone came with the Pro plan.",
+      "body": "TL;DR Google’s promotional AI Pro trials exclude Argon and Claude 5.5 in Antigravity, affecting eligible Pixel buyers, Googlebook owners, and students. Trials also miss YouTube Premium Lite and Google Store rewards, despite sharing the AI Pro name with paid subscriptions. Google has an online form to switch from a trial to a paid Pro plan and says it’s working to improve the process. Six months of free AI Pro is a useful sweetener when you’re buying a pricey Pixel, especially when Google values the Pixel 11 Pro’s included subscription at almost $120 . For anyone already interested in Google’s premium AI tools, that could help justify the phone’s price. You’d also reasonably expect to get the same Pro experience as someone paying for the subscription separately.",
+      "author": "Hillary Keverenge",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.androidauthority.com/google-ai-pro-trial-paid-features-gap-3724383/",
+      "image": "/images/feed/feed-a66a409ced5d.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-055386c726a9",
+      "title": "'We are getting a lot of pressure from the administrator himself': How NASA is racing to obey Trump's 'Super Intelligence' order",
+      "excerpt": "Internal NASA documents and meeting recordings reveal how Trump's executive order to rename AI as \"super intelligence\" is reshaping agency communications and digital systems — and raising concerns amo…",
+      "body": "NASA has begun replacing references to artificial intelligence with \"super intelligence\" following an executive order from President Donald Trump, which directs government agencies not to acknowledge the terminology change in their external communications. An internal NASA document obtained by Space.com lays out plans to update the agency's websites, publications, organizational titles and digital infrastructure with a four-phase \"super intelligence\" implementation schedule extending into December. And the changes go beyond NASA's public-facing communications, with at least one planned technical update described as \"a breaking change\" expected to disrupt existing software integrations.",
+      "author": " Josh Dinner ",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.space.com/technology/we-are-getting-a-lot-of-pressure-from-the-administrator-himself-how-nasa-is-racing-to-obey-trumps-super-intelligence-order",
+      "image": "/images/feed/feed-055386c726a9.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-20efd4e241d3",
+      "title": "Security Bite: Americans are contradicting themselves around privacy",
+      "excerpt": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform. Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to mana…",
+      "body": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform . Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to management and security combines state-of-the-art Apple-specific security solutions for fully automated Hardening &amp; Compliance, Next Generation EDR, AI-powered Zero Trust, and exclusive Privilege Management with the most powerful and modern Apple MDM on the market. The result is a totally automated Apple Unified Platform currently trusted by over 45,000 organizations to make millions of Apple devices work-ready with no effort and at an affordable cost. Request your EXTENDED TRIAL today and understand why Mosyle is everything you need to work with Apple .",
+      "author": "Arin Waichulis",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://9to5mac.com/2026/10/16/security-bite-americans-are-contradicting-themselves-around-privacy/",
+      "image": "/images/feed/feed-20efd4e241d3.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-d7e4fe5180d6",
+      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+      "excerpt": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investi…",
+      "body": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]",
+      "author": "Sponsored by NordLayer AI Scout",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
+      "image": "/images/feed/feed-d7e4fe5180d6.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-f01d3d5195df",
+      "title": "Street Fighter’s 4K Steelbook Is Up for Preorder, and Comes in Champion or Villain Variants",
+      "excerpt": "Street Fighter’s 4K Steelbook Edition asks fans to choose between a special edition champion or villain variant cover, with preorders now live at Amazon.",
+      "body": "Street Fighter officially hits movie theaters today, but some retailers are wasting no time in getting its physical version up for preorder. Standard 4Ks are now available to buy from a couple of different retailers, but the film is also getting a very fun Amazon-exclusive 4K steelbook that comes in two different variants for you to choose from: Champion or Villain . Preorder Street Fighter Amazon Exclusive 4K Steelbook Of course, a release date is not yet available for these since the movie only just released in theaters. Same goes for any information on bonus features. However, once they&#39;ve been revealed, we&#39;ll be sure to update this. For now, take a look at these awesome 4Ks and be quick to grab your favorites.",
+      "author": "Hannah Hoolihan",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.ign.com/articles/street-fighter-4k-steelbook-where-to-buy",
+      "image": "/images/feed/feed-f01d3d5195df.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-fd919bda6899",
+      "title": "This stretchy MagSafe storage pouch gives your phone a sizable trunk",
+      "excerpt": "There's a new storage upgrade option for smartphones compatible with wireless chargers and other magnetic accessories, but it won't help if you've run out of room for apps, pics, and videos. The MagSa…",
+      "body": "There's a new storage upgrade option for smartphones compatible with wireless chargers and other magnetic accessories, but it won't help if you've run out of room for apps, pics, and videos. The MagSafe Flex Pouch looks like a magnetic wallet for pairing a small stack of credit cards to your phone, but its storage capacity goes well beyond a few thin plastic cards thanks to an extremely stretchy silicone pouch. The MagSafe Flex Pouch's creators, a company called Ninja Labs, has a bunch of suggestions for how to use the $58 accessory on its website. You can use it as yet another MagSafe wallet but one that has enough capacity for all the cre … Read the full story at The Verge.",
+      "author": "Andrew Liszewski",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.theverge.com/tech/1012828/ninja-labs-magsafe-flex-pouch-silicone-smartphone-storage",
+      "image": "/images/feed/feed-fd919bda6899.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-b504c3ba7c9c",
+      "title": "The original Halo has been ported to everything from Android to the N64 (?!)",
+      "excerpt": "There's no campaign in the N64 port, but this is a crazy achievement nonetheless.",
+      "body": "Credit: Hadlee Simons / Android Authority TL;DR Halo for the original Xbox has been unofficially ported to a variety of platforms, including Android, Windows, and Linux. The game’s multiplayer modes have even been ported to the Nintendo 64. There’s also an unofficial port of the game for ANBERNICs Linux-powered handhelds. There’s been an explosion in game recompilations recently, as people port classic games to more modern platforms. It turns out the original Halo has also been ported to a variety of platforms in recent weeks, including the Nintendo 64. Yes, really. The OpenCommunityEdition project released unofficial ports of Halo: Combat Evolved on Android, Linux, Windows, and the web earlier this month.",
+      "author": "Hadlee Simons",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.androidauthority.com/halo-1-android-n64-port-3724425/",
+      "image": "/images/feed/feed-b504c3ba7c9c.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-8ec0f70ae764",
+      "title": "Everything You Need To Know About Street Fighter’s Post-Credits Scene",
+      "excerpt": "Kitao Sakurai’s fighting game adaptation sets up a sequel with a familiar face",
+      "body": "Kitao Sakurai’s fighting game adaptation sets up a sequel with a familiar face\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Kenneth Shepard",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://kotaku.com/street-fighter-post-credits-scene-how-many-when-sagat-2000746739",
+      "image": "/images/feed/feed-8ec0f70ae764.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-16a7f757bd27",
+      "title": "The 'Father of PlayStation' Says Killing Discs Backlash Is a 'Mentality Issue'",
+      "excerpt": "Ken Kutaragi, known as \"The Father of PlayStation,\" has backed Sony's controversial decision to scrap discs on PS5. Kutaragi, who ran Sony's gaming business through its first three console generations…",
+      "body": "Ken Kutaragi, known as &quot;The Father of PlayStation,&quot; has backed Sony&#39;s controversial decision to scrap discs on PS5. Kutaragi, who ran Sony&#39;s gaming business through its first three console generations, told VGC that while he understands the backlash, it isn&#39;t “economically reasonable.” “Although we had network capability back in the PS2 and PS3 days, it was not that common [as it is today]. Now, many, many people are connected,” he said. “I understand that physical discs have become a metaphor for ‘owning’ games. I really understand that mentality… But nobody thinks [physical media] is necessary for a networked device like a smartphone, for example, because people feel that they will keep their content. So it’s a mentality.",
+      "author": "Kirk McKeand",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Playstation"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.ign.com/articles/ken-kutaragi-physical-discs-ps5",
+      "image": "/images/feed/feed-16a7f757bd27.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-43cc741fc0f5",
+      "title": "This Fallout Power Fist 1:1 Scale Replica Will Have You Ready for Any Post-Apocalyptic Future",
+      "excerpt": "As part of IGN Fan Fest: Fall Edition 2026, we were able to exclusively reveal a first look at the officially licensed Fallout Power Fist 1:1 Scale Replica, a perfect addition to the collection of tho…",
+      "body": "As part of IGN Fan Fest: Fall Edition 2026, we were able to exclusively reveal a first look at the officially licensed Fallout Power Fist 1:1 Scale Replica, a perfect addition to the collection of those with fond memories of their visits to that iconic post-apocalyptic wasteland. This Power Fist replica is &quot;faithful to every brutal, pneumatic detail,&quot; and even includes the beloved in-game sound activation that &quot;lets you announce your presence the old-fashioned way.&quot; Weighing in at 4.6 lbs and stretching 17 inches long, this replica is forged from premium PVC, ABS, and alloy materials.",
+      "author": "Adam Bankhurst",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.ign.com/articles/this-fallout-power-fist-11-scale-replica-will-have-you-ready-for-any-post-apocalyptic-future",
+      "image": "/images/feed/feed-43cc741fc0f5.png",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -109,49 +470,11 @@
         "Iphone",
         "Foldable"
       ],
-      "featured": true,
-      "xpReward": 54,
+      "featured": false,
+      "xpReward": 37,
       "url": "https://9to5mac.com/2026/10/16/iphone-duo-accessories-here-are-five-top-picks-for-apples-foldable/",
       "image": "/images/feed/feed-83195c937e0d.jpg",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-15b27177958a",
-      "title": "NightOwl for Firefox: True Dark Mode for Every Website (Even Sites Without CSS Dark Mode)",
-      "excerpt": "Night mode for the web is inconsistent — some sites respect your OS dark mode preference, others have their own dark mode settings, and some don't support dark mode at all. NightOwl is a Firefox exten…",
-      "body": "Night mode for the web is inconsistent — some sites respect your OS dark mode preference, others have their own dark mode settings, and some don't support dark mode at all. NightOwl is a Firefox extension that applies dark mode universally across all websites, using intelligent color inversion that preserves images and media. The Problem with Dark Mode on the Web OS-level dark mode ( prefers-color-scheme: dark ) only works if the website implements CSS dark mode: /* Site developer wrote this */ @media ( prefers-color-scheme : dark ) { body { background : #111 ; color : #eee ; } } Most modern sites do implement this. But many older sites, documentation pages, and blogs don't — they're always white backgrounds.",
-      "author": "Weather Clock Dash",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://dev.to/weatherclockdash/nightowl-for-firefox-true-dark-mode-for-every-website-even-sites-without-css-dark-mode-1cej",
-      "image": "/images/feed/feed-15b27177958a.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-d5b48c8b1684",
-      "title": "SellCraft AI: Local-First Product Listings for Independent Sellers",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle. SellCraft AI is a local-first product listing studio for independent sellers. It turns confirmed product detail…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle . What I Built SellCraft AI is a local-first product listing studio for independent sellers. It turns confirmed product details into editable: Titles Descriptions Features Keywords and tags Social captions FAQs Markdown, text, and CSV exports It is designed for sellers who want help writing listings without sending product information to a paid cloud AI API. SellCraft can help someone selling handmade goods, clothing, electronics, collectibles, or other products create a stronger first draft faster. The seller remains responsible for reviewing every claim before publishing.",
-      "author": "Dipanshu Vishwakarma",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://dev.to/dipanshu_vishwakarma/sellcraft-ai-local-first-product-listings-for-independent-sellers-4j77",
-      "image": "/images/feed/feed-d5b48c8b1684.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -167,67 +490,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 46,
       "url": "https://www.androidauthority.com/youtube-ask-youtube-desktop-search-test-3724434/",
       "image": "/images/feed/feed-c3d03c56deec.jpg",
       "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-a17434d4048e",
-      "title": "Warhammer: Boltgun 2 Is Basically A Perfect Sequel To One Of 2023’s Best Shooters",
-      "excerpt": "More guns, more enemies, more variety, and better levels makes this one of the best boomer shooters around",
-      "body": "More guns, more enemies, more variety, and better levels makes this one of the best boomer shooters around\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Zwiezen",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://kotaku.com/warhammer-boltgun-2-is-basically-a-perfect-sequel-to-one-of-2023s-best-shooters-2000746431",
-      "image": "/images/feed/feed-a17434d4048e.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-7ece95ab3fb0",
-      "title": "Technics EAH-A1000 review: Superior sound and excellent ANC in a premium package",
-      "excerpt": "Technics' flagship over-ear wireless headphones are light on compromises, but enter a competitive market.",
-      "body": "Technics' flagship over-ear wireless headphones are light on compromises, but enter a competitive market.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (James Trew)",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.engadget.com/2288638/technics-eah-a1000-review/",
-      "image": "/images/feed/feed-7ece95ab3fb0.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-7b16373b0280",
-      "title": "Microsoft Surface Laptop Ultra Review: The First Real AI PC",
-      "excerpt": "The Surface Laptop Ultra is a true MacBook Pro competitor for Windows, and Microsoft has never been so close to dethroning Apple—if only it weren't for the lack of battery life.",
-      "body": "The Surface Laptop Ultra is a true MacBook Pro competitor for Windows, and Microsoft has never been so close to dethroning Apple—if only it weren't for the lack of battery life.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Laptop. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Luke Larsen",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Laptop"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.wired.com/review/microsoft-surface-laptop-ultra/",
-      "image": "/images/feed/feed-7b16373b0280.jpg",
-      "source": "Wired",
       "isLive": true
     },
     {
@@ -243,29 +509,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 36,
       "url": "https://insideevs.com/reviews/811794/mercedes-cla-350-electric-review/",
       "image": "/images/feed/feed-27df4f2fd2cf.jpg",
       "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-555df0ba4f09",
-      "title": "An OpenAI research agent 'stole' test Ethereum to finish a coding task",
-      "excerpt": "An OpenAI research model hit a nebulous milestone today by pilfering test Ethereum tokens.",
-      "body": "An OpenAI research model hit a nebulous milestone today by pilfering test Ethereum tokens.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Steve Dent)",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.engadget.com/2288645/an-openai-test-agent-stole-test-ethereum-to-finish-a-coding-task/",
-      "image": "/images/feed/feed-555df0ba4f09.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -281,48 +528,48 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 54,
       "url": "https://insideevs.com/news/812242/tesla-roadster-2026-specs/",
       "image": "/images/feed/feed-598f031d74e6.jpg",
       "source": "InsideEVs",
       "isLive": true
     },
     {
-      "id": "feed-d0d705449011",
-      "title": "iPhone Duo Preorders Sell Out in Minutes: Backordered Until January",
-      "excerpt": "Demand is strong for Apple’s first foldable, which will first be available on Oct. 23.",
-      "body": "Demand is strong for Apple’s first foldable, which will first be available on Oct. 23.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Dashia Milden",
+      "id": "feed-8c088c758cf3",
+      "title": "Qualcomm Legally Proves Arm Breached Its License, Wins $2",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "LorenDB",
       "date": "2026-10-16",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "cybersecurity",
       "tags": [
-        "Iphone"
+        "Breach"
       ],
       "featured": false,
-      "xpReward": 37,
-      "url": "https://www.cnet.com/tech/mobile/iphone-duo-preorders-day-one/",
-      "image": "/images/feed/feed-d0d705449011.jpg",
-      "source": "CNET",
+      "xpReward": 34,
+      "url": "https://www.techpowerup.com/353776/qualcomm-legally-proves-arm-breached-its-license-wins-usd-2",
+      "image": "/images/feed/feed-8c088c758cf3.jpg",
+      "source": "Hacker News",
       "isLive": true
     },
     {
-      "id": "feed-f6d58b345009",
-      "title": "The Sony Xperia 10 VI won’t be getting a promised update to Android 17",
-      "excerpt": "When the midrange Sony Xperia 10 VI was announced over two years ago with a Qualcomm Snapdragon 6 Gen 1 chipset and Android 14, Sony promised three major OS updates which would have included this year…",
-      "body": "When the midrange Sony Xperia 10 VI was announced over two years ago with a Qualcomm Snapdragon 6 Gen 1 chipset and Android 14, Sony promised three major OS updates which would have included this year's Android 17 release . However, according to a notice posted to the company's UK support site , the Xperia 10 VI won't be getting Android 17 after all. In the notice Sony explains that a \"detailed technical assessment\" revealed that \"limitations related to the device's storage configuration\" mean the Xperia 10 VI \"does not support an Android 17 upgrade experience that we consider adequate.\" As a result, the company has \"decided not to make this … Read the full story at The Verge.",
-      "author": "Andrew Liszewski",
+      "id": "feed-54e703ffd195",
+      "title": "Artificial intelligence is capitalism's final destination",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Artificial Intelligence. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "tirumaraiselvan",
       "date": "2026-10-16",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "ai",
       "tags": [
-        "Gadgets"
+        "Artificial Intelligence"
       ],
       "featured": false,
-      "xpReward": 30,
-      "url": "https://www.theverge.com/tech/1012789/sony-xperia-10-vi-smartphone-android-17-update-security",
-      "image": "/images/feed/feed-f6d58b345009.jpg",
-      "source": "The Verge",
+      "xpReward": 53,
+      "url": "https://www.equator.org/articles/arundhati-roy-artificial-intelligence",
+      "image": "/images/feed/feed-54e703ffd195.jpg",
+      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -338,7 +585,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 51,
       "url": "https://electrek.co/2026/10/16/waymo-toronto-canada-robotaxi-2028/",
       "image": "/images/feed/feed-b51c8a6dad31.jpg",
       "source": "Electrek",
@@ -358,29 +605,10 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 49,
       "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
       "image": "/images/feed/feed-ea17759b3ffd.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-7e4f768403f9",
-      "title": "'Crystal Lake' Ending Explained: Jason Voorhees' New Origin Story and More",
-      "excerpt": "Showrunner Brad Caleb Kane defends Crystal Lake's biggest twists. Spoilers ahead!",
-      "body": "For one thing, Crystal Lake reshuffles the original timeline, moving Jason's death up from 1957 to 1971, and then compresses the amount of time between that event and the summer camp slaughter that follows.",
-      "author": "Jake Kleinman",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.polygon.com/crystal-lake-ending-explained-jason-voorhees-origin-story-canon-changes/",
-      "image": "/images/feed/feed-7e4f768403f9.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -396,29 +624,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 35,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-pushes-1st-launch-of-next-gen-neutron-rocket-to-2027",
       "image": "/images/feed/feed-1d7f1a5df609.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-5b8a4debc69b",
-      "title": "One Piece Could Be Coming to Fortnite Soon",
-      "excerpt": "Leakers have dug into game files and gotten access to upcoming event assets that reveal details about the next mini-season.",
-      "body": "With the end of Fortnite Chapter 7 Season 4 fast approaching, it's time to prepare for what comes next: the annual mini-season. Various rumors suggest that the mini-season will be all about the best-selling manga and anime series One Piece . Epic Games has remained silent about the season's theme. However, an interesting detail found in the game files might have just given fans the confirmation they needed.",
-      "author": "Ashely Claudino",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.polygon.com/fortnite-one-piece-chest-barrel/",
-      "image": "/images/feed/feed-5b8a4debc69b.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -434,86 +643,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 43,
       "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
       "image": "/images/feed/feed-2b86ea0d21e8.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-2aabba3113b6",
-      "title": "The Live-Action Cyberpunk 2077 Movie Won't Retrace the Game's Steps, CD Projekt Confirms",
-      "excerpt": "CD Projekt Red has finally spoken up about the live-action Cyberpunk 2077 movie. The company said it doesn’t want to do a 1:1 adaptation of the game, instead telling a new story within the same univer…",
-      "body": "CD Projekt Red has finally spoken up about the live-action Cyberpunk 2077 movie . The company said it doesn’t want to do a 1:1 adaptation of the game, instead telling a new story within the same universe. &quot;At this point, we can only say that we definitely don&#39;t want to make a film adaptation of the game,&quot; co-CEO Michał Nowakowski told Polish outlet PAP Biznes , via GamesRadar . &quot;We want to tell a story in the world of Cyberpunk, but it won&#39;t be a one-to-one translation of the game&#39;s story.&quot; The Cyberpunk movie is being created in partnership with Parmount, now under the Skydance banner after the recent merger . The film will be produced by Lorenzo di Bonaventura, of live-action Transformers fame.",
-      "author": "Kirk McKeand",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.ign.com/articles/cyberpunk-2077-movie-not-retelling",
-      "image": "/images/feed/feed-2aabba3113b6.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-38b3084b9f58",
-      "title": "Here's Our First Look at Dark Link in The Legend of Zelda: Ocarina of Time Remake",
-      "excerpt": "Nintendo has shown off Dark Link in The Legend of Zelda: Ocarina of Time remake for the first time.",
-      "body": "As Nintendo has pulled back the curtain on The Legend of Zelda: Ocarina of Time remake , we’ve begun to get a better understanding of how this Nintendo Switch 2 exclusive will look and feel to play. IGN has already got you covered with an extensive hands-on preview , as well as a roundup of all the changes we’ve noticed so far compared to the N64 masterpiece. But now, Nintendo has released two new trailers (TV spots for Japan) that, while brief, reveal a tantalizing glimpse at some never-before-seen characters, chief among them Dark Link. [任天堂HP]Nintendo Switch 2 ソフト『ゼルダの伝説 時のオカリナ』のCMを公開しました。 #時のオカリナ #ゼルダの伝説40周年 https://t.co/Y0gB7x0RUN &mdash; 任天堂株式会社 (@Nintendo) October 16, 2026 Warning!",
-      "author": "Wesley Yin-Poole",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.ign.com/articles/heres-our-first-look-at-dark-link-in-the-legend-of-zelda-ocarina-of-time-remake",
-      "image": "/images/feed/feed-38b3084b9f58.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-f50cdcfcbcf3",
-      "title": "MTG's New Foundations Commander Decks Return to Online Retailers After Stock Shortages",
-      "excerpt": "Magic: The Gathering's new 2026 Foundations Commander decks have returned to major retailers after shortages online post-launch in early October.",
-      "body": "Magic: The Gathering&#39;s new Foundations Commander decks are back in stock at major online retailers, including Amazon, after shortages since their arrival alongside Reality Fracture . The five decks arrived on October 2, 2026, giving players an accessible way to get started with Commander , MTG&#39;s most popular multiplayer format. Each deck is super affordable, with a different mono-color strategy built around a familiar creature type or playstyle, from Angels and Dragons to Dinosaurs, Zombies, and artifacts. MTG’s Foundation Decks Are Almost All Back In Stock It’s worth noting right off the bat that, sadly, the price has crept up on some of these precons.",
-      "author": "Robert Anderson",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.ign.com/articles/magic-the-gatherings-new-foundations-decks-back-in-stock",
-      "image": "/images/feed/feed-f50cdcfcbcf3.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-01a17130d398",
-      "title": "Amazon Casts Leads in Fourth Wing TV Series",
-      "excerpt": "The first two actors have been selected for the upcoming Fourth Wing series on Amazon, and they'll play none other than Violet and Xaden.",
-      "body": "The adaptation of Fourth Wing , the best-selling romantasy series by Rebecca Yarros, is still in the early stages of production. Fans have been eager to find out more, especially about the casting. At last, they can stop wondering who will play their favorite characters, as Esther McGregor and Emilio Sakraya have been cast as Violet Sorrengail and Xaden Riorson.",
-      "author": "Ashely Claudino",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.polygon.com/fourth-wing-cast-violet-sorrengail-xaden-riorson/",
-      "image": "/images/feed/feed-01a17130d398.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -529,7 +662,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 36,
       "url": "https://www.space.com/astronomy/solar-system/its-time-to-reassess-the-size-of-our-solar-system-scientists-say",
       "image": "/images/feed/feed-82d5a9681c1e.jpg",
       "source": "Space.com",
@@ -548,7 +681,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 50,
       "url": "https://insideevs.com/news/812205/tesla-roadster-replenishes-air-tanks/",
       "image": "/images/feed/feed-d9c5302da894.jpg",
       "source": "InsideEVs",
@@ -567,7 +700,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
       "image": "/images/feed/feed-9abe7ec7ef7f.jpg",
       "source": "BleepingComputer",
@@ -586,7 +719,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 32,
       "url": "https://insideevs.com/news/812200/volvo-nvidia-hands-free-eyes-off-automated-driving/",
       "image": "/images/feed/feed-c62a95ee62d3.jpg",
       "source": "InsideEVs",
@@ -605,29 +738,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 53,
       "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
       "image": "/images/feed/feed-ec1aed32d673.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-dc1d67e5e9f9",
-      "title": "Is The New Tesla Roadster Actually A Roadster? Not Really",
-      "excerpt": "It’s not a convertible, that’s for sure.",
-      "body": "It’s not a convertible, that’s for sure.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://insideevs.com/news/812185/is-tesla-roadster-convertible/",
-      "image": "/images/feed/feed-dc1d67e5e9f9.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -652,103 +766,6 @@
       "isLive": true
     },
     {
-      "id": "feed-7edc1b12796d",
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "excerpt": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15.…",
-      "body": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on October 15. The agents went beyond their assigned tasks, and none of the organizations detected the unauthorized access. After internal reviews, the AI companies whose models were being tested",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "image": "/images/feed/feed-7edc1b12796d.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-3711cd5eae7a",
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "excerpt": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]",
-      "body": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Zero-day, Exploit. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sergiu Gatlan",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Zero-day",
-        "Exploit"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-      "image": "/images/feed/feed-3711cd5eae7a.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-5461374bc729",
-      "title": "APOD: 2026 October 16 – Chasing the International Space Station",
-      "excerpt": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
-      "body": "APOD Science APOD APOD: 2026 October 16 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video Chasing the International Space Station Explanation: Blasting into the predawn sky on Tuesday, October 13, a Falcon 9 rocket and Dragon spacecraft are headed for low Earth orbit in this stunning timelapse video captured from Indian Harbour Beach, Florida.",
-      "author": "NASA Breaking News",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space Station",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-16-chasing-the-international-space-station/",
-      "image": "/images/feed/feed-5461374bc729.png",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-ae5bc16e29dc",
-      "title": "Isaias Dims the Gulf Coast",
-      "excerpt": "High-definition images of nighttime lights show where the hurricane knocked out power along the Florida Panhandle and how quickly the lights came back.",
-      "body": "Earth Observatory Science Earth Observatory Isaias Dims the Gulf Coast Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &#038; Radiation Life on Earth Human Dimensions Natural Events Oceans Remote Sensing Technology Snow &#038; Ice Water More Content Collections Global Maps World of Change Articles Earth Matters Blog Blue Marble: Next Generation EO Kids Mission: Biomes About About Us Subscribe 🛜 RSS Contact Us Search August 2026 Composite October 11, 2026 Nighttime lights along the Florida Panhandle coast in August 2026, brightest in Pensacola and Destin and along the road between them.",
-      "author": "NASA Breaking News",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://science.nasa.gov/earth/earth-observatory/isaias-dims-the-gulf-coast/",
-      "image": "/images/feed/feed-ae5bc16e29dc.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-42e5b2e05369",
-      "title": "Monthly Wind Generation In ISO-NE Is About 68% Higher Than Last Year",
-      "excerpt": "Monthly wind generation in the first nine months of 2026 was an average of 68% higher compared with the same period in 2025 in ISO New England (ISO-NE): Monthly generation from wind was highest in Sep…",
-      "body": "Monthly wind generation in the first nine months of 2026 was an average of 68% higher compared with the same period in 2025 in ISO New England (ISO-NE): Monthly generation from wind was highest in September of this year at 668.9 gigawatthours (GWh), more than double generation levels from September ... [continued] The post Monthly Wind Generation In ISO-NE Is About 68% Higher Than Last Year appeared first on CleanTechnica .",
-      "author": "US Energy Information Administration",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://cleantechnica.com/2026/10/15/monthly-wind-generation-in-iso-ne-is-about-68-higher-than-last-year/",
-      "image": "/images/feed/feed-42e5b2e05369.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
       "id": "feed-01d23e03c985",
       "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
       "excerpt": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.",
@@ -761,29 +778,10 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 51,
       "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
       "image": "/images/feed/feed-01d23e03c985.jpg",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-953a262ff105",
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "excerpt": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, Op…",
-      "body": "OpenAI's ChatGPT Atlas browser is gone , but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo video showing someone asking ChatGPT to compare the three tabs they have open with sofas they're considering. A few big upgrades for Chrome users today! We're bringing the power of computer use to anyone who uses Chrome. First up: ChatGPT can now use your tabs in Chrome to make answers more useful and get things done for you. If … Read the full story at The Verge.",
-      "author": "Stevie Bonifield",
-      "date": "2026-10-15",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Chatgpt"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "image": "/images/feed/feed-953a262ff105.png",
-      "source": "The Verge",
       "isLive": true
     },
     {
@@ -799,7 +797,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 46,
       "url": "https://www.cnet.com/tech/mobile/amazon-bee-personal-ai-device-always-listening-and-recording-2/",
       "image": "/images/feed/feed-1893c663b3d9.jpg",
       "source": "CNET",
@@ -818,7 +816,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 52,
       "url": "https://spacenews.com/applying-ai-to-the-geoint-mission-event/",
       "image": "/images/feed/feed-e56427ef26f9.jpg",
       "source": "SpaceNews",
@@ -837,7 +835,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 37,
       "url": "https://www.space.com/astronomy/stars/astronomers-discover-the-1st-ever-green-star-a-cosmic-zombie-just-in-time-for-halloween",
       "image": "/images/feed/feed-499b63a9b6de.png",
       "source": "Space.com",
@@ -856,7 +854,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 51,
       "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
       "image": "/images/feed/feed-6b32532a1652.jpg",
       "source": "TechCrunch",
@@ -875,7 +873,7 @@
         "Gpt"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 52,
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -894,7 +892,7 @@
         "Neural"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 39,
       "url": "https://already-clean.goodfire.com/",
       "image": "/images/feed/feed-e26a2cb703ec.png",
       "source": "Hacker News",
@@ -913,7 +911,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 42,
       "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
       "image": "/images/feed/feed-07840b4d49b7.png",
       "source": "TechCrunch",
@@ -932,7 +930,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 54,
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -940,16 +938,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: I built a bank statement to Excel converter that never uploads your PDF",
-    "DEV.TO: Browser Storage Guide: localStorage vs sessionStorage vs IndexedDB vs Cache API vs OPFS",
-    "DEV.TO: Are Passkeys a Trap? How to Back Them Up So a Lost Phone Can't Lock You Out",
-    "DEV.TO: Firefox Tab Management: From Tab Groups to Session Saver — Taming 100+ Tabs",
-    "DEV.TO: This Week's Proxy Exits: 11.9M New Addresses, Still Almost All Off Datacenter Space",
-    "9TO5MAC: iPhone Duo accessories: Here are five top picks for Apple’s foldable",
-    "DEV.TO: NightOwl for Firefox: True Dark Mode for Every Website (Even Sites Without CSS Dark Mode)",
-    "DEV.TO: SellCraft AI: Local-First Product Listings for Independent Sellers",
-    "ANDROID AUTHORITY: YouTube’s new search feature takes a page from Google Search, and that’s bad news for creators",
-    "KOTAKU: Warhammer: Boltgun 2 Is Basically A Perfect Sequel To One Of 2023’s Best Shooters"
+    "DEV.TO: Building a 60fps Canvas Frustum Camera for 4K System Architecture Presentations",
+    "DEV.TO: PS5 Black Screen? Signs Your HDMI Port Is Failing (and What to Do)",
+    "DEV.TO: Alpenglow: How Solana Swaps Its Consensus in One Slot",
+    "DEV.TO: SaaS Pricing Before Launch: Plans, Limits, and Free Trials",
+    "DEV.TO: I benchmarked 8 PDF extractors on 27 documents from 1 to 487 pages. Here's what broke, and what won.",
+    "DEV.TO: Semantic HTML and Accessibility: Lessons from Building My First Portfolio",
+    "THE VERGE: The incredible flying Tesla Roadster is just for show",
+    "ENGADGET: MapQuest will now show you where Flock cameras are in your neighborhood",
+    "POLYGON: One of the Most Intriguing RPGs of 2027 Plays With Time Brilliantly",
+    "POLYGON: 25 Years Later, DC's Most Innovative Sci-Fi Show Changed Superheroes Forever"
   ],
   "sectionVideos": {}
 }
