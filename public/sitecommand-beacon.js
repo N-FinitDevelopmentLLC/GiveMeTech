@@ -46,21 +46,16 @@
     queue = [];
     var payload = JSON.stringify({ site_key: siteKey, events: batch });
 
-    if (navigator.sendBeacon) {
-      var blob = new Blob([payload], { type: 'application/json' });
-      if (!navigator.sendBeacon(endpoint, blob)) {
-        queue = batch.concat(queue);
-      }
-      return;
-    }
-
+    // sendBeacon always uses credentials: 'include', and this endpoint does not
+    // return Access-Control-Allow-Credentials, so the browser blocks it.
     fetch(endpoint, {
       method: 'POST',
       body: payload,
       headers: { 'Content-Type': 'application/json' },
+      credentials: 'omit',
       keepalive: true,
     }).catch(function () {
-      queue = batch.concat(queue);
+      // Drop the batch. Requeueing would repeat a failed request in the console.
     });
   }
 

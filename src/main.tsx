@@ -1,4 +1,13 @@
 import { StrictMode, useEffect } from 'react'
+
+// react-three-fiber still constructs THREE.Clock, which three.js r183+ warns about
+// on every canvas mount. The globe keeps working; hide that upstream deprecation.
+const nativeWarn = console.warn.bind(console)
+console.warn = (...args: Parameters<typeof console.warn>) => {
+  const message = args[0]
+  if (typeof message === 'string' && message.includes('THREE.Clock')) return
+  nativeWarn(...args)
+}
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
 import { AppProvider } from './context/AppContext'
