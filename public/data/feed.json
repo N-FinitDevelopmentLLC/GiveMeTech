@@ -1,6 +1,500 @@
 {
-  "fetchedAt": "2026-10-16T15:16:46.450Z",
+  "fetchedAt": "2026-10-16T16:17:47.756Z",
   "articles": [
+    {
+      "id": "feed-e37a419b2851",
+      "title": "We re-priced six weeks of our own AI coding-agent usage. The \"obvious\" saving was 5.5x too big.",
+      "excerpt": "Over 46 days (35 of them active), one person's coding agent made 61,955 requests. There was no invoice for this exercise - a real client audit starts by reconciling to one - so we did what you do with…",
+      "body": "Over 46 days (35 of them active), one person's coding agent made 61,955 requests . There was no invoice for this exercise - a real client audit starts by reconciling to one - so we did what you do without one: we re-priced every request at the vendor's public, dated price sheet (retrieved 2026-10-16) and asked where the money would go. Every dollar figure below is API-equivalent , not what anyone was billed. The total came to $7,882 . Three things in it surprised us. 1. Almost all of it is re-reading 66% of the cost was cache reads , and 99% of input-side tokens were cache hits. Output - the thing people optimise prompts for - was 12%. Spend is driven by how long the context is x how many turns run on it , and one project accounted for 63% of it.",
+      "author": "Derrick Zhou",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 52,
+      "url": "https://dev.to/derrick_d15159abe0a5e6608/we-re-priced-six-weeks-of-our-own-ai-coding-agent-usage-the-obvious-saving-was-55x-too-big-3852",
+      "image": "/images/feed/feed-e37a419b2851.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-59f06b1347de",
+      "title": "FHIR, HL7 and AI: Exploring the Next Layer of Healthcare Interoperability",
+      "excerpt": "I've recently been spending some time exploring HL7, FHIR and the broader healthcare interoperability landscape—particularly how standards, implementation approaches and validation come together in pr…",
+      "body": "I've recently been spending some time exploring HL7, FHIR and the broader healthcare interoperability landscape —particularly how standards, implementation approaches and validation come together in practice. As I organized some of those thoughts, another connection became increasingly interesting: What happens when healthcare interoperability meets AI? At first, these can seem like two separate conversations. FHIR and HL7 help establish structure, meaning and consistency in how healthcare information is exchanged. AI brings capabilities around language, reasoning, knowledge discovery and, increasingly, action. The more I explored the two, the more interesting their intersection became.",
+      "author": "Abhi Chatterjee",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 48,
+      "url": "https://dev.to/abhi_chatterjee_979801/fhir-hl7-and-ai-exploring-the-next-layer-of-healthcare-interoperability-1im8",
+      "image": "/images/feed/feed-59f06b1347de.jpg",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1ea5009849fd",
+      "title": "I let a one-shot Sonnet 5 agent QA a live app. Then I ran our QA tool on the same one.",
+      "excerpt": "Every week, someone tells me our company shouldn't exist. So we stopped arguing and ran the experiment. We took a real, production EU rail-booking app. We turned a strong Sonnet 5 agent loose on it —…",
+      "body": "Every week, someone tells me our company shouldn't exist. The line is always some version of this: \"QA? I'll just point Claude or Sonnet at my app.\" And honestly — it's a fair shot. These models are good. If a one-shot agent already does what we do, then we're selling snake oil. So we stopped arguing and ran the experiment. We took a real, production EU rail-booking app. We turned a strong Sonnet 5 agent loose on it — from scratch, no hand-holding — to hunt bugs and write tests the way a sharp QA engineer would. Then we ran our own tool, TestOptim , through its full pipeline on the exact same app. Then we handed both outputs, unlabelled, to an independent judge and asked one question: which is better, and why?",
+      "author": "TestOptim AI",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 40,
+      "url": "https://dev.to/testoptim/i-let-a-one-shot-sonnet-5-agent-qa-a-live-app-then-i-ran-our-qa-tool-on-the-same-one-1d23",
+      "image": "/images/feed/feed-1ea5009849fd.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-ffe3db30220c",
+      "title": "I went quiet. The mascot would call this a comeback.",
+      "excerpt": "My last post ended on this line: \"The rail decides whether that holds.\" It did not hold. That was 29 August. Today is 16 October. Seven weeks without a post, on a blog where I once promised one every…",
+      "body": "My last post ended on this line: \"The rail decides whether that holds.\" It did not hold. That was 29 August. Today is 16 October. Seven weeks without a post, on a blog where I once promised one every Friday. When I missed a single Friday back in June, I wrote that the story I tell myself about a miss does more damage than the miss itself. So I am not going to count the weeks again, and I am not announcing a fresh start. I built something that has an opinion about exactly this situation, and I am going to take its advice. the mascot does not count either Momentum Mascot has four moods: awake, dozing, asleep, and comeback. When a project goes quiet, the character goes to bed. It does not die, nothing breaks, and nothing tells you how long it has been.",
+      "author": "Hoa Trinh",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://dev.to/hoatrinhdev/i-went-quiet-the-mascot-would-call-this-a-comeback-3eb8",
+      "image": "/images/feed/feed-ffe3db30220c.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-d3b10a2e50ba",
+      "title": "epoll: qué es y cómo Linux escala miles de conexiones",
+      "excerpt": "Un servidor Nginx con un solo proceso worker puede sostener decenas de miles de conexiones simultáneas sin que la CPU se dispare. El secreto no es magia ni hilos ocultos: es epoll en Linux, la llamada…",
+      "body": "Un servidor Nginx con un solo proceso worker puede sostener decenas de miles de conexiones simultáneas sin que la CPU se dispare. El secreto no es magia ni hilos ocultos: es epoll en Linux , la llamada al sistema que le dice al kernel que avise solo cuando algo cambia, en vez de obligar a la aplicación a preguntar socket por socket. Entender la interfaz epoll explica por qué Redis, Node.js y Nginx eligen un modelo de un solo hilo para la entrada y salida de datos, y por qué ese diseño escala mejor que lanzar un hilo por cada cliente conectado.",
+      "author": "lu1tr0n",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 32,
+      "url": "https://dev.to/lu1tr0n/epoll-que-es-y-como-linux-escala-miles-de-conexiones-2h1j",
+      "image": "/images/feed/feed-d3b10a2e50ba.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-879b182912c3",
+      "title": "How I scrape jobs from LinkedIn, Indeed and Glassdoor in one run (no login)",
+      "excerpt": "Disclosure: I built this. Multi Job Board Scraper is my actor on Apify, and I earn money from it. Every number below comes from its README, its live pricing record or the real run printed in this post…",
+      "body": "Disclosure: I built this. Multi Job Board Scraper is my actor on Apify, and I earn money from it. Every number below comes from its README, its live pricing record or the real run printed in this post. A \"software engineer in New York\" search normally means three tabs (LinkedIn, Indeed, Glassdoor), and the same role can show up on more than one of them. I wanted one search and one table, so I built it. What it does One search covers LinkedIn, Indeed, Glassdoor and The Muse by default. Eight keyless boards can be added; seven are remote-only and join remote searches automatically. Every row has the same 65 columns. A field a board did not publish is null , never a missing column. No login and no job-board API key: the actor never signs in anywhere, and every row is public data.",
+      "author": "Zakaria Blefkih",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 31,
+      "url": "https://dev.to/7_akariae/how-i-scrape-jobs-from-linkedin-indeed-and-glassdoor-in-one-run-no-login-5gd8",
+      "image": "/images/feed/feed-879b182912c3.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-0017be31ddf7",
+      "title": "5 Slurm Configuration Parameters That Shape Your HPC Cluster",
+      "excerpt": "When building an HPC cluster, we often focus on compute nodes, CPUs, RAM, GPUs, networking and storage. But there is another important part of the design: how Slurm manages those resources. A cluster…",
+      "body": "When building an HPC cluster, we often focus on compute nodes, CPUs, RAM, GPUs, networking and storage. But there is another important part of the design: how Slurm manages those resources. A cluster might have hundreds of CPU cores and several GPUs, but how effectively users access those resources depends partly on how Slurm is configured. Let's explore five important configuration areas in slurm.conf and understand their impact on an HPC environment. 1. SelectType and SelectTypeParameters These parameters control how Slurm selects resources and allocates them to jobs. For example: SelectType = select/cons_tres SelectTypeParameters = CR_Core select/cons_tres allows Slurm to track and allocate consumable resources, such as CPUs, memory and GPUs when configured appropriately.",
+      "author": "Muhammad Zubair Bin Akbar",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://dev.to/zubairakbar/5-slurm-configuration-parameters-that-shape-your-hpc-cluster-2jgl",
+      "image": "/images/feed/feed-0017be31ddf7.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-50cd5eea196c",
+      "title": "Battlefield 6 Is Free on Steam, but Not for Long",
+      "excerpt": "Battlefield 6 Season 5 is underway and the shooter is free to play on Steam through Oct. 20, with new maps, weapons, and a Dead Space event.",
+      "body": "Battlefield 6 Season 5 is underway and the shooter is free to play on Steam through Oct. 20, with new maps, weapons, and a Dead Space event.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Sam Hill",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.polygon.com/battlefield-6-free-to-play-steam-october-2026/",
+      "image": "/images/feed/feed-50cd5eea196c.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-bb7503460186",
+      "title": "2022’s Beloved Survival Adventure 'Stranded Deep' Is Free This Weekend",
+      "excerpt": "The survival-crafting game 'Stranded Deep' is free to play this weekend on Steam.",
+      "body": "Released in Early Access in 2015, the survival crafting game Stranded Deep has built a strong following over the years, with over 20K Steam reviews alone. If you’re a fan of the genre and are looking for something to play this weekend, now might be a good time to give this one a try: it's free to play on Steam until 1 p.m. ET Oct. 19.",
+      "author": "Elijah Gonzalez",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/stranded-deep-free-weekend-steam/",
+      "image": "/images/feed/feed-bb7503460186.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-33eae345cea5",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "excerpt": "according to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "body": "according to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Aditya Mehta",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "image": "/images/feed/feed-33eae345cea5.png",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-9be29dd33109",
+      "title": "‘Father Of PlayStation’ Ken Kutaragi Blames A ‘Mentality Issue’ For The Backlash To Killing Discs",
+      "excerpt": "The Sony veteran doesn't sound very sentimental about the end of physical media on the platform he spearheaded",
+      "body": "The Sony veteran doesn't sound very sentimental about the end of physical media on the platform he spearheaded\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Playstation. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Playstation"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://kotaku.com/father-of-playstation-ken-kutaragi-blames-a-mentality-issue-for-the-backlash-to-killing-discs-2000746753",
+      "image": "/images/feed/feed-9be29dd33109.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-9469d4fd89d4",
+      "title": "7 Years Later, Apple’s Gaming Push Has Proven Surprisingly Resilient",
+      "excerpt": "Carson Oliver, the new head of Apple's App Store, tells Polygon where Apple is at in its long quest to embrace gaming.",
+      "body": "The latest example of that came this week as Apple launched an App Store event dubbed Indie Games Week. The week-long initiative saw Apple welcoming games like Vampire Crawlers to iOS and announcing an ambitious mobile version of No Man’s Sky . At the center of that push was Carson Oliver, the new head of App Store Worldwide following Phil Schiller’s sudden departure from the role this past August. The fact that one of his first acts in the role was spearheading an indie gaming showcase hints at where Oliver’s priorities might lie.",
+      "author": "Giovanni Colantonio",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.polygon.com/apple-indie-games-week-interview/",
+      "image": "/images/feed/feed-9469d4fd89d4.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-e85dc3ac4df7",
+      "title": "Deal: The top-spec Pixel Watch 3 is now 50% off",
+      "excerpt": "Google Pixel Watch 3 (45mm LTE) drops to $199.99 at Amazon, with standalone calls, texts, Fitbit tracking, and more.",
+      "body": "Amazon has cut the Google Pixel Watch 3 to $199.99, down from its $399.99 recommended retail price. That is a straight $200 savings, or 50% off RRP, and it makes this a deal worth jumping on while the price is still live. See the deal at Amazon",
+      "author": "Matt Horne",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.androidauthority.com/pixel-watch-3-45mm-lte-3724563/",
+      "image": "/images/feed/feed-e85dc3ac4df7.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-12fb874d6f13",
+      "title": "'Mission: 60s' event promises passport back to the Space Age",
+      "excerpt": "Your invitation to revisit the Space Age has arrived.Whether you miss the days when people got dressed up to fly or wish your other ride was a rocket, Mission: 60s has a *space* reserved for you.",
+      "body": "Your invitation to revisit the Space Age has arrived. Whether you miss the days when people got dressed up to fly or you wish your \"other\" ride was a rocket , Mission: 60s has a *space* reserved for you. \"This is a three-day celebration of Apollo , aviation, space exploration and 1960s culture,\" reads a promo for the Oct. 23 to 25 event in New York. \"You will be fully immersed in the sights, sounds and spirit of the 1960s Space Age.\" \"The weekend features astronauts, Apollo flight directors, Mission Control engineers, Star Trek legends, space artists, a Saturday Spacefarer Soiree with live music (1960s attire encouraged!), and a Sunday NASA Artemis keynote.\" Organized by Luna Replicas, a company specializing in vintage space gear, and Space for Humanity, a nonprofit that underwrites spacef…",
+      "author": " Robert Z. Pearlman ",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.space.com/space-exploration/apollo/rocket-back-to-the-space-age-with-mission-60s-event-in-nyc-next-weekend",
+      "image": "/images/feed/feed-12fb874d6f13.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-e8a54eaaa92b",
+      "title": "Why can you see the moon during the day? This week is the perfect time to find out",
+      "excerpt": "You don't have to wait until dark to see the moon. Here's why it appears in broad daylight — and why this week is a particularly good time to spot it.",
+      "body": "I know perfectly well that the moon comes out during the day. I have known this for decades. Yet whenever I spot it in a blue afternoon sky, some primitive part of my brain still thinks it has turned up early. I'm certainly not the only one. Many people don't understand how it could be visible in daylight. In their eyes, the moon is a nighttime object. Why? Because that's when they notice it — it appears brighter. We tend to think of the sun as belonging to the day and the moon to the night because that's how they're usually presented to us as children. Astronomically, it makes little sense. The moon spends plenty of time above our horizon while the sun is also up — it spends half its time in the daytime sky, in fact.",
+      "author": " Jamie Carter ",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.space.com/stargazing/why-can-you-see-the-moon-during-the-day-this-week-is-the-perfect-time-to-find-out",
+      "image": "/images/feed/feed-e8a54eaaa92b.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-5af15bd318e0",
+      "title": "America's Wumao: Inside Polymarket's Paid Quote-Retweet Esports Program",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Esports. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "paimapi",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Esports"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.readergrev.com/p/polymarket-paid-quote-retweet-esports-investigation",
+      "image": "/images/feed/feed-5af15bd318e0.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-947dce9f3e11",
+      "title": "'GeoGuessr' Just Changed Genres With A Must-Play Upgrade",
+      "excerpt": "The popular free browser game is officially a horror experience with items and boss battles now",
+      "body": "Browser-based deduction game GeoGuessr has been around for a long time, and most people are content to simply watch Trevor Rainbolt correctly identify a location within seconds. Yet the developers behind GeoGuessr just gave everyone a good reason to revisit the storied internet game.",
+      "author": "Patricia Hernandez",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.polygon.com/geoguessr-horrorguessr-google-maps-free-internet-game/",
+      "image": "/images/feed/feed-947dce9f3e11.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-961d14914e47",
+      "title": "HomePod is about to get free upgrade with these new features",
+      "excerpt": "Apple unveiled three new Home products this week: HomeView, HomePod mini 2, and a new Apple TV 4K. While there’s no new full-size HomePod launching, Apple did announce three features coming to the exi…",
+      "body": "Apple unveiled three new Home products this week: HomeView, HomePod mini 2, and a new Apple TV 4K. While there’s no new full-size HomePod launching, Apple did announce three features coming to the exi — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ryan Christoffel",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://9to5mac.com/2026/10/16/homepod-is-about-to-get-free-upgrade-with-these-new-features/",
+      "image": "/images/feed/feed-961d14914e47.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-64fc9e8b7ce9",
+      "title": "The BMW iX5 Gets A Range Boost Ahead Of U.S. Launch",
+      "excerpt": "BMW originally quoted an estimated EPA range of 435 miles for its first-ever electric X5 SUV. Now that's even higher.",
+      "body": "BMW originally quoted an estimated EPA range of 435 miles for its first-ever electric X5 SUV. Now that's even higher.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://insideevs.com/news/812254/bmw-ix5-x5-electric-range-increase-450-miles/",
+      "image": "/images/feed/feed-64fc9e8b7ce9.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-4d2d8bf047fc",
+      "title": "The 7 Best Games to Play if You Loved Fire Emblem: Fortune’s Weave",
+      "excerpt": "If Fire Emblem: Fortune's Weave has got you craving more tactical RPGs, here are a few of our favorites",
+      "body": "It's been several weeks now since Fire Emblem: Fortune's Weave was released for Nintendo Switch 2 , and fans around the world are still exploring this massive game. While you could easily sink hundreds of hours into playing through every Flame Lord's story, you may be wondering what to play after your adventures in Dagda are through. Worry not: we've compiled a list of our games like Fortune's Weave to keep your strategic skills sharp while you wait for Intelligent Systems to reveal their DLC plans.",
+      "author": "Jen Glennon",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.polygon.com/fire-emblem-fortunes-weave-best-games-replacements/",
+      "image": "/images/feed/feed-4d2d8bf047fc.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-0b5be7529140",
+      "title": "Apple&#8217;s HomeView has an app problem",
+      "excerpt": "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oo…",
+      "body": "It's been a couple of days since Apple's big smart home announcement, and we have some more information - and a bunch of new questions - about the Apple HomeView. The device has plenty of computing oomph, is always connected to power, and looks like a perfect place to run a bunch of apps. And yet the HomeView is relying almost entirely on CarPlay . What gives here? On this episode of The Vergecast , David and Nilay try to make sense of the HomeView's app situation, and why Apple would choose not to make its home hub into its own app platform. After that, they talk about the latest Gemini model and whether building the best model matters if yo … Read the full story at The Verge.",
+      "author": "David Pierce",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.theverge.com/podcast/1012911/apple-homeview-apps-carplay-vergecast",
+      "image": "/images/feed/feed-0b5be7529140.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-eea8201a7d95",
+      "title": "JBL Vibe Buds 2 fall to $39.95 on Amazon, down 33% from RRP",
+      "excerpt": "Save $20 on the JBL Vibe Buds 2 and get budget wireless earbuds with ANC, 8mm drivers, and Bluetooth 5.3.",
+      "body": "The JBL Vibe Buds 2 are a budget-friendly pair of true wireless earbuds from JBL, and they pack in more than you might expect at this price. They bring together JBL Pure Bass sound, active noise canceling, and Smart Ambient modes, and there’s a nice deal on them at Amazon right now. See the deal at Amazon",
+      "author": "Matt Horne",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.androidauthority.com/jbl-vibe-buds-2-deal-3724546/",
+      "image": "/images/feed/feed-eea8201a7d95.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-081a05d887c2",
+      "title": "Tesla 'Cannot Guarantee' Your Roadster Pre-Order Will Ever Be Delivered",
+      "excerpt": "Tesla's pre-order agreement for the Roadster says it cannot guarantee if (or when) the car will ever be delivered.",
+      "body": "Tesla's pre-order agreement for the Roadster says it cannot guarantee if (or when) the car will ever be delivered.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://insideevs.com/news/812247/tesla-roadster-preorder-delivery-guarantee/",
+      "image": "/images/feed/feed-081a05d887c2.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-688d64103529",
+      "title": "Deals: New Apple TV 4K first discount, HomeView, iPhone Duo trade offers, AirPods Pro 3, more",
+      "excerpt": "Joining the $50 price drop on AirPods Pro 3 to pair with your new Duo, we are now tracking the very first discount on the next-generation Apple TV 4K – Amazon will also ship it to you much faster than…",
+      "body": "Joining the $50 price drop on AirPods Pro 3 to pair with your new Duo, we are now tracking the very first discount on the next-generation Apple TV 4K – Amazon will also ship it to you much faster than Apple can. Those offers join ongoing HomeView deals (you’ll want to get in there quick as they are starting to sell out), the best price in months on Apple’s 24GB/1TB M5 Pro MacBook Pro at $430 off, and what might be the only iPhone Duo pre-order deals you can still lock-in. Scope it all out below. more…",
+      "author": "Justin Kahn",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://9to5mac.com/2026/10/16/deals-new-apple-tv-4k-homeview-iphone-duo-airpods/",
+      "image": "/images/feed/feed-688d64103529.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-5b4eebf1e2f7",
+      "title": "Readers crown this Android flagship the best iPhone 18 Pro Max alternative",
+      "excerpt": "Pro or Pro Max? You'd rather have an Ultra instead.",
+      "body": "Earlier this month, we asked readers which Android phone they’d buy instead of Apple’s iPhone 18 Pro . With just shy of a third of the vote in its pocket, the Samsung Galaxy S26 Ultra won that particular battle by a landslide . But what about the larger, pricier Max model? Would the winner remain the same? To find out, we recently asked readers to vote for their preferred iPhone 18 Pro Max alternative. The results can be viewed below.",
+      "author": "Andy Walker",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.androidauthority.com/best-iphone-18-pro-max-alternative-poll-results-3724532/",
+      "image": "/images/feed/feed-5b4eebf1e2f7.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-75d3f138d1de",
+      "title": "Amazon drops the rugged Ultimate Ears Wonderboom 4 speaker to $64.99",
+      "excerpt": "Amazon cuts 19% off the Wonderboom 4, a compact Bluetooth speaker with floatable IP67 design and stereo pairing.",
+      "body": "Amazon has knocked 19% off the Ultimate Ears Wonderboom 4, bringing it down to $64.99 from its $79.99 recommended retail price. That saves you $15, and it’s a good time to grab a portable speaker built for travel, the pool, or the backyard. See the deal at Amazon",
+      "author": "Matt Horne",
+      "date": "2026-10-16",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.androidauthority.com/ultimate-ears-wonderboom-4-deal-amazon-3724537/",
+      "image": "/images/feed/feed-75d3f138d1de.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
     {
       "id": "feed-9f0c4a5c7cf1",
       "title": "Kia launches first-of-its-kind remote driving car-sharing service with the PV5 EV van",
@@ -13,182 +507,11 @@
       "tags": [
         "Ev"
       ],
-      "featured": true,
-      "xpReward": 33,
+      "featured": false,
+      "xpReward": 44,
       "url": "https://electrek.co/2026/10/16/kia-launches-first-remote-driving-car-sharing-service-with-pv5/",
       "image": "/images/feed/feed-9f0c4a5c7cf1.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-06d5f379c16c",
-      "title": "'Pokémon TCG Pocket' Announces Big Update to Address Player Concerns",
-      "excerpt": "After concerns over set fatigue, 'Pokémon TCG Pocket' will be slowing down its release cadence.",
-      "body": "If you’ve played the mobile game Pokémon Trading Card Game Pocket , you probably have at least two major complaints : the UI is too slow, and the current card set release cadence is overwhelming. It seems that DeNa and The Pokémon Company are working on fixing at least one of these issues.",
-      "author": "Elijah Gonzalez",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": true,
-      "xpReward": 38,
-      "url": "https://www.polygon.com/pokemon-tcg-pocket-fewer-set-releases/",
-      "image": "/images/feed/feed-06d5f379c16c.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-19cb0f122df4",
-      "title": "I Rebuilt a CRM 3 Times Because I Solved the Wrong Problem",
-      "excerpt": "The first time I built this CRM, I thought I understood the problem. I knew how to build forms, connect database tables, create features, and import data. I was a developer. I knew how software was su…",
-      "body": "The first time I built this CRM, I thought I understood the problem. I knew how to build forms, connect database tables, create features, and import data. I was a developer. I knew how software was supposed to work. But I had overlooked something important: knowing how to build software isn't the same as understanding the problem you're solving. I ended up rebuilding the CRM three times before I got the solution right. And the biggest lesson had very little to do with writing code. I built it for developers, not users The CRM was built for an agency whose employees weren't necessarily technical. My first mistake was designing the application around what I thought people would naturally understand. If a field was labelled Email , I expected users to enter an email address.",
-      "author": "Ayman Atif",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/a95yman/i-rebuilt-a-crm-3-times-because-i-solved-the-wrong-problem-4ifk",
-      "image": "/images/feed/feed-19cb0f122df4.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-b3c0689bee0a",
-      "title": "The 8am problem: what breaks when an agent has to keep an appointment",
-      "excerpt": "Ask someone what their AI product does while they are asleep and you usually get the same answer: it keeps running. Which is true, and also where the interesting part starts, because \"keeps running\" i…",
-      "body": "Ask someone what their AI product does while they are asleep and you usually get the same answer: it keeps running. Which is true, and also where the interesting part starts, because \"keeps running\" is not the hard bit. The hard bit is that it promised. A reminder fires or it doesn't; nobody dwells on it. A brief is different. If you told a tool that you want the thing waiting for you at eight, then eight is an appointment. A late brief is not a slow brief. It's a missed one, and you notice, because you were holding a coffee and a minute of attention open for it. I've argued before that a schedule is not a feature bolted onto an agent, it is the interface.",
-      "author": "TuringCorp",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/turingcorp/the-8am-problem-what-breaks-when-an-agent-has-to-keep-an-appointment-4g6h",
-      "image": "/images/feed/feed-b3c0689bee0a.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-777508f02f0e",
-      "title": "iPhone Duo launch is a massive success, but Apple has a problem",
-      "excerpt": "iPhone Duo pre-orders opened today, but if you weren’t there right at the start, you likely now can’t get one before 2027. That makes the iPhone Duo launch a massive success, but also reflects a misse…",
-      "body": "iPhone Duo pre-orders opened today, but if you weren’t there right at the start, you likely now can’t get one before 2027. That makes the iPhone Duo launch a massive success, but also reflects a misse — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ryan Christoffel",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://9to5mac.com/2026/10/16/iphone-duo-launch-is-a-massive-success-but-apple-has-a-problem/",
-      "image": "/images/feed/feed-777508f02f0e.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-b8ec93dfbb0e",
-      "title": "Living Off the Agent (LOTA): AI Tool Loops as Lateral Movement",
-      "excerpt": "Originally published by **Asif Muhammad Iqbal (Founder & CEO at Logic42)* at https://logic42.ai/articles/living-off-the-agent-lota-lateral-movement.* Living Off the Agent (LOTA) is an attack technique…",
-      "body": "Originally published by **Asif Muhammad Iqbal (Founder &amp; CEO at Logic42) * at https://logic42.ai/articles/living-off-the-agent-lota-lateral-movement .* Living Off the Agent (LOTA): AI Tool Loops as Lateral Movement Living Off the Agent (LOTA) is an attack technique where adversaries hijack pre-authenticated enterprise AI agents to pivot across internal networks, execute SSRF, and exfiltrate cloud credentials without deploying malware. When agents hold broad tool integrations, attackers don't need to breach your perimeter; they persuade your agent to perform the reconnaissance. What is Living Off the Agent (LOTA)? Living Off the Agent (LOTA) is the AI-era evolution of Living Off the Land (LOTL).",
-      "author": "Asif Muhammad Iqbal",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/asifmiqbal/living-off-the-agent-lota-ai-tool-loops-as-lateral-movement-2o8c",
-      "image": "/images/feed/feed-b8ec93dfbb0e.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-5f1910e7b0a4",
-      "title": "The GraphRAG Paradox: Scaling Knowledge Retrieval Without Token Collapse",
-      "excerpt": "Originally published by **Asif Muhammad Iqbal (Founder & CEO at Logic42)* at https://logic42.ai/articles/graphrag-enterprise-latency-token-collapse.* The GraphRAG paradox is the architectural failure…",
-      "body": "Originally published by **Asif Muhammad Iqbal (Founder &amp; CEO at Logic42) * at https://logic42.ai/articles/graphrag-enterprise-latency-token-collapse .* The GraphRAG Paradox: Scaling Knowledge Retrieval Without Token Collapse The GraphRAG paradox is the architectural failure where augmenting vector search with knowledge graphs improves relational accuracy while inflating token spend by up to 1200% and destroying throughput. In 2026, enterprise teams hit production reviews discovering that naive graph traversal spikes latency to 18 seconds and balloons cloud bills. Why Pure Vector RAG Failed (And Why GraphRAG Broke the Budget) Standard vector retrieval is simply semantic keyword matching in disguise.",
-      "author": "Asif Muhammad Iqbal",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://dev.to/asifmiqbal/the-graphrag-paradox-scaling-knowledge-retrieval-without-token-collapse-28m5",
-      "image": "/images/feed/feed-5f1910e7b0a4.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-84b1a5120a93",
-      "title": "Snaplist: An Offline AI Listing Writer for Online Sellers",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle Snaplist turns product photos into a publish-ready listing for eBay, Etsy or Vinted. Anyone who sells online kno…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built Snaplist turns product photos into a publish-ready listing for eBay, Etsy or Vinted. Anyone who sells online knows the grind: take photos, then write a title, a description, tags, and guess a price. For one item it's a few minutes. For fifty items it's an afternoon. With Snaplist you upload 1-4 photos, add optional notes (brand, size, flaws), pick a platform, and get a title, description, tags, condition and a suggested price range. Who would pay: small resellers and side-hustle sellers who list many items and would rather spend that time sourcing and shipping. No per-listing fee, and no photos sent to anyone.",
-      "author": "Pardeep Gir",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://dev.to/pardeep_gir_6d77/snaplist-an-offline-ai-listing-writer-for-online-sellers-hge",
-      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-4dfa0f41b662",
-      "title": "Analogue is re-releasing its SNES and Genesis consoles with some nice upgrades",
-      "excerpt": "Analogue announced new versions of its Super Nt and Mega Sg retro consoles today with a \"reworked industrial design\" and built-in wireless connectivity for controllers and accessories. Like the origin…",
-      "body": "Analogue announced new versions of its Super Nt and Mega Sg retro consoles today with a \"reworked industrial design\" and built-in wireless connectivity for controllers and accessories. Like the original versions, the new Super Nt Plus and Mega Sg Plus are able to play Nintendo and Sega Genesis cartridges using an FPGA processor that perfectly recreates the functionality of Nintendo and Sega's 16-bit consoles without the need for emulation. Although neither of the new consoles allows SNES or Genesis titles to be played in 4K like the Analogue 3D does with Nintendo 64 titles , the 1080p Super Nt and Mega Sg Plus add a USB-C port so you can po … Read the full story at The Verge.",
-      "author": "Andrew Liszewski",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.theverge.com/tech/1012901/analogue-retro-console-supern-nt-plus-nintendo-sega-genesis-mega-plus",
-      "image": "/images/feed/feed-4dfa0f41b662.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-b70e1e8e821a",
-      "title": "Bench Triage: How to Trace Shorted Motherboard Power Rails with a Multimeter",
-      "excerpt": "When a laptop or desktop motherboard lands on the diagnostic bench with a \"completely dead / no power\" symptom, the instinct of novice repairers is often to plug in a power supply and start hunting fo…",
-      "body": "When a laptop or desktop motherboard lands on the diagnostic bench with a \"completely dead / no power\" symptom, the instinct of novice repairers is often to plug in a power supply and start hunting for warm chips with their fingertips or an isopropyl alcohol mist. In component-level engineering, that approach is a gamble that risks turning a simple capacitor failure into an unrecoverable crater in a $400 CPU or GPU die. Before any live voltage is introduced to an unverified board, bench protocol mandates a rigorous cold resistance triage . In this guide, we break down the exact systematic procedure used at our repair bench to trace shorted power rails, isolate defective MLCCs (multi-layer ceramic capacitors), and protect sensitive silicon using nothing more than a digital multimeter.",
-      "author": "Mark Anthony Garcia",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://dev.to/markanthonygarcia/bench-triage-how-to-trace-shorted-motherboard-power-rails-with-a-multimeter-22pd",
-      "image": "/images/feed/feed-b70e1e8e821a.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -204,7 +527,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 51,
       "url": "https://electrek.co/2026/10/16/solar-panels-are-bringing-idle-cranberry-bogs-back-to-life/",
       "image": "/images/feed/feed-7cf948c87e10.jpg",
       "source": "Electrek",
@@ -223,124 +546,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 35,
       "url": "https://www.space.com/stargazing/auroras/7-best-places-to-see-the-northern-lights-according-to-an-aurora-chaser",
       "image": "/images/feed/feed-c2cdf9dedc6d.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-42c55cf76267",
-      "title": "Best iPhone Duo cases now available for purchase: Fabric, leather, aramid fiber, metal, more",
-      "excerpt": "Apple’s new iPhone Duo Apple’s all-new TechWoven treatment and Pitaka’s aramid fiber, we are also seeing some of the best leather brands in the business ready to take orders for their latest full-grai…",
-      "body": "Apple’s new iPhone Duo Apple’s all-new TechWoven treatment and Pitaka’s aramid fiber, we are also seeing some of the best leather brands in the business ready to take orders for their latest full-grain covers. Those, of course, join some ultra-affordable models starting from $27 or less and you can scope them all out below. more…",
-      "author": "Justin Kahn",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://9to5mac.com/2026/10/16/best-iphone-duo-cases-now-available-purchase/",
-      "image": "/images/feed/feed-42c55cf76267.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-9a0738aaa1e2",
-      "title": "6 Newly Announced Games You Need to Add to Your Steam Wishlist",
-      "excerpt": "Following a loaded Triple-i Initiative showcase, we've got some fresh indies to add to your Steam wishlist.",
-      "body": "Out of all the world premiere-filled gaming streams that happen throughout a year, The Triple-i Initiative has gradually become a personal favorite over time. The event, which focuses exclusively on independent games, is always an unpredictable watch compared to shows like Summer Game Fest. Last week’s Triple-i Initiative stream was no different, showing off 40 games across a jam-packed 45 minutes.",
-      "author": "Giovanni Colantonio",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.polygon.com/wishlister-october-16/",
-      "image": "/images/feed/feed-9a0738aaa1e2.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-cabdcf3e1587",
-      "title": "Veteran Players Manage To Kill New RuneScape In Just Two Weeks",
-      "excerpt": "RuneScape Reignited was set to launch in early December",
-      "body": "RuneScape Reignited was set to launch in early December\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ash Parrish",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://kotaku.com/runescape-announces-then-quickly-cancels-its-reignited-project-due-to-player-feedback-2000746746",
-      "image": "/images/feed/feed-cabdcf3e1587.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-ff1bad63817f",
-      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "excerpt": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X pr…",
-      "body": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm. It has loads of cores, Nvidia RTX Blackwell graphics, and enough power and unified memory to run sizable local AI models. The flagship placement is inside Microsoft's Surface Laptop Ultra with a staggering 128GB of unified memory, which our own Tom Warren fully reviewed .",
-      "author": "Antonio G. Di Benedetto",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Laptop"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-      "image": "/images/feed/feed-ff1bad63817f.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-230059e6ce05",
-      "title": "New Zelda: Ocarina of Time Trailer Reveal Dark Link",
-      "excerpt": "The Legend of Zelda: Ocarina of Time remake received two new trailers on Friday. One offers fans their first glimpse at Dark Link.",
-      "body": "Nintendo's The Legend of Zelda: Ocarina of Time remake just received two new trailers, showing Nintendo still has surprises up its sleeve ahead of the remake's launch in a few weeks. One trailer briefly shows the return of Dark Link, an antagonist throughout the series who appears in various games to duke it out with the silent hero, Link.",
-      "author": "Austin Manchester",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.polygon.com/legend-of-zelda-ocarina-of-time-new-trailers-dark-link/",
-      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ns2_thelegendofzeldaocarinaoftime_scrn_15.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-309bfedc9d04",
-      "title": "'Divided' quest walkthrough in Arc Raiders",
-      "excerpt": "A guide explaining how to complete the \"Divided\" quest in Arc Raiders and where to find the four nomad recordings on Pendola Pass.",
-      "body": "The \"Divided\" quest in Arc Raiders focuses on finding four separate nomad recordings, spread throughout Pendola Pass. This is the final quest of the Nomadic Envoy's line, introduced with the \"Frozen Trail\" update, and while it doesn't need to be completed in one round, it's certainly possible. Finding each of the recordings can be a pain though, so we've got all four locations listed here.",
-      "author": "Ford James",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.polygon.com/arc-raiders-divided-quest-walkthrough-nomad-recordings/",
-      "image": "/images/feed/feed-309bfedc9d04.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -356,67 +565,10 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 33,
       "url": "https://calif.io/research/big-fish",
       "image": "/images/topics/topic-cybersecurity.png",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-597e973c59a7",
-      "title": "Control Resonant Just Became Remedy’s Fastest-Selling Game of All Time",
-      "excerpt": "Remedy has sold 1 million copies of Control Resonant in less than a month, making the action RPG the studio's fastest-selling game",
-      "body": "Remedy Entertainment's latest mind-bending game, Control Resonant, is a massive sales success for the Finnish developer. Less than a month after the action RPG's release, the studio revealed the game has sold more than 1 million copies.",
-      "author": "Willa Rowe",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.polygon.com/control-resonant-just-1-million-copies-sold-remedy-fastest-selling-game/",
-      "image": "/images/feed/feed-597e973c59a7.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-01892a7693f1",
-      "title": "Redesigning Source Control at Anthropic",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "hn9zmdcaou",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "image": "/images/feed/feed-01892a7693f1.webp",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-8623f1d6cd1f",
-      "title": "The Blood of Dawnwalker Update 1.1 Adds Directional Animal Petting and Over 1,100 Other Improvements and Fixes",
-      "excerpt": "The Blood of Dawnwalker update 1.1 adds directional animal petting and over 1,100 other improvements and fixes.",
-      "body": "Rebel Wolves really put out something special with The Blood of Dawnwalker , its vampire RPG where you straddle the line between monster and man. Now it’s getting even better with directional animal petting. Yeah, you heard. Similar to Kingdom Come: Deliverance, Dawnwalker’s combat uses directional inputs to attack and defend from different angles during combat. Update 1.1, due out next week, will let you take that system and use it to frantically rub a dog. “What happens when you merge a directional combat system with the ability to pet dogs and cats?” the studio asked . “Directional. Animal. Petting.” The update also adds a consumable item: the Draught of Mind Rebirth.",
-      "author": "Kirk McKeand",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.ign.com/articles/the-blood-of-dawnwalker-update-directional-based-animal-petting",
-      "image": "/images/feed/feed-8623f1d6cd1f.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -432,48 +584,29 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 38,
       "url": "https://www.space.com/stargazing/skywatching-kit/from-identifying-stars-and-constellations-to-seeking-out-dark-skies-these-are-the-best-ways-to-use-stargazing-apps",
       "image": "/images/feed/feed-a0ce421219b3.jpg",
       "source": "Space.com",
       "isLive": true
     },
     {
-      "id": "feed-f924c1959044",
-      "title": "iPhone 18 Pro one month later: These features keep impressing me",
-      "excerpt": "I’ve had the iPhone 18 Pro for about a month now, and during that time three main features have consistently impressed me. more…",
-      "body": "I’ve had the iPhone 18 Pro for about a month now, and during that time three main features have consistently impressed me. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ryan Christoffel",
+      "id": "feed-72b677cc3e82",
+      "title": "Tesla Unveils 'Flying' Roadster with SpaceX Thrusters [video]",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Spacex. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "skadamat",
       "date": "2026-10-16",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "space",
       "tags": [
-        "Iphone"
+        "Spacex"
       ],
       "featured": false,
-      "xpReward": 31,
-      "url": "https://9to5mac.com/2026/10/16/iphone-18-pro-one-month-later-these-features-keep-impressing-me/",
-      "image": "/images/feed/feed-f924c1959044.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-3ac488848c6e",
-      "title": "MapQuest will now show you where Flock cameras are in your neighborhood",
-      "excerpt": "You can see the locations of known outdoor surveillance cameras in the MapQuest app.",
-      "body": "You can see the locations of known outdoor surveillance cameras in the MapQuest app.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Kris Holt)",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.engadget.com/2288729/mapquest-will-now-show-you-where-flock-cameras-are-in-your-neighborhood/",
-      "image": "/images/feed/feed-3ac488848c6e.jpg",
-      "source": "Engadget",
+      "xpReward": 54,
+      "url": "https://www.youtube.com/watch?v=eqOfmtTJD1A",
+      "image": "/images/topics/topic-space.png",
+      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -489,7 +622,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 35,
       "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
       "image": "/images/feed/feed-d29fa8852d2f.jpg",
       "source": "The Hacker News",
@@ -508,7 +641,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 37,
       "url": "https://www.space.com/astronomy/black-holes/supermassive-black-hole-blasts-out-a-neon-treble-clef-space-photo-of-the-day-for-oct-16-2026",
       "image": "/images/feed/feed-de66fdfb7b7b.png",
       "source": "Space.com",
@@ -527,7 +660,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 50,
       "url": "https://electrek.co/2026/10/16/this-cool-accessory-turns-your-bike-electric-in-just-three-seconds/",
       "image": "/images/feed/feed-ca7957a7e1ef.jpg",
       "source": "Electrek",
@@ -546,29 +679,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 34,
       "url": "https://cleantechnica.com/2026/10/16/china-electric-shipping-freight-infrastructure/",
       "image": "/images/feed/feed-9480f2c22ec8.webp",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-a66a409ced5d",
-      "title": "Google AI Pro trials are misleading, and subscribers are finding out the hard way",
-      "excerpt": "Some Pro features require payment, even if your phone came with the Pro plan.",
-      "body": "TL;DR Google’s promotional AI Pro trials exclude Argon and Claude 5.5 in Antigravity, affecting eligible Pixel buyers, Googlebook owners, and students. Trials also miss YouTube Premium Lite and Google Store rewards, despite sharing the AI Pro name with paid subscriptions. Google has an online form to switch from a trial to a paid Pro plan and says it’s working to improve the process. Six months of free AI Pro is a useful sweetener when you’re buying a pricey Pixel, especially when Google values the Pixel 11 Pro’s included subscription at almost $120 . For anyone already interested in Google’s premium AI tools, that could help justify the phone’s price. You’d also reasonably expect to get the same Pro experience as someone paying for the subscription separately.",
-      "author": "Hillary Keverenge",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.androidauthority.com/google-ai-pro-trial-paid-features-gap-3724383/",
-      "image": "/images/feed/feed-a66a409ced5d.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -584,29 +698,10 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 34,
       "url": "https://www.space.com/technology/we-are-getting-a-lot-of-pressure-from-the-administrator-himself-how-nasa-is-racing-to-obey-trumps-super-intelligence-order",
       "image": "/images/feed/feed-055386c726a9.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-20efd4e241d3",
-      "title": "Security Bite: Americans are contradicting themselves around privacy",
-      "excerpt": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform. Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to mana…",
-      "body": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform . Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to management and security combines state-of-the-art Apple-specific security solutions for fully automated Hardening &amp; Compliance, Next Generation EDR, AI-powered Zero Trust, and exclusive Privilege Management with the most powerful and modern Apple MDM on the market. The result is a totally automated Apple Unified Platform currently trusted by over 45,000 organizations to make millions of Apple devices work-ready with no effort and at an affordable cost. Request your EXTENDED TRIAL today and understand why Mosyle is everything you need to work with Apple .",
-      "author": "Arin Waichulis",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://9to5mac.com/2026/10/16/security-bite-americans-are-contradicting-themselves-around-privacy/",
-      "image": "/images/feed/feed-20efd4e241d3.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -641,48 +736,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 53,
       "url": "https://insideevs.com/reviews/811794/mercedes-cla-350-electric-review/",
       "image": "/images/feed/feed-27df4f2fd2cf.jpg",
       "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-598f031d74e6",
-      "title": "The Tesla Roadster Has 1,341 HP And Half The Range Elon Musk Once Promised. Here Are The Full Specs",
-      "excerpt": "Tesla execs Lars Moravy and Franz von Holzhausen spilled the beans on Tesla’s most outrageous car ever.",
-      "body": "Tesla execs Lars Moravy and Franz von Holzhausen spilled the beans on Tesla’s most outrageous car ever.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://insideevs.com/news/812242/tesla-roadster-2026-specs/",
-      "image": "/images/feed/feed-598f031d74e6.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-b51c8a6dad31",
-      "title": "Waymo picks Toronto as first Canadian city, targets riders in 2028",
-      "excerpt": "Waymo is bringing its robotaxis to Canada, and Toronto is first. Its cars will start driving the city’s streets in the coming days, and the company wants its first public riders on board in 2028. That…",
-      "body": "Waymo is bringing its robotaxis to Canada, and Toronto is first. Its cars will start driving the city’s streets in the coming days, and the company wants its first public riders on board in 2028. That makes Toronto Waymo’s fourth announced market outside the US, after London, Tokyo, and Singapore. But there’s a catch: Ontario doesn’t have rules for a commercial driverless service yet. more…",
-      "author": "Fred Lambert",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://electrek.co/2026/10/16/waymo-toronto-canada-robotaxi-2028/",
-      "image": "/images/feed/feed-b51c8a6dad31.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -699,29 +756,10 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 51,
       "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
       "image": "/images/feed/feed-ea17759b3ffd.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-1d7f1a5df609",
-      "title": "Rocket Lab pushes 1st launch of next-gen Neutron rocket to 2027",
-      "excerpt": "Rocket Lab has delayed the debut of its powerful, partially reusable Neutron launcher to 2027 due to a manufacturing issue.",
-      "body": "We'll have to wait a bit longer to see Rocket Lab's next-gen launcher fly. The California-based company just announced that it's pushing the debut of its powerful, partially reusable Neutron rocket from late 2026 into 2027 due to a manufacturing issue. \"We believe Neutron is going to be a game-changer, and taking the time now to solve these challenges means we're in a better position to deliver a rocket that's ready to meet the needs for the industry for years to come,\" Rocket Lab founder and CEO Peter Beck said in a video the company posted on YouTube late on Tuesday (Oct. 13). Beck explained the issue in depth in that seven-minute video.",
-      "author": " Mike Wall ",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-pushes-1st-launch-of-next-gen-neutron-rocket-to-2027",
-      "image": "/images/feed/feed-1d7f1a5df609.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -737,29 +775,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 31,
       "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
       "image": "/images/feed/feed-2b86ea0d21e8.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-82d5a9681c1e",
-      "title": "It's time to reassess the size of our solar system, scientists say",
-      "excerpt": "Two leading space scientists say there is a need to redefine the edge of the solar system based on the Milky Way's gravity, including its dark matter.",
-      "body": "Two leading space scientists say there is a need to redefine the edge of the solar system by presenting a theory which states that measurements of the Milky Way's gravitational field, including its dark matter, redraws the sun's frontier. That theory was put forward by Jim Green, former NASA chief scientist and past director of the space agency's Planetary Science Division, along with Ed Belbruno, a professor of mathematics at Yeshiva University and a senior research associate at Princeton University. The solar system's gravitational frontier extends to nearly 3.8 light-years from the sun , they contend, roughly 241,000 astronomical units (AU), a distance that brings the \"edge\" of the solar system to within the same scale as the separation between neighboring stars.",
-      "author": " Leonard David ",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.space.com/astronomy/solar-system/its-time-to-reassess-the-size-of-our-solar-system-scientists-say",
-      "image": "/images/feed/feed-82d5a9681c1e.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -775,7 +794,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 45,
       "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
       "image": "/images/feed/feed-9abe7ec7ef7f.jpg",
       "source": "BleepingComputer",
@@ -794,7 +813,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 37,
       "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
       "image": "/images/feed/feed-ec1aed32d673.jpg",
       "source": "BleepingComputer",
@@ -815,29 +834,10 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 54,
       "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
       "image": "/images/feed/feed-ba17ea9097f4.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-01d23e03c985",
-      "title": "Tesla reveals SpaceX-powered Roadster that flies and falls with style",
-      "excerpt": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.",
-      "body": "The new car used thrusters to leap over a Cybercab, Cybertruck, Tesla Semi, Model Y, and Model 3 at a demo in Texas.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Spacex. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sean O'Kane",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Spacex"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://techcrunch.com/2026/10/15/tesla-reveals-spacex-powered-roadster-that-flies-and-falls-with-style/",
-      "image": "/images/feed/feed-01d23e03c985.jpg",
-      "source": "TechCrunch",
       "isLive": true
     },
     {
@@ -853,7 +853,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 50,
       "url": "https://www.cnet.com/tech/mobile/amazon-bee-personal-ai-device-always-listening-and-recording-2/",
       "image": "/images/feed/feed-1893c663b3d9.jpg",
       "source": "CNET",
@@ -872,7 +872,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 35,
       "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
       "image": "/images/feed/feed-6b32532a1652.jpg",
       "source": "TechCrunch",
@@ -891,37 +891,37 @@
         "Gpt"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 30,
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
       "isLive": true
     },
     {
-      "id": "feed-e26a2cb703ec",
-      "title": "Neural networks are clean",
-      "excerpt": "https://twitter.com/nickcammarata/status/2110757819427574056",
-      "body": "https://twitter.com/nickcammarata/status/2110757819427574056\n\nThis report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Neural. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "themgt",
+      "id": "feed-eef09eb5dfce",
+      "title": "Teaching students to think and learn through questions",
+      "excerpt": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "body": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "OpenAI Blog",
       "date": "2026-10-15",
       "readTime": "2 min",
       "section": "ai",
       "tags": [
-        "Neural"
+        "Ai"
       ],
       "featured": false,
-      "xpReward": 43,
-      "url": "https://already-clean.goodfire.com/",
-      "image": "/images/feed/feed-e26a2cb703ec.png",
-      "source": "Hacker News",
+      "xpReward": 46,
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "OpenAI Blog",
       "isLive": true
     },
     {
-      "id": "feed-07840b4d49b7",
-      "title": "Google’s Universal Cart shopping tool launches in the US",
-      "excerpt": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
-      "body": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lauren Forristal",
+      "id": "feed-8ec6278a3e32",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "excerpt": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "body": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "OpenAI Blog",
       "date": "2026-10-15",
       "readTime": "2 min",
       "section": "ai",
@@ -930,23 +930,23 @@
       ],
       "featured": false,
       "xpReward": 49,
-      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "image": "/images/feed/feed-07840b4d49b7.png",
-      "source": "TechCrunch",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "OpenAI Blog",
       "isLive": true
     }
   ],
   "breakingNews": [
-    "ELECTREK: Kia launches first-of-its-kind remote driving car-sharing service with the PV5 EV van",
-    "POLYGON: 'Pokémon TCG Pocket' Announces Big Update to Address Player Concerns",
-    "DEV.TO: I Rebuilt a CRM 3 Times Because I Solved the Wrong Problem",
-    "DEV.TO: The 8am problem: what breaks when an agent has to keep an appointment",
-    "9TO5MAC: iPhone Duo launch is a massive success, but Apple has a problem",
-    "DEV.TO: Living Off the Agent (LOTA): AI Tool Loops as Lateral Movement",
-    "DEV.TO: The GraphRAG Paradox: Scaling Knowledge Retrieval Without Token Collapse",
-    "DEV.TO: Snaplist: An Offline AI Listing Writer for Online Sellers",
-    "THE VERGE: Analogue is re-releasing its SNES and Genesis consoles with some nice upgrades",
-    "DEV.TO: Bench Triage: How to Trace Shorted Motherboard Power Rails with a Multimeter"
+    "DEV.TO: We re-priced six weeks of our own AI coding-agent usage. The \"obvious\" saving was 5.5x too big.",
+    "DEV.TO: FHIR, HL7 and AI: Exploring the Next Layer of Healthcare Interoperability",
+    "DEV.TO: I let a one-shot Sonnet 5 agent QA a live app. Then I ran our QA tool on the same one.",
+    "DEV.TO: I went quiet. The mascot would call this a comeback.",
+    "DEV.TO: epoll: qué es y cómo Linux escala miles de conexiones",
+    "DEV.TO: How I scrape jobs from LinkedIn, Indeed and Glassdoor in one run (no login)",
+    "DEV.TO: 5 Slurm Configuration Parameters That Shape Your HPC Cluster",
+    "POLYGON: Battlefield 6 Is Free on Steam, but Not for Long",
+    "POLYGON: 2022’s Beloved Survival Adventure 'Stranded Deep' Is Free This Weekend",
+    "TECHCRUNCH: Elorian’s first AI model wants to reason with images, not just about them"
   ],
   "sectionVideos": {}
 }
