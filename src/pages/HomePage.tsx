@@ -1,6 +1,6 @@
 import { Suspense, lazy } from 'react'
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 
 // three.js is heavy — load the 3D hero as a separate chunk so page text paints first.
@@ -15,8 +15,13 @@ import { ArticleCard } from '../components/ui/ArticleCard'
 import { Button } from '../components/ui/Button'
 
 export function HomePage() {
+  const navigate = useNavigate()
   const featured = useFeaturedArticles()
   const { isLive, lastUpdated, usingFallback, refreshFeed } = useFeed()
+
+  const openArticle = (article: { section: string; id: string }) => {
+    navigate(`/${article.section}?article=${article.id}`)
+  }
 
   const formatFeedTime = (iso: string) =>
     new Date(iso).toLocaleString(undefined, {
@@ -31,9 +36,7 @@ export function HomePage() {
         <Suspense fallback={null}>
           <GlobeScene
             articles={featured}
-            onHotspotClick={(article) => {
-              window.location.href = `/${article.section}?article=${article.id}`
-            }}
+            onHotspotClick={openArticle}
           />
         </Suspense>
 
@@ -175,7 +178,7 @@ export function HomePage() {
               key={article.id}
               article={article}
               index={i}
-              onClick={() => { window.location.href = `/${article.section}?article=${article.id}` }}
+              onClick={() => openArticle(article)}
             />
           ))}
         </div>
