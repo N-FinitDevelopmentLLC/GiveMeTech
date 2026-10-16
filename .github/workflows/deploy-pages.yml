@@ -1,0 +1,75 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # Feed workflow pushes with GITHUB_TOKEN — those pushes do not trigger push workflows
+  workflow_run:
+    workflows: [Update News Feed]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # workflow_run fires on the triggering SHA; checkout latest main for feed bot commits
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.ref }}
+          # Avoid downloading years of deleted feed-image blobs (repo pack is multi-GB).
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build for GitHub Pages
+        run: npm run build
+        env:
+          VITE_BASE_PATH: /
+          VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
+          VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
+          VITE_EMAILJS_TEMPLATE_CONFIRMATION_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_CONFIRMATION_ID }}
+          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}
+          VITE_NEWSLETTER_OWNER_EMAIL: sm@nfinitdevelopment.com
+          VITE_GEMINI_API_KEY: ${{ secrets.VITE_GEMINI_API_KEY }}
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Notify SiteCommand deploy (optional)
+        env:
+          SITECOMMAND_WEBHOOK_URL: ${{ secrets.SITECOMMAND_WEBHOOK_URL }}
+        run: |
+          if [ -n "$SITECOMMAND_WEBHOOK_URL" ]; then
+            curl -sf -X POST "$SITECOMMAND_WEBHOOK_URL" \
+              -H "Content-Type: application/json" \
+              -d "{\"event\":\"deploy\",\"site\":\"give-me-tech.com\",\"repo\":\"${{ github.repository }}\",\"sha\":\"${{ github.sha }}\",\"ref\":\"${{ github.ref }}\"}" \
+              || true
+          fi

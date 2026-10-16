@@ -1,0 +1,68 @@
+name: Update News Feed
+
+on:
+  schedule:
+    # Every hour at minute 0 (UTC)
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Prevent overlapping hourly runs (long image/summary steps can exceed 1 hour).
+concurrency:
+  group: update-news-feed
+  cancel-in-progress: true
+
+jobs:
+  fetch-feeds:
+    runs-on: ubuntu-latest
+    # With per-request timeouts + parallel image downloads the run should finish in
+    # a few minutes; a tighter cap means a stuck run fails fast so the next hour succeeds.
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch RSS feeds and images
+        run: npm run fetch-feeds
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          # GitHub-hosted runners have no Ollama. Template summaries are used instead.
+          GEMMA_ENABLED: 'false'
+
+      - name: Commit updated feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A -- public/data/feed.json public/images/feed/
+          if git diff --staged --quiet; then
+            echo "No feed file changes — feed run still succeeded"
+          else
+            # Commit first so the tree is clean, then rebase onto any remote changes and push.
+            git commit -m "chore: update hourly tech news feed"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Notify SiteCommand feed update (optional)
+        env:
+          SITECOMMAND_WEBHOOK_URL: ${{ secrets.SITECOMMAND_WEBHOOK_URL }}
+        run: |
+          if [ -n "$SITECOMMAND_WEBHOOK_URL" ]; then
+            curl -sf -X POST "$SITECOMMAND_WEBHOOK_URL" \
+              -H "Content-Type: application/json" \
+              -d "{\"event\":\"feed_update\",\"site\":\"give-me-tech.com\",\"repo\":\"${{ github.repository }}\",\"sha\":\"${{ github.sha }}\"}" \
+              || true
+          fi
+
+      # deploy-pages.yml listens for this workflow completing successfully (workflow_run).
