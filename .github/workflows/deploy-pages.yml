@@ -48,7 +48,8 @@ jobs:
       - name: Build for GitHub Pages
         run: npm run build
         env:
-          VITE_BASE_PATH: /
+          # Project site is https://<owner>.github.io/GiveMeTech/ — assets must include that prefix.
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
           VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
           VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
           VITE_EMAILJS_TEMPLATE_CONFIRMATION_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_CONFIRMATION_ID }}
