@@ -1,12 +1,31 @@
 {
-  "fetchedAt": "2026-10-17T05:14:04.896Z",
+  "fetchedAt": "2026-10-17T06:13:00.795Z",
   "articles": [
     {
-      "id": "feed-c3c080234363",
-      "title": "How much tax should a sole trader set aside in Australia (2026-27)? A worked example",
-      "excerpt": "As a sole trader, nobody withholds tax from your business income. Your profit is added to any other income, such as wages, and taxed at your personal rates when you lodge your return. If you haven't p…",
-      "body": "As a sole trader, nobody withholds tax from your business income. Your profit is added to any other income, such as wages, and taxed at your personal rates when you lodge your return. If you haven't put money aside during the year, the whole bill arrives at once. This article shows how to estimate that bill for 2026-27 and turn it into a simple percentage to set aside each time you're paid. The examples use the same tested logic as Quillroo's free sole trader tax calculator , so you can check them and then run your own figures. What makes up a sole trader's tax bill For an Australian resident for the full year who is entitled to the full tax-free threshold, four things make up most of the bill. 1. Income tax at resident rates.",
-      "author": "Quillroo",
+      "id": "feed-cafb42fabb09",
+      "title": "Word choice in a drawing game: designing so no drawer gets an impossible word",
+      "excerpt": "Every drawing game design has to handle the same failure: a player is handed a word they cannot draw, and the turn dies. There are two ways to design word choice in a drawing game against that. You ca…",
+      "body": "Every drawing game design has to handle the same failure: a player is handed a word they cannot draw, and the turn dies. There are two ways to design word choice in a drawing game against that. You can curate the list until every word is drawable, or you can let the drawer choose from several. I build Draw and Guess, a drawing game, and it does both: a built-in list that is deliberately easy, and a choice of two to five words each turn. Here is the arithmetic for why the second layer matters, and what it costs. Curating a drawing game word list only gets you so far If you are working out how to build a word list for a drawing game, curation is the first layer. A curated list removes the words that are hard for nearly everyone, such as rare jargon or long phrases.",
+      "author": "Ahmed Moaz",
+      "date": "2026-10-17",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://dev.to/board_it_b11ff7d58bf863f8/word-choice-in-a-drawing-game-designing-so-no-drawer-gets-an-impossible-word-2e11",
+      "image": "/images/feed/feed-cafb42fabb09.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-20707903c3c2",
+      "title": "How long does a Ludo game last? 30,024 simulated games, counted in rounds",
+      "excerpt": "Minutes depend on your table: how fast people throw, how much they talk, whether someone gets up to make tea. So I counted something that doesn't depend on any of that. In 30,024 computer-played games…",
+      "body": "Minutes depend on your table: how fast people throw, how much they talk, whether someone gets up to make tea. So I counted something that doesn't depend on any of that. In 30,024 computer-played games run through Boardit's live Ludo engine on 29 September 2026, the median game lasted 70 rounds with two players, 95 with three and 120 with four. I make Boardit, a small site of multiplayer board games that run in the browser, and these runs were made to test it. The site itself has no computer opponents; the scripted players exist only for testing. What a \"round\" means here The engine adds a round each time play wraps back past the opening seat, so by then every seat still playing has had one turn.",
+      "author": "Ahmed Moaz",
       "date": "2026-10-17",
       "readTime": "2 min",
       "section": "software",
@@ -15,36 +34,17 @@
       ],
       "featured": true,
       "xpReward": 45,
-      "url": "https://dev.to/quillroo/how-much-tax-should-a-sole-trader-set-aside-in-australia-2026-27-a-worked-example-ln0",
-      "image": "/images/feed/feed-c3c080234363.webp",
+      "url": "https://dev.to/board_it_b11ff7d58bf863f8/how-long-does-a-ludo-game-last-30024-simulated-games-counted-in-rounds-3a3i",
+      "image": "/images/feed/feed-20707903c3c2.jpg",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-ff3cdc2471b5",
-      "title": "The Python Copy Bug That Looks Fine in Code Review",
-      "excerpt": "Here is a bug that is easy to ship. A function takes a dict of default settings and hands each new user a copy. Someone adds a tag to one user. Every future user now has that tag too. The code looks h…",
-      "body": "Here is a bug that is easy to ship. A function takes a dict of default settings and hands each new user a copy. Someone adds a tag to one user. Every future user now has that tag too. The code looks harmless. Each block below runs on its own, and the output under it is what Python 3.13 printed. defaults = { \" theme \" : \" dark \" , \" tags \" : [ \" new \" ]} user_a = defaults . copy () user_a [ \" tags \" ]. append ( \" beta \" ) print ( \" 1. shallow copy, then append \" ) print ( \" defaults: \" , defaults ) print ( \" user_a : \" , user_a ) print ( \" same inner list? \" , user_a [ \" tags \" ] is defaults [ \" tags \" ]) 1. shallow copy, then append defaults: {'theme': 'dark', 'tags': ['new', 'beta']} user_a : {'theme': 'dark', 'tags': ['new', 'beta']} same inner list?",
-      "author": "Real Dev",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Python"
-      ],
-      "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/realdev9868/the-python-copy-bug-that-looks-fine-in-code-review-9k",
-      "image": "/images/feed/feed-ff3cdc2471b5.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-b4003570d9e3",
-      "title": "Type a pipe() That Checks Every Step: Variadic Tuples, infer and One Recursive Type",
-      "excerpt": "Book: The TypeScript Type System Also by me: The TypeScript Library — the 5-book collection My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools…",
-      "body": "Book: The TypeScript Type System Also by me: The TypeScript Library — the 5-book collection My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub Open Effect 's Function.ts and count the signatures of pipe . There are 20: one for a bare value, then one more for every extra function, up to 19. RxJS 7's standalone pipe types nine functions and then falls back to a catch-all signature that returns UnaryFunction&lt;T, unknown&gt; . Hand it a tenth function and the output type is gone. Those libraries know exactly what they are doing. When TypeScript 4.0 shipped variadic tuple types, the release notes called this pattern \"death by a thousand overloads\" , and overloads are still how the big libraries type pipe .",
-      "author": "Gabriel Anhaia",
+      "id": "feed-c1852d3d9fde",
+      "title": "How Caesar Hid His Messages in Plain Sight",
+      "excerpt": "Two thousand years ago, a rider carried a letter across enemy territory, knowing that if he was caught, the letter would be read, the plan would die, and so would he. Julius Caesar had a fix for that.…",
+      "body": "Two thousand years ago, a rider carried a letter across enemy territory, knowing that if he was caught, the letter would be read, the plan would die, and so would he. Julius Caesar had a fix for that. He assumed his letters would be caught. So he wrote them in a way that made reading them useless. The trick was almost embarrassingly simple. When Caesar had something confidential to say, he wrote each letter as the letter three places further down the alphabet. A became D. B became E. The Roman writer Suetonius, who read Caesar's private letters, tells us exactly how it worked: to read one, you substitute the fourth letter of the alphabet, D, for A, and so on. So \"ATTACK AT DAWN\" became \"DWWDFN DW GDZQ\".",
+      "author": "Aha Lantern",
       "date": "2026-10-17",
       "readTime": "2 min",
       "section": "software",
@@ -52,37 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 52,
-      "url": "https://dev.to/gabrielanhaia/type-a-pipe-that-checks-every-step-variadic-tuples-infer-and-one-recursive-type-2pah",
-      "image": "/images/feed/feed-b4003570d9e3.webp",
+      "xpReward": 46,
+      "url": "https://dev.to/ahalantern/how-caesar-hid-his-messages-in-plain-sight-3j2o",
+      "image": "/images/feed/feed-c1852d3d9fde.jpg",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-58038c8df4d1",
-      "title": "Agent Skills Go to the Lab",
-      "excerpt": "Agent Skills Go to the Lab Three signals landed in the same 24-hour window on October 16, 2026. On GitHub Trending, K-Dense-AI/scientific-agent-skills was pulling 1,158 stars per day, sitting at 51,28…",
-      "body": "Agent Skills Go to the Lab Three signals landed in the same 24-hour window on October 16, 2026. On GitHub Trending, K-Dense-AI/scientific-agent-skills was pulling 1,158 stars per day, sitting at 51,288 total — making it the third-fastest mover on the board. On X, Sakana AI's David Ha ( @hardmaru ) shipped AI Scientist v3, branded \"The Agentic Scientist,\" alongside the MASS paper on recursive self-improvement via multi-agent self-supervision. And in Karlsruhe, the Energy Materials Acceleration Platform (E-MAP) at KIT continued demonstrating that autonomous robotic labs are no longer a grant proposal — they are running experiments in glovebox-sealed environments, mixing semiconductor inks, depositing thin films, and measuring the results without a human touching a pipette.",
-      "author": "Max Quimby",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/max_quimby/agent-skills-go-to-the-lab-10cj",
-      "image": "/images/feed/feed-58038c8df4d1.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-c71a9af249e4",
-      "title": "Turn a Job Role Into an Agent Task Spec: Scope, Limits and Escalation in Code",
-      "excerpt": "When a team says \"we want an AI employee\", the first job is not picking a model. It is cutting a role into tasks you can specify, limit and check. Here is one way to write that down as code. This is a…",
-      "body": "When a team says \"we want an AI employee\", the first job is not picking a model. It is cutting a role into tasks you can specify, limit and check. Here is one way to write that down as code. This is an illustrative role (sales operations analyst), not a customer story. I have no performance numbers to share. Step 1: List tasks, not the role from dataclasses import dataclass , field from typing import Literal @dataclass class TaskSpec : name : str inputs : list [ str ] allowed_tools : list [ str ] output : str owner : str # a named human escalate_when : list [ str ] = field ( default_factory = list ) mode : Literal [ \" workflow \" , \" agent \" ] = \" workflow \" TASKS = [ TaskSpec ( \" clean_lead_list \" , [ \" crm.leads \" ], [ \" crm.read \" , \" crm.update_field \" ], \" list of fixes with reasons \"…",
-      "author": "Tej Pandya",
+      "id": "feed-38f72ab6b1da",
+      "title": "I wouldn’t trust an AI agent to cron alone anymore — 8 reliability rules I’d ship by Friday",
+      "excerpt": "The biggest improvement I ever made to an AI agent had nothing to do with prompts. It was this: I stopped treating agents like magical reasoning machines and started treating them like boring backgrou…",
+      "body": "The biggest improvement I ever made to an AI agent had nothing to do with prompts. It was this: I stopped treating agents like magical reasoning machines and started treating them like boring background jobs. That one mindset shift fixed more production issues than any model upgrade. Before that, I had the usual architecture fantasy: clean prompt neat cron schedule GPT-5 or Claude doing the hard part a little retry logic done That setup works right up until: the same trigger fires twice the same customer gets emailed twice a long-running job overlaps the next run cron silently misses a run on Sunday your agent dies quietly and nobody notices until Monday So this is not a prompt guide. This is the setup guide I’d actually use for unattended AI agents in production.",
+      "author": "Lars Winstand",
       "date": "2026-10-17",
       "readTime": "2 min",
       "section": "software",
@@ -91,46 +72,65 @@
       ],
       "featured": true,
       "xpReward": 53,
-      "url": "https://dev.to/tej_pandya_a973bc2256ba93/turn-a-job-role-into-an-agent-task-spec-scope-limits-and-escalation-in-code-1ca7",
-      "image": "/images/feed/feed-c71a9af249e4.webp",
+      "url": "https://dev.to/lars_winstand/i-wouldnt-trust-an-ai-agent-to-cron-alone-anymore-8-reliability-rules-id-ship-by-friday-82k",
+      "image": "/images/feed/feed-38f72ab6b1da.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-136008401984",
-      "title": "How to Build Ultra-Fast WordPress Sites in 2026: The Essential Developer Stack",
-      "excerpt": "Every web developer knows the struggle: a client wants a visually stunning website with sliders, custom forms, and dynamic animations, but they also demand a 95+ score on Google PageSpeed Insights. Wo…",
-      "body": "Every web developer knows the struggle: a client wants a visually stunning website with sliders, custom forms, and dynamic animations, but they also demand a 95+ score on Google PageSpeed Insights. WordPress can easily get bloated if you stack plugins blindly. However, with the right modern developer stack, you can achieve lightning-fast loading speeds, clean database queries, and modular designs. Here is the 5-tool developer stack we use to build high-performance client sites in 2026: 1. The Lightweight Foundation: Astra Pro A fast website starts with clean theme architecture. Unlike heavy legacy themes packed with thousands of unused stylesheets, a lightweight theme like Astra Pro loads in less than 0.5 seconds with vanilla JavaScript.",
-      "author": "GeniusWP",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Developer"
-      ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/geniuswp/how-to-build-ultra-fast-wordpress-sites-in-2026-the-essential-developer-stack-3mgn",
-      "image": "/images/feed/feed-136008401984.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-bab247179d16",
-      "title": "“This app might stop working soon”: Atlassian Connect apps",
-      "excerpt": "On 9 October an admin wrote on Figma's forum that they had \"received a notification indicating that your app may stop working after January 2027\", and asked what it meant for their site. Connect end o…",
-      "body": "On 9 October an admin wrote on Figma's forum that they had \"received a notification indicating that your app may stop working after January 2027\", and asked what it meant for their site. Connect end of support begins on 31 January 2027, 106 days from the day I'm writing this. On our own test site the admin screen gave two different dates for it. Figma answered the next day. They assumed the admin meant Figma for Jira and said they plan to move it to Forge \"by the end of the year\". I liked that answer, because for most apps only the vendor can give it. If you've seen \"This app might stop working soon\", or one of its cousins, on a Jira or Confluence app, Atlassian is telling you the app still has Connect parts. On our test site the Connected apps page tagged 4 of its 57 entries Legacy.",
-      "author": "Mihai Perdum",
+      "id": "feed-3ac99bb27606",
+      "title": "What's the Most Boring Task You've Automated with n8n?",
+      "excerpt": "Most of the n8n posts I read (and most of the ones I write) are about the clever part: the LLM node, the agent loop, the prompt. But when I look at the ten small-business workflows I've built on self-…",
+      "body": "Most of the n8n posts I read (and most of the ones I write) are about the clever part: the LLM node, the agent loop, the prompt. But when I look at the ten small-business workflows I've built on self-hosted n8n, the ones I'd actually keep running are the dull ones. So this is a question post, not a tutorial. I want to hear about yours. My boring shortlist Here are the three least exciting things I've built, and why I like them anyway. 1. Turning a weekly metrics table into a short brief. A Schedule trigger fetches the numbers over HTTP, a Code node builds a prompt, one LLM call turns them into a plain-language brief (a headline, wins, concerns, and one thing to focus on), and it gets posted to Slack. Nobody would demo this.",
+      "author": "Crzy undefined (undefined)",
       "date": "2026-10-17",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
+      "featured": true,
+      "xpReward": 43,
+      "url": "https://dev.to/crzy_undefinedundefined/whats-the-most-boring-task-youve-automated-with-n8n-89g",
+      "image": "/images/feed/feed-3ac99bb27606.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-cd7c10d5ce56",
+      "title": "Transpile or Re-Ask: Fixing Dialect Breaks in Agent-Written SQL",
+      "excerpt": "A quarterly reporting job moved from Postgres to MySQL last spring, and every agent-drafted query in the pipeline kept parsing fine while returning the wrong rows. I have already described one loud fa…",
+      "body": "A quarterly reporting job moved from Postgres to MySQL last spring, and every agent-drafted query in the pipeline kept parsing fine while returning the wrong rows. I have already described one loud failure on this account, an AI-generated query that locked a production table, but this quieter class of break costs more engineering hours. The model never sees the target engine, so it keeps writing date_trunc('month', ...) and ON CONFLICT long after those idioms stop meaning anything. Below is the debate I ran against my own fixture set, plus the decision rule I now apply before touching a prompt. Where agent SQL actually breaks Dialect drift looks like a syntax problem and usually is not one.",
+      "author": "Morgan Li",
+      "date": "2026-10-17",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 51,
+      "url": "https://dev.to/dataio_4921/transpile-or-re-ask-fixing-dialect-breaks-in-agent-written-sql-2aa5",
+      "image": "/images/feed/feed-cd7c10d5ce56.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-f55c503feda2",
+      "title": "Getting Ready for Hacktoberfest 2026 🚀 | My Open Source Journey Begins",
+      "excerpt": "I’m excited to be part of the open-source community this Hacktoberfest! 🌍💻 As a student and aspiring developer, I believe open source is one of the best ways to learn, collaborate, and build real-wo…",
+      "body": "I’m excited to be part of the open-source community this Hacktoberfest! 🌍💻 As a student and aspiring developer, I believe open source is one of the best ways to learn, collaborate, and build real-world skills. I’m also registered for the Hacktoberfest Meetup at Lovely Professional University (LPU), Phagwara, on October 23, 2026, hosted by the AWS Student Builder Group at LPU. 🎯 What I Want to Learn Through Hacktoberfest, I want to: 🌱 Understand how open-source contributions work. 🔀 Learn more about Git, GitHub, branches, commits, and pull requests. 🛠️ Explore real-world repositories and find projects to contribute to. 🤝 Connect with developers and learn from their experiences. 💡 Improve my coding skills by contributing to meaningful projects. 💻 Why Open Source?",
+      "author": "Ayush Pandey",
+      "date": "2026-10-17",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Open Source"
+      ],
       "featured": false,
-      "xpReward": 42,
-      "url": "https://dev.to/mihai_leanzero/this-app-might-stop-working-soon-atlassian-connect-apps-6fm",
-      "image": "/images/feed/feed-bab247179d16.webp",
+      "xpReward": 38,
+      "url": "https://dev.to/ayush_pandey_b1b61df6fe5a/getting-ready-for-hacktoberfest-2026-my-open-source-journey-begins-26c4",
+      "image": "/images/feed/feed-f55c503feda2.webp",
       "source": "Dev.to",
       "isLive": true
     },
@@ -147,7 +147,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 41,
       "url": "https://science.nasa.gov/image-article/apod-2026-october-17-3d-67p/",
       "image": "/images/feed/feed-a89168c1985a.jpg",
       "source": "NASA Breaking News",
@@ -166,7 +166,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 44,
       "url": "https://www.polygon.com/pokemon-pokopia-event-habitat-dex-pokedex-list-requirements-unlock/",
       "image": "/images/feed/feed-b062dff01e4a.jpg",
       "source": "Polygon",
@@ -204,7 +204,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 39,
       "url": "https://www.polygon.com/pokemon-pokopia-pumpkaboos-sweet-surprises-gourgeist-habitats-items/",
       "image": "/images/feed/feed-93923617556e.jpg",
       "source": "Polygon",
@@ -223,7 +223,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 37,
       "url": "https://www.polygon.com/best-mystery-tv-shows-worth-solving/",
       "image": "/images/feed/feed-f046887b804d.jpg",
       "source": "Polygon",
@@ -242,7 +242,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 43,
       "url": "https://www.polygon.com/redwall-fantasy-book-series-2027-release-orphans-of-mossflower/",
       "image": "/images/feed/feed-ee0cd4f33aa3.jpg",
       "source": "Polygon",
@@ -261,7 +261,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 39,
       "url": "https://www.engadget.com/2289475/tesla-roadster-2028-production-dont-get-hopes-up/",
       "image": "/images/feed/feed-9b6854d030d3.jpg",
       "source": "Engadget",
@@ -280,7 +280,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 31,
       "url": "https://cleantechnica.com/2026/10/16/hello-toronto-waymo-is-en-route/",
       "image": "/images/feed/feed-6aa59f762222.jpg",
       "source": "CleanTechnica",
@@ -299,7 +299,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/10/16/u-s-small-scale-solar-generation-has-quadrupled-in-the-last-decade/",
       "image": "/images/feed/feed-4260fcc3c257.png",
       "source": "CleanTechnica",
@@ -318,7 +318,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 47,
       "url": "https://www.polygon.com/gta-6-trump-rockstar-games/",
       "image": "/images/feed/feed-ab20739df951.jpg",
       "source": "Polygon",
@@ -337,7 +337,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 54,
       "url": "https://cleantechnica.com/2026/10/16/franco-german-car-deal-a-historic-mistake-that-weakens-climate-ambition-and-europes-car-industry/",
       "image": "/images/feed/feed-e7ec214b649a.png",
       "source": "CleanTechnica",
@@ -375,7 +375,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 34,
       "url": "https://cleantechnica.com/2026/10/16/delaying-ets2-will-not-protect-households-from-the-next-energy-crisis/",
       "image": "/images/feed/feed-c75039a09a9b.jpg",
       "source": "CleanTechnica",
@@ -394,7 +394,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 50,
       "url": "https://cleantechnica.com/2026/10/16/publishing-your-book-through-cleantechnica-press/",
       "image": "/images/feed/feed-9b193e08ce94.png",
       "source": "CleanTechnica",
@@ -413,7 +413,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 35,
       "url": "https://www.theverge.com/tech/1010131/apple-iphone-duo-news-announcements",
       "image": "/images/feed/feed-e8f6ba7bfa2b.jpg",
       "source": "The Verge",
@@ -432,7 +432,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 47,
       "url": "https://www.ign.com/articles/red-rising-greenlit-for-movie-adaptation-with-author-pierce-brown-to-produce",
       "image": "/images/feed/feed-87dca4c4d1f8.jpg",
       "source": "IGN",
@@ -451,7 +451,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/10/16/delorean-flying-car-tesla-roadster-evtol-evs-race/",
       "image": "/images/feed/feed-bac9d071a779.png",
       "source": "CleanTechnica",
@@ -470,7 +470,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 51,
       "url": "https://9to5mac.com/2026/10/16/apple-poaches-longtime-meta-executive-to-lead-global-litigation/",
       "image": "/images/feed/feed-210a8ba382fd.jpg",
       "source": "9to5Mac",
@@ -489,7 +489,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 50,
       "url": "https://9to5mac.com/2026/10/16/apples-new-app-store-rules-crack-down-on-ai-nudification-and-bait-and-switch-apps/",
       "image": "/images/feed/feed-db296dd95ac8.jpg",
       "source": "9to5Mac",
@@ -509,7 +509,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 40,
       "url": "https://www.space.com/space-exploration/international-space-station/it-really-does-change-you-spacex-crew-12-commander-wishes-we-could-all-see-our-fragile-earth-from-space",
       "image": "/images/feed/feed-5c69c8261033.jpg",
       "source": "Space.com",
@@ -528,7 +528,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 54,
       "url": "https://9to5mac.com/2026/10/16/daily-october-16-2026/",
       "image": "/images/feed/feed-211ca4a9fa13.jpg",
       "source": "9to5Mac",
@@ -547,7 +547,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 45,
       "url": "https://www.androidauthority.com/razer-kraken-v4-x-deal-3724679/",
       "image": "/images/feed/feed-6439bc6b56ba.jpg",
       "source": "Android Authority",
@@ -566,7 +566,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 41,
       "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "image": "/images/feed/feed-13131774e811.jpg",
       "source": "TechCrunch",
@@ -585,7 +585,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 46,
       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
       "image": "/images/feed/feed-3813289f4d22.jpg",
       "source": "Ars Technica",
@@ -604,7 +604,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 34,
       "url": "https://electrek.co/2026/10/16/montreal-airport-120-ev-chargers-with-48-more-coming/",
       "image": "/images/feed/feed-41103028b437.jpg",
       "source": "Electrek",
@@ -624,7 +624,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 38,
       "url": "https://www.nasa.gov/news-release/nasa-names-stephen-cash-marshall-space-flight-center-director/",
       "image": "/images/feed/feed-5f818ef0e046.jpg",
       "source": "NASA Breaking News",
@@ -643,7 +643,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 44,
       "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
       "image": "/images/feed/feed-32b7a245aa33.jpg",
       "source": "BleepingComputer",
@@ -662,7 +662,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 34,
       "url": "https://www.space.com/stargazing/when-not-to-watch-a-meteor-shower-why-im-not-staying-up-for-the-orionids",
       "image": "/images/feed/feed-cbbdc65e24b2.jpg",
       "source": "Space.com",
@@ -681,7 +681,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 49,
       "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
       "image": "/images/feed/feed-23bf1b38da89.png",
       "source": "Hacker News",
@@ -700,7 +700,7 @@
         "Transformer"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 30,
       "url": "https://alexwang.ai/posts/associative-memory/",
       "image": "/images/feed/feed-535f3eb25ab6.jpg",
       "source": "Hacker News",
@@ -719,7 +719,7 @@
         "Generative Ai"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 48,
       "url": "https://openai.com/index/itau-generative-ai",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -738,7 +738,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 42,
       "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
       "image": "/images/feed/feed-9b62eabe5d6e.jpg",
       "source": "Hacker News",
@@ -757,7 +757,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 35,
       "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
       "image": "/images/feed/feed-f3b806371614.jpg",
       "source": "Hacker News",
@@ -776,7 +776,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 42,
       "url": "https://www.space.com/astronomy/exoplanets/scientists-find-gemstones-in-atmosphere-of-bizarre-scorching-hot-marshmallow-exoplanet",
       "image": "/images/feed/feed-ee718a04f87d.png",
       "source": "Space.com",
@@ -795,7 +795,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 37,
       "url": "https://www.space.com/stargazing/meteor-showers/how-to-see-the-orionid-meteor-shower-2026-peak-this-week-and-when-to-look",
       "image": "/images/feed/feed-f946e1b35459.jpg",
       "source": "Space.com",
@@ -814,7 +814,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 31,
       "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
       "image": "/images/feed/feed-11f986cc77fa.jpg",
       "source": "The Hacker News",
@@ -834,7 +834,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 45,
       "url": "https://www.space.com/technology/spacex-thrusters-just-made-a-tesla-roadster-fly-and-elon-musks-car-is-still-out-there-in-space",
       "image": "/images/feed/feed-eb657180d7e4.jpg",
       "source": "Space.com",
@@ -853,7 +853,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 53,
       "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
       "image": "/images/feed/feed-a7cd17142097.jpg",
       "source": "BleepingComputer",
@@ -872,7 +872,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 49,
       "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
       "image": "/images/feed/feed-d6e1ba04aac2.jpg",
       "source": "The Hacker News",
@@ -891,7 +891,7 @@
         "Phishing"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 45,
       "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
       "image": "/images/feed/feed-e7302d916453.jpg",
       "source": "The Hacker News",
@@ -910,7 +910,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 54,
       "url": "https://calif.io/research/big-fish",
       "image": "/images/topics/topic-cybersecurity.png",
       "source": "Hacker News",
@@ -929,7 +929,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 36,
       "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
       "image": "/images/feed/feed-d7e4fe5180d6.jpg",
       "source": "BleepingComputer",
@@ -937,13 +937,13 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: How much tax should a sole trader set aside in Australia (2026-27)? A worked example",
-    "DEV.TO: The Python Copy Bug That Looks Fine in Code Review",
-    "DEV.TO: Type a pipe() That Checks Every Step: Variadic Tuples, infer and One Recursive Type",
-    "DEV.TO: Agent Skills Go to the Lab",
-    "DEV.TO: Turn a Job Role Into an Agent Task Spec: Scope, Limits and Escalation in Code",
-    "DEV.TO: How to Build Ultra-Fast WordPress Sites in 2026: The Essential Developer Stack",
-    "DEV.TO: “This app might stop working soon”: Atlassian Connect apps",
+    "DEV.TO: Word choice in a drawing game: designing so no drawer gets an impossible word",
+    "DEV.TO: How long does a Ludo game last? 30,024 simulated games, counted in rounds",
+    "DEV.TO: How Caesar Hid His Messages in Plain Sight",
+    "DEV.TO: I wouldn’t trust an AI agent to cron alone anymore — 8 reliability rules I’d ship by Friday",
+    "DEV.TO: What's the Most Boring Task You've Automated with n8n?",
+    "DEV.TO: Transpile or Re-Ask: Fixing Dialect Breaks in Agent-Written SQL",
+    "DEV.TO: Getting Ready for Hacktoberfest 2026 🚀 | My Open Source Journey Begins",
     "NASA BREAKING NEWS: APOD: 2026 October 17 – 3D 67P",
     "POLYGON: Event Habitat Dex and Pokédex list in Pokémon Pokopia",
     "POLYGON: Pokémon Pokopia event schedule"
