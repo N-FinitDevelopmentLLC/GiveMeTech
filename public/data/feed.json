@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-18T07:22:56.410Z",
+  "fetchedAt": "2026-10-18T08:11:46.138Z",
   "articles": [
     {
-      "id": "feed-458abe702312",
-      "title": "Architecture Review: Borrowed Capacity, Owned Exit",
-      "excerpt": "Borrow the model. Own the exit. That is the whole review. Most teams add a free inference lane the same way. They wire a key, run a demo, and move on. Nothing breaks until the lane gets slow or tight.…",
-      "body": "Borrow the model. Own the exit. That is the whole review. Most teams add a free inference lane the same way. They wire a key, run a demo, and move on. Nothing breaks until the lane gets slow or tight. Then the demo becomes an outage with no owner. So I run the review in a fixed order. Constraints first. Data flow second. Failure domains third. A small script keeps everyone honest. Disclosure: This article was prepared as part of MonkeyCode's product outreach. MonkeyCode is an open-source project that offers free model access and a free server option. The operator states the free tier includes 10 million tokens. Treat that number and the server terms as current-at-writing claims. Confirm both on the project page before you size anything against them.",
-      "author": "Harper Xu",
+      "id": "feed-41cb3be21b9c",
+      "title": "I ran a signed PDF through 5 compressors. Two of them deleted the signature",
+      "excerpt": "I ran one signed PDF through five compressors. Every single output failed signature validation. The part that bothers me most is not the broken signatures. It is the two tools that deleted the signatu…",
+      "body": "I ran one signed PDF through five compressors. Every single output failed signature validation. The part that bothers me most is not the broken signatures. It is the two tools that deleted the signature outright, because those files look perfectly normal afterwards. The test file I didn't want to use a real contract, so I built a fake one: a one-page agreement that literally says \"fictional, for testing only\", with a 1800×1200 synthetic image on it. I made a throwaway root CA and a fictional signer with openssl, then signed the file with pyHanko. The signed file is 931,980 bytes. To check signatures I used two validators, poppler's pdfsig and pyHanko's own validation, both configured to trust only my test root.",
+      "author": "NullPointerZen",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/codepro_4664/architecture-review-borrowed-capacity-owned-exit-4ein",
-      "image": "/images/feed/feed-458abe702312.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/yue_shu_c621a4a637f22396f/i-ran-a-signed-pdf-through-5-compressors-two-of-them-deleted-the-signature-2cl3",
+      "image": "/images/feed/feed-41cb3be21b9c.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-31c757998b9a",
-      "title": "The Burn-Rate Gate: A Fail-Closed Checklist for Shipping on a Free AI Allowance",
-      "excerpt": "Your free allowance does not run out by accident. It runs out on a schedule nobody computed. Three numbers decide whether a free-tier AI build survives its launch day: what you were granted, what the…",
-      "body": "Your free allowance does not run out by accident. It runs out on a schedule nobody computed. Three numbers decide whether a free-tier AI build survives its launch day: what you were granted, what the provider says you consumed, and what you reserved for rollback. Most teams watch the first, guess at the second, and never write down the third. Then a demo stalls two-thirds of the way through and everyone blames the model. This is a production-readiness checklist plus a small runnable gate for that arithmetic. It assumes the model access and the server are free — which makes the failure cheap to repair and just as easy to ignore. The failure mode is arithmetic, not availability Free tiers rarely fall over. They reach zero. Granted : a number someone published, revocable without notice.",
-      "author": "Taylor Zhu",
+      "id": "feed-cde215a02b02",
+      "title": "The 2026 OLED Monitor Wave: 6.1 Million Panels, Dual-Mode 480Hz, and the End of the Text-Fringing Excuse",
+      "excerpt": "This article contains affiliate links. If you buy through them, we may earn a commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. On October 8, 2026, Omdia dr…",
+      "body": "This article contains affiliate links. If you buy through them, we may earn a commission at no extra cost to you. As an Amazon Associate we earn from qualifying purchases. On October 8, 2026, Omdia dropped a number that reframes the monitor market: 6.1 million OLED monitor panels will ship in 2026, up 79% from 2025 , with 7.5 million forecast for 2027. TrendForce’s Q2 data tells the same story from another angle – OLED monitor shipments nearly doubled year over year in Q2 2026 (+98%), driven largely by new 27-inch models. Meanwhile the total monitor market sits at roughly 125-130 million units a year. OLED is still a single-digit slice of that pie. It is just the slice growing fastest, and 2026 is the year the wave became undeniable. But shipment forecasts are not a buying guide.",
+      "author": "Python OLED",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/codecpp_5026/the-burn-rate-gate-a-fail-closed-checklist-for-shipping-on-a-free-ai-allowance-37if",
-      "image": "/images/feed/feed-31c757998b9a.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/pythonoled/the-2026-oled-monitor-wave-61-million-panels-dual-mode-480hz-and-the-end-of-the-text-fringing-5efa",
+      "image": "/images/feed/feed-cde215a02b02.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-0827d3611d55",
-      "title": "Case Study: A Checklist Bot Built to Keep Working When the Model Is Down",
-      "excerpt": "Case Study: A Checklist Bot Built to Keep Working When the Model Is Down The cheapest model call is the one your system can survive without. That sentence became the design rule for a small internal t…",
-      "body": "Case Study: A Checklist Bot Built to Keep Working When the Model Is Down The cheapest model call is the one your system can survive without. That sentence became the design rule for a small internal tool I finished over two weekends: a bot that turns a pull-request diff into a short reviewer checklist. The interesting part is not the prompt; it is the rule that the tool must return something useful at every level of degradation, including the level where no model answers at all. Below is the whole project end to end, including the budgeter, the fallback ladder, the fixture test plan, and the parts I would not do again.",
-      "author": "Dakota Liu",
+      "id": "feed-a8d562c8bfbc",
+      "title": "pdfsig said my edited signed PDF was still valid, so I compare ByteRange with the file size",
+      "excerpt": "I appended one line of text to the page content of a signed PDF, then ran pdfsig on it. It printed \"Signature is Valid\". pyHanko looked at the same file and called it an illegal modification. Both are…",
+      "body": "I appended one line of text to the page content of a signed PDF, then ran pdfsig on it. It printed \"Signature is Valid\". pyHanko looked at the same file and called it an illegal modification. Both are right about different things, and that gap is why I ended up writing a small check that compares a signature's ByteRange with the file size. Some context. Our upload service compresses PDFs before storing them, and the business side recently started sending signed contracts through it. Before letting compression touch those, I wanted two answers from code: does this file carry a signature, and has anything happened to the file since it was signed.",
+      "author": "hao jia",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/devrs_9381/case-study-a-checklist-bot-built-to-keep-working-when-the-model-is-down-2m9a",
-      "image": "/images/feed/feed-0827d3611d55.webp",
+      "xpReward": 42,
+      "url": "https://dev.to/iterandum/pdfsig-said-my-edited-signed-pdf-was-still-valid-so-i-compare-byterange-with-the-file-size-p6e",
+      "image": "/images/feed/feed-a8d562c8bfbc.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-5171659d68d8",
-      "title": "I benchmarked Jev's box tool on ScreenSpot-v2 and ScreenSpot-Pro. Here is how well it reads a screen",
-      "excerpt": "If you're building an agent on Jev, you want to know one thing about its new box tool: can it find what your agent needs to click? I tested it on ScreenSpot, the standard benchmark for this. The short…",
-      "body": "If you're building an agent on Jev, you want to know one thing about its new box tool: can it find what your agent needs to click? I tested it on ScreenSpot, the standard benchmark for this. The short version is that size decides everything. On normal screens it hits 84%. In 4K pro apps, where the typical target is 21 pixels in the image Jev sees, it drops to 19%. Zooming in on its first answer brings it back to 43%. The long version ends with 5 rules for a harness. The orange bars are Jev on ScreenSpot-Pro. The bottom one is the raw 19%, next to Claude Sonnet 4. The other two are the same model looking twice and three times, with nothing trained. Only the harness changed. Some context first. Jev is already the action picker in a lot of computer use agents.",
-      "author": "Arthur Katcher",
+      "id": "feed-d34dbd6b4b37",
+      "title": "Quy Uớc Đặt Tên (Naming Conventions) Trong Java",
+      "excerpt": "Quy ước đặt tên là một tập hợp các quy tắc thống nhất về cách đặt tên cho các thành phần ngôn ngữ như class, biến, phương thức, v.v. trong Java. Việc tuân theo quy ước đặt tên giúp code dễ đọc, dễ hiể…",
+      "body": "&nbsp;&nbsp;&nbsp;&nbsp; Quy ước đặt tên là một tập hợp các quy tắc thống nhất về cách đặt tên cho các thành phần ngôn ngữ như class, biến, phương thức, v.v. trong Java. Việc tuân theo quy ước đặt tên giúp code dễ đọc, dễ hiểu và dễ bảo trì. Dưới đây là một số quy ước đặt tên phổ biến trong Java: Quy ước đặt tên trong Java Ⅰ. Quy ước CamelCase &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CamelCase là quy ước đặt tên thường được sử dụng để đặt tên cho biến, phương thức và class. Trong CamelCase, chữ cái đầu tiên của mỗi từ được viết hoa, ngoại trừ chữ cái đầu tiên của từ đầu tiên. Quy ước CamelCase myVariableName calculateAverage() CustomerAccount Ⅱ. Quy ước PascalCase &nbsp;&nbsp;&nbsp;&nbsp;PascalCase là quy ước đặt tên thường được sử dụng để đặt tên cho class và interface.",
+      "author": "Tiểu Share",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -71,18 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/arthurkatcher/i-benchmarked-jevs-box-tool-on-screenspot-v2-and-screenspot-pro-here-is-how-well-it-reads-a-screen-32fb",
-      "image": "/images/feed/feed-5171659d68d8.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/tieushare/quy-uoc-dat-ten-naming-conventions-trong-java-4jbb",
+      "image": "/images/feed/feed-d34dbd6b4b37.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-acf40b570b51",
-      "title": "Building a Payment Reconciliation Engine That Catches Fee Mismatches and Settlement Errors",
-      "excerpt": "Every payment company has the same quiet problem: the money a customer paid, the fee that was charged, and the amount that finally settled to the merchant should all agree. When they don't, someone ha…",
-      "body": "Every payment company has the same quiet problem: the money a customer paid, the fee that was charged, and the amount that finally settled to the merchant should all agree. When they don't, someone has to find out why, and that someone is usually looking through spreadsheets. I built AI Finance Controller , a reconciliation engine that checks payments automatically and flags settlement discrepancies, fee mismatches, and payment lifecycle anomalies. On my adversarial validation datasets it reached 100% precision and 93.7% recall . This post covers how it works and how I tested it. What goes wrong in payment reconciliation A single payment passes through several states: created, authorized, captured, settled, and sometimes refunded.",
-      "author": "Vishal Mundewadi",
+      "id": "feed-9047f0e0ffab",
+      "title": "DishReactions is a free, offline app that records customer reactions per order and shows a live chart of which dish gets the best reviews.",
+      "excerpt": "*This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle DishReactions — a local-first app for small restaurants that records customer reaction on every order and shows…",
+      "body": "*This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built DishReactions — a local-first app for small restaurants that records customer reaction on every order and shows a live chart of which dish gets the best reviews. Problem: Restaurants guess popularity from sales alone. Sales don't tell you if customers actually loved the dish or just ordered it because it was cheap. *Solution: After each order, staff records in 10 seconds: Dish + Order # + 1-5 Stars + Emoji Reaction (😍 Loved it / 😋 Tasty / 😐 Okay / 😕 Not good / 🤢 Bad) + optional comment. The app instantly updates a ranked bar chart, a 🏆 Winner badge, recent reactions table, and a downloadable CSV report. *Who would pay? Small restaurants, dhabas, and cafes. They would pay Rs.",
+      "author": "eshaal-wq",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -90,18 +90,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/vishal_mundewadi_56l/building-a-payment-reconciliation-engine-that-catches-fee-mismatches-and-settlement-errors-3icl",
-      "image": "/images/feed/feed-acf40b570b51.webp",
+      "xpReward": 39,
+      "url": "https://dev.to/eshaalwq/dishreactions-is-a-free-offline-app-that-records-customer-reactions-per-order-and-shows-a-live-2k11",
+      "image": "/images/feed/feed-9047f0e0ffab.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-890f8b7642e6",
-      "title": "Stop Shopping for Models: Your Harness Is the Only Asset You Keep",
-      "excerpt": "The opinion, up front Model choice is a commodity decision. The harness that proves a model is good enough is the asset. Most teams have this exactly backwards. They spend three weeks reading leaderbo…",
-      "body": "The opinion, up front Model choice is a commodity decision. The harness that proves a model is good enough is the asset. Most teams have this exactly backwards. They spend three weeks reading leaderboards. They spend one afternoon writing the test that decides the switch. Then they argue about models again next quarter. Free tiers make this worse, not better. Cheap access invites endless shopping. My position is blunt: pick a model in an hour, then spend a month hardening the swap path. Everything below is that swap path. Portability beats preference You will change models. Prices move, endpoints deprecate, defaults shift under you. That is not a prediction. That is the normal lifecycle of a dependency. If your prompts live inside SDK-specific calls, every change is a migration.",
-      "author": "Emery Chen",
+      "id": "feed-4bbe94754ead",
+      "title": "🚀 Grosse mise à jour",
+      "excerpt": "🚀 Grosse mise à jour sur coddyrun.fr ! Ces dernières semaines, le site a beaucoup changé. Voici tout ce qui vous attend 👇 ⚔️ NOUVEAU : les Défis 💬 Le t'chat en direct @pseudo, liste des membres con…",
+      "body": "🚀 Grosse mise à jour sur coddyrun.fr ! Ces dernières semaines, le site a beaucoup changé. Voici tout ce qui vous attend 👇 ⚔️ NOUVEAU : les Défis Un problème à résoudre en CoddyRun, proposé par un enseignant, un développeur ou un expert de la communauté. Vous cherchez, vous programmez, vous envoyez votre réponse… et la solution se dévoile au bout de 5 jours, avec les réponses des autres participants. L'auteur peut même vous dire « Bravo » ! 💬 Le t'chat en direct Discutez en temps réel avec les autres membres : partage de code, mentions @pseudo , liste des membres connectés, anti-flood et filtre anti-insultes pour garder une ambiance sympa. Coddy, notre bot, vous présente de temps en temps les projets de la communauté (et vous pouvez masquer ses annonces).",
+      "author": "CoddyRun",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -109,29 +109,48 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/airs_6907/stop-shopping-for-models-your-harness-is-the-only-asset-you-keep-2o9o",
-      "image": "/images/feed/feed-890f8b7642e6.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/coddyrun/grosse-mise-a-jour-4a8g",
+      "image": "/images/feed/feed-4bbe94754ead.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-318864651391",
-      "title": "eSIM Glossary for Developers: SM-DP+, LPA, ICCID, EID and Activation Codes Explained",
-      "excerpt": "If you're adding eSIM to a travel, banking or mobility app, the first week usually goes to vocabulary. Provider docs mention SM-DP+, LPA, ICCID, EID, matching IDs and profile states as if everyone alr…",
-      "body": "If you're adding eSIM to a travel, banking or mobility app, the first week usually goes to vocabulary. Provider docs mention SM-DP+, LPA, ICCID, EID, matching IDs and profile states as if everyone already knows them. This glossary explains each term in plain language and, more importantly, what it means for your integration: what to store, what to show the customer, and where things tend to break. The hardware and the \"SIM\" itself eUICC The embedded chip inside the phone that replaces the plastic SIM. Unlike a physical SIM, it can hold several operator profiles at once and download new ones over the air. For your integration: you never talk to the eUICC directly. The phone's operating system does. Your job is to deliver a profile in a form the OS can install.",
-      "author": "Daniel",
+      "id": "feed-3f714189ab1d",
+      "title": "Listing Lab: Private, Local AI Copy for Independent Sellers",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle. Listing Lab is a private marketplace copywriter for independent Etsy, eBay, and Facebook Marketplace sellers. A…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle . What I Built Listing Lab is a private marketplace copywriter for independent Etsy, eBay, and Facebook Marketplace sellers. A seller enters the real facts about a product, chooses a marketplace and tone, and gets a title, description, highlights, and search tags. The person I built it for is the small seller who wants stronger copy but cannot justify another subscription—or uploading client and product research to an opaque service. The business case is intentionally small: charge once for a polished local tool, or bundle it with a seller workflow, without inheriting a per-generation API bill.",
+      "author": "Yash Panpaliya",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Developer"
+        "Software"
       ],
       "featured": false,
       "xpReward": 40,
-      "url": "https://dev.to/esimmonster/esim-glossary-for-developers-sm-dp-lpa-iccid-eid-and-activation-codes-explained-56c6",
-      "image": "/images/feed/feed-318864651391.webp",
+      "url": "https://dev.to/yash_panpaliya/listing-lab-private-local-ai-copy-for-independent-sellers-45b8",
+      "image": "/images/feed/feed-3f714189ab1d.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-fef0b6993973",
+      "title": "Stephen King and Stanley Kubrick's Near-Perfect Psychological Thriller Is Officially Back on Streaming",
+      "excerpt": "Stephen King's novels have inspired many movies. One of the best is also one he deeply dislikes.",
+      "body": "Stephen King is a vocal guy. The Master of Horror has published over 65 novels and novellas, countless short stories, and five nonfiction books since the mid-’70s. The hype that surrounds him is well deserved. King is the kind of writer who appeals to everyone, whether you’re a genre enthusiast or a literary snob. His work has been adapted into TV shows and films, and he’s never afraid to voice his complaints and praise in equal measure. But there’s one adaptational grudge that towers above all.",
+      "author": "Maria Loreto",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.polygon.com/stephen-king-the-shining-on-hbo-max/",
+      "image": "/images/feed/feed-fef0b6993973.png",
+      "source": "Polygon",
       "isLive": true
     },
     {
@@ -147,7 +166,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 34,
       "url": "https://www.polygon.com/peanuts-best-charlie-brown-quote-ever/",
       "image": "/images/feed/feed-52919b2dd9d0.png",
       "source": "Polygon",
@@ -166,7 +185,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 37,
       "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
       "image": "/images/feed/feed-9560b4b856ad.jpg",
       "source": "NASA Breaking News",
@@ -185,7 +204,7 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 44,
       "url": "https://www.polygon.com/november-2026-game-releases/",
       "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ns2_thelegendofzeldaocarinaoftime_scrn_15.png",
       "source": "Polygon",
@@ -204,7 +223,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 35,
       "url": "https://www.polygon.com/the-terminator-1984-free-on-youtube/",
       "image": "/images/feed/feed-0946627ec90f.jpg",
       "source": "Polygon",
@@ -223,7 +242,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 37,
       "url": "https://www.polygon.com/gta-san-andreas-bigfoot-myth/",
       "image": "/images/feed/feed-2050f38a2a4f.jpg",
       "source": "Polygon",
@@ -242,7 +261,7 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 49,
       "url": "https://www.polygon.com/game-of-thrones-the-mad-king-prequel-2027-return/",
       "image": "/images/feed/feed-733cc5565fe1.jpg",
       "source": "Polygon",
@@ -261,7 +280,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 49,
       "url": "https://www.engadget.com/2285099/why-turn-off-phone-remove-sim-card-explained/",
       "image": "/images/feed/feed-96f56d6d5788.jpg",
       "source": "Engadget",
@@ -280,7 +299,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 30,
       "url": "https://www.polygon.com/poltergeist-tobe-hooper-steven-spielberg-on-hbo-max/",
       "image": "/images/feed/feed-6b5280ce42fd.jpg",
       "source": "Polygon",
@@ -318,7 +337,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 46,
       "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
       "image": "/images/feed/feed-b831812f2b9f.jpg",
       "source": "Engadget",
@@ -337,29 +356,10 @@
         "Tablet"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 39,
       "url": "https://www.engadget.com/2284679/samsung-galaxy-tablets-last-year-software-support/",
       "image": "/images/feed/feed-54b536b0dbd0.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-42f658151047",
-      "title": "Dev Behind Russian Roulette Drinking Game Cancels Steam Demo Plans Following AI Copycat Concerns",
-      "excerpt": "The developer behind Russian roulette anime game Drunken Goddess Reflux has canceled its plans for a public Steam demo, citing concerns over potential AI copycats.",
-      "body": "The developer behind Russian roulette anime game Drunken Goddess Reflux has canceled its plans for a public Steam demo, citing concerns over potential AI copycats. Alliance Arts and Who You&#39;s path to launch has seemingly been mostly bump-free since it was announced back in April. Featuring ghostly pinks and purples and a gameplay premise described as &quot;shot glass Russian roulette with a demon who loves you enough to kill you,&quot; the recent reveal that it would launch this December only made its future feel clearer. Part of that release date announcement included the promise that a demo would launch October 19, but as explained in an update post on Steam , those plans have changed.",
-      "author": "Michael Cripe",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.ign.com/articles/dev-behind-russian-roulette-drinking-game-cancels-steam-demo-plans-following-ai-copycat-concerns",
-      "image": "/images/feed/feed-42f658151047.png",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -375,7 +375,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 32,
       "url": "https://www.engadget.com/2284612/wifi-speeds-drop-evening-reason-why/",
       "image": "/images/feed/feed-635aa553b135.jpg",
       "source": "Engadget",
@@ -394,7 +394,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 50,
       "url": "https://www.engadget.com/2284525/how-to-keep-smart-home-running-internet-goes-down/",
       "image": "/images/feed/feed-3a3e54de2909.jpg",
       "source": "Engadget",
@@ -413,7 +413,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 45,
       "url": "https://www.engadget.com/2284465/why-its-important-to-monitor-pc-background-processes/",
       "image": "/images/feed/feed-a510d6b1d56e.jpg",
       "source": "Engadget",
@@ -433,7 +433,7 @@
         "Vehicle"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 34,
       "url": "https://cleantechnica.com/2026/10/17/ice-vehicle-sales-crash-49-while-ev-share-jumps-to-67-china-ev-sales-report-for-september/",
       "image": "/images/feed/feed-bc196e8bd5c5.png",
       "source": "CleanTechnica",
@@ -452,7 +452,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 40,
       "url": "https://electrek.co/2026/10/17/mercedes-amg-gt-suv-electric-1153-hp-710-kw-charging/",
       "image": "/images/feed/feed-78d70cb30617.jpg",
       "source": "Electrek",
@@ -471,7 +471,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 33,
       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "image": "/images/feed/feed-c2a828c7429b.jpg",
       "source": "TechCrunch",
@@ -490,7 +490,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 35,
       "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
       "image": "/images/feed/feed-74d0d83d3b7b.jpg",
       "source": "The Verge",
@@ -510,7 +510,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 52,
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "image": "/images/feed/feed-5329074f8958.webp",
       "source": "TechCrunch",
@@ -529,7 +529,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 51,
       "url": "https://insideevs.com/news/812320/amg-gt-suv-ev-reveal/",
       "image": "/images/feed/feed-1bfb2d665248.jpg",
       "source": "InsideEVs",
@@ -548,7 +548,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 37,
       "url": "https://cleantechnica.com/2026/10/17/china-ev-transition-use-cases/",
       "image": "/images/feed/feed-8016d715f09c.webp",
       "source": "CleanTechnica",
@@ -587,7 +587,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 46,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
       "image": "/images/feed/feed-c549025bcffd.jpg",
       "source": "BleepingComputer",
@@ -606,7 +606,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 47,
       "url": "https://insideevs.com/features/812308/chinese-paris-auto-show-recap/",
       "image": "/images/feed/feed-b41bd34cf2a4.jpg",
       "source": "InsideEVs",
@@ -625,7 +625,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 47,
       "url": "https://cleantechnica.com/2026/10/17/the-cybercab-has-landed-in-australia-transport-unions-gear-up-to-fight/",
       "image": "/images/feed/feed-af725c948a67.jpg",
       "source": "CleanTechnica",
@@ -644,7 +644,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 52,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-17-2026",
       "image": "/images/feed/feed-ab2864874ebb.jpg",
       "source": "Space.com",
@@ -663,7 +663,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 34,
       "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
       "image": "/images/feed/feed-4864321055de.jpg",
       "source": "BleepingComputer",
@@ -682,7 +682,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 51,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-232-the-lunar-dump",
       "image": "/images/feed/feed-28be4da7a2f3.jpg",
       "source": "Space.com",
@@ -701,7 +701,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 30,
       "url": "https://www.space.com/stargazing/skywatching-kit/six-scientifically-accurate-star-projectors-to-turn-any-room-into-a-home-planetarium",
       "image": "/images/feed/feed-2851203f9fa8.jpg",
       "source": "Space.com",
@@ -720,7 +720,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 33,
       "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
       "image": "/images/feed/feed-74515c478ee9.jpg",
       "source": "The Verge",
@@ -739,7 +739,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 35,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
       "image": "/images/feed/feed-657279cf248c.jpg",
       "source": "The Verge",
@@ -758,7 +758,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 53,
       "url": "https://www.space.com/entertainment/space-movies-shows/lanterns-shocking-finale-left-us-with-a-lot-of-unanswered-questions-for-a-potential-season-2",
       "image": "/images/feed/feed-1555ef5adbe5.jpg",
       "source": "Space.com",
@@ -777,7 +777,7 @@
         "Encryption"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 38,
       "url": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
       "image": "/images/feed/feed-c790320c042c.jpg",
       "source": "Wired",
@@ -796,7 +796,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 44,
       "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "image": "/images/feed/feed-0ed9a47ea1d5.jpg",
       "source": "The Hacker News",
@@ -834,7 +834,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 45,
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "image": "/images/feed/feed-9a0cd5bfb89f.jpg",
       "source": "The Hacker News",
@@ -872,7 +872,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 42,
       "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
       "image": "/images/feed/feed-32b7a245aa33.jpg",
       "source": "BleepingComputer",
@@ -891,7 +891,7 @@
         "Generative Ai"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 43,
       "url": "https://openai.com/index/itau-generative-ai",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -910,7 +910,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 53,
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "image": "/images/feed/feed-57c41972947e.png",
       "source": "MIT Tech Review",
@@ -929,7 +929,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 31,
       "url": "https://www.zdnet.com/uncategorized/anthropic-embed-third-party-ai-auditors-safety/",
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/auditblue-GettyImages-1269457842.jpg",
       "source": "ZDNet",
@@ -937,16 +937,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: Architecture Review: Borrowed Capacity, Owned Exit",
-    "DEV.TO: The Burn-Rate Gate: A Fail-Closed Checklist for Shipping on a Free AI Allowance",
-    "DEV.TO: Case Study: A Checklist Bot Built to Keep Working When the Model Is Down",
-    "DEV.TO: I benchmarked Jev's box tool on ScreenSpot-v2 and ScreenSpot-Pro. Here is how well it reads a screen",
-    "DEV.TO: Building a Payment Reconciliation Engine That Catches Fee Mismatches and Settlement Errors",
-    "DEV.TO: Stop Shopping for Models: Your Harness Is the Only Asset You Keep",
-    "DEV.TO: eSIM Glossary for Developers: SM-DP+, LPA, ICCID, EID and Activation Codes Explained",
+    "DEV.TO: I ran a signed PDF through 5 compressors. Two of them deleted the signature",
+    "DEV.TO: The 2026 OLED Monitor Wave: 6.1 Million Panels, Dual-Mode 480Hz, and the End of the Text-Fringing Excuse",
+    "DEV.TO: pdfsig said my edited signed PDF was still valid, so I compare ByteRange with the file size",
+    "DEV.TO: Quy Uớc Đặt Tên (Naming Conventions) Trong Java",
+    "DEV.TO: DishReactions is a free, offline app that records customer reactions per order and shows a live chart of which dish gets the best reviews.",
+    "DEV.TO: 🚀 Grosse mise à jour",
+    "DEV.TO: Listing Lab: Private, Local AI Copy for Independent Sellers",
+    "POLYGON: Stephen King and Stanley Kubrick's Near-Perfect Psychological Thriller Is Officially Back on Streaming",
     "POLYGON: 60 Years Ago, the Best Charlie Brown Quote Was So Perfect It Made It Into the Movie",
-    "NASA BREAKING NEWS: APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
-    "POLYGON: Every Major Game Releasing in November That Isn’t GTA 6"
+    "NASA BREAKING NEWS: APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars"
   ],
   "sectionVideos": {}
 }
