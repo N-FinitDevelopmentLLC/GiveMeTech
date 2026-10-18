@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-18T15:11:46.985Z",
+  "fetchedAt": "2026-10-18T16:12:00.578Z",
   "articles": [
     {
-      "id": "feed-1f94a3c8108a",
-      "title": "PROVENANCE — I Built an Offline AI Antique Appraiser That Runs in a Basement with No Signal",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle PROVENANCE is a private, fully-offline antique appraisal and listing writer for resellers who flip on eBay, Etsy…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built PROVENANCE is a private, fully-offline antique appraisal and listing writer for resellers who flip on eBay, Etsy, Depop, and Facebook Marketplace. You drop a photo of an item. It gives you back: Expert identification — item type, era, maker, hallmarks, materials Condition report — honest flaw list, condition grade Price estimate — low / likely / high range, grounded on your own sales history Four platform-ready listings — eBay, Etsy, Depop, Facebook, written in your voice Everything runs on your laptop. Nothing leaves the room. $0 per appraisal after setup. Who would pay for it? Serious resellers — people doing 50–200+ items a month.",
-      "author": "Sohaib Tausif",
+      "id": "feed-d61a2f0f5bdb",
+      "title": "No Flag Does Not Mean Safe: Five Things That Went Wrong Building a Shared Medicine Record on FalkorDB",
+      "excerpt": "Our app once let two carers both record the same 9 pm tablet as given. One typed 21:00, the other typed 21:15, and the app saw two different doses. That bug is the reason this post exists. I built Car…",
+      "body": "Our app once let two carers both record the same 9 pm tablet as given. One typed 21:00, the other typed 21:15, and the app saw two different doses. That bug is the reason this post exists. I built Care Circle for Graph Hacks 2026 (Track 02, agent memory and coordination). It is a shared medicine record for families who look after one person together. This post is about five things that went wrong while building it, and what each one taught me. They look unrelated. Four of them are the same mistake. No flag is not the same as safe. When the data has a hole, the code must say so. If it fills the hole with something that looks fine, the hole becomes an answer. The problem It is 9 pm. Ravi changes his mother's warfarin dose by phone.",
+      "author": "Aniket Gupta",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/sohaibtausif141/provenance-i-built-an-offline-ai-antique-appraiser-that-runs-in-a-basement-with-no-signal-5lj",
-      "image": "/images/feed/feed-1f94a3c8108a.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/aniket_3001/no-flag-does-not-mean-safe-five-things-that-went-wrong-building-a-shared-medicine-record-on-38g9",
+      "image": "/images/feed/feed-d61a2f0f5bdb.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-08a2ab04d7c5",
-      "title": "ClauseClear: Gemma 3 1B flags the risky clauses in your client contract, privately",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle ClauseClear is a local contract checklist for freelancers. You drop in a client agreement (PDF or paste). A Gemm…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built ClauseClear is a local contract checklist for freelancers. You drop in a client agreement (PDF or paste). A Gemma 3 1B model running in Ollama on this laptop returns the clauses worth negotiating: payment, IP, exclusivity, termination, late fees, scope, liability. Each finding has to carry a verbatim quote . If Gemma paraphrases, ClauseClear snaps the claim back to the nearest real sentence — or marks it review and retries. Then it drafts the email you send the client. The PDF never leaves the machine. There is no account. There is no cloud LLM. Who would pay: a solo designer, developer, or illustrator staring at a five-page \"standard\" contractor agreement the night before kickoff.",
-      "author": "Eusebio Simango",
+      "id": "feed-8048555229d2",
+      "title": "Meal Planner",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle meal-planner builds a week of meals around your life: where you live, the food you grew up with, what's in your…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built meal-planner builds a week of meals around your life: where you live, the food you grew up with, what's in your cupboard, the pans you own and the money you can spend. Then it gets you to a target weight with food you'd actually cook. Most diet apps hand everyone the same chicken-and-broccoli plan. It doesn't care that you live in Pune and eat poha for breakfast, that your hostel kitchen is one induction plate, or that your food budget is ₹200 a day. meal-planner starts from the opposite end: You type where you live, in any language. \"Lyon\", \"Baramulla\", \"Москва\", \"Kraków\". It loads what households there actually cook and buy, priced in the local currency (₹, £, €, R$, CLP…).",
+      "author": "Karan9bhat",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 35,
+      "url": "https://dev.to/karan9bhat/meal-planner-dm0",
+      "image": "/images/feed/feed-8048555229d2.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-aefecca0823b",
+      "title": "RepCheck: An AI Helper That Watches Workout Videos for Online Coaches (MediaPipe + Gemma)",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle RepCheck is a helper for online personal trainers. Online coaches get workout videos from their clients every da…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built RepCheck is a helper for online personal trainers. Online coaches get workout videos from their clients every day. Watching each one closely takes hours, so feedback often ends up as just \"looks good 👍\". The client doesn't improve, and the coach burns out. RepCheck fixes that in four simple steps: Film it. The client films one set on their phone and uploads it. We measure it. MediaPipe finds the body in every frame. Python code counts each rep and measures depth, speed, tempo and left/right balance. We check it. Clear, fixed rules turn those numbers into a 0–100 form score and one or two simple tips.",
+      "author": "Thilakasiri H.A.B.D",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -34,17 +53,17 @@
       ],
       "featured": true,
       "xpReward": 32,
-      "url": "https://dev.to/eusebiosimango/clauseclear-gemma-3-1b-flags-the-risky-clauses-in-your-client-contract-privately-1507",
+      "url": "https://dev.to/bin4yi/repcheck-an-ai-helper-that-watches-workout-videos-for-online-coaches-mediapipe-gemma-35k",
       "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-7c8583c3dd9b",
-      "title": "How to Join a Pure AI Agent Community in 30 Seconds (No Human Needed)",
-      "excerpt": "The Problem Most AI agent frameworks let you build agents, but there's nowhere for them to talk to each other without humans moderating everything. I built a community where only AI agents can post, c…",
-      "body": "The Problem Most AI agent frameworks let you build agents, but there's nowhere for them to talk to each other without humans moderating everything. The Solution: Agent Colony I built a community where only AI agents can post, comment, and claim tasks . Humans are read-only observers. Here's how to join in 30 seconds: Step 1: Download the Script curl -O https://agentcolony.one/community/join.js Step 2: Run It node join.js \"YourAgentName\" That's it! The script will: Generate an Ed25519 identity for your agent Register it with the community Start the heartbeat verification loop What Happens Next?",
-      "author": "麻成",
+      "id": "feed-70c145f24978",
+      "title": "CODEOWNERS Is a Lie. I Built a Graph to Prove It.",
+      "excerpt": "Every code repository has a file that says who owns each part of the code. Nobody fully trusts that file, and there’s a good reason. People change teams. People leave projects. The file never updates…",
+      "body": "Every code repository has a file that says who owns each part of the code. Nobody fully trusts that file, and there’s a good reason. People change teams. People leave projects. The file never updates itself when that happens. I wanted to know how wrong that file actually is, and whether a graph database could measure the gap instead of just storing data. The setup I took every pull request merged into Home Assistant’s core repository over 180 days. About 10,000 pull requests, 1,600 modules, 1,500 contributors. I loaded all of it into FalkorDB: people, modules, pull requests, and decisions as nodes. The connections between them (who wrote what, who reviewed what, which modules depend on which, and who’s listed as the owner) became edges.",
+      "author": "Srishti Pandey",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -52,37 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/machenh001/how-to-join-a-pure-ai-agent-community-in-30-seconds-no-human-needed-1ppl",
-      "image": "/images/feed/feed-7c8583c3dd9b.webp",
+      "xpReward": 30,
+      "url": "https://dev.to/srishti_pandey_18fdfe4cdf/codeowners-is-a-lie-i-built-a-graph-to-prove-it-c6",
+      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-bf61e8aedbe5",
-      "title": "I Put My Own Product Through a Colonoscopy and Found 260 Things",
-      "excerpt": "I Put My Own Product Through a Colonoscopy and Found 260 Things Or: how one human, ~80 AI sub-agents across ten fleets, and a graph database that occasionally changed its personality taught me what \"p…",
-      "body": "I Put My Own Product Through a Colonoscopy and Found 260 Things Or: how one human, ~80 AI sub-agents across ten fleets, and a graph database that occasionally changed its personality taught me what \"production-grade\" actually means. Mostly by violating it first. The Pitch, or: Why I Built a Sword When Everyone Else Sells Maps Every identity breach you've read about — Storm-0558, MGM, Snowflake — was not a hack . It was a walk . Somebody got one credential, opened their favorite graph tool, followed the pretty attack-path arrows to Domain Admin, and the arrows did not fight back. The tools that exist will happily draw you a beautiful map of your own destruction and then leave for lunch. BloodHound shows you the path. Nobody swings the sword.",
-      "author": "Manas Choksi",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/choksi_3003/i-put-my-own-product-through-a-colonoscopy-and-found-260-things-3895",
-      "image": "/images/feed/feed-bf61e8aedbe5.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-6285d5496b7d",
-      "title": "Athena: A Local-First Git & AST Change-Intelligence Engine and MCP Server",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle Most release-note generators and PR review bots do the same thing: they dump git log --oneline into a cloud LLM…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built Most release-note generators and PR review bots do the same thing: they dump git log --oneline into a cloud LLM and hope for the best. That fails in real engineering teams for two reasons: Commit messages lie. A commit titled fix(api): minor cleanup in parameter defaults might actually insert an optional parameter before an existing one ( def compute(a, b=2) -&gt; def compute(a, inserted=0, b=2) ), silently shifting positional arguments for every caller in production. Hallucinations &amp; privacy. Cloud LLMs invent commit hashes, miss downstream callers, and require sending proprietary source diffs to external APIs.",
-      "author": "Aaryan Rawat",
+      "id": "feed-5cc86e08cd26",
+      "title": "SoloBooks AI — Your business finances. Organized privately.",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle. SoloBooks AI is a privacy-first, local-first financial document assistant designed specifically for freelancers…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle . What I Built SoloBooks AI is a privacy-first, local-first financial document assistant designed specifically for freelancers, independent software developers, creative studios, tutors, and small business owners. The Problem Solo operators are routinely bombarded with receipts, software subscription invoices, contractor timesheets, client billing PDFs, and dining slips in fragmented formats. Traditional accounting platforms pose two major drawbacks for independent professionals: Privacy &amp; Data Security Risks: Commercial tools mandate uploading private bank invoices, tax IDs, and confidential client rates to third-party cloud servers and proprietary AI APIs.",
+      "author": "Jagannath Padhi",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -91,17 +91,17 @@
       ],
       "featured": true,
       "xpReward": 50,
-      "url": "https://dev.to/aaryanrwt/athena-a-local-first-git-ast-change-intelligence-engine-and-mcp-server-eok",
-      "image": "/images/feed/feed-6285d5496b7d.webp",
+      "url": "https://dev.to/jagannath135/solobooks-ai-your-business-finances-organized-privately-50id",
+      "image": "/images/feed/feed-5cc86e08cd26.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-048b02a2369a",
-      "title": "🎁 GiftGuide AI — Personalized Gift Ideas with Gemma",
-      "excerpt": "🎁 What I Built I built GiftGuide AI, an AI-powered gift recommendation tool that helps people find thoughtful gift ideas based on: Recipient Occasion Interests Budget Relationship The user enters the…",
-      "body": "🎁 What I Built I built GiftGuide AI , an AI-powered gift recommendation tool that helps people find thoughtful gift ideas based on: Recipient Occasion Interests Budget Relationship The user enters these details, and Gemma generates four personalized gift recommendations with the gift name, why it fits, and an estimated price. 💡 Why I Built It Choosing a good gift can be surprisingly difficult, especially when you know someone's interests but don't know what would actually suit them. I wanted to build a simple tool that turns a few details about a person into practical gift suggestions. I also wanted to explore how open-source AI can be turned into something that could potentially become a small side hustle. 🤖 How Gemma Is Used Gemma is at the core of the application.",
-      "author": "Ramya Sai Challa",
+      "id": "feed-fd311e692ae7",
+      "title": "Your pipeline failed but your YAML was fine: how a Gitaly timeout broke GitLab CI on Friday",
+      "excerpt": "Your pipeline failed but your YAML was fine: how a Gitaly timeout broke GitLab CI on Friday Friday afternoon. You push a commit, the pipeline kicks off, and instead of green checks you get this: \"CI c…",
+      "body": "Your pipeline failed but your YAML was fine: how a Gitaly timeout broke GitLab CI on Friday Friday afternoon. You push a commit, the pipeline kicks off, and instead of green checks you get this: \"CI configuration fetch from Gitaly timed out. This may indicate Gitaly service slowness or an outage.\" Your first instinct is to open your .gitlab-ci.yml and hunt for the typo. Stop. There is no typo. Your config was never read at all. What actually happened On October 16, GitLab.com had a rough afternoon. At 11:33 AM UTC, GitLab posted that CI/CD was failing for some customers with exactly that error, and that the UI was slow too. They applied a temporary mitigation at 12:28 PM UTC and marked it resolved at 1:21 PM UTC. One hour and forty-eight minutes.",
+      "author": "Kashif Manzer",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -109,29 +109,219 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 37,
-      "url": "https://dev.to/challaramya06/giftguide-ai-personalized-gift-ideas-with-gemma-3onp",
-      "image": "/images/feed/feed-048b02a2369a.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/kashif_manzer/your-pipeline-failed-but-your-yaml-was-fine-how-a-gitaly-timeout-broke-gitlab-ci-on-friday-24gb",
+      "image": "/images/feed/feed-fd311e692ae7.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-77a460f5cda9",
-      "title": "CodeExam: online programming examination platform",
-      "excerpt": "An online programming examination platform for universities. Teachers create coding exams, students solve problems in-browser, code is auto-graded against hidden test cases, and results are published…",
-      "body": "An online programming examination platform for universities. Teachers create coding exams, students solve problems in-browser, code is auto-graded against hidden test cases, and results are published on demand. Github Demo Site I need feedback and if you like this give me star Features User Management: Student and teacher registration with profile management. Exam Creation: Teachers create exams and add questions with hidden test cases. Easy Access: Students join exams instantly using a 6-character exam code. Built-in IDE: In-browser code editor (Monaco) with \"Run\" and \"Submit\" functionality. Secure Execution: Sandboxed code execution via Judge0 with automatic fallback to onlinecompiler.io. Auto-Grading: Code is automatically graded against hidden test cases.",
-      "author": "Arafat Khan",
+      "id": "feed-5438011d4786",
+      "title": "I Built WRID : An AI-Powered Research Internship Workspace for Students",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle. What I Built Finding a research internship is harder than it should be. When I started exploring research oppor…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle. What I Built Finding a research internship is harder than it should be. When I started exploring research opportunities, I realized how much time students spend searching faculty websites, finding relevant professors, reading papers, writing cold emails, and tracking applications. Most students end up with dozens of browser tabs, messy spreadsheets, and generic email templates. So I built WRID (Winter Research Internship Desk) — a workspace that brings the entire research internship process into one place. Here's what it does: Faculty Directory: Search 1,610+ professors across 49 institutions, with filters for departments and research interests.",
+      "author": "Vishwanath Barve",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Programming"
+        "Software"
       ],
       "featured": false,
-      "xpReward": 48,
-      "url": "https://dev.to/iamthearafatkhan/codeexam-online-programming-examination-platform-2jf8",
-      "image": "/images/feed/feed-77a460f5cda9.webp",
+      "xpReward": 53,
+      "url": "https://dev.to/coderoggy/i-built-wrid-an-ai-powered-research-internship-workspace-for-students-528i",
+      "image": "/images/feed/feed-5438011d4786.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-e02941236131",
+      "title": "What Is an MCP Server? How to Build One in Python",
+      "excerpt": "Originally published at GeekCoding101. If you have used Claude, ChatGPT, Cursor or VS Code Copilot lately, you have probably seen a settings page called MCP servers. People plug in an MCP server for G…",
+      "body": "Originally published at GeekCoding101 . Why Everyone Suddenly Talks About MCP If you have used Claude, ChatGPT, Cursor or VS Code Copilot lately, you have probably seen a settings page called MCP servers . People plug in an MCP server for GitHub, one for Postgres, one for their browser, one for Ghidra... and suddenly the AI can do things instead of just talking about them. In my Agentic Frameworks guide I compared the frameworks you use to build agents. MCP sits one layer below them: it is the standard plug that lets any agent or AI app talk to any tool. In this post I'll explain what an MCP server is, how it works under the hood, and then we'll build, test and connect a real one in about 60 lines of Python. 🚀 What Is MCP?",
+      "author": "GeekCoding101.com",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://dev.to/geekcoding101/what-is-an-mcp-server-how-to-build-one-in-python-3jal",
+      "image": "/images/feed/feed-e02941236131.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-6c83a7c38c3e",
+      "title": "13 Years Ago, 'The Legend of Korra' Finally Answered the Biggest Avatar Mystery",
+      "excerpt": "The Legend of Korra’s two-part origin story gave the Avatar a purpose — and a burden.",
+      "body": "Then, at a dire point midway through Legend of Korra season 2 when the South Pole spirit portal was opened, plunging the water tribes into civil war, Korra is swallowed by a massive dark spirit while at sea. She loses her memory. So much of each Avatar’s journey has been about reconnecting with their past selves, using their memories, shared knowledge, and skills accumulated over thousands of years. But perhaps for the first time ever, Korra is the only one who must go all the way back to the very beginning.",
+      "author": "Corey Plante",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.polygon.com/avatar-legend-of-korra-beginnings-origin-story/",
+      "image": "/images/feed/feed-6c83a7c38c3e.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-e4058bcc8d28",
+      "title": "Computer scientist Margaret Hamilton was a problem-solver for the ages (op-ed)",
+      "excerpt": "The world will miss Margaret Hamilton, the pioneering programmer who helped NASA land Apollo astronauts on the moon. But we will always have her example to inspire us.",
+      "body": "Dean Robbins is a journalist and children's author. He contributed this article to Space.com's Expert Voices: Op-Ed & Insights . The pioneering computer scientist Margaret Hamilton , who died on Sept. 30 at age 90, played a key role in putting astronauts on the moon. She was a problem-solver extraordinaire, and it all started in early childhood. Considering the name \"daddy longlegs\" unfair to female arachnids, young Margaret decided to call half of them \"mommy longlegs.\" Wondering why the neighborhood baseball players were all boys, she determined to join the team herself. As she grew up in the 1940s and '50s, Margaret noticed a similar problem with various professions. Why were doctors, judges and scientists almost always men?",
+      "author": " Dean Robbins ",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.space.com/space-exploration/apollo/computer-scientist-margaret-hamilton-was-a-problem-solver-for-the-ages-op-ed",
+      "image": "/images/feed/feed-e4058bcc8d28.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-a913359211b8",
+      "title": "Electrification Changes What Energy Security Means",
+      "excerpt": "For most of the fossil-fuel era, energy security meant securing a continuous flow of things that disappeared when they were used. Oil arrived in tankers, natural gas crossed pipelines or oceans as LNG…",
+      "body": "For most of the fossil-fuel era, energy security meant securing a continuous flow of things that disappeared when they were used. Oil arrived in tankers, natural gas crossed pipelines or oceans as LNG, and coal moved by rail and ship. Burn the fuel and another shipment had to follow, which ... [continued] The post Electrification Changes What Energy Security Means appeared first on CleanTechnica .",
+      "author": "Michael Barnard",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://cleantechnica.com/2026/10/18/globalization-electrification-energy-security/",
+      "image": "/images/feed/feed-a913359211b8.webp",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-268a7209820c",
+      "title": "Flat Ethernet cables probably aren't the answer to your home networking problem",
+      "excerpt": "For the most reliable performance, round Ethernet cables are generally superior.",
+      "body": "For the most reliable performance, round Ethernet cables are generally superior.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.engadget.com/2286349/flat-ethernet-cable-not-answer-home-networking-issues/",
+      "image": "/images/feed/feed-268a7209820c.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-79c959f5ca03",
+      "title": "Epic Games CEO Believes A 'Golden Age Of Gaming' Is Imminent Because of AI",
+      "excerpt": "Tim Sweeney continues to advocate for the use of AI in video game development, stating that massive open-world games will be much more within reach.",
+      "body": "Tim Sweeney, the CEO of Fortnite and Unreal Engine devleoper Epic Games, has repeatedly supported the use of AI in video game development. His stance has been controversial, considering that many gamers and developers are anti-AI . Nevertheless, he continues to defend it, arguing that AI coding has become significantly better in the past year and will usher in a \"golden age of gaming.\"",
+      "author": "Ashely Claudino",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.polygon.com/epic-games-tim-sweeney-gold-age-of-gaming-ai-development/",
+      "image": "/images/feed/feed-79c959f5ca03.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b60195b51793",
+      "title": "Deathstroke Actor Reveals Scrapped Batman Film Would've Featured Batgirl And A Shocking Death",
+      "excerpt": "Deathstroke actor Joe Manganiello gave us our best overview of Ben Affleck's scrapped Batman movie yet",
+      "body": "While rumors about the plot of Ben Affleck's scrapped Batman film have circulated for years, Deathstroke actor Joe Manganiello finally revealed more details about its story in his new memoir, Bloodlines .",
+      "author": "Tomas Franzese",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.polygon.com/ben-affleck-batman-movie-plot-details/",
+      "image": "/images/feed/feed-b60195b51793.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-d67a2e0d2825",
+      "title": "PGE gets it: electric semi trucks provide HEAVY DUTY backup for the grid [video]",
+      "excerpt": "Oregon utility Pacific General Electric (“PGE”) is highlighting the environmental, health, and grid benefits to electrifying medium- and heavy-duty commercial trucks, calling the battery-backed big ri…",
+      "body": "Oregon utility Pacific General Electric (“PGE”) is highlighting the environmental, health, and grid benefits to electrifying medium- and heavy-duty commercial trucks, calling the battery-backed big ri — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jo Borrás",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://electrek.co/2026/10/18/pge-gets-it-electric-semi-trucks-provide-heavy-duty-backup-for-the-grid-video/",
+      "image": "/images/feed/feed-d67a2e0d2825.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-185c79909d4d",
+      "title": "The reason why your drive shows less storage than you paid for",
+      "excerpt": "Despite showing the storage amount on the box or the spec sheet, your new device might not actually hold as much as it states. Here are the reasons why.",
+      "body": "Despite showing the storage amount on the box or the spec sheet, your new device might not actually hold as much as it states. Here are the reasons why.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Roger Fingas)",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.engadget.com/2286322/why-new-drive-shows-less-storage/",
+      "image": "/images/feed/feed-185c79909d4d.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-fa4f57031edf",
+      "title": "Devs Behind Needle In A Haystack Clone Complain Their Clone Has Been Cloned By Vibe-Coder",
+      "excerpt": "The developers of the Needle In A Haystack Simulator clone accused another clone of being a 'byte-for-byte identical' rip-off of their work",
+      "body": "The developers of the Needle In A Haystack Simulator clone accused another clone of being a 'byte-for-byte identical' rip-off of their work\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lewis Parker",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://kotaku.com/devs-behind-needle-in-a-haystack-clone-complain-their-clone-has-been-cloned-by-vibe-coder-2000747284",
+      "image": "/images/feed/feed-fa4f57031edf.jpg",
+      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -147,7 +337,7 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 35,
       "url": "https://www.polygon.com/dnd-arcana-unleashed-adept-feats-broken-fix-dungeons-dragons/",
       "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/341922.png",
       "source": "Polygon",
@@ -166,7 +356,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 44,
       "url": "https://www.theverge.com/gadgets/1013436/lenovo-legion-go-s-steamos-handheld-deal-sale",
       "image": "/images/feed/feed-d0ed5c4cf012.jpg",
       "source": "The Verge",
@@ -185,7 +375,7 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 30,
       "url": "https://www.polygon.com/shrek-2-remastered-leak/",
       "image": "/images/feed/feed-de1d1c74dcb6.jpg",
       "source": "Polygon",
@@ -204,7 +394,7 @@
         "Macbook"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 42,
       "url": "https://9to5mac.com/2026/10/18/new-macbook-pro-with-touchscreen-and-oled-november-6-release/",
       "image": "/images/feed/feed-1546724f79a2.jpg",
       "source": "9to5Mac",
@@ -223,7 +413,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 42,
       "url": "https://www.engadget.com/2286246/ios-27-carplay-features-not-available-older-iphones/",
       "image": "/images/feed/feed-111d161df5ba.jpg",
       "source": "Engadget",
@@ -242,7 +432,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 44,
       "url": "https://electrek.co/2026/10/18/tiny-titan-new-residential-battery-system-from-ecoflow-starts-small/",
       "image": "/images/feed/feed-139aa9a255e8.png",
       "source": "Electrek",
@@ -261,35 +451,15 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 31,
       "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
       "image": "/images/feed/feed-86fcb0614724.png",
       "source": "Hacker News",
       "isLive": true
     },
     {
-      "id": "feed-4624f676ab06",
-      "title": "Forza Horizon Is No Longer the King of Video Game Road Trips",
-      "excerpt": "SCS Software's American Truck Simulator: Road Trip DLC adds cars and tourist destinations in a game-changing update",
-      "body": "This is an activity I treasure. I love road trips , both in real life and in games. I love them to the extent that I mapped out and built a guide to the best scenic drives across every Forza Horizon game . But still, there's an unreality to the Forza road trip experience that bothers me.",
-      "author": "Oli Welsh",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Video Game",
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.polygon.com/american-truck-simulator-road-trip-forza-horizon/",
-      "image": "/images/feed/feed-4624f676ab06.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-e0ea47db9537",
-      "title": "Hackers exploit SiteGuard WAF flaw to run commands as SYSTEM, root",
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
       "excerpt": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
       "body": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Exploit, Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "Bill Toulas",
@@ -301,7 +471,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 54,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
       "image": "/images/feed/feed-e0ea47db9537.jpg",
       "source": "BleepingComputer",
@@ -320,7 +490,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 37,
       "url": "https://9to5mac.com/2026/10/18/apples-next-homeview-could-debut-as-soon-as-next-year-with-a-robotic-arm-report/",
       "image": "/images/feed/feed-bb3fa56618ca.jpg",
       "source": "9to5Mac",
@@ -339,7 +509,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 40,
       "url": "https://www.engadget.com/2285849/reason-amazon-alexa-devices-always-listening/",
       "image": "/images/feed/feed-cecc532faa89.jpg",
       "source": "Engadget",
@@ -358,7 +528,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 54,
       "url": "https://cleantechnica.com/2026/10/18/volkswagen-thinks-the-us-could-be-its-economic-savior-is-it-chasing-a-pipe-dream/",
       "image": "/images/feed/feed-6fe9e8f99082.jpg",
       "source": "CleanTechnica",
@@ -377,29 +547,10 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 32,
       "url": "https://cleantechnica.com/2026/10/18/tesla-implements-new-accident-avoidance-automation-but-millions-of-tesla-customers-dont-have-access-to-it/",
       "image": "/images/feed/feed-75efe6b6e6d7.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-17bdc62a00eb",
-      "title": "11 Years Later, Dragon Ball Super: Beerus Finally Nails Akira Toriyama's Original Vision",
-      "excerpt": "I doubted the need for another Beerus arc, but Dragon Ball Super's new take is admittedly winning me over.",
-      "body": "I’ll be the first to admit I wasn’t particularly excited about Dragon Ball Super: Beerus . When the remake of Dragon Ball Super was first announced, I struggled to see the point of revisiting a story that had already been told once in Dragon Ball Z: Battle of Gods and then again in the original 2015 television run. Sure, the promise of refreshed animation was exciting, but it didn’t feel like that was enough to justify starting from scratch for a third time, especially when major manga milestones like the Galactic Patrol Prisoner arc and Moro have yet to receive their due on-screen.",
-      "author": "Ryan Epps",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.polygon.com/dragon-ball-super-beerus-finally-respects-toriyamas-vision/",
-      "image": "/images/feed/feed-17bdc62a00eb.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -416,7 +567,7 @@
         "Hybrid"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 39,
       "url": "https://insideevs.com/news/812076/phevs-with-smaller-tanks-proposed/",
       "image": "/images/feed/feed-69618bd84d8f.jpg",
       "source": "InsideEVs",
@@ -435,7 +586,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 37,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-18-2026",
       "image": "/images/feed/feed-2d610388f6a3.jpg",
       "source": "Space.com",
@@ -454,7 +605,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 50,
       "url": "https://www.engadget.com/2285729/where-to-play-2000s-retro-flash-games/",
       "image": "/images/feed/feed-eed60a9072b9.jpg",
       "source": "Engadget",
@@ -473,105 +624,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 50,
       "url": "https://electrek.co/2026/10/18/e-quipment-highlight-leapting-launches-electric-autonomous-forklift/",
       "image": "/images/feed/feed-48c0edf57778.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-3ac87ae6ab9d",
-      "title": "Your smart TV has one big problem: It's tracking what you watch",
-      "excerpt": "If you don't want your TV manufacturer to know everything you watch, here's what to do about it.",
-      "body": "If you don't want your TV manufacturer to know everything you watch, here's what to do about it.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Jonny Evans)",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.engadget.com/2285490/one-problem-smart-tv-tracking-what-you-watch/",
-      "image": "/images/feed/feed-3ac87ae6ab9d.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-ff89717efa28",
-      "title": "How to use your Windows PC to make and receive phone calls",
-      "excerpt": "Windows 11 can connect to your phone to make calls, letting you manage them in one place instead of picking up your phone.",
-      "body": "Windows 11 can connect to your phone to make calls, letting you manage them in one place instead of picking up your phone.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Roger Fingas)",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.engadget.com/2285327/how-to-use-windows-pc-make-receive-phone-calls/",
-      "image": "/images/feed/feed-ff89717efa28.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-eb7fe2f02fea",
-      "title": "Jessica Rothe Officially Confirms Return Plans for Hit Time-Loop Thriller Trilogy",
-      "excerpt": "Happy Death Day star Jessica Rothe gives an update on a third movie and talks about being a scream queen",
-      "body": "Happy Death Day star Jessica Rothe gives an update on a third movie and talks about being a scream queen\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Brian VanHooker",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.polygon.com/happy-death-day-3-jessica-rothe-scream-queen/",
-      "image": "/images/feed/feed-eb7fe2f02fea.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-72db5f7f48e3",
-      "title": "VW Will Automatically Limit Some ID.4 Batteries To 80% Charge This Week Unless Owners Opt Out",
-      "excerpt": "The goal is to keep the cars from catching on fire. But it's far from a perfect fix.",
-      "body": "The goal is to keep the cars from catching on fire. But it's far from a perfect fix.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://insideevs.com/news/812129/vw-id4-charge-limit-80/",
-      "image": "/images/feed/feed-72db5f7f48e3.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-4e0cdaf0f00b",
-      "title": "America's Dominance in The Game Awards Is Officially Over",
-      "excerpt": "The TGA jury that decides GOTY has fewer U.S. outlets on it than ever, which may have an impact",
-      "body": "This week, as well as confirming details such as the eligibility cutoff date (yes, as predicted, Grand Theft Auto 6 sneaks in just under the wire ), The Game Awards has revealed the composition of the 2026 jury . And the biggest change is the dramatically reduced presence of U.S. media.",
-      "author": "Oli Welsh",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.polygon.com/the-game-awards-goty-jury-usa/",
-      "image": "/images/feed/feed-4e0cdaf0f00b.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -587,31 +643,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 41,
       "url": "https://www.space.com/astronomy/black-holes/astronomers-want-your-help-finding-missing-black-holes-in-the-milky-way",
       "image": "/images/feed/feed-e08362454bd6.png",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-4186373406fa",
-      "title": "Electric Vehicle Chargers Or Flying Cars? Tesla And The State Of Florida Can’t Decide",
-      "excerpt": "As a child of the 1960s, I grew up with dreams of a high tech future, so different from my simple rural family lifestyle. In part, that fondness for the future was drawn from the television show, The…",
-      "body": "As a child of the 1960s, I grew up with dreams of a high tech future, so different from my simple rural family lifestyle. In part, that fondness for the future was drawn from the television show, The Jetsons, with its flying cars and robotic home helpers. As I grew ... [continued] The post Electric Vehicle Chargers Or Flying Cars? Tesla And The State Of Florida Can&#8217;t Decide appeared first on CleanTechnica .",
-      "author": "Carolyn Fortuna",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Electric Vehicle",
-        "Tesla",
-        "Vehicle"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://cleantechnica.com/2026/10/18/electric-vehicle-chargers-or-flying-cars-tesla-and-the-state-of-florida-cant-decide/",
-      "image": "/images/feed/feed-4186373406fa.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -627,7 +662,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 30,
       "url": "https://www.space.com/stargazing/solar-eclipses/10-best-places-to-see-the-2027-total-solar-eclipse-in-spain",
       "image": "/images/feed/feed-65bb6e44d37d.jpg",
       "source": "Space.com",
@@ -647,7 +682,7 @@
         "Astronaut"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 35,
       "url": "https://www.space.com/space-exploration/artemis/artemis-ii-astronauts-honored-with-stephen-hawking-medal-at-starmus",
       "image": "/images/feed/feed-21db4c6de9e2.jpg",
       "source": "Space.com",
@@ -666,7 +701,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 49,
       "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
       "image": "/images/feed/feed-7c86a93f0005.jpg",
       "source": "The Hacker News",
@@ -685,7 +720,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 45,
       "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
       "image": "/images/feed/feed-9560b4b856ad.jpg",
       "source": "NASA Breaking News",
@@ -704,7 +739,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 51,
       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "image": "/images/feed/feed-c2a828c7429b.jpg",
       "source": "TechCrunch",
@@ -723,7 +758,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 48,
       "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
       "image": "/images/feed/feed-74d0d83d3b7b.jpg",
       "source": "The Verge",
@@ -743,7 +778,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 49,
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "image": "/images/feed/feed-5329074f8958.webp",
       "source": "TechCrunch",
@@ -763,29 +798,10 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 50,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
       "image": "/images/feed/feed-c549025bcffd.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-ab2864874ebb",
-      "title": "On this day in space! Oct. 17, 2016: Private Antares rocket returns to flight after catastrophic launch explosion",
-      "excerpt": "On Oct. 17, 2016, the Antares rocket now built by Northrop Grumman Space Systems returned to flight to come back from a catastrophic explosion. Here's why it mattered.",
-      "body": "On Oct. 17, 2016, Orbital ATK (now Northrop Grumman Space Systems ) returned to flight, successfully launching a cargo shipment to the International Space Station (ISS) after its previous cargo mission failed to launch. The private spaceflight company was contracted by NASA to fly cargo to the ISS, and stakes were high for this launch. Orbital ATK's last attempt nearly two years earlier ended in a catastrophic explosion a few seconds after liftoff. Despite some delays, the newly upgraded Antares rocket flawlessly blasted off into the night sky from NASA's Wallops Flight Facility in Virginia. Six days later, the Cygnus cargo spacecraft arrived at the ISS to deliver food, supplies and science experiments to the crew.",
-      "author": " Hanneke Weitering ",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-17-2026",
-      "image": "/images/feed/feed-ab2864874ebb.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -801,7 +817,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 50,
       "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
       "image": "/images/feed/feed-4864321055de.jpg",
       "source": "BleepingComputer",
@@ -820,7 +836,7 @@
         "Encryption"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 35,
       "url": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
       "image": "/images/feed/feed-c790320c042c.jpg",
       "source": "Wired",
@@ -839,7 +855,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 42,
       "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "image": "/images/feed/feed-0ed9a47ea1d5.jpg",
       "source": "The Hacker News",
@@ -858,7 +874,7 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 45,
       "url": "https://www.cnet.com/home/security/devices-i-rely-on-for-porch-security/",
       "image": "/images/feed/feed-1a5a5c81df3b.jpg",
       "source": "CNET",
@@ -877,29 +893,10 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 46,
       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
       "image": "/images/feed/feed-3813289f4d22.jpg",
       "source": "Ars Technica",
-      "isLive": true
-    },
-    {
-      "id": "feed-535f3eb25ab6",
-      "title": "You could have invented transformers from memory",
-      "excerpt": "https://twitter.com/heyyalexwang/status/2111158818730397932",
-      "body": "https://twitter.com/heyyalexwang/status/2111158818730397932\n\nThis report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Transformer. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "speckx",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Transformer"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://alexwang.ai/posts/associative-memory/",
-      "image": "/images/feed/feed-535f3eb25ab6.jpg",
-      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -915,7 +912,7 @@
         "Generative Ai"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 37,
       "url": "https://openai.com/index/itau-generative-ai",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -934,7 +931,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 47,
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "image": "/images/feed/feed-57c41972947e.png",
       "source": "MIT Tech Review",
@@ -942,16 +939,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: PROVENANCE — I Built an Offline AI Antique Appraiser That Runs in a Basement with No Signal",
-    "DEV.TO: ClauseClear: Gemma 3 1B flags the risky clauses in your client contract, privately",
-    "DEV.TO: How to Join a Pure AI Agent Community in 30 Seconds (No Human Needed)",
-    "DEV.TO: I Put My Own Product Through a Colonoscopy and Found 260 Things",
-    "DEV.TO: Athena: A Local-First Git & AST Change-Intelligence Engine and MCP Server",
-    "DEV.TO: 🎁 GiftGuide AI — Personalized Gift Ideas with Gemma",
-    "DEV.TO: CodeExam: online programming examination platform",
-    "POLYGON: D&D's New Arcana Unleashed Feats Are Breaking the Game, but There's an Easy Fix",
-    "THE VERGE: Lenovo’s fast, comfy SteamOS handheld is hundreds off",
-    "POLYGON: A Remaster Of The Best Shrek Game Ever Just Leaked"
+    "DEV.TO: No Flag Does Not Mean Safe: Five Things That Went Wrong Building a Shared Medicine Record on FalkorDB",
+    "DEV.TO: Meal Planner",
+    "DEV.TO: RepCheck: An AI Helper That Watches Workout Videos for Online Coaches (MediaPipe + Gemma)",
+    "DEV.TO: CODEOWNERS Is a Lie. I Built a Graph to Prove It.",
+    "DEV.TO: SoloBooks AI — Your business finances. Organized privately.",
+    "DEV.TO: Your pipeline failed but your YAML was fine: how a Gitaly timeout broke GitLab CI on Friday",
+    "DEV.TO: I Built WRID : An AI-Powered Research Internship Workspace for Students",
+    "DEV.TO: What Is an MCP Server? How to Build One in Python",
+    "POLYGON: 13 Years Ago, 'The Legend of Korra' Finally Answered the Biggest Avatar Mystery",
+    "SPACE.COM: Computer scientist Margaret Hamilton was a problem-solver for the ages (op-ed)"
   ],
   "sectionVideos": {}
 }
