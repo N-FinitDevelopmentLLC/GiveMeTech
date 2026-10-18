@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-18T01:23:31.146Z",
+  "fetchedAt": "2026-10-18T02:15:47.829Z",
   "articles": [
     {
-      "id": "feed-b1ff605a91c2",
-      "title": "A Drift Detector That Cries Wolf Is Worse Than No Detector",
-      "excerpt": "My drift detector quarantined a healthy agent. The agent hadn't gotten worse — the benchmark had gotten bigger. The detector compared failure counts across corpus versions, so growing the benchmark fr…",
-      "body": "My drift detector quarantined a healthy agent. The agent hadn't gotten worse — the benchmark had gotten bigger. The detector compared failure counts across corpus versions, so growing the benchmark from 10 tasks to 20 made a 10/10 agent look like it \"failed\" half the suite. Corpus growth looked like decay. I built the drift detector for HivePlane v0.2.0 to catch the failure mode I'd written about in v0.1.0 — \"the dangerous agent usually drifted, not got edited.\" The harder problem turned out not to be detecting drift. It was not detecting drift that wasn't there. A detector that cries wolf trains operators to ignore the signal, and an ignored gate is no gate.",
-      "author": "Debashish Ghosal",
+      "id": "feed-93ee5296520d",
+      "title": "Before AI Reorders Inventory, Build This Stock-Decision Ledger",
+      "excerpt": "Before AI Reorders Inventory, Build This Stock-Decision Ledger An inventory model can produce an impressive forecast and still create a bad purchase order. The forecast may be mathematically reasonabl…",
+      "body": "Before AI Reorders Inventory, Build This Stock-Decision Ledger An inventory model can produce an impressive forecast and still create a bad purchase order. The forecast may be mathematically reasonable while the source counts are stale, returns are missing, supplier minimums changed, promotions were not registered, or stock exists in a location that cannot fulfil the demand. The operational failure is rarely “the algorithm was not intelligent enough.” It is usually that the business allowed an uncertain estimate to become an irreversible action without exposing its assumptions.",
+      "author": "isabelle dubuis",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -14,94 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/debashish_ghosal/a-drift-detector-that-cries-wolf-is-worse-than-no-detector-2gc2",
-      "image": "/images/feed/feed-b1ff605a91c2.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/isabelle_dubuis_d858453d7/before-ai-reorders-inventory-build-this-stock-decision-ledger-3nna",
+      "image": "/images/feed/feed-93ee5296520d.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-47839a59118f",
-      "title": "taming cold‑start latency in supabase edge functions (typescript)",
-      "excerpt": "while building a low‑latency analytics dashboard on supabase edge functions, the first request after a few minutes of inactivity consistently hit ~800 ms latency. the spike broke the UI's 200 ms frame…",
-      "body": "while building a low‑latency analytics dashboard on supabase edge functions, the first request after a few minutes of inactivity consistently hit ~800 ms latency. the spike broke the UI's 200 ms frame budget and forced me to rethink the function deployment. why edge cold‑starts matter edge functions run in lightweight containers that spin down after a period of inactivity. when a new request arrives the platform pulls the latest bundle, resolves dependencies and starts the runtime. this process is fast compared to traditional VMs, but it’s still enough to cause noticeable jitter in real‑time UIs. three pragmatic knobs to pull bundle size – every kilobyte adds network and unzip time. using esbuild with --bundle --minify strips dead code and inlines small assets.",
-      "author": "alex",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Typescript"
-      ],
-      "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/alewx/taming-cold-start-latency-in-supabase-edge-functions-typescript-2fn4",
-      "image": "/images/feed/feed-47839a59118f.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-33447495fe99",
-      "title": "Claude in Your Coding Agent: Anthropic's API, Amazon Bedrock, or Any Gateway",
-      "excerpt": "Claude is the model a lot of teams want for coding, but the way they pay for it differs. Some have an Anthropic API key. Some buy everything through AWS, so Claude reaches them through Amazon Bedrock.…",
-      "body": "Claude is the model a lot of teams want for coding, but the way they pay for it differs. Some have an Anthropic API key. Some buy everything through AWS, so Claude reaches them through Amazon Bedrock. Some run a company gateway that every request has to pass through. Since Atlarix 15.9, all three work the same way inside the agent, in the desktop app, the CLI, VS Code and the editors that speak the Agent Client Protocol. This is how to connect each one. Why one format covers all three Anthropic publishes its own API, the Messages API : POST /v1/messages , a key, and a version header. Amazon Bedrock offers Claude on an endpoint that speaks the same format, and so do many gateways and proxies. So the question Atlarix asks is not \"which company\" but \"which format\".",
-      "author": "Amariah Kamau",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Api"
-      ],
-      "featured": true,
-      "xpReward": 37,
-      "url": "https://dev.to/abishaiama/claude-in-your-coding-agent-anthropics-api-amazon-bedrock-or-any-gateway-4cnl",
-      "image": "/images/feed/feed-33447495fe99.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-35577be9a4e7",
-      "title": "Training a 97.5M Python coding model from scratch for $1.40 in GPU time",
-      "excerpt": "I wanted to really understand how language models are built, and the best way I know to understand something is to build it. So I built a small one myself, from nothing: my own tokenizer, my own model…",
-      "body": "I wanted to really understand how language models are built, and the best way I know to understand something is to build it. So I built a small one myself, from nothing: my own tokenizer, my own model, my own training loop, fine-tuning and benchmark. I kept it to Python code only, and kept it small enough that I could afford to train it. The main pre-training run used about $1.40 of rented GPU time. The result Keera solved 9 of 164 HumanEval problems (5.5%) using greedy decoding, after solving 3 (1.8%) before fine-tuning. Pre-training the 97.5M-parameter model took 2 h 23 min on a rented RTX 5090, costing approximately $1.40 in training-time rental charges. These are preliminary results: I haven't checked the training data for overlap with HumanEval.",
-      "author": "Bedram Tamang",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Python"
-      ],
-      "featured": true,
-      "xpReward": 33,
-      "url": "https://dev.to/tmgbedu/training-a-975m-python-coding-model-from-scratch-for-140-in-gpu-time-4lp4",
-      "image": "/images/feed/feed-35577be9a4e7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-34cc0c156ea8",
-      "title": "Support Knowledge Freshness: What Scrape Plus Embed Operations Look Like",
-      "excerpt": "A scrape plus embed pipeline looks healthy only when changed product content becomes searchable on time and the right passage returns within the retrieval latency budget. The page, however, arrives as…",
-      "body": "A scrape plus embed pipeline looks healthy only when changed product content becomes searchable on time and the right passage returns within the retrieval latency budget. The page, however, arrives as a retrieval-latency SLO burn alert: the on-call sees support searches timing out, a queue of recently changed product pages, and an index that is serving yesterday's material, while restarting workers may shorten the queue without answering the important question of whether the system lost time while fetching, parsing, embedding, publishing, or querying. The page is late.",
-      "author": "NielsChristensen4981",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/nielschristensen4981/support-knowledge-freshness-what-scrape-plus-embed-operations-look-like-58k6",
-      "image": "/images/feed/feed-34cc0c156ea8.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-afec1c278f59",
-      "title": "Developer Changelog Retrieval: Tenant Boundaries, Freshness, and Citation Cost",
-      "excerpt": "Short answer: use a tenant-scoped vector index for durable changelog history, add web retrieval only for pages whose freshness contract demands it, and make the tenant boundary part of every retrieval…",
-      "body": "Short answer: use a tenant-scoped vector index for durable changelog history, add web retrieval only for pages whose freshness contract demands it, and make the tenant boundary part of every retrieval request and citation. This keeps a fintech changelog tracker from trading a lower index bill for a cross-tenant disclosure or a stale answer. The cost that matters is not the number of vectors by itself. It is the number of vectors you must search, refresh, and explain when a developer asks, “What changed?” A tracker that watches payment-provider release notes has two clocks: the clock of the indexed archive and the clock of the live page. Treating them as one source makes the system hard to reason about.",
-      "author": "MaximilianNilsson7568",
+      "id": "feed-9e912df3de74",
+      "title": "Getting paid in USD as an Indian developer: the part nobody explains",
+      "excerpt": "Getting paid in USD as an Indian developer: the part nobody explains Search \"accept international payments India\" and you'll get a list of gateways. Razorpay, Cashfree, Stripe, PayU. Problem solved, r…",
+      "body": "Getting paid in USD as an Indian developer: the part nobody explains Search \"accept international payments India\" and you'll get a list of gateways. Razorpay, Cashfree, Stripe, PayU. Problem solved, right? Not quite. Stripe does operate in India. The gateway question was never the hard part for Indian developers. The hard part is one step later: can you prove to a bank and to the tax department that this money is an export of services? Get that wrong and you don't lose a sale. You lose the ability to claim back input tax credits, and you spend months in paperwork. So this post is about the part that actually trips people up. Stripe India works, but it settles in rupees Stripe India requires an Indian business entity and settles to an Indian bank account in INR.",
+      "author": "chenningdev",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -109,28 +33,104 @@
         "Developer"
       ],
       "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/maximiliannilsson7568/developer-changelog-retrieval-tenant-boundaries-freshness-and-citation-cost-58dd",
-      "image": "/images/feed/feed-afec1c278f59.webp",
+      "xpReward": 53,
+      "url": "https://dev.to/chenningdev/getting-paid-in-usd-as-an-indian-developer-the-part-nobody-explains-468e",
+      "image": "/images/feed/feed-9e912df3de74.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-3e086c36cf53",
-      "title": "One Misplaced Block Made Every Message Rewrite 19,000 Cached Tokens",
-      "excerpt": "Prompt caching is the cheapest win in an AI coding agent. The system prompt and tool definitions are the same on every request, so the provider can keep them and charge a fraction for reading them bac…",
-      "body": "Prompt caching is the cheapest win in an AI coding agent. The system prompt and tool definitions are the same on every request, so the provider can keep them and charge a fraction for reading them back. Atlarix has marked its prompt for caching for a long time, and the logs looked right. Then a QA pass compared two messages in the same chat, byte for byte, and found that in Build mode every message after the first rewrote the whole cache instead of reading it. How the cache works, briefly Claude's cache matches on an exact prefix : tools, then the system prompt, then the conversation, up to a marked breakpoint. If any byte before the breakpoint changes, everything from that byte on is a miss and is written to the cache again.",
-      "author": "Amariah Kamau",
+      "id": "feed-93b530977bbe",
+      "title": "When a Piano Tab Goes Quiet, Keep the Score Position",
+      "excerpt": "Disclosure: I’m Giang Pham, Pianory’s maker. AI helped draft this article from Pianory’s source code. It describes the implementation and unit-test coverage, not a Safari or production test. A browser…",
+      "body": "Disclosure: I’m Giang Pham, Pianory’s maker. AI helped draft this article from Pianory’s source code. It describes the implementation and unit-test coverage, not a Safari or production test. A browser can interrupt audio without the player receiving a tidy pause button click. A phone may lock, an app may move to the background, or a call may interrupt Web Audio. If the interface keeps claiming that playback is running, the returning learner can see a moving score cursor with no sound—or hear notes that no longer match the page. Pianory handles this as two linked state changes: stop the audio work when the page becomes hidden, then resume only from a visible page and a user gesture.",
+      "author": "Giang Pham Truong",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
+      "featured": true,
+      "xpReward": 45,
+      "url": "https://dev.to/ptrgiang/when-a-piano-tab-goes-quiet-keep-the-score-position-3kde",
+      "image": "/images/feed/feed-93b530977bbe.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-181c1762f856",
+      "title": "Upgrading from 4.10 to 4.11: Migrating After the Built-in Runners Were Removed",
+      "excerpt": "Scenario A 4.10.11 instance runs one pipeline with the built-in local-agent Runner, reached by a bot through a legacy routing rule. Point the same data directory at 4.11.0: tables, data and the old pi…",
+      "body": "Scenario A 4.10.11 instance runs one pipeline with the built-in local-agent Runner, reached by a bot through a legacy routing rule. Point the same data directory at 4.11.0: tables, data and the old pipeline survive, yet the pipeline is unusable — its Runner points at something 4.11 no longer has and the preview says it needs a plugin. One sentence carries this article: the upgrade has two different paths. The schema migrates automatically through Alembic at boot; Runner configuration moves only through a migration API that requires your explicit confirmation. How it works in 4.11 Path one: the schema migrates automatically at boot 4.11 starts from the 4.10.11 data directory and migrates Alembic to head on boot.",
+      "author": "Rock",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 39,
+      "url": "https://dev.to/rockchinq/upgrading-from-410-to-411-migrating-after-the-built-in-runners-were-removed-40jj",
+      "image": "/images/feed/feed-181c1762f856.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-f7941958b03d",
+      "title": "mmWave Radar vs. a Camera: What Each One Actually Measures",
+      "excerpt": "The first question we get asked about indoor sensing is almost always the same: why not just use a camera? It is a fair question. A camera is cheaper, familiar, and produces output a human can look at…",
+      "body": "The first question we get asked about indoor sensing is almost always the same: why not just use a camera? It is a fair question. A camera is cheaper, familiar, and produces output a human can look at and understand immediately. But a camera and a mmWave radar do not measure the same thing, and each is clearly better at a different job. The short version: a camera tells you roughly what a person looks like and what posture they are in. A radar measures motion far too small for a camera to register at all. Understanding that distinction is what determines which one you need. What a Camera Measures A camera records reflected visible light. From those pixels you get shape, colour, texture, and — with modern processing — a rough skeletal pose.",
+      "author": "fuxinsuo",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 42,
+      "url": "https://dev.to/249263431/mmwave-radar-vs-a-camera-what-each-one-actually-measures-dhj",
+      "image": "/images/feed/feed-f7941958b03d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-931d17370914",
+      "title": "Where mmWave Radar Is Used: From Parking Spaces to Oil Tanks",
+      "excerpt": "When most people first hear about 60 GHz mmWave radar, they picture one thing: a small module mounted on a wall, telling a smart home system whether someone is in the room. That is a real application,…",
+      "body": "When most people first hear about 60 GHz mmWave radar, they picture one thing: a small module mounted on a wall, telling a smart home system whether someone is in the room. That is a real application, but it is a narrow one. The same sensing principle — transmit a frequency-modulated chirp, measure the round-trip time for range and the Doppler shift for velocity — is also used to measure the fuel level in a storage tank, hold a drone at a fixed altitude, time a car at an intersection, and map crop types from orbit. The physics does not change between these applications. What changes is the frequency band, the antenna design, the beamwidth, and above all what the signal processing looks for in the returned signal.",
+      "author": "fuxinsuo",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://dev.to/249263431/where-mmwave-radar-is-used-from-parking-spaces-to-oil-tanks-3nn",
+      "image": "/images/feed/feed-931d17370914.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-c71357171c7e",
+      "title": "12 developers are not 12 testers per app. The small mistake that breaks a Google Play testing group.",
+      "excerpt": "You find 12 Android developers. Everyone agrees to test everyone else's app. Problem solved? Each app has 11 other people available to test it. The owner isn't an extra tester. I got this wrong in an…",
+      "body": "You find 12 Android developers. Everyone agrees to test everyone else's app. Problem solved? Each app has 11 other people available to test it. The owner isn't an extra tester. I got this wrong in an earlier Dozena post. A reader pushed me to explain the dropout math more clearly. Here's the model I'm building now — including where it can fail. The group size is not the tester count Assume each developer brings one app and tests every other app: Developers in the group Other developers per app Margin above 12 12 11 Below the minimum 13 12 None 15 14 Two The formula is simply testers per app = participating developers − 1 . These are potential testers, not confirmed opt-ins. The table only holds if everyone actually joins each relevant test.",
+      "author": "magistral",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Developer"
+      ],
       "featured": false,
-      "xpReward": 49,
-      "url": "https://dev.to/abishaiama/one-misplaced-block-made-every-message-rewrite-19000-cached-tokens-1jjb",
-      "image": "/images/feed/feed-3e086c36cf53.webp",
+      "xpReward": 35,
+      "url": "https://dev.to/magistral/12-developers-12-testers-per-app-the-small-mistake-that-breaks-a-google-play-testing-group-4d9j",
+      "image": "/images/feed/feed-c71357171c7e.webp",
       "source": "Dev.to",
       "isLive": true
     },
@@ -147,7 +147,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 34,
       "url": "https://www.polygon.com/gta-san-andreas-bigfoot-myth/",
       "image": "/images/feed/feed-2050f38a2a4f.jpg",
       "source": "Polygon",
@@ -166,7 +166,7 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 31,
       "url": "https://www.polygon.com/game-of-thrones-the-mad-king-prequel-2027-return/",
       "image": "/images/feed/feed-733cc5565fe1.jpg",
       "source": "Polygon",
@@ -185,7 +185,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 31,
       "url": "https://www.engadget.com/2285099/why-turn-off-phone-remove-sim-card-explained/",
       "image": "/images/feed/feed-96f56d6d5788.jpg",
       "source": "Engadget",
@@ -204,7 +204,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 41,
       "url": "https://www.polygon.com/poltergeist-tobe-hooper-steven-spielberg-on-hbo-max/",
       "image": "/images/feed/feed-6b5280ce42fd.jpg",
       "source": "Polygon",
@@ -223,7 +223,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 44,
       "url": "https://www.engadget.com/2285088/nintendo-switch-2-not-connecting-to-tv-what-check/",
       "image": "/images/feed/feed-263ea8e6a9cf.jpg",
       "source": "Engadget",
@@ -242,7 +242,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 31,
       "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
       "image": "/images/feed/feed-b831812f2b9f.jpg",
       "source": "Engadget",
@@ -261,7 +261,7 @@
         "Tablet"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 52,
       "url": "https://www.engadget.com/2284679/samsung-galaxy-tablets-last-year-software-support/",
       "image": "/images/feed/feed-54b536b0dbd0.jpg",
       "source": "Engadget",
@@ -280,7 +280,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 34,
       "url": "https://www.polygon.com/most-disappointing-switch-games-ranked/",
       "image": "/images/feed/feed-8619e5864ba5.jpg",
       "source": "Polygon",
@@ -299,7 +299,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 31,
       "url": "https://www.engadget.com/2284612/wifi-speeds-drop-evening-reason-why/",
       "image": "/images/feed/feed-635aa553b135.jpg",
       "source": "Engadget",
@@ -318,7 +318,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 34,
       "url": "https://www.engadget.com/2284525/how-to-keep-smart-home-running-internet-goes-down/",
       "image": "/images/feed/feed-3a3e54de2909.jpg",
       "source": "Engadget",
@@ -337,7 +337,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 40,
       "url": "https://www.engadget.com/2284465/why-its-important-to-monitor-pc-background-processes/",
       "image": "/images/feed/feed-a510d6b1d56e.jpg",
       "source": "Engadget",
@@ -356,7 +356,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 47,
       "url": "https://www.ign.com/articles/battlefield-6-devs-respond-after-players-take-aim-at-secuty-typo-and-cosmetic-with-5-pistols",
       "image": "/images/feed/feed-3b5bd6ed2b02.png",
       "source": "IGN",
@@ -376,7 +376,7 @@
         "Vehicle"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 51,
       "url": "https://cleantechnica.com/2026/10/17/ice-vehicle-sales-crash-49-while-ev-share-jumps-to-67-china-ev-sales-report-for-september/",
       "image": "/images/feed/feed-bc196e8bd5c5.png",
       "source": "CleanTechnica",
@@ -395,7 +395,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 50,
       "url": "https://kotaku.com/the-mortuary-assistant-film-director-jeremiah-kipp-passes-away-2000747075",
       "image": "/images/feed/feed-6b7e26945917.jpg",
       "source": "Kotaku",
@@ -414,7 +414,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 44,
       "url": "https://www.polygon.com/pokemon-go-minior-shower-schedule-how-to-find-shiny/",
       "image": "/images/feed/feed-e13c911a780c.jpg",
       "source": "Polygon",
@@ -433,7 +433,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 52,
       "url": "https://electrek.co/2026/10/17/mercedes-amg-gt-suv-electric-1153-hp-710-kw-charging/",
       "image": "/images/feed/feed-78d70cb30617.jpg",
       "source": "Electrek",
@@ -452,9 +452,9 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 30,
       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "image": "/images/feed/feed-c2a828c7429b.webp",
+      "image": "/images/feed/feed-c2a828c7429b.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -471,7 +471,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 45,
       "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
       "image": "/images/feed/feed-74d0d83d3b7b.jpg",
       "source": "The Verge",
@@ -491,9 +491,9 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 47,
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "image": "/images/feed/feed-5329074f8958.jpg",
+      "image": "/images/feed/feed-5329074f8958.webp",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -510,7 +510,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 32,
       "url": "https://insideevs.com/news/812320/amg-gt-suv-ev-reveal/",
       "image": "/images/feed/feed-1bfb2d665248.jpg",
       "source": "InsideEVs",
@@ -529,7 +529,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 37,
       "url": "https://cleantechnica.com/2026/10/17/china-ev-transition-use-cases/",
       "image": "/images/feed/feed-8016d715f09c.webp",
       "source": "CleanTechnica",
@@ -548,7 +548,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 44,
       "url": "https://cleantechnica.com/2026/10/17/shifting-conversations-at-the-africa-e-mobility-week-forum-showcase-growth-in-the-african-e-mobility-sector/",
       "image": "/images/feed/feed-2746a7e38677.jpg",
       "source": "CleanTechnica",
@@ -568,7 +568,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 34,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
       "image": "/images/feed/feed-c549025bcffd.jpg",
       "source": "BleepingComputer",
@@ -587,7 +587,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 36,
       "url": "https://insideevs.com/features/812308/chinese-paris-auto-show-recap/",
       "image": "/images/feed/feed-b41bd34cf2a4.jpg",
       "source": "InsideEVs",
@@ -606,7 +606,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 41,
       "url": "https://cleantechnica.com/2026/10/17/the-cybercab-has-landed-in-australia-transport-unions-gear-up-to-fight/",
       "image": "/images/feed/feed-af725c948a67.jpg",
       "source": "CleanTechnica",
@@ -644,7 +644,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 34,
       "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
       "image": "/images/feed/feed-4864321055de.jpg",
       "source": "BleepingComputer",
@@ -663,7 +663,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 35,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-232-the-lunar-dump",
       "image": "/images/feed/feed-28be4da7a2f3.jpg",
       "source": "Space.com",
@@ -682,7 +682,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 34,
       "url": "https://www.space.com/stargazing/skywatching-kit/six-scientifically-accurate-star-projectors-to-turn-any-room-into-a-home-planetarium",
       "image": "/images/feed/feed-2851203f9fa8.jpg",
       "source": "Space.com",
@@ -701,7 +701,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 41,
       "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
       "image": "/images/feed/feed-74515c478ee9.jpg",
       "source": "The Verge",
@@ -720,7 +720,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 30,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
       "image": "/images/feed/feed-657279cf248c.jpg",
       "source": "The Verge",
@@ -739,7 +739,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 35,
       "url": "https://www.space.com/entertainment/space-movies-shows/lanterns-shocking-finale-left-us-with-a-lot-of-unanswered-questions-for-a-potential-season-2",
       "image": "/images/feed/feed-1555ef5adbe5.jpg",
       "source": "Space.com",
@@ -758,7 +758,7 @@
         "Encryption"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 54,
       "url": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
       "image": "/images/feed/feed-c790320c042c.jpg",
       "source": "Wired",
@@ -796,7 +796,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 37,
       "url": "https://www.space.com/stargazing/meteor-showers/the-orionid-meteor-shower-peaks-oct-21-22-2026-heres-what-to-expect",
       "image": "/images/feed/feed-3f53a38fee75.jpg",
       "source": "Space.com",
@@ -815,7 +815,7 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 41,
       "url": "https://www.cnet.com/home/security/devices-i-rely-on-for-porch-security/",
       "image": "/images/feed/feed-1a5a5c81df3b.jpg",
       "source": "CNET",
@@ -834,7 +834,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 49,
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "image": "/images/feed/feed-9a0cd5bfb89f.jpg",
       "source": "The Hacker News",
@@ -853,7 +853,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 30,
       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
       "image": "/images/feed/feed-3813289f4d22.jpg",
       "source": "Ars Technica",
@@ -872,7 +872,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 37,
       "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
       "image": "/images/feed/feed-32b7a245aa33.jpg",
       "source": "BleepingComputer",
@@ -891,7 +891,7 @@
         "Generative Ai"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 50,
       "url": "https://openai.com/index/itau-generative-ai",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -910,7 +910,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 31,
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "image": "/images/feed/feed-57c41972947e.png",
       "source": "MIT Tech Review",
@@ -929,7 +929,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 37,
       "url": "https://www.zdnet.com/uncategorized/anthropic-embed-third-party-ai-auditors-safety/",
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/auditblue-GettyImages-1269457842.jpg",
       "source": "ZDNet",
@@ -937,13 +937,13 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: A Drift Detector That Cries Wolf Is Worse Than No Detector",
-    "DEV.TO: taming cold‑start latency in supabase edge functions (typescript)",
-    "DEV.TO: Claude in Your Coding Agent: Anthropic's API, Amazon Bedrock, or Any Gateway",
-    "DEV.TO: Training a 97.5M Python coding model from scratch for $1.40 in GPU time",
-    "DEV.TO: Support Knowledge Freshness: What Scrape Plus Embed Operations Look Like",
-    "DEV.TO: Developer Changelog Retrieval: Tenant Boundaries, Freshness, and Citation Cost",
-    "DEV.TO: One Misplaced Block Made Every Message Rewrite 19,000 Cached Tokens",
+    "DEV.TO: Before AI Reorders Inventory, Build This Stock-Decision Ledger",
+    "DEV.TO: Getting paid in USD as an Indian developer: the part nobody explains",
+    "DEV.TO: When a Piano Tab Goes Quiet, Keep the Score Position",
+    "DEV.TO: Upgrading from 4.10 to 4.11: Migrating After the Built-in Runners Were Removed",
+    "DEV.TO: mmWave Radar vs. a Camera: What Each One Actually Measures",
+    "DEV.TO: Where mmWave Radar Is Used: From Parking Spaces to Oil Tanks",
+    "DEV.TO: 12 developers are not 12 testers per app. The small mistake that breaks a Google Play testing group.",
     "POLYGON: GTA: San Andreas’ Bigfoot myth is a classic urban legend",
     "POLYGON: Game of Thrones Prequel The Mad King Officially Returns in 2027",
     "ENGADGET: You don't have to turn off your phone to switch SIM cards (but you probably should)"
