@@ -1,12 +1,31 @@
 {
-  "fetchedAt": "2026-10-18T13:19:23.179Z",
+  "fetchedAt": "2026-10-18T14:11:25.202Z",
   "articles": [
     {
-      "id": "feed-468e18166b62",
-      "title": "7 AI Tools That Can Plan Your Entire Week in One Prompt",
-      "excerpt": "Published: October 18, 2026 You know that feeling — it's Sunday evening, your plate is full, and the thought of mapping out Monday through Friday makes you want to close the laptop and stare at the ce…",
-      "body": "Published: October 18, 2026 You know that feeling — it's Sunday evening, your plate is full, and the thought of mapping out Monday through Friday makes you want to close the laptop and stare at the ceiling. What if you could just tell an AI what's on your plate and have it hand back a realistic, time-blocked week? That's no longer science fiction. Here are 7 tools that actually do this today — ranked by how close they get to the \"one prompt, done week\" fantasy.",
-      "author": "Bhargav Bhatt",
+      "id": "feed-75efe6b6e6d7",
+      "title": "Tesla Implements New Accident-Avoidance Automation, But Millions of Tesla Customers Don’t Have Access To It",
+      "excerpt": "Disclaimer: Many of our readers have criticized me for supporting an Elon Musk company. It does present a conundrum for me. Musk has supported Donald Trump with millions of dollars of campaign contrib…",
+      "body": "Disclaimer: Many of our readers have criticized me for supporting an Elon Musk company. It does present a conundrum for me. Musk has supported Donald Trump with millions of dollars of campaign contributions and has served as a member of his administration. Trump has single-handedly set back green energy and ... [continued] The post Tesla Implements New Accident-Avoidance Automation, But Millions of Tesla Customers Don’t Have Access To It appeared first on CleanTechnica .",
+      "author": "Arthur Frederick (Fritz) Hasler",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": true,
+      "xpReward": 35,
+      "url": "https://cleantechnica.com/2026/10/18/tesla-implements-new-accident-avoidance-automation-but-millions-of-tesla-customers-dont-have-access-to-it/",
+      "image": "/images/feed/feed-75efe6b6e6d7.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-3c13188b146b",
+      "title": "Your ufw rules don't cover your Docker ports (and the log-rotation setting to make before your first container)",
+      "excerpt": "Two things bite almost every new Docker host in a homelab. One is a security surprise. The other is a disk that fills up a few weeks later. Both are a five-minute fix if you do them before the first r…",
+      "body": "Two things bite almost every new Docker host in a homelab. One is a security surprise. The other is a disk that fills up a few weeks later. Both are a five-minute fix if you do them before the first real container. The firewall surprise Docker's own documentation on packet filtering says it plainly: Docker and ufw are incompatible. When you publish a container's port, Docker routes the traffic in the nat table, before it reaches the INPUT chain that ufw uses. Your \"deny all\" rule never sees it. So this does not do what it looks like it does: sudo ufw default deny incoming docker run -d -p 9000:9000 some/admin-tool Port 9000 is open to anyone who can reach the host, ufw or not. The fix is a habit, not a firewall rule Publish as little as possible.",
+      "author": "Charles Hartmann",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +33,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/bhkbdbhatt/7-ai-tools-that-can-plan-your-entire-week-in-one-prompt-4ao3",
-      "image": "/images/feed/feed-468e18166b62.webp",
+      "xpReward": 35,
+      "url": "https://dev.to/charleshartmann/your-ufw-rules-dont-cover-your-docker-ports-and-the-log-rotation-setting-to-make-before-your-3bbk",
+      "image": "/images/feed/feed-3c13188b146b.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-7a14fc5f2db4",
-      "title": "Seu LLM vai falhar e vai ser enganado: idempotência e segurança em fluxos de e-commerce",
-      "excerpt": "Imagine um e-commerce que resolveu colocar IA no atendimento. Nada de exótico: um agente lê a mensagem do cliente, consulta o pedido e, quando faz sentido, emite um cupom de desconto para compensar um…",
-      "body": "Imagine um e-commerce que resolveu colocar IA no atendimento. Nada de exótico: um agente lê a mensagem do cliente, consulta o pedido e, quando faz sentido, emite um cupom de desconto para compensar um atraso ou um produto que chegou errado. Menos fila para o time de suporte, resposta em segundos, cliente feliz. Nas primeiras semanas, tudo funciona. Até que o financeiro aparece com uma planilha: clientes recebendo dois cupons pelo mesmo problema . Um de 10% e outro de 15%, emitidos com poucos segundos de diferença, para o mesmo pedido. Nenhum erro no log que chamasse atenção. Nenhum alerta. O modelo não \"enlouqueceu\". O sistema fez exatamente o que foi programado para fazer: tentou de novo . E esse nem é o pior problema da história. Mas vamos por partes.",
-      "author": "Daniel Camucatto",
+      "id": "feed-0516a276d9a2",
+      "title": "Five Agents, One Dev Database: Clone a Postgres per Worktree With Postgres 18",
+      "excerpt": "Book: Database Playbook Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship wi…",
+      "body": "Book: Database Playbook Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub One agent is in ../app-auth , renaming users.email to users.login_email . Another is in ../app-invoices , about to run its test suite. Each worktree has its own branch, its own files, its own node_modules . Both .env files point at the same app_dev database. The migration lands, the invoices tests go red on column users.email does not exist , and the second agent starts fixing code that was never broken. Worktrees gave each agent a private copy of the code.",
+      "author": "Gabriel Anhaia",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Database"
+      ],
+      "featured": true,
+      "xpReward": 44,
+      "url": "https://dev.to/gabrielanhaia/five-agents-one-dev-database-clone-a-postgres-per-worktree-with-postgres-18-je7",
+      "image": "/images/feed/feed-0516a276d9a2.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-5908fc0c62a6",
+      "title": "This week in Cursor + .NET — 7 rules (week ending October 18, 2026)",
+      "excerpt": "Every weekday a single, opinionated rule for senior C#/.NET engineers using Cursor. Here's the full week in one read — canonical posts live on the Agentic Architect blog. Sun 18 Oct Every async method…",
+      "body": "Every weekday a single, opinionated rule for senior C#/.NET engineers using Cursor. Here's the full week in one read — canonical posts live on the Agentic Architect blog . 7 daily senior rules Rule 8: CancellationToken Propagation Sun 18 Oct Every async method in your codebase should accept and forward a CancellationToken. Make it a rule that any new async signature without one is flagged. Stops the AI from quietly losing cancellation half-way down a call chain. → Permalink on the blog Rule 7: IHttpClientFactory Discipline Sat 17 Oct Refuse new HttpClient() in any generated code. Force Cursor to inject IHttpClientFactory or a typed client. The classic socket-exhaustion bug is exactly the kind of footgun an AI hands you without realising.",
+      "author": "Agentic Architect",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/danielcamucatto/seu-llm-vai-falhar-e-vai-ser-enganado-idempotencia-e-seguranca-em-fluxos-de-e-commerce-18jb",
-      "image": "/images/feed/feed-7a14fc5f2db4.webp",
+      "xpReward": 32,
+      "url": "https://dev.to/agentic_architect/this-week-in-cursor-net-7-rules-week-ending-october-18-2026-3apa",
+      "image": "/images/feed/feed-5908fc0c62a6.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-3c75519906c8",
-      "title": "Twelve Hours Apart: Leading DoCheck's Engineering Team From the Other Side of the Planet",
-      "excerpt": "From 2021 to 2023 I was CTO of DoCheck, a productivity SaaS with a 20+ engineering team in Indonesia. I was in Orlando, finishing an M.S. in Computer Science at the University of Central Florida on a…",
-      "body": "From 2021 to 2023 I was CTO of DoCheck, a productivity SaaS with a 20+ engineering team in Indonesia. I was in Orlando, finishing an M.S. in Computer Science at the University of Central Florida on a Fulbright scholarship. Indonesia runs roughly twelve hours ahead of Florida. My team's afternoon was my middle of the night; their standup was my bedtime. No scheduling trick makes that go away. With a twelve-hour offset the only overlap you get is the overlap you deliberately buy, and you pay for it with somebody's evening. Velocity went up 30% over that period. Not because of the distance, but because the distance made it impossible to keep getting away with several things. The time zone audits your process A co-located team runs on ambient information. Someone overhears a decision.",
-      "author": "Faishal Wahiduddin",
+      "id": "feed-841ec9c20500",
+      "title": "I built an attention head out of a 1982 associative memory and measured where it breaks",
+      "excerpt": "The second-biggest story on Hacker News this morning (590 points) is titled \"You could have invented transformers from memory\" — the argument, in one line, is that attention is what you get when you t…",
+      "body": "The second-biggest story on Hacker News this morning (590 points) is titled \"You could have invented transformers from memory\" — the argument, in one line, is that attention is what you get when you take a classical associative memory and make its retrieval rule differentiable. It's a lovely essay. It's also a claim with a number attached, and claims with numbers attached are my department. So I built the thing: a modern Hopfield network — the 1982 idea, updated — and an attention head, in the same file, and measured both where they are identical and where the memory breaks. The equivalence is not approximate. It's exact. A modern Hopfield update takes a cue and returns a weighted mix of stored patterns, with the weights given by a softmax over how well the cue matches each pattern.",
+      "author": "frank chu",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +90,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 43,
-      "url": "https://dev.to/faishalwahiduddin/twelve-hours-apart-leading-dochecks-engineering-team-from-the-other-side-of-the-planet-52hg",
-      "image": "/images/feed/feed-3c75519906c8.webp",
+      "xpReward": 30,
+      "url": "https://dev.to/frankchu/i-built-an-attention-head-out-of-a-1982-associative-memory-and-measured-where-it-breaks-4h2l",
+      "image": "/images/feed/feed-841ec9c20500.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-80a5a44047b0",
-      "title": "Chrome 158 Drops XSLT on 17 November: Fix RSS and Sitemaps",
-      "excerpt": "On 17 November 2026, Chrome 158 stops running XSLT on Stable for everyone except Origin Trial and Enterprise Policy participants, so any RSS feed, Atom feed or XML sitemap that relies on an XSL styles…",
-      "body": "On 17 November 2026, Chrome 158 stops running XSLT on Stable for everyone except Origin Trial and Enterprise Policy participants, so any RSS feed, Atom feed or XML sitemap that relies on an XSL stylesheet will lose its styled browser view. [1] The XML itself still parses and still downloads. Feed readers and search engine crawlers read the data, not the stylesheet, so the damage is mostly to the page a human sees when they click your feed link. This post covers exactly which features are removed, which stay, a table of what breaks, and four fixes with code you can paste today.",
-      "author": "Anup Karanjkar",
+      "id": "feed-c93a892e2abe",
+      "title": "DeepSeek swapped its Flash model overnight. I pulled the new config and did the cache math.",
+      "excerpt": "On October 17, DeepSeek replaced the model behind its deepseek-flash API endpoint. Same name, same price, no changelog entry you had to go read — if your agent called deepseek-flash on Friday and agai…",
+      "body": "On October 17, DeepSeek replaced the model behind its deepseek-flash API endpoint. Same name, same price, no changelog entry you had to go read — if your agent called deepseek-flash on Friday and again on Saturday, it talked to two different checkpoints and nobody sent you an email about it. The new checkpoint is DeepSeek-V4.1-Flash-1017, on Hugging Face under MIT, and it was the top story on Hacker News this morning (903 points when I checked). DeepSeek calls it \"a minor update.\" Its own benchmark table disagrees with the adjective: all 11 reported benchmarks went up, Terminal-Bench 4.0 by 11.1 points, ProgramBench by 8.8. Those are DeepSeek's numbers on DeepSeek's harnesses, and I can't reproduce DeepSWE from my desk.",
+      "author": "frank chu",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -71,56 +109,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 37,
-      "url": "https://dev.to/akaranjkar08/chrome-158-drops-xslt-on-17-november-fix-rss-and-sitemaps-4moc",
-      "image": "/images/feed/feed-80a5a44047b0.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/frankchu/deepseek-swapped-its-flash-model-overnight-i-pulled-the-new-config-and-did-the-cache-math-29p7",
+      "image": "/images/feed/feed-c93a892e2abe.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-2f86be9263a9",
-      "title": "How I Built ALIBI GRAPH: My Solo Journey Building a Multi-Agent Cyber-Forensics Lie Detector",
-      "excerpt": "Building a hackathon project completely solo is always a chaotic rush, Why I Made It I wanted to solve the absolute nightmare of manual forensic analysis. When detectives have to sift through multi-pa…",
-      "body": "Building a hackathon project completely solo is always a chaotic rush, Why I Made It I wanted to solve the absolute nightmare of manual forensic analysis. When detectives have to sift through multi-page interrogation notes, vehicle tracking logs, and security footage, it takes hours to spot a lie. I wanted an AI app that could ingest these raw case files, map out the relationships, and instantly flag when a suspect's alibi falls apart. How I Put It Together (The Real Tech Stack) The Frontend: I used Streamlit to build out the interface because it let me spin up custom pages, file upload bays, and live terminal views super fast.",
-      "author": "A-K",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/notadim2/how-i-built-alibi-graph-my-solo-journey-building-a-multi-agent-cyber-forensics-lie-detector-1ae7",
-      "image": "/images/feed/feed-2f86be9263a9.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-b868ad177f0b",
-      "title": "vLLM vs TGI vs Ollama: Serving LLMs in Production in 2026",
-      "excerpt": "vLLM vs TGI vs Ollama: The Practical Guide to Serving and Running LLMs vLLM vs TGI vs Ollama: The Practical Guide to Serving and Running LLMs vLLM, Hugging Face Text Generation Inference (TGI), and Ol…",
-      "body": "vLLM vs TGI vs Ollama: The Practical Guide to Serving and Running LLMs vLLM vs TGI vs Ollama: The Practical Guide to Serving and Running LLMs Three different layers of the LLM stack vLLM, Hugging Face Text Generation Inference (TGI), and Ollama are frequently compared, but they sit at different points on the deployment spectrum. vLLM is optimized for high-throughput server-side inference. TGI is a production-grade model serving stack with strong Hugging Face ecosystem alignment. Ollama prioritizes local developer experience and model simplicity. The best choice depends on whether you are serving traffic at scale, running internal APIs, or experimenting locally on a laptop or workstation.",
-      "author": "guang diyuzhi",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 33,
-      "url": "https://dev.to/guang_diyuzhi_74b0fec2c09/vllm-vs-tgi-vs-ollama-serving-llms-in-production-in-2026-2457",
-      "image": "/images/feed/feed-b868ad177f0b.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-43272592665b",
-      "title": "DuckDB and Arrow Win AI Data Prep, Then Hit a Wall at Serving",
-      "excerpt": "TL;DR — Columnar engines like Arrow, DuckDB, Polars, and GPU dataframes are built for scan-heavy, amortized access — ideal for building training sets, terrible for single-row inference lookups. The re…",
-      "body": "TL;DR — Columnar engines like Arrow, DuckDB, Polars, and GPU dataframes are built for scan-heavy, amortized access — ideal for building training sets, terrible for single-row inference lookups. The real value of Arrow in AI systems isn't query speed, it's zero-copy interchange between the offline columnar world and the online row-oriented world. Teams that try to make one engine do both pay for it in p99 latency. Every few months another benchmark lands showing DuckDB or Polars or a GPU dataframe engine crushing some TPC-H-style workload. The numbers are real. The conclusion people draw from them — that the columnar engine is now the obvious backbone for AI data infrastructure, end to end — is where things go wrong.",
-      "author": "AI Explore",
+      "id": "feed-84249827c70d",
+      "title": "Debugging LLM JSON Output: From Frustration to Function Calling",
+      "excerpt": "Alright, fellow builders. Let me tell you about a particular rabbit hole I found myself tumbling down for a good couple of weeks. You know that excitement when you get an LLM to do something genuinely…",
+      "body": "Alright, fellow builders. Let me tell you about a particular rabbit hole I found myself tumbling down for a good couple of weeks. You know that excitement when you get an LLM to do something genuinely useful? For me, it was turning natural language user prompts into perfectly formatted API request bodies. Sounds slick, right? The Problem: JSON That Just Wouldn't Behave I was building a tool that lets users describe an action, and the backend would translate it into an API call for various services. Think: \"schedule a meeting with Bob next Tuesday about the Q4 report\" turning into a POST request to a calendar API. The LLM (mostly GPT-3.5-turbo, then later GPT-4-turbo) was the brain of this operation.",
+      "author": "Nexus Labs",
       "date": "2026-10-18",
       "readTime": "2 min",
       "section": "software",
@@ -128,10 +128,125 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 54,
-      "url": "https://dev.to/aiexplore369zoho/duckdb-and-arrow-win-ai-data-prep-then-hit-a-wall-at-serving-59d7",
-      "image": "/images/feed/feed-43272592665b.webp",
+      "xpReward": 49,
+      "url": "https://dev.to/nexus_labs_eaac0473959e4d/debugging-llm-json-output-from-frustration-to-function-calling-1ccl",
+      "image": "/images/feed/feed-84249827c70d.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-bc966765ff9c",
+      "title": "A Voice Receipt Needs Its Relationship Graph",
+      "excerpt": "An Agent Payment Is Not Permission to Use a Human Voice AI agents are becoming capable of initiating calls, making purchases, selecting vendors, and completing work across systems. That can make a tra…",
+      "body": "An Agent Payment Is Not Permission to Use a Human Voice AI agents are becoming capable of initiating calls, making purchases, selecting vendors, and completing work across systems. That can make a transaction look legitimate very quickly: a wallet paid, an API responded, and a receipt exists. But a clean transaction trail does not answer the most important question in voice commerce: Did this agent have the specific authority to use this person’s voice in this way? We should not let payment automation quietly become a proxy for human permission. An agent can have authority without having voice rights An organization may authorize an agent to buy translation, procure media services, or pay a licensing invoice. Those are meaningful powers.",
+      "author": "Chefbc2k",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://dev.to/chefbc2k_v1/a-voice-receipt-needs-its-relationship-graph-36ll",
+      "image": "/images/feed/feed-bc966765ff9c.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-17bdc62a00eb",
+      "title": "11 Years Later, Dragon Ball Super: Beerus Finally Nails Akira Toriyama's Original Vision",
+      "excerpt": "I doubted the need for another Beerus arc, but Dragon Ball Super's new take is admittedly winning me over.",
+      "body": "I’ll be the first to admit I wasn’t particularly excited about Dragon Ball Super: Beerus . When the remake of Dragon Ball Super was first announced, I struggled to see the point of revisiting a story that had already been told once in Dragon Ball Z: Battle of Gods and then again in the original 2015 television run. Sure, the promise of refreshed animation was exciting, but it didn’t feel like that was enough to justify starting from scratch for a third time, especially when major manga milestones like the Galactic Patrol Prisoner arc and Moro have yet to receive their due on-screen.",
+      "author": "Ryan Epps",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.polygon.com/dragon-ball-super-beerus-finally-respects-toriyamas-vision/",
+      "image": "/images/feed/feed-17bdc62a00eb.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-69618bd84d8f",
+      "title": "The Fix For Plug-In Hybrids That Don't Get Plugged In? Smaller Gas Tanks, New Report Argues",
+      "excerpt": "Less gas, more electric range and faster charging could help plug-in hybrids deliver on their fuel-saving promise.",
+      "body": "Less gas, more electric range and faster charging could help plug-in hybrids deliver on their fuel-saving promise.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Plug-in Hybrid, Hybrid. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Plug-in Hybrid",
+        "Hybrid"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://insideevs.com/news/812076/phevs-with-smaller-tanks-proposed/",
+      "image": "/images/feed/feed-69618bd84d8f.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-2d610388f6a3",
+      "title": "On this day in space! Oct. 18, 1963: France's Félicette Becomes the 1st Cat in Space! >^..^<",
+      "excerpt": "On Oct. 18, 1963, a cat went to space! Félicette was a French \"catstronaut\" who became the first and only feline to fly to space. Here's why it mattered.",
+      "body": "On Oct. 18, 1963, a cat went to space! Félicette was a French \"catstronaut\" who became the first and only feline to fly to space. While the U.S. and Soviet Union were busy launching primates, dogs and humans, the French decided to join the space race by launching a cat. Félicette, a stray tuxedo cat from the streets of Paris, was a substitute for another cat named Felix, who somehow escaped on launch day. So Félicette went where no cat had ever gone before. She boarded a French Véronique AG1 rocket and soared 130 miles above the Earth before safely parachuting back down. Luckily Félicette made it home alive and well, unlike many of the other animal astronauts that flew during the space race. Félicette, the first cat to fly into space in October 1963, is seen her carrier pre-flight.",
+      "author": " Hanneke Weitering ",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-18-2026",
+      "image": "/images/feed/feed-2d610388f6a3.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-48c0edf57778",
+      "title": "E-quipment highlight: LEAPTING launches electric autonomous forklift",
+      "excerpt": "Chinese PV and solar equipment brand LEAPTING has taken the wraps off its new, battery-powered Auto-Navigation Forklift Robot (AFR) designed to speed up the installation of large, utility-scale solar…",
+      "body": "Chinese PV and solar equipment brand LEAPTING has taken the wraps off its new, battery-powered Auto-Navigation Forklift Robot (AFR) designed to speed up the installation of large, utility-scale solar — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jo Borrás",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://electrek.co/2026/10/18/e-quipment-highlight-leapting-launches-electric-autonomous-forklift/",
+      "image": "/images/feed/feed-48c0edf57778.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-3ac87ae6ab9d",
+      "title": "Your smart TV has one big problem: It's tracking what you watch",
+      "excerpt": "If you don't want your TV manufacturer to know everything you watch, here's what to do about it.",
+      "body": "If you don't want your TV manufacturer to know everything you watch, here's what to do about it.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Jonny Evans)",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2285490/one-problem-smart-tv-tracking-what-you-watch/",
+      "image": "/images/feed/feed-3ac87ae6ab9d.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
@@ -166,7 +281,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 38,
       "url": "https://www.androidauthority.com/dont-buy-fitbit-edge-day-one-3723619/",
       "image": "/images/feed/feed-e972d4cae2ac.jpg",
       "source": "Android Authority",
@@ -185,7 +300,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 30,
       "url": "https://www.polygon.com/happy-death-day-3-jessica-rothe-scream-queen/",
       "image": "/images/feed/feed-eb7fe2f02fea.jpg",
       "source": "Polygon",
@@ -204,7 +319,7 @@
         "Gadget"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 45,
       "url": "https://www.theverge.com/gadgets/1013257/milk-frother-cold-foam-gadget",
       "image": "/images/feed/feed-6ff478e26165.jpg",
       "source": "The Verge",
@@ -223,7 +338,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 36,
       "url": "https://insideevs.com/news/812129/vw-id4-charge-limit-80/",
       "image": "/images/feed/feed-72db5f7f48e3.jpg",
       "source": "InsideEVs",
@@ -242,7 +357,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 47,
       "url": "https://www.engadget.com/2285211/why-its-important-to-avoid-plugging-in-damaged-hard-drive/",
       "image": "/images/feed/feed-d104924fce9b.jpg",
       "source": "Engadget",
@@ -261,7 +376,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 40,
       "url": "https://www.engadget.com/2285208/why-internet-upload-speeds-slower-download-comparison/",
       "image": "/images/feed/feed-4a2db6059172.jpg",
       "source": "Engadget",
@@ -280,7 +395,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 50,
       "url": "https://www.engadget.com/2285141/ethernet-cables-why-not-join-two-what-do-instead/",
       "image": "/images/feed/feed-99c6fa8707a0.jpg",
       "source": "Engadget",
@@ -299,29 +414,10 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 37,
       "url": "https://www.polygon.com/the-game-awards-goty-jury-usa/",
       "image": "/images/feed/feed-4e0cdaf0f00b.jpg",
       "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-63534a0ae135",
-      "title": "This Firefox feature made me ditch sticky notes for everyday research",
-      "excerpt": "I didn’t know I needed this feature, and now I can’t live without it!",
-      "body": "I end up opening dozens of Firefox tabs on my Mac every day, especially when I’m researching a topic that I’m writing about. A huge problem with having so many tabs open at once is that it’s hard to keep track of what useful information a tab contains. For a long time, I used Stickies — the built-in sticky notes app on Mac — to write down important notes from these open tabs for my initial research. However, I’ve completely ditched it for the Tab Notes feature that Mozilla introduced in Firefox a while ago.",
-      "author": "Yash Wate",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.androidauthority.com/firefox-feature-ditch-sticky-notes-3720865/",
-      "image": "/images/feed/feed-63534a0ae135.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -337,7 +433,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 32,
       "url": "https://www.space.com/astronomy/black-holes/astronomers-want-your-help-finding-missing-black-holes-in-the-milky-way",
       "image": "/images/feed/feed-e08362454bd6.png",
       "source": "Space.com",
@@ -358,7 +454,7 @@
         "Vehicle"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 48,
       "url": "https://cleantechnica.com/2026/10/18/electric-vehicle-chargers-or-flying-cars-tesla-and-the-state-of-florida-cant-decide/",
       "image": "/images/feed/feed-4186373406fa.jpg",
       "source": "CleanTechnica",
@@ -377,7 +473,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 38,
       "url": "https://www.polygon.com/gta-5-leak-gta-6-reddit-vine-reactions-ban-sony-rockstar-response/",
       "image": "/images/feed/feed-e009f70e3093.jpg",
       "source": "Polygon",
@@ -396,7 +492,7 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 44,
       "url": "https://www.polygon.com/fromsoftware-echo-night-ps1/",
       "image": "/images/feed/feed-fc9a6112b631.jpg",
       "source": "Polygon",
@@ -415,7 +511,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 35,
       "url": "https://www.space.com/stargazing/solar-eclipses/10-best-places-to-see-the-2027-total-solar-eclipse-in-spain",
       "image": "/images/feed/feed-65bb6e44d37d.jpg",
       "source": "Space.com",
@@ -435,7 +531,7 @@
         "Astronaut"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 39,
       "url": "https://www.space.com/space-exploration/artemis/artemis-ii-astronauts-honored-with-stephen-hawking-medal-at-starmus",
       "image": "/images/feed/feed-21db4c6de9e2.jpg",
       "source": "Space.com",
@@ -454,7 +550,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 30,
       "url": "https://www.polygon.com/10-best-horror-books-ranked-goodreads/",
       "image": "/images/feed/feed-4a54a9ceeafc.jpg",
       "source": "Polygon",
@@ -473,7 +569,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 45,
       "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
       "image": "/images/feed/feed-7c86a93f0005.jpg",
       "source": "The Hacker News",
@@ -492,29 +588,29 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 32,
       "url": "https://www.polygon.com/stephen-king-the-shining-on-hbo-max/",
       "image": "/images/feed/feed-fef0b6993973.png",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-52919b2dd9d0",
-      "title": "60 Years Ago, the Best Charlie Brown Quote Was So Perfect It Made It Into the Movie",
-      "excerpt": "Charlie Brown's bleak outlook on life was perfectly summed up in this 1966 Peanuts comic strip by Charles Schulz",
-      "body": "Lucy’s quote, “Happiness is a warm puppy,” is another great one that touches on life’s simple joys on a really deep level. But to determine the best quote ever uttered by Charlie Brown, I didn't want accidental brilliance, I wanted something that he understands as much as the audience does. Something where he’s telling you who he is with complete self awareness. I wanted the character's philosophy on life. To me, that’s the difference between a brilliant Charlie Brown quote and brilliant Charles Schulz quote, if that makes sense.",
-      "author": "Brian VanHooker",
+      "id": "feed-9560b4b856ad",
+      "title": "APOD: 2026 October 18 – Sonified: Eagle Nebula Pillars",
+      "excerpt": "APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
+      "body": "APOD Science APOD APOD: 2026 October 18 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Sonified: Eagle Nebula Pillars Explanation: Yes, but have you ever experienced the Eagle Nebula with your ears ? The famous nebula M16 is best known for the feast it gives your eyes, highlighting bright young stars forming deep inside dark towering structures . These light-years long columns of cold gas and dust are some 6,500 light-years distant toward the constellation of the Serpent ( Serpens ).",
+      "author": "NASA Breaking News",
       "date": "2026-10-18",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "space",
       "tags": [
-        "Gaming"
+        "Space"
       ],
       "featured": false,
-      "xpReward": 46,
-      "url": "https://www.polygon.com/peanuts-best-charlie-brown-quote-ever/",
-      "image": "/images/feed/feed-52919b2dd9d0.png",
-      "source": "Polygon",
+      "xpReward": 41,
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-18-sonified-eagle-nebula-pillars/",
+      "image": "/images/feed/feed-9560b4b856ad.jpg",
+      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -531,7 +627,7 @@
         "Vehicle"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 45,
       "url": "https://cleantechnica.com/2026/10/17/ice-vehicle-sales-crash-49-while-ev-share-jumps-to-67-china-ev-sales-report-for-september/",
       "image": "/images/feed/feed-bc196e8bd5c5.png",
       "source": "CleanTechnica",
@@ -550,7 +646,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 32,
       "url": "https://electrek.co/2026/10/17/mercedes-amg-gt-suv-electric-1153-hp-710-kw-charging/",
       "image": "/images/feed/feed-78d70cb30617.jpg",
       "source": "Electrek",
@@ -569,7 +665,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 45,
       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "image": "/images/feed/feed-c2a828c7429b.jpg",
       "source": "TechCrunch",
@@ -588,7 +684,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 49,
       "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
       "image": "/images/feed/feed-74d0d83d3b7b.jpg",
       "source": "The Verge",
@@ -608,67 +704,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 46,
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "image": "/images/feed/feed-5329074f8958.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-1bfb2d665248",
-      "title": "AMG’s New Electric SUV Has 1,153 HP. The Charging Specs Are Even Wilder",
-      "excerpt": "How does 10-80% in 12 minutes sound?",
-      "body": "How does 10-80% in 12 minutes sound?\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://insideevs.com/news/812320/amg-gt-suv-ev-reveal/",
-      "image": "/images/feed/feed-1bfb2d665248.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-8016d715f09c",
-      "title": "China’s EV Transition Is Four Different Transitions",
-      "excerpt": "China has reached a stage of vehicle electrification that is easy to miss if the only number being watched is national EV market share. New urban buses are now essentially all electric, and in many ci…",
-      "body": "China has reached a stage of vehicle electrification that is easy to miss if the only number being watched is national EV market share. New urban buses are now essentially all electric, and in many cities the procurement question is no longer whether to replace a diesel bus with a ... [continued] The post China’s EV Transition Is Four Different Transitions appeared first on CleanTechnica .",
-      "author": "Michael Barnard",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://cleantechnica.com/2026/10/17/china-ev-transition-use-cases/",
-      "image": "/images/feed/feed-8016d715f09c.webp",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-2746a7e38677",
-      "title": "Shifting Conversations At The Africa E-Mobility Week & Forum Showcase Growth In The African E-Mobility Sector",
-      "excerpt": "The 5th edition of the Africa E-Mobility Week & Forum was held at the end of last month at Nooitgedacht Estate, Stellenbosch, Western Cape, South Africa. It was the first time the event had been held…",
-      "body": "The 5th edition of the Africa E-Mobility Week &#38; Forum was held at the end of last month at Nooitgedacht Estate, Stellenbosch, Western Cape, South Africa. It was the first time the event had been held in Southern Africa, with earlier editions having been held in East Africa (in Kenya ... [continued] The post Shifting Conversations At The Africa E-Mobility Week &#038; Forum Showcase Growth In The African E-Mobility Sector appeared first on CleanTechnica .",
-      "author": "Remeredzai Joseph Kuhudzai",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://cleantechnica.com/2026/10/17/shifting-conversations-at-the-africa-e-mobility-week-forum-showcase-growth-in-the-african-e-mobility-sector/",
-      "image": "/images/feed/feed-2746a7e38677.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -685,7 +724,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 34,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
       "image": "/images/feed/feed-c549025bcffd.jpg",
       "source": "BleepingComputer",
@@ -704,7 +743,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 49,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-17-2026",
       "image": "/images/feed/feed-ab2864874ebb.jpg",
       "source": "Space.com",
@@ -723,48 +762,10 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 30,
       "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
       "image": "/images/feed/feed-4864321055de.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-28be4da7a2f3",
-      "title": "This Week In Space podcast: Episode 232 — The Lunar Dump",
-      "excerpt": "On Episode 232 of This Week In Space, Rod Pyle and Tariq Malik are joined by Chelsea Gohd to talk about the recent large data dump from the Artemis II mission.",
-      "body": "On Episode 232 of This Week In Space , Rod Pyle and Tariq Malik are joined by Chelsea Gohd, former writer for NASA/JPL and now with Space.com, to talk about the recent large data dump from the Artemis II mission. What was included? Why is this new data important? What observations were made, and what discoveries might result from them? What kind of annotations and notes did the astronauts include that make these observations uniquely valuable? And finally, we talk about Artemis III - what is the mission profile and what are the stakes for SpaceX and Blue Origin? Download or subscribe to this show at: https://twit.tv/shows/this-week-in-space .",
-      "author": " Space.com Staff ",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-232-the-lunar-dump",
-      "image": "/images/feed/feed-28be4da7a2f3.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-2851203f9fa8",
-      "title": "6 scientifically accurate star projectors to turn any room into a home planetarium",
-      "excerpt": "These six realistic star projectors are much more than mood lighting. Their projections are scientifically accurate enough to serve as actual stargazing practice, perfect for budding astronomers, youn…",
-      "body": "Want to educate young children about the wonders of the cosmos? Depending on the time of year, your location and the weather, your hopes to see the night sky in real life might not be as easy as heading into the backyard and peering up. That's why one of the best star projectors might be the solution. That's why we've picked out six star projectors that actually deliver scientifically accurate images, from projections of the northern hemisphere to breathtaking pictures from the Hubble Space Telescope . Any one of these will turn your home into a private planetarium. Each comes with several swappable images, and you can purchase additional slides/discs for the Homestar and Pococo models.",
-      "author": " Chris McMullen ",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.space.com/stargazing/skywatching-kit/six-scientifically-accurate-star-projectors-to-turn-any-room-into-a-home-planetarium",
-      "image": "/images/feed/feed-2851203f9fa8.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -780,7 +781,7 @@
         "Encryption"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 32,
       "url": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
       "image": "/images/feed/feed-c790320c042c.jpg",
       "source": "Wired",
@@ -799,7 +800,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 32,
       "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "image": "/images/feed/feed-0ed9a47ea1d5.jpg",
       "source": "The Hacker News",
@@ -818,7 +819,7 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 52,
       "url": "https://www.cnet.com/home/security/devices-i-rely-on-for-porch-security/",
       "image": "/images/feed/feed-1a5a5c81df3b.jpg",
       "source": "CNET",
@@ -837,7 +838,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 30,
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "image": "/images/feed/feed-9a0cd5bfb89f.jpg",
       "source": "The Hacker News",
@@ -856,7 +857,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 52,
       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
       "image": "/images/feed/feed-3813289f4d22.jpg",
       "source": "Ars Technica",
@@ -875,7 +876,7 @@
         "Transformer"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 47,
       "url": "https://alexwang.ai/posts/associative-memory/",
       "image": "/images/feed/feed-535f3eb25ab6.jpg",
       "source": "Hacker News",
@@ -894,7 +895,7 @@
         "Generative Ai"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 51,
       "url": "https://openai.com/index/itau-generative-ai",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -913,7 +914,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 39,
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "image": "/images/feed/feed-57c41972947e.png",
       "source": "MIT Tech Review",
@@ -932,7 +933,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 48,
       "url": "https://www.zdnet.com/uncategorized/anthropic-embed-third-party-ai-auditors-safety/",
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/auditblue-GettyImages-1269457842.jpg",
       "source": "ZDNet",
@@ -940,16 +941,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: 7 AI Tools That Can Plan Your Entire Week in One Prompt",
-    "DEV.TO: Seu LLM vai falhar e vai ser enganado: idempotência e segurança em fluxos de e-commerce",
-    "DEV.TO: Twelve Hours Apart: Leading DoCheck's Engineering Team From the Other Side of the Planet",
-    "DEV.TO: Chrome 158 Drops XSLT on 17 November: Fix RSS and Sitemaps",
-    "DEV.TO: How I Built ALIBI GRAPH: My Solo Journey Building a Multi-Agent Cyber-Forensics Lie Detector",
-    "DEV.TO: vLLM vs TGI vs Ollama: Serving LLMs in Production in 2026",
-    "DEV.TO: DuckDB and Arrow Win AI Data Prep, Then Hit a Wall at Serving",
-    "ENGADGET: How to use your Windows PC to make and receive phone calls",
-    "ANDROID AUTHORITY: Whatever you do, don’t buy a Fitbit Edge on day one",
-    "POLYGON: Jessica Rothe Officially Confirms Return Plans for Hit Time-Loop Thriller Trilogy"
+    "CLEANTECHNICA: Tesla Implements New Accident-Avoidance Automation, But Millions of Tesla Customers Don’t Have Access To It",
+    "DEV.TO: Your ufw rules don't cover your Docker ports (and the log-rotation setting to make before your first container)",
+    "DEV.TO: Five Agents, One Dev Database: Clone a Postgres per Worktree With Postgres 18",
+    "DEV.TO: This week in Cursor + .NET — 7 rules (week ending October 18, 2026)",
+    "DEV.TO: I built an attention head out of a 1982 associative memory and measured where it breaks",
+    "DEV.TO: DeepSeek swapped its Flash model overnight. I pulled the new config and did the cache math.",
+    "DEV.TO: Debugging LLM JSON Output: From Frustration to Function Calling",
+    "DEV.TO: A Voice Receipt Needs Its Relationship Graph",
+    "POLYGON: 11 Years Later, Dragon Ball Super: Beerus Finally Nails Akira Toriyama's Original Vision",
+    "INSIDEEVS: The Fix For Plug-In Hybrids That Don't Get Plugged In? Smaller Gas Tanks, New Report Argues"
   ],
   "sectionVideos": {}
 }
