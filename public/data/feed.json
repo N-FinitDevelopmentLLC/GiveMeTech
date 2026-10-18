@@ -1,6 +1,215 @@
 {
-  "fetchedAt": "2026-10-17T23:07:09.267Z",
+  "fetchedAt": "2026-10-18T00:08:14.495Z",
   "articles": [
+    {
+      "id": "feed-9089b2d5530d",
+      "title": "Your Agent Says the Refactor Changes Nothing. Run Both Branches on the Same Inputs",
+      "excerpt": "Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architectur…",
+      "body": "Book: Decoupled PHP — Clean and Hexagonal Architecture for Applications That Outlive the Framework Also by me: Thinking in Go (2-book series) — Complete Guide to Go Programming + Hexagonal Architecture in Go My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub The agent's last message reads well. \"Moved the invoice total calculation out of InvoiceController into an InvoiceTotals use case. No behavior change. All tests pass.\" You check. The tests do pass. The tests may have missed one change. The old controller rounded each line's gross amount to cents and then added them up. The new class adds the raw amounts and rounds once at the end. Take three lines of 0.30 net at 19% tax.",
+      "author": "Gabriel Anhaia",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 34,
+      "url": "https://dev.to/gabrielanhaia/your-agent-says-the-refactor-changes-nothing-run-both-branches-on-the-same-inputs-26mn",
+      "image": "/images/feed/feed-9089b2d5530d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-d8e6072063f5",
+      "title": "How AIClaw 3.7.12 Makes Desktop Memory Inspectable and Editable",
+      "excerpt": "A remembered preference can outlive the reason it was saved. A project switches test frameworks, a formatting convention changes, or an old note becomes misleading. Users need a direct way to inspect…",
+      "body": "A remembered preference can outlive the reason it was saved. A project switches test frameworks, a formatting convention changes, or an old note becomes misleading. Users need a direct way to inspect and correct what their agent has retained. AIClaw shipped that control in v3.7.12 : a Memory page in desktop settings with full-document editing, individual entry editing, and confirmed deletion. This article focuses on the Electron desktop app and its file-backed memory. The feature is already released; every implementation link below is pinned to v3.7.12. The latest public release at the time of writing is v3.7.15 .",
+      "author": "chowyu",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 44,
+      "url": "https://dev.to/chowyu12/how-aiclaw-3712-makes-desktop-memory-inspectable-and-editable-17gp",
+      "image": "/images/feed/feed-d8e6072063f5.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-11632a1a1bd0",
+      "title": "Budgeting memory for a local language model: weights, KV cache, and room to run",
+      "excerpt": "An “8B, 4-bit” label gives you a starting estimate for weight storage. A useful memory budget also needs the conversation cache, the runtime's allocations, and the workload you intend to serve. Here i…",
+      "body": "An “8B, 4-bit” label gives you a starting estimate for weight storage. A useful memory budget also needs the conversation cache, the runtime's allocations, and the workload you intend to serve. Here is a calculation you can adapt before downloading weights or choosing a context length. The numbers below are arithmetic estimates, not measurements of a running model. 1. Start with the weight payload For P scalar parameters stored uniformly at b bits each: weight bytes = P × b / 8 A hypothetical model with exactly 8 billion parameters would have these idealized payloads: 16 bits: 16,000,000,000 bytes ≈ 14.90 GiB 8 bits: 8,000,000,000 bytes ≈ 7.45 GiB 4 bits: 4,000,000,000 bytes ≈ 3.73 GiB One GiB is 2^30 bytes; one decimal GB is 10^9 bytes.",
+      "author": "Brandon Brooks",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 38,
+      "url": "https://dev.to/brandon_brooks_51075f6d22/budgeting-memory-for-a-local-language-model-weights-kv-cache-and-room-to-run-397f",
+      "image": "/images/feed/feed-11632a1a1bd0.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-9d4246df48f9",
+      "title": "มาตรฐานกลาง UPAS O(1): ทำไมค่ายสมาร์ตโฟนถึงทำคนเดียวไม่ได้ และต้องดึงค่ายผู้ผลิต CPU มาร่วมทดสอบ?",
+      "excerpt": "🚀 มาตรฐานกลาง UPAS O(1): ทำไมค่ายสมาร์ตโฟนถึงทำคนเดียวไม่ได้ และต้องดึงค่ายผู้ผลิต CPU มาร่วมทดสอบ? 📌 ทำความรู้จัก UPAS O(1) ใน 1 นาที Universal Power Allocation Standard (UPAS) O(1) คือสถาปัตยกรรมจ…",
+      "body": "🚀 มาตรฐานกลาง UPAS O(1): ทำไมค่ายสมาร์ตโฟนถึงทำคนเดียวไม่ได้ และต้องดึงค่ายผู้ผลิต CPU มาร่วมทดสอบ? 📌 ทำความรู้จัก UPAS O(1) ใน 1 นาที Universal Power Allocation Standard (UPAS) O(1) คือสถาปัตยกรรมจัดสรรพลังงานยุคใหม่ ที่เข้ามาปฏิวัติการควบคุมฮาร์ดแวร์โดย รื้อลูปคำนวณซับซ้อนหลังบ้านทิ้งทั้งหมด แล้วเปลี่ยนมาใช้ ตารางเมทริกซ์ท่อส่งตรง O(1) ที่ระบุแอดเดรสและสัดส่วนเปอร์เซ็นต์คงที่ 1\\% - 100\\% ทำงานประสาน 3 ประสานผ่าน: 🧠 NPU: ประเมินขีดจำกัดซิลิคอนและคำนวณสัดส่วนพลังงานดิบล่วงหน้า ⚡ PMIC: รับค่าเปอร์เซ็นต์ไปแปลงแรงดันไฟฟ้าดิบและกระแสไฟให้พอดีเป๊ะ ไร้ไฟกระชาก 💻 CPU: ทำหน้าที่ตัดสินใจสั่งการจ่ายงานในขอบเขตความปลอดภัยขั้นสุดท้าย ❓ ทำไมค่ายสมาร์ตโฟน (OEM) ถึงนำสถาปัตยกรรมนี้ไปใช้ลำพังไม่ได้?",
+      "author": "M-tre Max",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 42,
+      "url": "https://dev.to/mtre_max_a0341056583cb56/maatrthaanklaang-upas-o1-thamaimkhaaysmaartofnthuengthamkhnediiywaimaid-aelatngduengkhaayphuuphlit-cpu-maarwmthdsb-533o",
+      "image": "/images/feed/feed-9d4246df48f9.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-d07fdec18bc2",
+      "title": "Your Public Beta Needs a Bug Report a Stranger Can Reproduce",
+      "excerpt": "Give public beta testers a short way to report what they tried, what they expected, and what happened. Then turn that report into a separate developer reproduction note with a known starting state, ex…",
+      "body": "Give public beta testers a short way to report what they tried, what they expected, and what happened. Then turn that report into a separate developer reproduction note with a known starting state, exact steps and the environment you checked. Don't make the tester do your whole debugging job. Building in public can bring people to an unfinished product. It also creates a handoff problem: a useful comment such as “the import stopped” is not yet enough for somebody else to repeat the failure. Treat the comment as the beginning of a report, rather than proof that the reporter did something wrong. The workflow below uses two linked records. One captures the tester's observation with little effort. The other records the developer's investigation.",
+      "author": "Uriel Bitton",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 50,
+      "url": "https://dev.to/urielbitton/your-public-beta-needs-a-bug-report-a-stranger-can-reproduce-b06",
+      "image": "/images/feed/feed-d07fdec18bc2.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-6b5280ce42fd",
+      "title": "44 Years Later, Steven Spielberg's Scariest Movie of All Time Is Officially Back on Streaming",
+      "excerpt": "The supernatural horror film Poltergeist is on HBO Max, though there's still a debate as to who directed it",
+      "body": "Poltergeist , which is currently available to stream on HBO Max, follows an ordinary suburban family who begin to experience strange things in their home. Furniture and toys move on their own, a glass of milk shatters out of nowhere, and the youngest child in the family, five-year-old Carol Anne (Heather O'Rourke), begins to communicate with beings through the television. At first these events are dismissed, but during a thunderstorm one night, a tree outside the windows of the kids’ room crashes in and snatches the boy. Then, a portal opens in their closet, sucking Carol Anne into another dimension. With help from some paranormal investigators, the family tries everything to bring her back.",
+      "author": "Brian VanHooker",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": true,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/poltergeist-tobe-hooper-steven-spielberg-on-hbo-max/",
+      "image": "/images/feed/feed-6b5280ce42fd.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-ac9ee5f40911",
+      "title": "How to Render Mermaid Diagrams in Markdown",
+      "excerpt": "Put the diagram code in a fenced block tagged mermaid. GitHub, GitLab and VS Code draw it; many other places show it as code. Here is how to make it render, and what to do where it can't. The Mermaid…",
+      "body": "Put the diagram code in a fenced block tagged mermaid. GitHub, GitLab and VS Code draw it; many other places show it as code. Here is how to make it render, and what to do where it can't. The Mermaid editor draws the diagram as you type, points at the line with an error, and exports PNG or SVG for places that can't render Mermaid. It runs in your browser. Open the Mermaid editor How to add a Mermaid diagram to Markdown Write the diagram code inside a fenced code block and put the word mermaid straight after the opening three backticks. That word is the whole trick: renderers that support Mermaid look for it and draw a diagram instead of showing code. ``` mermaid flowchart TD A [ Order placed ] -- &gt; B { Paid ?",
+      "author": "ThatToolSite",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://dev.to/thattoolsite/how-to-render-mermaid-diagrams-in-markdown-4pbe",
+      "image": "/images/feed/feed-ac9ee5f40911.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-263ea8e6a9cf",
+      "title": "What to check if your Nintendo Switch 2 isn't connecting to the TV",
+      "excerpt": "Your Nintendo Switch 2 is made to project its display to a TV. If it's not working, there are some things you should check.",
+      "body": "Your Nintendo Switch 2 is made to project its display to a TV. If it's not working, there are some things you should check.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Kate Irwin)",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.engadget.com/2285088/nintendo-switch-2-not-connecting-to-tv-what-check/",
+      "image": "/images/feed/feed-263ea8e6a9cf.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-440fcea53a33",
+      "title": "Pagination SEO: Make Page Two a Real, Crawlable URL",
+      "excerpt": "For pagination SEO, give each result page a real URL and link to the sequence with ordinary crawlable links. Check that page two opens directly, shows its own results, and can lead to later pages. A “…",
+      "body": "For pagination SEO, give each result page a real URL and link to the sequence with ordinary crawlable links. Check that page two opens directly, shows its own results, and can lead to later pages. A “Load more” button alone does not establish that a crawler can follow the collection. This matters when useful public pages sit beyond the first screen of a directory or archive. Before adding more content, test the path that leads to the content you already have. The goal is reliable discovery of relevant pages, not making every possible filtered view eligible for search. Define the collection you intend to expose Start with one public collection, such as a directory of integration guides. Write down which detail pages belong in it and which views serve a real reader need.",
+      "author": "Uriel Bitton",
+      "date": "2026-10-17",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://dev.to/urielbitton/pagination-seo-make-page-two-a-real-crawlable-url-51md",
+      "image": "/images/feed/feed-440fcea53a33.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-b831812f2b9f",
+      "title": "OpenAI is building a humanoid robot, but the body isn't the real challenge",
+      "excerpt": "OpenAI CEO Sam Altman wants a humanoid that can operate in a world designed for people, though the CEO says a robot 'brain' is a much bigger challenge.",
+      "body": "OpenAI CEO Sam Altman wants a humanoid that can operate in a world designed for people, though the CEO says a robot 'brain' is a much bigger challenge.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-10-17",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+      "image": "/images/feed/feed-b831812f2b9f.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-54b536b0dbd0",
+      "title": "These Samsung Galaxy tablets are in their last year of software support",
+      "excerpt": "Samsung's latest software update commitment for its tablets is great, but older devices can't take advantage of it.",
+      "body": "Samsung's latest software update commitment for its tablets is great, but older devices can't take advantage of it.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tablet. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Adnan Ahmed)",
+      "date": "2026-10-17",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Tablet"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2284679/samsung-galaxy-tablets-last-year-software-support/",
+      "image": "/images/feed/feed-54b536b0dbd0.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
     {
       "id": "feed-8619e5864ba5",
       "title": "8 Most Disappointing Switch Games, Ranked",
@@ -13,8 +222,8 @@
       "tags": [
         "Gaming"
       ],
-      "featured": true,
-      "xpReward": 50,
+      "featured": false,
+      "xpReward": 33,
       "url": "https://www.polygon.com/most-disappointing-switch-games-ranked/",
       "image": "/images/feed/feed-8619e5864ba5.jpg",
       "source": "Polygon",
@@ -32,125 +241,11 @@
       "tags": [
         "Gadgets"
       ],
-      "featured": true,
-      "xpReward": 50,
+      "featured": false,
+      "xpReward": 36,
       "url": "https://www.engadget.com/2284612/wifi-speeds-drop-evening-reason-why/",
       "image": "/images/feed/feed-635aa553b135.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-8f69db512ee0",
-      "title": "Meta-Optimized Continual Adaptation for sustainable aquaculture monitoring systems for low-power autonomous deployments",
-      "excerpt": "Meta-Optimized Continual Adaptation for sustainable aquaculture monitoring systems for low-power autonomous deployments Introduction: A Pond, a Battery, and a Lesson in Humility Last spring, I spent t…",
-      "body": "Meta-Optimized Continual Adaptation for sustainable aquaculture monitoring systems for low-power autonomous deployments Introduction: A Pond, a Battery, and a Lesson in Humility Last spring, I spent three weekends at a small tilapia farm run by a friend's family, helping them retrofit a handful of solar-powered sensor buoys. The plan sounded trivial: log dissolved oxygen, temperature, and turbidity every few minutes, push the data over LoRaWAN, and flag anomalies. What could go wrong? Everything, as it turns out. The dissolved oxygen sensor drifted within days as biofilm accumulated on its membrane. A seasonal algae bloom shifted the entire statistical distribution of turbidity readings, so my carefully tuned anomaly detector started screaming false alarms at 3 a.m.",
-      "author": "Rikin Patel",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 31,
-      "url": "https://dev.to/rikinptl/meta-optimized-continual-adaptation-for-sustainable-aquaculture-monitoring-systems-for-low-power-5ce",
-      "image": "/images/feed/feed-8f69db512ee0.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-8efb057a27f6",
-      "title": "What a weekly release rhythm looks like with a remote developer",
-      "excerpt": "Originally published on shipfastdev.com. When you hire a remote developer, the hardest part isn’t the code. It’s knowing what is happening between two calls. A fixed weekly rhythm answers that questio…",
-      "body": "Originally published on shipfastdev.com . When you hire a remote developer, the hardest part isn’t the code. It’s knowing what is happening between two calls. A fixed weekly rhythm answers that question before you have to ask it. Monday: agree the week’s goals The week starts with a short call. You and your developer agree what should be live by Friday: a feature, a set of bug fixes, or a step towards a larger release. Anything too big for one week is split into pieces that each work on their own. Midweek: a preview link Halfway through the week you get a link to try what’s in progress. You click through it like a user would, and you say what feels wrong while it is still cheap to change.",
-      "author": "Adil Soukaini | Full-Stack Developer",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Developer"
-      ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/adilsoukaini/what-a-weekly-release-rhythm-looks-like-with-a-remote-developer-4a0j",
-      "image": "/images/feed/feed-8efb057a27f6.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-f01099cd474c",
-      "title": "My own gate failed (8 of 20), so I rescoped a scam-ad checker around quotes code can find word for word",
-      "excerpt": "A job offer lands in a family WhatsApp group (a composite scene, built from patterns in published reports): \"CS Kamboja, Rp 15 jt/bulan, visa turis OK, tiket ditanggung.\" Someone has to tell the perso…",
-      "body": "A job offer lands in a family WhatsApp group (a composite scene, built from patterns in published reports): \"CS Kamboja, Rp 15 jt/bulan, visa turis OK, tiket ditanggung.\" Someone has to tell the person who is about to board whether to take it, tonight. The rules that would stop them exist. Cambodia is not an official placement country, a tourist visa is not a work permit, a fee before a contract is a police-checklist warning sign. But those rules sit on different ministry, police and embassy pages, and nobody in the group can read them all in an evening. I built Awas for the Nebius Global AI Hackathon to answer that chat with pages instead of a score. This post is mostly about the part that went wrong, because it changed the product.",
-      "author": "Edy Cu",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/edycutjong/my-own-gate-failed-8-of-20-so-i-rescoped-a-scam-ad-checker-around-quotes-code-can-find-word-for-5alp",
-      "image": "/images/feed/feed-f01099cd474c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-1b50081ab87c",
-      "title": "Customer-Support Knowledge Base Crawl Boundaries: Lower Index Cost, Traceable Retrieval",
-      "excerpt": "Short answer: use a staged retrieval design with explicit collections, bounded queries, and traceable source context. For a fintech support knowledge base, the least complex option is a narrow crawl c…",
-      "body": "Short answer: use a staged retrieval design with explicit collections, bounded queries, and traceable source context. For a fintech support knowledge base, the least complex option is a narrow crawl contract: index only approved help content, preserve tenant and access metadata on every item, and make ingestion, retrieval, and citation separate observable stages. The page that wakes the on-call is usually not the crawler. It is a support answer that cites an old fee schedule, or an answer that quietly mixes one tenant's policy with another's. By the time that page fires, index growth and missing telemetry have already made the incident expensive. I would start from the answer the customer is allowed to see and work backwards to a retrieval contract.",
-      "author": "CarterHughes6853",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/carterhughes6853/customer-support-knowledge-base-crawl-boundaries-lower-index-cost-traceable-retrieval-5faj",
-      "image": "/images/feed/feed-1b50081ab87c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-f27bbea33f3c",
-      "title": "Reading your team's Git history as a manager, without leaving VS Code",
-      "excerpt": "I'm Pavel, the founder of DevGhost. This post walks through what I built it for: an engineering lead who lives in VS Code and wants to understand what their team's Git history says about the work behi…",
-      "body": "I'm Pavel, the founder of DevGhost. This post walks through what I built it for: an engineering lead who lives in VS Code and wants to understand what their team's Git history says about the work behind it. Commit counts and lines of code don't answer that. A one-line fix can take a day; a generated migration can add 2,000 lines in a minute. So DevGhost estimates something else. The baseline For every change, DevGhost estimates how long it would take a reference developer: mid-level, familiar with the codebase, working without AI. That gives every person and every period the same yardstick. Two numbers come out of it: Contribution, h : estimated reference-developer hours behind the changes. Not time actually worked.",
-      "author": "Pavel Kosyakov",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://dev.to/pkosyakov/reading-your-teams-git-history-as-a-manager-without-leaving-vs-code-49b5",
-      "image": "/images/feed/feed-f27bbea33f3c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-c4fc85e7f887",
-      "title": "GummySearch deletes everyone's data on December 1. I rebuilt its morning loop on a 4B model on my laptop",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle Overheard tells a maker, every morning, what people said on Reddit and Hacker News about the problems each of th…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 2: Side Hustle What I Built Overheard tells a maker, every morning, what people said on Reddit and Hacker News about the problems each of their products solves. It runs on your own laptop with an open-weight model and sends one short email per product: Worth a reply: people asking for a tool like yours, with a reply draft you can copy. The draft always says you built the product, and nothing is ever posted for you. Pain points: grouped into themes that are marked new or growing week over week. Mentions: you, and the competitors you list. Every label carries a sentence quoted from the post, and code checks that the sentence is really there before you see it. Who pays for this today.",
-      "author": "Prateek Rai",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://dev.to/prateek11rai/gummysearch-deletes-everyones-data-on-december-1-i-rebuilt-its-morning-loop-on-a-4b-model-on-my-71i",
-      "image": "/images/feed/feed-c4fc85e7f887.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -166,29 +261,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 50,
       "url": "https://www.engadget.com/2284525/how-to-keep-smart-home-running-internet-goes-down/",
       "image": "/images/feed/feed-3a3e54de2909.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-636f975bb2a4",
-      "title": "6 Clauses Your Freelance Contract Needs (Or You Risk Not Getting Paid)",
-      "excerpt": "I built a free contract checklist tool that scans a pasted contract for missing clauses. Writing the checks made it obvious which 6 clauses actually matter — the rest is boilerplate. \"Build a website\"…",
-      "body": "I built a free contract checklist tool that scans a pasted contract for missing clauses. Writing the checks made it obvious which 6 clauses actually matter — the rest is boilerplate. 1. Scope and acceptance criteria \"Build a website\" is a conversation topic, not a scope. Name the exact deliverable, format, and how the client verifies it is done. Without this, every revision request becomes an unwinnable argument about what you actually promised. 2. Acceptance deadline with an auto-accept clause Give the client a fixed number of days (3-5 business days is typical) to approve the work or send written feedback. State that silence past the deadline counts as acceptance.",
-      "author": "member_fb93637b",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://dev.to/member_fb93637b/6-clauses-your-freelance-contract-needs-or-you-risk-not-getting-paid-584b",
-      "image": "/images/feed/feed-636f975bb2a4.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -204,7 +280,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 38,
       "url": "https://www.engadget.com/2284465/why-its-important-to-monitor-pc-background-processes/",
       "image": "/images/feed/feed-a510d6b1d56e.jpg",
       "source": "Engadget",
@@ -223,29 +299,10 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 36,
       "url": "https://9to5mac.com/2026/10/17/iphone-duo-walk-in-purchases-challenging-report/",
       "image": "/images/feed/feed-0857406accb8.jpg",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-c9221b106e44",
-      "title": "Don't throw away your old PlayStation — Do this instead",
-      "excerpt": "Older PlayStations may be past their prime, but there are several ways you can make use of these consoles.",
-      "body": "Older PlayStations may be past their prime, but there are several ways you can make use of these consoles.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Isaac Egbon)",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.engadget.com/2284423/dont-throw-away-old-playstation-do-this-instead/",
-      "image": "/images/feed/feed-c9221b106e44.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -261,29 +318,10 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 32,
       "url": "https://www.ign.com/articles/battlefield-6-devs-respond-after-players-take-aim-at-secuty-typo-and-cosmetic-with-5-pistols",
       "image": "/images/feed/feed-3b5bd6ed2b02.png",
       "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-e4c7c1392009",
-      "title": "The Tesla Roadster is far from the first car to use fans for downforce",
-      "excerpt": "Here are some of the other, older vehicles that use fans for downforce like the Tesla Roadster does.",
-      "body": "Here are some of the other, older vehicles that use fans for downforce like the Tesla Roadster does.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Mariella Moon)",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.engadget.com/2289646/tesla-roadster-not-first-car-use-fans-for-downforce/",
-      "image": "/images/feed/feed-e4c7c1392009.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -300,7 +338,7 @@
         "Vehicle"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 40,
       "url": "https://cleantechnica.com/2026/10/17/ice-vehicle-sales-crash-49-while-ev-share-jumps-to-67-china-ev-sales-report-for-september/",
       "image": "/images/feed/feed-bc196e8bd5c5.png",
       "source": "CleanTechnica",
@@ -319,7 +357,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 39,
       "url": "https://kotaku.com/the-mortuary-assistant-film-director-jeremiah-kipp-passes-away-2000747075",
       "image": "/images/feed/feed-6b7e26945917.jpg",
       "source": "Kotaku",
@@ -338,7 +376,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 44,
       "url": "https://www.polygon.com/pokemon-go-minior-shower-schedule-how-to-find-shiny/",
       "image": "/images/feed/feed-e13c911a780c.jpg",
       "source": "Polygon",
@@ -357,7 +395,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 31,
       "url": "https://electrek.co/2026/10/17/mercedes-amg-gt-suv-electric-1153-hp-710-kw-charging/",
       "image": "/images/feed/feed-78d70cb30617.jpg",
       "source": "Electrek",
@@ -376,7 +414,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 40,
       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "image": "/images/feed/feed-c2a828c7429b.jpg",
       "source": "TechCrunch",
@@ -395,7 +433,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 30,
       "url": "https://www.ign.com/articles/james-cameron-congratulates-marvel-after-avengers-endgame-beats-avatar-at-the-box-office-yet-again",
       "image": "/images/feed/feed-8ba17d6db35c.png",
       "source": "IGN",
@@ -414,29 +452,10 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 32,
       "url": "https://www.polygon.com/inscryption-retrospective-blood-sacrifice/",
       "image": "/images/feed/feed-834c06b77e70.jpg",
       "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-3dcc7a011174",
-      "title": "Car Park Capital Is The World’s Most Evil Simulator (Complimentary)",
-      "excerpt": "Step into Robert Moses’ shoes as you dismantle civilization and ensure these little computer people never witness a 15-minute city in their lifetime",
-      "body": "Step into Robert Moses’ shoes as you dismantle civilization and ensure these little computer people never witness a 15-minute city in their lifetime\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://kotaku.com/car-park-capital-is-the-worlds-most-evil-simulator-complimentary-2000747068",
-      "image": "/images/feed/feed-3dcc7a011174.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -452,29 +471,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 32,
       "url": "https://www.theverge.com/tech/1013453/tiktok-bans-alex-gibneys-musk-documentary",
       "image": "/images/feed/feed-74d0d83d3b7b.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-cdc2786ddb42",
-      "title": "Indie App Spotlight: ‘Hoardware’ makes it easy to track your Apple device collection",
-      "excerpt": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. If you…",
-      "body": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . If you’re someone who collects tons of varying Apple products, Hoardware is your one-stop shop for keeping track of it all. Hoardware lets you track all of your hardware, as well as the software versions, model numbers, and anything else that might be relevant. more…",
-      "author": "Michael Burkhardt",
-      "date": "2026-10-17",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Device"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://9to5mac.com/2026/10/17/indie-app-spotlight-hoardware-makes-it-easy-to-track-your-apple-device-collection/",
-      "image": "/images/feed/feed-cdc2786ddb42.png",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -491,7 +491,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 53,
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "image": "/images/feed/feed-5329074f8958.webp",
       "source": "TechCrunch",
@@ -510,7 +510,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 33,
       "url": "https://insideevs.com/news/812320/amg-gt-suv-ev-reveal/",
       "image": "/images/feed/feed-1bfb2d665248.jpg",
       "source": "InsideEVs",
@@ -529,7 +529,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 46,
       "url": "https://cleantechnica.com/2026/10/17/china-ev-transition-use-cases/",
       "image": "/images/feed/feed-8016d715f09c.webp",
       "source": "CleanTechnica",
@@ -548,7 +548,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 51,
       "url": "https://cleantechnica.com/2026/10/17/shifting-conversations-at-the-africa-e-mobility-week-forum-showcase-growth-in-the-african-e-mobility-sector/",
       "image": "/images/feed/feed-2746a7e38677.jpg",
       "source": "CleanTechnica",
@@ -568,7 +568,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 46,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
       "image": "/images/feed/feed-c549025bcffd.jpg",
       "source": "BleepingComputer",
@@ -587,7 +587,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 43,
       "url": "https://insideevs.com/features/812308/chinese-paris-auto-show-recap/",
       "image": "/images/feed/feed-b41bd34cf2a4.jpg",
       "source": "InsideEVs",
@@ -606,7 +606,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 37,
       "url": "https://cleantechnica.com/2026/10/17/the-cybercab-has-landed-in-australia-transport-unions-gear-up-to-fight/",
       "image": "/images/feed/feed-af725c948a67.jpg",
       "source": "CleanTechnica",
@@ -625,7 +625,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 53,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-17-2026",
       "image": "/images/feed/feed-ab2864874ebb.jpg",
       "source": "Space.com",
@@ -644,7 +644,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
       "image": "/images/feed/feed-4864321055de.jpg",
       "source": "BleepingComputer",
@@ -663,7 +663,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 44,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-232-the-lunar-dump",
       "image": "/images/feed/feed-28be4da7a2f3.jpg",
       "source": "Space.com",
@@ -682,7 +682,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 42,
       "url": "https://www.space.com/stargazing/skywatching-kit/six-scientifically-accurate-star-projectors-to-turn-any-room-into-a-home-planetarium",
       "image": "/images/feed/feed-2851203f9fa8.jpg",
       "source": "Space.com",
@@ -701,7 +701,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 34,
       "url": "https://www.theverge.com/podcast/1012416/spacex-starlink-elon-musk-cell-carrier-wireless-mobile-att-verizon-t-mobile",
       "image": "/images/feed/feed-74515c478ee9.jpg",
       "source": "The Verge",
@@ -720,7 +720,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 30,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
       "image": "/images/feed/feed-657279cf248c.jpg",
       "source": "The Verge",
@@ -739,7 +739,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 35,
       "url": "https://www.space.com/entertainment/space-movies-shows/lanterns-shocking-finale-left-us-with-a-lot-of-unanswered-questions-for-a-potential-season-2",
       "image": "/images/feed/feed-1555ef5adbe5.jpg",
       "source": "Space.com",
@@ -758,7 +758,7 @@
         "Encryption"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 43,
       "url": "https://www.wired.com/story/kernel-panic-encryption-is-getting-squeezed-from-all-sides/",
       "image": "/images/feed/feed-c790320c042c.jpg",
       "source": "Wired",
@@ -777,7 +777,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 38,
       "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "image": "/images/feed/feed-0ed9a47ea1d5.jpg",
       "source": "The Hacker News",
@@ -796,7 +796,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 40,
       "url": "https://www.space.com/stargazing/meteor-showers/the-orionid-meteor-shower-peaks-oct-21-22-2026-heres-what-to-expect",
       "image": "/images/feed/feed-3f53a38fee75.jpg",
       "source": "Space.com",
@@ -815,7 +815,7 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 34,
       "url": "https://www.cnet.com/home/security/devices-i-rely-on-for-porch-security/",
       "image": "/images/feed/feed-1a5a5c81df3b.jpg",
       "source": "CNET",
@@ -834,7 +834,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 30,
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "image": "/images/feed/feed-9a0cd5bfb89f.jpg",
       "source": "The Hacker News",
@@ -853,7 +853,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 45,
       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
       "image": "/images/feed/feed-3813289f4d22.jpg",
       "source": "Ars Technica",
@@ -872,7 +872,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 34,
       "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
       "image": "/images/feed/feed-32b7a245aa33.jpg",
       "source": "BleepingComputer",
@@ -891,7 +891,7 @@
         "Generative Ai"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 31,
       "url": "https://openai.com/index/itau-generative-ai",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -910,7 +910,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 35,
       "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
       "image": "/images/feed/feed-57c41972947e.png",
       "source": "MIT Tech Review",
@@ -929,7 +929,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 39,
       "url": "https://www.zdnet.com/uncategorized/anthropic-embed-third-party-ai-auditors-safety/",
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/auditblue-GettyImages-1269457842.jpg",
       "source": "ZDNet",
@@ -937,16 +937,16 @@
     }
   ],
   "breakingNews": [
-    "POLYGON: 8 Most Disappointing Switch Games, Ranked",
-    "ENGADGET: Why your Wi-Fi speeds can drop in the evening, and what to do about it",
-    "DEV.TO: Meta-Optimized Continual Adaptation for sustainable aquaculture monitoring systems for low-power autonomous deployments",
-    "DEV.TO: What a weekly release rhythm looks like with a remote developer",
-    "DEV.TO: My own gate failed (8 of 20), so I rescoped a scam-ad checker around quotes code can find word for word",
-    "DEV.TO: Customer-Support Knowledge Base Crawl Boundaries: Lower Index Cost, Traceable Retrieval",
-    "DEV.TO: Reading your team's Git history as a manager, without leaving VS Code",
-    "DEV.TO: GummySearch deletes everyone's data on December 1. I rebuilt its morning loop on a 4B model on my laptop",
-    "ENGADGET: How to keep your smart home running even if the internet goes down",
-    "DEV.TO: 6 Clauses Your Freelance Contract Needs (Or You Risk Not Getting Paid)"
+    "DEV.TO: Your Agent Says the Refactor Changes Nothing. Run Both Branches on the Same Inputs",
+    "DEV.TO: How AIClaw 3.7.12 Makes Desktop Memory Inspectable and Editable",
+    "DEV.TO: Budgeting memory for a local language model: weights, KV cache, and room to run",
+    "DEV.TO: มาตรฐานกลาง UPAS O(1): ทำไมค่ายสมาร์ตโฟนถึงทำคนเดียวไม่ได้ และต้องดึงค่ายผู้ผลิต CPU มาร่วมทดสอบ?",
+    "DEV.TO: Your Public Beta Needs a Bug Report a Stranger Can Reproduce",
+    "POLYGON: 44 Years Later, Steven Spielberg's Scariest Movie of All Time Is Officially Back on Streaming",
+    "DEV.TO: How to Render Mermaid Diagrams in Markdown",
+    "ENGADGET: What to check if your Nintendo Switch 2 isn't connecting to the TV",
+    "DEV.TO: Pagination SEO: Make Page Two a Real, Crawlable URL",
+    "ENGADGET: OpenAI is building a humanoid robot, but the body isn't the real challenge"
   ],
   "sectionVideos": {}
 }
