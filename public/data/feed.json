@@ -1,6 +1,424 @@
 {
-  "fetchedAt": "2026-10-19T15:24:20.190Z",
+  "fetchedAt": "2026-10-19T16:19:54.459Z",
   "articles": [
+    {
+      "id": "feed-f5bca21bc17c",
+      "title": "O agente não precisa pensar em voz alta",
+      "excerpt": "Hybrid Reasoning Agents combinam raciocínio latente com ações em texto - e forçam a separar eficiência, observabilidade e validação. Agentes de LLM ainda raciocinam e agem quase só em texto. Cada pass…",
+      "body": "Hybrid Reasoning Agents combinam raciocínio latente com ações em texto - e forçam a separar eficiência, observabilidade e validação. Agentes de LLM ainda raciocinam e agem quase só em texto. Cada passo intermediário vira token legível, mesmo quando ninguém precisa ler o raciocínio — só o resultado ou a chamada de ferramenta. O custo sobe. A latência também. Raciocínio latente (em espaço contínuo, sem decodificar para palavras) é mais barato, mas tradicionalmente perde acesso nativo a ferramentas e deixa o processo opaco. Hybrid Reasoning Agents (arXiv:2610.18861, 13/10 - Stanford, Together AI, UIUC, Meta) propõem um meio-termo arquitetural: o agente alterna, na mesma geração, entre modo latente (pensar sem verbalizar) e modo texto (agir no ambiente, chamar ferramenta, devolver resposta).",
+      "author": "Alex Pimenta",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 50,
+      "url": "https://dev.to/aspepper/o-agente-nao-precisa-pensar-em-voz-alta-pk6",
+      "image": "/images/feed/feed-f5bca21bc17c.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-304ec6c5d819",
+      "title": "Assume Nothing Persists: Five Free-Tier Myths and a Restart Drill You Can Re-Run",
+      "excerpt": "Free compute is easy to start and easy to misread. Your demo works on Friday afternoon. Do you know it works on Monday morning? Here is one reframe that kills most of these myths at once. A free tier…",
+      "body": "Free compute is easy to start and easy to misread. Your demo works on Friday afternoon. Do you know it works on Monday morning? Here is one reframe that kills most of these myths at once. A free tier gives you a lease on compute, not a pet server. You re-acquire the machine every single time. The workflow below assumes only two things: free model access and a free server option. MonkeyCode provides both, and I use them for exactly this kind of pre-flight check. Disclosure: This article was prepared as part of MonkeyCode's product outreach. I will not tell you what your tier does. I will show you how to find out in ten minutes. Myth 1: The box you deployed to is not the box you get tomorrow What developers repeat: It's a small VM, it's fine, I'll SSH in next week.",
+      "author": "Jordan Huang",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 44,
+      "url": "https://dev.to/gitlab_3188/assume-nothing-persists-five-free-tier-myths-and-a-restart-drill-you-can-re-run-g1h",
+      "image": "/images/feed/feed-304ec6c5d819.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-97d40ee2455c",
+      "title": "How to audit MCP tool schema token bloat and sync CLAUDE.md with AGENTS.md locally",
+      "excerpt": "If you connect 4–5 MCP servers to Claude Code or OpenAI Codex (GitHub, Playwright, Postgres, Notion), their tools/list JSON schemas silently consume 15,000–35,000 tokens on every turn before you even…",
+      "body": "If you connect 4–5 MCP servers to Claude Code or OpenAI Codex (GitHub, Playwright, Postgres, Notion), their tools/list JSON schemas silently consume 15,000–35,000 tokens on every turn before you even type a prompt. On top of that, repositories using both Claude Code ( CLAUDE.md ) and OpenAI Codex ( AGENTS.md ) or Cursor ( .cursor/rules ) quickly suffer from rule drift or accidentally include exposed keys / covert prompt injections inside third-party skills.",
+      "author": "Christian Frascogna",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 37,
+      "url": "https://dev.to/framy2/how-to-audit-mcp-tool-schema-token-bloat-and-sync-claudemd-with-agentsmd-locally-2c2n",
+      "image": "/images/feed/feed-97d40ee2455c.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-09b553190efa",
+      "title": "Your AI Agent Crashes on 429 Errors and You're Burning Money",
+      "excerpt": "Your AI Agent Crashes on 429 Errors and You're Burning Money Handling rate limits the right way saves you from unexpected bills and keeps your app reliable. When you call an AI service (OpenAI, Anthro…",
+      "body": "Your AI Agent Crashes on 429 Errors and You're Burning Money Handling rate limits the right way saves you from unexpected bills and keeps your app reliable. Why 429 Errors Matter When you call an AI service (OpenAI, Anthropic, Cohere, etc.) you're usually limited by a rate limit – a maximum number of requests per minute or per day. If you exceed it, the API returns HTTP 429 Too Many Requests . If your code treats a 429 like any other error and just crashes or retries blindly, two bad things happen: Lost work – the request that triggered the limit is dropped, so you may need to redo expensive generations. Cost spiral – naïve retry loops can hammer the endpoint, causing more 429s and potentially triggering over‑usage fees or account suspensions.",
+      "author": "rene",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 34,
+      "url": "https://dev.to/renev3408/your-ai-agent-crashes-on-429-errors-and-youre-burning-money-2ag9",
+      "image": "/images/feed/feed-09b553190efa.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-2a22f580c5e9",
+      "title": "48-Hour Field Notes: A Crash Mid-Batch Proved My Queue Had No Memory",
+      "excerpt": "My batch job had a very confident opinion about progress, and that opinion lived entirely in a Python variable. If the process died, the variable died with it, and the next run started from zero like…",
+      "body": "My batch job had a very confident opinion about progress, and that opinion lived entirely in a Python variable. If the process died, the variable died with it, and the next run started from zero like nothing had ever happened. Sound familiar? I spent a 48-hour window on this instead of shipping the feature I actually wanted to ship. Here is the thing that annoyed me most: my earlier fix was idempotency-hashing the inputs, which protects you from doing the same work twice. It does absolutely nothing for the opposite failure, where a crash quietly skips items and nobody notices until a report looks short. So this time I attacked the missing piece — a journal that survives SIGKILL and can tell me, at any moment, which items are claimed, which are done, and which are stranded in between.",
+      "author": "Taylor Wang",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 35,
+      "url": "https://dev.to/codepy_1473/48-hour-field-notes-a-crash-mid-batch-proved-my-queue-had-no-memory-3lbp",
+      "image": "/images/feed/feed-2a22f580c5e9.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-eecc5fb673d1",
+      "title": "Fiber vs. cable internet: What's the difference between them?",
+      "excerpt": "Fiber internet is more modern than cable, but the older technology still works well for today's connection needs.",
+      "body": "Fiber internet is more modern than cable, but the older technology still works well for today's connection needs.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Antony Terence)",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": true,
+      "xpReward": 52,
+      "url": "https://www.engadget.com/2287870/fiber-vs-cable-internet-difference-between/",
+      "image": "/images/feed/feed-eecc5fb673d1.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-ccb1c096cff7",
+      "title": "Draft Freely, Publish Narrowly: A Page Ownership Gate for Model-Written Docs",
+      "excerpt": "Draft Freely, Publish Narrowly: A Page Ownership Gate for Model-Written Docs Documentation pipelines rarely fail because the model writes badly; they fail because nobody defined which pages a model is…",
+      "body": "Draft Freely, Publish Narrowly: A Page Ownership Gate for Model-Written Docs Documentation pipelines rarely fail because the model writes badly; they fail because nobody defined which pages a model is allowed to finish. A weak paragraph is visible in the diff, but ownership is invisible, so review attention lands on pages where the risk was already low. The fix is structural rather than stylistic: classify every page before drafting starts, then let a small checker enforce that classification on every pull request. The artifact below is a TOML manifest plus a Python gate that runs in about a second on a few hundred files. The only question that matters: does this page promise something?",
+      "author": "Avery Lin",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://dev.to/github_7727/draft-freely-publish-narrowly-a-page-ownership-gate-for-model-written-docs-56pp",
+      "image": "/images/feed/feed-ccb1c096cff7.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-29118c636506",
+      "title": "Browser Cookies: What Are They, How Are They Used, and How Can They Be Stolen?",
+      "excerpt": "Browser Cookies: What Are They, How Are They Used, and How Can They Be Stolen? In this post, I’ll cover: What cookies are When and why cookies are used How cookies can be stolen Common methods used to…",
+      "body": "Browser Cookies: What Are They, How Are They Used, and How Can They Be Stolen? In this post, I’ll cover: What cookies are When and why cookies are used How cookies can be stolen Common methods used to steal cookies A simple example demonstrating how cookies can be extracted from my two most-used browsers, Firefox Developer Edition and Chromium , using an interesting filesystem-level method A small Go tool that automates the whole extraction flow on Linux — database discovery, copying, decryption, and structured JSON output — plus a look at how real-world malware turns this same flow into network exfiltration For this example, I’ll use a test website I created for this purpose: https://trelea-dashboard.fly.dev/ .",
+      "author": "Marius Trelea",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://dev.to/marius_trelea_44abd6fb263/browser-cookies-what-are-they-how-are-they-used-and-how-can-they-be-stolen-449o",
+      "image": "/images/feed/feed-29118c636506.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-88eea226ac95",
+      "title": "Apple is set to hold another product event on October 28",
+      "excerpt": "Apple's \"Pro and Tell\" event is taking place in Los Angeles and will likely feature the first touchscreen Mac.",
+      "body": "Apple's \"Pro and Tell\" event is taking place in Los Angeles and will likely feature the first touchscreen Mac.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Kris Holt)",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.engadget.com/2290401/apple-pro-and-tell-event-october-28-announcement/",
+      "image": "/images/feed/feed-88eea226ac95.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-c87549a68cef",
+      "title": "Huawei’s car unit joins CATL’s 2,520-station battery swap network",
+      "excerpt": "Huawei’s smart car business is signing on to CATL’s battery swap network, giving the world’s largest battery maker another heavyweight partner for a technology most of the industry wrote off a decade…",
+      "body": "Huawei’s smart car business is signing on to CATL’s battery swap network, giving the world’s largest battery maker another heavyweight partner for a technology most of the industry wrote off a decade ago. Yinwang, the Huawei-controlled automotive unit also known as Newcool, signed a strategic cooperation framework with CATL and its swap subsidiary CAES on Monday. CATL’s Choco-swap network already counts 2,520 stations across about 200 Chinese cities. more…",
+      "author": "Fred Lambert",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://electrek.co/2026/10/19/huawei-catl-battery-swap-choco-2520-stations/",
+      "image": "/images/feed/feed-c87549a68cef.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-93c8d3fbccda",
+      "title": "Apple teases MacBook Pro event next week",
+      "excerpt": "Apple has sent invites to a second product launch this month, and it's scheduled for October 28th at 1PM ET in Los Angeles. At the event, Apple is set to announce new Macs and a refreshed iPad Mini, a…",
+      "body": "Apple has sent invites to a second product launch this month, and it's scheduled for October 28th at 1PM ET in Los Angeles. At the event, Apple is set to announce new Macs and a refreshed iPad Mini, according to Bloomberg . The big announcement is expected to be a new MacBook Pro with an OLED touchscreen that's also lighter and has an iPhone-like Dynamic Island. But Apple is also planning on revealing a 14-inch MacBook Pro and a new iMac with the M6 chip, which was recently introduced with the Mac Mini . Apple's updated iPad Mini will apparently finally get an OLED screen as well and put the selfie cam on the landscape edge. \"Can't wait to p … Read the full story at The Verge.",
+      "author": "Jay Peters",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Macbook"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.theverge.com/tech/1013028/apple-second-october-product-launch-announcement",
+      "image": "/images/feed/feed-93c8d3fbccda.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-253551bc8a15",
+      "title": "Martian Dawn",
+      "excerpt": "NASA’s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view…",
+      "body": "NASA/JPL-Caltech/MSSS NASA&#8217;s Curiosity captures the dawn on Mars – as well as elongated ridges formed by wind erosion, or yardangs – in this close-up from a panorama released on Oct. 6, 2026. This is the most detailed view yet of distant, wind-carved Martian cliffs, highlighting features the mission’s scientists have long been waiting to see up close. The panorama was captured by Curiosity’s Mastcam on Aug. 11, the 4,982nd Martian day, or sol, of the mission, and comprises six individual images that were stitched together after being sent to Earth. Image credit: NASA/JPL-Caltech/MSSS",
+      "author": "HQ Web Team",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.nasa.gov/image-article/martian-dawn/",
+      "image": "/images/feed/feed-253551bc8a15.png",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-74ee2cf9ff48",
+      "title": "Apple announces special event for October 28: ‘Pro and tell’",
+      "excerpt": "Apple today announced its second experience of the month, taking place next Wednesday, October 28 at 10 a.m. PT. The tagline for this event is: “Pro and tell.” Here’s what to expect. more…",
+      "body": "Apple today announced its second experience of the month, taking place next Wednesday, October 28 at 10 a.m. PT. The tagline for this event is: “Pro and tell.” Here’s what to expect. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Chance Miller",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://9to5mac.com/2026/10/19/apple-announces-special-event-for-october-28/",
+      "image": "/images/feed/feed-74ee2cf9ff48.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-5124d80a4a09",
+      "title": "Star Wars Book Officially Solves Luke Skywalker's Most Iconic Mystery",
+      "excerpt": "Did the Force alone help Luke Skywalker fight back against the Empire? Dr. Chris Kempshall answers that question and more in 'Star Pilots.'",
+      "body": "Every Star Wars fan knows how it felt to watch Luke Skywalker strap into his X-wing and take on the Empire in his first run-in with the Death Star. Fans felt fear, excitement, and then utter euphoria when he pulled off that all-important shot, kickstarting one of the Rebellion's first major victories with a massive bang.",
+      "author": "Aimee Hart",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.polygon.com/star-wars-star-pilots-chris-kempshall-luke-skywalker/",
+      "image": "/images/feed/feed-5124d80a4a09.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-87b503b6e6ec",
+      "title": "Google Play Store bug is causing Collections confusion",
+      "excerpt": "Is your Play Store Collections shortcut icon missing? You’re not alone.",
+      "body": "Credit: C. Scott Brown / Android Authority TL;DR A visual glitch is affecting the Play Store’s Collections shortcut on the stock Pixel Launcher. Users are reporting that the icon next to the Collections shortcut is completely blank. Google’s Pixel product support team recommends checking for updates, clearing the Pixel Launcher cache, or rebooting into safe mode to see if a third-party app is the issue. It has been about two years since Google introduced the Play Store feature known as “ Collections .” This feature organizes your apps by topic and highlights content recommended by your apps. It’s meant to help you discover new content or resume content already in progress right from your home screen.",
+      "author": "Ryan McNeal",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.androidauthority.com/google-play-collections-blank-icon-3725093/",
+      "image": "/images/feed/feed-87b503b6e6ec.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-93b9662f5e86",
+      "title": "Why your USB device keeps disconnecting (and how to fix it)",
+      "excerpt": "If your USB peripheral is on the fritz, it's worth doing some troubleshooting with the port itself. Give these steps a try.",
+      "body": "If your USB peripheral is on the fritz, it's worth doing some troubleshooting with the port itself. Give these steps a try.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Device. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Ben Stegner)",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Device"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.engadget.com/2287812/usb-device-disconnecting-reasons/",
+      "image": "/images/feed/feed-93b9662f5e86.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-c1eb0c5124ae",
+      "title": "Pokémon Skateboards Officially Launch, and Scalpers Are Already Buying Them Up",
+      "excerpt": "The Santa Cruz Pokémon blind bags depicting fan favorite TCG designs are being resold on websites like eBay and Facebook for exorbitant amounts",
+      "body": "Oct. 17 marked the release of Santa Cruz skateboard blind bags containing illustrated decks of some of the Pokémon Trading Card Game's best art. Classic cards like the base-set Charizard and more modern cards like the \" Moonbreon \" from Evolving Skies are randomly packaged in these new products. If that sounds cool to you, here's the bad news: You're probably not going to find any of these in a store.",
+      "author": "Patricia Hernandez",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.polygon.com/pokemon-skateboard-santa-cruz-restock-shape-prices-charizard-eevee/",
+      "image": "/images/feed/feed-c1eb0c5124ae.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-0aef818d955a",
+      "title": "The Acer 5-port 4K HDMI switch is back at its lowest price",
+      "excerpt": "Need more HDMI ports? This Acer switch is $10 off on Amazon, with 5 inputs, 4K/60 support, and a record-low price.",
+      "body": "Thanks to an on-page coupon, this Acer HDMI switch is down to $29.99 on Amazon right now, which is $10 off its $39.99 RRP. That’s a 25% discount relative to the recommended retail price, and it’s a deal worth grabbing now because it has never been cheaper. See the deal at Amazon",
+      "author": "Matt Horne",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.androidauthority.com/acer-5-in-1-out-hdmi-switch-deal-3725136/",
+      "image": "/images/feed/feed-0aef818d955a.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-c8512bc0a16a",
+      "title": "Lord of the Rings Director Says He’s Finally Making His Tintin Sequel",
+      "excerpt": "Peter Jackson gave an update on his upcoming The Adventures of Tintin sequel and has new information on the next two Lord of the Rings movies.",
+      "body": "Tintin fans have been in the wilderness for quite some time. After the Steven Spielberg-directed The Adventures of Tintin hit theaters in 2011, Spielberg and producer Peter Jackson confirmed that a sequel was on the way. This follow-up was originally promised for sometime in 2014 or 2015, with Jackson directing. Needless to say, that didn’t happen.",
+      "author": "Elijah Gonzalez",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.polygon.com/tintin-update-peter-hackson-lord-of-the-rings/",
+      "image": "/images/feed/feed-c8512bc0a16a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-1220e3bbd6a7",
+      "title": "2027 Volvo EX60 Blows Past EPA Rating In Real-World Range Test",
+      "excerpt": "You shouldn’t worry about munching miles in Volvo’s newest electric SUV.",
+      "body": "You shouldn’t worry about munching miles in Volvo’s newest electric SUV.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://insideevs.com/news/812433/2027-volvo-ex60-blows-past-epa-range-test/",
+      "image": "/images/feed/feed-1220e3bbd6a7.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-fa28a7efd9ba",
+      "title": "AI Cloning Threatens To End Public Playtests For Video Games",
+      "excerpt": "Moonlighter dev Digital Sun has cancelled plans for a public playtest of its next game, for fears of Claude clones",
+      "body": "Moonlighter dev Digital Sun has cancelled plans for a public playtest of its next game, for fears of Claude clones\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Video Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "John Walker",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Video Game"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://kotaku.com/revamp-public-playtest-cancelled-digital-sun-claude-ai-clones-2000747558",
+      "image": "/images/feed/feed-fa28a7efd9ba.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-7401c63aef99",
+      "title": "Where to find penny buns in Enshrouded",
+      "excerpt": "Here's where to find the best penny bun farming spot in Enshrouded.",
+      "body": "To find penny buns in Enshrouded , you must take a foraging trip to a particular area. Chances are you've already been there but missed these small, brown mushrooms — if there's one crafting ingredient in Enshrouded that's easy to find but even easier to overlook, it's penny buns.",
+      "author": "Marloes Valentina Stella",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.polygon.com/enshrouded-penny-buns-how-to-get/",
+      "image": "/images/feed/feed-7401c63aef99.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
     {
       "id": "feed-887b9c6a7681",
       "title": "Xbox Game Pass Is Officially Losing One of the Best Star Wars Games of All Time This Month",
@@ -14,144 +432,11 @@
         "Xbox",
         "Game"
       ],
-      "featured": true,
-      "xpReward": 33,
+      "featured": false,
+      "xpReward": 46,
       "url": "https://www.polygon.com/xbox-game-pass-october-2026-leaving-star-wars-skywalker-saga-double-fine/",
       "image": "/images/feed/feed-887b9c6a7681.png",
       "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-0f3cb973fbd1",
-      "title": "Ranking #1 on Google isn't what it used to be.",
-      "excerpt": "Ahrefs found that top-ranking pages now get 58% fewer clicks when an AI Overview shows up. Your answer is still being read. It's just being read inside Google, ChatGPT and Perplexity, not on your blog…",
-      "body": "Ahrefs found that top-ranking pages now get 58% fewer clicks when an AI Overview shows up. Your answer is still being read. It's just being read inside Google, ChatGPT and Perplexity, not on your blog. So the goal isn't only to rank anymore. It's to be the source the answer is built from. Three checks I'd run on any blog this week: Answer the question in the first paragraph. AI systems pull clear, direct answers. If yours is buried in paragraph six, someone else gets quoted. Make the structure obvious. One H2 per sub-question. Short sections. A meta description that says exactly what the page answers. Make sure AI crawlers can actually reach you. Check that your robots.txt isn't blocking bots like GPTBot or PerplexityBot. It's an easy one to miss. Good SEO still matters.",
-      "author": "Mohsin Ali",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/mohsin_ali_dev/ranking-1-on-google-isnt-what-it-used-to-be-1e9l",
-      "image": "/images/feed/feed-0f3cb973fbd1.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-29320847a801",
-      "title": "Local Administrator Password Management: Why LAPS Alone Is Not Tier Separation",
-      "excerpt": "Local Administrator Password Management: Why LAPS Alone Is Not Tier Separation Windows LAPS solved a real problem. Before it, the local administrator password on a fleet of workstations was frequently…",
-      "body": "Local Administrator Password Management: Why LAPS Alone Is Not Tier Separation Windows LAPS solved a real problem. Before it, the local administrator password on a fleet of workstations was frequently the same value, documented in a spreadsheet that nobody updated. Managing that password per machine removes a lateral movement path that has been used in almost every large intrusion of the last decade. It does not, by itself, prevent the same movement. What LAPS actually delivers LAPS stores a unique, randomly generated password for the built-in local administrator account on each managed machine, rotates it on a schedule, and records it in Active Directory or Entra ID with access control on who can read it. The security value is real and specific.",
-      "author": "StarkMan",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/stark_zhuang_df5076f35c68/local-administrator-password-management-why-laps-alone-is-not-tier-separation-11p0",
-      "image": "/images/feed/feed-29320847a801.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-ed15ea99df05",
-      "title": "Passkeys in In-App Browsers: The API Is There, but It Won't Work",
-      "excerpt": "I recently added passkeys to a member login page, and LINE's in-app browser gave me one of the sneakiest bugs I've dealt with in a while. The passkey button showed up. Tapping it did nothing. No syste…",
-      "body": "I recently added passkeys to a member login page, and LINE's in-app browser gave me one of the sneakiest bugs I've dealt with in a while. The passkey button showed up. Tapping it did nothing. No system prompt, no error, nothing in the console. This post walks through what was going on, plus three things I think anyone shipping passkeys should know: how to tell whether passkeys will actually work, why NotAllowedError doesn't mean the user cancelled, and why a null from your backend can make Safari throw before the ceremony even starts. All the code is ready to copy. If your site gets opened from inside LINE, Facebook, Instagram or similar apps, this probably applies to you. The symptom While testing on staging, I opened the login page inside LINE.",
-      "author": "sp0033212000",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Api"
-      ],
-      "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/sp0033212000/passkeys-in-in-app-browsers-the-api-is-there-but-it-wont-work-3m9a",
-      "image": "/images/feed/feed-ed15ea99df05.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-6fda01a721a0",
-      "title": "Hired in Lagos, Paid From NYC: The Cross-Border Gig Economy Agents Are Building",
-      "excerpt": "An AI agent in Brooklyn needs a photo of a flooded street in Lagos. Not tomorrow — in the next hour. It doesn't care about visas, embassies, or whether the person holding the phone has a work permit.…",
-      "body": "An AI agent in Brooklyn needs a photo of a flooded street in Lagos. Not tomorrow — in the next hour. It doesn't care about visas, embassies, or whether the person holding the phone has a work permit. It cares about one thing: someone is standing there, camera in hand, ready to confirm what the agent cannot see. That's the premise of the new cross-border labor market, and it's weirder than it sounds. The agent doesn't post a job on a freelance site. It doesn't care about your country, your résumé, or your timezone. It cares that a task got done, verified, and paid for. Everything else is someone else's problem — and that's exactly what makes it interesting. Geography is the old bottleneck For most of labor history, hiring across borders meant lawyers.",
-      "author": "Agent Hands",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/agenthandsai/hired-in-lagos-paid-from-nyc-the-cross-border-gig-economy-agents-are-building-4ogc",
-      "image": "/images/feed/feed-6fda01a721a0.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-922fc5540e98",
-      "title": "WebDAV over HTTPS: what you actually need",
-      "excerpt": "WebDAV over plain HTTP exposes your password. Here's how HTTPS + auth choice works in practice. WebDAV defaults to HTTP/80. If you expose a WebDAV server to the public internet without TLS, anyone on…",
-      "body": "WebDAV over plain HTTP exposes your password. Here's how HTTPS + auth choice works in practice. TL;DR WebDAV defaults to HTTP/80. If you expose a WebDAV server to the public internet without TLS, anyone on your WiFi can sniff your base64-encoded Basic Auth credentials in a few seconds. Always use HTTPS in production. Auth choices side-by-side Method Security Compatibility Notes Basic Auth Medium (safe over HTTPS) Universal Base64 over HTTPS = fine Bearer / Token Easy OAuth2, Nextcloud etc. Most modern clients Digest Auth Higher Mainstream clients Hashed, password never goes over wire Client cert Highest Few servers / clients Niche, self-signed PKI For home NAS : Basic + HTTPS is enough. For public / multi-tenant : Digest or OAuth2 + Bearer.",
-      "author": "疏影",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/scsoi/webdav-over-https-what-you-actually-need-3nfm",
-      "image": "/images/feed/feed-922fc5540e98.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-d8524dd8fcc6",
-      "title": "Summer 2027 Software Engineering Internships: Where They Are and When to Apply",
-      "excerpt": "If you're a CS student lining up next summer, this is where the Summer 2027 software engineering cycle stands right now. This first ran on the UTern blog.* Summer 2027 software engineering internship…",
-      "body": "If you're a CS student lining up next summer, this is where the Summer 2027 software engineering cycle stands right now. This first ran on the UTern blog .* Summer 2027 software engineering internship season is already underway. On October 11, 2026, UTern tracked 2,715 live software engineering internships starting Summer 2027, from 1,043 employers. Across employers tracked over several recruiting cycles, the median summer program first posts around October 14, so the next few weeks are when the most seats open. If you're going for a software engineering internship next summer, it can feel like everyone around you already has three offers and a return letter. They probably don't.",
-      "author": "Michael Shin",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://dev.to/michael_shin_310/summer-2027-software-engineering-internships-where-they-are-and-when-to-apply-2mao",
-      "image": "/images/feed/feed-d8524dd8fcc6.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-ee0a77f11145",
-      "title": "When AI Agents Test Software, Who Checks the Tester?",
-      "excerpt": "AI is becoming capable of doing more than generating test cases. AI agents can help plan test steps, interact with applications, execute workflows, and analyze failures. That sounds promising. But whi…",
-      "body": "AI is becoming capable of doing more than generating test cases. AI agents can help plan test steps, interact with applications, execute workflows, and analyze failures. That sounds promising. But while exploring AI-assisted testing, I kept coming back to one question: If AI can test an application, how do we know it tested the right thing? Let's take a simple example. Imagine an AI agent testing an online shopping website. It selects a product, clicks Checkout, and completes the payment flow. The test reports a pass. But was the payment actually successful? Was the correct order created, and was the right amount charged? That's where QA comes in.",
-      "author": "Sri Ramya",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://dev.to/sri_ramya_1205/when-ai-agents-test-software-who-checks-the-tester-3o8p",
-      "image": "/images/feed/feed-ee0a77f11145.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -167,29 +452,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 35,
       "url": "https://electrek.co/2026/10/19/foxconn-mitsubishi-electric-mobility-50-percent-stake-ev-push/",
       "image": "/images/feed/feed-39feb820d890.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-6b8e177dc81f",
-      "title": "Don't throw away your old USB charging cables — Repurpose them instead",
-      "excerpt": "The charger from your three-generations-ago phone can still be useful. Here are several ways to use old cables, both indoors and out.",
-      "body": "The charger from your three-generations-ago phone can still be useful. Here are several ways to use old cables, both indoors and out.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Gabriela Vătu)",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.engadget.com/2287681/dont-throw-away-old-usb-charging-cables-repurpose-instead/",
-      "image": "/images/feed/feed-6b8e177dc81f.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -205,7 +471,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 33,
       "url": "https://electrek.co/2026/10/19/gm-just-revealed-an-electric-drive-3500-dually-with-very-limited-color-options/",
       "image": "/images/feed/feed-bc3af88f6954.jpg",
       "source": "Electrek",
@@ -224,7 +490,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 48,
       "url": "https://www.polygon.com/avengers-doomsday-tony-stark-david-harbour-red-guardian/",
       "image": "/images/feed/feed-3f32184532ff.jpg",
       "source": "Polygon",
@@ -244,48 +510,10 @@
         "Spacecraft"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 30,
       "url": "https://www.space.com/astronomy/stars/theyre-kind-of-goth-nasa-spacecraft-gives-mysterious-brown-dwarfs-a-close-up",
       "image": "/images/feed/feed-28f2af429256.png",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-13654d3d6732",
-      "title": "Pixel 10 Pro XL deal knocks $350 off Google’s big flagship",
-      "excerpt": "Save 29% on the Google Pixel 10 Pro XL as it returns to its all-time low, with Tensor G5, 16GB RAM, and AI features.",
-      "body": "The Google Pixel 10 Pro XL just dropped to $849 on Amazon, down from its $1,199 RRP. That’s a $350 saving and a 29% discount relative to the recommended retail price, which is a big cut on one of Google’s top phones. This is also a return to the all-time low price, so it’s a deal worth grabbing while it’s still around. See the deal at Amazon",
-      "author": "Matt Horne",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.androidauthority.com/pixel-10-pro-xl-deal-amazon-3725112/",
-      "image": "/images/feed/feed-13654d3d6732.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-56de72d93369",
-      "title": "Final Fantasy 7 Revelation Lets You Play On The Hardest Difficulty From The Start Because Of The ‘Wide Variety Of End-Game Content’",
-      "excerpt": "One of my biggest gripe has been fixed",
-      "body": "One of my biggest gripe has been fixed\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ethan Gach",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://kotaku.com/final-fantasy-7-revelation-lets-you-play-on-the-hardest-difficulty-from-the-start-because-of-the-wide-variety-of-end-game-content-2000747557",
-      "image": "/images/feed/feed-56de72d93369.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -301,7 +529,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 38,
       "url": "https://electrek.co/2026/10/19/subarus-next-ev-smarter-more-efficient-less-like-toyota/",
       "image": "/images/feed/feed-66f67caa1c09.jpg",
       "source": "Electrek",
@@ -320,29 +548,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 39,
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
       "image": "/images/feed/feed-3b11d16f1e05.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-51eacfd1effa",
-      "title": "One of the rarest GameCube consoles sells for thousands of dollars today",
-      "excerpt": "While the GameCube came in several colors, a few of the most elusive variations command thousands from game collectors.",
-      "body": "While the GameCube came in several colors, a few of the most elusive variations command thousands from game collectors.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Yoni Yardeni)",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.engadget.com/2287670/rarest-gamecube-console-sells-for-thousands-dollars-today/",
-      "image": "/images/feed/feed-51eacfd1effa.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -359,7 +568,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 52,
       "url": "https://insideevs.com/news/812290/tesla-roadster-ev-battery-details/",
       "image": "/images/feed/feed-b7e3a112194b.jpg",
       "source": "InsideEVs",
@@ -378,105 +587,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 30,
       "url": "https://cleantechnica.com/2026/10/19/verdox-carbon-capture-aluminum-economics/",
       "image": "/images/feed/feed-6f0035eabc57.webp",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-a0679a1a9352",
-      "title": "Not ready to hit the hay? Your Pixel Watch could get smarter about bedtime",
-      "excerpt": "Google may soon let you snooze auto-bedtime on Pixel Watch models.",
-      "body": "TL;DR Pixel Watch models currently offer an auto-bedtime mode. Times are synced from your phone, and the smartwatch automatically follows along. Google appears to be working on a new “snooze” feature that would let you delay the transition. When you’re looking for some peace and quiet, it only takes one device to ruin the silence. That’s exactly why we appreciate that our Pixel Watch smartwatches support auto-bedtime mode , syncing our settings from phones and automatically engaging on our wrists. But schedules change, and some days you’re going to need to burn the midnight oil. When that happens, your Pixel Watch may soon offer a nice little tweak to auto-bedtime that instead lets you keep the party going. You’re reading an Authority Insights story.",
-      "author": "Stephen Schenck",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.androidauthority.com/pixel-watch-bedtime-snooze-3725055/",
-      "image": "/images/feed/feed-a0679a1a9352.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-c15647145f2b",
-      "title": "Car Keys in Apple Wallet coming soon to three popular vehicle brands",
-      "excerpt": "Apple Wallet car keys are about to get a big expansion, with GM announcing support for a variety of vehicles across three of its popular brands: Cadillac, Chevrolet, and GMC. more…",
-      "body": "Apple Wallet car keys are about to get a big expansion, with GM announcing support for a variety of vehicles across three of its popular brands: Cadillac, Chevrolet, and GMC. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ryan Christoffel",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://9to5mac.com/2026/10/19/car-keys-in-apple-wallet-coming-soon-to-three-popular-vehicle-brands/",
-      "image": "/images/feed/feed-c15647145f2b.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-5283eb4e0bad",
-      "title": "Kylie Minogue, The Original Cammy, Nearly Made A Cameo In The New Street Fighter",
-      "excerpt": "Orville Peck says the singer and actor told him filming the 1994 film was ‘one of the most fun experiences of her life’",
-      "body": "Orville Peck says the singer and actor told him filming the 1994 film was ‘one of the most fun experiences of her life’\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Kenneth Shepard",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://kotaku.com/street-fighter-cammy-kylie-minogue-orville-peck-vega-2000747561",
-      "image": "/images/feed/feed-5283eb4e0bad.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-f75ad8d54589",
-      "title": "Hugh Jackman's R-rated Action Thriller Soars to No. 1 on Streaming",
-      "excerpt": "A24 and Hugh Jackman's 2026 action-thriller The Death of Robin Hood is now streaming on HBO Max, and quickly soaring to #1 movie in the U.S.",
-      "body": "After playing Hollywood's live-action Wolverine for 24 years, Hugh Jackman has become a reliable box-office draw. His most recent run as hot-headed mutant James \"Logan\" Howlett — 2024's Deadpool & Wolverine — grossed more than $1.3 billion worldwide. While Jackman is heavily identified with his longtime X-Men role, he's had hits beyond superhero cinema: The Prestige , The Greatest Showman , and this year's The Sheep Detectives .",
-      "author": "Michael McWhertor",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/the-death-of-robin-hood-streaming-success-hbo-max/",
-      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/https___cdn-sanity-io_images_xq1bjtf4_production_26877384bcc33331186e85c276a325eb289c4e5f-8122x5461.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-2feacf3f305f",
-      "title": "Samsung may be giving its next rugged phone an unusual feature",
-      "excerpt": "A new chipset and trademark hint at a Galaxy XCover phone built for more than durability.",
-      "body": "TL;DR Samsung’s next rugged Galaxy XCover phone could feature a built-in RFID reader for scanning and tracking inventory. A Geekbench listing points to Qualcomm’s Dragonwing Q-6690 processor, which supports RFID scanning alongside 5G, Wi-Fi 7, and UWB. Samsung has also filed a trademark for “Galaxy XCover Scan,” although its connection to the mysterious phone remains unconfirmed. Samsung Galaxy XCover phones have never been about flashy cameras or impossibly thin designs. They’re built for people who need a phone that can survive demanding workplaces and the occasional nasty drop. Last year’s Galaxy XCover 7 family continued that tradition with a rugged design, removable battery, and seven years of software support. It even earned an honorable mention among our favorite Samsung phones .",
-      "author": "Hillary Keverenge",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.androidauthority.com/samsung-galaxy-xcover-scan-rfid-reader-leak-3725030/",
-      "image": "/images/feed/feed-2feacf3f305f.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -492,29 +606,29 @@
         "Satellite"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 46,
       "url": "https://www.theverge.com/policy/1013680/european-mobile-carriers-mobile-satellite-starlink",
       "image": "/images/feed/feed-fd3db9d7f4c5.jpg",
       "source": "The Verge",
       "isLive": true
     },
     {
-      "id": "feed-dccf7bba009a",
-      "title": "Apple is right about the wild west of AI, and the growing backlash",
-      "excerpt": "Apple marketing chief Greg Joswiak didn’t hold back when he described the most ambitious figures in the AI race as the “lunatic fringe” of Silicon Valley. The piece suggested that the iPhone maker is…",
-      "body": "Apple marketing chief Greg Joswiak didn’t hold back when he described the most ambitious figures in the AI race as the “lunatic fringe” of Silicon Valley. The piece suggested that the iPhone maker is hoping to position itself as being on the right side of a growing AI backlash. Given the pace of development, trying to predict the future of AI is a risky business, but I do think Apple is absolutely right about the dangers … more…",
-      "author": "Ben Lovejoy",
+      "id": "feed-50e8daf7735e",
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "dkobia",
       "date": "2026-10-19",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "cybersecurity",
       "tags": [
-        "Gadgets"
+        "Hacker"
       ],
       "featured": false,
-      "xpReward": 35,
-      "url": "https://9to5mac.com/2026/10/19/apple-is-right-about-the-wild-west-of-ai-and-the-growing-backlash/",
-      "image": "/images/feed/feed-dccf7bba009a.jpg",
-      "source": "9to5Mac",
+      "xpReward": 52,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "image": "/images/feed/feed-50e8daf7735e.jpg",
+      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -537,25 +651,6 @@
       "isLive": true
     },
     {
-      "id": "feed-489047789b0a",
-      "title": "Taika Waititi's Star Wars Movie Gets Disappointing Update",
-      "excerpt": "Thor: Ragnarok director Taika Waititi recently said his Star Wars movie, which was announced in 2020, has been put \"on ice.\"",
-      "body": "Taika Waititi's newest film Klara and the Sun is out on Friday, but, based on its initial reception ( 25% on Rotten Tomatoes ), its time in the sun may not be long. One Waititi project that may never see the light of day is his long-gestating Star Wars film. Waititi recently gave an update on the movie, telling Inverse it's \"on ice.\"",
-      "author": "Austin Manchester",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.polygon.com/star-wars-taika-waititi-movie-on-ice/",
-      "image": "/images/feed/feed-489047789b0a.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-1ee483b7d1d5",
       "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
       "excerpt": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks…",
@@ -575,25 +670,6 @@
       "isLive": true
     },
     {
-      "id": "feed-cd7c4fc14333",
-      "title": "Saros' Biggest Update Yet Officially Gets Release Date and Full Details",
-      "excerpt": "Saros is getting the free Zenith update later today, which will add Boss Rush, New Game Plus, accessibility options, and more",
-      "body": "The bullet-hell roguelike Saros is getting its first major update. Saros: Zenith brings a host of new features and modes intended to make the game more accessible to newcomers while giving veterans more to do. Best of all, it’s free, and it’s out today.",
-      "author": "Elijah Gonzalez",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/saros-zenith-update-accessibility-boss-rush-release-date/",
-      "image": "/images/feed/feed-cd7c4fc14333.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-9e5ddc6e26bb",
       "title": "Tesla (TSLA) proxy shows a board getting ready for a SpaceX merger",
       "excerpt": "Tesla’s proxy for its 2026 annual meeting, filed today, confirms that one of its supposedly independent directors now sits on SpaceX’s board. Ira Ehrenpreis, who chairs both Tesla’s compensation commi…",
@@ -606,7 +682,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 40,
       "url": "https://electrek.co/2026/10/19/tesla-tsla-proxy-annual-meeting-spacex-merger/",
       "image": "/images/feed/feed-9e5ddc6e26bb.jpg",
       "source": "Electrek",
@@ -625,7 +701,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 42,
       "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
       "image": "/images/feed/feed-38795045631e.jpg",
       "source": "BleepingComputer",
@@ -645,48 +721,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 42,
       "url": "https://www.space.com/astronomy/earth/elephant-island-is-an-icy-sight-from-orbit-space-photo-of-the-day-for-oct-19-2026",
       "image": "/images/feed/feed-1c35c3484929.png",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-50e8daf7735e",
-      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "excerpt": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targ…",
-      "body": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge . Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown as the technology grows more advanced, with hackers using the tools to carry out large-scale attacks. At the same time, rogue AI agents are carrying out attacks of their own after escaping from testing environments. Researchers at Norforge uncovered the attacks through exposed work on Cai … Read the full story at The Verge.",
-      "author": "Emma Roth",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "image": "/images/feed/feed-50e8daf7735e.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-2a9da2d0f25b",
-      "title": "Why this major e-bike brand just started selling battery-less electric bikes",
-      "excerpt": "Buying an e-bike without a battery might sound a little like buying a car without a motor. But that’s exactly what Minnesota-based e-bike company Monarc is now offering – and there’s actually a pretty…",
-      "body": "Buying an e-bike without a battery might sound a little like buying a car without a motor. But that’s exactly what Minnesota-based e-bike company Monarc is now offering – and there’s actually a pretty — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Micah Toll",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://electrek.co/2026/10/19/why-this-major-e-bike-brand-just-started-selling-battery-less-electric-bikes/",
-      "image": "/images/feed/feed-2a9da2d0f25b.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -702,7 +740,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 50,
       "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
       "image": "/images/feed/feed-2fe00a1e5958.jpg",
       "source": "BleepingComputer",
@@ -721,7 +759,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 36,
       "url": "https://cleantechnica.com/2026/10/19/spacex-ukraine-musk-diesel-us-elections-kids-publicity-stunt/",
       "image": "/images/feed/feed-ea898c32c03d.png",
       "source": "CleanTechnica",
@@ -740,29 +778,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 49,
       "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
       "image": "/images/topics/topic-cybersecurity.png",
       "source": "Krebs on Security",
-      "isLive": true
-    },
-    {
-      "id": "feed-837f3c366617",
-      "title": "Rivian Is Giving Some Owners Early Access To Its Latest Hands-Free Driving Tech",
-      "excerpt": "Point-to-point hands-free driving is coming to a select number of owners who are willing to put in the work.",
-      "body": "Point-to-point hands-free driving is coming to a select number of owners who are willing to put in the work.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Rivian. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Rivian"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://insideevs.com/news/812431/rivian-point-to-point-hands-free-early-access/",
-      "image": "/images/feed/feed-837f3c366617.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -778,29 +797,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 44,
       "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
       "image": "/images/feed/feed-e1bea989412a.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-a092a505ce49",
-      "title": "Musk pledges to give ‘every kid in America’ one of his SpaceX shares",
-      "excerpt": "That's more than $10 billion in shares, or around 1% of Musk's current net worth.",
-      "body": "That's more than $10 billion in shares, or around 1% of Musk's current net worth.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Spacex. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sean O'Kane",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Spacex"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://techcrunch.com/2026/10/19/musk-pledges-to-give-every-kid-in-america-one-of-his-spacex-shares/",
-      "image": "/images/feed/feed-a092a505ce49.jpg",
-      "source": "TechCrunch",
       "isLive": true
     },
     {
@@ -816,7 +816,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 52,
       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "image": "/images/feed/feed-372db7fd0c18.jpg",
       "source": "MIT Tech Review",
@@ -835,7 +835,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 53,
       "url": "https://crystl.dev/guides/tmux-for-ai-agents/",
       "image": "/images/feed/feed-25ba6e05abc7.png",
       "source": "Hacker News",
@@ -854,7 +854,7 @@
         "Llm"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 32,
       "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "Hacker News",
@@ -873,7 +873,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 48,
       "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "image": "/images/feed/feed-8768eef8cad2.webp",
       "source": "TechCrunch",
@@ -892,7 +892,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 46,
       "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
       "image": "/images/feed/feed-c2a828c7429b.jpg",
       "source": "TechCrunch",
@@ -912,7 +912,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 42,
       "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "image": "/images/feed/feed-5329074f8958.webp",
       "source": "TechCrunch",
@@ -931,7 +931,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 54,
       "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
       "image": "/images/feed/feed-3813289f4d22.jpg",
       "source": "Ars Technica",
@@ -939,16 +939,16 @@
     }
   ],
   "breakingNews": [
-    "POLYGON: Xbox Game Pass Is Officially Losing One of the Best Star Wars Games of All Time This Month",
-    "DEV.TO: Ranking #1 on Google isn't what it used to be.",
-    "DEV.TO: Local Administrator Password Management: Why LAPS Alone Is Not Tier Separation",
-    "DEV.TO: Passkeys in In-App Browsers: The API Is There, but It Won't Work",
-    "DEV.TO: Hired in Lagos, Paid From NYC: The Cross-Border Gig Economy Agents Are Building",
-    "DEV.TO: WebDAV over HTTPS: what you actually need",
-    "DEV.TO: Summer 2027 Software Engineering Internships: Where They Are and When to Apply",
-    "DEV.TO: When AI Agents Test Software, Who Checks the Tester?",
-    "ELECTREK: Foxconn pays $727M for half of Mitsubishi Electric’s car parts unit in EV push",
-    "ENGADGET: Don't throw away your old USB charging cables — Repurpose them instead"
+    "DEV.TO: O agente não precisa pensar em voz alta",
+    "DEV.TO: Assume Nothing Persists: Five Free-Tier Myths and a Restart Drill You Can Re-Run",
+    "DEV.TO: How to audit MCP tool schema token bloat and sync CLAUDE.md with AGENTS.md locally",
+    "DEV.TO: Your AI Agent Crashes on 429 Errors and You're Burning Money",
+    "DEV.TO: 48-Hour Field Notes: A Crash Mid-Batch Proved My Queue Had No Memory",
+    "ENGADGET: Fiber vs. cable internet: What's the difference between them?",
+    "DEV.TO: Draft Freely, Publish Narrowly: A Page Ownership Gate for Model-Written Docs",
+    "DEV.TO: Browser Cookies: What Are They, How Are They Used, and How Can They Be Stolen?",
+    "ENGADGET: Apple is set to hold another product event on October 28",
+    "ELECTREK: Huawei’s car unit joins CATL’s 2,520-station battery swap network"
   ],
   "sectionVideos": {}
 }
