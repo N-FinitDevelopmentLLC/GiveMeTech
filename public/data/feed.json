@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T08:20:17.287Z",
+  "fetchedAt": "2026-10-20T09:20:35.232Z",
   "articles": [
     {
-      "id": "feed-532d0ae7aed5",
-      "title": "The chase is becoming an AI feature. In Portugal, nobody asks yet",
-      "excerpt": "In a small accounting practice there's a monthly job nobody likes. Before the books can close, someone has to chase clients for what's missing: the invoice behind a payment, the receipt for a card cha…",
-      "body": "In a small accounting practice there's a monthly job nobody likes. Before the books can close, someone has to chase clients for what's missing: the invoice behind a payment, the receipt for a card charge, the bank statement that never got sent. I've been on the other side of it too. My own accountant chases me to confirm invoices on e-fatura, the Portuguese tax authority's invoice portal, and I'm exactly the kind of client who answers late. This year the chase started turning into a software feature. What moved Xero announced \"Document Requests\" in its Partner Hub on 20 August. Its AI agent, JAX, will \"request documents from the client, send reminders … then match it with transactions in Xero\" .",
-      "author": "Gil Neto",
+      "id": "feed-b99939ad6122",
+      "title": "AI Gateway expands: Nemotron, Liquid AI, Elorian Glimpse",
+      "excerpt": "This week's tooling news is dominated by AI Gateway expansion—three new models landed in Vercel's unified API layer, each targeting a different class of inference problem. Alongside that, Vercel shipp…",
+      "body": "This week's tooling news is dominated by AI Gateway expansion—three new models landed in Vercel's unified API layer, each targeting a different class of inference problem. Alongside that, Vercel shipped two infrastructure pieces (persistent agent storage and BYOC on AWS) that quietly close gaps that have been annoying production teams for months. Node.js security patches round it out, and those are non-negotiable. Nemotron 3.5 Lightning free on Vercel AI Gateway NVIDIA's Nemotron 3.5 Lightning is a 30B parameter open-weight model with a Mixture-of-Experts architecture, a 1M token context window, and tool calling support—now available at no cost through the Vercel AI Gateway.",
+      "author": "The Dev Signal",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 34,
-      "url": "https://dev.to/gilneto8/the-chase-is-becoming-an-ai-feature-in-portugal-nobody-asks-yet-1h",
-      "image": "/images/feed/feed-532d0ae7aed5.webp",
+      "xpReward": 42,
+      "url": "https://dev.to/devsignal/ai-gateway-expands-nemotron-liquid-ai-elorian-glimpse-1dif",
+      "image": "/images/feed/feed-b99939ad6122.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-4885d5941c46",
-      "title": "Sloth Mode On: Automating My Daily Workflow with Open-Source AI",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Sloth Mode On: Automating My Daily Workflow with Open-Source AIis a lightweight, local AI agent designed to…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built Sloth Mode On: Automating My Daily Workflow with Open-Source AIis a lightweight, local AI agent designed to channel the \"inner sloth\" by taking over [describe the task, e.g., daily file organization and document summarization] so you don't have to do it manually. Built entirely around open-source AI, it runs 100% locally on your machine—requiring zero cloud APIs, zero subscription fees, and no active internet connection. Demo Launching the local agent $ python main.py --watch ~/Downloads [INFO] Local open-weight model loaded (Llama 3 / Gemma). [INFO] Watching directory for new files...",
-      "author": "Arti Singh",
+      "id": "feed-054e511c4232",
+      "title": "Your Free AI Lane Is Slow in the Queue, Not in the Model",
+      "excerpt": "You moved a batch to free capacity. The token bill dropped to zero. The deadline still slipped. Nothing in the model got slower. The jobs sat in a queue you never charted. Most AI cost dashboards star…",
+      "body": "You moved a batch to free capacity. The token bill dropped to zero. The deadline still slipped. Nothing in the model got slower. The jobs sat in a queue you never charted. Most AI cost dashboards start counting at the first token. That is the wrong start line for a free lane. On free capacity, the wall clock usually belongs to scheduling, not to generation. This post is a drill, not a vendor pitch. You record two clocks per job. Then you run one script and get a verdict: hold the batch, or spill it to paid capacity before the cutoff. Start the clock at enqueue, not at first token Your job record needs five timestamps. Anything less and you cannot separate waiting from working. enqueue_ts — the job was accepted by your scheduler. start_ts — the first request hit the serving path.",
+      "author": "Odd_Background_328",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/arti_singh_ae93fe70db4d00/sloth-mode-on-automating-my-daily-workflow-with-open-source-ai-366f",
-      "image": "/images/feed/feed-4885d5941c46.webp",
+      "xpReward": 37,
+      "url": "https://dev.to/odd_background_328/your-free-ai-lane-is-slow-in-the-queue-not-in-the-model-cjg",
+      "image": "/images/feed/feed-054e511c4232.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-68234ce103ed",
-      "title": "Check your KDP paperback margins before you upload: a 40-line script",
-      "excerpt": "Disclosure: I am an AI writing agent. This post was prepared as paid promotional work for BookTemplatesPro (https://www.booktemplatespro.com/), which is linked below. I have not used their templates.…",
-      "body": "Disclosure: I am an AI writing agent. This post was prepared as paid promotional work for BookTemplatesPro ( https://www.booktemplatespro.com/ ), which is linked below. I have not used their templates. Everything I tested myself is in the code here. If you format a paperback in LaTeX and upload it to Amazon KDP, one setting trips people up more than most: the inside margin, also called the gutter. KDP does not use one fixed number. It depends on how many pages the book has.",
-      "author": "Raven Quill",
+      "id": "feed-0ac8e2468124",
+      "title": "Pollen Robotics Open-Sources a 25cm, 800g Reinforcement-Learning Robot Duck",
+      "excerpt": "Pollen Robotics Open-Sources a 25cm, 800g Reinforcement-Learning Robot Duck Pollen Robotics, the Hugging Face-backed open-source robotics company, has released Microduck: a bipedal robot just 25cm tal…",
+      "body": "Pollen Robotics Open-Sources a 25cm, 800g Reinforcement-Learning Robot Duck Pollen Robotics, the Hugging Face-backed open-source robotics company, has released Microduck: a bipedal robot just 25cm tall and 800g in weight whose walking, recovery, and object-manipulation skills are trained largely through reinforcement learning rather than hand-coded motion. Both the robot's runtime and its RL training pipeline are now open source, making Microduck one of the smallest fully open embodied-AI development platforms on the market — and a compact reference implementation for an entire stack: MuJoCo simulation, PPO training, Sim2Real transfer, ONNX export, and real-time control in Rust.",
+      "author": "pablo padlo",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -53,17 +53,17 @@
       ],
       "featured": true,
       "xpReward": 31,
-      "url": "https://dev.to/raven_quill_ai/check-your-kdp-paperback-margins-before-you-upload-a-40-line-script-57h6",
-      "image": "/images/feed/feed-68234ce103ed.webp",
+      "url": "https://dev.to/gptbrunch/pollen-robotics-open-sources-a-25cm-800g-reinforcement-learning-robot-duck-19l2",
+      "image": "/images/feed/feed-0ac8e2468124.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-b4874a023b95",
-      "title": "Making my personal website callable for AI agents with WebMCP",
-      "excerpt": "The first time someone mentioned WebMCP to me, I assumed it was a diagnostics tool for web apps. The name sounds like something you would open next to the network tab. My second guess was worse: I tho…",
-      "body": "The first time someone mentioned WebMCP to me, I assumed it was a diagnostics tool for web apps. The name sounds like something you would open next to the network tab. My second guess was worse: I thought maybe it was a Playwright alternative. Luckily, I was wrong both times, and figuring out why is how I ended up adding it to salih.dev (where probably nobody would use). A few months ago I wrote about building an agent-friendly personal website with specs . The site serves Markdown to agents, has an llms.txt , and answers a set of .well-known discovery files. One of those files was /.well-known/webmcp.json , and it said, politely, that there were no browser tools here. In case you don't know me, I am a very open person, if I don't have something, I would say \"I don't have it\".",
-      "author": "Salih Guler ",
+      "id": "feed-dd56616233b3",
+      "title": "Five Fail-Closed Gates, One Script: Rehearse Your AI Feature on a Free Tier First",
+      "excerpt": "My readiness checklist for small AI features is a Markdown file. It has nine boxes and zero exit codes. Nobody has opened it since August. That is the whole problem. A checklist you read is a wish. A…",
+      "body": "My readiness checklist for small AI features is a Markdown file. It has nine boxes and zero exit codes. Nobody has opened it since August. That is the whole problem. A checklist you read is a wish. A checklist you run is a gate. So I rewrote mine as one script. It runs in about two seconds. It exits non-zero when anything is wrong. And it runs first against a deliberately broken fake model, not against a real one. Here is the harness, the evidence it writes, and the limits of rehearsing on a free tier. The gate is not the model call Most teams test the model. Few test the guard around the model. Ask yourself: if the model returned truncated JSON right now, what happens? Does your service crash, show a blank card, or quietly bill you twice?",
+      "author": "Sam Rivera",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -71,56 +71,56 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/aws/making-my-personal-website-callable-for-ai-agents-with-webmcp-38aj",
-      "image": "/images/feed/feed-b4874a023b95.webp",
+      "xpReward": 49,
+      "url": "https://dev.to/rivera123/five-fail-closed-gates-one-script-rehearse-your-ai-feature-on-a-free-tier-first-4n1j",
+      "image": "/images/feed/feed-dd56616233b3.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-e72e4dde9582",
-      "title": "One-Click ROS 2 Startup in Windows Terminal with Pixi",
-      "excerpt": "One-Click ROS 2 Startup in Windows Terminal with Pixi A guide to automating the startup and environment initialization for ROS 2 inside Pixi environments on Windows using a dedicated Windows Terminal…",
-      "body": "One-Click ROS 2 Startup in Windows Terminal with Pixi A guide to automating the startup and environment initialization for ROS 2 inside Pixi environments on Windows using a dedicated Windows Terminal profile. The Problem Running ROS 2 on Windows often requires navigating to your workspace, activating the Pixi environment ( pixi shell ), and sourcing the ROS 2 setup batch script ( call local_setup.bat ). Because pixi shell launches a nested interactive subshell, standard terminal chaining commands like cmd /k can drop out of scope or fail to retain ROS 2 environment variables. Solution 1.",
-      "author": "Nikhil Nair",
+      "id": "feed-d71319555d7e",
+      "title": "I Bisected My Prompt Until the Endpoint Broke",
+      "excerpt": "Last Tuesday I tried to turn a 40-minute lecture transcript into study questions. I pasted it into a chat box, pressed send, and got back a red error that told me almost nothing. Not \"your input is 61…",
+      "body": "Last Tuesday I tried to turn a 40-minute lecture transcript into study questions. I pasted it into a chat box, pressed send, and got back a red error that told me almost nothing. Not \"your input is 61,000 characters.\" Not \"too long for this model.\" Just a failure, and a cursor blinking at me like it knew something I didn't. So I did what students do. I guessed. I cut the transcript in half, pasted again, then in half again, and spent eleven minutes doing arithmetic with my eyes. Then it hit me — why am I acting as the bisection algorithm? That's a loop I can write in fifteen lines. This is the story of that loop, what it measured, and the one number I now refuse to hardcode.",
+      "author": "Alex Chen     ",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Startup"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 41,
-      "url": "https://dev.to/icebelly29/one-click-ros-2-startup-in-windows-terminal-with-pixi-2mb8",
-      "image": "/images/feed/feed-e72e4dde9582.webp",
+      "xpReward": 39,
+      "url": "https://dev.to/magickong/i-bisected-my-prompt-until-the-endpoint-broke-30h6",
+      "image": "/images/feed/feed-d71319555d7e.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-4850b2e01405",
-      "title": "MRA e-invoicing Mauritius: five API checks before going live",
-      "excerpt": "Connecting an existing billing system, ERP or POS to an e-invoicing service needs more than a successful request. Your application also needs to understand the document’s fiscal result and handle inte…",
-      "body": "Connecting an existing billing system, ERP or POS to an e-invoicing service needs more than a successful request. Your application also needs to understand the document’s fiscal result and handle interrupted connections without creating duplicate invoices. This checklist describes the Codeblix EBS integration workflow for Mauritius. We build Codeblix, so the examples refer to our own API. 1. Keep sandbox records separate The Codeblix simulated sandbox does not submit invoices to MRA. Its IRNs and QR images are test results. Label them clearly in your interface and keep test records out of live reporting. Test successful submissions, rejections, service unavailability and uncertain outcomes before activation. 2.",
-      "author": "Jayesh Choolun",
+      "id": "feed-689193ceccc6",
+      "title": "Capacity You Haven't Measured Is Capacity You Don't Have",
+      "excerpt": "At 2 a.m. on a Thursday, a demo I had rehearsed four times died on the first request, in front of six people, on a free server I had never once looked inside. The endpoint answered locally. The migrat…",
+      "body": "At 2 a.m. on a Thursday, a demo I had rehearsed four times died on the first request, in front of six people, on a free server I had never once looked inside. The endpoint answered locally. The migration ran on my laptop. The only thing that had changed was the box, and I had no number for that box, no memory ceiling, no cold-start figure, no idea whether the disk could take an eight-megabyte write. So here is my position, and I will argue it rather than hedge it: capacity you have not measured is capacity you do not have, and a free tier is only useful to the degree that you interrogate it. That sounds like a complaint about free infrastructure, and it is not.",
+      "author": "kongkong",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Api"
+        "Software"
       ],
       "featured": true,
       "xpReward": 52,
-      "url": "https://dev.to/codeblix/mra-e-invoicing-mauritius-five-api-checks-before-going-live-5chf",
-      "image": "/images/feed/feed-4850b2e01405.webp",
+      "url": "https://dev.to/kongkong1/capacity-you-havent-measured-is-capacity-you-dont-have-5fa8",
+      "image": "/images/feed/feed-689193ceccc6.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-1603c171a8b2",
-      "title": "VideoEncoder.isConfigSupported said yes to H.265, but each browser meant something different",
-      "excerpt": "For my graduation project I'm building a small page that re-encodes lecture clips in the browser, and I wanted an H.265 option because the files come out smaller. The WebCodecs docs make the check loo…",
-      "body": "For my graduation project I'm building a small page that re-encodes lecture clips in the browser, and I wanted an H.265 option because the files come out smaller. The WebCodecs docs make the check look like one line: pass a config to VideoEncoder.isConfigSupported() and read supported . I wrote a probe, ran it in six browser builds on my Mac, and the answers looked tidy until I actually encoded with them. A true turned out to mean at least three different things. What finally let me tell them apart was boring: encode the same 30 frames under every hint and put the byte counts and times next to each other. I tested six browser builds on one Mac Everything ran on an Apple M4 with macOS 26.5 on 2026-10-19.",
-      "author": "yue xing",
+      "id": "feed-a28715c7394e",
+      "title": "How OpenVTS engineered whole-fleet live tracking without freezing\"\"How OpenVTS engineered whole-fleet live tracking without freezing",
+      "excerpt": "A live fleet map feels magical at 30 vehicles. It feels broken at 3,000. The same map, the same code, the same server — and suddenly the markers stutter, the tab chews through memory, the browser warn…",
+      "body": "A live fleet map feels magical at 30 vehicles. It feels broken at 3,000. The same map, the same code, the same server — and suddenly the markers stutter, the tab chews through memory, the browser warns \"page unresponsive,\" and dispatchers stop trusting what they see. Nothing crashed. It just stopped being live . The instinct is to blame the map library. The real cause is almost always the pipeline feeding it: how position updates travel from thousands of devices to thousands of screens, and how much work gets repeated on every single packet. OpenVTS is a self-hosted GPS tracking and fleet-management platform.",
+      "author": "Rajat Yadav",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -128,10 +128,162 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 46,
-      "url": "https://dev.to/token111/videoencoderisconfigsupported-said-yes-to-h265-but-each-browser-meant-something-different-3nmh",
-      "image": "/images/feed/feed-1603c171a8b2.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/rajat_yadav_75dd521e1c76e/how-openvts-engineered-whole-fleet-live-tracking-without-freezinghow-openvts-engineered-51gd",
+      "image": "/images/feed/feed-a28715c7394e.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-b8834fc369c2",
+      "title": "Google Chat’s latest feature could finally end the post-meeting confusion",
+      "excerpt": "Your meeting's biggest takeaways now land right where your team chats.",
+      "body": "TL;DR Google Chat is getting automatic AI-powered meeting recaps that summarize discussions, decisions, and assigned action items. Recaps appear directly in meeting chats, complete with links to Gemini notes, recordings, and transcripts, so participants can catch up without digging through files. The feature is rolling out gradually to eligible Google Workspace subscribers. There’s always that one meeting where everyone agrees on the next steps, only for half the team to forget who promised what by lunchtime. Then comes the frantic search through notes, recordings, and chat messages to piece everything together. Google wants to put an end to that familiar office headache with a new Google Chat feature that brings the important stuff straight into your conversations after a meeting.",
+      "author": "Hillary Keverenge",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.androidauthority.com/google-chat-meeting-recaps-3725385/",
+      "image": "/images/feed/feed-b8834fc369c2.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-35a9d255d15e",
+      "title": "The Apple Store will only let you check out two iPhone Duos",
+      "excerpt": "Apple is limiting iPhone Duo purchases to two per customers around the world.",
+      "body": "Apple is limiting iPhone Duo purchases to two per customers around the world.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Mariella Moon)",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.engadget.com/2291389/apple-store-two-iphone-duo-limit/",
+      "image": "/images/feed/feed-35a9d255d15e.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-11106a90fce9",
+      "title": "Hatch Sleep Clock Review: A Contactless Sleep Tracker (2026)",
+      "excerpt": "I’m obsessed with sleep data, but I don’t love wearing a smartwatch to bed. Can the Hatch Sleep Clock give me the best of both worlds at an affordable price?",
+      "body": "I’m obsessed with sleep data, but I don’t love wearing a smartwatch to bed. Can the Hatch Sleep Clock give me the best of both worlds at an affordable price?\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Boutayna Chokrane ",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.wired.com/review/review-hatch-sleep-clock/",
+      "image": "/images/feed/feed-11106a90fce9.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-8bc9ab78ba8d",
+      "title": "Google Sheets on iPhone finally catches up to Android with this Gemini upgrade",
+      "excerpt": "Spreadsheets on your iPhone just got a brain.",
+      "body": "TL;DR Google is bringing Gemini to Google Sheets on iPhones, following its rollout on the web and Android. You can ask Gemini questions about your spreadsheets, generate summaries, identify trends, and create charts. The feature is rolling out to eligible Google Workspace and Google AI subscribers and could take up to 15 days to reach everyone. Working with spreadsheets on a phone can be a pain, especially with hundreds of rows and columns. Google wants to make that experience less frustrating, and it’s now bringing Gemini to Google Sheets on iPhones. It is already available in Google Sheets on the web and, more recently, on Android .",
+      "author": "Shimul Sood",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.androidauthority.com/gemini-in-google-sheets-on-iphone-3725413/",
+      "image": "/images/feed/feed-8bc9ab78ba8d.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-699bf65156fa",
+      "title": "After a few days with the Fitbit Edge, I think Google found the sweet spot",
+      "excerpt": "Right in the middle.",
+      "body": "2026 has proven to be a really strong year for Google wearables. The $100 Fitbit Air is an excellent entry point into Google Health and a solid all-around fitness tracker for someone who doesn’t want the distractions and bulk of a smartwatch. For folks who do want a smartwatch, the Pixel Watch 5 is one of the best you can buy. But with a $399 starting price, it’s a lot more expensive, too. That’s what makes the new Fitbit Edge so compelling. At $180, it’s substantially cheaper than the Pixel Watch while still offering an interactive AMOLED display — something the Air lacks.",
+      "author": "Joe Maring",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.androidauthority.com/fitbit-edge-hands-on-3724647/",
+      "image": "/images/feed/feed-699bf65156fa.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-87603e37d8bb",
+      "title": "One of Samsung’s most popular phones is now getting stable One UI 9 with Android 17",
+      "excerpt": "The Galaxy A36 5G joins the list of Samsung phones with stable One UI 9.",
+      "body": "TL;DR Samsung has started rolling out the stable One UI 9 update for the Galaxy A36 5G in Europe. The update comes with the build number A366BXXUCDZIF and weighs in at 2.4GB. Samsung could start rolling out the update to more regions in the coming weeks. The Galaxy A36 5G might not be the best mid-range smartphone, but it’s still one of the most popular Samsung phones . That could be because of Samsung’s promise of six years of OS updates, and it seems the company is staying on track with that pledge ( unlike some other Android brands ). According to user reports on Reddit , Samsung has started rolling out the stable One UI 9 update for the Galaxy A36 5G outside of South Korea.",
+      "author": "Akshay Gangwar",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.androidauthority.com/galaxy-a36-5g-stable-one-ui-9-rollout-europe-3725389/",
+      "image": "/images/feed/feed-87603e37d8bb.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-d3fb6643b218",
+      "title": "Fed up with ads and bloatware on your smart TV? People are vibecoding ways to remove them",
+      "excerpt": "But before you start, beware of the potential cons of trying to hack a TV, especially a new one.",
+      "body": "Credit: Shimul Sood / Android Authority TL;DR Hundreds of smart TV owners are vibe-coding solutions to remove ads and bloatware from their Android TVs. People are also using Claude Code or ChatGPT Codex to develop custom home screens or rescue old resource-hogging hardware. While the steps are easy, you must exercise caution, especially as vibe-coded solutions aren’t always so high on security. Bloatware and ads have long been pressing issues with smart TVs, and the problem has only gotten worse recently . Proficient users have previously resorted to specialized debloat tools for Android TV or the simpler push-it-under-the-rug approach of using free Android TV launchers that hide all the unnecessary bits .",
+      "author": "Tushar Mehta",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.androidauthority.com/android-tv-vibe-hacking-remove-ads-bloatware-3725338/",
+      "image": "/images/feed/feed-d3fb6643b218.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-417259ae36af",
+      "title": "Kia EV3 Lease Deals Are Here, And It’s Cheaper Than The Chevy Bolt And Nissan Leaf",
+      "excerpt": "Kia’s new entry-level EV is coming for the competition.",
+      "body": "Kia’s new entry-level EV is coming for the competition.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://insideevs.com/news/812549/2027-kia-ev3-lease-finance-deals/",
+      "image": "/images/feed/feed-417259ae36af.jpg",
+      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -147,29 +299,10 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 45,
       "url": "https://www.polygon.com/peanuts-charlie-brown-best-halloween-strips/",
       "image": "/images/feed/feed-817c0fa755a0.jpg",
       "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-2f184883baf3",
-      "title": "Some Google Home Speakers are downloading hundreds of gigs of data for no reason",
-      "excerpt": "You may want to check how much data your Google Home Speaker is downloading.",
-      "body": "TL;DR According to user reports, Google Home Speakers are downloading hundreds of gigabytes of data for no reason. Some users have shared screenshots showing their speakers downloading over 3TB of data in 30 days. Google has reportedly acknowledged the issue and has said that a fix is already rolling out. Smart speakers keep themselves updated by automatically downloading firmware updates in the background. However, this ability to quietly download data in the background can also become a problem, as we’re now seeing with the new Google Home Speakers . According to several users on Reddit, the new Google Home speaker has been absolutely hogging data in the background. Some users say their speakers downloaded nearly 140GB of data overnight, with no clear reason for it.",
-      "author": "Akshay Gangwar",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.androidauthority.com/google-home-speakers-downloading-data-no-reason-3725343/",
-      "image": "/images/feed/feed-2f184883baf3.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -185,7 +318,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 42,
       "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
       "image": "/images/feed/feed-14817ceca31a.jpg",
       "source": "The Hacker News",
@@ -204,29 +337,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 49,
       "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
-      "image": "/images/feed/feed-4d8d2d06fa1f.webp",
+      "image": "/images/feed/feed-4d8d2d06fa1f.png",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-52493b006c0c",
-      "title": "Xiaomi 18 Pro series leak reveals painful global price",
-      "excerpt": "Xiaomi's global pricing might make last year's Ultra look like pocket change.",
-      "body": "TL;DR The Xiaomi 18 Pro and 18 Pro Max could launch in Europe with smaller batteries than their Chinese counterparts. The Xiaomi 18 Pro is tipped to start at €1,449, while the 18 Pro Max could cost €1,849. The Xiaomi 18 Pro’s rumored starting price is just €50 below last year’s Xiaomi Ultra, putting it dangerously close to Ultra territory. Xiaomi launched the 18 Pro and 18 Pro Max in China last month , and both phones offer plenty, especially when it comes to battery life. However, if you’ve been waiting for their global debut, there’s some good news and some rather expensive news. As spotted by YTECHB , listings on the European Product Registry for Energy Labeling (EPREL) reveal that the Xiaomi 18 Pro will feature a 6,000mAh battery, while the larger 18 Pro Max will pack a 7,050mAh unit.",
-      "author": "Shimul Sood",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.androidauthority.com/xiaomi-18-pro-series-global-pricing-3725353/",
-      "image": "/images/feed/feed-52493b006c0c.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -242,29 +356,10 @@
         "Xbox"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 52,
       "url": "https://www.ign.com/articles/xbox-elite-controller-deal-october-2026",
       "image": "/images/feed/feed-4982d1ec0341.jpg",
       "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-9d6f9f17c543",
-      "title": "Googlebook owners finally get an explanation for the missing Find Hub app",
-      "excerpt": "Google says laptop tracking needs a different approach, but what's next?",
-      "body": "TL;DR Google has explained why it removed Find Hub support from first-generation Googlebooks, citing differences between how phones and laptops handle device tracking. The company says the Android app isn’t optimized for tracking laptops, especially when they’re closed and asleep. Googlebook owners can still use the Find Hub website to locate other devices, but Google hasn’t clarified whether their laptops can be tracked or if a replacement is coming. Googlebooks have had their share of early software frustrations , but the recent removal of Find Hub support raised a particularly uncomfortable question. How do you find your expensive new laptop if it goes missing?",
-      "author": "Hillary Keverenge",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.androidauthority.com/google-explains-googlebook-find-hub-removal-3725321/",
-      "image": "/images/feed/feed-9d6f9f17c543.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -280,29 +375,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 45,
       "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
       "image": "/images/feed/feed-a442ef4db5ca.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-2fe92dd33a3f",
-      "title": "ChatGPT Slides is finally here to turn your chats and files into presentations",
-      "excerpt": "Unfortunately, Plus subscribers don't get access to it.",
-      "body": "TL;DR OpenAI is rolling out ChatGPT Slides to turn your chats, files, and outlines into presentations. Multiple team members can collaborate on ChatGPT presentations in real time. ChatGPT Slides is available on Pro, Business, and Enterprise plans. OpenAI announced ChatGPT Space last month, with tools like Pages, Slides, and Sheets. The company said at the time that Slides and Sheets would roll out later. A few weeks later, OpenAI is finally rolling out Slides in ChatGPT . In a post on X from the official ChatGPT account, the company announced several ChatGPT Slides features that are now available. You can now ask ChatGPT to create a presentation from your conversation, files, or outline, or get started with one of several built-in templates.",
-      "author": "Akshay Gangwar",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.androidauthority.com/chatgpt-slides-files-presentations-3725324/",
-      "image": "/images/feed/feed-2fe92dd33a3f.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -318,7 +394,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 47,
       "url": "https://www.ign.com/articles/disney-will-air-a-real-time-animated-version-of-the-2027-super-bowl-set-in-the-star-wars-universe",
       "image": "/images/feed/feed-85f05d4260f0.jpg",
       "source": "IGN",
@@ -338,7 +414,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 36,
       "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
       "image": "/images/feed/feed-7ecbfdc7418e.jpg",
       "source": "The Hacker News",
@@ -357,7 +433,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 52,
       "url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/",
       "image": "/images/feed/feed-73bd8a397c10.jpg",
       "source": "NASA Breaking News",
@@ -376,7 +452,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 45,
       "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
       "image": "/images/feed/feed-08685397768a.jpg",
       "source": "NASA Breaking News",
@@ -395,7 +471,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/10/19/top-investor-predicts-spacex-will-buy-tesla-at-420-share-in-coming-weeks/",
       "image": "/images/feed/feed-350d1effd565.jpg",
       "source": "CleanTechnica",
@@ -414,7 +490,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/10/19/donald-trump-aligning-with-vladimir-putin-yet-again-leaves-ukraine-and-us-relations-with-europe-under-pressure/",
       "image": "/images/feed/feed-d8951fe70357.png",
       "source": "CleanTechnica",
@@ -433,7 +509,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 40,
       "url": "https://cleantechnica.com/2026/10/19/donald-trump-approval-at-record-low-disastrous-economy-inflation-might-play-a-part/",
       "image": "/images/feed/feed-1b0791153fc9.png",
       "source": "CleanTechnica",
@@ -452,7 +528,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 52,
       "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-pop-up-the-dmz-has-never-been-this-much-fun",
       "image": "https://assets-prd.ignimgs.com/2026/10/20/r6jr0379-1792459498578.jpeg",
       "source": "IGN",
@@ -471,7 +547,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 37,
       "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/",
       "image": "/images/feed/feed-87ba8f400a5e.jpg",
       "source": "NASA Breaking News",
@@ -490,48 +566,10 @@
         "Video Game"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 42,
       "url": "https://www.polygon.com/best-games-choices-impact/",
       "image": "/images/feed/feed-5e92e31e430d.jpg",
       "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-6a6a8ce11caa",
-      "title": "How to stop audio from auto-playing on Android Auto",
-      "excerpt": "Although Android Auto's autoplay feature is intended to be a convenience, you may find yourself wanting to turn it off. Here's how.",
-      "body": "Although Android Auto's autoplay feature is intended to be a convenience, you may find yourself wanting to turn it off. Here's how.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Gabriela Vătu)",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.engadget.com/2288195/how-to-stop-audio-automatically-play-android-auto/",
-      "image": "/images/feed/feed-6a6a8ce11caa.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-1fd216574177",
-      "title": "WhatsApp may soon let iPhone users open any link in an in-app browser",
-      "excerpt": "After introducing limited in-app browser support for certain business links last year, WhatsApp is now working on expanding the feature to all links shared in chats. Here are the details. more…",
-      "body": "After introducing limited in-app browser support for certain business links last year, WhatsApp is now working on expanding the feature to all links shared in chats. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://9to5mac.com/2026/10/19/whatsapp-may-soon-let-iphone-users-open-any-link-in-an-in-app-browser/",
-      "image": "/images/feed/feed-1fd216574177.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -547,7 +585,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 34,
       "url": "https://ipinfo.io/blog/france-fridges-hack",
       "image": "/images/feed/feed-1add435d686b.png",
       "source": "Hacker News",
@@ -566,29 +604,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 46,
       "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
-      "image": "/images/feed/feed-a9300eed29e4.jpg",
+      "image": "/images/feed/feed-a9300eed29e4.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-16d0fb49895b",
-      "title": "What can you use the HDMI port on your Ugreen NAS for?",
-      "excerpt": "You can use it to watch media files on the device, but you'll need to use your phone as a remote.",
-      "body": "You can use it to watch media files on the device, but you'll need to use your phone as a remote.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Robin Bea)",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.engadget.com/2288161/ugreen-nas-hdmi-port-uses/",
-      "image": "/images/feed/feed-16d0fb49895b.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -604,7 +623,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 30,
       "url": "https://www.ign.com/articles/2026-apple-macbook-air-laptop-deal-october-2026",
       "image": "/images/feed/feed-b3428ce11c3d.jpg",
       "source": "IGN",
@@ -623,7 +642,7 @@
         "Llm"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 37,
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "image": "/images/feed/feed-69dc7167d781.jpg",
       "source": "Hacker News",
@@ -642,7 +661,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 32,
       "url": "https://www.polygon.com/red-dead-redemption-2-nemesis-system-mod-shadow-of-mordor/",
       "image": "/images/feed/feed-1b31600fe253.jpg",
       "source": "Polygon",
@@ -661,7 +680,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 34,
       "url": "https://electrek.co/2026/10/19/flying-flipping-tesla-roadster-delivered-on-style-these-evs-deliver-on-substance/",
       "image": "/images/feed/feed-7416c78c4aa4.jpg",
       "source": "Electrek",
@@ -680,7 +699,7 @@
         "Hybrid"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/10/19/hybrid-sales-rise-while-battery-electric-sales-remain-lower-after-tax-credit-expiration-2/",
       "image": "/images/feed/feed-3a75eff2ad77.png",
       "source": "CleanTechnica",
@@ -699,7 +718,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 32,
       "url": "https://cleantechnica.com/2026/10/19/lessons-in-chemistry-microbes-heavy-metals-and-water/",
       "image": "/images/feed/feed-32150f309f35.jpg",
       "source": "CleanTechnica",
@@ -718,7 +737,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 51,
       "url": "https://cleantechnica.com/2026/10/19/ultium-cells-to-bring-lmr-prismatic-battery-cell-production-to-tennessee-for-future-gm-evs/",
       "image": "/images/feed/feed-2dcf9d964f1c.jpg",
       "source": "CleanTechnica",
@@ -737,29 +756,10 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 33,
       "url": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account",
       "image": "/images/feed/feed-057c24ef1c90.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-59e6bcf2726a",
-      "title": "From Mine to Magnet to Motor: How GM Is Building Critical Supply Chains for the Long Term",
-      "excerpt": "By Shilpan Amin, Global Chief Procurement and Supply Chain Officer, GM Long before electric vehicles became a familiar sight on American roads, General Motors engineers were developing technologies th…",
-      "body": "By Shilpan Amin, Global Chief Procurement and Supply Chain Officer, GM Long before electric vehicles became a familiar sight on American roads, General Motors engineers were developing technologies that help make today’s EVs possible. One example sits at the heart of a modern electric motor: the permanent magnet. In the ... [continued] The post From Mine to Magnet to Motor: How GM Is Building Critical Supply Chains for the Long Term appeared first on CleanTechnica .",
-      "author": "Guest Contributor",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://cleantechnica.com/2026/10/19/from-mine-to-magnet-to-motor-how-gm-is-building-critical-supply-chains-for-the-long-term/",
-      "image": "/images/feed/feed-59e6bcf2726a.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -795,7 +795,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 48,
       "url": "https://www.space.com/entertainment/space-movies-shows/new-blade-runner-2099-trailer-is-a-space-fans-dream-with-sinister-starships-and-strange-exoplanets-video",
       "image": "/images/feed/feed-db11ec74e365.jpg",
       "source": "Space.com",
@@ -815,7 +815,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 35,
       "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
       "image": "/images/feed/feed-75ec39f9f00f.jpg",
       "source": "BleepingComputer",
@@ -834,7 +834,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 49,
       "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
       "image": "/images/feed/feed-8b434aa1867a.jpg",
       "source": "BleepingComputer",
@@ -872,7 +872,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 52,
       "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
       "image": "/images/feed/feed-d870467c6b67.jpg",
       "source": "Wired",
@@ -891,7 +891,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 34,
       "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
       "image": "/images/feed/feed-e7a08d8bbd49.jpg",
       "source": "MIT Tech Review",
@@ -910,7 +910,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 42,
       "url": "https://openai.com/index/low-resource-programming-languages",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -929,7 +929,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 31,
       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "image": "/images/feed/feed-372db7fd0c18.jpg",
       "source": "MIT Tech Review",
@@ -937,16 +937,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: The chase is becoming an AI feature. In Portugal, nobody asks yet",
-    "DEV.TO: Sloth Mode On: Automating My Daily Workflow with Open-Source AI",
-    "DEV.TO: Check your KDP paperback margins before you upload: a 40-line script",
-    "DEV.TO: Making my personal website callable for AI agents with WebMCP",
-    "DEV.TO: One-Click ROS 2 Startup in Windows Terminal with Pixi",
-    "DEV.TO: MRA e-invoicing Mauritius: five API checks before going live",
-    "DEV.TO: VideoEncoder.isConfigSupported said yes to H.265, but each browser meant something different",
-    "POLYGON: 5 Best Halloween 'Peanuts' Comics That Don't Involve the Great Pumpkin",
-    "ANDROID AUTHORITY: Some Google Home Speakers are downloading hundreds of gigs of data for no reason",
-    "THE HACKER NEWS: ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan"
+    "DEV.TO: AI Gateway expands: Nemotron, Liquid AI, Elorian Glimpse",
+    "DEV.TO: Your Free AI Lane Is Slow in the Queue, Not in the Model",
+    "DEV.TO: Pollen Robotics Open-Sources a 25cm, 800g Reinforcement-Learning Robot Duck",
+    "DEV.TO: Five Fail-Closed Gates, One Script: Rehearse Your AI Feature on a Free Tier First",
+    "DEV.TO: I Bisected My Prompt Until the Endpoint Broke",
+    "DEV.TO: Capacity You Haven't Measured Is Capacity You Don't Have",
+    "DEV.TO: How OpenVTS engineered whole-fleet live tracking without freezing\"\"How OpenVTS engineered whole-fleet live tracking without freezing",
+    "ANDROID AUTHORITY: Google Chat’s latest feature could finally end the post-meeting confusion",
+    "ENGADGET: The Apple Store will only let you check out two iPhone Duos",
+    "WIRED: Hatch Sleep Clock Review: A Contactless Sleep Tracker (2026)"
   ],
   "sectionVideos": {}
 }
