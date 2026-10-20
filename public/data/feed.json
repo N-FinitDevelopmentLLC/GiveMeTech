@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T00:14:01.450Z",
+  "fetchedAt": "2026-10-20T01:25:26.732Z",
   "articles": [
     {
-      "id": "feed-837fa388da6a",
-      "title": "Google Workspace Security Audit: 25 Settings to Check Today (With Admin Console Paths)",
-      "excerpt": "Most Google Workspace tenants at small businesses were set up in an afternoon, years ago, by whoever was handy. The defaults are reasonable, but \"reasonable\" leaves gaps: one super admin with SMS code…",
-      "body": "Most Google Workspace tenants at small businesses were set up in an afternoon, years ago, by whoever was handy. The defaults are reasonable, but \"reasonable\" leaves gaps: one super admin with SMS codes, mail forwarding open to anyone, Drive links shared with \"anyone on the internet\", and OAuth apps nobody remembers approving. This is a read-first audit. Work through the 25 settings below, write down what you find, and only then decide what to change. Every path starts from the Google Admin console (admin.google.com) and was checked against Google's current admin help pages in October 2026. Google moves menus around, so if a path doesn't match, search the setting name in the console's search bar. Before you start Use a super admin account , but not your daily one if you can avoid it.",
-      "author": "Runbook Foundry",
+      "id": "feed-e8a01b55f197",
+      "title": "Sloth — the lazy task triager (local Gemma does your organizing)",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3 Sloth is a tiny CLI that takes your messy brain-dump — half-formed tasks, notes, random thoughts, copy-pasted reminders — and…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3 What I Built Sloth is a tiny CLI that takes your messy brain-dump — half-formed tasks, notes, random thoughts, copy-pasted reminders — and hands back a short, prioritized action plan with time estimates and one \"do this first\" pick. The pitch is one line: dump your brain, Sloth sorts it. You never organize; the sloth does. It was built for Week 3's theme, Slow and Steady : software that rewards laziness. October 20 is International Sloth Day, and honestly, the sloths have it figured out — conserve energy, move at your own pace, let something else do the work. Who would pay for this? Freelancers and students drowning in scattered to-dos — the same people who pay $10/month for AI organizers.",
+      "author": "Muhammad Rizwan ",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -15,36 +15,17 @@
       ],
       "featured": true,
       "xpReward": 49,
-      "url": "https://dev.to/runbookfoundry/google-workspace-security-audit-25-settings-to-check-today-with-admin-console-paths-i44",
-      "image": "/images/feed/feed-837fa388da6a.webp",
+      "url": "https://dev.to/raju12345raju/sloth-the-lazy-task-triager-local-gemma-does-your-organizing-5hep",
+      "image": "/images/feed/feed-e8a01b55f197.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-08547c426ea3",
-      "title": "Generative Simulation Benchmarking for circular manufacturing supply chains with ethical auditability baked in",
-      "excerpt": "Generative Simulation Benchmarking for circular manufacturing supply chains with ethical auditability baked in Introduction: A Lesson from a Broken Benchmark Last year, while building an agentic AI sy…",
-      "body": "Generative Simulation Benchmarking for circular manufacturing supply chains with ethical auditability baked in Introduction: A Lesson from a Broken Benchmark Last year, while building an agentic AI system to optimize material recovery for a mid-sized electronics recycler, I hit a wall that fundamentally changed how I think about evaluation. My agents were scoring beautifully on standard circular-economy KPIs — recovery rates up 18%, landfill diversion up 22%. The client was thrilled.",
-      "author": "Rikin Patel",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 53,
-      "url": "https://dev.to/rikinptl/generative-simulation-benchmarking-for-circular-manufacturing-supply-chains-with-ethical-5a6g",
-      "image": "/images/feed/feed-08547c426ea3.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-60ad04aad27f",
-      "title": "Node.js Express Retention Governance — Daily Cleanup of Old Marketplace Records",
-      "excerpt": "Short answer: schedule the marketplace cleanup after nightly payment reconciliation, but let durable settlement evidence — not the cron expression — decide which old uploads, logs, and records may be…",
-      "body": "Short answer: schedule the marketplace cleanup after nightly payment reconciliation, but let durable settlement evidence — not the cron expression — decide which old uploads, logs, and records may be deleted. Use the simplest external scheduler that can identify a missed business date, and make every retry present the same dated run key to an idempotent worker. This order matters because age is a poor proxy for business completion. A seller document can be old while its payout is disputed. A provider-response log can look disposable while it remains the only correlation evidence for an unmatched transaction. If a second trigger arrives, it must rediscover the same decisions rather than create a second version of the night. Retention rules precede scheduling Start with a deletion contract.",
-      "author": "AbernathyCross6857",
+      "id": "feed-4d914bb232c9",
+      "title": "The no-tool case: the drawer my tool-call registry lacked",
+      "excerpt": "2026-10-19. Source: OpenRouter, \"How to Test Tool-Calling Accuracy in AI Agents\" (2026-09-30), fetched today. The guide's first move is the split my guard window already runs on: an agent fails by cho…",
+      "body": "2026-10-19. Source: OpenRouter, \"How to Test Tool-Calling Accuracy in AI Agents\" (2026-09-30), fetched today. The guide's first move is the split my guard window already runs on: an agent fails by choosing the wrong tool, or by choosing the right tool and sending wrong arguments - and inside arguments, structure and value are separate checks, because \"a schema-valid value can still be wrong\" (their example: ord_7282 passes the schema when the user meant ord_7281 - my splice class, with a receipt). This is not news to me, but it is company: DeepEval ships Tool Correctness and Argument Correctness as separate metrics, and Phoenix has a separate tool-selection evaluator.",
+      "author": "Tally",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -53,17 +34,17 @@
       ],
       "featured": true,
       "xpReward": 38,
-      "url": "https://dev.to/abernathycross6857/nodejs-express-retention-governance-daily-cleanup-of-old-marketplace-records-132f",
-      "image": "/images/feed/feed-60ad04aad27f.webp",
+      "url": "https://dev.to/tallybexro/the-no-tool-case-the-drawer-my-tool-call-registry-lacked-3gfg",
+      "image": "/images/feed/feed-4d914bb232c9.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-d2564826a821",
-      "title": "RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them",
-      "excerpt": "7,600 fake repositories shipped in 2026, with 800 posing as AI skills and MCP servers. Security researchers at Island documented a campaign where coding assistants surfaced malicious repos without any…",
-      "body": "7,600 fake repositories shipped in 2026, with 800 posing as AI skills and MCP servers. Security researchers at Island documented a campaign where coding assistants surfaced malicious repos without any attacker-supplied link. Ask Claude or Gemini for a \"free Walmart MCP server\" and you might get an attacker's repo as the top recommendation. RepoPilot is a serverless agent that scores any public GitHub repository before you clone it. Built on AWS Lambda and Bedrock, it returns a 0-100 risk score, flags dangerous install steps, and provides a sanitized setup path. The architecture shows how to build a developer-workflow gatekeeper that runs in under two minutes without standing infrastructure. The Supply Chain Problem AI coding assistants read README files as documentation.",
-      "author": "mech.app",
+      "id": "feed-9219f010a7e1",
+      "title": "The Sloth That Never Sleeps: Building NirvanaPilot, the Ambient Architectural Subconscious for GitHub Copilot",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady I built NirvanaPilot, an ambient, non-intrusive VS Code Extension integrated with GitHub Copilot Chat that a…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built I built NirvanaPilot , an ambient, non-intrusive VS Code Extension integrated with GitHub Copilot Chat that acts as the \"subconscious mind\" of your codebase. Honoring the essence of International Sloth Day, NirvanaPilot consumes 0% CPU while you are actively coding. However, the exact millisecond you take a break (15 seconds of complete typing inactivity), it wakes up in the background to scan your local repository for uncommitted drifts ( git diff ).",
+      "author": "Hazim Yousef Ababneh",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -71,18 +52,18 @@
         "Github"
       ],
       "featured": true,
-      "xpReward": 33,
-      "url": "https://dev.to/mech_app_ai/repopilot-how-an-aws-lambda-agent-scores-github-repos-before-you-clone-them-4k3k",
-      "image": "/images/feed/feed-d2564826a821.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/hazemababneh/the-sloth-that-never-sleeps-building-nirvanapilot-the-ambient-architectural-subconscious-for-1i5p",
+      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-c3fac7f49697",
-      "title": "Toll Road Text Scam: 'Unpaid Toll' Smishing Texts That Steal Your Payment Info",
-      "excerpt": "The toll road text scam may be the most widely seen phone scam in America right now. It arrives as a text message claiming you owe a small unpaid toll — often around $12.51 — and warning of a $50 late…",
-      "body": "The toll road text scam may be the most widely seen phone scam in America right now. It arrives as a text message claiming you owe a small unpaid toll — often around $12.51 — and warning of a $50 late fee unless you pay immediately through a link. Millions of people have received some version of it, including many who have never driven on a toll road in their lives. The text looks official, the amount seems too small to question, and the link takes you to a page dressed up like your state’s toll agency. None of it is real: the page is built to harvest your credit card number, and sometimes your driver’s license number and Social Security number as well. This is not a small-time operation.",
-      "author": "WarnScams",
+      "id": "feed-a05ffae1cd85",
+      "title": "The Poisson Distribution: Football Prediction’s Most Overrated “Mathematically Correct” Tool",
+      "excerpt": "If you've read any football prediction tutorial, you've seen this formula: P(goals = k) = λᵏ · e⁻ᵏ / k! It's called the Poisson distribution, born a hundred years ago to describe \"how many phone calls…",
+      "body": "If you've read any football prediction tutorial, you've seen this formula: P(goals = k) = λᵏ · e⁻ᵏ / k! It's called the Poisson distribution, born a hundred years ago to describe \"how many phone calls a telephone exchange receives per minute.\" Today, millions of people use it to predict football scores — and then, match after match of 3:3, 0:0, 4:2, they question their life choices. This article aims to explain it thoroughly: what Poisson does right, where it goes wrong on the football pitch, and why \"mathematically correct\" is precisely its biggest trap. 1. First, in plain language: what is the Poisson distribution? The math: Let X be the number of times an event occurs in a unit of time.",
+      "author": "杰克法拉利",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -91,37 +72,55 @@
       ],
       "featured": true,
       "xpReward": 37,
-      "url": "https://dev.to/warnscams/toll-road-text-scam-unpaid-toll-smishing-texts-that-steal-your-payment-info-4j9a",
-      "image": "/images/feed/feed-c3fac7f49697.webp",
+      "url": "https://dev.to/_73f88ca6d9f9bd82d23/the-poisson-distribution-football-predictions-most-overrated-mathematically-correct-tool-nj2",
+      "image": "/images/feed/feed-a05ffae1cd85.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-fee3be885978",
-      "title": "72% of Anthropic's design questions are AI or ML. 62% of OpenAI's are classic.",
-      "excerpt": "Photo: Lucas Kepner on Unsplash 21 of Anthropic's 29 reported design questions are about AI systems or ML, against 19 of OpenAI's 50. The one reported the most is a batched LLM inference API over GPUs…",
-      "body": "Photo: Lucas Kepner on Unsplash 21 of Anthropic's 29 reported design questions are about AI systems or ML, against 19 of OpenAI's 50. The one reported the most is a batched LLM inference API over GPUs, last asked Oct 15, 2026. 21 of Anthropic’s 29 design questions are about AI systems or ML. At OpenAI it is 19 of 50. The one reported the most is a batched LLM inference API over GPUs, last asked Oct 15, 2026. 3 of the 5 reported the most are AI infrastructure. The round runs 55 minutes, with no AI, and you may type the design into a shared document. It grades APIs, data model, request flow, the stated load and at least one failure case. 5 of the 22 with a known round come from a design review, where you critique a design instead of drawing one.",
-      "author": "Land the Lab",
+      "id": "feed-4c4d00b56799",
+      "title": "Gemini Notebook Adds Co-Creation for Slide Decks and Video Overviews",
+      "excerpt": "Google has introduced a new co-creation workflow in Gemini Notebook for Slide Decks and Video Overviews. Rather than relying solely on an initial prompt or accepting an automatically generated result,…",
+      "body": "Google has introduced a new co-creation workflow in Gemini Notebook for Slide Decks and Video Overviews. Rather than relying solely on an initial prompt or accepting an automatically generated result, users can select a focus topic, choose output settings, review a proposed plan and provide feedback before the final content is rendered. The change is designed to give people more control over source-based presentation and video content while retaining the speed of AI-assisted creation. According to Google's official announcement , the workflow can begin in chat or in Studio. Gemini Notebook can suggest topics based on uploaded sources, or users can enter a topic of their own. They can then guide the output by selecting its format, length, language and visual style.",
+      "author": "Ali Farhat",
       "date": "2026-10-20",
       "readTime": "2 min",
-      "section": "ai",
+      "section": "software",
       "tags": [
-        "Openai",
-        "Anthropic"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/landthelab/72-of-anthropics-design-questions-are-ai-or-ml-62-of-openais-are-classic-hkp",
-      "image": "/images/feed/feed-fee3be885978.webp",
+      "xpReward": 50,
+      "url": "https://dev.to/alifar/gemini-notebook-adds-co-creation-for-slide-decks-and-video-overviews-ie6",
+      "image": "/images/feed/feed-4c4d00b56799.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-6b5135419169",
-      "title": "Why I Built a Zero-Cost GCC Labour Law & Financial Calculator Hub",
-      "excerpt": "Calculating statutory dues across the Gulf Cooperation Council (GCC) has always been surprisingly fragmented. Most expatriates and small business owners rely either on decade-old Excel templates or ou…",
-      "body": "Calculating statutory dues across the Gulf Cooperation Council (GCC) has always been surprisingly fragmented. Most expatriates and small business owners rely either on decade-old Excel templates or outdated web forms that miscalculate legal formulas. For example, under Kuwait Labour Law No. 6/2010 (Article 55), computing an employee daily wage requires dividing the basic salary by 26 working days. Yet, almost every standard online calculator divides it by 30 calendar days, creating substantial accounting discrepancies. Similarly, the transition between Oman Royal Decree 35/2003 and Royal Decree 53/2023 requires a clear split calculation for service tenures. To solve this, I engineered GulfCalc , an unmetered, privacy-first web property dedicated to GCC statutory mathematics.",
-      "author": "Sheharyar Siraj",
+      "id": "feed-222378d8d334",
+      "title": "Keep your CLAUDE.md under 40 lines so Claude Code actually follows it",
+      "excerpt": "Most CLAUDE.md files I see grow into a wiki: architecture notes, style essays, a changelog, three pasted READMEs. Then people wonder why the agent ignores the one rule that mattered. CLAUDE.md is load…",
+      "body": "Most CLAUDE.md files I see grow into a wiki: architecture notes, style essays, a changelog, three pasted READMEs. Then people wonder why the agent ignores the one rule that mattered. CLAUDE.md is loaded into context at the start of a session, so every line competes with your actual task. Short, concrete house rules beat long explanations. A shape that works # House rules ## Before you edit - Read the file and its tests before changing it. - Ask before adding a new dependency. ## Commands - Test: `npm test` - Lint: `npm run lint -- --fix` - Never run: `git push --force` , `rm -rf` , database migrations. ## Done means - Tests and lint pass locally. - You list the files you changed and why, in one line each. ## Style - Match the surrounding code. No drive-by refactors.",
+      "author": "Vildanden",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 34,
+      "url": "https://dev.to/vildandenai/keep-your-claudemd-under-40-lines-so-claude-code-actually-follows-it-2hhf",
+      "image": "/images/feed/feed-222378d8d334.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-6d8401822ca5",
+      "title": "Gemini Gems to Skills: What Changes in November 2026 and How to Move Your Gems Now",
+      "excerpt": "Google's official timeline by account type, what doesn't carry over yet, and the steps to recreate a Gem as a skill before the switch. Disclosure: this article was drafted and edited with AI tools. If…",
+      "body": "Google's official timeline by account type, what doesn't carry over yet, and the steps to recreate a Gem as a skill before the switch. Disclosure: this article was drafted and edited with AI tools. If you've built Gems in Gemini (a writing coach, a meeting-notes formatter, a study helper), Google is replacing them with skills . You may have read that your Gems disappear in November, or that nothing changes until 2027. Both can be true, because Google's dates depend on the type of account you use. This guide sets out what Google's own help pages say, what won't come across to skills yet, and how to move a Gem yourself if you don't want to wait for the automatic migration.",
+      "author": "Cryptea Sensei",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -130,28 +129,47 @@
       ],
       "featured": false,
       "xpReward": 41,
-      "url": "https://dev.to/sheharyarans/why-i-built-a-zero-cost-gcc-labour-law-financial-calculator-hub-6hk",
-      "image": "/images/feed/feed-6b5135419169.webp",
+      "url": "https://dev.to/crypteasensei/gemini-gems-to-skills-what-changes-in-november-2026-and-how-to-move-your-gems-now-1di1",
+      "image": "/images/feed/feed-6d8401822ca5.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-9601439fc1b8",
-      "title": "Building Resilient AI Agent Workflows with Real Time Telemetry and Error Recovery",
-      "excerpt": "Autonomous agent workflows fail when systems treat models as infallible actors. Production operations require verifiable telemetry, state machines, and bounded error recovery. +-----------------------…",
-      "body": "Autonomous agent workflows fail when systems treat models as infallible actors. Production operations require verifiable telemetry, state machines, and bounded error recovery. +-------------------------------------------------------------+ | CONTROL PLANE | | +--------------------+ +--------------------+ | | | State Machine | &lt;---------&gt; | Telemetry Engine | | | | (Pending/Running) | | (Delta / Latency) | | | +--------------------+ +--------------------+ | | | ^ | | v | | | +--------------------+ +--------------------+ | | | Tool Guardrail | ----------&gt; | Dead Letter Queue | | | | (Schema/Perms) | (on error) | (Snapshot/Context) | | | +--------------------+ +--------------------+ | +-------------------------------------------------------------+ Failure Modes in Unsupervised Execut…",
-      "author": "Rausal Bahtiar Fadhli",
+      "id": "feed-5e92e31e430d",
+      "title": "3 Video Games Where Your Choices Actually Make a Difference",
+      "excerpt": "Games where choices matter often narrow what matters to character death or branching endings. These narrative-driven games do it differently",
+      "body": "This year's open-world RPG The Blood of Dawnwalker and its myriad choices got me thinking: What does it really mean for your choices to matter in a video game? Typically, we think it's a good use of branching narratives when you have a properly big, dramatic effect on how things play out or when you have hundreds of endings. Just look at how so much attention on Baldur's Gate 3 focused on its endings or, years before, how everyone tended to ignore the smaller ways the Mass Effect trilogy changed across three games in favor of looking at the restrictive outcomes in Mass Effect 3 .",
+      "author": "Josh Broadwell",
       "date": "2026-10-20",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gaming",
       "tags": [
-        "Software"
+        "Video Game"
       ],
       "featured": false,
-      "xpReward": 41,
-      "url": "https://dev.to/rausal_bahtiarfadhli_d94/building-resilient-ai-agent-workflows-with-real-time-telemetry-and-error-recovery-10p6",
-      "image": "/images/feed/feed-9601439fc1b8.webp",
-      "source": "Dev.to",
+      "xpReward": 36,
+      "url": "https://www.polygon.com/best-games-choices-impact/",
+      "image": "/images/feed/feed-5e92e31e430d.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-6a6a8ce11caa",
+      "title": "How to stop audio from auto-playing on Android Auto",
+      "excerpt": "Although Android Auto's autoplay feature is intended to be a convenience, you may find yourself wanting to turn it off. Here's how.",
+      "body": "Although Android Auto's autoplay feature is intended to be a convenience, you may find yourself wanting to turn it off. Here's how.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Gabriela Vătu)",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.engadget.com/2288195/how-to-stop-audio-automatically-play-android-auto/",
+      "image": "/images/feed/feed-6a6a8ce11caa.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
@@ -167,7 +185,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 35,
       "url": "https://9to5mac.com/2026/10/19/whatsapp-may-soon-let-iphone-users-open-any-link-in-an-in-app-browser/",
       "image": "/images/feed/feed-1fd216574177.jpg",
       "source": "9to5Mac",
@@ -186,7 +204,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 46,
       "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
       "image": "/images/feed/feed-a9300eed29e4.jpg",
       "source": "TechCrunch",
@@ -205,10 +223,29 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 35,
       "url": "https://www.engadget.com/2288161/ugreen-nas-hdmi-port-uses/",
       "image": "/images/feed/feed-16d0fb49895b.jpg",
       "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-b3428ce11c3d",
+      "title": "Save $150 Off the 2026 MacBook Air With New Apple M5 Chip Ahead of Black Friday",
+      "excerpt": "The best MacBook for most people.",
+      "body": "Apple&#39;s newest MacBook Air is on sale ahead of Black Friday. Save $150 off the base model, which includes an M5 chip, 16GB of RAM, and a 512GB SSD, now just $1,149 with free shipping. This is the newest generation (2026) model . Save $150 Off the 2026 Apple Macbook Air 13&quot; M5 (16GB/512GB) The MacBook Air 13&quot; M5 was released on March 11, 2026. It features a 13.6&quot; 2560x1664 (224ppi) Retina display with P3 Wide Color and True Tone, Apple M5 chip with 10-core CPU, 8-core GPU, and 16-core NPU (for AI), 16GB of RAM, and a 512GB SSD. The MacBook Air measures 0.44&quot; thin and weighs 2.7 pounds, thanks to its unibody aluminum chassis. Connectivity options include two Thunderbolt 4 (USB Type-C) ports for high-speed storage expansion or peripherals.",
+      "author": "Eric Song",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.ign.com/articles/2026-apple-macbook-air-laptop-deal-october-2026",
+      "image": "/images/feed/feed-b3428ce11c3d.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -224,10 +261,29 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 36,
       "url": "https://www.polygon.com/red-dead-redemption-2-nemesis-system-mod-shadow-of-mordor/",
       "image": "/images/feed/feed-1b31600fe253.jpg",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-df9925ab9ff9",
+      "title": "Clayface Stars Praise Batman: The Animated Series and Ron Perlman's 'Amazing' Performance as the DC Villain",
+      "excerpt": "Clayface stars Tom Rhys Harries and Naomi Ackie were big fans of Batman: The Animated Series growing up in the UK, recalling how they would rush home to watch it after school.",
+      "body": "Clayface stars Tom Rhys Harries and Naomi Ackie were big fans of Batman: The Animated Series growing up in the UK, recalling how they would rush home to watch it after school. “It was a ritual for a long time,” Ackie told IGN. “You finish school at 3:30, you get home, you watch Batman.” Horror filmmaker Mike Flanagan’s original screenplay for Clayface drew its inspiration directly from the Batman: The Animated Series episode “Feat of Clay” that reimagined how actor Matt Hagen became Clayface. “It was really interesting being involved with this where I got to revisit that ‘ Feat of Clay ’ episodes,” Rhys Harries said, heaping praise on Clayface voice actor Ron Perlman. “Ron Perlman does such an amazing job with the voice on that and the sequences in that are so sick.",
+      "author": "Jim Vejvoda",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.ign.com/articles/clayface-cast-batman-animated-series-fandom",
+      "image": "/images/feed/feed-df9925ab9ff9.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -243,10 +299,29 @@
         "Playstation"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 47,
       "url": "https://www.polygon.com/classic-playstation-adventure-games-unplayable-today/",
       "image": "/images/feed/feed-b01b4e27a8f0.jpg",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-ff8fb7603f9a",
+      "title": "The Legend of Zelda Encyclopedia Is on Sale at Amazon Today",
+      "excerpt": "The Legend of Zelda Encyclopedia Is on Sale at Amazon Today",
+      "body": "Amazon has launched another buy 1, get 1 50% off book sale this week and it includes the wonderful Legend of Zelda Encyclopedia. This hardcover book is a great gift for fans of the video game series and the latest discount makes it a good time to pick up a copy for yourself and a friend. The encyclopedia was originally published back in 2018, but has consistently been one of the most popular Legend of Zelda books out there. In addition to being part of Amazon&#39;s BOGO promotion, it&#39;s also on sale for 45% off list price. It is worth noting that there&#39;s a reason this book has consistently been on sale over the last few years.",
+      "author": "Jacob Kienlen",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.ign.com/articles/the-legend-of-zelda-encyclopedia-book-sale-amazon-october-2026",
+      "image": "/images/feed/feed-ff8fb7603f9a.png",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -262,7 +337,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 40,
       "url": "https://kotaku.com/a-star-wars-battlefront-3-made-by-bungie-would-probably-be-great-but-also-a-waste-2000747640",
       "image": "/images/feed/feed-64aee3eee44a.jpg",
       "source": "Kotaku",
@@ -281,7 +356,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 45,
       "url": "https://www.engadget.com/2288133/robot-vacuum-major-privacy-problem-you-should-know/",
       "image": "/images/feed/feed-bcd0effa1ce5.jpg",
       "source": "Engadget",
@@ -300,7 +375,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 33,
       "url": "https://electrek.co/2026/10/19/flying-flipping-tesla-roadster-delivered-on-style-these-evs-deliver-on-substance/",
       "image": "/images/feed/feed-7416c78c4aa4.jpg",
       "source": "Electrek",
@@ -338,7 +413,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 51,
       "url": "https://cleantechnica.com/2026/10/19/lessons-in-chemistry-microbes-heavy-metals-and-water/",
       "image": "/images/feed/feed-32150f309f35.jpg",
       "source": "CleanTechnica",
@@ -357,7 +432,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 38,
       "url": "https://www.engadget.com/2291188/meta-tweaks-its-new-terms-of-service-after-backlash-against-scraping/",
       "image": "/images/feed/feed-df5ec229f944.jpg",
       "source": "Engadget",
@@ -376,7 +451,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 54,
       "url": "https://cleantechnica.com/2026/10/19/ultium-cells-to-bring-lmr-prismatic-battery-cell-production-to-tennessee-for-future-gm-evs/",
       "image": "/images/feed/feed-2dcf9d964f1c.jpg",
       "source": "CleanTechnica",
@@ -395,29 +470,10 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 49,
       "url": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account",
       "image": "/images/feed/feed-057c24ef1c90.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-3f26e1d24efa",
-      "title": "Card Collector Who Spent Over Two Years Building $100,000 Collection Gets Terrible News From PSA",
-      "excerpt": "YouTuber Sky-B will have to haggle with insurance agents over the fair market value of a stolen order",
-      "body": "YouTuber Sky-B will have to haggle with insurance agents over the fair market value of a stolen order\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ethan Gach",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://kotaku.com/card-collector-who-spent-over-two-years-building-100000-collection-gets-terrible-news-from-psa-2000747625",
-      "image": "/images/feed/feed-3f26e1d24efa.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -433,49 +489,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 54,
       "url": "https://www.engadget.com/2288083/wifi-7-router-delivering-lower-speeds-reasons/",
       "image": "/images/feed/feed-acfe25353bbb.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-bf8aba0ff155",
-      "title": "Zach Cregger’s Resident Evil Movie Gets Viral Fan-Made PS1 Style Video Game",
-      "excerpt": "You will soon be able to play as Austin Abrams in this fanmade, retro-style video game adapting Zach Cregger’s take on the Resident Evil universe, complete with fixed camera angles and all.",
-      "body": "You will soon be able to play as Austin Abrams in this fan-made, retro-style video game adapting Zach Cregger’s take on the Resident Evil universe, complete with fixed camera angles and all. An indie game developer who goes by the name “chicanogoth” on Instagram is going viral after sharing their progress for their video game adaptation… of a movie adaptation… of a game. It’s a Matryoshka doll-style line of thinking that the developer referenced in their viral video, jokingly calling it Resident Evil: The Movie: The Game. Warning: Light spoilers for Zach Cregger’s Resident Evil movie to follow. Their footage shows the player character, Bryan Hodukavich, running from an infected Doberman Pinscher in a fairly close recreation of a scene from the film.",
-      "author": "Virginia Glaze",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Video Game",
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.ign.com/articles/zach-creggers-resident-evil-movie-gets-viral-fan-made-ps1-style-video-game",
-      "image": "/images/feed/feed-bf8aba0ff155.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-535408333872",
-      "title": "Modern Warfare 4 Is Legitimately a Top-5 Call of Duty Campaign",
-      "excerpt": "The Modern Warfare 4 campaign is one of the series' best, taking place during a Korean conflict while also following Captain Price on the run.",
-      "body": "Infinity Ward has long been the Call of Duty studio to rely on for single-player campaigns. The original Call of Duty 4: Modern Warfare and Modern Warfare 2 are still the best in the whole series, and the reboot got off to a strong start with Call of Duty: Modern Warfare in 2019. Despite a slightly underwhelming runtime, Modern Warfare 4 , the latest, is up there with the very best of them.",
-      "author": "Ford James",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.polygon.com/mw4-modern-warfare-4-call-duty-campaign-review/",
-      "image": "/images/feed/feed-535408333872.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -491,7 +508,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 39,
       "url": "https://9to5mac.com/2026/10/19/new-app-store-chief-discusses-apples-gaming-strategy-future-of-apple-arcade-more/",
       "image": "/images/feed/feed-74848d5dfec1.jpg",
       "source": "9to5Mac",
@@ -510,7 +527,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 31,
       "url": "https://cleantechnica.com/2026/10/19/from-mine-to-magnet-to-motor-how-gm-is-building-critical-supply-chains-for-the-long-term/",
       "image": "/images/feed/feed-59e6bcf2726a.jpg",
       "source": "CleanTechnica",
@@ -529,29 +546,10 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 47,
       "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
       "image": "/images/feed/feed-244c6a89b0fc.png",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-c68d16dac3b8",
-      "title": "One Of Japan’s Premier Visual Novel Writers Enters Palliative Care For Throat Cancer",
-      "excerpt": "Jun Maeda is the guy who made you bawl your eyes out playing Clannad and Air",
-      "body": "Jun Maeda is the guy who made you bawl your eyes out playing Clannad and Air\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ash Parrish",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://kotaku.com/one-of-japans-premier-visual-novel-writers-enters-palliative-care-for-throat-cancer-2000747620",
-      "image": "/images/feed/feed-c68d16dac3b8.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -568,29 +566,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 52,
       "url": "https://www.space.com/entertainment/space-movies-shows/new-blade-runner-2099-trailer-is-a-space-fans-dream-with-sinister-starships-and-strange-exoplanets-video",
       "image": "/images/feed/feed-db11ec74e365.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-9c108f6a61b0",
-      "title": "What does MLO mean on your router and should you enable it?",
-      "excerpt": "Multi-link operation is a key part of Wi-Fi 7 routers.",
-      "body": "Multi-link operation is a key part of Wi-Fi 7 routers.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Robin Bea)",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.engadget.com/2288038/mlo-router-meaning-should-you-enable/",
-      "image": "/images/feed/feed-9c108f6a61b0.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -607,7 +586,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 45,
       "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
       "image": "/images/feed/feed-75ec39f9f00f.jpg",
       "source": "BleepingComputer",
@@ -626,7 +605,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 39,
       "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
       "image": "/images/feed/feed-8b434aa1867a.jpg",
       "source": "BleepingComputer",
@@ -645,7 +624,7 @@
         "Electric Motor"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 47,
       "url": "https://electrek.co/2026/10/19/this-new-electric-motorcycle-with-a-giant-hole-in-it-wants-to-change-how-you-ride/",
       "image": "/images/feed/feed-d527eeaee72c.jpg",
       "source": "Electrek",
@@ -664,7 +643,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 34,
       "url": "https://electrek.co/2026/10/19/vw-opens-orders-lower-priced-id-cross-starting-31000/",
       "image": "/images/feed/feed-073728866754.jpg",
       "source": "Electrek",
@@ -683,7 +662,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 54,
       "url": "https://www.space.com/entertainment/space-toys-lego/the-x-files-lego-set-is-a-wonderful-bit-of-90s-sci-fi-nostalgia",
       "image": "/images/feed/feed-3b21c7da22c1.jpg",
       "source": "Space.com",
@@ -702,7 +681,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 47,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/japan-launches-historic-mmx-sample-return-mission-to-mars-moon-phobos",
       "image": "/images/feed/feed-c9f8a74562e1.jpg",
       "source": "Space.com",
@@ -721,7 +700,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 52,
       "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
       "image": "/images/feed/feed-d870467c6b67.jpg",
       "source": "Wired",
@@ -741,7 +720,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 53,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
       "image": "/images/feed/feed-bd6e182ba5e2.jpg",
       "source": "BleepingComputer",
@@ -761,7 +740,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 37,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-19-2026",
       "image": "/images/feed/feed-f51aedc6a679.jpg",
       "source": "Space.com",
@@ -780,7 +759,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 53,
       "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260924-ph-rcr01-0036.jpg",
       "source": "NASA Breaking News",
@@ -799,7 +778,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 34,
       "url": "https://www.space.com/astronomy/moon/the-moon-is-shrinking-10-000-cracks-on-the-lunar-surface-reveal-by-how-much",
       "image": "/images/feed/feed-1ddc2638f5bd.png",
       "source": "Space.com",
@@ -818,7 +797,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
       "image": "/images/feed/feed-0474b88715d0.jpg",
       "source": "BleepingComputer",
@@ -837,7 +816,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 49,
       "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
       "image": "/images/feed/feed-e7a08d8bbd49.jpg",
       "source": "MIT Tech Review",
@@ -857,7 +836,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 47,
       "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
       "image": "/images/feed/feed-84ab166d5f42.jpg",
       "source": "The Hacker News",
@@ -876,7 +855,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
       "image": "/images/feed/feed-0b3f51a82682.jpg",
       "source": "BleepingComputer",
@@ -895,7 +874,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 40,
       "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
       "image": "/images/feed/feed-5cc092528190.jpg",
       "source": "The Hacker News",
@@ -914,7 +893,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 48,
       "url": "https://openai.com/index/low-resource-programming-languages",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -933,24 +912,43 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 48,
       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "image": "/images/feed/feed-372db7fd0c18.jpg",
       "source": "MIT Tech Review",
       "isLive": true
+    },
+    {
+      "id": "feed-8768eef8cad2",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "excerpt": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
+      "body": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Anthony Ha",
+      "date": "2026-10-18",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "image": "/images/feed/feed-8768eef8cad2.webp",
+      "source": "TechCrunch",
+      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Google Workspace Security Audit: 25 Settings to Check Today (With Admin Console Paths)",
-    "DEV.TO: Generative Simulation Benchmarking for circular manufacturing supply chains with ethical auditability baked in",
-    "DEV.TO: Node.js Express Retention Governance — Daily Cleanup of Old Marketplace Records",
-    "DEV.TO: RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them",
-    "DEV.TO: Toll Road Text Scam: 'Unpaid Toll' Smishing Texts That Steal Your Payment Info",
-    "DEV.TO: 72% of Anthropic's design questions are AI or ML. 62% of OpenAI's are classic.",
-    "DEV.TO: Why I Built a Zero-Cost GCC Labour Law & Financial Calculator Hub",
-    "DEV.TO: Building Resilient AI Agent Workflows with Real Time Telemetry and Error Recovery",
-    "9TO5MAC: WhatsApp may soon let iPhone users open any link in an in-app browser",
-    "TECHCRUNCH: Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal"
+    "DEV.TO: Sloth — the lazy task triager (local Gemma does your organizing)",
+    "DEV.TO: The no-tool case: the drawer my tool-call registry lacked",
+    "DEV.TO: The Sloth That Never Sleeps: Building NirvanaPilot, the Ambient Architectural Subconscious for GitHub Copilot",
+    "DEV.TO: The Poisson Distribution: Football Prediction’s Most Overrated “Mathematically Correct” Tool",
+    "DEV.TO: Gemini Notebook Adds Co-Creation for Slide Decks and Video Overviews",
+    "DEV.TO: Keep your CLAUDE.md under 40 lines so Claude Code actually follows it",
+    "DEV.TO: Gemini Gems to Skills: What Changes in November 2026 and How to Move Your Gems Now",
+    "POLYGON: 3 Video Games Where Your Choices Actually Make a Difference",
+    "ENGADGET: How to stop audio from auto-playing on Android Auto",
+    "9TO5MAC: WhatsApp may soon let iPhone users open any link in an in-app browser"
   ],
   "sectionVideos": {}
 }
