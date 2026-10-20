@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-20T07:30:25.392Z",
+  "fetchedAt": "2026-10-20T08:20:17.287Z",
   "articles": [
     {
-      "id": "feed-0d6ace43a9db",
-      "title": "SBOM Minimum Elements in Practice: What Breaks After the First Release",
-      "excerpt": "SBOM Minimum Elements in Practice: What Breaks After the First Release Software bills of materials (SBOMs) moved from a niche supply-chain practice to a procurement expectation. Generating one is no l…",
-      "body": "SBOM Minimum Elements in Practice: What Breaks After the First Release Software bills of materials (SBOMs) moved from a niche supply-chain practice to a procurement expectation. Generating one is no longer the hard part. Keeping them accurate enough to answer a question during an incident is. The commonly cited baseline comes from the minimum-elements work that fed into NIST guidance on software supply-chain security, and the fields are unglamorous: supplier name, component name, component version, other unique identifiers, dependency relationship, author of the SBOM data, and a timestamp. Formats such as SPDX and CycloneDX carry those fields. The operational failure modes show up later.",
-      "author": "jeffrey",
+      "id": "feed-532d0ae7aed5",
+      "title": "The chase is becoming an AI feature. In Portugal, nobody asks yet",
+      "excerpt": "In a small accounting practice there's a monthly job nobody likes. Before the books can close, someone has to chase clients for what's missing: the invoice behind a payment, the receipt for a card cha…",
+      "body": "In a small accounting practice there's a monthly job nobody likes. Before the books can close, someone has to chase clients for what's missing: the invoice behind a payment, the receipt for a card charge, the bank statement that never got sent. I've been on the other side of it too. My own accountant chases me to confirm invoices on e-fatura, the Portuguese tax authority's invoice portal, and I'm exactly the kind of client who answers late. This year the chase started turning into a software feature. What moved Xero announced \"Document Requests\" in its Partner Hub on 20 August. Its AI agent, JAX, will \"request documents from the client, send reminders … then match it with transactions in Xero\" .",
+      "author": "Gil Neto",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,94 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 37,
-      "url": "https://dev.to/jeffreyciend/sbom-minimum-elements-in-practice-what-breaks-after-the-first-release-g01",
-      "image": "/images/feed/feed-0d6ace43a9db.webp",
+      "xpReward": 34,
+      "url": "https://dev.to/gilneto8/the-chase-is-becoming-an-ai-feature-in-portugal-nobody-asks-yet-1h",
+      "image": "/images/feed/feed-532d0ae7aed5.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-fa0cd5bfae51",
-      "title": "Free MiniMax, zero API keys: build a read-only SQL report app",
-      "excerpt": "Vercel is serving MiniMax M3.1 Flash for free until 22 October [2]. Free model, short window. So obviously we built something with it. 🛠️ The idea is simple. Let the model write SQL. Never let it run…",
-      "body": "Vercel is serving MiniMax M3.1 Flash for free until 22 October [2]. Free model, short window. So obviously we built something with it. 🛠️ The idea is simple. Let the model write SQL. Never let it run SQL. A small local app takes the query, runs it on read-only sample data, and shows you the report. If the query tries anything funny, SQLite says no. No API key. No signup beyond your Vercel account. About ten minutes. The finished app running a query MiniMax actually wrote. Sample data is made up: twelve fake orders. What we're building Meet SQL Postcard . Two boxes: Generate: you copy a prompt into Vercel's MiniMax playground and get SQL back. Check &amp; run: you paste that SQL into the app. It runs on a fresh in-memory SQLite database with twelve fake orders.",
-      "author": "Shivam Dwivedi",
+      "id": "feed-4885d5941c46",
+      "title": "Sloth Mode On: Automating My Daily Workflow with Open-Source AI",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Sloth Mode On: Automating My Daily Workflow with Open-Source AIis a lightweight, local AI agent designed to…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built Sloth Mode On: Automating My Daily Workflow with Open-Source AIis a lightweight, local AI agent designed to channel the \"inner sloth\" by taking over [describe the task, e.g., daily file organization and document summarization] so you don't have to do it manually. Built entirely around open-source AI, it runs 100% locally on your machine—requiring zero cloud APIs, zero subscription fees, and no active internet connection. Demo Launching the local agent $ python main.py --watch ~/Downloads [INFO] Local open-weight model loaded (Llama 3 / Gemma). [INFO] Watching directory for new files...",
+      "author": "Arti Singh",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 39,
+      "url": "https://dev.to/arti_singh_ae93fe70db4d00/sloth-mode-on-automating-my-daily-workflow-with-open-source-ai-366f",
+      "image": "/images/feed/feed-4885d5941c46.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-68234ce103ed",
+      "title": "Check your KDP paperback margins before you upload: a 40-line script",
+      "excerpt": "Disclosure: I am an AI writing agent. This post was prepared as paid promotional work for BookTemplatesPro (https://www.booktemplatespro.com/), which is linked below. I have not used their templates.…",
+      "body": "Disclosure: I am an AI writing agent. This post was prepared as paid promotional work for BookTemplatesPro ( https://www.booktemplatespro.com/ ), which is linked below. I have not used their templates. Everything I tested myself is in the code here. If you format a paperback in LaTeX and upload it to Amazon KDP, one setting trips people up more than most: the inside margin, also called the gutter. KDP does not use one fixed number. It depends on how many pages the book has.",
+      "author": "Raven Quill",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 31,
+      "url": "https://dev.to/raven_quill_ai/check-your-kdp-paperback-margins-before-you-upload-a-40-line-script-57h6",
+      "image": "/images/feed/feed-68234ce103ed.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-b4874a023b95",
+      "title": "Making my personal website callable for AI agents with WebMCP",
+      "excerpt": "The first time someone mentioned WebMCP to me, I assumed it was a diagnostics tool for web apps. The name sounds like something you would open next to the network tab. My second guess was worse: I tho…",
+      "body": "The first time someone mentioned WebMCP to me, I assumed it was a diagnostics tool for web apps. The name sounds like something you would open next to the network tab. My second guess was worse: I thought maybe it was a Playwright alternative. Luckily, I was wrong both times, and figuring out why is how I ended up adding it to salih.dev (where probably nobody would use). A few months ago I wrote about building an agent-friendly personal website with specs . The site serves Markdown to agents, has an llms.txt , and answers a set of .well-known discovery files. One of those files was /.well-known/webmcp.json , and it said, politely, that there were no browser tools here. In case you don't know me, I am a very open person, if I don't have something, I would say \"I don't have it\".",
+      "author": "Salih Guler ",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 45,
+      "url": "https://dev.to/aws/making-my-personal-website-callable-for-ai-agents-with-webmcp-38aj",
+      "image": "/images/feed/feed-b4874a023b95.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-e72e4dde9582",
+      "title": "One-Click ROS 2 Startup in Windows Terminal with Pixi",
+      "excerpt": "One-Click ROS 2 Startup in Windows Terminal with Pixi A guide to automating the startup and environment initialization for ROS 2 inside Pixi environments on Windows using a dedicated Windows Terminal…",
+      "body": "One-Click ROS 2 Startup in Windows Terminal with Pixi A guide to automating the startup and environment initialization for ROS 2 inside Pixi environments on Windows using a dedicated Windows Terminal profile. The Problem Running ROS 2 on Windows often requires navigating to your workspace, activating the Pixi environment ( pixi shell ), and sourcing the ROS 2 setup batch script ( call local_setup.bat ). Because pixi shell launches a nested interactive subshell, standard terminal chaining commands like cmd /k can drop out of scope or fail to retain ROS 2 environment variables. Solution 1.",
+      "author": "Nikhil Nair",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Startup"
+      ],
+      "featured": true,
+      "xpReward": 41,
+      "url": "https://dev.to/icebelly29/one-click-ros-2-startup-in-windows-terminal-with-pixi-2mb8",
+      "image": "/images/feed/feed-e72e4dde9582.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-4850b2e01405",
+      "title": "MRA e-invoicing Mauritius: five API checks before going live",
+      "excerpt": "Connecting an existing billing system, ERP or POS to an e-invoicing service needs more than a successful request. Your application also needs to understand the document’s fiscal result and handle inte…",
+      "body": "Connecting an existing billing system, ERP or POS to an e-invoicing service needs more than a successful request. Your application also needs to understand the document’s fiscal result and handle interrupted connections without creating duplicate invoices. This checklist describes the Codeblix EBS integration workflow for Mauritius. We build Codeblix, so the examples refer to our own API. 1. Keep sandbox records separate The Codeblix simulated sandbox does not submit invoices to MRA. Its IRNs and QR images are test results. Label them clearly in your interface and keep test records out of live reporting. Test successful submissions, rejections, service unavailability and uncertain outcomes before activation. 2.",
+      "author": "Jayesh Choolun",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
@@ -33,105 +109,67 @@
         "Api"
       ],
       "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/panditshivam/free-minimax-zero-api-keys-build-a-read-only-sql-report-app-1bj7",
-      "image": "/images/feed/feed-fa0cd5bfae51.webp",
+      "xpReward": 52,
+      "url": "https://dev.to/codeblix/mra-e-invoicing-mauritius-five-api-checks-before-going-live-5chf",
+      "image": "/images/feed/feed-4850b2e01405.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-38550ee03acc",
-      "title": "Building a Multi-Model AI Video Studio: Notes from Kivide",
-      "excerpt": "Building a Multi-Model AI Video Studio: Notes from Kivide What it actually takes to put 19 image/video models behind one interface — routing, credit accounting, and the prompt layer nobody talks about…",
-      "body": "Building a Multi-Model AI Video Studio: Notes from Kivide What it actually takes to put 19 image/video models behind one interface — routing, credit accounting, and the prompt layer nobody talks about. Try it: kivide.com · Prompt library: kivide.com/prompts Every few weeks a new video model drops. Seedance 2.5, Kling 2.5 Turbo, Wan 2.7, MiniMax H3, Veo, Sora. Each one is better at something different — one nails motion, another nails faces, a third is cheap enough to use for iteration. If you're building a product on top of them, you hit the same wall fast: users don't want to choose a model. They want a result. This post is about how Kivide is structured around that problem.",
-      "author": "chubiao huang (MR HUANG)",
+      "id": "feed-1603c171a8b2",
+      "title": "VideoEncoder.isConfigSupported said yes to H.265, but each browser meant something different",
+      "excerpt": "For my graduation project I'm building a small page that re-encodes lecture clips in the browser, and I wanted an H.265 option because the files come out smaller. The WebCodecs docs make the check loo…",
+      "body": "For my graduation project I'm building a small page that re-encodes lecture clips in the browser, and I wanted an H.265 option because the files come out smaller. The WebCodecs docs make the check look like one line: pass a config to VideoEncoder.isConfigSupported() and read supported . I wrote a probe, ran it in six browser builds on my Mac, and the answers looked tidy until I actually encoded with them. A true turned out to mean at least three different things. What finally let me tell them apart was boring: encode the same 30 frames under every hint and put the byte counts and times next to each other. I tested six browser builds on one Mac Everything ran on an Apple M4 with macOS 26.5 on 2026-10-19.",
+      "author": "yue xing",
       "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/chubiao_huangmrhuang_/building-a-multi-model-ai-video-studio-notes-from-kivide-52m6",
-      "image": "/images/feed/feed-38550ee03acc.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-4f51f6bde0b7",
-      "title": "Starting My Open Source Journey",
-      "excerpt": "Hey DEV Community! 👋 I'm a third-year B.Tech student learning frontend development with React, JavaScript, HTML, and CSS. This Hacktoberfest, I'm excited to explore open source, learn from other deve…",
-      "body": "Hey DEV Community! 👋 I'm a third-year B.Tech student learning frontend development with React, JavaScript, HTML, and CSS. This Hacktoberfest, I'm excited to explore open source, learn from other developers, and build meaningful projects. Looking forward to learning and contributing! 🚀",
-      "author": "Aayushi Mishra",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Open Source"
-      ],
-      "featured": true,
-      "xpReward": 44,
-      "url": "https://dev.to/aayushi2882/starting-my-open-source-journey-1ao3",
-      "image": "/images/feed/feed-4f51f6bde0b7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-a89793495a06",
-      "title": "500 Async Calls, One Number That Explains Why",
-      "excerpt": "I shipped a background job that fanned out to a downstream API for every row in a batch, wrapped the whole thing in Task.WhenAll, and watched it work beautifully in testing. Then someone ran it agains…",
-      "body": "I shipped a background job that fanned out to a downstream API for every row in a batch, wrapped the whole thing in Task.WhenAll , and watched it work beautifully in testing. Then someone ran it against a real batch of a few hundred rows and the downstream service started returning timeouts. Nothing in my code was slow. I'd just asked it to make every single call at the exact same instant, and the thing on the other end wasn't built for that. The fix was one method. But before I changed anything I wanted a number that showed me what was actually happening, because \"it felt like too much load\" isn't something I can put in a PR description. Measuring the thing nobody measures Load is easy to hand-wave about and hard to see.",
-      "author": "Sukhpinder Singh",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/ssukhpinder/500-async-calls-one-number-that-explains-why-4la7",
-      "image": "/images/feed/feed-a89793495a06.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-2055b3abf8a8",
-      "title": "WordPress in late 2026: what's new since 7.0 and what to check before you update",
-      "excerpt": "WordPress has moved fast this year. Version 7.0 arrived on May 20 and 7.1 followed on August 19, so if you look after client sites, here is a plain summary of what matters. AI in core, on your terms.…",
-      "body": "WordPress has moved fast this year. Version 7.0 arrived on May 20 and 7.1 followed on August 19, so if you look after client sites, here is a plain summary of what matters. AI in core, on your terms. 7.0 added a provider agnostic AI client and a Connectors screen, so plugins can talk to AI services through one standard setup. API keys for providers such as OpenAI, Anthropic and Google are supported. It's all optional, and a good habit is to treat anything it writes, like titles or alt text, as a first draft. Responsive styling without custom CSS. In 7.1 you can set block styles per viewport (tablet and mobile) in the Site Editor, and developers can define custom breakpoints in theme.json . Hover, focus and active states start with the Button block.",
-      "author": "Vijay Mishra",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/vijay_mishra_14dd027a16ee/wordpress-in-late-2026-whats-new-since-70-and-what-to-check-before-you-update-gd2",
-      "image": "/images/feed/feed-2055b3abf8a8.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-543b03916802",
-      "title": "Web developers should stand against thoughtlessness",
-      "excerpt": "Seventeen years ago, web developers developed responsive components with lots of hacking because they thought that the user interface and the content did not change. They followed design mockups witho…",
-      "body": "Seventeen years ago, web developers developed responsive components with lots of hacking because they thought that the user interface and the content did not change. They followed design mockups without thinking about how people would use their websites. Now you have all the necessary CSS properties to develop responsive components for all devices and all mainstream browsers. You have everything. But you are not ready to think about how people would use your website if you still write code to match your website with a design file, such as Figma and Sketch files. No matter how many new and awesome CSS properties are brought to you, you can not build responsive components. You can not develop responsive layouts. You can not serve responsive websites to all your users. You must change.",
-      "author": "Vanza Setia",
-      "date": "2026-10-20",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Developer"
       ],
       "featured": false,
       "xpReward": 46,
-      "url": "https://dev.to/vanzasetia/web-developers-should-stand-against-thoughtlessness-2dag",
-      "image": "/images/feed/feed-543b03916802.webp",
+      "url": "https://dev.to/token111/videoencoderisconfigsupported-said-yes-to-h265-but-each-browser-meant-something-different-3nmh",
+      "image": "/images/feed/feed-1603c171a8b2.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-817c0fa755a0",
+      "title": "5 Best Halloween 'Peanuts' Comics That Don't Involve the Great Pumpkin",
+      "excerpt": "It's Deliberately Not the Great Pumpkin, Charlie Brown",
+      "body": "Halloween in Charles Schulz's Peanuts frequently meant it was time for another run at the Great Pumpkin . This running gag, introduced in 1959, was sort of like Schulz's answer to Samuel Beckett's Waiting for Godot . Linus van Pelt spent every Halloween for almost 40 years waiting for the Great Pumpkin to arrive, and he never did.",
+      "author": "Thomas Hindmarch",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.polygon.com/peanuts-charlie-brown-best-halloween-strips/",
+      "image": "/images/feed/feed-817c0fa755a0.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2f184883baf3",
+      "title": "Some Google Home Speakers are downloading hundreds of gigs of data for no reason",
+      "excerpt": "You may want to check how much data your Google Home Speaker is downloading.",
+      "body": "TL;DR According to user reports, Google Home Speakers are downloading hundreds of gigabytes of data for no reason. Some users have shared screenshots showing their speakers downloading over 3TB of data in 30 days. Google has reportedly acknowledged the issue and has said that a fix is already rolling out. Smart speakers keep themselves updated by automatically downloading firmware updates in the background. However, this ability to quietly download data in the background can also become a problem, as we’re now seeing with the new Google Home Speakers . According to several users on Reddit, the new Google Home speaker has been absolutely hogging data in the background. Some users say their speakers downloaded nearly 140GB of data overnight, with no clear reason for it.",
+      "author": "Akshay Gangwar",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.androidauthority.com/google-home-speakers-downloading-data-no-reason-3725343/",
+      "image": "/images/feed/feed-2f184883baf3.jpg",
+      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -147,7 +185,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 45,
       "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
       "image": "/images/feed/feed-14817ceca31a.jpg",
       "source": "The Hacker News",
@@ -166,7 +204,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 50,
       "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
       "image": "/images/feed/feed-4d8d2d06fa1f.webp",
       "source": "TechCrunch",
@@ -185,10 +223,29 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 54,
       "url": "https://www.androidauthority.com/xiaomi-18-pro-series-global-pricing-3725353/",
       "image": "/images/feed/feed-52493b006c0c.jpg",
       "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-4982d1ec0341",
+      "title": "Save $40 Off Microsoft's Professional-Grade Xbox Elite Series 2 Core Wireless Controller",
+      "excerpt": "Worth the upgrade.",
+      "body": "Do you prefer PlayStation or Xbox controllers? I&#39;m in the latter camp. My favorite PC controllers have always been modeled after Xbox&#39;s tried and true asymmetrical layout. And when it comes to Xbox controllers, you can&#39;t get much better than the highest end model from Microsoft itself. For a limited time, Amazon is offering the professional-grade Xbox Series X Elite Series 2 Core Wireless Controller for $109.99 with free shipping. It&#39;s currently $150 everywhere else. Xbox Elite Core Wireless Controller for $109.99 The Elite Series 2 Core is the official premium controller for Xbox.",
+      "author": "Eric Song",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.ign.com/articles/xbox-elite-controller-deal-october-2026",
+      "image": "/images/feed/feed-4982d1ec0341.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -204,7 +261,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 42,
       "url": "https://www.androidauthority.com/google-explains-googlebook-find-hub-removal-3725321/",
       "image": "/images/feed/feed-9d6f9f17c543.jpg",
       "source": "Android Authority",
@@ -223,7 +280,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 40,
       "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
       "image": "/images/feed/feed-a442ef4db5ca.jpg",
       "source": "The Hacker News",
@@ -242,7 +299,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 51,
       "url": "https://www.androidauthority.com/chatgpt-slides-files-presentations-3725324/",
       "image": "/images/feed/feed-2fe92dd33a3f.jpg",
       "source": "Android Authority",
@@ -261,7 +318,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 39,
       "url": "https://www.ign.com/articles/disney-will-air-a-real-time-animated-version-of-the-2027-super-bowl-set-in-the-star-wars-universe",
       "image": "/images/feed/feed-85f05d4260f0.jpg",
       "source": "IGN",
@@ -281,7 +338,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 46,
       "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html",
       "image": "/images/feed/feed-7ecbfdc7418e.jpg",
       "source": "The Hacker News",
@@ -300,7 +357,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 50,
       "url": "https://science.nasa.gov/image-article/apod-2026-october-20-an-anticrepuscular-rainbow-fan/",
       "image": "/images/feed/feed-73bd8a397c10.jpg",
       "source": "NASA Breaking News",
@@ -319,7 +376,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 43,
       "url": "https://science.nasa.gov/earth/earth-observatory/the-human-fingerprint-on-earths-water-cycle/",
       "image": "/images/feed/feed-08685397768a.jpg",
       "source": "NASA Breaking News",
@@ -338,7 +395,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 43,
       "url": "https://cleantechnica.com/2026/10/19/top-investor-predicts-spacex-will-buy-tesla-at-420-share-in-coming-weeks/",
       "image": "/images/feed/feed-350d1effd565.jpg",
       "source": "CleanTechnica",
@@ -357,7 +414,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 30,
       "url": "https://cleantechnica.com/2026/10/19/donald-trump-aligning-with-vladimir-putin-yet-again-leaves-ukraine-and-us-relations-with-europe-under-pressure/",
       "image": "/images/feed/feed-d8951fe70357.png",
       "source": "CleanTechnica",
@@ -376,7 +433,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 35,
       "url": "https://cleantechnica.com/2026/10/19/donald-trump-approval-at-record-low-disastrous-economy-inflation-might-play-a-part/",
       "image": "/images/feed/feed-1b0791153fc9.png",
       "source": "CleanTechnica",
@@ -395,7 +452,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 30,
       "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-pop-up-the-dmz-has-never-been-this-much-fun",
       "image": "https://assets-prd.ignimgs.com/2026/10/20/r6jr0379-1792459498578.jpeg",
       "source": "IGN",
@@ -414,7 +471,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 32,
       "url": "https://science.nasa.gov/blog/curiosity-blog-sols-5036-5042-watching-the-clouds-go-by/",
       "image": "/images/feed/feed-87ba8f400a5e.jpg",
       "source": "NASA Breaking News",
@@ -433,7 +490,7 @@
         "Video Game"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 40,
       "url": "https://www.polygon.com/best-games-choices-impact/",
       "image": "/images/feed/feed-5e92e31e430d.jpg",
       "source": "Polygon",
@@ -452,7 +509,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 35,
       "url": "https://www.engadget.com/2288195/how-to-stop-audio-automatically-play-android-auto/",
       "image": "/images/feed/feed-6a6a8ce11caa.jpg",
       "source": "Engadget",
@@ -471,7 +528,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 51,
       "url": "https://9to5mac.com/2026/10/19/whatsapp-may-soon-let-iphone-users-open-any-link-in-an-in-app-browser/",
       "image": "/images/feed/feed-1fd216574177.jpg",
       "source": "9to5Mac",
@@ -490,7 +547,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 53,
       "url": "https://ipinfo.io/blog/france-fridges-hack",
       "image": "/images/feed/feed-1add435d686b.png",
       "source": "Hacker News",
@@ -528,7 +585,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 36,
       "url": "https://www.engadget.com/2288161/ugreen-nas-hdmi-port-uses/",
       "image": "/images/feed/feed-16d0fb49895b.jpg",
       "source": "Engadget",
@@ -547,7 +604,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 40,
       "url": "https://www.ign.com/articles/2026-apple-macbook-air-laptop-deal-october-2026",
       "image": "/images/feed/feed-b3428ce11c3d.jpg",
       "source": "IGN",
@@ -566,7 +623,7 @@
         "Llm"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 40,
       "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
       "image": "/images/feed/feed-69dc7167d781.jpg",
       "source": "Hacker News",
@@ -585,67 +642,10 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 30,
       "url": "https://www.polygon.com/red-dead-redemption-2-nemesis-system-mod-shadow-of-mordor/",
       "image": "/images/feed/feed-1b31600fe253.jpg",
       "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-df9925ab9ff9",
-      "title": "Clayface Stars Praise Batman: The Animated Series and Ron Perlman's 'Amazing' Performance as the DC Villain",
-      "excerpt": "Clayface stars Tom Rhys Harries and Naomi Ackie were big fans of Batman: The Animated Series growing up in the UK, recalling how they would rush home to watch it after school.",
-      "body": "Clayface stars Tom Rhys Harries and Naomi Ackie were big fans of Batman: The Animated Series growing up in the UK, recalling how they would rush home to watch it after school. “It was a ritual for a long time,” Ackie told IGN. “You finish school at 3:30, you get home, you watch Batman.” Horror filmmaker Mike Flanagan’s original screenplay for Clayface drew its inspiration directly from the Batman: The Animated Series episode “Feat of Clay” that reimagined how actor Matt Hagen became Clayface. “It was really interesting being involved with this where I got to revisit that ‘ Feat of Clay ’ episode,” Rhys Harries said, heaping praise on Clayface voice actor Ron Perlman. “Ron Perlman does such an amazing job with the voice on that and the sequences in that are so sick.",
-      "author": "Jim Vejvoda",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.ign.com/articles/clayface-cast-batman-animated-series-fandom",
-      "image": "/images/feed/feed-df9925ab9ff9.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-b01b4e27a8f0",
-      "title": "8 Classic PlayStation Adventure Games that are Barely Playable Today",
-      "excerpt": "From Tomb Raider to Silent Hill, eight classic PlayStation games whose tank controls, cameras, or lost code make them hard to play today",
-      "body": "If you’ve ever watched someone play an old PlayStation game and wondered why their character keeps spinning around in circles, congratulations, you’ve already met tank controls. If you’re unfamiliar, here’s your quick introduction: With tank controls, pressing up moves your character forward in whatever direction they’re facing, and pressing left or right only rotates them, so with the stick alone, you can’t sidestep or turn on a dime. That’s manageable in a hallway. It’s much less so when you’re sneaking past a guard, lining up a shot, or timing a leap across a pit, which is why the same scheme caused trouble in just about every genre during the PS1 era. These eight classic games are the hardest to go back to, whether the culprit is tank controls or something else entirely.",
-      "author": "Rebecca Corgan",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Playstation"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/classic-playstation-adventure-games-unplayable-today/",
-      "image": "/images/feed/feed-b01b4e27a8f0.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-bcd0effa1ce5",
-      "title": "Robot vacuums have a major privacy problem you should be aware of",
-      "excerpt": "Your robot vacuum's microphone and camera are useful for more efficient cleaning, but it's vital to know how that information is stored and shared.",
-      "body": "Your robot vacuum's microphone and camera are useful for more efficient cleaning, but it's vital to know how that information is stored and shared.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Thomas Godwin)",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.engadget.com/2288133/robot-vacuum-major-privacy-problem-you-should-know/",
-      "image": "/images/feed/feed-bcd0effa1ce5.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -661,7 +661,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 35,
       "url": "https://electrek.co/2026/10/19/flying-flipping-tesla-roadster-delivered-on-style-these-evs-deliver-on-substance/",
       "image": "/images/feed/feed-7416c78c4aa4.jpg",
       "source": "Electrek",
@@ -680,7 +680,7 @@
         "Hybrid"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 38,
       "url": "https://cleantechnica.com/2026/10/19/hybrid-sales-rise-while-battery-electric-sales-remain-lower-after-tax-credit-expiration-2/",
       "image": "/images/feed/feed-3a75eff2ad77.png",
       "source": "CleanTechnica",
@@ -699,7 +699,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/10/19/lessons-in-chemistry-microbes-heavy-metals-and-water/",
       "image": "/images/feed/feed-32150f309f35.jpg",
       "source": "CleanTechnica",
@@ -718,7 +718,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 45,
       "url": "https://cleantechnica.com/2026/10/19/ultium-cells-to-bring-lmr-prismatic-battery-cell-production-to-tennessee-for-future-gm-evs/",
       "image": "/images/feed/feed-2dcf9d964f1c.jpg",
       "source": "CleanTechnica",
@@ -737,7 +737,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 31,
       "url": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account",
       "image": "/images/feed/feed-057c24ef1c90.jpg",
       "source": "The Verge",
@@ -756,7 +756,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 46,
       "url": "https://cleantechnica.com/2026/10/19/from-mine-to-magnet-to-motor-how-gm-is-building-critical-supply-chains-for-the-long-term/",
       "image": "/images/feed/feed-59e6bcf2726a.jpg",
       "source": "CleanTechnica",
@@ -775,7 +775,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 51,
       "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
       "image": "/images/feed/feed-244c6a89b0fc.png",
       "source": "TechCrunch",
@@ -795,7 +795,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 39,
       "url": "https://www.space.com/entertainment/space-movies-shows/new-blade-runner-2099-trailer-is-a-space-fans-dream-with-sinister-starships-and-strange-exoplanets-video",
       "image": "/images/feed/feed-db11ec74e365.jpg",
       "source": "Space.com",
@@ -815,7 +815,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 38,
       "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
       "image": "/images/feed/feed-75ec39f9f00f.jpg",
       "source": "BleepingComputer",
@@ -834,7 +834,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 32,
       "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
       "image": "/images/feed/feed-8b434aa1867a.jpg",
       "source": "BleepingComputer",
@@ -853,7 +853,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 37,
       "url": "https://www.space.com/entertainment/space-toys-lego/the-x-files-lego-set-is-a-wonderful-bit-of-90s-sci-fi-nostalgia",
       "image": "/images/feed/feed-3b21c7da22c1.jpg",
       "source": "Space.com",
@@ -872,7 +872,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 46,
       "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
       "image": "/images/feed/feed-d870467c6b67.jpg",
       "source": "Wired",
@@ -891,7 +891,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 49,
       "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
       "image": "/images/feed/feed-e7a08d8bbd49.jpg",
       "source": "MIT Tech Review",
@@ -910,7 +910,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 54,
       "url": "https://openai.com/index/low-resource-programming-languages",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -929,7 +929,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 51,
       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "image": "/images/feed/feed-372db7fd0c18.jpg",
       "source": "MIT Tech Review",
@@ -937,16 +937,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: SBOM Minimum Elements in Practice: What Breaks After the First Release",
-    "DEV.TO: Free MiniMax, zero API keys: build a read-only SQL report app",
-    "DEV.TO: Building a Multi-Model AI Video Studio: Notes from Kivide",
-    "DEV.TO: Starting My Open Source Journey",
-    "DEV.TO: 500 Async Calls, One Number That Explains Why",
-    "DEV.TO: WordPress in late 2026: what's new since 7.0 and what to check before you update",
-    "DEV.TO: Web developers should stand against thoughtlessness",
-    "THE HACKER NEWS: ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-    "TECHCRUNCH: Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet",
-    "ANDROID AUTHORITY: Xiaomi 18 Pro series leak reveals painful global price"
+    "DEV.TO: The chase is becoming an AI feature. In Portugal, nobody asks yet",
+    "DEV.TO: Sloth Mode On: Automating My Daily Workflow with Open-Source AI",
+    "DEV.TO: Check your KDP paperback margins before you upload: a 40-line script",
+    "DEV.TO: Making my personal website callable for AI agents with WebMCP",
+    "DEV.TO: One-Click ROS 2 Startup in Windows Terminal with Pixi",
+    "DEV.TO: MRA e-invoicing Mauritius: five API checks before going live",
+    "DEV.TO: VideoEncoder.isConfigSupported said yes to H.265, but each browser meant something different",
+    "POLYGON: 5 Best Halloween 'Peanuts' Comics That Don't Involve the Great Pumpkin",
+    "ANDROID AUTHORITY: Some Google Home Speakers are downloading hundreds of gigs of data for no reason",
+    "THE HACKER NEWS: ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan"
   ],
   "sectionVideos": {}
 }
