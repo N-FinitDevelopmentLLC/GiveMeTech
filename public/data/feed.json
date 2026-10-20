@@ -1,42 +1,214 @@
 {
-  "fetchedAt": "2026-10-19T23:16:09.504Z",
+  "fetchedAt": "2026-10-20T00:14:01.450Z",
   "articles": [
     {
-      "id": "feed-7c58a2ce0185",
-      "title": "3.9 Billion Digital Payments, 11.68 Million Scam Victims: The Number Nobody in Philippine Fintech Wants to Say Out Loud",
-      "excerpt": "Philippines digital payments hit 64.7% of all retail transaction volume in 2025 - roughly 3.9 billion electronic transactions, per the Bangko Sentral ng Pilipinas (Source: Bangko Sentral ng Pilipinas,…",
-      "body": "Philippines digital payments hit 64.7% of all retail transaction volume in 2025 - roughly 3.9 billion electronic transactions, per the Bangko Sentral ng Pilipinas (Source: Bangko Sentral ng Pilipinas, 2026). In that same year, a survey by the Global Anti-Scam Alliance, Gogolook, and Mastercard put estimated scam losses among Filipino adults at P121.8 billion (Source: GASA/Gogolook/Mastercard, 2026). Two numbers, one payment rail, one country. That pairing is the whole story of Philippine fintech right now, and almost nobody is saying it plainly. The adoption win is real, and it is enormous The BSP's 2025 e-payments measurement recorded 6.09 billion total retail transactions, of which 3.94 billion were digital (Source: Bangko Sentral ng Pilipinas, 2026).",
-      "author": "Yano.AI Technologies Inc.",
-      "date": "2026-10-19",
+      "id": "feed-837fa388da6a",
+      "title": "Google Workspace Security Audit: 25 Settings to Check Today (With Admin Console Paths)",
+      "excerpt": "Most Google Workspace tenants at small businesses were set up in an afternoon, years ago, by whoever was handy. The defaults are reasonable, but \"reasonable\" leaves gaps: one super admin with SMS code…",
+      "body": "Most Google Workspace tenants at small businesses were set up in an afternoon, years ago, by whoever was handy. The defaults are reasonable, but \"reasonable\" leaves gaps: one super admin with SMS codes, mail forwarding open to anyone, Drive links shared with \"anyone on the internet\", and OAuth apps nobody remembers approving. This is a read-first audit. Work through the 25 settings below, write down what you find, and only then decide what to change. Every path starts from the Google Admin console (admin.google.com) and was checked against Google's current admin help pages in October 2026. Google moves menus around, so if a path doesn't match, search the setting name in the console's search bar. Before you start Use a super admin account , but not your daily one if you can avoid it.",
+      "author": "Runbook Foundry",
+      "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/yanoai/39-billion-digital-payments-1168-million-scam-victims-the-number-nobody-in-philippine-fintech-4a69",
-      "image": "/images/feed/feed-7c58a2ce0185.webp",
+      "xpReward": 49,
+      "url": "https://dev.to/runbookfoundry/google-workspace-security-audit-25-settings-to-check-today-with-admin-console-paths-i44",
+      "image": "/images/feed/feed-837fa388da6a.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-c3bddea0b260",
-      "title": "5 invite copy templates A/B tested for tiny SaaS: $5.50 lifetime ScsDriver lifted invite rate from 4% to 18%",
-      "excerpt": "For my $5.50 lifetime ScsDriver WebDAV mount tool, the invite mechanism lifted trial activation +28% (R409). The biggest variable was the invite copy. 5 templates A/B tested, 4.5x lift in invite rate.…",
-      "body": "For my $5.50 lifetime ScsDriver WebDAV mount tool, the invite mechanism lifted trial activation +28% (R409). The biggest variable was the invite copy. 5 templates A/B tested, 4.5x lift in invite rate. Why invite copy matters Trial-period referrals are a key lever for tiny SaaS. ScsDriver measured 14% baseline invite rate, but the right copy lifted it to 18% and the wrong copy dropped it to 4%. That's a 4.5x swing on the same product. The 5 templates below are survivors from A/B testing. Sorted by measured invite rate. Template 1: \"Your friend X invited you.",
-      "author": "疏影",
-      "date": "2026-10-19",
+      "id": "feed-08547c426ea3",
+      "title": "Generative Simulation Benchmarking for circular manufacturing supply chains with ethical auditability baked in",
+      "excerpt": "Generative Simulation Benchmarking for circular manufacturing supply chains with ethical auditability baked in Introduction: A Lesson from a Broken Benchmark Last year, while building an agentic AI sy…",
+      "body": "Generative Simulation Benchmarking for circular manufacturing supply chains with ethical auditability baked in Introduction: A Lesson from a Broken Benchmark Last year, while building an agentic AI system to optimize material recovery for a mid-sized electronics recycler, I hit a wall that fundamentally changed how I think about evaluation. My agents were scoring beautifully on standard circular-economy KPIs — recovery rates up 18%, landfill diversion up 22%. The client was thrilled.",
+      "author": "Rikin Patel",
+      "date": "2026-10-20",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/scsoi/5-invite-copy-templates-ab-tested-for-tiny-saas-550-lifetime-scsdriver-lifted-invite-rate-from-2mba",
-      "image": "/images/feed/feed-c3bddea0b260.webp",
+      "xpReward": 53,
+      "url": "https://dev.to/rikinptl/generative-simulation-benchmarking-for-circular-manufacturing-supply-chains-with-ethical-5a6g",
+      "image": "/images/feed/feed-08547c426ea3.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-60ad04aad27f",
+      "title": "Node.js Express Retention Governance — Daily Cleanup of Old Marketplace Records",
+      "excerpt": "Short answer: schedule the marketplace cleanup after nightly payment reconciliation, but let durable settlement evidence — not the cron expression — decide which old uploads, logs, and records may be…",
+      "body": "Short answer: schedule the marketplace cleanup after nightly payment reconciliation, but let durable settlement evidence — not the cron expression — decide which old uploads, logs, and records may be deleted. Use the simplest external scheduler that can identify a missed business date, and make every retry present the same dated run key to an idempotent worker. This order matters because age is a poor proxy for business completion. A seller document can be old while its payout is disputed. A provider-response log can look disposable while it remains the only correlation evidence for an unmatched transaction. If a second trigger arrives, it must rediscover the same decisions rather than create a second version of the night. Retention rules precede scheduling Start with a deletion contract.",
+      "author": "AbernathyCross6857",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 38,
+      "url": "https://dev.to/abernathycross6857/nodejs-express-retention-governance-daily-cleanup-of-old-marketplace-records-132f",
+      "image": "/images/feed/feed-60ad04aad27f.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-d2564826a821",
+      "title": "RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them",
+      "excerpt": "7,600 fake repositories shipped in 2026, with 800 posing as AI skills and MCP servers. Security researchers at Island documented a campaign where coding assistants surfaced malicious repos without any…",
+      "body": "7,600 fake repositories shipped in 2026, with 800 posing as AI skills and MCP servers. Security researchers at Island documented a campaign where coding assistants surfaced malicious repos without any attacker-supplied link. Ask Claude or Gemini for a \"free Walmart MCP server\" and you might get an attacker's repo as the top recommendation. RepoPilot is a serverless agent that scores any public GitHub repository before you clone it. Built on AWS Lambda and Bedrock, it returns a 0-100 risk score, flags dangerous install steps, and provides a sanitized setup path. The architecture shows how to build a developer-workflow gatekeeper that runs in under two minutes without standing infrastructure. The Supply Chain Problem AI coding assistants read README files as documentation.",
+      "author": "mech.app",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Github"
+      ],
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://dev.to/mech_app_ai/repopilot-how-an-aws-lambda-agent-scores-github-repos-before-you-clone-them-4k3k",
+      "image": "/images/feed/feed-d2564826a821.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-c3fac7f49697",
+      "title": "Toll Road Text Scam: 'Unpaid Toll' Smishing Texts That Steal Your Payment Info",
+      "excerpt": "The toll road text scam may be the most widely seen phone scam in America right now. It arrives as a text message claiming you owe a small unpaid toll — often around $12.51 — and warning of a $50 late…",
+      "body": "The toll road text scam may be the most widely seen phone scam in America right now. It arrives as a text message claiming you owe a small unpaid toll — often around $12.51 — and warning of a $50 late fee unless you pay immediately through a link. Millions of people have received some version of it, including many who have never driven on a toll road in their lives. The text looks official, the amount seems too small to question, and the link takes you to a page dressed up like your state’s toll agency. None of it is real: the page is built to harvest your credit card number, and sometimes your driver’s license number and Social Security number as well. This is not a small-time operation.",
+      "author": "WarnScams",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 37,
+      "url": "https://dev.to/warnscams/toll-road-text-scam-unpaid-toll-smishing-texts-that-steal-your-payment-info-4j9a",
+      "image": "/images/feed/feed-c3fac7f49697.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-fee3be885978",
+      "title": "72% of Anthropic's design questions are AI or ML. 62% of OpenAI's are classic.",
+      "excerpt": "Photo: Lucas Kepner on Unsplash 21 of Anthropic's 29 reported design questions are about AI systems or ML, against 19 of OpenAI's 50. The one reported the most is a batched LLM inference API over GPUs…",
+      "body": "Photo: Lucas Kepner on Unsplash 21 of Anthropic's 29 reported design questions are about AI systems or ML, against 19 of OpenAI's 50. The one reported the most is a batched LLM inference API over GPUs, last asked Oct 15, 2026. 21 of Anthropic’s 29 design questions are about AI systems or ML. At OpenAI it is 19 of 50. The one reported the most is a batched LLM inference API over GPUs, last asked Oct 15, 2026. 3 of the 5 reported the most are AI infrastructure. The round runs 55 minutes, with no AI, and you may type the design into a shared document. It grades APIs, data model, request flow, the stated load and at least one failure case. 5 of the 22 with a known round come from a design review, where you critique a design instead of drawing one.",
+      "author": "Land the Lab",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Openai",
+        "Anthropic"
+      ],
+      "featured": true,
+      "xpReward": 35,
+      "url": "https://dev.to/landthelab/72-of-anthropics-design-questions-are-ai-or-ml-62-of-openais-are-classic-hkp",
+      "image": "/images/feed/feed-fee3be885978.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-6b5135419169",
+      "title": "Why I Built a Zero-Cost GCC Labour Law & Financial Calculator Hub",
+      "excerpt": "Calculating statutory dues across the Gulf Cooperation Council (GCC) has always been surprisingly fragmented. Most expatriates and small business owners rely either on decade-old Excel templates or ou…",
+      "body": "Calculating statutory dues across the Gulf Cooperation Council (GCC) has always been surprisingly fragmented. Most expatriates and small business owners rely either on decade-old Excel templates or outdated web forms that miscalculate legal formulas. For example, under Kuwait Labour Law No. 6/2010 (Article 55), computing an employee daily wage requires dividing the basic salary by 26 working days. Yet, almost every standard online calculator divides it by 30 calendar days, creating substantial accounting discrepancies. Similarly, the transition between Oman Royal Decree 35/2003 and Royal Decree 53/2023 requires a clear split calculation for service tenures. To solve this, I engineered GulfCalc , an unmetered, privacy-first web property dedicated to GCC statutory mathematics.",
+      "author": "Sheharyar Siraj",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://dev.to/sheharyarans/why-i-built-a-zero-cost-gcc-labour-law-financial-calculator-hub-6hk",
+      "image": "/images/feed/feed-6b5135419169.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-9601439fc1b8",
+      "title": "Building Resilient AI Agent Workflows with Real Time Telemetry and Error Recovery",
+      "excerpt": "Autonomous agent workflows fail when systems treat models as infallible actors. Production operations require verifiable telemetry, state machines, and bounded error recovery. +-----------------------…",
+      "body": "Autonomous agent workflows fail when systems treat models as infallible actors. Production operations require verifiable telemetry, state machines, and bounded error recovery. +-------------------------------------------------------------+ | CONTROL PLANE | | +--------------------+ +--------------------+ | | | State Machine | &lt;---------&gt; | Telemetry Engine | | | | (Pending/Running) | | (Delta / Latency) | | | +--------------------+ +--------------------+ | | | ^ | | v | | | +--------------------+ +--------------------+ | | | Tool Guardrail | ----------&gt; | Dead Letter Queue | | | | (Schema/Perms) | (on error) | (Snapshot/Context) | | | +--------------------+ +--------------------+ | +-------------------------------------------------------------+ Failure Modes in Unsupervised Execut…",
+      "author": "Rausal Bahtiar Fadhli",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://dev.to/rausal_bahtiarfadhli_d94/building-resilient-ai-agent-workflows-with-real-time-telemetry-and-error-recovery-10p6",
+      "image": "/images/feed/feed-9601439fc1b8.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1fd216574177",
+      "title": "WhatsApp may soon let iPhone users open any link in an in-app browser",
+      "excerpt": "After introducing limited in-app browser support for certain business links last year, WhatsApp is now working on expanding the feature to all links shared in chats. Here are the details. more…",
+      "body": "After introducing limited in-app browser support for certain business links last year, WhatsApp is now working on expanding the feature to all links shared in chats. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-10-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://9to5mac.com/2026/10/19/whatsapp-may-soon-let-iphone-users-open-any-link-in-an-in-app-browser/",
+      "image": "/images/feed/feed-1fd216574177.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-a9300eed29e4",
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
+      "excerpt": "In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet another deal of the same magnitude.",
+      "body": "In August, Nscale and Anthropic announced a $45 billion compute deal. The two companies are reportedly discussing yet another deal of the same magnitude.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lucas Ropek",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "image": "/images/feed/feed-a9300eed29e4.jpg",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-16d0fb49895b",
+      "title": "What can you use the HDMI port on your Ugreen NAS for?",
+      "excerpt": "You can use it to watch media files on the device, but you'll need to use your phone as a remote.",
+      "body": "You can use it to watch media files on the device, but you'll need to use your phone as a remote.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2288161/ugreen-nas-hdmi-port-uses/",
+      "image": "/images/feed/feed-16d0fb49895b.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
@@ -51,106 +223,11 @@
       "tags": [
         "Gaming"
       ],
-      "featured": true,
-      "xpReward": 54,
+      "featured": false,
+      "xpReward": 47,
       "url": "https://www.polygon.com/red-dead-redemption-2-nemesis-system-mod-shadow-of-mordor/",
       "image": "/images/feed/feed-1b31600fe253.jpg",
       "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-14b824acc9c8",
-      "title": "Give Claude, Cursor or VS Code expert perfume knowledge with one MCP URL",
-      "excerpt": "Ask a general-purpose assistant what a perfume smells like and you usually get a confident paragraph that mixes up flankers, invents notes, or recommends something that was discontinued years ago. Fra…",
-      "body": "Ask a general-purpose assistant what a perfume smells like and you usually get a confident paragraph that mixes up flankers, invents notes, or recommends something that was discontinued years ago. Fragrance is a niche where structured, curated data makes a big difference. So we put the 10ML Fragrance Index behind a public MCP server. It is free, read-only and needs no account or API key. You add one URL and your assistant can answer perfume questions with real note pyramids, accords, families and editor-written context. https://mcp.10ml.com/mcp Transport is Streamable HTTP, authentication is none.",
-      "author": "10ML",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 41,
-      "url": "https://dev.to/10mlcom/give-claude-cursor-or-vs-code-expert-perfume-knowledge-with-one-mcp-url-13ba",
-      "image": "/images/feed/feed-14b824acc9c8.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-190a7600500d",
-      "title": "Trial feature cap 3/3 + invite extension: how my $5.50 lifetime ScsDriver hit 28% activation lift",
-      "excerpt": "For my $5.50 lifetime ScsDriver WebDAV mount tool, the trial was leaking users. They signed up, poked around for 2 days, and left. The fix was a 3/3 feature cap + invite extension. Activation lifted +…",
-      "body": "For my $5.50 lifetime ScsDriver WebDAV mount tool, the trial was leaking users. They signed up, poked around for 2 days, and left. The fix was a 3/3 feature cap + invite extension. Activation lifted +28%. The 3 contradictions of a free trial Users want to use more → cost goes up Users don't know what to use → think product is \"useless\" Users hesitate at upgrade → churn A 7-day trial makes all 3 worse. Users procrastinate, then cram on day 7, then leave without upgrading. The 3/3 cap design The trial is not \"7 days, all features\". The trial is \"3 core features, capped at 3 uses each\". For ScsDriver, the 3 features are: Mount (connect to a WebDAV server) Sync (mirror local folder to remote) Automation (rules-based file moves) Each feature can be used 3 times during the trial.",
-      "author": "疏影",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 31,
-      "url": "https://dev.to/scsoi/trial-feature-cap-33-invite-extension-how-my-550-lifetime-scsdriver-hit-28-activation-lift-2087",
-      "image": "/images/feed/feed-190a7600500d.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-0ce56e515bef",
-      "title": "We’ve Used TDK CLI (Including Private Source) for 2 Years: Here’s Why You Need to Know",
-      "excerpt": "Two years ago our team was drowning in local setup. Every new service meant another Dockerfile, another entry in a sprawling Compose file, another set of Traefik rules, another paragraph in the onboar…",
-      "body": "Two years ago our team was drowning in local setup. Every new service meant another Dockerfile, another entry in a sprawling Compose file, another set of Traefik rules, another paragraph in the onboarding wiki, and another “it works on my machine” ticket. We adopted TDK CLI early—core MIT parts plus the private/premium source for the extra generators and registry features—and never went back. TDK is simple in concept: one service.json per service becomes a full local Docker + Tilt stack. You run tdk up . Production stays on Helm. Local development does not require Kubernetes.",
-      "author": "tdk-cli",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/tdk-cli/weve-used-tdk-cli-including-private-source-for-2-years-heres-why-you-need-to-know-79l",
-      "image": "/images/feed/feed-0ce56e515bef.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-a3585ce4ff6a",
-      "title": "Why a Confluence table breaks when pasted into Excel",
-      "excerpt": "Short answer. The \"random\" merged cells come from cells that hold more than one line. Excel turns every line into its own row and then merges the neighbouring cells to keep the table aligned. The othe…",
-      "body": "Short answer. The \"random\" merged cells come from cells that hold more than one line. Excel turns every line into its own row and then merges the neighbouring cells to keep the table aligned. The other damage comes from Excel guessing types: 007 becomes 7, a 19-digit ID loses everything after the 15th digit, and 1-2 becomes a date. Unmerge and flatten the multi-line cells before copying, or export the table to a file that tells Excel what each cell is. The question has been sitting on the Atlassian Community for years under titles like \"unable to get very large Confluence tables out into Excel, cells will randomly merge\" . Here is what is going on.",
-      "author": "Mikhail Klimenko",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://dev.to/mikhailklimenko/why-a-confluence-table-breaks-when-pasted-into-excel-1ij1",
-      "image": "/images/feed/feed-a3585ce4ff6a.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-bcd2c87ce734",
-      "title": "Bookmark It! TDK CLI: A Critical Developer Review Covering 40 Points",
-      "excerpt": "TDK CLI (from the tdk-landscape organization) is a relatively new, MIT-licensed command-line tool that converts simple service.json manifests into a local Docker + Tilt stack. The pitch is straightfor…",
-      "body": "TDK CLI (from the tdk-landscape organization) is a relatively new, MIT-licensed command-line tool that converts simple service.json manifests into a local Docker + Tilt stack. The pitch is straightforward: describe services once, run tdk up , and get generated Dockerfiles (with “golden” L1–L4 layering), Traefik routing, Tilt live-update config, health checks, shared infrastructure wiring (Postgres, NATS, etc.), and hot reload—without maintaining Compose files or running local Kubernetes. Production remains on Helm, Argo CD, or Kustomize. Core functionality is free; premium features (Verdaccio, certain scaffolding, Sablier idle stop, some generators) require a license key at roughly $19/dev/month.",
-      "author": "tdk-cli",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Developer"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://dev.to/tdk-cli/bookmark-it-tdk-cli-a-critical-developer-review-covering-40-points-52bi",
-      "image": "/images/feed/feed-bcd2c87ce734.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -166,7 +243,7 @@
         "Playstation"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 53,
       "url": "https://www.polygon.com/classic-playstation-adventure-games-unplayable-today/",
       "image": "/images/feed/feed-b01b4e27a8f0.jpg",
       "source": "Polygon",
@@ -185,7 +262,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 37,
       "url": "https://kotaku.com/a-star-wars-battlefront-3-made-by-bungie-would-probably-be-great-but-also-a-waste-2000747640",
       "image": "/images/feed/feed-64aee3eee44a.jpg",
       "source": "Kotaku",
@@ -204,7 +281,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 37,
       "url": "https://www.engadget.com/2288133/robot-vacuum-major-privacy-problem-you-should-know/",
       "image": "/images/feed/feed-bcd0effa1ce5.jpg",
       "source": "Engadget",
@@ -223,7 +300,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 47,
       "url": "https://electrek.co/2026/10/19/flying-flipping-tesla-roadster-delivered-on-style-these-evs-deliver-on-substance/",
       "image": "/images/feed/feed-7416c78c4aa4.jpg",
       "source": "Electrek",
@@ -242,7 +319,7 @@
         "Hybrid"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 42,
       "url": "https://cleantechnica.com/2026/10/19/hybrid-sales-rise-while-battery-electric-sales-remain-lower-after-tax-credit-expiration-2/",
       "image": "/images/feed/feed-3a75eff2ad77.png",
       "source": "CleanTechnica",
@@ -261,7 +338,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 40,
       "url": "https://cleantechnica.com/2026/10/19/lessons-in-chemistry-microbes-heavy-metals-and-water/",
       "image": "/images/feed/feed-32150f309f35.jpg",
       "source": "CleanTechnica",
@@ -280,7 +357,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 33,
       "url": "https://www.engadget.com/2291188/meta-tweaks-its-new-terms-of-service-after-backlash-against-scraping/",
       "image": "/images/feed/feed-df5ec229f944.jpg",
       "source": "Engadget",
@@ -299,7 +376,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 44,
       "url": "https://cleantechnica.com/2026/10/19/ultium-cells-to-bring-lmr-prismatic-battery-cell-production-to-tennessee-for-future-gm-evs/",
       "image": "/images/feed/feed-2dcf9d964f1c.jpg",
       "source": "CleanTechnica",
@@ -318,7 +395,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 51,
       "url": "https://www.theverge.com/tech/1014115/elon-musk-spacex-trump-account",
       "image": "/images/feed/feed-057c24ef1c90.jpg",
       "source": "The Verge",
@@ -337,7 +414,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 52,
       "url": "https://kotaku.com/card-collector-who-spent-over-two-years-building-100000-collection-gets-terrible-news-from-psa-2000747625",
       "image": "/images/feed/feed-3f26e1d24efa.jpg",
       "source": "Kotaku",
@@ -356,10 +433,30 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 30,
       "url": "https://www.engadget.com/2288083/wifi-7-router-delivering-lower-speeds-reasons/",
       "image": "/images/feed/feed-acfe25353bbb.jpg",
       "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-bf8aba0ff155",
+      "title": "Zach Cregger’s Resident Evil Movie Gets Viral Fan-Made PS1 Style Video Game",
+      "excerpt": "You will soon be able to play as Austin Abrams in this fanmade, retro-style video game adapting Zach Cregger’s take on the Resident Evil universe, complete with fixed camera angles and all.",
+      "body": "You will soon be able to play as Austin Abrams in this fan-made, retro-style video game adapting Zach Cregger’s take on the Resident Evil universe, complete with fixed camera angles and all. An indie game developer who goes by the name “chicanogoth” on Instagram is going viral after sharing their progress for their video game adaptation… of a movie adaptation… of a game. It’s a Matryoshka doll-style line of thinking that the developer referenced in their viral video, jokingly calling it Resident Evil: The Movie: The Game. Warning: Light spoilers for Zach Cregger’s Resident Evil movie to follow. Their footage shows the player character, Bryan Hodukavich, running from an infected Doberman Pinscher in a fairly close recreation of a scene from the film.",
+      "author": "Virginia Glaze",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Video Game",
+        "Game"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.ign.com/articles/zach-creggers-resident-evil-movie-gets-viral-fan-made-ps1-style-video-game",
+      "image": "/images/feed/feed-bf8aba0ff155.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -375,7 +472,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 39,
       "url": "https://www.polygon.com/mw4-modern-warfare-4-call-duty-campaign-review/",
       "image": "/images/feed/feed-535408333872.jpg",
       "source": "Polygon",
@@ -394,7 +491,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 35,
       "url": "https://9to5mac.com/2026/10/19/new-app-store-chief-discusses-apples-gaming-strategy-future-of-apple-arcade-more/",
       "image": "/images/feed/feed-74848d5dfec1.jpg",
       "source": "9to5Mac",
@@ -432,7 +529,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 42,
       "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
       "image": "/images/feed/feed-244c6a89b0fc.png",
       "source": "TechCrunch",
@@ -451,29 +548,10 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 51,
       "url": "https://kotaku.com/one-of-japans-premier-visual-novel-writers-enters-palliative-care-for-throat-cancer-2000747620",
       "image": "/images/feed/feed-c68d16dac3b8.jpg",
       "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-e3bf67e381ae",
-      "title": "Stupid Never Dies Is Easily the Worst Game of 2026",
-      "excerpt": "Stupid Never Dies stumbles through its 30-hour runtime thanks to sluggish action and a rotten story.",
-      "body": "Dated doesn’t begin to describe the debut action RPG from GPTRACK50, a new studio founded by former Capcom producer Hiroyuki Kobayashi. Style points only count for so much in a downright regressive action game that’s saddled with a supremely uncomfortable story, a repetitive faux-roguelike hook, and unresponsive combat that wastes some good RPG depth. It’s the kind of game I might have loved as a kid with a low bar for quality, and one that I’d have to make a lot of excuses for loving as an adult who knows better.",
-      "author": "Giovanni Colantonio",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.polygon.com/stupid-never-dies-review/",
-      "image": "/images/feed/feed-e3bf67e381ae.png",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -490,7 +568,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 47,
       "url": "https://www.space.com/entertainment/space-movies-shows/new-blade-runner-2099-trailer-is-a-space-fans-dream-with-sinister-starships-and-strange-exoplanets-video",
       "image": "/images/feed/feed-db11ec74e365.jpg",
       "source": "Space.com",
@@ -509,7 +587,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 33,
       "url": "https://www.engadget.com/2288038/mlo-router-meaning-should-you-enable/",
       "image": "/images/feed/feed-9c108f6a61b0.jpg",
       "source": "Engadget",
@@ -529,7 +607,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 51,
       "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
       "image": "/images/feed/feed-75ec39f9f00f.jpg",
       "source": "BleepingComputer",
@@ -548,49 +626,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 51,
       "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
       "image": "/images/feed/feed-8b434aa1867a.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-05498e699769",
-      "title": "Google is giving you more creative control over Gemini Notebook’s video overviews and slides",
-      "excerpt": "Google will soon roll out \"co-creation\" capabilities for two of Gemini Notebook's most popular features.",
-      "body": "Credit: Karandeep Singh / Android Authority TL;DR Gemini Notebook is giving users more creative control over Slide Decks and Video Overviews through a feature called “Co-creation.” The platform will now walk the user through the creation flow, allowing them to steer the format and visual style before the final output. Co-creation capabilities will roll out to all users over the upcoming week. Gemini Notebook is a helpful tool for digesting large amounts of information. One way this is done is by breaking down your material into structured formats such as Audio Overviews and Study Aids, like flashcards. After a new update, you’ll soon have more creative control over the output from two of these formats.",
-      "author": "Ryan McNeal",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.androidauthority.com/gemini-notebook-co-creation-video-and-slides-3725277/",
-      "image": "/images/feed/feed-05498e699769.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-537384f0663d",
-      "title": "Following $5.7B verdict, Taction wants a cut of iPhone and Apple Watch sales through 2035",
-      "excerpt": "Following a historic $5.7 billion patent infringement verdict against Apple, Taction Technology is now seeking additional damages, interest, and ongoing royalties on future iPhone and Apple Watch sale…",
-      "body": "Following a historic $5.7 billion patent infringement verdict against Apple, Taction Technology is now seeking additional damages, interest, and ongoing royalties on future iPhone and Apple Watch sale — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone, Apple Watch. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone",
-        "Apple Watch"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://9to5mac.com/2026/10/19/following-5-7b-verdict-taction-wants-a-cut-of-iphone-and-apple-watch-sales-through-2035/",
-      "image": "/images/feed/feed-537384f0663d.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -606,7 +645,7 @@
         "Electric Motor"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 37,
       "url": "https://electrek.co/2026/10/19/this-new-electric-motorcycle-with-a-giant-hole-in-it-wants-to-change-how-you-ride/",
       "image": "/images/feed/feed-d527eeaee72c.jpg",
       "source": "Electrek",
@@ -625,7 +664,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 51,
       "url": "https://electrek.co/2026/10/19/vw-opens-orders-lower-priced-id-cross-starting-31000/",
       "image": "/images/feed/feed-073728866754.jpg",
       "source": "Electrek",
@@ -644,7 +683,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 53,
       "url": "https://www.space.com/entertainment/space-toys-lego/the-x-files-lego-set-is-a-wonderful-bit-of-90s-sci-fi-nostalgia",
       "image": "/images/feed/feed-3b21c7da22c1.jpg",
       "source": "Space.com",
@@ -663,7 +702,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 50,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/japan-launches-historic-mmx-sample-return-mission-to-mars-moon-phobos",
       "image": "/images/feed/feed-c9f8a74562e1.jpg",
       "source": "Space.com",
@@ -682,7 +721,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 32,
       "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/",
       "image": "/images/feed/feed-d870467c6b67.jpg",
       "source": "Wired",
@@ -702,7 +741,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 39,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
       "image": "/images/feed/feed-bd6e182ba5e2.jpg",
       "source": "BleepingComputer",
@@ -722,10 +761,29 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 41,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-19-2026",
       "image": "/images/feed/feed-f51aedc6a679.jpg",
       "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-26bf73eb81c1",
+      "title": "NASA Improves Shock, Vibration Analysis",
+      "excerpt": "Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA eng…",
+      "body": "Stirling Allen, part of the Dynamic Environments Group with NASA’s Launch Services Program Office, showcases a commercial digital software at NASA’s Kennedy Space Center in Florida. The software performs finite element modeling to support shock and vibration analysis and ensure spacecraft and rockets can withstand harsh vibration, shock, stress, or other physical forces before launch, strengthening mission safety in the process. NASA/Clayton Rougelot Rockets vibrate, shake, and flex intensely as they climb into space, and spacecraft packed with delicate scientific instruments must survive those forces. Before any rocket leaves the ground, NASA engineers work to predict how those stresses will affect every part of a spacecraft.",
+      "author": "Elyna Niles-Carnes",
+      "date": "2026-10-19",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.nasa.gov/centers-and-facilities/kennedy/nasa-improves-shock-vibration-analysis/",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/ksc-20260924-ph-rcr01-0036.jpg",
+      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -741,7 +799,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 35,
       "url": "https://www.space.com/astronomy/moon/the-moon-is-shrinking-10-000-cracks-on-the-lunar-surface-reveal-by-how-much",
       "image": "/images/feed/feed-1ddc2638f5bd.png",
       "source": "Space.com",
@@ -760,29 +818,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 45,
       "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
       "image": "/images/feed/feed-0474b88715d0.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-b3977cc93147",
-      "title": "Japan Launches Mission to Mars’s Moons and Plans to Bring Samples Home",
-      "excerpt": "NASA contributed to this first-of-its-kind mission that may help us understand how our solar system formed.",
-      "body": "NASA contributed to this first-of-its-kind mission that may help us understand how our solar system formed.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Space. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Julian Dossett",
-      "date": "2026-10-19",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.cnet.com/science/japanese-mars-mission-mmx-launch/",
-      "image": "/images/feed/feed-b3977cc93147.jpg",
-      "source": "CNET",
       "isLive": true
     },
     {
@@ -798,7 +837,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 43,
       "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
       "image": "/images/feed/feed-e7a08d8bbd49.jpg",
       "source": "MIT Tech Review",
@@ -818,7 +857,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 54,
       "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
       "image": "/images/feed/feed-84ab166d5f42.jpg",
       "source": "The Hacker News",
@@ -837,7 +876,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 48,
       "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
       "image": "/images/feed/feed-0b3f51a82682.jpg",
       "source": "BleepingComputer",
@@ -856,7 +895,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 35,
       "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
       "image": "/images/feed/feed-5cc092528190.jpg",
       "source": "The Hacker News",
@@ -864,7 +903,7 @@
     },
     {
       "id": "feed-8dad8d5fd5f8",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "title": "Advancing coding in low‑resource programming languages",
       "excerpt": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "body": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "OpenAI Blog",
@@ -875,7 +914,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 44,
       "url": "https://openai.com/index/low-resource-programming-languages",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -894,62 +933,24 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 51,
       "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
       "image": "/images/feed/feed-372db7fd0c18.jpg",
       "source": "MIT Tech Review",
       "isLive": true
-    },
-    {
-      "id": "feed-8768eef8cad2",
-      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
-      "excerpt": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
-      "body": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Anthony Ha",
-      "date": "2026-10-18",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
-      "image": "/images/feed/feed-8768eef8cad2.webp",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-3813289f4d22",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "excerpt": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "body": "OpenAI said internal models hacked two more websites, bypassed company-imposed browsing restrictions, and used exposed credentials to draw cryptocurrency from a wallet it couldn’t otherwise access, in the latest installment of disclosures of the unethical and likely illegal acts its agents are performing. The company on Thursday issued reports of four new incidents, all of which occurred in June. They come after the company revealed in July that internal test agents exploited a zero-day vulnerability in a tool designed to restrict their access to the Internet. They then broke into the network of AI tool provider Hugging Face. The agents took that illegal action to steal answers to a hacking test that weren’t available when completing the tasks on their own.",
-      "author": "\n                    Dan Goodin\n                ",
-      "date": "2026-10-16",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "image": "/images/feed/feed-3813289f4d22.jpg",
-      "source": "Ars Technica",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: 3.9 Billion Digital Payments, 11.68 Million Scam Victims: The Number Nobody in Philippine Fintech Wants to Say Out Loud",
-    "DEV.TO: 5 invite copy templates A/B tested for tiny SaaS: $5.50 lifetime ScsDriver lifted invite rate from 4% to 18%",
-    "POLYGON: 'Red Dead Redemption' 2 Mod Is 'Shadow of Mordor' Meets the Wild West",
-    "DEV.TO: Give Claude, Cursor or VS Code expert perfume knowledge with one MCP URL",
-    "DEV.TO: Trial feature cap 3/3 + invite extension: how my $5.50 lifetime ScsDriver hit 28% activation lift",
-    "DEV.TO: We’ve Used TDK CLI (Including Private Source) for 2 Years: Here’s Why You Need to Know",
-    "DEV.TO: Why a Confluence table breaks when pasted into Excel",
-    "DEV.TO: Bookmark It! TDK CLI: A Critical Developer Review Covering 40 Points",
-    "POLYGON: 8 Classic PlayStation Adventure Games that are Barely Playable Today",
-    "KOTAKU: A Star Wars Battlefront 3 Made By Bungie Would Probably Be Great But Also A Waste"
+    "DEV.TO: Google Workspace Security Audit: 25 Settings to Check Today (With Admin Console Paths)",
+    "DEV.TO: Generative Simulation Benchmarking for circular manufacturing supply chains with ethical auditability baked in",
+    "DEV.TO: Node.js Express Retention Governance — Daily Cleanup of Old Marketplace Records",
+    "DEV.TO: RepoPilot: How an AWS Lambda Agent Scores GitHub Repos Before You Clone Them",
+    "DEV.TO: Toll Road Text Scam: 'Unpaid Toll' Smishing Texts That Steal Your Payment Info",
+    "DEV.TO: 72% of Anthropic's design questions are AI or ML. 62% of OpenAI's are classic.",
+    "DEV.TO: Why I Built a Zero-Cost GCC Labour Law & Financial Calculator Hub",
+    "DEV.TO: Building Resilient AI Agent Workflows with Real Time Telemetry and Error Recovery",
+    "9TO5MAC: WhatsApp may soon let iPhone users open any link in an in-app browser",
+    "TECHCRUNCH: Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal"
   ],
   "sectionVideos": {}
 }
