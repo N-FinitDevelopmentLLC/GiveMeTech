@@ -1,31 +1,69 @@
 {
-  "fetchedAt": "2026-10-22T06:46:52.653Z",
+  "fetchedAt": "2026-10-22T12:36:48.473Z",
   "articles": [
     {
-      "id": "feed-742f02c46d05",
-      "title": "TiddlyWiki Cognee: a design proposal for searchable project notes",
-      "excerpt": "Project status — October 22, 2026: This is a design proposal for Cognee issue #6222. Maintainer assignment is pending. The connector has not been implemented or tested, and there is no PR yet. This ar…",
-      "body": "Project status — October 22, 2026: This is a design proposal for Cognee issue #6222 . Maintainer assignment is pending. The connector has not been implemented or tested, and there is no PR yet. This article explains the proposed scope and validation plan. Project wikis hold more than documentation. They capture why a team chose an approach, which service owns a responsibility, and what happened during an incident. A useful memory integration should preserve those notes and their source links, while also forgetting content that the author deletes. For Mergetober, the proposed contribution is a read-only connector between TiddlyWiki and Cognee.",
-      "author": "SAIF MODAN",
+      "id": "feed-10984ab3fbcf",
+      "title": "Turn Spec Drift into a Pull Request Check with SpecGov",
+      "excerpt": "TL;DR Spec-driven development is useful only while the code and its governing artifacts stay aligned. SpecGov is a local, MIT-licensed CLI and GitHub Action that maps implementation paths to requireme…",
+      "body": "TL;DR Spec-driven development is useful only while the code and its governing artifacts stay aligned. SpecGov is a local, MIT-licensed CLI and GitHub Action that maps implementation paths to requirements, ADRs, docs, or specs, then reports when a code change bypasses them. This tutorial uses the stable v0.1.0 release to build a small manifest, run a local scan, simulate a pull request check, and add the same check to GitHub Actions. The workflow is advisory first, so a team can learn where its mappings are incomplete before making them blocking. What you will build By the end, a repository will have a .specgov.yml manifest that says which artifacts govern src/auth/** .",
+      "author": "Fernando Paladini",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Pull Request"
+      ],
+      "featured": true,
+      "xpReward": 36,
+      "url": "https://dev.to/paladini/turn-spec-drift-into-a-pull-request-check-with-specgov-1eo7",
+      "image": "/images/feed/feed-10984ab3fbcf.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-87a0ac8f65e0",
+      "title": "The Host Networking Stack Is Part of the Guest Isolation Boundary",
+      "excerpt": "On a KVM host that attaches guests through virtio-net, the host networking stack is part of the guest isolation boundary, whether or not the isolation design drew it that way. CVE-2026-99999, publishe…",
+      "body": "On a KVM host that attaches guests through virtio-net, the host networking stack is part of the guest isolation boundary, whether or not the isolation design drew it that way. CVE-2026-99999, published on October 15 and fixed upstream in commit 6785011f8b16, is the clearest recent demonstration. A checksum hint supplied by the guest reaches IPv4 code on the host, and that code acts on it after the packet has already been parsed and trusted. The researchers at pwn.ai, who named the flaw PwnEscape, demonstrated host-memory disclosure against Vercel production sandboxes. They also demonstrated host crashes, and they report a host-command-execution chain, on their own KVM and Firecracker machines. The detailed write chain remains unpublished.",
+      "author": "NTCTech",
       "date": "2026-10-22",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
+      ],
+      "featured": true,
+      "xpReward": 34,
+      "url": "https://dev.to/ntctech/the-host-networking-stack-is-part-of-the-guest-isolation-boundary-4a18",
+      "image": "/images/feed/feed-87a0ac8f65e0.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-b3fadd1bc869",
+      "title": "Two Of Japan’s Oldest Mobile Games Have Been Forced Permanently Offline Because Of The New Exploit Ravaging The Web",
+      "excerpt": "The fallout from the security vulnerability is putting much of the internet's history at risk of being erased",
+      "body": "The fallout from the security vulnerability is putting much of the internet's history at risk of being erased\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Alicia Haddick",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
       ],
       "featured": true,
       "xpReward": 39,
-      "url": "https://dev.to/saif_modan/tiddlywiki-x-cognee-a-design-proposal-for-searchable-project-notes-4cdo",
-      "image": "/images/feed/feed-742f02c46d05.webp",
-      "source": "Dev.to",
+      "url": "https://kotaku.com/two-of-japans-oldest-mobile-games-have-been-forced-permanently-offline-because-of-the-new-exploit-ravaging-the-web-2000748511",
+      "image": "/images/feed/feed-b3fadd1bc869.jpg",
+      "source": "Kotaku",
       "isLive": true
     },
     {
-      "id": "feed-9c7d00855ba1",
-      "title": "PNG to JPEG saved 15-63% on a full-page screenshot, depending on the page. Cropping beat both.",
-      "excerpt": "The standard advice for headless-browser screenshots is \"default to JPEG, not PNG — it's 5-10x smaller.\" We wrote that rule into our own build notes while costing out a screenshot Actor, on the streng…",
-      "body": "The standard advice for headless-browser screenshots is \"default to JPEG, not PNG — it's 5-10x smaller.\" We wrote that rule into our own build notes while costing out a screenshot Actor, on the strength of two measurements. Then we measured it properly on a text-heavy page and it mostly evaporated — 15%, not 5-10x. So we measured it again on a photo-heavy page, to find out whether 15% was the real number or just a bad page to test on.",
-      "author": "FetchSmith",
+      "id": "feed-5d4ead72c42b",
+      "title": "I Went From AI Prompt to 3D-Printed Armor in 18 Hours",
+      "excerpt": "What started off as a dare became a fully fledged app in less than a day",
+      "body": "What started off as a dare became a fully fledged app in less than a day\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Software. As the situation continues to evolve, professionals and enthusiasts in the software development and engineering field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "James Bricknell",
       "date": "2026-10-22",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/fetchsmith/png-to-jpeg-saved-15-63-on-a-full-page-screenshot-depending-on-the-page-cropping-beat-both-51mk",
-      "image": "/images/feed/feed-9c7d00855ba1.webp",
-      "source": "Dev.to",
+      "xpReward": 32,
+      "url": "https://www.cnet.com/tech/computing/i-went-from-ai-prompt-to-3d-printed-armor-in-18-hours/",
+      "image": "/images/feed/feed-5d4ead72c42b.png",
+      "source": "CNET",
       "isLive": true
     },
     {
-      "id": "feed-65001bc55d4e",
-      "title": "Scraping E-commerce Product Data: Variants, Prices and Stock Without Losing Accuracy",
-      "excerpt": "E-commerce data scraping is the collection of public product information from online stores (titles, identifiers, variants, prices, availability and pack sizes) into structured records you can compare…",
-      "body": "E-commerce data scraping is the collection of public product information from online stores (titles, identifiers, variants, prices, availability and pack sizes) into structured records you can compare across sites and over time. Fetching the pages is rarely the hard part. Accuracy is lost in the modelling: a price attached to the wrong variant, a sale price read as the list price, or \"Only 2 left\" stored as free text. These are the five fields that break most often: Variant price: the page shows one price, but each size or colour has its own. Sale versus list price: two numbers on the page, and the parser picks the wrong one. Currency and number format: 1.299,00 and 1,299.00 are the same amount. Stock status: a dozen phrasings for four or five real states.",
-      "author": "PromptCloud",
+      "id": "feed-b08044b0a5ea",
+      "title": "PHP's two critical RCE fixes: the bug wasn't new, the decision was stuck",
+      "excerpt": "On October 21, 2026 the PHP project shipped emergency releases for two critical remote-code-execution bugs in the language runtime itself. The headline most outlets chose is \"AI found it\". The more us…",
+      "body": "On October 21, 2026 the PHP project shipped emergency releases for two critical remote-code-execution bugs in the language runtime itself. The headline most outlets chose is \"AI found it\". The more useful part is what the PHP Foundation says about why it took so long to fix. What happened (facts) Releases. PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, per the php.net advisory . PHP says there are no complete mitigations: updating is the only safe choice. The bugs. CVE-2026-109618 (out-of-memory corruption) and CVE-2026-109619 (stale global state after a fatal error). Both are rated CVSS v4.0 9.2 and can allow unauthenticated remote code execution, according to CERT-EU . Who is affected. Per AWS's bulletin , 8.5.0-8.5.11, 8.4.0-8.4.26, 8.3.0-8.3.35 and 8.2.0-8.2.34.",
+      "author": "Clydara",
       "date": "2026-10-22",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +90,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 31,
-      "url": "https://dev.to/promptcloud_services/scraping-e-commerce-product-data-variants-prices-and-stock-without-losing-accuracy-1ge4",
-      "image": "/images/feed/feed-65001bc55d4e.webp",
+      "xpReward": 42,
+      "url": "https://dev.to/clydaralab/phps-two-critical-rce-fixes-the-bug-wasnt-new-the-decision-was-stuck-nf9",
+      "image": "/images/feed/feed-b08044b0a5ea.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-b4caa7cc9b29",
-      "title": "Why Green Tests Are Not Enough for AI Coding Agents#",
-      "excerpt": "Over the last few months, I’ve been spending more time working with AI coding agents. They are fast, useful, and in many cases they can fix small bugs or implement focused changes much faster than doi…",
-      "body": "Over the last few months, I’ve been spending more time working with AI coding agents. They are fast, useful, and in many cases they can fix small bugs or implement focused changes much faster than doing everything manually. But while using them, I kept coming back to the same problem: how do I know that the evidence around the fix is actually meaningful? It is easy to ask an agent to change some code, run a test, and return a green result. The problem is that a green test only tells me that the final version passed. It does not necessarily tell me whether the test was capable of detecting the original bug. That difference sounds small, but it matters a lot. Imagine an AI agent fixes a bug and adds a regression test. The final test run passes, so the change looks good.",
-      "author": "Rabah Laouadi ",
+      "id": "feed-bdca9a163dc6",
+      "title": "EU Allocates €22 Million for Five 6G Projects Focused on AI, Devices and Testbeds",
+      "excerpt": "The European Smart Networks and Services Joint Undertaking (SNS JU) has set out a €22 million EU funding call for five 6G research projects in 2026. The work will focus on 6G devices, AI integration a…",
+      "body": "The European Smart Networks and Services Joint Undertaking (SNS JU) has set out a €22 million EU funding call for five 6G research projects in 2026 . The work will focus on 6G devices, AI integration and advanced testbeds, while supporting Europe’s position in global standards and international partnerships. For businesses, the announcement is an early indicator of the technologies and ecosystems Europe is seeking to develop for future mobile connectivity. The funding sits within the SNS JU’s 2026-2027 Research and Innovation Work Programme. Its January 2026 Newsflash states that five projects will be funded through the dedicated 2026 Call 6. It is a concrete addition to Europe’s 6G research agenda, rather than a commercial 6G service launch. That distinction matters.",
+      "author": "Ali Farhat",
       "date": "2026-10-22",
       "readTime": "2 min",
       "section": "software",
@@ -71,56 +109,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/rabeh_arch/why-green-tests-are-not-enough-for-ai-coding-agents-app",
-      "image": "/images/feed/feed-b4caa7cc9b29.webp",
+      "xpReward": 51,
+      "url": "https://dev.to/alifar/eu-allocates-eu22-million-for-five-6g-projects-focused-on-ai-devices-and-testbeds-12g5",
+      "image": "/images/feed/feed-bdca9a163dc6.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-3cad02c38d3d",
-      "title": "# Your AI Agent Failed in Production. Can You Replay the Exact Run?",
-      "excerpt": "Why agent debugging needs more than prompt logs and successful final outputs. Let's say you've built an AI agent that handles customer support requests. It retrieves customer records, checks policies,…",
-      "body": "Why agent debugging needs more than prompt logs and successful final outputs. Let's say you've built an AI agent that handles customer support requests. It retrieves customer records, checks policies, calls external APIs, and recommends the next action. Everything works during testing. Then one day, the agent produces an incorrect recommendation. You open your logs. All you see is: Agent started Tool executed Agent completed Not particularly helpful. The real question is: Can you reconstruct the entire execution and identify exactly where things went wrong? Why debugging AI agents is different A conventional workflow generally follows a predefined path. An agent may choose its next action dynamically.",
-      "author": "Karthik Gokul",
+      "id": "feed-6721439927db",
+      "title": "JavaScript for SaaS Development: Build Scalable Multi-Tenant Applications",
+      "excerpt": "Software as a Service (SaaS) has become one of the most practical ways to deliver software, generate recurring revenue, and scale products without distributing installations to individual customers. F…",
+      "body": "Software as a Service (SaaS) has become one of the most practical ways to deliver software, generate recurring revenue, and scale products without distributing installations to individual customers. From project management platforms to CRM systems, modern SaaS applications rely on reliable APIs, secure authentication, subscription management, and efficient data handling. JavaScript is an excellent choice for building SaaS products because developers can use the same language across the frontend, backend, and automation layers. With Node.js, Express, and a database such as PostgreSQL or MongoDB, teams can build complete applications while keeping their development workflow consistent. However, building a SaaS product involves more than creating CRUD endpoints.",
+      "author": "Ansh Sheladiya",
       "date": "2026-10-22",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Software"
+        "Javascript"
       ],
-      "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/karthik_gokul_3a38136130f/-your-ai-agent-failed-in-production-can-you-replay-the-exact-run-371",
-      "image": "/images/feed/feed-3cad02c38d3d.webp",
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://dev.to/ansh_sheladiya/javascript-for-saas-development-build-scalable-multi-tenant-applications-ni1",
+      "image": "/images/feed/feed-6721439927db.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-e1e1446872c7",
-      "title": "How to Know When Your Vibe-Coded App Breaks Before Your Users Do: A 7-Step Beginner Guide to Error Alerts",
-      "excerpt": "Your app is live. You tested signup, you tested the main feature, everything worked. Then a week later someone replies to your launch post: \"Is your site broken? I can't log in.\" Too often, that is ho…",
-      "body": "Your app is live. You tested signup, you tested the main feature, everything worked. Then a week later someone replies to your launch post: \"Is your site broken? I can't log in.\" Too often, that is how founders find out their app is broken: from a user, days late, after other people quietly gave up and left. AI tools like Lovable, Bolt, v0, Cursor and Claude Code are great at building the happy path. They usually do not set up the part that tells you when something fails in production. This guide fixes that in an afternoon. By the end you will have three things: an error tracker that catches crashes and silent failures, an outside uptime check that notices when the app or database is down, and alerts that actually reach you. All of it starts on free plans.",
-      "author": "Vishal Chauhan",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/siteory/how-to-know-when-your-vibe-coded-app-breaks-before-your-users-do-a-7-step-beginner-guide-to-error-48mc",
-      "image": "/images/feed/feed-e1e1446872c7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-5fdafb37e191",
-      "title": "PHP2Shell in OT Sites: Why the Vulnerability Will Linger for Years",
-      "excerpt": "TL;DR: PHP2Shell has been the target of widespread attack attempts since its disclosure on October 21, 2026, with first attempts seen as early as October 17 according to Amazon. A login does not prote…",
-      "body": "TL;DR: PHP2Shell has been the target of widespread attack attempts since its disclosure on October 21, 2026, with first attempts seen as early as October 17 according to Amazon. A login does not protect you, and there are no official updates for PHP 8.1 and older. In industrial sites, PHP sits in the web interfaces of controllers, industrial routers and firewalls, as well as EV chargers and energy equipment whose firmware is rarely updated. Operators should cut these web interfaces off from the internet now. Vulnerable PHP web interfaces will in all likelihood still be found in industrial sites well beyond 2030. This is an English adaptation of my German original . On October 21, 2026, the PHP team closed two critical vulnerabilities known as PHP2Shell.",
-      "author": "Max Bayern",
+      "id": "feed-e449ac8972c0",
+      "title": "Here is the question I try to ask before I commit to a design: if I'm still on call for this in",
+      "excerpt": "Here is the question I try to ask before I commit to a design: if I'm still on call for this in three years, and I have to explain it to a new hire on their first week, is this still the right choice?…",
+      "body": "Here is the question I try to ask before I commit to a design: if I'm still on call for this in three years, and I have to explain it to a new hire on their first week, is this still the right choice? It's a surprisingly strict filter. Clever tricks tend to fail it. The thing that looked elegant on a whiteboard becomes the thing you dread paging through at 2am, and the thing a newcomer can't follow without a ten-minute story about why it's \"temporary.\" Designs that pass tend to be boring in the best way. Fewer moving parts. Names that say what they mean. Behavior you can predict without reading every line. The kind of system where the explanation to the new hire is short, because there isn't much to explain. Most architecture debates are really about the next sprint.",
+      "author": "lackorol",
       "date": "2026-10-22",
       "readTime": "2 min",
       "section": "software",
@@ -128,18 +147,56 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 40,
-      "url": "https://dev.to/max_bayern_b89482c0faf779/php2shell-in-ot-sites-why-the-vulnerability-will-linger-for-years-3hj3",
-      "image": "/images/feed/feed-5fdafb37e191.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/lackorol/here-is-the-question-i-try-to-ask-before-i-commit-to-a-design-if-im-still-on-call-for-this-in-52a1",
+      "image": "/images/feed/feed-e449ac8972c0.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-aeb9761789fd",
-      "title": "Does the Fitbit Edge have NFC? Here’s what Google says",
-      "excerpt": "Google says the vast majority of Fitbit Charge 6 owners never used NFC in the first place.",
-      "body": "Credit: Joe Maring / Android Authority TL;DR The Fitbit Edge doesn’t have NFC functionality, which means you can’t make contactless payments via the wearable. Google told Android Authority that it skipped NFC because less than 1% of Charge 6 owners used the feature. The Edge otherwise offers features like an altimeter, ECG functionality, skin temperature tracking, and more. Google announced the Fitbit Edge earlier this month, and the new fitness tracker is packed with health and wellness features. This includes ECG functionality, skin temperature tracking, and the expected smartphone integrations. Does the Fitbit Edge have NFC, though? Well, it turns out that the tracker doesn’t support this feature.",
-      "author": "Hadlee Simons",
+      "id": "feed-212aa5210dd5",
+      "title": "Apple says developers are showing ‘incredible’ support for the iPhone Duo",
+      "excerpt": "One of the major issues raised by early reviews of the iPhone Duo is limited support by third-party apps. As we noted in our own review, there are three tiers of support currently, the worst of which…",
+      "body": "One of the major issues raised by early reviews of the iPhone Duo is limited support by third-party apps. As we noted in our own review , there are three tiers of support currently, the worst of which sees an iPhone app stranded in the center of a mostly black area of the display. The good news is that Apple says the position is changing rapidly, citing “incredible” support for the larger display of the folding iPhone … more…",
+      "author": "Ben Lovejoy",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://9to5mac.com/2026/10/22/apple-says-developers-are-showing-incredible-support-for-the-iphone-duo/",
+      "image": "/images/feed/feed-212aa5210dd5.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-a37d473cbfb4",
+      "title": "Claude did not invent scorpion antivenom",
+      "excerpt": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It c…",
+      "body": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge . Citrini Research, the firm behind the experiment, admitted that \"none of us could claim to know anything about AI as it related to biology.\" That didn't stop it from trying to make a drug from scratch - or publishing a blog post titled \"We Wanted to Use Claude to Create a New Drug. Here's What Happened.\" The account came comple … Read the full story at The Verge.",
+      "author": "Robert Hart",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "image": "/images/feed/feed-a37d473cbfb4.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-b9969376667e",
+      "title": "What’s going on with the web? The PHP issue and sites going offline",
+      "excerpt": "A significant number of websites have gone offline, and that’s not due to a service outage, but rather a deliberate decision by the site’s owners. The reason is because extremely dangerous security vu…",
+      "body": "A significant number of websites have gone offline, and that’s not due to a service outage, but rather a deliberate decision by the site’s owners. The reason is because extremely dangerous security vulnerabilities have been found in a protocol used by most websites – PHP. This issue is unrelated to the separate vulnerability discovered in web certificates … more…",
+      "author": "Ben Lovejoy",
       "date": "2026-10-22",
       "readTime": "2 min",
       "section": "gadgets",
@@ -147,29 +204,473 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 41,
-      "url": "https://www.androidauthority.com/does-fitbit-edge-have-nfc-3726486/",
-      "image": "/images/feed/feed-aeb9761789fd.jpg",
+      "xpReward": 31,
+      "url": "https://9to5mac.com/2026/10/22/whats-going-on-with-the-web-the-php-issue-and-sites-going-offline/",
+      "image": "/images/feed/feed-b9969376667e.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-ee9bc79e7c2f",
+      "title": "These 2 useful Google Wallet upgrades are starting to roll out",
+      "excerpt": "Google Wallet's latest additions are beginning to appear, but not for everyone.",
+      "body": "TL;DR Google Wallet’s new in-app notification feed is beginning to reach users. Passport-based ID passes are also expanding to more countries. Both additions are rolling out gradually, so not everyone may have them yet. Google Wallet has become a handy home for everything from payment cards to boarding passes, but keeping track of changes to those saved items hasn’t always been straightforward. Google is now addressing that inconvenience with a dedicated notification feed and expanding its digital passport feature to more countries. The notification feed isn’t entirely unexpected. Earlier this month, we reported that Google’s October Play Services update promised an in-app message center for Wallet, but didn’t explain where users would find it.",
+      "author": "Hillary Keverenge",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.androidauthority.com/google-wallet-notification-feed-passport-support-3726594/",
+      "image": "/images/feed/feed-ee9bc79e7c2f.jpg",
       "source": "Android Authority",
       "isLive": true
     },
     {
-      "id": "feed-cef9ff067ff0",
-      "title": "'We Were Working on a Great Game' — Former Mass Effect 5 Writers Speak Out After EA Shuts Down BioWare",
-      "excerpt": "`Former writers for the now-canceled Mass Effect 5 are speaking out on social media following news that BioWare, a beloved studio with more than 30 years of games under its belt, was shuttered by EA e…",
-      "body": "Former writers for the now-canceled Mass Effect 5 are speaking out on social media following news that BioWare, a beloved studio with more than 30 years of games under its belt, was shuttered by EA earlier today. EA announced the news somewhat unceremoniously in a single paragraph tucked within a lengthy open letter on October 21, 2026. “As we focus on these larger opportunities, we&#39;ve had a small team at BioWare working on early-development for Mass Effect. We&#39;ve made the decision not to move forward with this development, which means we’re closing the studio and our Edmonton workspace. BioWare is a legendary studio that helped define the role-playing genre, and we do not take this decision lightly,” the statement reads.",
-      "author": "Virginia Glaze",
+      "id": "feed-09073929a477",
+      "title": "4 Years Ago, Matthew Mercer Almost Killed Off an Entire Critical Role Party",
+      "excerpt": "An intense encounter between the Critical Role crew and this intimidating boss NPC almost led to a TPK in Campaign 3.",
+      "body": "With the Critical Role cast having played Dungeons & Dragons together for decades, it's easy to assume they’re experts who can handle every combat scenario Dungeon Master Matthew Mercer throws at them. Yet as every D&D player eventually learns, no matter how long you’ve played or prepared, sometimes the dice just aren’t on your side.",
+      "author": "Aimee Hart",
       "date": "2026-10-22",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
-        "Game"
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.polygon.com/critical-role-campaign-3-matt-mercer-tpk/",
+      "image": "/images/feed/feed-09073929a477.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-18170fec1e8a",
+      "title": "Next Mass Effect game cancelled as EA shuts down legendary sci-fi RPG studio BioWare",
+      "excerpt": "The legendary RPG studio behind classics such as Star Wars: Knights of the Old Republic, Mass Effect, and Dragon Age is no more.",
+      "body": "The writing was on the wall, but the news still hit us like a truck yesterday. BioWare, the iconic RPG studio behind the Mass Effect and Dragon Age series, is no more. Development on the next Mass Effect has stopped, but EA might not be entirely done with the IP. Variety reported, backed by EA’s own statement and BioWare’s goodbye on socials , that EA is laying off 3% of its global workforce and closing down BioWare. The shift comes shortly after the company went fully private this summer , with Saudi Arabia and private equity acquiring it alongside all its studios and properties.",
+      "author": " Fran Ruiz ",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.space.com/entertainment/space-games/next-mass-effect-game-cancelled-as-ea-shuts-down-developer-bioware",
+      "image": "/images/feed/feed-18170fec1e8a.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-67f837d5acff",
+      "title": "Test Driving an iPhone Duo? 6 Things to Try at the Apple Store",
+      "excerpt": "Apple’s first foldable has a lot going for it, but there may be some compromises you aren’t expecting. See for yourself if the Duo is for you.",
+      "body": "Apple’s first foldable has a lot going for it, but there may be some compromises you aren’t expecting. See for yourself if the Duo is for you.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Blake Stimac",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.cnet.com/tech/mobile/test-iphone-duo-things-to-try-at-apple-store/",
+      "image": "/images/feed/feed-67f837d5acff.jpg",
+      "source": "CNET",
+      "isLive": true
+    },
+    {
+      "id": "feed-9c73021ea0c8",
+      "title": "The next OnePlus phone has a fan to cool your phone and hands",
+      "excerpt": "Dual airflow paths and desktop-style fins target SoC and back panel heat on the upcoming Ace 7 series.",
+      "body": "Credit: Li Jie Louis / Weibo TL;DR OnePlus teased the Ace 7 series in China, featuring an industry-first dual-channel active cooling fan system and miniaturized tower fins, designed to lower sustained gaming temperatures by up to 10°C. According to leaks from Digital Chat Station, both models feature a 6.78-inch 1.5K 185Hz display and a 200MP camera, with the Ace 7 packing a Snapdragon 8 Elite Gen 5V and the Ace 7 Pro running the Snapdragon 8 Elite Gen 5 alongside a 50MP periscope lens. The OnePlus Ace 7 series officially launches in China on October 29, though a global release is unlikely given OnePlus’s exit from the US and Europe. More and more Android flagships are adopting built-in cooling fans .",
+      "author": "Aamir Siddiqui",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.androidauthority.com/oneplus-ace-7-active-cooling-fan-3726605/",
+      "image": "/images/feed/feed-9c73021ea0c8.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-666ae0b7ad21",
+      "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Exploit. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "cubefox",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Exploit"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+      "image": "/images/feed/feed-666ae0b7ad21.jpg",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-301b1a6ad235",
+      "title": "Star Wars Battlefront 3 Is Real, EA Officially Confirms",
+      "excerpt": "Amid gut-wrenching EA layoffs, the video game publisher has confirmed one bit of good news: Star Wars Battlefront isn't dead.",
+      "body": "Saudi Arabia’s Public Investment Fund, Silver Lake, and Jared Kushner’s Affinity Partners announced their acquisition of Electronic Arts in Sept. 2025, but only officially closed the deal on Aug. 4 this year. Since then, video game publisher EA has made its first major move: laying off 3% of its global workforce.",
+      "author": "Aimee Hart",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.polygon.com/ea-layoffs-star-wars-battlefront-3-is-alive/",
+      "image": "/images/feed/feed-301b1a6ad235.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-fa68d033cf90",
+      "title": "iPhone Duo reviews: The absolute best foldable phone, but not without compromise",
+      "excerpt": "We posted our own review of the iPhone Duo yesterday, and Chance Miller was left convinced that “this form factor represents the future of the iPhone,” while acknowledging that the first-gen iPhone Du…",
+      "body": "We posted our own review of the iPhone Duo yesterday, and Chance Miller was left convinced that “this form factor represents the future of the iPhone,” while acknowledging that the first-gen iPhone Duo comes with trade-offs. I think what surprised me most is the degree of consensus found across the reviews, given the generally polarized appeal of foldable phones. That’s not to say reviewers think everyone should buy one, but there is widespread agreement on the pros and cons – starting with five key takeouts … more…",
+      "author": "Ben Lovejoy",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone",
+        "Foldable"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://9to5mac.com/2026/10/22/iphone-duo-reviews-the-absolute-best-foldable-phone-but-not-without-compromise/",
+      "image": "/images/feed/feed-fa68d033cf90.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-d3ce84568ac7",
+      "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Xbox. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "entryleveljobsc",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+      "image": "/images/feed/feed-d3ce84568ac7.jpg",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-3b6b8d8d41c8",
+      "title": "GitLab warns of new max severity code execution vulnerability",
+      "excerpt": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]",
+      "body": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Vulnerability. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Sergiu Gatlan",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Vulnerability"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+      "image": "/images/feed/feed-3b6b8d8d41c8.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-bdd8141e8ce8",
+      "title": "This app recreates iPhone Duo’s StandBy mode on any Android foldable",
+      "excerpt": "The only caveat: Unlocking all 50 faces requires you to pay $1 monthly or $10 one-time.",
+      "body": "Credit: Tushar Mehta / Android Authority TL;DR The iPhone Duo gets a special version of Standby that works even without charging. An Android app called Foldy replicates it on foldables, with features like automatic detection. The paid version unlocks 50+ display options, including clocks, calendars, to-dos, Google Photos gallery, and Google Home controls. Even though it’s seven years late to the foldable party, the iPhone Duo brings features that could turn heads. The transition from the cover screen to the inner one, which gives the illusion of the front screen dissolving, is definitely one of them. Android enthusiasts and fans didn’t wait long after the iPhone launch to recreate this effect for Android foldables .",
+      "author": "Tushar Mehta",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone",
+        "Foldable"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.androidauthority.com/iphone-duo-standby-android-foldable-3726581/",
+      "image": "/images/feed/feed-bdd8141e8ce8.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-1d6f1f18e980",
+      "title": "Mass Effect Is Not Dead Yet as the Amazon Series Is Still Going Forward",
+      "excerpt": "Mass Effect 5 might not be happening, but at least the series will continue in another way.",
+      "body": "Oct. 21 was a rough day for Mass Effect fans, as EA announced that it would be closing its development studio BioWare and canceling the fifth installment in the series. At least, the franchise isn't vanishing entirely. Amazon MGM has not pulled the plug on the upcoming Mass Effect TV series, which will move forward.",
+      "author": "Ashely Claudino",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.polygon.com/mass-effect-tv-show-amazon-bioware-closure-october-2026/",
+      "image": "/images/feed/feed-1d6f1f18e980.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-8a7266757c93",
+      "title": "First A Nazi Salute, Then Depriving Ukraine Of Internet Access: Musk Must Be Removed From Control Of Starlink",
+      "excerpt": "Nobel Prize winning economist, Paul Krugman, wrote an important article this morning. In it, he decried Elon Musk and his decision to take down Ukraine’s access to Starlink, which allows the country t…",
+      "body": "Nobel Prize winning economist, Paul Krugman, wrote an important article this morning. In it, he decried Elon Musk and his decision to take down Ukraine&#8217;s access to Starlink, which allows the country to protect itself from Russian attacks through drone technology. &#8220;Did Elon Musk decide by personal fiat to cut ... [continued] The post First A Nazi Salute, Then Depriving Ukraine Of Internet Access: Musk Must Be Removed From Control Of Starlink appeared first on CleanTechnica .",
+      "author": "Carolyn Fortuna",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://cleantechnica.com/2026/10/22/first-a-nazi-salute-then-depriving-ukraine-of-internet-access-musk-must-be-removed-from-control-of-starlink/",
+      "image": "/images/feed/feed-8a7266757c93.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-a1b7239bfeef",
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "excerpt": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found th…",
+      "body": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables. Upon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "image": "/images/feed/feed-a1b7239bfeef.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-367332a19080",
+      "title": "The Nintendo Switch 2’s Open-World Era Is Officially Here, and It Rules",
+      "excerpt": "Nintendo Switch Sports Resort's excellent open-world modes continues an emerging Switch 2 trend started with Mario Kart World.",
+      "body": "When I first played Mario Kart World last June, I didn’t quite get its open-world mode. Free Roam was a novel idea, but I was initially put off by its lack of substantial world activities and its slew of weak rewards. I came to appreciate it much more over time as a chill playground that gave me space to master all the nuances of driving and jumping. Still, I left feeling like it was a first draft of a great idea that could stand to be iterated on. I didn’t expect that iteration to come in Nintendo Switch Sports Resort of all places.",
+      "author": "Giovanni Colantonio",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.polygon.com/nintendo-switch-2-open-world-era/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/nintendo-switch-sports-resort-prop-plane-wuhu-island.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b75ce5ffab48",
+      "title": "Eiliko maker says it&#8217;s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+      "excerpt": "The Eiliko robot toy. | Photo by Sean Hollister / The Verge Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners th…",
+      "body": "The Eiliko robot toy. | Photo by Sean Hollister / The Verge Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare . It told owners that \"your secrets are safe with me,\" but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning . The Verge and security researcher Sammy Azdoufal spent over a month trying to get in contact with the company, including emails to Energize Lab CEO and founder Shaw Yeung. Nobody would answer our questions. Now, the company is finally breaking its silence, though its response leaves something to be desired. View Link \"We have confirmed the core issues ide … Read the full story at The Verge.",
+      "author": "Sean Hollister",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Security"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+      "image": "/images/feed/feed-b75ce5ffab48.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-a05f0cd277de",
+      "title": "Redwood and Rivian set to expand their EV battery recycling partnership",
+      "excerpt": "Redwood Materials and Rivian are expanding their existing EV battery partnership, adding a fresh battery material recycling effort to the EV startup’s Normal, Illinois, vehicle factory and, potentiall…",
+      "body": "Redwood Materials and Rivian are expanding their existing EV battery partnership, adding a fresh battery material recycling effort to the EV startup’s Normal, Illinois, vehicle factory and, potentiall — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Rivian, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jo Borrás",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Rivian",
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://electrek.co/2026/10/22/redwood-and-rivian-set-to-expand-their-ev-battery-recycling-partnership/",
+      "image": "/images/feed/feed-a05f0cd277de.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-bc53d71dec2b",
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "excerpt": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Cont…",
+      "body": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access. Anomaly, the company behind OpenCode, fixed the flaw in&nbsp;version 1.18.33&nbsp;on September",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "image": "/images/feed/feed-bc53d71dec2b.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-89e6f2cfe1bd",
+      "title": "'Regions Are Cheating and We Need to Address It' — Wardogs Dev Says Region Locking Is About 'Protecting the Largest Amount of Players'",
+      "excerpt": "Bulkhead is rolling out region locking in Wardogs to, in the studio's words, protect \"the largest amount of players from an influx of regions that are more prone to cheating.\" However, legitimate play…",
+      "body": "Bulkhead is rolling out region locking in multiplayer first-person shooter Wardogs to, in the studio&#39;s words, protect &quot;the largest amount of players from an influx of regions that are more prone to cheating.&quot; However, legitimate players in Asia have raised concerns, and cross-region players have criticized the developer for blocked from joining their friends. The region lock is done by limiting the maximum ping — the player’s connection with the server — to 175. On paper, this is a fair, non-discriminatory way to stop players from distant regions from entering games with an unstable connection. According to Bulkhead, this would cut down on cheating, too.",
+      "author": "Kirk McKeand",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.ign.com/articles/wardogs-fans-upset-region-lock",
+      "image": "/images/feed/feed-89e6f2cfe1bd.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-805045ba9ae5",
+      "title": "Resident Evil Developer Capcom Issues Phishing Warning After Data Breach Hits Over 11 Million Customer Accounts",
+      "excerpt": "Capcom has disclosed a data breach of its online membership service affecting over 11 million customer accounts, warning gamers to brace themselves for potential phishing attempts.",
+      "body": "Capcom has disclosed a data breach of its online membership service affecting over 11 million customer accounts, warning gamers to brace themselves for potential phishing attempts. The Resident Evil, Monster Hunter, and Street Fighter developer said customer information associated with Capcom ID was accessed by a third-party on October 19. 11.7 million email address records were affected globally, exposing date and time of account creation, date and time of last login, number of logins, and the client IP address used during last login. Of these, 43 records of date of birth, gender, country/region, and nickname were affected, and 196 accounts saw unauthorized changes to their Capcom ID login passwords.",
+      "author": "Wesley Yin-Poole",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Phishing",
+        "Data Breach",
+        "Breach"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.ign.com/articles/resident-evil-developer-capcom-issues-phishing-warning-after-data-breach-hits-over-11-million-customer-accounts",
+      "image": "/images/feed/feed-805045ba9ae5.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-0c7ef6d8d02f",
+      "title": "NASA giving update about Artemis moon plans on Oct. 23: Watch it live",
+      "excerpt": "NASA will provide an update about its Artemis III mission and its plans to land astronauts on the moon during a press conference on Friday (Oct. 23). Here's how to watch it live.",
+      "body": "NASA will provide an update about its Artemis moon plans on Friday (Oct. 23), and you can watch it live. The news will come during a press conference at the agency's Kennedy Space Center in Florida, which starts Friday at 2 p.m. EDT (1800 GMT). You can watch it live here at Space.com, courtesy of NASA. \"The update will include details about NASA’s Artemis III mission that will send four astronauts to low Earth orbit next year to test critical systems needed for future lunar landings, and how plans to return American astronauts to the moon by 2028 are progressing,\" NASA officials said in an Oct. 14 media advisory . The crew of NASA's Artemis II mission captured this photo of a crescent Earth on April 6, 2026, as they began passing behind the moon.",
+      "author": " Mike Wall ",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Artemis",
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.space.com/space-exploration/artemis/nasa-giving-update-about-artemis-moon-plans-on-oct-23-watch-it-live",
+      "image": "/images/feed/feed-0c7ef6d8d02f.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-da14d2a77311",
+      "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cve-. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "keks24",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cve-"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+      "image": "/images/topics/topic-cybersecurity.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-13ad9e82cb79",
+      "title": "Seattle Is Installing Hundreds Of Curbside EV Chargers",
+      "excerpt": "Residents will decide where the Level 2 chargers will be installed, and the city will prioritize areas with apartment buildings.",
+      "body": "Residents will decide where the Level 2 chargers will be installed, and the city will prioritize areas with apartment buildings.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://insideevs.com/news/812869/seattle-curbside-ev-chargers-2030/",
+      "image": "/images/feed/feed-13ad9e82cb79.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-f7ec6a1a27ff",
+      "title": "Spotify’s First Native In-Car App Is Hitting Audi EVs First",
+      "excerpt": "Built without Google’s design restrictions, the new app will go live on the Audi A6 e-tron and Q6 e-tron around the world.",
+      "body": "Built without Google’s design restrictions, the new app will go live on the Audi A6 e-tron and Q6 e-tron around the world.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-22",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
       ],
       "featured": false,
       "xpReward": 40,
-      "url": "https://www.ign.com/articles/we-were-working-on-a-great-game-former-mass-effect-5-writers-speak-out-after-ea-shuts-down-bioware",
-      "image": "/images/feed/feed-cef9ff067ff0.jpg",
-      "source": "IGN",
+      "url": "https://insideevs.com/news/812853/spotify-new-in-car-app-audi/",
+      "image": "/images/feed/feed-f7ec6a1a27ff.jpg",
+      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -185,67 +686,10 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 42,
       "url": "https://github.com/openai/openai-cli",
       "image": "/images/feed/feed-8475100a63f3.png",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-cbcdb91e6be4",
-      "title": "Google Docs on Android is getting a Gemini Live-like upgrade for more users",
-      "excerpt": "Users with Google Workspace accounts can finally use Docs Live in the app.",
-      "body": "TL;DR Google Workspace users can now use Docs Live to draft documents using natural voice commands. The feature can also pull context from the user’s emails, chats, and Drive files. It’s available in the Google Docs app on iOS and Android. At Google I/O earlier this year, Google announced a nifty Gemini Live-like upgrade for Docs, Keep, and Gmail. The new capabilities started rolling out to users last month, and Google is finally bringing the Docs Live experience to its Workspace customers as well. Docs Live has now started rolling out to Workspace users, the company announced in a new blog post . The feature will be available in the Google Docs app on Android and iPhone and will let users create documents hands-free by simply describing what they want to write.",
-      "author": "Akshay Gangwar",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.androidauthority.com/google-docs-android-docs-live-rollout-workspace-3726478/",
-      "image": "/images/feed/feed-cbcdb91e6be4.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-2fe6e9b77b2c",
-      "title": "Skullcandy’s got a new ‘Bose’ to answer to",
-      "excerpt": "Bose has bought Skullcandy after years of collaboration.",
-      "body": "Credit: SoundGuys TL;DR Bose has acquired Skullcandy, bringing the popular lifestyle audio brand under its wing. Skullcandy will remain a separate brand, and Bose plans to give it access to its audio technology and global distribution. The deal could bring more of Bose’s audio expertise to future Skullcandy headphones and earbuds, although no new products have been announced yet. Bose and Skullcandy are about to make a lot more noise together given that the former just acquired the latter. Yes, Bose has bought Skullcandy in a major move for the audio industry. The deal could pave the way for better-sounding headphones and earbuds from Skullcandy, known for its more accessible prices and distinctive designs.",
-      "author": "Adamya Sharma",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.androidauthority.com/bose-buys-skullcandy-3726475/",
-      "image": "/images/feed/feed-2fe6e9b77b2c.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-8133793a5333",
-      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-      "excerpt": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Stor…",
-      "body": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse against South Korean financial institutions, to speed up scanning and",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-      "image": "/images/feed/feed-8133793a5333.jpg",
-      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -261,124 +705,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 41,
       "url": "https://science.nasa.gov/image-article/apod-2026-october-22-the-first-green-star-wd-j13306435/",
       "image": "/images/feed/feed-5e724e15c452.jpg",
       "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-c721479de220",
-      "title": "All party members in Final Fantasy Resonance",
-      "excerpt": "In this guide, you find the list of all party members you can recruit in Final Fantasy Resonance, when you unlock them, and their roles.",
-      "body": "Meeting new party members in Final Fantasy Resonance is part of the journey. As in other games in the series, you start with only a few characters who team up to go on an adventure, but as they progress, they make friends who join the group. Although you can only use up to four characters in combat, unlocking all available party members broadens your strategic options.",
-      "author": "Paulo Kawanishi",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.polygon.com/final-fantasy-resonance-party-members-location-how-to-unlock/",
-      "image": "/images/feed/feed-c721479de220.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-8e22ad022d72",
-      "title": "All unlockable Visions in Final Fantasy Resonance",
-      "excerpt": "Here's a list of all Visions available in Final Fantasy Resonance, where you can find them, and the prerequisites for unlocking each one.",
-      "body": "Visions in Final Fantasy Resonance are the material form of memories of heroes, either from the world where the story takes place or from other dimensions. While most of them are protagonists from other Final Fantasy games, there are a few original characters in the roster as well. Unlocking Visions is crucial to creating the perfect builds for each character.",
-      "author": "Paulo Kawanishi",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.polygon.com/final-fantasy-resonance-visions-locations-how-to-unlock/",
-      "image": "/images/feed/feed-8e22ad022d72.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-28d4b1351df3",
-      "title": "Where to find all ancient equipment in Final Fantasy Resonance",
-      "excerpt": "Here's where to upgrade ancient equipment into the best weapons in Final Fantasy Resonance, and where to find all the ancient equips.",
-      "body": "As you progress further in Final Fantasy Resonance , you'll start stumbling upon ancient items , whether they're types of armor or weapons. At first, their stats will be laughably low (literally sitting at one for their respective stats), but certainly there's more to these equips that meets the eye. Yes! You can upgrade the ancient items into some of the best equips in the game , provided you can take on a few tough enemies.",
-      "author": "Julia Lee",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.polygon.com/final-fantasy-resonance-ancient-equipment-upgrade-locations/",
-      "image": "/images/feed/feed-28d4b1351df3.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-24deb0e30052",
-      "title": "How to find Mysidia in Final Fantasy Resonance",
-      "excerpt": "In this guide, you learn how to find Mysidia in Final Fantasy Resonance, the Magiopolis as well as the exact location where you must use the radar.",
-      "body": "Finding Mysidia , the Magiapolis, is part of Final Fantasy Resonance 's campaign. As you start Chapter 5, \"Scars of Time,\" Rainn and his group must go to the legendary city, but no one knows its location. So, your goal is to locate Mysidia using the power of technology — and some patience.",
-      "author": "Paulo Kawanishi",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/final-fantasy-resonance-mysidia-location-how-to-find/",
-      "image": "/images/feed/feed-24deb0e30052.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-a940c57a7102",
-      "title": "Where to find and use Adamantite in Final Fantasy Resonance",
-      "excerpt": "Here's where to find Adamantite in Final Fantasy Resonance, which makes some powerful weapons and armor, if you bring it to the right person.",
-      "body": "Adamantite is a key item in Final Fantasy Resonance that you can find in mid- and end-game areas. The game doesn't explicitly tell you how to use these items, but with the help of a master weaponsmith, you can trade them to make powerful equipment for your party members.",
-      "author": "Julia Lee",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.polygon.com/final-fantasy-resonance-adamantite-use-locations-weapons/",
-      "image": "/images/feed/feed-a940c57a7102.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-0579391e8cc3",
-      "title": "How to get Sephiroth's Vision in Final Fantasy Resonance",
-      "excerpt": "If you want the Sephiroth's Vision in Final Fantasy Resonance, you'll need to take on the One-Winged Angel himself. Here's how to beat him.",
-      "body": "As you play Final Fantasy Resonance , you may be wondering where Sephiroth's Vision is. You can see it in the menu, greyed out, and certainly the iconic antagonist from Final Fantasy 7 wouldn't just be found in a shrine like the rest of the Visions from other games. Well, you're right. Sephiroth is somewhat hidden, though to unlock him, you'll need to actually defeat him as a boss.",
-      "author": "Julia Lee",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.polygon.com/final-fantasy-resonance-sephiroth-vision-where-to-find-boss-fight/",
-      "image": "/images/feed/feed-0579391e8cc3.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -394,29 +724,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 37,
       "url": "https://science.nasa.gov/earth/earth-observatory/fires-char-new-guinea/",
       "image": "/images/feed/feed-5ba3b0d05717.jpg",
       "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-27bc79760978",
-      "title": "Apple must open iPhone to alternative app stores in Australia after Epic Games ruling",
-      "excerpt": "An Australian federal judge has ordered Apple to make sweeping changes to its App Store rules following a years-long antitrust battle with Epic Games. Apple has confirmed that it plans to appeal. Here…",
-      "body": "An Australian federal judge has ordered Apple to make sweeping changes to its App Store rules following a years-long antitrust battle with Epic Games. Apple has confirmed that it plans to appeal. Here — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://9to5mac.com/2026/10/21/apple-must-open-iphone-to-alternative-app-stores-in-australia-after-epic-games-ruling/",
-      "image": "/images/feed/feed-27bc79760978.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -433,29 +744,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/10/21/states-continue-to-make-progress-on-ev-charging-infrastructure/",
       "image": "/images/feed/feed-c2ef39670c27.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-e53e46ac3fb0",
-      "title": "Google’s Gemini Intelligence has a new Android competitor, and it’s ready to get things done",
-      "excerpt": "Claude Duet is ready to take on your workload and prioritize your tasks.",
-      "body": "Credit: Anthropic TL;DR Anthropic has launched Claude Duet, a new agentic AI app for Android and iOS that monitors connected apps and handles tasks on your behalf. The app can prioritize notifications, prepare daily briefings, and tackle everything from scheduling meetings to building dashboards and web apps. Claude Duet is available in research preview to Claude Pro and Max subscribers. Google has been working toward a more capable, agentic Android experience with Gemini Intelligence , but users are still waiting for that vision to fully materialize. Meanwhile, Anthropic has launched a new app to put a proactive AI assistant to work on your Android phone.",
-      "author": "Adamya Sharma",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.androidauthority.com/claude-duet-android-app-launch-capabilities-features-3726465/",
-      "image": "/images/feed/feed-e53e46ac3fb0.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -471,30 +763,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 52,
       "url": "https://cleantechnica.com/2026/10/21/sierra-club-iowa-responds-local-officials-reject-re-zoning-request-for-alliants-morgan-valley-gas-plant/",
       "image": "/images/feed/feed-da4d8b2dee80.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-8107317e7ba1",
-      "title": "Apple Limitis iPhone Duo Purchases to 2 Foldable Phones Per Person",
-      "excerpt": "For the first time in many years, Apple is limiting how many phones you can buy.",
-      "body": "For the first time in many years, Apple is limiting how many phones you can buy.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone, Foldable. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Corinne Reichert",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone",
-        "Foldable"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.cnet.com/tech/mobile/apple-limits-iphone-duo-purchases/",
-      "image": "https://www.cnet.com/wp-content/uploads/sites/2/IMG_0900.jpeg",
-      "source": "CNET",
       "isLive": true
     },
     {
@@ -510,67 +782,9 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 52,
       "url": "https://cleantechnica.com/2026/10/21/sierra-club-conservation-groups-file-lawsuit-aimed-at-restoring-protections-for-threatened-wildlife/",
       "image": "/images/feed/feed-1a3af48f53aa.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-ea390552df44",
-      "title": "Hackers Exploited the PHP Vulnerabilities Days Before They Were Patched",
-      "excerpt": "Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. They’re now being “broadly exploited” across the internet.",
-      "body": "Amazon Web Services logged attempts to leverage the internet-melting PHP2Shell bugs four days ago. They’re now being “broadly exploited” across the internet.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Exploit, Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lily Hay Newman",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Exploit",
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.wired.com/story/hackers-exploited-the-php-vulnerabilities-days-before-they-were-patched/",
-      "image": "https://media.wired.com/photos/6ad971de90e0d6636d239398/master/pass/Security_HackersExploitingPHPBugsforDays-ezgif.com-video-to-gif-converter.gif",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-78b9eb587b39",
-      "title": "Tesla Reports A Great 3rd Quarter, Robotaxi & FSD Finally Taking Off",
-      "excerpt": "I haven’t covered a Tesla earnings release and call in a while, but I thought I’d give a quick summary since this quarter was pretty interesting. Last quarter I wrote this after the delivery release,…",
-      "body": "I haven&#8217;t covered a Tesla earnings release and call in a while, but I thought I&#8217;d give a quick summary since this quarter was pretty interesting. Last quarter I wrote this after the delivery release, but I didn&#8217;t write up the earnings call. Observations From The Shareholder Deck: Gross margin ... [continued] The post Tesla Reports A Great 3rd Quarter, Robotaxi &amp; FSD Finally Taking Off appeared first on CleanTechnica .",
-      "author": "Paul Fosse",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://cleantechnica.com/2026/10/21/tesla-reports-a-great-3rd-quarter-robotaxi-fsd-finally-taking-off/",
-      "image": "/images/feed/feed-78b9eb587b39.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-a6babc8ff72f",
-      "title": "Not the Future, It’s Now — Deepway Electric Semi Put to Work in Australia",
-      "excerpt": "Deepway Star semi trailer from China joins the growing number of trucking brands on Australian roads. Information was shared over LinkedIn, Facebook, and through phone interview. Mark Blackburn, Manag…",
-      "body": "Deepway Star semi trailer from China joins the growing number of trucking brands on Australian roads. Information was shared over LinkedIn, Facebook, and through phone interview. Mark Blackburn, Managing Director of VCF Transport Services, is not only proud of the newest acquisition to their logistics fleet, but also keen to ... [continued] The post Not the Future, It’s Now — Deepway Electric Semi Put to Work in Australia appeared first on CleanTechnica .",
-      "author": "David Waterworth",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://cleantechnica.com/2026/10/21/not-the-future-its-now-deepway-electric-semi-put-to-work-in-australia/",
-      "image": "/images/feed/feed-a6babc8ff72f.jpg",
       "source": "CleanTechnica",
       "isLive": true
     },
@@ -587,87 +801,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 36,
       "url": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/",
       "image": "/images/feed/feed-d3b614a7517d.jpg",
       "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-037b63d102c4",
-      "title": "Tesla Says 75% Of New Car Buyers Subscribe To FSD In North America",
-      "excerpt": "Tesla's newest subscription numbers show that 75% of buyers subscribe to Tesla's $99 per month autonomy software.",
-      "body": "Tesla's newest subscription numbers show that 75% of buyers subscribe to Tesla's $99 per month autonomy software.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://insideevs.com/news/812833/tesla-backlog-fsd-driver-sales/",
-      "image": "/images/feed/feed-037b63d102c4.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-4e0564ee3527",
-      "title": "Giant iPhone Duo installations spotted at Apple Fifth Avenue ahead of Friday launch",
-      "excerpt": "While the iPhone Duo doesn’t launch until Friday, preparations are already underway at Apple’s flagship Fifth Avenue store in New York for the big day. Here are the details. more…",
-      "body": "While the iPhone Duo doesn’t launch until Friday, preparations are already underway at Apple’s flagship Fifth Avenue store in New York for the big day. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://9to5mac.com/2026/10/21/giant-iphone-duo-installations-spotted-at-apple-fifth-avenue-ahead-of-friday-launch/",
-      "image": "/images/feed/feed-4e0564ee3527.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-8cde49b34ecc",
-      "title": "There isn't an easy exploit for this PHP vulnerability",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Vulnerability, Exploit. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "zkldi",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Vulnerability",
-        "Exploit"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://eliastaylor.com/noexploit/",
-      "image": "/images/topics/topic-cybersecurity.png",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-8ce2b868bf4e",
-      "title": "Exxon Spoof From Adam McKay Skewers The Fossil Fuel Industry",
-      "excerpt": "Adam McKay is the fellow who brought us the satirical Don’t Look Up! movie five years ago. We did an article about it at the time, which got over 100 comments. That may be more than the number of peop…",
-      "body": "Adam McKay is the fellow who brought us the satirical Don&#8217;t Look Up! movie five years ago. We did an article about it at the time, which got over 100 comments. That may be more than the number of people who paid to see it in theaters. Undaunted, McKay is ... [continued] The post Exxon Spoof From Adam McKay Skewers The Fossil Fuel Industry appeared first on CleanTechnica .",
-      "author": "Steve Hanley",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://cleantechnica.com/2026/10/21/exxon-spoof-from-adam-mckay-skewers-the-fossil-fuel-industry/",
-      "image": "/images/feed/feed-8ce2b868bf4e.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -683,48 +820,10 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 38,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
       "image": "/images/feed/feed-4139c746625d.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-aa646ca3dab9",
-      "title": "Google Chrome adds Gemini-powered scam detection, warns users of ClickFix attacks",
-      "excerpt": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]",
-      "body": "Chrome is getting new scam protections that use Gemini to detect deceptive websites and warn users when they copy suspicious commands from ClickFix attacks. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Mayank Parmar",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
-      "image": "/images/feed/feed-aa646ca3dab9.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-518d8d85111b",
-      "title": "Japan's Onamae Desktop Cloud hacked, up to 27,000 servers affected",
-      "excerpt": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]",
-      "body": "Hackers compromised the infrastructure of Onamae Desktop Cloud, a popular provider of VPS services in Japan, and installed malware on up to 26,739 customers' servers. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
-      "image": "/images/feed/feed-518d8d85111b.jpg",
-      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -740,7 +839,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 45,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-21-2026",
       "image": "/images/feed/feed-a8f5fa21fd2d.jpg",
       "source": "Space.com",
@@ -761,7 +860,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 50,
       "url": "https://www.engadget.com/2293646/claude-duet-is-anthropics-answer-to-meta-muse-and-openai-dots/",
       "image": "/images/feed/feed-0860f4145b9f.jpg",
       "source": "Engadget",
@@ -780,7 +879,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 48,
       "url": "https://openai.com/index/broad-access-through-consistent-standards",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -800,68 +899,10 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 40,
       "url": "https://www.nasa.gov/image-article/rs-25-engine-test-in-support-of-future-artemis-missions/",
       "image": "/images/feed/feed-59e9d61b2de6.jpg",
       "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-41ee56d7337b",
-      "title": "Lazarus hackers use post-quantum cryptography for malware delivery",
-      "excerpt": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]",
-      "body": "North Korean hackers are using a post-quantum cryptographic mechanism to secure malicious payload delivery in new operations that combine old and new malware. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Malware, Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Malware",
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
-      "image": "/images/feed/feed-41ee56d7337b.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-edc8b468f5fb",
-      "title": "Bose acquires Skullcandy to help it reach a wider audience",
-      "excerpt": "Bose announced today it has acquired Skullcandy. Although the two companies are competitors in the consumer audio space, Skullcandy recently partnered with its new owner to bring several of Bose's aud…",
-      "body": "Bose announced today it has acquired Skullcandy. Although the two companies are competitors in the consumer audio space, Skullcandy recently partnered with its new owner to bring several of Bose's audio technologies - including its head-tracking spatial audio and excellent active noise cancellation (ANC) - to products like the Skullcandy Crusher 1080 ANC headphones and Method 360 ANC earbuds . Specific details about the deal weren't shared, but according to a news release, Bose plans to keep Skullcandy a separate brand that will become part of its premium consumer audio business. Skullcandy will remain based in Park City, Utah, where it was … Read the full story at The Verge.",
-      "author": "Andrew Liszewski",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.theverge.com/tech/1015276/bose-acquisition-skullcandy-headphones-earbuds-speakers",
-      "image": "/images/feed/feed-edc8b468f5fb.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-ec531552e0be",
-      "title": "The ESA’s Euclid Telescope Discovered a New Comet Completely by Accident",
-      "excerpt": "It was identified in Euclid telescope imagery using software designed to detect moving objects.",
-      "body": "It was identified in Euclid telescope imagery using software designed to detect moving objects.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Telescope. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Joe Hindy",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Telescope"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.cnet.com/science/space/euclid-telescope-accidentally-found-comet/",
-      "image": "https://www.cnet.com/wp-content/uploads/sites/2/Euclid_looking_into_the_Universe_ESA24697255.jpeg",
-      "source": "CNET",
       "isLive": true
     },
     {
@@ -886,74 +927,36 @@
       "isLive": true
     },
     {
-      "id": "feed-ee0d39a4d021",
-      "title": "The internet is having a very bad cybersecurity day",
-      "excerpt": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week.",
-      "body": "From AI-discovered PHP vulnerabilities to flaws in Node.js and popular AI tool LiteLLM, cybersecurity teams have plenty to worry about this week.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sarah Perez",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://techcrunch.com/2026/10/21/the-internet-is-having-a-very-bad-cybersecurity-day/",
-      "image": "/images/feed/feed-ee0d39a4d021.jpg",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-632521b08180",
-      "title": "OpenAI’s most powerful AI models turned off safety monitoring – then lied about it",
-      "excerpt": "The models Astra and Sol misinterpreted instructions during internal use, which has serious implications for alignment monitoring.",
-      "body": "The models Astra and Sol misinterpreted instructions during internal use, which has serious implications for alignment monitoring.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Radhika Rajkumar",
+      "id": "feed-0fd02e34b95b",
+      "title": "Claude Duet",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "kuberwastaken",
       "date": "2026-10-21",
       "readTime": "2 min",
       "section": "ai",
       "tags": [
-        "Openai"
+        "Claude"
       ],
       "featured": false,
-      "xpReward": 39,
-      "url": "https://www.zdnet.com/innovation/openai-astra-sol-models-disable-safety-monitoring/",
-      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/purpleblob-GettyImages-2287018600.jpg",
-      "source": "ZDNet",
-      "isLive": true
-    },
-    {
-      "id": "feed-c344635e541c",
-      "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
-      "excerpt": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
-      "body": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Julie Bort",
-      "date": "2026-10-21",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
-      "image": "/images/feed/feed-c344635e541c.webp",
-      "source": "TechCrunch",
+      "xpReward": 43,
+      "url": "https://claude.com/product/claude-duet",
+      "image": "/images/feed/feed-0fd02e34b95b.jpg",
+      "source": "Hacker News",
       "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: TiddlyWiki Cognee: a design proposal for searchable project notes",
-    "DEV.TO: PNG to JPEG saved 15-63% on a full-page screenshot, depending on the page. Cropping beat both.",
-    "DEV.TO: Scraping E-commerce Product Data: Variants, Prices and Stock Without Losing Accuracy",
-    "DEV.TO: Why Green Tests Are Not Enough for AI Coding Agents#",
-    "DEV.TO: # Your AI Agent Failed in Production. Can You Replay the Exact Run?",
-    "DEV.TO: How to Know When Your Vibe-Coded App Breaks Before Your Users Do: A 7-Step Beginner Guide to Error Alerts",
-    "DEV.TO: PHP2Shell in OT Sites: Why the Vulnerability Will Linger for Years",
-    "ANDROID AUTHORITY: Does the Fitbit Edge have NFC? Here’s what Google says",
-    "IGN: 'We Were Working on a Great Game' — Former Mass Effect 5 Writers Speak Out After EA Shuts Down BioWare",
-    "HACKER NEWS: OpenAI CLI"
+    "DEV.TO: Turn Spec Drift into a Pull Request Check with SpecGov",
+    "DEV.TO: The Host Networking Stack Is Part of the Guest Isolation Boundary",
+    "KOTAKU: Two Of Japan’s Oldest Mobile Games Have Been Forced Permanently Offline Because Of The New Exploit Ravaging The Web",
+    "CNET: I Went From AI Prompt to 3D-Printed Armor in 18 Hours",
+    "DEV.TO: PHP's two critical RCE fixes: the bug wasn't new, the decision was stuck",
+    "DEV.TO: EU Allocates €22 Million for Five 6G Projects Focused on AI, Devices and Testbeds",
+    "DEV.TO: JavaScript for SaaS Development: Build Scalable Multi-Tenant Applications",
+    "DEV.TO: Here is the question I try to ask before I commit to a design: if I'm still on call for this in",
+    "9TO5MAC: Apple says developers are showing ‘incredible’ support for the iPhone Duo",
+    "THE VERGE: Claude did not invent scorpion antivenom"
   ],
   "sectionVideos": {}
 }
