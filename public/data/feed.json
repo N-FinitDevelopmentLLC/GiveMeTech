@@ -1,89 +1,70 @@
 {
-  "fetchedAt": "2026-10-22T23:48:37.118Z",
+  "fetchedAt": "2026-10-23T02:20:02.319Z",
   "articles": [
     {
-      "id": "feed-9b7805f72645",
-      "title": "eMudhra quit the CA business today. I checked your trust store — its roots are still in it.",
-      "excerpt": "Two days ago I wrote up the eMudhra incident: eight of the CA's intermediate private keys turned out to be integers smaller than 256 — I recovered all eight in 11 milliseconds, the largest was 237. To…",
-      "body": "Two days ago I wrote up the eMudhra incident: eight of the CA's intermediate private keys turned out to be integers smaller than 256 — I recovered all eight in 11 milliseconds, the largest was 237. Today eMudhra announced it is leaving the global SSL/TLS certificate business entirely (press release, Bengaluru, October 22; 894 points on Hacker News). A CA whose keys fit in a uint8 has decided certificates aren't worth it. Fair enough. But \"a CA exits the business\" is a press-release sentence, not a technical event — so I checked the three places where an exit would actually have to happen: your trust store, Mozilla's revocation list, and the incident record.",
-      "author": "frank chu",
-      "date": "2026-10-22",
+      "id": "feed-8fb645f5e9c4",
+      "title": "Can Your VP of Engineering Crash Your Sprint Retrospective?",
+      "excerpt": "A Slack message pops up an hour before your Sprint Retrospective. It is from the VP of Engineering. \"Hey! I'd love to drop in on the Retro today just to listen and see how things are going.\" It sounds…",
+      "body": "A Slack message pops up an hour before your Sprint Retrospective. It is from the VP of Engineering. \"Hey! I'd love to drop in on the Retro today just to listen and see how things are going.\" It sounds harmless. It sounds supportive. But as an Agile Coach and Technical Project Delivery Consultant, I have watched this exact scenario play out countless times. Allowing leadership to \"just drop in\" on a Retrospective is one of the fastest ways to destroy team trust. As Scrum Masters and Agile leaders, we face constant pressure from well-meaning managers wanting visibility into how the team operates. But a Sprint Retrospective is not a status meeting. It is not an executive showcase. It is a sacred space designed specifically for honest, unvarnished continuous improvement.",
+      "author": "Alireza Razmara",
+      "date": "2026-10-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/frankchu/emudhra-quit-the-ca-business-today-i-checked-your-trust-store-its-roots-are-still-in-it-5bk",
-      "image": "/images/feed/feed-9b7805f72645.webp",
+      "xpReward": 40,
+      "url": "https://dev.to/aiflowpm/can-your-vp-of-engineering-crash-your-sprint-retrospective-1g3",
+      "image": "/images/feed/feed-8fb645f5e9c4.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-01418a1363bb",
-      "title": "I built OpenShell's Z3 policy prover and ran 29 checks. It caught everything except the metadata address.",
-      "excerpt": "OpenShell — NVIDIA's \"safe, private runtime for fleets of autonomous AI agents\" — hit the Hacker News front page today (257 points; the repo is at 17,719 stars, v0.1.5 shipped October 20). Most agent…",
-      "body": "OpenShell — NVIDIA's \"safe, private runtime for fleets of autonomous AI agents\" — hit the Hacker News front page today (257 points; the repo is at 17,719 stars, v0.1.5 shipped October 20). Most agent sandboxes sell you enforcement: Landlock, seccomp, a network proxy. OpenShell sells those too, but its headline differentiator is the second half: formal verification . Before a policy change is applied, an SMT-based prover checks what the change would allow. That prover ships as a standalone CLI, openshell-prover , whose job is a boundary check: given a candidate policy and a boundary policy (the most access an environment allows), decide whether the candidate stays inside the boundary — and if not, produce a counterexample.",
-      "author": "frank chu",
-      "date": "2026-10-22",
+      "id": "feed-05d7ee0f8786",
+      "title": "Choosing type or interface by declaration merging and conflict diagnostics",
+      "excerpt": "A useful starting point for choosing type or interface is whether other declarations should be allowed to extend the same named contract. Both can describe ordinary objects, but adding declarations an…",
+      "body": "A useful starting point for choosing type or interface is whether other declarations should be allowed to extend the same named contract. Both can describe ordinary objects, but adding declarations and combining conflicting properties produce different diagnostics. Compiling small examples with TypeScript 7.0.2 gave these results: Operation Result Add a different property through another declaration of the same interface Declarations merge; the added property is also required Redeclare the same type name TS2300 Change id: string to id: number through interface extends TS2430 at the extending declaration Define { id: string } &amp; { id: number } Definition passes; id becomes never Assign { id: 1 } to that intersection TS2322 at the assignment Merging an interface also affects existing cons…",
+      "author": "hiro@",
+      "date": "2026-10-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 34,
-      "url": "https://dev.to/frankchu/i-built-openshells-z3-policy-prover-and-ran-29-checks-it-caught-everything-except-the-metadata-2ea0",
-      "image": "/images/feed/feed-01418a1363bb.webp",
+      "xpReward": 38,
+      "url": "https://dev.to/hirodeath/choosing-type-or-interface-by-declaration-merging-and-conflict-diagnostics-2ob8",
+      "image": "/images/feed/feed-05d7ee0f8786.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-387aabd2d785",
-      "title": "Yield Strategy Optimization Report: Ethena USDe",
-      "excerpt": "Yield Strategy Optimization Report: Ethena USDe Target Protocol: Ethena USDe (TVL: $4634.5M) Yield Strategy Optimization Report – Ethena USDe Prepared by: [Your Firm] – Senior DeFi Security Research &…",
-      "body": "Yield Strategy Optimization Report: Ethena USDe Target Protocol : Ethena USDe (TVL: $4634.5M) Yield Strategy Optimization Report – Ethena USDe Prepared by: [Your Firm] – Senior DeFi Security Research &amp; Auditing Team Date: 22 Oct 2026 1. Executive Summary Ethena USDe is a USD‑pegged stablecoin built on Ethereum and multiple L2 roll‑ups (Arbitrum, Optimism, zkSync). The protocol aggregates user deposits into a suite of yield‑generating strategies (e.g., lending on Aave, liquidity provision on Uniswap V3, structured products on GMX, and bespoke “fixed‑rate” vaults). As of the reporting date, USDe’s total value locked (TVL) is ≈ $4.63 B , making it one of the largest stablecoin ecosystems on L2.",
-      "author": "DannyDoes",
-      "date": "2026-10-22",
+      "id": "feed-fbca71179800",
+      "title": "Список подій для бінго не вліз у посилання, і що я зробив замість цього",
+      "excerpt": "Моє бінго на матч тримає всю гру в адресі сторінки. Картка — це чотирисимвольний код плюс бітова маска клітинок, які ти вже відмітив, тож посилання має вигляд #K7QM-1a2b. Воно переживає перезавантажен…",
+      "body": "Моє бінго на матч тримає всю гру в адресі сторінки. Картка — це чотирисимвольний код плюс бітова маска клітинок, які ти вже відмітив, тож посилання має вигляд #K7QM-1a2b . Воно переживає перезавантаження і навіть перехід із телефона на ноутбук. Як це влаштовано, я розповідав у попередній статті , і для футболу цього вистачало. Наступне бажання було передбачуване: хай люди пишуть власні події. Під Євробачення, під день народження. А раз картка вже живе в адресі, найлінивіший план — покласти туди ж і список подій. Цей план не пережив калькулятора. Адреса несе не літери Спершу я прикинув, що 35 подій дадуть посилання на 600–1000 символів. Довге, але його ж кидають у чат один раз і забувають. Тільки я рахував літери, а адреса несе байти, і події в мене українською.",
+      "author": "Oleksandr Alyoshin",
+      "date": "2026-10-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 43,
-      "url": "https://dev.to/dannydoes_2abdf9c/yield-strategy-optimization-report-ethena-usde-3ac4",
-      "image": "/images/feed/feed-387aabd2d785.webp",
+      "xpReward": 35,
+      "url": "https://dev.to/aalyoshin/spisok-podii-dlia-bingho-nie-vliz-u-posilannia-i-shcho-ia-zrobiv-zamist-tsogho-4ci4",
+      "image": "/images/feed/feed-fbca71179800.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-ebe54e5f8ea1",
-      "title": "A 3-State Cheap Large File Browser Multipart Upload Retention Ledger with Presigned Parts",
-      "excerpt": "TL;DR: Reproducible deletion changes the upload decision. For large training artifacts sent from a browser, use presigned multipart uploads when you can own a three-state record in your database: uplo…",
-      "body": "TL;DR: Reproducible deletion changes the upload decision. For large training artifacts sent from a browser, use presigned multipart uploads when you can own a three-state record in your database: uploading , retained , and deletion_due . Keep the bytes off the Node.js control plane, require every multipart session to complete or abort, and make retention a property of the application record rather than a promise inferred from the bucket. Choose tus or UploadThing when polished interruption recovery matters more than a small storage contract; choose AWS S3 when versioning, Object Lock, or deeper native governance is mandatory. The useful invariant is blunt: an artifact is not retained because its parts exist, and it is not deleted because a database row disappeared.",
-      "author": "HayesSterling2614",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/hayessterling2614/a-3-state-cheap-large-file-browser-multipart-upload-retention-ledger-with-presigned-parts-4ip",
-      "image": "/images/feed/feed-ebe54e5f8ea1.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-c3c5667dc521",
-      "title": "Infrastructure Exits and the AI Authenticity Tax",
-      "excerpt": "This week's stories share one theme: trust under transition. Two infrastructure providers are leaving markets, GitHub is rebuilding its storage layer for agent-scale load, and two pieces ask how much…",
-      "body": "This week's stories share one theme: trust under transition. Two infrastructure providers are leaving markets, GitHub is rebuilding its storage layer for agent-scale load, and two pieces ask how much of what you read was written by a person. Quad9 pulls its DNS resolver out of France Quad9, the privacy-focused public DNS resolver, announced it will withdraw from France. The decision ends a long-running legal dispute over whether the resolver must block sites at the DNS level. If you point systems or users at Quad9, plan a migration. The resolver IP 9.9.9.9 may appear in router configs, deployment scripts, or internal docs, and each reference needs review. Network admins and anyone serving French traffic should pick a fallback and compare filtering policies.",
-      "author": "RobustTrueTry",
-      "date": "2026-10-22",
+      "id": "feed-fd1d725becdc",
+      "title": "🚨 Anthropic Just Dropped \"Claude Duet\" and It's the Most Proactive AI Yet (Here's How It Works)",
+      "excerpt": "If you've been using AI tools to summarize text or generate code, you know the drill: you talk, the AI responds, and nothing happens unless you ask for it. But on October 21, 2026, Anthropic completel…",
+      "body": "If you've been using AI tools to summarize text or generate code, you know the drill: you talk, the AI responds, and nothing happens unless you ask for it. But on October 21, 2026, Anthropic completely flipped that dynamic with the release of Claude Duet . Currently in a waitlisted research preview for Pro and Max users in the US, Claude Duet isn't just a chatbot—it is a proactive agent powered by Opus 5.5. It doesn't wait for your instructions. It monitors your work, builds out tasks on its own virtual machine, and then taps you on the shoulder when it needs your approval. Here is a breakdown of why this is Anthropic's answer to Meta's Muse, and how its architecture shifts us away from prompt-engineering into true autonomous delegation.",
+      "author": "Siddhesh Surve",
+      "date": "2026-10-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
@@ -91,47 +72,296 @@
       ],
       "featured": true,
       "xpReward": 53,
-      "url": "https://dev.to/robust_true_try/infrastructure-exits-and-the-ai-authenticity-tax-5fl7",
-      "image": "/images/feed/feed-c3c5667dc521.webp",
+      "url": "https://dev.to/siddhesh_surve/anthropic-just-dropped-claude-duet-and-its-the-most-proactive-ai-yet-heres-how-it-works-11ig",
+      "image": "/images/feed/feed-fd1d725becdc.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-5a8a72ae3a22",
-      "title": "Looking for a Freelance DevOps Engineer (Remote)",
-      "excerpt": "Hey everyone, We’re currently looking for a freelance DevOps engineer to help us with our cloud infrastructure. The role is fully remote and we’re flexible with hours. Budget is around $3,000 to $4,00…",
-      "body": "Hey everyone, We’re currently looking for a freelance DevOps engineer to help us with our cloud infrastructure. The role is fully remote and we’re flexible with hours. Budget is around $3,000 to $4,000 USD per month depending on your experience and how much time you can commit. What we need: Solid experience with AWS (EC2, ECS, S3, RDS, Lambda.. the usual suspects) Comfortable working with CI/CD pipelines.",
-      "author": "Christian Reyes",
-      "date": "2026-10-22",
+      "id": "feed-0a7aaadf392f",
+      "title": "How a Minecraft seed map predicts your world, and how to read one without getting misled",
+      "excerpt": "Disclosure: I built and run MCSeedLore, a browser-based seed map for Minecraft Java. It's an independent tool and isn't affiliated with Mojang or Microsoft. A seed map looks like magic the first time…",
+      "body": "Disclosure: I built and run MCSeedLore , a browser-based seed map for Minecraft Java. It's an independent tool and isn't affiliated with Mojang or Microsoft. A seed map looks like magic the first time you use one. You paste a number, and a map of a world you've never opened shows up with villages, strongholds and slime chunks already marked. There's no trick to it, though, and once you see how it works it's much easier to tell when a marker deserves your trust and when it doesn't. This post covers the \"how\", then the practical side: correct input, finding structures, slime farms, and the limits that catch people out. The examples use MCSeedLore because I can speak for its internals, but the ideas apply to any seed map.",
+      "author": "yksalun",
+      "date": "2026-10-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Devops"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/christian_reyes_83ddc0dfa/looking-for-a-freelance-devops-engineer-remote-o0b",
-      "image": "/images/feed/feed-5a8a72ae3a22.webp",
+      "xpReward": 48,
+      "url": "https://dev.to/yksalun/how-a-minecraft-seed-map-predicts-your-world-and-how-to-read-one-without-getting-misled-i48",
+      "image": "/images/feed/feed-0a7aaadf392f.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-676f3c99c589",
-      "title": "Market Analysis: The Transition from AI Speculation to ROI-Driven Realism and its Implications for Digital Asset Vola...",
-      "excerpt": "The recent retreat of Bitcoin from its $85,000 peak, coupled with the market’s lukewarm reaction to the earnings reports of technology titans such as Tesla and Meta, signals a fundamental structural s…",
-      "body": "The recent retreat of Bitcoin from its $85,000 peak, coupled with the market’s lukewarm reaction to the earnings reports of technology titans such as Tesla and Meta, signals a fundamental structural shift in investor sentiment. We are moving away from an era of \"speculative expectation\" and entering a \"post-hype\" phase characterized by a rigorous demand for realized Return on Discretionary Investment (ROI). The market is no longer merely rewarding the adoption of Artificial Intelligence; it is now scrutinizing the economic viability of the massive capital expenditures (CapEx) required to sustain it.",
-      "author": "株式会社KSP",
-      "date": "2026-10-22",
+      "id": "feed-d487393de24e",
+      "title": "LinkMD: copy the current page as a Markdown link in one click",
+      "excerpt": "One click or Alt+Shift+M copies the current page as a Markdown link, [title](url). If text is selected, it copies it as a quote above the link. Great for notes, Obsidian, GitHub issues and Discord Per…",
+      "body": "One click or Alt+Shift+M copies the current page as a Markdown link, [title](url) . If text is selected, it copies it as a quote above the link. Great for notes, Obsidian, GitHub issues and Discord Permissions: activeTab , scripting , clipboardWrite , used only when you click Install Download linkmd.zip from the latest release . Chrome / Brave / Edge: unzip, open chrome://extensions , turn on Developer mode, click \"Load unpacked\" and pick the folder. Firefox: open about:debugging#/runtime/this-firefox , click \"Load Temporary Add-on\" and pick manifest.json from the unzipped folder. Privacy No data is collected, stored remotely or sent anywhere. No analytics, no network requests. Support Bugs and ideas: open an issue.",
+      "author": "Black",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 48,
+      "url": "https://dev.to/blackspectre512/linkmd-copy-the-current-page-as-a-markdown-link-in-one-click-335c",
+      "image": "/images/feed/feed-d487393de24e.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-8319e349682d",
+      "title": "WAV vs FLAC: How to Check Whether Smaller Files Contain the Same Audio",
+      "excerpt": "You have a finished audio file to store or hand over. FLAC can be smaller than WAV, but file size alone cannot tell you whether the exported audio stayed the same. A useful check compares the decoded…",
+      "body": "You have a finished audio file to store or hand over. FLAC can be smaller than WAV, but file size alone cannot tell you whether the exported audio stayed the same. A useful check compares the decoded samples in a common representation. I'm Alex from the Creatune team. I used the logged-out Creatune Audio Converter to export the same self-created six-second test tone as WAV and FLAC, then inspected both files with FFmpeg. This is a file and sample comparison, not a listening test or a claim about every possible input. What the two formats store A WAV container commonly carries uncompressed PCM audio. FLAC compresses audio losslessly: decoding a correctly encoded FLAC stream recovers the samples represented by that stream.",
+      "author": "Alex Creatune",
+      "date": "2026-10-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": false,
-      "xpReward": 47,
-      "url": "https://dev.to/ksp_fc16f85860b36c9a9/market-analysis-the-transition-from-ai-speculation-to-roi-driven-realism-and-its-implications-for-hm8",
-      "image": "/images/feed/feed-676f3c99c589.webp",
+      "xpReward": 46,
+      "url": "https://dev.to/creatunealex/wav-vs-flac-how-to-check-whether-smaller-files-contain-the-same-audio-25an",
+      "image": "/images/feed/feed-8319e349682d.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-6ed25579696a",
+      "title": "How to unlock the full Weeping Creek Valley map in Phantom Blade Zero",
+      "excerpt": "Here's how to enter every optional, shrouded area on the first Phantom Blade Zero map",
+      "body": "To unlock the full Weeping Creek Valley map in Phantom Blade Zero , you must explore three optional areas, including the land west of the Outpost and the Creek Valley Plains. To unfog the most mysterious spots on the first map, you may have to progress in the main story further than you think.",
+      "author": "Marloes Valentina Stella",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.polygon.com/phantom-blade-zero-how-to-unlock-the-full-weeping-creek-valley-map/",
+      "image": "/images/feed/feed-6ed25579696a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b6d397c9a5f4",
+      "title": "Apple is finally catching up with Siri, but the goalposts are moving again",
+      "excerpt": "9to5Mac is brought to you by Memoket: Memoket Gem is a 0.4 oz AI wearable that slots beside your Apple Watch. One press captures a conversation, and KITE memory connects it to what you said weeks ago.…",
+      "body": "9to5Mac is brought to you by Memoket : Memoket Gem is a 0.4 oz AI wearable that slots beside your Apple Watch. One press captures a conversation, and KITE memory connects it to what you said weeks ago. 20-hour battery. Available now from $168.99 on memoket.ai and Amazon. While it is great that Siri AI can finally deliver Apple’s promise of an actually useful, personal assistant for the age of AI, expectations surrounding agentic assistants are quickly shifting. But Apple is showing it might not watch from the sidelines again. more…",
+      "author": "Marcus Mendes",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://9to5mac.com/2026/10/22/apple-is-finally-catching-up-with-siri-but-the-goalposts-are-moving-again/",
+      "image": "/images/feed/feed-b6d397c9a5f4.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-8d6aa08d7b01",
+      "title": "WhatsApp starts testing long-awaited scheduled messages on iPhone",
+      "excerpt": "After years of waiting, WhatsApp is finally making one of its most-requested messaging features available to select iPhone beta testers. Here are the details. more…",
+      "body": "After years of waiting, WhatsApp is finally making one of its most-requested messaging features available to select iPhone beta testers. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://9to5mac.com/2026/10/22/whatsapp-starts-testing-long-awaited-scheduled-messages-on-iphone/",
+      "image": "/images/feed/feed-8d6aa08d7b01.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-1789aabe4757",
+      "title": "ANALYSIS: Solar & Storage Growth Drives Down Summer Wholesale Electricity Prices by 42% in Texas & 51% in California",
+      "excerpt": "New analysis shows how solar and storage are lowering electricity costs in red and blue states as affordability takes center stage heading into the midterm elections. WASHINGTON D.C. — As energy affor…",
+      "body": "New analysis shows how solar and storage are lowering electricity costs in red and blue states as affordability takes center stage heading into the midterm elections. WASHINGTON D.C. — As energy affordability emerges as a defining issue heading into the midterm elections, new analysis from the Solar Energy Industries Association ... [continued] The post ANALYSIS: Solar &#038; Storage Growth Drives Down Summer Wholesale Electricity Prices by 42% in Texas &#038; 51% in California appeared first on CleanTechnica .",
+      "author": "Guest Contributor",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://cleantechnica.com/2026/10/22/analysis-solar-storage-growth-drives-down-summer-wholesale-electricity-prices-by-42-in-texas-51-in-california/",
+      "image": "/images/feed/feed-1789aabe4757.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-3196c4fecb3d",
+      "title": "Wo Long 2: Wings of Ember Gets Wuxia… and Let Me Fight a Horrific Spider Thing | IGN Preview",
+      "excerpt": "Wo Long 2: Wings of Ember is shaping up to be an interesting sequel that combines elements of Team Ninja’s action game expertise with the Three Kingdoms games’ penchant for strategy.",
+      "body": "Key Preview Takeaways: Visually, Wo Long 2 is a beautiful game. No stamina gauge means faster action. I love that the combat system encouraged me to be aggressive and chase perfection. I have a confession to make, friends: I’ve never played the original Wo Long. I know, I know. Dust off your pitchforks, light your torches. I have it coming in the same way that we all do. “How could you, Will? You’re an action game guy!” Listen, I’m of the opinion that Team Ninja is one of the best to ever do it. Maybe even the best . But everybody’s got blind spots. That’s what I told myself as a giant spider thing with weird arms named Wugu who I’m sure would have been easier if I’d played the original smashed me into the ground for the umpteenth time. I was also coming into the fight cold.",
+      "author": "Ryan McCaffrey",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.ign.com/articles/wo-long-2-wings-of-ember-gets-wuxia-and-let-me-fight-a-horrific-spider-thing-ign-preview",
+      "image": "/images/feed/feed-3196c4fecb3d.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-be1ad32d8cc0",
+      "title": "Clayface Ending Explained",
+      "excerpt": "The new movie Clayface marks the live-action film debut of the classic Batman villain but fans are obviously wondering if the film also introduces the DCU’s incarnation of the Caped Crusader. We’re go…",
+      "body": "Let&#39;s make this simple: You want to know if there are any mid- or post-credits scenes in Clayface . The answer is no. Full SPOILERS for the movie follow! The new movie Clayface marks the live-action film debut of the classic Batman villain but fans are obviously wondering if the film also introduces the DCU’s incarnation of the Caped Crusader. It does not. We’re gonna dive into how Clayface ends, how the character’s design was created for the film, and yes, the Batman of it all… so read on! Is Batman in Clayface? While Batman is never even mentioned here, the movie does feature a scene set at the Wayne Community Centre. But let’s be clear: Batman already exists in Clayface’s Gotham City and in the DCU at large.",
+      "author": "Jim Vejvoda",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.ign.com/articles/clayface-ending-explained-batman-dcu",
+      "image": "/images/feed/feed-be1ad32d8cc0.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-34b410a107d8",
+      "title": "Sierra Club Applauds Approval for Ameren Missouri’s New Solar & Storage Projects",
+      "excerpt": "ST. LOUIS, Mo. — Yesterday, the Missouri Public Service Commission (PSC) approved Ameren Missouri’s proposal to build solar and storage projects. The Sierra Club and its members supported the projects…",
+      "body": "ST. LOUIS, Mo. — Yesterday, the Missouri Public Service Commission (PSC) approved Ameren Missouri’s proposal to build solar and storage projects. The Sierra Club and its members supported the projects at public hearings around the state. Renewable energy remains the cheapest way to generate electricity, while coal and fossil fuels remain ... [continued] The post Sierra Club Applauds Approval for Ameren Missouri’s New Solar &#038; Storage Projects appeared first on CleanTechnica .",
+      "author": "Sierra Club",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://cleantechnica.com/2026/10/22/sierra-club-applauds-approval-for-ameren-missouris-new-solar-storage-projects/",
+      "image": "/images/feed/feed-34b410a107d8.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-2b70d23d0030",
+      "title": "Apple wins again in copyright infringement battle over Apple TV thriller series",
+      "excerpt": "The United States Court of Appeals for the Ninth Circuit today upheld a verdict from early last year that cleared Apple of allegations that one of its hit thriller series was copied from an independen…",
+      "body": "The United States Court of Appeals for the Ninth Circuit today upheld a verdict from early last year that cleared Apple of allegations that one of its hit thriller series was copied from an independen — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://9to5mac.com/2026/10/22/apple-wins-again-in-copyright-infringement-battle-over-apple-tv-thriller-series/",
+      "image": "/images/feed/feed-2b70d23d0030.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-746c2c3dac92",
+      "title": "Tesla Q4 numbers, more product delays, and some REAL EV charging innovation",
+      "excerpt": "On today’s numerically-infused episode of Quick Charge, we take a look at all the latest product and delivery delays from Tesla’s Q3 earnings call before changing lanes and recapping some of the bigge…",
+      "body": "On today’s numerically-infused episode of Quick Charge, we take a look at all the latest product and delivery delays from Tesla’s Q3 earnings call before changing lanes and recapping some of the bigge — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev Charging, Tesla, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jo Borrás",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev Charging",
+        "Tesla",
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://electrek.co/2026/10/22/tesla-q4-numbers-more-product-delays-and-some-real-ev-charging-innovation/",
+      "image": "/images/feed/feed-746c2c3dac92.png",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-9b329b827347",
+      "title": "Another megawatt-level charger enters China: 300 miles in 5 minutes",
+      "excerpt": "Chery has announced a 1.44 megawatt charging system, able to deliver 500km (311 miles) in 5 minutes. And it’s not even the fastest system available in China. more…",
+      "body": "Chery has announced a 1.44 megawatt charging system, able to deliver 500km (311 miles) in 5 minutes. And it’s not even the fastest system available in China. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jameson Dow",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://electrek.co/2026/10/22/another-megawatt-level-charger-enters-china-300-miles-in-5-minutes/",
+      "image": "/images/feed/feed-9b329b827347.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-92de3bec2a9b",
+      "title": "Save $50 Off the Endlessly Useful ASUS ZenScreen 16\" 1080p Portable USB Monitor Ahead of Black Friday",
+      "excerpt": "Doubles as a secondary monitor for your laptop or a portable display for your Nintendo Switch or Steam Deck.",
+      "body": "It&#39;s no surprise why USB portable monitors are becoming so popular. They provide extra screen real estate for laptop users and they&#39;re much slimmer and lighter than your average monitor so you can carry them around. Many newer laptops now have USB ports that can power the monitor so that you don&#39;t even need to plug it into an outlet. In addition to boosting productivity on a laptop, the monitor also works as a totable display for your Nintendo Switch. Talk about convenience! Ahead of Black Friday, Amazon is offering the ASUS ZenScreen 15.6&quot; USB Portable Monitor (MB16AHV) for just $99 with free shipping after a $50 off instant discount.",
+      "author": "Eric Song",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.ign.com/articles/asus-zenscreen-usb-portable-monitor-deal-october-2026",
+      "image": "/images/feed/feed-92de3bec2a9b.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-5edcd3e9c88e",
+      "title": "The Acer Nitro  RX 9060 XT Gaming PC Offers Great 1440p Gaming Performance for Just $1,200",
+      "excerpt": "The equipped Radeon RX 9060 XT GPU is the preferred 16GB variant.",
+      "body": "If you&#39;re looking for a capable gaming PC at a solid budget price, you can&#39;t do much better than this deal. For this week only, Best Buy is offering an Acer Nitro 65 gaming PC with AMD Radeon RX 9060 XT 16GB graphics card for just $1,199.99 with free shipping. The RX 9060 XT graphics card is the superior 16GB VRAM variant that will run even the most recently released games smoothly at 60fps+ at up to 1440p. Save $350 off Acer Nitro 65 RX 9060 XT (16GB) Gaming PC The Acer Nitro 65 is equipped with an air-cooled AMD Ryzen 7 8700F CPU, Radeon RX 9060 XT 16GB GPU, 16GB of DDR5 RAM, and a 1TB NVMe SSD. The AMD Ryzen 7 8700F CPU is an 8-core, 16 thread processor with a max boost clock of 5GHz. It&#39;s a good CPU for gaming because of its high clock speed.",
+      "author": "Eric Song",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.ign.com/articles/acer-nitro-radeon-rx-9060-xt-gaming-pc-deal-october-2026",
+      "image": "/images/feed/feed-5edcd3e9c88e.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -147,7 +377,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 54,
       "url": "https://9to5mac.com/2026/10/22/strava-revamps-route-discovery-with-smarter-search-offline-improvements-more/",
       "image": "/images/feed/feed-dd1e483043be.jpg",
       "source": "9to5Mac",
@@ -166,7 +396,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 43,
       "url": "https://9to5mac.com/2026/10/22/retro-game-emulator-delta-looks-great-on-the-iphone-duo/",
       "image": "/images/feed/feed-55b49917b54c.jpg",
       "source": "9to5Mac",
@@ -185,7 +415,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 34,
       "url": "https://www.polygon.com/cyberpunk-2077-replay-ideas/",
       "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22172943/lelfskpwy4slftl3qdeb__1_.png",
       "source": "Polygon",
@@ -204,7 +434,7 @@
         "Xbox"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 53,
       "url": "https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial",
       "image": "/images/feed/feed-0dbe7838c9bb.jpg",
       "source": "The Verge",
@@ -223,7 +453,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 43,
       "url": "https://www.cnet.com/science/hugging-face-announces-ai-model-to-chat-with-dna/",
       "image": "/images/feed/feed-d3a70dbe1dae.jpg",
       "source": "CNET",
@@ -242,48 +472,10 @@
         "Macbook"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 39,
       "url": "https://9to5mac.com/2026/10/22/macbook-neo-helps-apple-soften-the-blow-of-global-pc-market-downturn-per-report/",
       "image": "/images/feed/feed-4897e566cd7c.jpg",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-9b2a94a0af53",
-      "title": "9to5Mac Daily: October 22, 2026 – iOS 27.2 features, Apple Music rebrand",
-      "excerpt": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca…",
-      "body": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-      "author": "Seth Kurkowski",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://9to5mac.com/2026/10/22/daily-october-22-2026/",
-      "image": "/images/feed/feed-9b2a94a0af53.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-bbf8e705db07",
-      "title": "'Mass Effect Universe' Leak Promised What Fans Have Waited Decades For",
-      "excerpt": "BioWare's canceled Mass Effect Universe game would have paid off a long-standing fan request, and fans are mourning the game's death.",
-      "body": "If fans were already sad about BioWare closing down , they're shattered after watching the leaked trailer for Mass Effect Universe . Sure, the trailer was short and a little cheesy — but it could have also signaled a return to form for the stagnant franchise. And at the heart of every good Mass Effect game is a crew of characters that you get to know as the adventure unfolds.",
-      "author": "Patricia Hernandez",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.polygon.com/mass-effect-universe-new-characters-male-quarian-asari-krogan-aliens/",
-      "image": "/images/feed/feed-bbf8e705db07.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -299,29 +491,10 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 46,
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "image": "/images/feed/feed-c4c762c6b747.jpg",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-5d31394dd069",
-      "title": "YouTube removing ‘Subscriptions’ bottom bar tab on Android, iOS after nearly a decade",
-      "excerpt": "YouTube is making a number of changes to its Android and iOS apps with the launch of custom feeds, including moving Subscriptions out of the bottom bar. more…",
-      "body": "YouTube is making a number of changes to its Android and iOS apps with the launch of custom feeds, including moving Subscriptions out of the bottom bar. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "9to5Google",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
       "xpReward": 35,
-      "url": "https://9to5google.com/2026/10/22/youtube-subscriptions-android-ios/",
-      "image": "/images/feed/feed-5d31394dd069.jpg",
-      "source": "9to5Mac",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "image": "/images/feed/feed-c4c762c6b747.webp",
+      "source": "TechCrunch",
       "isLive": true
     },
     {
@@ -337,7 +510,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 49,
       "url": "https://electrek.co/2026/10/22/sonnen-files-for-insolvency-in-germany-as-us-sales-double/",
       "image": "/images/feed/feed-9cc5d7923782.jpg",
       "source": "Electrek",
@@ -356,48 +529,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 31,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/europes-space-rider-vehicle-comes-crashing-down-during-drop-test",
       "image": "/images/feed/feed-f496c3be2df4.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-218268e552d0",
-      "title": "Amazon Has a Sale on Magic: The Gathering Booster Boxes Even Before Black Friday Kicks Off",
-      "excerpt": "Save on Magic: The Gathering Play Booster Boxes at Amazon ahead of Black Friday, with discounts on Marvel, The Hobbit, and unreleased Star Trek sets.",
-      "body": "Has Magic: The Gathering ever been as popular as it is right now? It feels like the long-running card game is having a bit of a moment in terms of bringing fresh players in via its ever-growing roster of Universes Beyond crossover properties. Rightly or wrongly, that means there are more people looking to build collections, whether they’re playing or collecting the cards, and it just so happens that Amazon has rolled out some price cuts on Play Booster Boxes - including the Star Trek one at 26% off just weeks before it even launches . It’s worth reminding you that these are Play Booster Boxes, as opposed to Collector Booster ones. Aside from a massive difference in price, Collector Boosters are where you’ll find the most valuable cards in each set.",
-      "author": "Robert Anderson",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.ign.com/articles/magic-the-gathering-booster-box-deals-amazon-black-friday-early-deals",
-      "image": "/images/feed/feed-218268e552d0.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-486e0c09f3f3",
-      "title": "Nintendo Switch 2 jailbreak discovery could open the door to a world of mods",
-      "excerpt": "An obscure game has provided an unlikely route into Nintendo's latest console.",
-      "body": "Credit: Pepsipu.com TL;DR A developer has released a software-only Nintendo Switch 2 jailbreak that works on the latest firmware. The exploit uses vulnerabilities involving SmileBASIC 4 and has already been demonstrated with Mario Kart World mods. The jailbreak isn’t permanent and doesn’t yet provide full control over the console. Unsurprisingly, Nintendo hasn’t exactly made life easy for anyone hoping to tinker with the Switch 2 beyond its intended limits. But one developer has now made a significant breakthrough, releasing a software-only Switch 2 jailbreak that works even on the console’s latest firmware. Security researcher Sammy Hajhamid, who goes by pepsipu online, announced the achievement on X and explained how it works in a detailed blog post .",
-      "author": "Matt Horne",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.androidauthority.com/nintendo-switch-2-software-jailbreak-3727013/",
-      "image": "/images/feed/feed-486e0c09f3f3.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -413,7 +548,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 41,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
       "image": "/images/feed/feed-73f803029b01.png",
       "source": "The Verge",
@@ -434,7 +569,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 41,
       "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
       "image": "/images/feed/feed-c09fc228e4d9.jpg",
       "source": "NASA Breaking News",
@@ -453,29 +588,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 41,
       "url": "https://www.nasa.gov/image-article/spirals-edge/",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/hubble-ngc1827-1-flat-final.jpg",
       "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-7e8402f42651",
-      "title": "Young Sheldon Star Annie Potts Says She Was a ‘Little Sad’ About Jim Parsons Cameo as 'Mean and Unchanged' Sheldon in Show's Finale",
-      "excerpt": "Annie Potts, who portrayed a younger version of Sheldon’s Meemaw on Young Sheldon, revealed how she felt about the show’s finale, disagreeing with how adult Sheldon remained \"mean and unchanged\" in Pa…",
-      "body": "Annie Potts, who portrayed a younger version of Sheldon’s Meemaw on Young Sheldon, revealed how she felt about the show’s finale, disagreeing with how adult Sheldon remained &quot;mean and unchanged&quot; in Parsons&#39; finale cameo. The end of Young Sheldon — the seven-season-long Big Bang Theory Spinoff show — was rife with drama. Its abrupt ending was reportedly revealed to cast members in a Zoom call, with Potts saying she felt “blindsided” by the decision and went &quot;full Meemaw” on the series’ producers. She elaborated on these feelings in a book authored by Jessica Radloff titled Young Sheldon: The (Juicier-Than-Meemaw’s-Brisket) Inside Story of the Hit Comedy, where she described her reaction to Jim Parson’s cameo at the end of the final episode as a grown-up Sheldon.",
-      "author": "Virginia Glaze",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.ign.com/articles/young-sheldon-star-annie-potts-says-she-was-a-little-sad-about-jim-parsons-cameo-as-mean-and-unchanged-sheldon-in-shows-finale",
-      "image": "/images/feed/feed-7e8402f42651.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -491,7 +607,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 45,
       "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
       "image": "/images/feed/feed-ffa405e4fb5e.jpg",
       "source": "BleepingComputer",
@@ -510,7 +626,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 40,
       "url": "https://electrek.co/2026/10/22/tesla-skipped-hw3-shareholder-question-earnings-call/",
       "image": "/images/feed/feed-4d56bf78c5bb.jpg",
       "source": "Electrek",
@@ -530,7 +646,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 41,
       "url": "https://www.cnet.com/tech/services-and-software/anthropic-claude-duet-ai-agent-app-professional/",
       "image": "/images/feed/feed-fbefb69ef914.png",
       "source": "CNET",
@@ -549,29 +665,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 37,
       "url": "https://electrek.co/2026/10/22/byd-launch-luxury-ev-suv-623-miles-range/",
       "image": "/images/feed/feed-1a51bd40bab5.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-60dbc9ace46b",
-      "title": "Half-Life 3 Rumors Reignite After Valve Employee Lets Codename Slip",
-      "excerpt": "A Valve employee just casually mentioned Half-Life 3's rumored codename HLX in public, reigniting rumors that the shooter is returning.",
-      "body": "It's been two decades since we last checked in on Gordon Freeman in Half-Life 2: Episode Two , with the promise of a third Half-Life game languishing for an absurdly long time. In the intervening years, Valve has neither confirmed nor denied a third mainline Half-Life game, though the secretive studio is rumored to have canceled at least one attempt to make Half-Life 3 . Surprisingly, there's fresh evidence of a new Half-Life game directly from Valve, though the person revealing that information seemingly didn't intend to.",
-      "author": "Michael McWhertor",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.polygon.com/valve-half-life-3-hlx/",
-      "image": "/images/feed/feed-60dbc9ace46b.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -588,88 +685,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 34,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-22-2026",
       "image": "/images/feed/feed-8ff9e1679d4d.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-16674a8ce565",
-      "title": "'Clayface' Officially Sets Up Another Iconic Batman Villain in the DC Universe",
-      "excerpt": "Clayface is filled with some very noticible Easter eggs about the Joker",
-      "body": "Back in the summer of 2025, Clayface was filming in Liverpool. Photos from the set revealed a reference to another, far more famous Batman villain. One featured a wall with graffiti on it, and among the different tags was one that read “The Jokers.” That led to some speculation about Joker’s presence in the DC Universe ’s Gotham.",
-      "author": "Brian VanHooker",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.polygon.com/clayface-joker-easter-eggs/",
-      "image": "/images/feed/feed-16674a8ce565.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-ea832d81ddc9",
-      "title": "Seattle plans 200 curbside EV charging stations – and you can request one",
-      "excerpt": "Seattle plans to add up to 200 public curbside Level 2 EV charging stations by 2030, and residents can now request one near their home or apartment. more…",
-      "body": "Seattle plans to add up to 200 public curbside Level 2 EV charging stations by 2030, and residents can now request one near their home or apartment. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev Charging, Charging Station, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michelle Lewis",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev Charging",
-        "Charging Station",
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://electrek.co/2026/10/22/seattle-plans-200-curbside-ev-charging-stations-and-you-can-request-one/",
-      "image": "/images/feed/feed-ea832d81ddc9.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-a386fd1175e5",
-      "title": "BMW is already discounting the new iX5 with a $1,000 loyalty bonus",
-      "excerpt": "The iX5 is set to go on sale in early 2027, but BMW is already offering a loyalty discount to sweeten the deal for those looking to stay with the brand. more…",
-      "body": "The iX5 is set to go on sale in early 2027, but BMW is already offering a loyalty discount to sweeten the deal for those looking to stay with the brand. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://electrek.co/2026/10/22/bmw-discounting-new-ix5-1000-loyalty-bonus/",
-      "image": "/images/feed/feed-a386fd1175e5.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-52b279706021",
-      "title": "‘Propulsion-Agnostic’: GM Wants To Bring Tesla-Style Software Features To Its Gas SUVs, Too",
-      "excerpt": "Its next-generation EVs will offer security camera functionality and autonomous driving. But its gas SUVs won’t get left behind.",
-      "body": "Its next-generation EVs will offer security camera functionality and autonomous driving. But its gas SUVs won’t get left behind.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://insideevs.com/features/812982/gm-software-platform-powertrain-agnostic/",
-      "image": "/images/feed/feed-52b279706021.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -685,7 +704,7 @@
         "Satellite"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 39,
       "url": "https://www.space.com/space-exploration/satellites/after-starshield-interruption-ukraine-wants-to-build-its-own-satellite-communication-network-with-iceye-and-nokia",
       "image": "/images/feed/feed-ba555e1b0856.jpg",
       "source": "Space.com",
@@ -704,7 +723,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 40,
       "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
       "image": "/images/feed/feed-d7dcc58ca817.jpg",
       "source": "The Verge",
@@ -724,7 +743,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 41,
       "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
       "image": "/images/feed/feed-ae68176692c6.jpg",
       "source": "BleepingComputer",
@@ -743,29 +762,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 49,
       "url": "https://www.space.com/stargazing/solar-eclipses/the-2027-total-solar-eclipse-will-plunge-these-10-ancient-egyptian-temples-and-monuments-into-darkness",
       "image": "/images/feed/feed-91faef60edee.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-983f615ca484",
-      "title": "Tesla now says it needs its own maps for FSD after years of dismissing maps",
-      "excerpt": "Tesla says it’s building its own maps to fix some of the most common problems with its “Full Self-Driving” system, including reading speed limits, parking, and choosing routes. The company’s head of A…",
-      "body": "Tesla says it’s building its own maps to fix some of the most common problems with its “Full Self-Driving” system, including reading speed limits, parking, and choosing routes. The company’s head of AI described the effort on Tesla’s Q3 2026 earnings call. It’s a notable shift for a company whose CEO spent years arguing that self-driving systems relying on maps are brittle. And it shows Tesla’s fleet is now doing the same job Waymo’s cars do: mapping the roads so the self-driving system knows what it can’t reliably figure out on its own.",
-      "author": "Fred Lambert",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://electrek.co/2026/10/22/tesla-building-own-maps-fsd-after-mocking-maps/",
-      "image": "/images/feed/feed-983f615ca484.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -781,7 +781,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 35,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
       "image": "/images/feed/feed-35bbd93e4e1d.jpg",
       "source": "The Verge",
@@ -800,7 +800,7 @@
         "Malware"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 38,
       "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
       "image": "/images/feed/feed-d6d146b01409.jpg",
       "source": "BleepingComputer",
@@ -819,7 +819,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 40,
       "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
       "image": "/images/feed/feed-016003dbbe50.jpg",
       "source": "The Hacker News",
@@ -839,7 +839,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 38,
       "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
       "image": "/images/feed/feed-9de880d320c9.jpg",
       "source": "The Hacker News",
@@ -858,7 +858,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 54,
       "url": "https://openai.com/index/decisions-api",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -877,7 +877,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 54,
       "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
       "image": "/images/feed/feed-8e6cfc22204f.webp",
       "source": "TechCrunch",
@@ -896,9 +896,9 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 33,
       "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
-      "image": "/images/feed/feed-dfbd4bb3a83d.webp",
+      "image": "/images/feed/feed-dfbd4bb3a83d.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -915,7 +915,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 43,
       "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
       "image": "/images/feed/feed-9df6d7212b2e.jpg",
       "source": "The Hacker News",
@@ -934,7 +934,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 41,
       "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
       "image": "/images/feed/feed-73f5f9254af1.webp",
       "source": "TechCrunch",
@@ -942,16 +942,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: eMudhra quit the CA business today. I checked your trust store — its roots are still in it.",
-    "DEV.TO: I built OpenShell's Z3 policy prover and ran 29 checks. It caught everything except the metadata address.",
-    "DEV.TO: Yield Strategy Optimization Report: Ethena USDe",
-    "DEV.TO: A 3-State Cheap Large File Browser Multipart Upload Retention Ledger with Presigned Parts",
-    "DEV.TO: Infrastructure Exits and the AI Authenticity Tax",
-    "DEV.TO: Looking for a Freelance DevOps Engineer (Remote)",
-    "DEV.TO: Market Analysis: The Transition from AI Speculation to ROI-Driven Realism and its Implications for Digital Asset Vola...",
-    "9TO5MAC: Strava revamps route discovery with smarter search, offline improvements, more",
-    "9TO5MAC: Retro game emulator Delta looks great on the iPhone Duo",
-    "POLYGON: 8 Cyberpunk 2077 Replay Ideas to Make Night City Feel Brand New"
+    "DEV.TO: Can Your VP of Engineering Crash Your Sprint Retrospective?",
+    "DEV.TO: Choosing type or interface by declaration merging and conflict diagnostics",
+    "DEV.TO: Список подій для бінго не вліз у посилання, і що я зробив замість цього",
+    "DEV.TO: 🚨 Anthropic Just Dropped \"Claude Duet\" and It's the Most Proactive AI Yet (Here's How It Works)",
+    "DEV.TO: How a Minecraft seed map predicts your world, and how to read one without getting misled",
+    "DEV.TO: LinkMD: copy the current page as a Markdown link in one click",
+    "DEV.TO: WAV vs FLAC: How to Check Whether Smaller Files Contain the Same Audio",
+    "POLYGON: How to unlock the full Weeping Creek Valley map in Phantom Blade Zero",
+    "9TO5MAC: Apple is finally catching up with Siri, but the goalposts are moving again",
+    "9TO5MAC: WhatsApp starts testing long-awaited scheduled messages on iPhone"
   ],
   "sectionVideos": {}
 }
