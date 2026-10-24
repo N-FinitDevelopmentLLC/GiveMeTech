@@ -1,13 +1,32 @@
 {
-  "fetchedAt": "2026-10-23T21:45:13.979Z",
+  "fetchedAt": "2026-10-24T00:07:45.197Z",
   "articles": [
     {
-      "id": "feed-d64f53ac41d4",
-      "title": "Every question on my IELTS site has to survive a blind solver first",
-      "excerpt": "Disclosure: this post was written with an AI assistant, working from the project's code and docs. I run ultraielts, a free site where people preparing for IELTS take full mock tests in the computer-de…",
-      "body": "Disclosure: this post was written with an AI assistant, working from the project's code and docs. I run ultraielts , a free site where people preparing for IELTS take full mock tests in the computer-delivered format. The interface is in Turkish because that's who it's for. The tests are in English, as on the real exam. The worst bug a practice test can have isn't a crash. It's a question with two defensible answers, or an answer key that's simply wrong. A student marks NOT GIVEN, the key says FALSE, and from then on they stop trusting every score the site gives them. The tests on the site are original (written for it, no third-party material), and a pipeline helps write them, so I needed a check that is stricter than me rereading the key at 2 a.m.",
-      "author": "Ahmet Koc",
-      "date": "2026-10-23",
+      "id": "feed-396c8ab05db6",
+      "title": "Lemmy: 513 title matches, 94 certificate hits and 207 on 443",
+      "excerpt": "Lemmy: 513 title matches, 94 certificate hits and 207 on 443 Federated platforms are an unusual measurement target. They are designed to be reachable by strangers, they run a public identity model, an…",
+      "body": "Lemmy: 513 title matches, 94 certificate hits and 207 on 443 Federated platforms are an unusual measurement target. They are designed to be reachable by strangers, they run a public identity model, and the software is deployed by volunteers on infrastructure nobody audits. Lemmy is a link aggregator in that category, and its numbers online describe a population of small, self-managed instances rather than a fleet with a change control process. The counts ZoomEye queries on 23 October 2026, sub_type=all , page size one: title=\"Lemmy\" : 513 title=\"Lemmy\" &amp;&amp; port=\"443\" : 207 title=\"Lemmy\" &amp;&amp; ssl=\"lemmy\" : 94 The spread is what a federated platform looks like when indexed.",
+      "author": "facilishz",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 40,
+      "url": "https://dev.to/facilishz/lemmy-513-title-matches-94-certificate-hits-and-207-on-443-36jm",
+      "image": "/images/feed/feed-396c8ab05db6.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-76f8152a3378",
+      "title": "Audio Deadlines: Running On-Device TTS Without Audible Glitches",
+      "excerpt": "Gradium open-sourced Phonon, its on-device TTS engine (https://gradium.ai/phonon). That matters less because of the model than because of what it signals: on-device speech synthesis is now a dependenc…",
+      "body": "Gradium open-sourced Phonon, its on-device TTS engine ( https://gradium.ai/phonon ). That matters less because of the model than because of what it signals: on-device speech synthesis is now a dependency you can ship rather than a research demo. And a wave of teams is about to find out that the hard part of edge speech is not the model. It is that audio is the one component in your app with a hard real-time deadline, and nothing else in your background trained you for that. Two clocks, and only one of them forgives you A web request can take 900 ms and nobody dies. An audio callback cannot take 21 ms when it had 20. Once playback starts, the DAC consumes samples at a fixed rate forever, and your synthesis loop has to stay ahead of it.",
+      "author": "skvrtyk",
+      "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
       "tags": [
@@ -15,75 +34,18 @@
       ],
       "featured": true,
       "xpReward": 44,
-      "url": "https://dev.to/ahmet_koc_b5a6d8cd526edd6/every-question-on-my-ielts-site-has-to-survive-a-blind-solver-first-kml",
-      "image": "/images/feed/feed-d64f53ac41d4.webp",
+      "url": "https://dev.to/dima_kruglov_608741d9a416/audio-deadlines-running-on-device-tts-without-audible-glitches-kdi",
+      "image": "/images/feed/feed-76f8152a3378.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-bd3be5dc5567",
-      "title": "PlainSpeak: Understand everyday paperwork with local AI.",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady. PlainSpeak helps people understand everyday paperwork without rereading dense paragraphs. You can paste tex…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady . What I Built PlainSpeak helps people understand everyday paperwork without rereading dense paragraphs. You can paste text, open a plain text file, or try the fictional appointment-letter sample. The app uses AI to explain the document in simpler language and point out details such as dates, locations, and actions. Demo https://youtu.be/7FTC_TPzTn8 The video shows the setup guide, a fictional appointment notice, and the explanation produced by PlainSpeak. Code PlainSpeak on GitHub How I Built It PlainSpeak is a browser app that uses the open-weight Gemma 3:1B model through Ollama running locally.",
-      "author": "Eric Tuyishime",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/eric_tuyishime/plainspeak-understand-everyday-paperwork-with-local-ai-i45",
-      "image": "/images/feed/feed-bd3be5dc5567.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-c0214855a6fc",
-      "title": "Xbox’s first chief operating officer is out after just a few months",
-      "excerpt": "Xbox is losing its first chief operating officer (COO) after creating the new role just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verge.…",
-      "body": "Xbox is losing its first chief operating officer (COO) after creating the new role just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verge . Chiang has been at Microsoft for 21 years, serving as the head of Minecraft before being promoted to Xbox chief operating officer in July. Xbox CEO Asha Sharma announced Chiang's departure in a surprisingly short memo today. \"Helen Chiang is leaving Microsoft today. I'm grateful for her years of service and wish her well,\" said Sharma. As Chiang is departing today, her immediate responsibilities are being split up between other Xbox leaders fo … Read the full story at The Verge.",
-      "author": "Tom Warren",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Xbox"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
-      "image": "/images/feed/feed-c0214855a6fc.png",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-de6a30611b17",
-      "title": "Oracle Manipulation Risk Report: Gate",
-      "excerpt": "Oracle Manipulation Risk Report: Gate Target Protocol: Gate (TVL: $7671.7M) Oracle Manipulation Risk Report – Gate Protocol Prepared by: Senior DeFi Security Researcher Date: 23 Oct 2026 Gate (formerl…",
-      "body": "Oracle Manipulation Risk Report: Gate Target Protocol : Gate (TVL: $7671.7M) Oracle Manipulation Risk Report – Gate Protocol Prepared by: Senior DeFi Security Researcher Date: 23 Oct 2026 1. Executive Summary Gate (formerly Gate.io ) is a multi‑chain, high‑throughput DeFi platform that aggregates spot, perpetual, and lending markets across Ethereum and several L2 roll‑ups. As of the latest snapshot, the protocol manages ≈ $7.67 B in total value locked (TVL).",
-      "author": "DannyDoes",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/dannydoes_2abdf9c/oracle-manipulation-risk-report-gate-5dla",
-      "image": "/images/feed/feed-de6a30611b17.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-db6e3396642e",
-      "title": "folderblog 0.2.7: Your blog can be a podcast now",
-      "excerpt": "folderblog turns a folder of Markdown into a live blog the moment you save. Four releases since the last word here, 0.2.4 through 0.2.7, and the big one is 0.2.6: the same folder can now publish a pod…",
-      "body": "folderblog turns a folder of Markdown into a live blog the moment you save. Four releases since the last word here, 0.2.4 through 0.2.7, and the big one is 0.2.6: the same folder can now publish a podcast, with a proper feed, hosted audio, and a way for an AI agent to help without ever publishing on its own. Podcasts from a folder Put episodes in podcast/ , one folder per episode, each with its MP3 (or an MP4 if it's a video show). folderblog builds the show page, a page for every episode, and /podcast/feed.xml . Turn it on with: folderblog podcast on The feed is ready for Apple Podcasts and Podcasting 2.0: every episode gets a permanent guid, and you can add transcripts, chapters, people, and optional Lightning tips.",
-      "author": "Tim Apple",
-      "date": "2026-10-23",
+      "id": "feed-f68972c2038c",
+      "title": "I stopped reviewing my coding agent's diffs file by file",
+      "excerpt": "When I wrote code by hand, a change took me hours. By the time it was done, I knew it by heart: what called what, which path a request took, which test covered which piece. I had built that picture wh…",
+      "body": "When I wrote code by hand, a change took me hours. By the time it was done, I knew it by heart: what called what, which path a request took, which test covered which piece. I had built that picture while typing, so reviewing it was easy. My coworkers' code was easy to keep up with too. They moved at the same pace I did, so pull requests came in slowly enough that I had time to understand each one. Now a coding agent writes most of the code. A change that took an afternoon lands in minutes, then the next one, then the next. The code changes so often that I no longer build a mental map of it the way I used to. So reviewing became the hard part.",
+      "author": "Yvan Guekeng Tindo",
+      "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
       "tags": [
@@ -91,66 +53,393 @@
       ],
       "featured": true,
       "xpReward": 53,
-      "url": "https://dev.to/ninepointlabs/folderblog-027-your-blog-can-be-a-podcast-now-2cj2",
-      "image": "/images/feed/feed-db6e3396642e.webp",
+      "url": "https://dev.to/gtindo/i-stopped-reviewing-my-coding-agents-diffs-file-by-file-4ap7",
+      "image": "/images/feed/feed-f68972c2038c.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-e56380f3151c",
-      "title": "LazyStandup: Automating Daily Engineering Standups with Git Telemetry",
-      "excerpt": "🦥 LazyStandup: Automating Daily Engineering Standups with Git Telemetry Every morning, engineering teams across the world run into the same familiar chore: \"What did you finish yesterday? What are yo…",
-      "body": "🦥 LazyStandup: Automating Daily Engineering Standups with Git Telemetry Every morning, engineering teams across the world run into the same familiar chore: \"What did you finish yesterday? What are you working on today? Any blockers?\" Most of us either frantically skim through our terminal bash history two minutes before the sync, or write vague bullet points like \"Worked on tickets\" or \"Investigated bug\" . In honor of International Sloth Day and Hacktoberfest's \"Slow and Steady\" theme, I built LazyStandup : a lightweight, privacy-first CLI tool that automatically turns your local git commits, diffs, and branch activity into crisp, structured daily standup notes.",
-      "author": "Atharv Vhanalkar",
-      "date": "2026-10-23",
+      "id": "feed-f7bc122a1bfd",
+      "title": "Our webhook dedupe check was a race, not a guard",
+      "excerpt": "We deduplicated webhooks the obvious way. Handler receives an event, runs SELECT on processed_events by event_id, and if nothing is found, does the work and inserts the row at the end. It held for mon…",
+      "body": "We deduplicated webhooks the obvious way. Handler receives an event, runs SELECT on processed_events by event_id, and if nothing is found, does the work and inserts the row at the end. It held for months. Then a customer got two receipt emails and a loyalty-points credit twice for the same payment. The cause: the gateway redelivered the event 40 ms after the first attempt, because our first response was slow (a cold DB connection pushed it to about 3 seconds, and their timeout was 2). Both deliveries landed on different pods. Both ran the SELECT before either had inserted. Both saw an empty table, and both did the work. In logs it looked like duplicate delivery, but the gateway was behaving correctly. Our check-then-act was the bug. The fix was to flip the order.",
+      "author": "Payneteasy",
+      "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 34,
-      "url": "https://dev.to/atharvvanalakar/lazystandup-automating-daily-engineering-standups-with-git-telemetry-9fl",
-      "image": "/images/feed/feed-e56380f3151c.webp",
+      "xpReward": 39,
+      "url": "https://dev.to/payneteasy/our-webhook-dedupe-check-was-a-race-not-a-guard-411a",
+      "image": "/images/feed/feed-f7bc122a1bfd.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-1a5d95a53db2",
-      "title": "Most App Store Rejections Are Not About Your Code",
-      "excerpt": "Every engineer I know has the same first reaction to an App Store rejection: open the crash logs. That is almost always the wrong place to look. In my experience the build is fine. What failed is ever…",
-      "body": "Every engineer I know has the same first reaction to an App Store rejection: open the crash logs. That is almost always the wrong place to look. In my experience the build is fine. What failed is everything around the build: a login the reviewer could not get past, a form you filled in from memory, a calendar rule nobody on the team knew existed. I managed App Store and Play Console releases as CTO at RAQTS, across mobile apps and a Unity platform, and I have been on the wrong end of enough review threads to stop treating store review as a final hurdle. Now I treat it like any other external system with an undocumented contract: probe it early, on purpose, and keep a checklist of the ways it fails.",
-      "author": "Nabeel Hassan",
-      "date": "2026-10-23",
+      "id": "feed-fe8345dc97ee",
+      "title": "When both needs are valid: negotiating conditions for working together",
+      "excerpt": "Social capabilities across human development | Part 13 One person wants quiet; another thinks by talking. Neither is necessarily wrong. Negotiation's social role extends beyond persuading someone to a…",
+      "body": "Social capabilities across human development | Part 13 One person wants quiet; another thinks by talking. Neither is necessarily wrong. Negotiation's social role extends beyond persuading someone to adapt: it creates conditions in which people with different purposes can act together. Different working styles in the same room Two students prepare a joint presentation. One needs to read silently; the other wants to develop ideas aloud at a whiteboard. They agree on quiet reading first and discussion afterwards. Ideas to discuss can be noted while waiting. This fictional example adjusts time, place, and sequence rather than attempting to fix someone's personality. Consider whether only one person repeatedly yields, alongside whether agreement is reached.",
+      "author": "LOGIHEART",
+      "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
+      ],
+      "featured": true,
+      "xpReward": 37,
+      "url": "https://dev.to/logiheart/when-both-needs-are-valid-negotiating-conditions-for-working-together-mk1",
+      "image": "/images/feed/feed-fe8345dc97ee.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-4c83773ee97c",
+      "title": "Qwen3-TTS Silently Dropped My Instruction, and My A/B Never Noticed",
+      "excerpt": "Originally published on hexisteme notes. While evaluating Qwen3-TTS for narration, I ran a small A/B to see whether an instruction could raise the speaking rate. It couldn't, I wrote that down, and sp…",
+      "body": "Originally published on hexisteme notes . While evaluating Qwen3-TTS for narration, I ran a small A/B to see whether an instruction could raise the speaking rate. It couldn't, I wrote that down, and speed control moved to post-processing. The next day a different experiment turned up a line of code that made half of that A/B meaningless: on the smaller model, the instruction never reached the model. The call returned normal audio, the transcript was perfect, and nothing in the measurements looked wrong. Before comparing settings of a control knob, show that the knob moves the output at all. Otherwise the comparison measures nothing. The A/B The goal was fast narration, around 230 words per minute.",
+      "author": "John",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 39,
+      "url": "https://dev.to/hexisteme/qwen3-tts-silently-dropped-my-instruction-and-my-ab-never-noticed-3kca",
+      "image": "/images/feed/feed-4c83773ee97c.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-9ef10ae10f63",
+      "title": "Give your AI agent web-data tools with Apify's MCP server (Python, no SDK, 2026)",
+      "excerpt": "Most AI agents can now talk to remote MCP servers. Apify runs one at https://mcp.apify.com, and any public Actor in Apify Store can be exposed through it as a tool your agent can call: SSL checks, DNS…",
+      "body": "Most AI agents can now talk to remote MCP servers. Apify runs one at https://mcp.apify.com , and any public Actor in Apify Store can be exposed through it as a tool your agent can call: SSL checks, DNS audits, broken-link crawls, screenshots, keyword research and thousands more. This post shows what actually happens on the wire, with a ~50-line stdlib Python client, so you can see exactly what your agent sees and pays for. 1. Pick the tools with the URL ?tools= takes a comma-separated list of Actors: https://mcp.apify.com?tools=datawright-labs/ssl-certificate-checker,datawright-labs/email-domain-dns-checker Auth is your Apify API token as Authorization: Bearer &lt;APIFY_TOKEN&gt; (free account; Actors bill per result on your own account). 2.",
+      "author": "Datawright Labs",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Python"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://dev.to/datawrightlabs/give-your-ai-agent-web-data-tools-with-apifys-mcp-server-python-no-sdk-2026-4lih",
+      "image": "/images/feed/feed-9ef10ae10f63.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-27ceb6918956",
+      "title": "Apple exploring fix for Safari’s cramped layout on the iPhone Duo’s outer display",
+      "excerpt": "In a new post on the WebKit blog highlighting what’s new in Safari 27.1, Apple’s Jen Simmons said the company is exploring ways to let websites make better use of the iPhone Duo’s outer display. Here…",
+      "body": "In a new post on the WebKit blog highlighting what’s new in Safari 27.1, Apple’s Jen Simmons said the company is exploring ways to let websites make better use of the iPhone Duo’s outer display. Here — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://9to5mac.com/2026/10/23/apple-exploring-fix-for-safaris-cramped-layout-on-the-iphone-duos-outer-display/",
+      "image": "/images/feed/feed-27ceb6918956.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-de2828e0dd84",
+      "title": "Disney's Officially Bringing Back a '90s Cartoon Icon After 35 Years",
+      "excerpt": "Disney Plus is getting a new Darkwing Duck series, featuring the return of crime fighter Drake Mallard.",
+      "body": "Disney is apparently still rummaging around in its animation vault, and this time it’s pulled out a duck who has spent the last 35 years waiting for another chance to fight a bunch of extremely ridiculous villains. Darkwing Duck is officially returning in a brand-new series for Disney Plus, Disney has confirmed.",
+      "author": "Sam Hill",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.polygon.com/darkwing-duck-reboot-disney-plus/",
+      "image": "/images/feed/feed-de2828e0dd84.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-d85dac685efb",
+      "title": "SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (photos)",
+      "excerpt": "SpaceX sent 27 more of its Starlink broadband satellites to orbit today (Oct. 23), in its first Starlink launch in 11 days.",
+      "body": "SpaceX launched its newest batch of Starlink broadband internet satellites today (Oct. 23) from the California coast. The spacecraft, Starlink Group 15-15, were stacked 27 high inside the payload fairing of a SpaceX Falcon 9 rocket , which lifted off from Pad 4E at Vandenberg Space Force Base at 6:48 p.m. EDT (2248 GMT; 3:48 p.m. local time in California). The rocket's first stage booster, designated B1063, executed its main engine cutoff and stage separation about 2.5 minutes into flight, sending the second stage to continue onward to low Earth orbit (LEO). The vehicle's two-piece protective payload fairing was jettisoned just before T+3 minutes. The Falcon 9's first stage, shortly after its drone-ship landing on Oct. 23, 2026.",
+      "author": " Josh Dinner ",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Satellite"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly",
+      "image": "/images/feed/feed-d85dac685efb.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-6e462eaecae6",
+      "title": "Apple’s official DIY repair guides for the iPhone Duo now available",
+      "excerpt": "Following today’s launch of the iPhone Duo, Apple has now published multiple repair guides and manuals for users and independent technicians looking to replace or repair individual components in the d…",
+      "body": "Following today’s launch of the iPhone Duo, Apple has now published multiple repair guides and manuals for users and independent technicians looking to replace or repair individual components in the d — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
       ],
       "featured": false,
       "xpReward": 50,
-      "url": "https://dev.to/nabeelbaghoor/most-app-store-rejections-are-not-about-your-code-2ffo",
-      "image": "/images/feed/feed-1a5d95a53db2.webp",
-      "source": "Dev.to",
+      "url": "https://9to5mac.com/2026/10/23/apples-official-diy-repair-guides-for-the-iphone-duo-now-available/",
+      "image": "/images/feed/feed-6e462eaecae6.jpg",
+      "source": "9to5Mac",
       "isLive": true
     },
     {
-      "id": "feed-031f613ccb30",
-      "title": "Get featured as a solo dev: 9 features in 28 days, 2 moved a number",
-      "excerpt": "Originally published at tensorust.com. Short answer: Curators feature numbers they can quote, not opinions. In 28 days our work landed in 9 places, from This Week in Rust to a Hong Kong app site, and…",
-      "body": "Originally published at tensorust.com . Short answer: Curators feature numbers they can quote, not opinions. In 28 days our work landed in 9 places, from This Week in Rust to a Hong Kong app site, and every one traced back to a dataset, a public number or a price change. Only 2 moved anything we can measure: one newsletter link took an article from 7 visitors to 230 , and two awesome lists with 113,006 stars between them sent back 1 star we can see. TL;DR: I pulled our own analytics, the GitHub and crates.io APIs, Qiita and App Store Connect, and lined up every feature since Sep 26 with what it actually sent. Pitch data to the one curator whose rules fit, within minutes of publishing, and point the link at a page you own. Skip the awesome-list grind. Checked Oct 23, 2026, 5:25 PM ET.",
-      "author": "Matt Busel",
+      "id": "feed-7384891d7abd",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "excerpt": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "body": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Tim Fernholz",
       "date": "2026-10-23",
       "readTime": "2 min",
-      "section": "software",
+      "section": "ai",
       "tags": [
-        "Software"
+        "Openai"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "image": "/images/feed/feed-7384891d7abd.webp",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-c0009a8fb7b1",
+      "title": "GM is betting on battery cells that don’t use lithium [updated]",
+      "excerpt": "GM has partnered with Peak Energy to develop next-generation sodium-ion battery cells, but they’re not going into EVs – they’re for grid-scale energy storage projects. GM Ventures is making a strategi…",
+      "body": "GM has partnered with Peak Energy to develop next-generation sodium-ion battery cells, but they’re not going into EVs – they’re for grid-scale energy storage projects. GM Ventures is making a strategi — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Michelle Lewis",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://electrek.co/2026/10/23/gm-sodium-ion-battery-peak-energy/",
+      "image": "/images/feed/feed-c0009a8fb7b1.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-948628f48727",
+      "title": "NASA lays out plan for Artemis 3 moon-lander test flight —but when will it launch?",
+      "excerpt": "NASA just gave us our best look yet at its Artemis III moon-lander test flight, which is scheduled to launch to Earth orbit next year. But a firm liftoff date has not yet been announced.",
+      "body": "NASA just gave us our best look yet at its Artemis III moon-lander test flight. The agency laid out a detailed concept of operations for Artemis III today (Oct. 23) during a press conference at Kennedy Space Center , stressing how important the flight is to its moon plans and how challenging it will be to make everything go right. \"We're launching three of the most powerful rockets in the world, and undertaking what is likely the most complicated launch campaign ever undertaken,\" Jeremy Parsons, NASA’s Artemis program manager, said during today's event, which lasted more than two hours. The baseline concept of operations for NASA's Artemis III docking test in low Earth orbit.",
+      "author": " Mike Wall ",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Artemis",
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.space.com/space-exploration/artemis/nasa-lays-out-plan-for-artemis-3-moon-lander-test-flight-but-when-will-it-launch",
+      "image": "/images/feed/feed-948628f48727.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-f7f2de01198c",
+      "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions",
+      "excerpt": "As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have…",
+      "body": "7 Min Read NASA, Partners Accelerate Lander Development for 2028 Moon Missions As NASA returns humans to the lunar surface and establishes a long-term presence on our closest celestial neighbor, the agency and commercial human landing system providers Blue Origin and SpaceX have streamlined the designs and changed both concepts of operations for its future crewed landers. Since NASA established initial contracts with Blue Origin and SpaceX for crewed missions to the Moon, the agency has redefined Artemis III to demonstrate rendezvous and docking capabilities between test versions of landers from each provider and the agency’s Orion spacecraft in low Earth orbit next year.",
+      "author": "Lee Mohon",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
+      "image": "/images/feed/feed-f7f2de01198c.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-5be9c5a7c785",
+      "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations",
+      "excerpt": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency’s history. Launching in 2027, Artemis III will send NASA astron…",
+      "body": "Before astronauts return to the lunar surface, NASA will first conduct one of the most ambitious and complex test missions in the agency&#8217;s history.&nbsp; Launching in 2027, Artemis III will send NASA astronauts Randy Bresnik, Frank Rubio, Andre Douglas, and ESA (European Space Agency) astronaut Luca Parmitano aboard the Orion spacecraft into low Earth orbit to perform a series of demonstrations with test versions, or test articles, of human landing systems being developed by industry partners Blue Origin and SpaceX. During the planned 14-day mission, crews and flight controllers will practice the rendezvous, docking, habitation, and operational procedures that will be essential when Artemis astronauts begin landing near the Moon&#8217;s South Pole in 2028.",
+      "author": "Jason Costa",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Artemis",
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
+      "image": "/images/feed/feed-5be9c5a7c785.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-6a15bfea735e",
+      "title": "OpenAI says it's cutting off internet access for frontier model training",
+      "excerpt": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.",
+      "body": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Ian Carlos Campbell)",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+      "image": "/images/feed/feed-6a15bfea735e.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-4f96bfd853cb",
+      "title": "7 Classic JRPGs That Are So Good They Never Need a Remake",
+      "excerpt": "These JRPGs may have been ported to newer platforms or lightly remastered, but they look and play nearly identical to when they were first released",
+      "body": "Remakes, remasters, and reimaginings are all the rage right now in video games. For the last several years, studios the world over have crafted new and vastly improved versions of all-time classic games, ranging from faithful modernizations like Capcom’s Resident Evil 4 remake to Square Enix’s wildly ambitious and expanded Final Fantasy 7 Remake trilogy . While plenty of older games benefit from a modern glow-up, others don’t need a lot of alterations to shine bright decades later.",
+      "author": "Jen Glennon",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.polygon.com/best-classic-jrpgs-no-remake/",
+      "image": "/images/feed/feed-4f96bfd853cb.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-8bef984e2c41",
+      "title": "Every Marvel Post-Credits Scene That Went Nowhere (So Far)",
+      "excerpt": "Marvel Studios has promised a lot in the Multiverse Saga. Here's every post-credits scene from the MCU we still need answers for.",
+      "body": "Once the Infinity Saga wrapped with 2019’s Spider-Man: Far From Home , Marvel had to find a new central organizing factor, a way to give all the crossovers , cataclysmic conflicts , and multiverse mayhem some meaning. That process has been bumpy , and it’s left Marvel with a lot of loose ends, hints, and promises of sagas to come, which have become difficult to keep track of.",
+      "author": "Michael McWhertor",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
       ],
       "featured": false,
       "xpReward": 36,
-      "url": "https://dev.to/mattbusel/get-featured-as-a-solo-dev-9-features-in-28-days-2-moved-a-number-2hdh",
-      "image": "/images/feed/feed-031f613ccb30.webp",
-      "source": "Dev.to",
+      "url": "https://www.polygon.com/marvel-movies-tv-shows-post-credits-scenes-teases/",
+      "image": "/images/feed/feed-8bef984e2c41.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-74065f109300",
+      "title": "NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza",
+      "excerpt": "NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this…",
+      "body": "4 min read NASA’s Swift Mission Ends, Leaves Behind Scientific Bonanza NASA’s Neil Gehrels Swift Observatory has ended its science mission now that the spacecraft is orbiting less than 171 miles (275 kilometers) above Earth’s surface. The greater atmospheric drag at this height prevents the satellite’s telescopes from steadily gazing at their astronomical targets. Swift conducted its final observation on Oct. 20. It is expected to re-enter the atmosphere in the next few weeks. NASA’s Neil Gehrels Swift Observatory orbits above Earth in this artist’s concept.",
+      "author": "NASA Breaking News",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
+      "image": "/images/feed/feed-74065f109300.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-f4f065410933",
+      "title": "BMW iX5 First Drive, GM's Big Tech Plans, And Tesla Cybercab Deliveries Are Coming Soon",
+      "excerpt": "On the Plugged-In Podcast, Tim drives the BMW iX5, Mack tests Geely EVs, and we react to GM's big tech plans and the Tesla Roadster.",
+      "body": "On the Plugged-In Podcast, Tim drives the BMW iX5, Mack tests Geely EVs, and we react to GM's big tech plans and the Tesla Roadster.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://insideevs.com/features/813134/insideevs-podcast-bmw-ix5-gm-tesla/",
+      "image": "/images/feed/feed-f4f065410933.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-c0214855a6fc",
+      "title": "Xbox’s first chief operating officer is out after just a few months",
+      "excerpt": "Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verg…",
+      "body": "Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verge . Chiang has been at Microsoft for 21 years, serving as the head of Minecraft before being promoted to Xbox chief operating officer in July. Xbox CEO Asha Sharma announced Chiang's departure in a surprisingly short memo today. \"Helen Chiang is leaving Microsoft today. I'm grateful for her years of service and wish her well,\" said Sharma. As Chiang is departing today, her immediate responsibilities are being split up between other Xbox leaders … Read the full story at The Verge.",
+      "author": "Tom Warren",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
+      "image": "/images/feed/feed-c0214855a6fc.png",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-f7ada32ceccb",
+      "title": "The iPhone Duo Is Now in Our Custom-Made Foldable Phone Test Machine. Will It Beat the Galaxy Z Fold 8?",
+      "excerpt": "We’ll fold Apple’s iPhone Duo 900 times an hour to see how its hinge holds up.",
+      "body": "We’ll fold Apple’s iPhone Duo 900 times an hour to see how its hinge holds up.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone, Foldable. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Matthew Murray",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone",
+        "Foldable"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.cnet.com/tech/mobile/iphone-duo-how-we-test-folds/",
+      "image": "/images/feed/feed-f7ada32ceccb.png",
+      "source": "CNET",
       "isLive": true
     },
     {
@@ -166,7 +455,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 33,
       "url": "https://kotaku.com/belmonts-curse-taught-me-an-important-lesson-about-parrying-namely-i-should-do-it-more-2000749181",
       "image": "/images/feed/feed-92f88c213856.jpg",
       "source": "Kotaku",
@@ -185,7 +474,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 39,
       "url": "https://www.androidauthority.com/iphone-duo-cracked-screens-first-day-3727498/",
       "image": "/images/feed/feed-8c283e017218.jpg",
       "source": "Android Authority",
@@ -204,7 +493,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 50,
       "url": "https://www.androidauthority.com/blip-launcher-for-android-handhelds-3727499/",
       "image": "/images/feed/feed-c6972ad3a210.jpg",
       "source": "Android Authority",
@@ -223,7 +512,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 33,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
       "image": "/images/feed/feed-78c968c71207.jpg",
       "source": "The Verge",
@@ -242,10 +531,29 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 44,
       "url": "https://electrek.co/2026/10/23/hyundais-359-ioniq-5-lease-looks-good-3-row-suv-better-deal/",
       "image": "/images/feed/feed-849622a997fa.jpg",
       "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-227af2667a15",
+      "title": "Mass Effect Fans Call for EA Boycott as Petition to Save BioWare's Canceled Game Garners More than 75,000 Signatures",
+      "excerpt": "Mass Effect fans are calling for a boycott of all EA products and services in protest of the company closing down BioWare and canceling the next Mass Effect game.",
+      "body": "Mass Effect fans are calling for a boycott of all EA products and services in protest of the company closing down BioWare and canceling the next Mass Effect game. It’s a rough time for Mass Effect fans. On October 21, EA announced its plans to shut down BioWare , a 30-year-old studio that spearheaded RPGs in the West with titles like Dragon Age, Jade Empire, Baldur’s Gate, and of course, Mass Effect . Players were eagerly awaiting news of the next game in BioWare’s beloved sci-fi franchise — but EA shut that down, too, revealing in a statement that the project was officially canceled.",
+      "author": "Virginia Glaze",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Game"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.ign.com/articles/mass-effect-fans-call-for-ea-boycott-as-petition-to-save-biowares-canceled-game-garners-more-than-75000-signatures",
+      "image": "/images/feed/feed-227af2667a15.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -261,28 +569,9 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 37,
       "url": "https://www.polygon.com/gremlins-hbo-max-streaming-success-october-2026/",
       "image": "/images/feed/feed-0a91f109175b.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-610f6be0c29e",
-      "title": "10 New Movies To Watch This Weekend on HBO, Hulu, and Disney Plus (October 23-25)",
-      "excerpt": "In this week's movie streaming column, we have one of the best and funniest couples dramas of the year, a Disney live-action remake, and more.",
-      "body": "Happy weekend! Movie theaters are having a moment. Last week, You Can See Everything premiered, and it had one of the best box office debuts for a documentary ever. Street Fighter is also out, performing well at the box office but not so well when it comes to critics. This weekend brings a new batch of movies, from the DCU’s first horror movie Clayface , to Taika Waititi’s Klara and the Sun .",
-      "author": "Maria Loreto",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.polygon.com/new-movies-streaming-this-weekend-hbo-disney-plus-hulu-october-23-25/",
-      "image": "/images/feed/feed-610f6be0c29e.jpg",
       "source": "Polygon",
       "isLive": true
     },
@@ -299,7 +588,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 49,
       "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
       "image": "/images/feed/feed-e258f9402b73.jpg",
       "source": "BleepingComputer",
@@ -318,7 +607,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 36,
       "url": "https://www.androidauthority.com/oneplus-nord-buds-3-pro-deal-amazon-3727521/",
       "image": "/images/feed/feed-b1dd94ae8e80.jpg",
       "source": "Android Authority",
@@ -338,125 +627,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 50,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-23-2026",
       "image": "/images/feed/feed-3f9964116032.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-dd3be054d820",
-      "title": "The Normandy SR-2 Is Now A Haunted House, But It Will Always Be My Home",
-      "excerpt": "I have spent years not being able to grieve Mass Effect, and now I finally have to",
-      "body": "I have spent years not being able to grieve Mass Effect, and now I finally have to\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Kenneth Shepard",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://kotaku.com/mass-effect-5-bioware-closure-universe-legendary-edition-2000749192",
-      "image": "/images/feed/feed-dd3be054d820.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-6706f714b69c",
-      "title": "Developer Of ‘Ecosocialist’ Game Future? No Thanks! Offers Refunds After Using AI Despite Calling It ‘Technofascist’",
-      "excerpt": "He seems to still stand by his AI use, though",
-      "body": "He seems to still stand by his AI use, though\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Amelia Zollner",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://kotaku.com/developer-of-ecosocialist-game-future-no-thanks-offers-refunds-after-using-ai-despite-calling-it-technofascist-2000749158",
-      "image": "/images/feed/feed-6706f714b69c.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-92de3bec2a9b",
-      "title": "Save $50 Off the Endlessly Useful ASUS ZenScreen 16\" 1080p Portable USB Monitor Ahead of Black Friday",
-      "excerpt": "Doubles as a secondary monitor for your laptop or a portable display for your Nintendo Switch or Steam Deck.",
-      "body": "It&#39;s no surprise why USB portable monitors are becoming so popular. They provide extra screen real estate for laptop users and they&#39;re much slimmer and lighter than your average monitor so you can carry them around. Many newer laptops now have USB ports that can power the monitor so that you don&#39;t even need to plug it into an outlet. In addition to boosting productivity on a laptop, the monitor also works as a totable display for your Nintendo Switch. Talk about convenience! Ahead of Black Friday, Amazon is offering the ASUS ZenScreen 15.6&quot; USB Portable Monitor (MB16AHV) for just $99 with free shipping after a $50 off instant discount.",
-      "author": "Eric Song",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.ign.com/articles/asus-zenscreen-usb-portable-monitor-deal-october-2026",
-      "image": "/images/feed/feed-92de3bec2a9b.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-d622837b81af",
-      "title": "Formula 1 gets Dolby Atmos support on Apple TV in the U.S. starting today",
-      "excerpt": "Apple TV subscribers in the US can now watch Formula 1 live in Dolby Atmos, starting with this weekend’s United States Grand Prix. Here’s the schedule. more…",
-      "body": "Apple TV subscribers in the US can now watch Formula 1 live in Dolby Atmos, starting with this weekend’s United States Grand Prix. Here’s the schedule. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://9to5mac.com/2026/10/23/formula-1-gets-dolby-atmos-support-on-apple-tv-in-the-u-s-starting-today/",
-      "image": "/images/feed/feed-d622837b81af.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-8aee37b4e843",
-      "title": "9to5Mac Daily: October 23, 2026 – MacBook Pro rumors, iPhone Duo apps",
-      "excerpt": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca…",
-      "body": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-      "author": "Seth Kurkowski",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone",
-        "Macbook"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://9to5mac.com/2026/10/23/daily-october-23-2026/",
-      "image": "/images/feed/feed-8aee37b4e843.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-3c0692c25ced",
-      "title": "Your Pixel Watch is getting smarter about tracking activity with Google Health 5.11",
-      "excerpt": "You'll never have to manually track a workout again (ideally).",
-      "body": "TL;DR Google Health version 5.11 is rolling out now on Android and iOS. The update makes changes including an overhaul to automatic activity detection. More than 100 workout types can now be automatically logged on compatible wearables, up from just 10. Just in time for next week’s Fitbit Edge release, Google’s rolling out a new version of Google Health. Version 5.11 of the app is rolling out on now, and it makes a major improvement for automatic activity detection. As reported by 9to5Google , Google Health version 5.11 expands automatic activity tracking from a handful of exercises up to more than 100, including strength training and swimming. This improved tracking is available on Fitbit Air, Pixel Watch 3, 4, and 5, and the upcoming Fitbit Edge.",
-      "author": "Taylor Kerns",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.androidauthority.com/google-health-5-11-3727492/",
-      "image": "/images/feed/feed-3c0692c25ced.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -472,29 +646,10 @@
         "Satellite"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 38,
       "url": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
       "image": "/images/feed/feed-33b05972afc9.jpg",
       "source": "SpaceNews",
-      "isLive": true
-    },
-    {
-      "id": "feed-e4026ef973fa",
-      "title": "Report: Apple gains ground in China as smartphone shipments hit 14-year low in Q3",
-      "excerpt": "Rising memory prices continue to weigh on the global smartphone market, with shipments in China alone falling 10% year over year in Q3. Here are the details. more…",
-      "body": "Rising memory prices continue to weigh on the global smartphone market, with shipments in China alone falling 10% year over year in Q3. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Smartphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Smartphone"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://9to5mac.com/2026/10/23/report-apple-gains-ground-in-china-as-smartphone-shipments-hit-14-year-low-in-q3/",
-      "image": "/images/feed/feed-e4026ef973fa.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -510,29 +665,10 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 52,
       "url": "https://electrek.co/2026/10/23/podcast-tesla-earnings-discussion-new-byd-seagull-mustang-mach-e-update-and-more/",
       "image": "/images/feed/feed-4d52dc0a828d.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-c15d357bc108",
-      "title": "RS-25 Engine Tests at NASA Stennis",
-      "excerpt": "Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the sam…",
-      "body": "NASA/Danny Nowlin Teams at NASA’s Stennis Space Center near Bay St. Louis, Mississippi tested RS-25 engine No. 10001 on Oct. 21, 2026. The hot fire test lasted for almost eight-and-a-half minutes (500 seconds), the same amount of time RS-25 engines fire during launch of NASA’s SLS (Space Launch System) rocket, with a 111% power level. For each Artemis mission, four RS-25 engines produce up to 2 million pounds of combined thrust to help launch the SLS rocket. Prior to use, all RS-25 engines are proven flightworthy at NASA Stennis. While this developmental engine will not be used in flight, the hot fire test provides NASA and NASA’s prime engine contractor L3Harris Technologies with the capability to capture critical data to improve engine performance and reliability.",
-      "author": "HQ Web Team",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.nasa.gov/image-article/rs-25-engine-tests-at-nasa-stennis/",
-      "image": "/images/feed/feed-c15d357bc108.jpg",
-      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -548,7 +684,7 @@
         "Phishing"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 34,
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
       "image": "/images/feed/feed-2ffdf1770876.jpg",
       "source": "BleepingComputer",
@@ -567,7 +703,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 44,
       "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
       "image": "/images/feed/feed-0f2175cedd51.jpg",
       "source": "The Hacker News",
@@ -586,29 +722,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 30,
       "url": "https://cleantechnica.com/2026/10/23/ev-battery-mystery-donut-labs-performance-extreme-cold/",
       "image": "/images/feed/feed-4723e1860633.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-1fe863f11006",
-      "title": "Halley's Comet dazzles from afar in spectacular astrophoto of Orionid meteor shower",
-      "excerpt": "This incredible composite image of Orionid meteors was captured as Earth passed through the debris trail shed by Halley's Comet.",
-      "body": "Tim McCollum captured a stunning view of Orionid meteors in the early hours of Oct. 21. (Image credit: Tim McCollum) Astrophotographer Tim McCollum captured a spectacular view of Orionid meteors sharing the night sky with a host of deep sky wonders on Oct. 21, as the annual shooting star display ramped up to peak activity. Comet 1P/Halley may be over 3 billion miles (4.8 kilometers) from Earth , but that didn't stop it from putting on a breathtaking display earlier this week, as particles cast off by the ancient wanderer carved a fiery path through the autumn sky. McCollum was able to capture a trio of vivid Orionid meteors as they streaked through the night sky above the city of Toccoa, Georgia, between 3-4 a.m. on Oct. 21.",
-      "author": " Anthony Wood ",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.space.com/stargazing/meteor-showers/halleys-comet-dazzles-from-afar-in-spectacular-astrophoto-of-orionid-meteor-shower",
-      "image": "/images/feed/feed-1fe863f11006.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -624,7 +741,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 48,
       "url": "https://electrek.co/2026/10/23/anker-solix-c2000-gen-2-power-station-l16-utility-e-bike-snow-blower-more/",
       "image": "/images/feed/feed-a002b169e2ba.jpg",
       "source": "Electrek",
@@ -643,7 +760,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 36,
       "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
       "image": "/images/feed/feed-ce370a80c5a3.jpg",
       "source": "The Hacker News",
@@ -662,7 +779,7 @@
         "Ransomware"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 33,
       "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
       "image": "/images/feed/feed-be64687d24f1.jpg",
       "source": "The Hacker News",
@@ -681,85 +798,9 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/10/23/if-google-fells-250000-trees-in-finland-does-it-make-a-sound/",
       "image": "/images/feed/feed-9d735fdf749b.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-fd1c615cb332",
-      "title": "NASA, Virginia Launch Power Partnership for Energy Security",
-      "excerpt": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions…",
-      "body": "3 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) NASA is helping to foster long-term energy security in Virginia.&nbsp; NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation, delivery and use by providing solar, meteorological, and future weather risk datasets for energy system modeling and planning purposes. Under a new Space Act Agreement announced during a ceremony Friday, the partnership will use NASA expertise in atmospheric sciences to assist Virginia Energy in support of resiliency studies, resource analysis, and long-term energy planning.",
-      "author": "Holly Rink",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/lrc-2026-ocio-p-03524.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-1681fefb9db5",
-      "title": "BYD’s Rolls-Royce-like flagship EV is heading overseas",
-      "excerpt": "The new model will be BYD’s largest and most luxurious electric sedan, with coach doors and a shape similar to the Rolls-Royce Phantom. more…",
-      "body": "The new model will be BYD’s largest and most luxurious electric sedan, with coach doors and a shape similar to the Rolls-Royce Phantom. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://electrek.co/2026/10/23/byd-taking-rolls-royce-like-flagship-ev-overseas/",
-      "image": "/images/feed/feed-1681fefb9db5.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-a02212b519fa",
-      "title": "Elon Musk’s dangerous grip on outer space",
-      "excerpt": "Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian army…",
-      "body": "Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian army's interceptors, which counter Russian drones carrying bombs, suddenly stopped working at high speeds, making it easier for Russia to attack the country's energy infrastructure and leading to a reported two deaths and at least 17 injuries . The Ukrainian military reported receiving no advance warning about the Starshield speed restriction. But Ukrainian President Volodymyr Zelenskyy said it was a direct message from the US amid rising tensions b … Read the full story at The Verge.",
-      "author": "Georgina Torbet",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
-      "image": "/images/feed/feed-a02212b519fa.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-0bd104d069d1",
-      "title": "What Can Grid Flexibility Actually Do Here?",
-      "excerpt": "Grid flexibility is not one resource or one number. A new open TFIE Strategy report maps how batteries, demand, networks, interconnection and other resources change value with location, duration and o…",
-      "body": "Grid flexibility is not one resource or one number. A new open TFIE Strategy report maps how batteries, demand, networks, interconnection and other resources change value with location, duration and operating conditions. The post What Can Grid Flexibility Actually Do Here? appeared first on CleanTechnica .",
-      "author": "Michael Barnard",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://cleantechnica.com/2026/10/23/what-can-grid-flexibility-do-here/",
-      "image": "/images/feed/feed-0bd104d069d1.png",
       "source": "CleanTechnica",
       "isLive": true
     },
@@ -776,7 +817,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
       "image": "/images/feed/feed-33414c46bda9.jpg",
       "source": "BleepingComputer",
@@ -795,7 +836,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 31,
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -815,7 +856,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 50,
       "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
       "image": "/images/feed/feed-3c8eb4755a62.jpg",
       "source": "BleepingComputer",
@@ -823,7 +864,7 @@
     },
     {
       "id": "feed-e3e4a3ed774d",
-      "title": "What some of Anthropic’s backers are reportedly worth before its IPO",
+      "title": "What some of Anthropic’s backers are worth before its IPO",
       "excerpt": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.",
       "body": "Early-stage and follow-on investors in the AI lab are already sitting on major paper returns.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "Marina Temkin",
@@ -834,29 +875,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 49,
       "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
       "image": "/images/feed/feed-e3e4a3ed774d.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-24597d7d8de8",
-      "title": "Never finishing the fight: Where did Xbox go wrong with Halo?",
-      "excerpt": "After a failed soft reboot and a remake of the original, the Halo universe is facing yet another major creative shift. But has Xbox learned any lessons this time?",
-      "body": "Halo: Campaign Evolved was Xbox’s second attempt at refreshing the 2001 sci-fi FPS classic, and it is perfectly fine. A cromulent remake, if ever there was one, but it’s hardly a franchise-saver, especially as Xbox looks to rethink its studio structure and approach to renowned IPs like Halo or Gears of War . Halo hasn’t been the same since original developer Bungie — now owned by Sony and working on Destiny and Marathon — departed, leaving 343 Industries (now Halo Studios) to guide the franchise. Neither Halo 4 nor 5 meaningfully evolved the gameplay formula or overarching narrative. Halo Infinite found more success by reheating what “old Halo felt like” and sticking it into a half-baked open world, but it still felt far from the series’ glory days.",
-      "author": " Fran Ruiz ",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.space.com/entertainment/space-games/never-finishing-the-fight-where-did-xbox-go-wrong-with-halo",
-      "image": "/images/feed/feed-24597d7d8de8.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -872,7 +894,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 46,
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -891,7 +913,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 34,
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -910,44 +932,24 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 42,
       "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
       "image": "/images/feed/feed-c4c762c6b747.jpg",
       "source": "TechCrunch",
       "isLive": true
-    },
-    {
-      "id": "feed-fbefb69ef914",
-      "title": "Anthropic Introduces Claude Duet: A New Agentic AI App for Professionals",
-      "excerpt": "It’s nothing we haven’t seen before, but it’s hyper specificity toward business owners and professionals.",
-      "body": "It’s nothing we haven’t seen before, but it’s hyper specificity toward business owners and professionals.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic, Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Blake Stimac",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic",
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.cnet.com/tech/services-and-software/anthropic-claude-duet-ai-agent-app-professional/",
-      "image": "/images/feed/feed-fbefb69ef914.png",
-      "source": "CNET",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Every question on my IELTS site has to survive a blind solver first",
-    "DEV.TO: PlainSpeak: Understand everyday paperwork with local AI.",
-    "THE VERGE: Xbox’s first chief operating officer is out after just a few months",
-    "DEV.TO: Oracle Manipulation Risk Report: Gate",
-    "DEV.TO: folderblog 0.2.7: Your blog can be a podcast now",
-    "DEV.TO: LazyStandup: Automating Daily Engineering Standups with Git Telemetry",
-    "DEV.TO: Most App Store Rejections Are Not About Your Code",
-    "DEV.TO: Get featured as a solo dev: 9 features in 28 days, 2 moved a number",
-    "KOTAKU: Belmont’s Curse Taught Me An Important Lesson About Parrying, Namely I Should Do It More",
-    "ANDROID AUTHORITY: Some iPhone Duo screens aren’t making it through day one"
+    "DEV.TO: Lemmy: 513 title matches, 94 certificate hits and 207 on 443",
+    "DEV.TO: Audio Deadlines: Running On-Device TTS Without Audible Glitches",
+    "DEV.TO: I stopped reviewing my coding agent's diffs file by file",
+    "DEV.TO: Our webhook dedupe check was a race, not a guard",
+    "DEV.TO: When both needs are valid: negotiating conditions for working together",
+    "DEV.TO: Qwen3-TTS Silently Dropped My Instruction, and My A/B Never Noticed",
+    "DEV.TO: Give your AI agent web-data tools with Apify's MCP server (Python, no SDK, 2026)",
+    "9TO5MAC: Apple exploring fix for Safari’s cramped layout on the iPhone Duo’s outer display",
+    "POLYGON: Disney's Officially Bringing Back a '90s Cartoon Icon After 35 Years",
+    "SPACE.COM: SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (photos)"
   ],
   "sectionVideos": {}
 }
