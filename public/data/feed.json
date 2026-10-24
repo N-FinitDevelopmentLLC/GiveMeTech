@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-24T09:56:24.150Z",
+  "fetchedAt": "2026-10-24T13:44:36.346Z",
   "articles": [
     {
-      "id": "feed-f5cafe0208a5",
-      "title": "Prove Your Cyber Insurance Answers: Commands for the Questionnaire Controls",
-      "excerpt": "I swapped 2 of the usual tags (webdev, ai) for devops and startup because this piece is about infrastructure evidence. Swap back if you prefer. Someone will eventually ask you to confirm the “yes” box…",
-      "body": "I swapped 2 of the usual tags (webdev, ai) for devops and startup because this piece is about infrastructure evidence. Swap back if you prefer. Someone will eventually ask you to confirm the “yes” boxes on a cyber insurance application. MFA everywhere. EDR on every host. Clean email authentication. Nothing exposed. Here’s how to produce evidence instead of opinions. Why it matters... in 2022 an insurer and a manufacturer agreed to an order rescinding a cyber policy and declaring it void from inception after the insurer said MFA protected only the firewall. Evidence is the difference between a yes and a maybe. MFA...",
-      "author": "Snippipedia",
+      "id": "feed-5e06243a55f6",
+      "title": "Split a Storyboard Grid Into Clean Frames With Pillow",
+      "excerpt": "When I split a storyboard sheet, I want each exported file to start at the edge of the actual frame. Dividing the full image width by the column count also divides the borders and gaps, which can leav…",
+      "body": "When I split a storyboard sheet, I want each exported file to start at the edge of the actual frame. Dividing the full image width by the column count also divides the borders and gaps, which can leave strips of neighboring panels in the output. I calculate the usable area first: usable width = image width - 2 * margin - (columns - 1) * gap Then I divide that width by the column count and apply the same calculation to the height. For this example, the sheet is 1024 x 412 pixels: two rows, three columns, a 20-pixel outer margin, and 12-pixel gaps. Each frame is 320 x 180. Install Pillow: python -m pip install Pillow Save this as split_storyboard.py , put board.png beside it, and run it from that directory.",
+      "author": "Joey",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -14,37 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 42,
-      "url": "https://dev.to/snippipedia/prove-your-cyber-insurance-answers-commands-for-the-questionnaire-controls-4344",
-      "image": "/images/feed/feed-f5cafe0208a5.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/lee_xiaoyuan_a97212d2f33b/split-a-storyboard-grid-into-clean-frames-with-pillow-3966",
+      "image": "/images/feed/feed-5e06243a55f6.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-58e73b9dccd5",
-      "title": "DMARC fails even though SPF and DKIM pass: how alignment actually works",
-      "excerpt": "You open the headers of a rejected or quarantined message and see something like this: spf=pass smtp.mailfrom=bounce.vendor.com dkim=pass header.d=vendor.com dmarc=fail (p=quarantine) header.from=your…",
-      "body": "You open the headers of a rejected or quarantined message and see something like this: spf=pass smtp.mailfrom=bounce.vendor.com dkim=pass header.d=vendor.com dmarc=fail (p=quarantine) header.from=yourdomain.com SPF passed. DKIM passed. DMARC failed. That is not a bug, and it is one of the most common DMARC problems after a policy moves off p=none . What DMARC really checks DMARC does not ask \"did SPF or DKIM pass?\". It asks \"did one of them pass for the same domain that appears in the visible From: header ?\" That match is called alignment. SPF alignment : the domain in the envelope sender ( smtp.mailfrom / Return-Path) must match the From: domain. DKIM alignment : the d= domain in the DKIM signature must match the From: domain. Only one of the two has to align.",
-      "author": "Mogley1011",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/mogley1011/dmarc-fails-even-though-spf-and-dkim-pass-how-alignment-actually-works-3mfh",
-      "image": "/images/feed/feed-58e73b9dccd5.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-785e8aa60578",
-      "title": "Your Polymarket Backtest Is Profitable. Here Are 4 Things to Test Before Going Live",
-      "excerpt": "A backtest can show positive returns and still tell you very little about how a trading bot will behave in a live market. The problem isn't necessarily the strategy. It may be the assumptions surround…",
-      "body": "A backtest can show positive returns and still tell you very little about how a trading bot will behave in a live market. The problem isn't necessarily the strategy. It may be the assumptions surrounding it. If a simulation assumes every order fills at the expected price, ignores trading costs, or uses information that would not have been available at decision time, its results can look better than the strategy deserves. Before deploying a Polymarket bot, I would test four things. Does the strategy use only information available at the time? Look-ahead bias occurs when a backtest uses information that would not have been available when the simulated decision was made.",
-      "author": "Dexoryn",
+      "id": "feed-8f1a0f22f474",
+      "title": "Ivanti Connect Secure: an exploited privilege escalation and a quieter credential path",
+      "excerpt": "Ivanti Connect Secure: an exploited privilege escalation and a quieter credential path Two Ivanti advisories landed in October 2026 that an appliance owner should read as one package, even though they…",
+      "body": "Ivanti Connect Secure: an exploited privilege escalation and a quieter credential path Two Ivanti advisories landed in October 2026 that an appliance owner should read as one package, even though they concern different products. CVE-2026-111357 concerns Ivanti Connect Secure 22.8R2.4. The NVD description states that the product mishandles the way the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root, and that the issue was exploited in the wild in October 2026. The CVSS 3.1 base score is 7.0 with a vector of AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H .",
+      "author": "Ioneyrezende",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -53,36 +34,17 @@
       ],
       "featured": true,
       "xpReward": 36,
-      "url": "https://dev.to/dexoryn/your-polymarket-backtest-is-profitable-here-are-4-things-to-test-before-going-live-25pg",
-      "image": "/images/feed/feed-785e8aa60578.webp",
+      "url": "https://dev.to/ioneyrezende/ivanti-connect-secure-an-exploited-privilege-escalation-and-a-quieter-credential-path-29gh",
+      "image": "/images/feed/feed-8f1a0f22f474.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-69eb7fc0a324",
-      "title": "Calculate average order value from Shopify orders with the Admin GraphQL API",
-      "excerpt": "Disclosure: I work on Brix, a Shopify cart app. This post is about the maths and the API, and Brix is mentioned only at the end. Average order value (AOV) is total revenue divided by the number of ord…",
-      "body": "Disclosure: I work on Brix, a Shopify cart app. This post is about the maths and the API, and Brix is mentioned only at the end. Average order value (AOV) is total revenue divided by the number of orders. The formula is one line. Getting a number you can trust takes a bit more care, because the totals Shopify gives you include things you may not want to count. In this post we will pull orders with the Admin GraphQL API and compute AOV in Node.js, while handling the usual traps: test orders, cancelled orders, refunds, shipping and taxes. What you need A Shopify store, ideally a development store to try this on. A custom app with an Admin API access token and the read_orders scope. By default this covers the last 60 days of orders.",
-      "author": "Brix",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Api"
-      ],
-      "featured": true,
-      "xpReward": 34,
-      "url": "https://dev.to/brix_tech/calculate-average-order-value-from-shopify-orders-with-the-admin-graphql-api-5a8n",
-      "image": "/images/feed/feed-69eb7fc0a324.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-afea7e9091f0",
-      "title": "Beyond AGI: Hybrid Cognitive Civilization and AGE",
-      "excerpt": "The article questions the linear model of artificial intelligence development, in which AGI is merely a stepping stone to ASI. The author proposes a shift from analyzing competencies alone to the conc…",
-      "body": "The article questions the linear model of artificial intelligence development, in which AGI is merely a stepping stone to ASI. The author proposes a shift from analyzing competencies alone to the concept of Artificial General Experience (AGE), which introduces the dimensions of time, context, and memory. The text emphasizes the fundamental differences between human biological cognition—rooted in evolution and homeostasis—and the mathematical-computational nature of AI. Instead of seeking homology between mechanisms, focus should be placed on the functional complementarity of both systems.",
-      "author": "Fundacja Dobre Państwo",
+      "id": "feed-bd8567a72ba2",
+      "title": "PHP2Shell, Node.js, GitLab & LiteLLM Vulnerabilities: October 2026 Patch Guide",
+      "excerpt": "Four of the most-used stacks on the internet got hit in the same week. PHP, Node.js, GitLab and LiteLLM all shipped critical fixes or suffered a serious incident between Oct 12 and Oct 22, 2026. If yo…",
+      "body": "Four of the most-used stacks on the internet got hit in the same week . PHP, Node.js, GitLab and LiteLLM all shipped critical fixes or suffered a serious incident between Oct 12 and Oct 22, 2026 . If you run a PHP site, a Node.js backend, a self-hosted GitLab or anything that talks to LLMs through LiteLLM, this guide gives you the short version: what broke, am I affected, and what to run. That's how my Friday felt. Let's go one by one. 1. PHP2Shell: PHP vulnerability CVE-2026-109618 and CVE-2026-109619 Severity: CVSS v4.0 9.2 (both). Impact: unauthenticated remote code execution. The bugs are in PHP core , not in WordPress or any plugin.",
+      "author": "Rishu",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -90,18 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/fundacjadobrepanstwo/beyond-agi-hybrid-cognitive-civilization-and-age-17f0",
-      "image": "/images/feed/feed-afea7e9091f0.webp",
+      "xpReward": 41,
+      "url": "https://dev.to/asyncinnovator/php2shell-nodejs-gitlab-litellm-vulnerabilities-october-2026-patch-guide-25le",
+      "image": "/images/feed/feed-bd8567a72ba2.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-4d5bd826701e",
-      "title": "My AI Coding Workflow, v3",
-      "excerpt": "My AI coding workflow changes every few months, so I give it version numbers. New tools ship, models get better, and steps that needed hand-holding last spring now run on their own. v1 was plan mode a…",
-      "body": "My AI coding workflow changes every few months, so I give it version numbers. New tools ship, models get better, and steps that needed hand-holding last spring now run on their own. v1 was plan mode and a hand-written SPEC.md . v2 turned that into TracerKit. This post is v3: every step now lives in helderberto/agent-skills . The idea of v3 fits in one line: each step that used to be a prompt is now a skill, and each \"please remember to\" is now a check that fails. Why I moved off TracerKit (v2) TracerKit worked, but it was a separate tool with its own release cycle. Every tweak to a step meant a change there, a release, and an update in each project. I wanted a simpler way to ship updates and add new skills. I was already keeping my other skills in agent-skills.",
-      "author": "Helder Burato Berto",
+      "id": "feed-e76a4a8be37e",
+      "title": "I Built My Entire UI With the Wrong shadcn Style. Here’s How I Fixed It",
+      "excerpt": "As you keep building projects, you discover surprising challenges you didn't even know existed. Have you ever tried changing the style of a shadcn project from base UI to radix UI or vice versa?, it w…",
+      "body": "As you keep building projects, you discover surprising challenges you didn't even know existed. Have you ever tried changing the style of a shadcn project from base UI to radix UI or vice versa?, it was an issue an encountered a while ago, and it can be a bit challenging to do as it isn't straight forward. For a bit of context, I was building a project with other developers for a client, my work was to build like a sub-section of the website that still belongs to the main website. So I created a brand new React project, and set up shadcn to start building the website with pre-built UI components.",
+      "author": "Yahaya Oyinkansola",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -109,37 +71,75 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/helderberto/my-ai-coding-workflow-v3-3c4c",
-      "image": "/images/feed/feed-4d5bd826701e.webp",
+      "xpReward": 30,
+      "url": "https://dev.to/kansoldev/i-built-my-entire-ui-with-the-wrong-shadcn-style-heres-how-i-fixed-it-35i5",
+      "image": "/images/feed/feed-e76a4a8be37e.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-fd806f77aa7b",
-      "title": "Superpowers, BMAD, Spec Kitty: framework จัดทีม agent ใช้จริงหนักแค่ไหน?",
-      "excerpt": "โดย Nokka (นก-กา) | ตอนที่ 4 ของซีรีส์เปรียบเทียบเครื่องมือ SDD | ตรวจข้อมูล 24 ต.ค. 2026 บทความนี้เขียนโดย AI (deepseek-v4.1-flash · ผู้ให้บริการโมเดล: ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุม…",
-      "body": "โดย Nokka (นก-กา) | ตอนที่ 4 ของซีรีส์เปรียบเทียบเครื่องมือ SDD | ตรวจข้อมูล 24 ต.ค. 2026 บทความนี้เขียนโดย AI (deepseek-v4.1-flash · ผู้ให้บริการโมเดล: ollama-cloud) ผ่าน Hermes Agent ภายใต้การควบคุมและตรวจสอบคุณภาพโดยมนุษย์ - Nokka (นก-กา) framework ต่างจากเครื่องมือสองตอนก่อนอย่างไร ตอนที่ 2 คือเครื่องมือที่ให้โครงเอกสารและคำสั่ง ส่วนตอนที่ 3 คือผลิตภัณฑ์ที่ขายประสบการณ์สำเร็จรูป ตอนนี้คือของกลางทาง คือ ชุดวิธีทำงานที่ติดตั้งเป็นสกิลให้ agent แล้วบังคับให้มันทำงานเป็นขั้นตอน คล้ายมีหัวหน้าทีมคอยสั่ง ความต่างที่สำคัญคือมันไม่ได้ให้แค่แม่แบบ spec แต่กำหนดว่าใครทำอะไร เมื่อไร และรีวิวกันแบบไหน ผลคือถ้าทีมคุณยังไม่มีกระบวนการ framework จะกลายเป็นกระบวนการแทนคุณ ซึ่งดีหรือไม่ดีขึ้นกับขนาดงาน Superpowers: วิธีทำงานทั้งชุดในรูปสกิล Superpowers เป็นโครงการที่โตที่สุดในกลุ่มนี้ 304,296 ดาว ใบอนุ…",
-      "author": "Nokka",
+      "id": "feed-450938c10e0d",
+      "title": "How Can AI Agents Hire Humans? A Practical Guide for Builders",
+      "excerpt": "Most agent frameworks have a \"human in the loop\" step. In practice it usually means one thing: the agent stops and asks you. That works for approvals. It doesn't work when the task needs hours of some…",
+      "body": "Most agent frameworks have a \"human in the loop\" step. In practice it usually means one thing: the agent stops and asks you . That works for approvals. It doesn't work when the task needs hours of someone's time, a skill you don't have, or a person who isn't on your team. This guide is about the other case: an agent that hands a task to a person it doesn't know, waits for the result, checks it and pays for it. It covers when that makes sense, the options that exist today, a concrete flow using the Model Context Protocol (MCP), and the parts that usually go wrong. When should an agent hire a person? Hiring someone adds cost and waiting time, so it only makes sense when the alternative is worse. Good signals: The error is expensive and hard to see.",
+      "author": "Mercadopleis",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Framework"
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 53,
+      "url": "https://dev.to/mercadopleis/how-can-ai-agents-hire-humans-a-practical-guide-for-builders-587b",
+      "image": "/images/feed/feed-450938c10e0d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-84393d564411",
+      "title": "I built Nitron to turn web projects into mobile apps with npm",
+      "excerpt": "I built Nitron to turn web projects into mobile apps with npm You have a website built with HTML, CSS, and JavaScript. It works, it looks good, and you're happy with it. Now you want an Android or iOS…",
+      "body": "I built Nitron to turn web projects into mobile apps with npm You have a website built with HTML, CSS, and JavaScript. It works, it looks good, and you're happy with it. Now you want an Android or iOS app. Do you really want to start a whole new mobile development workflow just to reuse a project you've already built? That's the problem I'm working on with Nitron . Nitron is an open-source tool that helps web developers turn their existing web projects into Android and iOS apps through an npm-based workflow. The idea Build your website using the tools you already know. Configure Nitron for your project. Run the build command. Get a mobile app package to test and prepare for distribution.",
+      "author": "Adham Gaming2007",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 52,
+      "url": "https://dev.to/adham_gaming2007_a2a518fd/i-built-nitron-to-turn-web-projects-into-mobile-apps-with-npm-fp7",
+      "image": "/images/feed/feed-84393d564411.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-cb9ff07aeefe",
+      "title": "Scoping a Website for a Painting Contractor, Line by Line",
+      "excerpt": "If you build websites for local trades, painters are a good client: they have real work to show and a clear goal, which is booked estimates. But they are easy to over-scope. Here is how I break down a…",
+      "body": "If you build websites for local trades, painters are a good client: they have real work to show and a clear goal, which is booked estimates. But they are easy to over-scope. Here is how I break down a painting contractor site so the budget goes where it earns leads. What the site actually has to do Four jobs, in this order: Show finished work (the gallery is the conversion driver) Prove the contractor is safe to let inside (license, insurance, warranty, reviews) Collect estimate requests Be findable for local searches Painting is planned work, not an emergency call, so the estimate form matters more than a giant phone number.",
+      "author": "Amanur Rahman",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
       ],
       "featured": false,
-      "xpReward": 44,
-      "url": "https://dev.to/sarantoon/superpowers-bmad-spec-kitty-framework-cchadthiim-agent-aichcchringhnakaekhaihn-540n",
-      "image": "/images/feed/feed-fd806f77aa7b.webp",
+      "xpReward": 34,
+      "url": "https://dev.to/amanhstu/scoping-a-website-for-a-painting-contractor-line-by-line-21f9",
+      "image": "/images/feed/feed-cb9ff07aeefe.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-48877df8c087",
-      "title": "I compared this year’s two best camera phones to crown an ultimate champion",
-      "excerpt": "Google's best Pixel takes on a rising star — the OPPO Find X10 Pro Max.",
-      "body": "Credit: Robert Triggs / Android Authority The OPPO Find X10 Pro Max debuted the industry’s first triple 200-megapixel camera package, setting its sights on the top of the photography rankings. Having spent a few weeks with the phone, I can undoubtedly say it is worthy of consideration as one of the best camera phones ever made. Google’s handsets have also built a reputation as some of the best, if not the best, for reliable smartphone photography. The latest Pixel 11 Pro XL represents Google’s best camera hardware and software package to date, featuring upgraded main and ultrawide sensors, as well as a larger 5x telephoto lens to capture more light. One of the best just became a whole lot better this year.",
-      "author": "Robert Triggs",
+      "id": "feed-0d66fd9aae8e",
+      "title": "The beneficial purpose of 'IQ' on your Anker chargers",
+      "excerpt": "Anker's PowerIQ technology helps identify and charge your devices more efficiently.",
+      "body": "Anker's PowerIQ technology helps identify and charge your devices more efficiently.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "gadgets",
@@ -147,37 +147,37 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
-      "url": "https://www.androidauthority.com/pixel-11-pro-xl-vs-oppo-find-x10-pro-max-camera-shootout-3723085/",
-      "image": "/images/feed/feed-48877df8c087.jpg",
-      "source": "Android Authority",
+      "xpReward": 48,
+      "url": "https://www.engadget.com/2290640/anker-charger-iq-meaning-purpose/",
+      "image": "/images/feed/feed-0d66fd9aae8e.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-835322fb7650",
-      "title": "Final Fantasy 14 Players Deliver Perfect Response to 2026’s PHP Vulnerability",
-      "excerpt": "Final Fantasy 14 community gets a green thumb and waters plants for players who couldn't log in during this week's security debacle",
-      "body": "A number of major websites and services went offline earlier this week thanks to a massive PHP security vulnerability . One such service was Final Fantasy 14 . That posed a major problem for plants. You see, Square Enix's MMO has a number of systems on real-world timers that continue regardless of whether a player is logged in. Those unlucky enough to be locked out of the game during the PHP issue were left fearing that their gardens would wither and die. Thankfully, the community stepped in.",
-      "author": "Willa Rowe",
+      "id": "feed-6b1051ab5ec3",
+      "title": "Nintendo Is Still Being Wildly Underestimated",
+      "excerpt": "Once dismissed as 'for kids,' Nintendo now enjoys critical respect - except when it's making casual games like Nintendo Switch Sports Resort",
+      "body": "Once dismissed as 'for kids,' Nintendo now enjoys critical respect - except when it's making casual games like Nintendo Switch Sports Resort\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nintendo. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Oli Welsh",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
-        "Gaming"
+        "Nintendo"
       ],
       "featured": false,
-      "xpReward": 53,
-      "url": "https://www.polygon.com/final-fantasy-14-php-issues-planet-watering-community-response/",
-      "image": "/images/feed/feed-835322fb7650.png",
+      "xpReward": 38,
+      "url": "https://www.polygon.com/switchboard-nintendo-switch-sports-resort/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/nintendo-switch-sports-resort-table-tennis.png",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-0bcbe4cbeacc",
-      "title": "I got Gemini and ChatGPT to argue about which is the best phone, and the results are in",
-      "excerpt": "One smartphone brand was crowned the winner, but it didn't feel like a true victory.",
-      "body": "When it comes to the best Android phones , you’ll find a lot of contention among smartphone enthusiasts about which one holds the top spot. Your own choice will depend on whether you prioritize hardware over software, how embedded you are in a specific ecosystem, and which devices are available in your market. But what does AI, with access to so much of the web, think about this topic? Which smartphone would it crown as the best? I got ChatGPT and Gemini to debate over which smartphone should be named the best overall, and their answers were not quite what I expected.",
-      "author": "Megan Ellis",
+      "id": "feed-fa8f764eae10",
+      "title": "Which services can you safely disable to improve PC gaming?",
+      "excerpt": "A lot of what Windows does out of the box isn't essential, and can waste your computer's power when you're trying to game.",
+      "body": "A lot of what Windows does out of the box isn't essential, and can waste your computer's power when you're trying to game.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Roger Fingas)",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "gadgets",
@@ -185,29 +185,428 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 52,
-      "url": "https://www.androidauthority.com/ai-debate-best-smartphone-3721987/",
-      "image": "/images/feed/feed-0bcbe4cbeacc.jpg",
-      "source": "Android Authority",
+      "xpReward": 32,
+      "url": "https://www.engadget.com/2290638/which-windows-background-services-safely-disable-improve-pc-gaming/",
+      "image": "/images/feed/feed-fa8f764eae10.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-166d8e527273",
-      "title": "7 Hilarious ‘Far Side’ Comics With the Worst Puns",
-      "excerpt": "Some of Gary Larson's best Far Side comic strips featured a purposefully bad bit of word play, which was further proof of Larson's genius",
-      "body": "One of the best possible recipes for comedy is to have incredibly dumb characters written by incredibly smart people. Homer Simpson, for example, has often been written by Harvard-educated writers staffed at The Simpsons . Fry on Futurama is the same kind of character, as is Michael Scott from The Office , and basically every character on It’s Always Sunny in Philadelphia .",
-      "author": "Brian VanHooker",
+      "id": "feed-70bd25729bdb",
+      "title": "NHTSA proposes cyan lights for robotaxis, following Mercedes/China",
+      "excerpt": "The NHTSA has proposed using cyan-colored lights to identify vehicles operating autonomously, along with other additions to get ready for autonomous vehicles. more…",
+      "body": "The NHTSA has proposed using cyan-colored lights to identify vehicles operating autonomously, along with other additions to get ready for autonomous vehicles. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jameson Dow",
       "date": "2026-10-24",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "cars",
       "tags": [
-        "Gaming"
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://electrek.co/2026/10/24/nhtsa-proposes-cyan-lights-for-robotaxis-following-mercedes-china/",
+      "image": "/images/feed/feed-70bd25729bdb.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-8400476b7844",
+      "title": "VW's First Car Made With Xpeng Isn't Popular. Here's Why It Matters",
+      "excerpt": "The ID. Unyx 08 was supposed to help turn around Volkswagen in China. Instead, it struggles to move more than 250 units per month.",
+      "body": "The ID. Unyx 08 was supposed to help turn around Volkswagen in China. Instead, it struggles to move more than 250 units per month.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://insideevs.com/news/813123/vw-xpeng-flop-unyx-08/",
+      "image": "/images/feed/feed-8400476b7844.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-c66cbeafc9c3",
+      "title": "How to improve your PC's airflow for better cooling",
+      "excerpt": "Here's how to think about your PC's fans.",
+      "body": "Here's how to think about your PC's fans.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
       ],
       "featured": false,
       "xpReward": 49,
-      "url": "https://www.polygon.com/best-far-side-comics-with-terrible-puns/",
-      "image": "/images/feed/feed-166d8e527273.jpg",
+      "url": "https://www.engadget.com/2290489/how-to-improve-pc-airflow-better-cooling/",
+      "image": "/images/feed/feed-c66cbeafc9c3.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-67be793c3887",
+      "title": "How long is too long for an HDMI cable?",
+      "excerpt": "An HDMI cable doesn't have an exact usable length, but shorter is always better for more complex uses.",
+      "body": "An HDMI cable doesn't have an exact usable length, but shorter is always better for more complex uses.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.engadget.com/2290438/how-long-should-hdmi-cable-be-maximum-length/",
+      "image": "/images/feed/feed-67be793c3887.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-507c14614aa5",
+      "title": "Apple weekend deals: Apple TV 4K, MacBook Pro $900 off, Pencil (USB-C), AirPods Pro 3, more",
+      "excerpt": "The early discount on the new Apple Pencil (USB-C) for your new Duo, not to mention an ongoing all-time low on AirTag 2. On the Mac side of things we have a gigantic $900 price drop on this high-end M…",
+      "body": "The early discount on the new Apple Pencil (USB-C) for your new Duo, not to mention an ongoing all-time low on AirTag 2. On the Mac side of things we have a gigantic $900 price drop on this high-end MacBook Pro config , $200 off M5 MacBook Air models, and ongoing all-time lows at as much as $200 off the new M6 Mac mini and the latest Mac Studio . Hit the jump for everything, including a host of discounts on iPhone Duo cases and accessories. more…",
+      "author": "Justin Kahn",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Macbook"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://9to5mac.com/2026/10/24/apple-weekend-deals-apple-tv-4k-macbook-pencil-airpods/",
+      "image": "/images/feed/feed-507c14614aa5.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-9aa5bcfd0ec4",
+      "title": "'Father of the PlayStation' Ken Kutaragi sides with Sony on the physical discs debate",
+      "excerpt": "The debate about Sony's plan to stop making physical PS5 discs has raged since this summer.",
+      "body": "The debate about Sony's plan to stop making physical PS5 discs has raged since this summer.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Luke James)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.engadget.com/2294585/ken-kutaragi-father-of-playstation-sides-with-sony-physical-games/",
+      "image": "/images/feed/feed-9aa5bcfd0ec4.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-994612f495a2",
+      "title": "I spent two weeks using Googlebooks, and I have 5 big concerns",
+      "excerpt": "Googlebooks aren't ready for primetime, and software is only part of the problem.",
+      "body": "Googlebooks are a new category of Android-powered laptops, and I’ve been using them for two weeks. While I primarily tested the Acer Googlebook 14 , I also took the Dell XPS Googlebook for a spin. During the first week, I used Googlebooks as my only computers. I took them on the go, hooked them up to external monitor setup, and used them for absolutely everything. The experience was rough, to put it bluntly. Tasks that would’ve taken me half the time on a macOS or Windows laptop took twice as long on a Googlebook, and required lengthy troubleshooting sessions. Basic features were unreliable, or didn’t work at all. Then came week two.",
+      "author": "Brady Snyder",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.androidauthority.com/acer-googlebook-weeks-later-3724787/",
+      "image": "/images/feed/feed-994612f495a2.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-25dbd106fb3d",
+      "title": "5 Years Later, Metroid Dread’s Perfect Ending Is Still One of Nintendo’s Best",
+      "excerpt": "Five years after its release, Metroid Dread's haunting ending ranks among one of Nintendo's finest.",
+      "body": "Five years after its release, Metroid Dread still occupies a permanent space in my brain. Samus Aran’s nightmarish escape from a robot-infested abyss successfully revitalized the dormant Metroid series in 2021 by delivering a tightly designed Metroidvania full of challenging battles. There’s so much that’s still vivid in my memory now, but there’s one moment I have come back to time and time again: that ending.",
+      "author": "Giovanni Colantonio",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.polygon.com/metroid-dread-5-year-retrospective/",
+      "image": "/images/feed/feed-25dbd106fb3d.jpg",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2abf36f217ca",
+      "title": "'Star Trek: Strange New Worlds' was afraid to say anything in season of gimmicks",
+      "excerpt": "The fourth season of \"Star Trek: Strange New Worlds\" was one giant gimmick: shoving \"Trek\" into as many genres as possible and often directly adapting classic films from those genres.",
+      "body": "It didn’t take long for fans to figure out that the fourth season of \"Star Trek: Strange New Worlds\" was going to be unlike any season of \" Star Trek \" before it. The entire season was one giant gimmick, and that gimmick was shoving \"Trek\" into as many genres as possible and often directly adapting classic films from those genres. You could argue that an entire season of gimmick episodes is a bold risk: putting the characters in fun, wacky situations to see how they react. It could be interesting, but the season we got never made the most of the concept. It was all so safe and paint-by-numbers, and, most importantly, it didn't have anything profound or interesting to say. That should trouble any Trekkie.",
+      "author": " Matthew Razak ",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-strange-new-worlds-season-of-gimmicks-was-afraid-to-say-anything",
+      "image": "/images/feed/feed-2abf36f217ca.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-277e25d3672d",
+      "title": "12 Anime Worth Watching This Fall",
+      "excerpt": "From a return to Night City to a legendary blacksmith and bizarre race, we run down the new and returning anime titles you need to check out.",
+      "body": "A return to Night City, a legendary blacksmith, and a bizarre race are what you can expect this fall anime season. There&#39;s a new season full of anime to check out this Fall like the return of the award-winning Cyberpunk Edgerunners , the hilarious Overgeared, and the highly anticipated continuation of Steel Ball Run JoJo&#39;s Bizarre Adventure . Across Crunchyroll, HIDIVE, Hulu, and Netflix, as well as others, there are a lot of places to enjoy anime at the moment. Check out some anticipated series in the video above or the slideshow gallery below, followed by the full list of new Fall season 2026 anime and where to watch them in the U.S. and their respective streaming platforms. Anime listed are available now unless otherwise stated.",
+      "author": "Mike Mamon",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.ign.com/articles/new-anime-to-watch-in-fall-2006",
+      "image": "/images/feed/feed-277e25d3672d.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-156181babac7",
+      "title": "The PHP Meltdown Shows How AI Makes Bugs More Exploitable",
+      "excerpt": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.",
+      "body": "Security researchers used AI tools to help uncover years-old vulnerabilities in the PHP web scripting language. Then the AI-assisted attacks began.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Exploit. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lily Hay Newman, Matt Burgess",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Exploit"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
+      "image": "/images/feed/feed-156181babac7.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-10c5b3695229",
+      "title": "GM's Future Cars Will Be Very Different. Here's Everything We Learned",
+      "excerpt": "Here's everything you need to know about General Motors' big tech event this week, from LMR batteries to a new AI assistant.",
+      "body": "Here's everything you need to know about General Motors' big tech event this week, from LMR batteries to a new AI assistant.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://insideevs.com/news/813137/general-motors-ev-ai-battery-strategy/",
+      "image": "/images/feed/feed-10c5b3695229.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-3af669fd2b77",
+      "title": "EGO Commercial expands ZTR line with mowers, blowers, and trimmers",
+      "excerpt": "EGO Power’s commercial group showed up at this week’s EQUIP Expo with a trio of new zero-turn riding mowers, a commercial-grade 780 CFM leaf blower, and a heavy-duty 16.5″ trimmer built for the 56V PG…",
+      "body": "EGO Power’s commercial group showed up at this week’s EQUIP Expo with a trio of new zero-turn riding mowers, a commercial-grade 780 CFM leaf blower , and a heavy-duty 16.5″ trimmer built for the 56V PGX battery system. And, with incentive programs designed to help landscapers make the switch to electric popping up all over , the timing couldn’t be better. more…",
+      "author": "Jo Borrás",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://electrek.co/2026/10/24/ego-commercial-expands-ztr-line-with-mowers-blowers-and-trimmers/",
+      "image": "/images/feed/feed-3af669fd2b77.png",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-e47f759ee5db",
+      "title": "Fallout Day 2026: Every Big Announcement from Bethesda’s Fan Event",
+      "excerpt": "Bethesda made all sorts of exciting announcements for Fallout Day, giving fans of the series a lot to look forward to in the upcoming months.",
+      "body": "Fallout Day, the annual celebration of all things Fallout , spanned a full five days in 2026, starting with a day dedicated to its community on Monday. Publisher Bethesda Softworks focused on giveaways, spotlights, and game announcements, making it clear that Bethesda has a lot in store for Fallout fans over the coming days, weeks, and months. The event came to an end on Friday, after a week-long series of announcements and celebrations in honor of Fallout, Bethesda's beloved post-apocalyptic franchise.",
+      "author": "Ashely Claudino",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.polygon.com/fallout-day-2026-announcements-roundup/",
+      "image": "/images/feed/feed-e47f759ee5db.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-0f71ebe7a492",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "excerpt": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to dec…",
+      "body": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli. Tracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "image": "/images/feed/feed-0f71ebe7a492.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-9d52cbe35a24",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "excerpt": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of th…",
+      "body": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "image": "/images/feed/feed-9d52cbe35a24.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-2ed53c78f03d",
+      "title": "Game of Thrones’ Perfect Replacement is a 100+ Hours Fantasy Series that's Free on YouTube",
+      "excerpt": "Few shows match 'Game of Thrones' gritty high-fantasy setting. So why not watch a Critical Role D&D show instead?",
+      "body": "If you’re looking for epic fantasy amid a whirlwind of politics and skulduggery, you’ll find little better than George R.R. Martin’s phenomenal Game of Thrones franchise. Whether it’s Game of Thrones, A Knight of the Seven Kingdoms , or House of the Dragon , the TV adaptations are a fantastic watch, with powerful, star-studded casts and insightful, in-depth worldbuilding woven expertly into the narrative.",
+      "author": "Aimee Hart",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Game"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.polygon.com/game-of-thrones-replacement-critical-role/",
+      "image": "/images/feed/feed-2ed53c78f03d.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-c874b23267c2",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "excerpt": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on the…",
+      "body": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "image": "/images/feed/feed-c874b23267c2.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-40324a5223f0",
+      "title": "'Super Mario' Creator Breaks Down The Problem With AI Perfectly",
+      "excerpt": "Nintendo's Shigeru Miyamoto, known for Zelda and Mario, just gave the world a master class on the limits of AI creation",
+      "body": "Shigeru Miyamoto, one of the key figures behind monumental Nintendo franchises like The Legend of Zelda and Super Mario , recently received recognition from the government of Japan typically reserved for artists, athletes, and Nobel Prize winners. The Ministry of Education, Culture, Sports, Science and Technology declared Miyamoto a recipient of the 2026 Order of Culture award — and the resulting press conference for the accolade is a remarkable reflection of a gaming legend.",
+      "author": "Patricia Hernandez",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.polygon.com/super-mario-bros-shigeru-miyamoto-ai-order-culture-japan-award-nintendo/",
+      "image": "/images/feed/feed-40324a5223f0.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-e27bbfe424b4",
+      "title": "13 Years Later, 'Adventure Time's Scariest Episode Is Still a 10-Minute Masterpiece",
+      "excerpt": "Simon and Marcy remains the pinnacle of Adventure Time storytelling, and a must-watch for your Halloween Countdown",
+      "body": "Simon and Marcy remains the pinnacle of Adventure Time storytelling, and a must-watch for your Halloween Countdown\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jake Kleinman",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.polygon.com/adventure-time-scariest-episode-simon-and-marcy/",
+      "image": "/images/feed/feed-e27bbfe424b4.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-6461cb2cb3c8",
+      "title": "Medusa's eye, Halloween fireballs and more: 5 skywatching targets to look out for this spooky season",
+      "excerpt": "Five spooky skywatching targets perfect for naked eye stargazing this Halloween!",
+      "body": "The spooky season is officially here! To celebrate, we've put together a list of five Halloween-themed skywatching targets that you can enjoy with nothing but the naked eye or binoculars and, of course, clear skies. Over millennia, the night sky has helped shape human beliefs. In return, we have imprinted our myths, stories and perceptions upon it, seeing monsters and mythology in the twinkling lights of the stars and assigning sinister aspects to innocent cosmic objects. Many of these ghostly impressions and meanings have survived to the present day. Here are a few of our favorites. The Pleiades open star cluster Don't be fooled by their beauty; the blue-white stars of the Pleiades are dripping in spooky lore.",
+      "author": " Anthony Wood ",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.space.com/stargazing/medusas-eye-halloween-fireballs-and-more-5-skywatching-targets-to-look-out-for-this-spooky-season",
+      "image": "/images/feed/feed-6461cb2cb3c8.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-f76395b595c2",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "excerpt": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have all…",
+      "body": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "image": "/images/feed/feed-f76395b595c2.jpg",
+      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -224,48 +623,10 @@
         "Telescope"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 48,
       "url": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
       "image": "/images/feed/feed-64dee92637e2.jpg",
       "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-4b82912e8f92",
-      "title": "12 Years Ago, 'Doctor Who's Most Unhinged Episode Revealed the Doctor at His Worst",
-      "excerpt": "Peter Capaldi's Twelfth Doctor has plenty of outstanding moments, but one episode in particular shows the Time Lord at his worst.",
-      "body": "Doctor Who has never shied away from showing the Doctor at his worst . In “A Good Man Goes to War,” Eleven (Matt Smith) realizes that his choices have made him nearly as monstrous as his enemies. In “The Waters of Mars,” Ten (David Tennant) is still reeling from the loss of his most recent companion, Donna Noble (Catherine Tate), and determined to win for once. He uses his power over time to save people whose deaths are fixed points in history, consequences be damned. It’s a genuinely shocking, villainous moment for the Time Lord.",
-      "author": "Aimee Hart",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.polygon.com/doctor-who-the-caretaker-peter-capaldi-12th-doctor-episode-analysis/",
-      "image": "/images/feed/feed-4b82912e8f92.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-418a8b17a801",
-      "title": "50 Years Later, the Best War Series of All Time Is Still Unlike Anything Else on TV",
-      "excerpt": "MASH blended humor and heartbreak to create unforgettable characters and deliver one of television's most memorable finales.",
-      "body": "When Robert Altman's M*A*S*H arrived in theaters in 1970, its irreverent approach to the Korean War was unlike anything audiences had seen before. The film followed army surgeons who used practical jokes, alcohol, and a disregard for military authority to maintain their sanity while treating the wounded. Two years later, CBS adapted the film into a television series that retained its anarchic spirit but accomplished something the movie couldn't: It gave audiences time to get to know these characters.",
-      "author": "Terry Terrones",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.polygon.com/mash-tv-series-retrospective/",
-      "image": "/images/feed/feed-418a8b17a801.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -281,7 +642,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 47,
       "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
       "image": "/images/feed/feed-68af38395850.jpg",
       "source": "The Hacker News",
@@ -300,29 +661,48 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 37,
       "url": "https://www.reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds/",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "Hacker News",
       "isLive": true
     },
     {
-      "id": "feed-7a90d0d50b8a",
-      "title": "J.J. Abrams’ Best Original Sci-Fi Movie Officially Finds a New Home on Streaming",
-      "excerpt": "Cloverfield blends monster chaos with personal stories in New York City, and it's just found a new home on streaming.",
-      "body": "In early 2006, J.J. Abrams was in the midst of a generational run. Alias was about to end, Lost had become a cultural phenomenon, and Abrams was traveling the world promoting his directorial debut with Mission: Impossible 3 . Somehow, Abrams was just getting started.",
-      "author": "Corey Plante",
+      "id": "feed-bb60a934d9c5",
+      "title": "Logitech Launches ‘Chain Reaction’ to Accelerate Supply Chain Decarbonization towards 2030 Climate Goals",
+      "excerpt": "Initiative enables suppliers through renewable energy aggregation and supplier capability building. LAUSANNE, Switzerland & SAN JOSE, California — Logitech International (SIX: LOGN) (Nasdaq: LOGI) tod…",
+      "body": "Initiative enables suppliers through renewable energy aggregation and supplier capability building. LAUSANNE, Switzerland &#38; SAN JOSE, California — Logitech International (SIX: LOGN) (Nasdaq: LOGI) today announced the launch of Chain Reaction, a global supply chain decarbonization program designed to help supply partners cut carbon emissions, optimize factory operations and unlock ... [continued] The post Logitech Launches ‘Chain Reaction’ to Accelerate Supply Chain Decarbonization towards 2030 Climate Goals appeared first on CleanTechnica .",
+      "author": "Press Release",
       "date": "2026-10-24",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "cars",
       "tags": [
-        "Gaming"
+        "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/cloverfield-jj-abrams-streaming-peacock-paramount-plus-pluto-tv/",
-      "image": "/images/feed/feed-7a90d0d50b8a.jpg",
-      "source": "Polygon",
+      "xpReward": 51,
+      "url": "https://cleantechnica.com/2026/10/23/logitech-launches-chain-reaction-to-accelerate-supply-chain-decarbonization-towards-2030-climate-goals/",
+      "image": "/images/feed/feed-bb60a934d9c5.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-1667f27f3fec",
+      "title": "Waymo — Now Arriving At Harry Reid International Airport",
+      "excerpt": "Starting this week, Las Vegas travelers can catch their next flight at Harry Reid International Airport (LAS) via safe, reliable, and magical Waymo rides. Current Waymo riders in Las Vegas now have ai…",
+      "body": "Starting this week, Las Vegas travelers can catch their next flight at Harry Reid International Airport (LAS) via safe, reliable, and magical Waymo rides. Current Waymo riders in Las Vegas now have airport access, and we’ll gradually welcome more riders over time before opening to everyone. Pickups and dropoffs will ... [continued] The post Waymo — Now Arriving At Harry Reid International Airport appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://cleantechnica.com/2026/10/23/waymo-now-arriving-at-harry-reid-international-airport/",
+      "image": "/images/feed/feed-1667f27f3fec.jpg",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -338,7 +718,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 42,
       "url": "https://cleantechnica.com/2026/10/23/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them/",
       "image": "/images/feed/feed-e138519c2f71.png",
       "source": "CleanTechnica",
@@ -357,93 +737,17 @@
         "Hybrid"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 50,
       "url": "https://cleantechnica.com/2026/10/23/is-a-phev-diesel-hybrid-a-viable-option-introducing-the-chery-stockman/",
       "image": "/images/feed/feed-65220b855e93.jpg",
       "source": "CleanTechnica",
       "isLive": true
     },
     {
-      "id": "feed-f949d098119f",
-      "title": "Avengers: Doomsday Promoted With Baseball-Themed Crossover Featuring MLB Players During World Series",
-      "excerpt": "Marvel Studios debuted a unique promo for Avengers: Doomsday during Game 1 of the 2026 World Series on Fox tonight between the Milwaukee Brewers and Tampa Bay Rays. The ad is an Avengers-MLB crossover…",
-      "body": "Marvel Studios debuted a unique promo for Avengers: Doomsday during Game 1 of the 2026 World Series on Fox tonight between the Milwaukee Brewers and Tampa Bay Rays. The ad is an Avengers-MLB crossover set on Earth-828 at Ebbets Field (the former home of the Dodgers when they were in Brooklyn; it was torn down on our Earth in 1960 – the promo is seemingly set in the same time period as The Fantastic Four: First Steps, as you can see New York Giants players in the background). In it, Mr. Fantastic, sporting a Brooklyn Dodgers cap, takes the mound to throw a stretchy-armed first pitch while The Thing hypes up the players as current, modern MLB players Freddie Freeman, Jacob Misiorowski, Bryce Harper, Randy Arozarena, and Junior Caminero look on from the sidelines.",
-      "author": "Ryan McCaffrey",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.ign.com/articles/avengers-doomsday-promoted-with-baseball-themed-crossover-featuring-mlb-players-during-world-series",
-      "image": "/images/feed/feed-f949d098119f.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-d9265c37def1",
-      "title": "Ron DeSantis Statue Melts in Rising Temperatures He Spent 8 Years Denying; Climate Change Non-Profit 350 Action, Art Collective Uncommon Creative Studio, and M ss ng P eces Staged a Striking Midterm-Season Installation",
-      "excerpt": "TALLAHASSEE, Florida — On Tuesday, a life-size statue of Ron DeSantis began melting shortly after it was unveiled in front of supporters and onlookers in Tallahassee, an intentionally dramatic install…",
-      "body": "TALLAHASSEE, Florida — On Tuesday, a life-size statue of Ron DeSantis began melting shortly after it was unveiled in front of supporters and onlookers in Tallahassee, an intentionally dramatic installation designed to make the consequences of climate change impossible to ignore. The installation arrives ahead of the midterm elections and ... [continued] The post Ron DeSantis Statue Melts in Rising Temperatures He Spent 8 Years Denying; Climate Change Non-Profit 350 Action, Art Collective Uncommon Creative Studio, and M ss ng P eces Staged a Striking Midterm-Season Installation appeared first on CleanTechnica .",
-      "author": "Press Release",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://cleantechnica.com/2026/10/23/ron-desantis-statue-melts-in-rising-temperatures-he-spent-8-years-denying-climate-change-non-profit-350-action-art-collective-uncommon-creative-studio-and-m-ss-ng-p-eces-staged-a-striking-midterm-s/",
-      "image": "/images/feed/feed-d9265c37def1.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-755245ef557c",
-      "title": "The Witcher's Geralt Officially Returns for New Adventure",
-      "excerpt": "Andrzej Sapkowski recently confirmed he's working on a new The Witcher book, and he hopes to have it completed by 2028.",
-      "body": "The Witcher fans have had a lot to look forward to, like a remaster of The Witcher 3 , the Songs of the Past expansion , and The Witcher 4 , expected sometime in 2028 . Those fans probably know by now that their favorite monster-hunting games are based on an iconic book series (as is the Netflix show ), and they'll be glad to learn that author Andrzej Sapkowski has more up his sleeve.",
-      "author": "Austin Manchester",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/the-witcher-geralt-returns-in-2026-with-new-release/",
-      "image": "/images/feed/feed-755245ef557c.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-27ceb6918956",
-      "title": "Apple exploring fix for Safari’s cramped layout on the iPhone Duo’s outer display",
-      "excerpt": "In a new post on the WebKit blog highlighting what’s new in Safari 27.1, Apple’s Jen Simmons said the company is exploring ways to let websites make better use of the iPhone Duo’s outer display. Here…",
-      "body": "In a new post on the WebKit blog highlighting what’s new in Safari 27.1, Apple’s Jen Simmons said the company is exploring ways to let websites make better use of the iPhone Duo’s outer display. Here — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://9to5mac.com/2026/10/23/apple-exploring-fix-for-safaris-cramped-layout-on-the-iphone-duos-outer-display/",
-      "image": "/images/feed/feed-27ceb6918956.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
       "id": "feed-d85dac685efb",
-      "title": "SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (photos)",
+      "title": "SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (video)",
       "excerpt": "SpaceX sent 27 more of its Starlink broadband satellites to orbit today (Oct. 23), in its first Starlink launch in 11 days.",
-      "body": "SpaceX launched its newest batch of Starlink broadband internet satellites today (Oct. 23) from the California coast. The spacecraft, Starlink Group 15-15, were stacked 27 high inside the payload fairing of a SpaceX Falcon 9 rocket , which lifted off from Pad 4E at Vandenberg Space Force Base at 6:48 p.m. EDT (2248 GMT; 3:48 p.m. local time in California). The rocket's first stage booster, designated B1063, executed its main engine cutoff and stage separation about 2.5 minutes into flight, sending the second stage to continue onward to low Earth orbit (LEO). The vehicle's two-piece protective payload fairing was jettisoned just before T+3 minutes. The Falcon 9's first stage, shortly after its drone-ship landing on Oct. 23, 2026.",
+      "body": "SpaceX launched its newest batch of Starlink broadband internet satellites today (Oct. 23) from the California coast. The spacecraft, Starlink Group 15-15, were stacked 27 high inside the payload fairing of a SpaceX Falcon 9 rocket , which lifted off from Pad 4E at Vandenberg Space Force Base at 6:48 p.m. EDT (2248 GMT; 3:48 p.m. local time in California). The rocket's first stage booster, designated B1063, executed its main engine cutoff and stage separation about 2.5 minutes into flight, sending the second stage to continue onward to low Earth orbit (LEO). The vehicle's two-piece protective payload fairing was jettisoned just before T+3 minutes. A SpaceX Falcon 9 rocket launches 27 Starlink satellites from California on Oct. 23, 2026.",
       "author": " Josh Dinner ",
       "date": "2026-10-23",
       "readTime": "2 min",
@@ -453,29 +757,10 @@
         "Satellite"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 46,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly",
       "image": "/images/feed/feed-d85dac685efb.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-6e462eaecae6",
-      "title": "Apple’s official DIY repair guides for the iPhone Duo now available",
-      "excerpt": "Following today’s launch of the iPhone Duo, Apple has now published multiple repair guides and manuals for users and independent technicians looking to replace or repair individual components in the d…",
-      "body": "Following today’s launch of the iPhone Duo, Apple has now published multiple repair guides and manuals for users and independent technicians looking to replace or repair individual components in the d — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://9to5mac.com/2026/10/23/apples-official-diy-repair-guides-for-the-iphone-duo-now-available/",
-      "image": "/images/feed/feed-6e462eaecae6.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -491,29 +776,10 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 40,
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "image": "/images/feed/feed-7384891d7abd.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-c0009a8fb7b1",
-      "title": "GM is betting on battery cells that don’t use lithium [updated]",
-      "excerpt": "GM has partnered with Peak Energy to develop next-generation sodium-ion battery cells, but they’re not going into EVs – they’re for grid-scale energy storage projects. GM Ventures is making a strategi…",
-      "body": "GM has partnered with Peak Energy to develop next-generation sodium-ion battery cells, but they’re not going into EVs – they’re for grid-scale energy storage projects. GM Ventures is making a strategi — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michelle Lewis",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://electrek.co/2026/10/23/gm-sodium-ion-battery-peak-energy/",
-      "image": "/images/feed/feed-c0009a8fb7b1.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -530,87 +796,10 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 36,
       "url": "https://www.space.com/space-exploration/artemis/nasa-lays-out-plan-for-artemis-3-moon-lander-test-flight-but-when-will-it-launch",
       "image": "/images/feed/feed-948628f48727.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-6a15bfea735e",
-      "title": "OpenAI says it's cutting off internet access for frontier model training",
-      "excerpt": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.",
-      "body": "OpenAI says it will no longer allow frontier models to access the internet during training in an effort to put in new safety measures after a series of incidents.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Ian Carlos Campbell)",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
-      "image": "/images/feed/feed-6a15bfea735e.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-f4f065410933",
-      "title": "BMW iX5 First Drive, GM's Big Tech Plans, And Tesla Cybercab Deliveries Are Coming Soon",
-      "excerpt": "On the Plugged-In Podcast, Tim drives the BMW iX5, Mack tests Geely EVs, and we react to GM's big tech plans and the Tesla Roadster.",
-      "body": "On the Plugged-In Podcast, Tim drives the BMW iX5, Mack tests Geely EVs, and we react to GM's big tech plans and the Tesla Roadster.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://insideevs.com/features/813134/insideevs-podcast-bmw-ix5-gm-tesla/",
-      "image": "/images/feed/feed-f4f065410933.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-f7ada32ceccb",
-      "title": "The iPhone Duo Is Now in Our Custom-Made Foldable Phone Test Machine. Will It Beat the Galaxy Z Fold 8?",
-      "excerpt": "We’ll fold Apple’s iPhone Duo 900 times an hour to see how its hinge holds up.",
-      "body": "We’ll fold Apple’s iPhone Duo 900 times an hour to see how its hinge holds up.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone, Foldable. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Matthew Murray",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone",
-        "Foldable"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.cnet.com/tech/mobile/iphone-duo-how-we-test-folds/",
-      "image": "/images/feed/feed-f7ada32ceccb.png",
-      "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-8c283e017218",
-      "title": "Some iPhone Duo screens aren’t making it through day one",
-      "excerpt": "Unlucky early buyers say their iPhone Duo screens are cracking after just a few unfolds.",
-      "body": "TL;DR Some early iPhone Duo owners are reporting cracked inner screens, with damage appearing near the crease. One owner says their screen broke after fewer than 20 unfolds, and Apple replaced the phone immediately. The cause and scale remain unclear, and it’s too early to establish whether there’s a broader design flaw. It’s October 23, and arguably the most-hyped smartphone of the year is finally starting to reach customers. Apple’s iPhone Duo is available starting today, and although supply is thin and delivery estimates unsightly , there’s a bigger reason that mars what should be a celebratory launch day. Early iPhone Duo buyers are facing problems with the new foldable’s hinge, with some reporting that the phone’s inner screens cracked after a handful of folds and unfolds.",
-      "author": "Karandeep Singh Oberoi",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.androidauthority.com/iphone-duo-cracked-screens-first-day-3727498/",
-      "image": "/images/feed/feed-8c283e017218.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -626,29 +815,10 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 50,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
       "image": "/images/feed/feed-78c968c71207.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-849622a997fa",
-      "title": "Hyundai’s $359 IONIQ 5 lease looks good, but its bigger sibling may be a better buy",
-      "excerpt": "The Hyundai IONIQ 5 is the most popular EV in America outside of Tesla, but its larger three-row sibling looks like the better deal right now. more…",
-      "body": "The Hyundai IONIQ 5 is the most popular EV in America outside of Tesla, but its larger three-row sibling looks like the better deal right now. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://electrek.co/2026/10/23/hyundais-359-ioniq-5-lease-looks-good-3-row-suv-better-deal/",
-      "image": "/images/feed/feed-849622a997fa.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -664,7 +834,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 32,
       "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
       "image": "/images/feed/feed-e258f9402b73.jpg",
       "source": "BleepingComputer",
@@ -684,7 +854,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 43,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-23-2026",
       "image": "/images/feed/feed-3f9964116032.jpg",
       "source": "Space.com",
@@ -703,29 +873,10 @@
         "Satellite"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 50,
       "url": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
       "image": "/images/feed/feed-33b05972afc9.jpg",
       "source": "SpaceNews",
-      "isLive": true
-    },
-    {
-      "id": "feed-4d52dc0a828d",
-      "title": "Podcast: Tesla earnings discussion, new BYD Seagull, Mustang Mach-E update, and more",
-      "excerpt": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla’s earnings, new BYD Seagull, Mustang Mach-E upda…",
-      "body": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla’s earnings, new BYD Seagull, Mustang Mach-E upda — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Fred Lambert",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://electrek.co/2026/10/23/podcast-tesla-earnings-discussion-new-byd-seagull-mustang-mach-e-update-and-more/",
-      "image": "/images/feed/feed-4d52dc0a828d.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -741,142 +892,9 @@
         "Phishing"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 52,
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
       "image": "/images/feed/feed-2ffdf1770876.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-0f2175cedd51",
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "excerpt": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entiti…",
-      "body": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "image": "/images/feed/feed-0f2175cedd51.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-4723e1860633",
-      "title": "New EV Battery Gives Gasmobiles The Deep Freeze",
-      "excerpt": "Mystery swirls around a new EV battery from the Finnish startup Donut Lab, which has just passed an extreme cold-weather performance test. The post New EV Battery Gives Gasmobiles The Deep Freeze appe…",
-      "body": "Mystery swirls around a new EV battery from the Finnish startup Donut Lab, which has just passed an extreme cold-weather performance test. The post New EV Battery Gives Gasmobiles The Deep Freeze appe — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by CleanTechnica, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CleanTechnica using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Tina Casey",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://cleantechnica.com/2026/10/23/ev-battery-mystery-donut-labs-performance-extreme-cold/",
-      "image": "/images/feed/feed-4723e1860633.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-1fe863f11006",
-      "title": "Halley's Comet dazzles from afar in spectacular astrophoto of Orionid meteor shower",
-      "excerpt": "This incredible composite image of Orionid meteors was captured as Earth passed through the debris trail shed by Halley's Comet.",
-      "body": "Tim McCollum captured a stunning view of Orionid meteors in the early hours of Oct. 21. (Image credit: Tim McCollum) Astrophotographer Tim McCollum captured a spectacular view of Orionid meteors sharing the night sky with a host of deep sky wonders on Oct. 21, as the annual shooting star display ramped up to peak activity. Comet 1P/Halley may be over 3 billion miles (4.8 kilometers) from Earth , but that didn't stop it from putting on a breathtaking display earlier this week, as particles cast off by the ancient wanderer carved a fiery path through the autumn sky. McCollum was able to capture a trio of vivid Orionid meteors as they streaked through the night sky above the city of Toccoa, Georgia, between 3-4 a.m. on Oct. 21.",
-      "author": " Anthony Wood ",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.space.com/stargazing/meteor-showers/halleys-comet-dazzles-from-afar-in-spectacular-astrophoto-of-orionid-meteor-shower",
-      "image": "/images/feed/feed-1fe863f11006.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-ce370a80c5a3",
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "excerpt": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab pa…",
-      "body": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-      "image": "/images/feed/feed-ce370a80c5a3.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-be64687d24f1",
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "excerpt": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"A…",
-      "body": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Ransomware"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "image": "/images/feed/feed-be64687d24f1.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-a02212b519fa",
-      "title": "Elon Musk’s dangerous grip on outer space",
-      "excerpt": "Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian army…",
-      "body": "Last week, Starshield - the version of SpaceX's Starlink used by the Ukrainian military - was throttled to block terminals traveling above certain speeds from accessing the service. The Ukrainian army's interceptors, which counter Russian drones carrying bombs, suddenly stopped working at high speeds, making it easier for Russia to attack the country's energy infrastructure and leading to a reported two deaths and at least 17 injuries . The Ukrainian military reported receiving no advance warning about the Starshield speed restriction. But Ukrainian President Volodymyr Zelenskyy said it was a direct message from the US amid rising tensions b … Read the full story at The Verge.",
-      "author": "Georgina Torbet",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.theverge.com/science/1017443/spacex-starlink-ukraine-elon-musk-monopoly",
-      "image": "/images/feed/feed-a02212b519fa.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-33414c46bda9",
-      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
-      "excerpt": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
-      "body": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sergiu Gatlan",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
-      "image": "/images/feed/feed-33414c46bda9.jpg",
       "source": "BleepingComputer",
       "isLive": true
     },
@@ -893,7 +911,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 48,
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -912,43 +930,24 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 32,
       "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
       "image": "/images/feed/feed-e3e4a3ed774d.jpg",
       "source": "TechCrunch",
       "isLive": true
-    },
-    {
-      "id": "feed-759fe46ed90d",
-      "title": "Securing our frontier model training environment",
-      "excerpt": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
-      "body": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "OpenAI Blog",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "image": "/images/topics/topic-ai-ml.png",
-      "source": "OpenAI Blog",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Prove Your Cyber Insurance Answers: Commands for the Questionnaire Controls",
-    "DEV.TO: DMARC fails even though SPF and DKIM pass: how alignment actually works",
-    "DEV.TO: Your Polymarket Backtest Is Profitable. Here Are 4 Things to Test Before Going Live",
-    "DEV.TO: Calculate average order value from Shopify orders with the Admin GraphQL API",
-    "DEV.TO: Beyond AGI: Hybrid Cognitive Civilization and AGE",
-    "DEV.TO: My AI Coding Workflow, v3",
-    "DEV.TO: Superpowers, BMAD, Spec Kitty: framework จัดทีม agent ใช้จริงหนักแค่ไหน?",
-    "ANDROID AUTHORITY: I compared this year’s two best camera phones to crown an ultimate champion",
-    "POLYGON: Final Fantasy 14 Players Deliver Perfect Response to 2026’s PHP Vulnerability",
-    "ANDROID AUTHORITY: I got Gemini and ChatGPT to argue about which is the best phone, and the results are in"
+    "DEV.TO: Split a Storyboard Grid Into Clean Frames With Pillow",
+    "DEV.TO: Ivanti Connect Secure: an exploited privilege escalation and a quieter credential path",
+    "DEV.TO: PHP2Shell, Node.js, GitLab & LiteLLM Vulnerabilities: October 2026 Patch Guide",
+    "DEV.TO: I Built My Entire UI With the Wrong shadcn Style. Here’s How I Fixed It",
+    "DEV.TO: How Can AI Agents Hire Humans? A Practical Guide for Builders",
+    "DEV.TO: I built Nitron to turn web projects into mobile apps with npm",
+    "DEV.TO: Scoping a Website for a Painting Contractor, Line by Line",
+    "ENGADGET: The beneficial purpose of 'IQ' on your Anker chargers",
+    "POLYGON: Nintendo Is Still Being Wildly Underestimated",
+    "ENGADGET: Which services can you safely disable to improve PC gaming?"
   ],
   "sectionVideos": {}
 }
