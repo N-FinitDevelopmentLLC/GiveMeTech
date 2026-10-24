@@ -1,12 +1,107 @@
 {
-  "fetchedAt": "2026-10-24T00:07:45.197Z",
+  "fetchedAt": "2026-10-24T05:11:17.055Z",
   "articles": [
     {
-      "id": "feed-396c8ab05db6",
-      "title": "Lemmy: 513 title matches, 94 certificate hits and 207 on 443",
-      "excerpt": "Lemmy: 513 title matches, 94 certificate hits and 207 on 443 Federated platforms are an unusual measurement target. They are designed to be reachable by strangers, they run a public identity model, an…",
-      "body": "Lemmy: 513 title matches, 94 certificate hits and 207 on 443 Federated platforms are an unusual measurement target. They are designed to be reachable by strangers, they run a public identity model, and the software is deployed by volunteers on infrastructure nobody audits. Lemmy is a link aggregator in that category, and its numbers online describe a population of small, self-managed instances rather than a fleet with a change control process. The counts ZoomEye queries on 23 October 2026, sub_type=all , page size one: title=\"Lemmy\" : 513 title=\"Lemmy\" &amp;&amp; port=\"443\" : 207 title=\"Lemmy\" &amp;&amp; ssl=\"lemmy\" : 94 The spread is what a federated platform looks like when indexed.",
-      "author": "facilishz",
+      "id": "feed-c604f31f5fdc",
+      "title": "Rejetto HFS signs its admin session cookie with Math.random()",
+      "excerpt": "Rejetto HFS signs its admin session cookie with Math.random() A file server that runs on a spare machine in an office corner rarely gets a threat model. Rejetto HFS is exactly that kind of software: a…",
+      "body": "Rejetto HFS signs its admin session cookie with Math.random() A file server that runs on a spare machine in an office corner rarely gets a threat model. Rejetto HFS is exactly that kind of software: a single executable, a browser administration page, and a directory of files shared with colleagues or clients. CVE-2026-61500 shows what happens when such a tool builds its session security on a random number generator that was never meant to keep secrets. What the advisory says The CVE record describes HFS 3.0.0 through 3.2.0. In those releases the signing key for the session cookie is derived from JavaScript's Math.random() , a general-purpose generator with no cryptographic properties. The same generator's output is also exposed to unauthenticated clients during the login exchange.",
+      "author": "kozhevniko",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 52,
+      "url": "https://dev.to/kozhevniko/rejetto-hfs-signs-its-admin-session-cookie-with-mathrandom-1lgj",
+      "image": "/images/feed/feed-c604f31f5fdc.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-0409657adeec",
+      "title": "Hello DEV Community! 👋 | Back to Learning, Building & Exploring 🚀",
+      "excerpt": "Hey everyone! 👋 Excited to finally be a part of the DEV Community! I'm a Computer Science graduate and a tech enthusiast who loves exploring different technologies, building projects, and connecting…",
+      "body": "Hey everyone! 👋 Excited to finally be a part of the DEV Community! I'm a Computer Science graduate and a tech enthusiast who loves exploring different technologies, building projects, and connecting with like-minded people. My journey started with web development, eventually leading me to explore Web3, hackathons, and different areas of software development. Along the way, I've realized one thing: technology never stops evolving, and neither should we! 💡 I'm here to: 🚀 Explore new technologies and sharpen my development skills. 💻 Share my learning experiences, projects, and challenges. 🤝 Connect with developers and learn from the community. 🌱 Stay curious, experiment, and keep building. I believe you don't need to know everything to get started.",
+      "author": "Ragul Sankar",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 45,
+      "url": "https://dev.to/ragulsankar04/hello-dev-community-back-to-learning-building-exploring-3n43",
+      "image": "/images/feed/feed-0409657adeec.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-82f0eabda459",
+      "title": "Your AI Agents Are Logging In With Your Password. Banks Have Noticed.",
+      "excerpt": "Stop sharing your credentials with agents — per-agent identity is here, and here's the order to fix things in. Disclosure: some links in the original are affiliate links, and we may earn a commission…",
+      "body": "Stop sharing your credentials with agents — per-agent identity is here, and here's the order to fix things in. Disclosure: some links in the original are affiliate links, and we may earn a commission if you buy through them — at no extra cost to you. It doesn't change our analysis, and the security advice below is the same advice we'd give with no links at all. You gave an agent a job. To do it, the agent needed to log in somewhere — a dashboard, a cloud console, a bank, a SaaS tool. So you did what almost every developer has done this year: you handed it your password, or a key that works just like one. It is probably still sitting in a prompt, a script, or a .env file you meant to clean up later. That is the quiet security debt of the agent era.",
+      "author": "Paul Lovelace",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 46,
+      "url": "https://dev.to/paullovelace/your-ai-agents-are-logging-in-with-your-password-banks-have-noticed-23p5",
+      "image": "/images/feed/feed-82f0eabda459.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-e9b3d9208d15",
+      "title": "SlothSync: A Gentler Way to Get Things Done with Gemini",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady SlothSync turns a messy list of errands and obligations into a few small next steps, plus a list of tasks th…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built SlothSync turns a messy list of errands and obligations into a few small next steps, plus a list of tasks that can wait. It’s for anyone who has a full mind and could use help deciding where to start. Demo https://slothsync1.vercel.app/ Code Repository: https://github.com/rohini-ray/SlothSync.git How I Built It SlothSync is a small Python web server with a browser interface. The backend reads the Gemini API key from .env and sends the task list to Gemini for a structured plan. The browser keeps the draft and latest plan in local storage. Why Does Open Innovation Matter? The app and its planning prompt are open source, so people can inspect and change how the planner behaves.",
+      "author": "ROHINI RAY",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 45,
+      "url": "https://dev.to/rohiniray/slothsync-a-gentler-way-to-get-things-done-with-gemini-mm0",
+      "image": "/images/feed/feed-e9b3d9208d15.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-9dd0e2cfc233",
+      "title": "Stateless agents cut long‑horizon token usage",
+      "excerpt": "Current long‑horizon LLM agents burn tokens at a rate that makes billion‑step research infeasible. Their prompts grow as every intermediate result is replayed, leading to duplicated effort and runaway…",
+      "body": "Current long‑horizon LLM agents burn tokens at a rate that makes billion‑step research infeasible. Their prompts grow as every intermediate result is replayed, leading to duplicated effort and runaway costs. Decoupling durable state from the model’s active context, as proposed by Stateless Language Agents (SLAs), flips this trend on its head. Historically, agent designs have embedded the entire research history inside each model invocation, so every call re‑feeds an ever‑larger transcript. Benchmarks were consequently limited to short budgets where token blow‑up never surfaced. This coupling forced researchers to accept a trade‑off between horizon length and compute expense.",
+      "author": "Papers Mache",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 31,
+      "url": "https://dev.to/olaughter/stateless-agents-cut-long-horizon-token-usage-oog",
+      "image": "/images/feed/feed-9dd0e2cfc233.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1bfb0e1afb9f",
+      "title": "A pre-flight validator for QuickBooks Online bank CSV uploads",
+      "excerpt": "A QuickBooks Online bank CSV should be validated before upload against two sets of rules: Intuit's format rules (3 or 4 columns, 1,000 lines or fewer, 350 KB or less, one date format, no zeros in Cred…",
+      "body": "A QuickBooks Online bank CSV should be validated before upload against two sets of rules: Intuit's format rules (3 or 4 columns, 1,000 lines or fewer, 350 KB or less, one date format, no zeros in Credit or Debit) and the statement's own arithmetic (opening plus rows equals closing). Below is a small Python validator for both. ZeraBooks Convert runs the arithmetic check before it lets you download. I'm on the ZeraBooks team. Our converter outputs QuickBooks-ready CSVs, so we spend a lot of time on what QuickBooks Online will and won't accept, and on what it will accept that's still wrong. The second category is the dangerous one. A file that uploads cleanly can still be missing a line, and once it's in the For review list you won't see it until reconciliation fails.",
+      "author": "Damin Mutti",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -15,123 +110,199 @@
       ],
       "featured": true,
       "xpReward": 40,
-      "url": "https://dev.to/facilishz/lemmy-513-title-matches-94-certificate-hits-and-207-on-443-36jm",
-      "image": "/images/feed/feed-396c8ab05db6.webp",
+      "url": "https://dev.to/zerabooks/a-pre-flight-validator-for-quickbooks-online-bank-csv-uploads-38o8",
+      "image": "/images/feed/feed-1bfb0e1afb9f.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-76f8152a3378",
-      "title": "Audio Deadlines: Running On-Device TTS Without Audible Glitches",
-      "excerpt": "Gradium open-sourced Phonon, its on-device TTS engine (https://gradium.ai/phonon). That matters less because of the model than because of what it signals: on-device speech synthesis is now a dependenc…",
-      "body": "Gradium open-sourced Phonon, its on-device TTS engine ( https://gradium.ai/phonon ). That matters less because of the model than because of what it signals: on-device speech synthesis is now a dependency you can ship rather than a research demo. And a wave of teams is about to find out that the hard part of edge speech is not the model. It is that audio is the one component in your app with a hard real-time deadline, and nothing else in your background trained you for that. Two clocks, and only one of them forgives you A web request can take 900 ms and nobody dies. An audio callback cannot take 21 ms when it had 20. Once playback starts, the DAC consumes samples at a fixed rate forever, and your synthesis loop has to stay ahead of it.",
-      "author": "skvrtyk",
+      "id": "feed-84936072bb09",
+      "title": "Sorta — An AI Downloads Butler Built with Local Gemma",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady I made Sorta, a small AI-powered app that suggests where a downloaded file could belong based on its filenam…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady My downloads folder can get messy pretty quickly, so for the Hacktoberfest Week 3 challenge, I decided to build something that could help me organize it. I made Sorta, a small AI-powered app that suggests where a downloaded file could belong based on its filename. What I Built Sorta is built with Python, Streamlit, Ollama, and Gemma 3 1B. I enter or select a filename, and Gemma suggests a folder category. I can review the suggestion in the app before deciding what to do with the file. This is an early prototype: Sorta currently previews folder suggestions. It does not automatically move files, and its undo feature is not implemented yet.",
+      "author": "Arjun Sharma",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
-      ],
-      "featured": true,
-      "xpReward": 44,
-      "url": "https://dev.to/dima_kruglov_608741d9a416/audio-deadlines-running-on-device-tts-without-audible-glitches-kdi",
-      "image": "/images/feed/feed-76f8152a3378.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-f68972c2038c",
-      "title": "I stopped reviewing my coding agent's diffs file by file",
-      "excerpt": "When I wrote code by hand, a change took me hours. By the time it was done, I knew it by heart: what called what, which path a request took, which test covered which piece. I had built that picture wh…",
-      "body": "When I wrote code by hand, a change took me hours. By the time it was done, I knew it by heart: what called what, which path a request took, which test covered which piece. I had built that picture while typing, so reviewing it was easy. My coworkers' code was easy to keep up with too. They moved at the same pace I did, so pull requests came in slowly enough that I had time to understand each one. Now a coding agent writes most of the code. A change that took an afternoon lands in minutes, then the next one, then the next. The code changes so often that I no longer build a mental map of it the way I used to. So reviewing became the hard part.",
-      "author": "Yvan Guekeng Tindo",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 53,
-      "url": "https://dev.to/gtindo/i-stopped-reviewing-my-coding-agents-diffs-file-by-file-4ap7",
-      "image": "/images/feed/feed-f68972c2038c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-f7bc122a1bfd",
-      "title": "Our webhook dedupe check was a race, not a guard",
-      "excerpt": "We deduplicated webhooks the obvious way. Handler receives an event, runs SELECT on processed_events by event_id, and if nothing is found, does the work and inserts the row at the end. It held for mon…",
-      "body": "We deduplicated webhooks the obvious way. Handler receives an event, runs SELECT on processed_events by event_id, and if nothing is found, does the work and inserts the row at the end. It held for months. Then a customer got two receipt emails and a loyalty-points credit twice for the same payment. The cause: the gateway redelivered the event 40 ms after the first attempt, because our first response was slow (a cold DB connection pushed it to about 3 seconds, and their timeout was 2). Both deliveries landed on different pods. Both ran the SELECT before either had inserted. Both saw an empty table, and both did the work. In logs it looked like duplicate delivery, but the gateway was behaving correctly. Our check-then-act was the bug. The fix was to flip the order.",
-      "author": "Payneteasy",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/payneteasy/our-webhook-dedupe-check-was-a-race-not-a-guard-411a",
-      "image": "/images/feed/feed-f7bc122a1bfd.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-fe8345dc97ee",
-      "title": "When both needs are valid: negotiating conditions for working together",
-      "excerpt": "Social capabilities across human development | Part 13 One person wants quiet; another thinks by talking. Neither is necessarily wrong. Negotiation's social role extends beyond persuading someone to a…",
-      "body": "Social capabilities across human development | Part 13 One person wants quiet; another thinks by talking. Neither is necessarily wrong. Negotiation's social role extends beyond persuading someone to adapt: it creates conditions in which people with different purposes can act together. Different working styles in the same room Two students prepare a joint presentation. One needs to read silently; the other wants to develop ideas aloud at a whiteboard. They agree on quiet reading first and discussion afterwards. Ideas to discuss can be noted while waiting. This fictional example adjusts time, place, and sequence rather than attempting to fix someone's personality. Consider whether only one person repeatedly yields, alongside whether agreement is reached.",
-      "author": "LOGIHEART",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 37,
-      "url": "https://dev.to/logiheart/when-both-needs-are-valid-negotiating-conditions-for-working-together-mk1",
-      "image": "/images/feed/feed-fe8345dc97ee.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-4c83773ee97c",
-      "title": "Qwen3-TTS Silently Dropped My Instruction, and My A/B Never Noticed",
-      "excerpt": "Originally published on hexisteme notes. While evaluating Qwen3-TTS for narration, I ran a small A/B to see whether an instruction could raise the speaking rate. It couldn't, I wrote that down, and sp…",
-      "body": "Originally published on hexisteme notes . While evaluating Qwen3-TTS for narration, I ran a small A/B to see whether an instruction could raise the speaking rate. It couldn't, I wrote that down, and speed control moved to post-processing. The next day a different experiment turned up a line of code that made half of that A/B meaningless: on the smaller model, the instruction never reached the model. The call returned normal audio, the transcript was perfect, and nothing in the measurements looked wrong. Before comparing settings of a control knob, show that the knob moves the output at all. Otherwise the comparison measures nothing. The A/B The goal was fast narration, around 230 words per minute.",
-      "author": "John",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/hexisteme/qwen3-tts-silently-dropped-my-instruction-and-my-ab-never-noticed-3kca",
-      "image": "/images/feed/feed-4c83773ee97c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-9ef10ae10f63",
-      "title": "Give your AI agent web-data tools with Apify's MCP server (Python, no SDK, 2026)",
-      "excerpt": "Most AI agents can now talk to remote MCP servers. Apify runs one at https://mcp.apify.com, and any public Actor in Apify Store can be exposed through it as a tool your agent can call: SSL checks, DNS…",
-      "body": "Most AI agents can now talk to remote MCP servers. Apify runs one at https://mcp.apify.com , and any public Actor in Apify Store can be exposed through it as a tool your agent can call: SSL checks, DNS audits, broken-link crawls, screenshots, keyword research and thousands more. This post shows what actually happens on the wire, with a ~50-line stdlib Python client, so you can see exactly what your agent sees and pays for. 1. Pick the tools with the URL ?tools= takes a comma-separated list of Actors: https://mcp.apify.com?tools=datawright-labs/ssl-certificate-checker,datawright-labs/email-domain-dns-checker Auth is your Apify API token as Authorization: Bearer &lt;APIFY_TOKEN&gt; (free account; Actors bill per result on your own account). 2.",
-      "author": "Datawright Labs",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Python"
       ],
       "featured": false,
-      "xpReward": 49,
-      "url": "https://dev.to/datawrightlabs/give-your-ai-agent-web-data-tools-with-apifys-mcp-server-python-no-sdk-2026-4lih",
-      "image": "/images/feed/feed-9ef10ae10f63.webp",
+      "xpReward": 38,
+      "url": "https://dev.to/arjun_sharma_bae582d1abbf/sorta-an-ai-downloads-butler-built-with-local-gemma-34ln",
+      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-06fb9b9fbf06",
+      "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
+      "excerpt": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
+      "body": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta&#8217;s Selfie Explanation: This Rosetta spacecraft selfie was snapped on October 7th, 2014. At the time the comet-chasing spacecraft was about 472 million kilometers from planet Earth, but only 16 kilometers from the surface of comet 67P/Churyumov-Gerasimenko . Looming beyond the spacecraft near the top of the frame, dust and gas stream away from the comet’s curious double-lobed nucleus .",
+      "author": "NASA Breaking News",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+      "image": "/images/feed/feed-06fb9b9fbf06.png",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-7a90d0d50b8a",
+      "title": "J.J. Abrams’ Best Original Sci-Fi Movie Officially Finds a New Home on Streaming",
+      "excerpt": "Cloverfield blends monster chaos with personal stories in New York City, and it's just found a new home on streaming.",
+      "body": "In early 2006, J.J. Abrams was in the midst of a generational run. Alias was about to end, Lost had become a cultural phenomenon, and Abrams was traveling the world promoting his directorial debut with Mission: Impossible 3 . Somehow, Abrams was just getting started.",
+      "author": "Corey Plante",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.polygon.com/cloverfield-jj-abrams-streaming-peacock-paramount-plus-pluto-tv/",
+      "image": "/images/feed/feed-7a90d0d50b8a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-e138519c2f71",
+      "title": "US Tech Leaders Are Urgently Calling for Rules on AI — China Already Has Them",
+      "excerpt": "Recent warnings from American AI leaders have created the impression that the world is only beginning to confront the dangers of advanced artificial intelligence. Dario Amodei, chief executive of tech…",
+      "body": "Recent warnings from American AI leaders have created the impression that the world is only beginning to confront the dangers of advanced artificial intelligence. Dario Amodei, chief executive of tech company Anthropic, has called for governments to intervene to slow the development of increasingly powerful AI models. His proposal begins ... [continued] The post US Tech Leaders Are Urgently Calling for Rules on AI — China Already Has Them appeared first on CleanTechnica .",
+      "author": "Guest Contributor",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://cleantechnica.com/2026/10/23/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them/",
+      "image": "/images/feed/feed-e138519c2f71.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-65220b855e93",
+      "title": "Is A PHEV Diesel Hybrid A Viable Option? Introducing the Chery Stockman",
+      "excerpt": "I was intrigued by the recent announcement from Chery that they were going to import a diesel plugin hybrid ute to Australia. With Australian highways abounding in diesel utes and petrol PHEVs (notabl…",
+      "body": "I was intrigued by the recent announcement from Chery that they were going to import a diesel plugin hybrid ute to Australia. With Australian highways abounding in diesel utes and petrol PHEVs (notably, the BYD Shark 6 and the Canon Alpha), why hasn’t this been done before? Carsguide touts the ... [continued] The post Is A PHEV Diesel Hybrid A Viable Option? Introducing the Chery Stockman appeared first on CleanTechnica .",
+      "author": "David Waterworth",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Hybrid"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://cleantechnica.com/2026/10/23/is-a-phev-diesel-hybrid-a-viable-option-introducing-the-chery-stockman/",
+      "image": "/images/feed/feed-65220b855e93.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-f949d098119f",
+      "title": "Avengers: Doomsday Promoted With Baseball-Themed Crossover Featuring MLB Players During World Series",
+      "excerpt": "Marvel Studios debuted a unique promo for Avengers: Doomsday during Game 1 of the 2026 World Series on Fox tonight between the Milwaukee Brewers and Tampa Bay Rays. The ad is an Avengers-MLB crossover…",
+      "body": "Marvel Studios debuted a unique promo for Avengers: Doomsday during Game 1 of the 2026 World Series on Fox tonight between the Milwaukee Brewers and Tampa Bay Rays. The ad is an Avengers-MLB crossover set on Earth-828 at Ebbets Field (the former home of the Dodgers when they were in Brooklyn; it was torn down on our Earth in 1960 – the promo is seemingly set in the same time period as The Fantastic Four: First Steps, as you can see New York Giants players in the background). In it, Mr. Fantastic, sporting a Brooklyn Dodgers cap, takes the mound to throw a stretchy-armed first pitch while The Thing hypes up the players as current, modern MLB players Freddie Freeman, Jacob Misiorowski, Bryce Harper, Randy Arozarena, and Junior Caminero look on from the sidelines.",
+      "author": "Ryan McCaffrey",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.ign.com/articles/avengers-doomsday-promoted-with-baseball-themed-crossover-featuring-mlb-players-during-world-series",
+      "image": "/images/feed/feed-f949d098119f.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-d9265c37def1",
+      "title": "Ron DeSantis Statue Melts in Rising Temperatures He Spent 8 Years Denying; Climate Change Non-Profit 350 Action, Art Collective Uncommon Creative Studio, and M ss ng P eces Staged a Striking Midterm-Season Installation",
+      "excerpt": "TALLAHASSEE, Florida — On Tuesday, a life-size statue of Ron DeSantis began melting shortly after it was unveiled in front of supporters and onlookers in Tallahassee, an intentionally dramatic install…",
+      "body": "TALLAHASSEE, Florida — On Tuesday, a life-size statue of Ron DeSantis began melting shortly after it was unveiled in front of supporters and onlookers in Tallahassee, an intentionally dramatic installation designed to make the consequences of climate change impossible to ignore. The installation arrives ahead of the midterm elections and ... [continued] The post Ron DeSantis Statue Melts in Rising Temperatures He Spent 8 Years Denying; Climate Change Non-Profit 350 Action, Art Collective Uncommon Creative Studio, and M ss ng P eces Staged a Striking Midterm-Season Installation appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://cleantechnica.com/2026/10/23/ron-desantis-statue-melts-in-rising-temperatures-he-spent-8-years-denying-climate-change-non-profit-350-action-art-collective-uncommon-creative-studio-and-m-ss-ng-p-eces-staged-a-striking-midterm-s/",
+      "image": "/images/feed/feed-d9265c37def1.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-755245ef557c",
+      "title": "The Witcher's Geralt Officially Returns for New Adventure",
+      "excerpt": "Andrzej Sapkowski recently confirmed he's working on a new The Witcher book, and he hopes to have it completed by 2028.",
+      "body": "The Witcher fans have had a lot to look forward to, like a remaster of The Witcher 3 , the Songs of the Past expansion , and The Witcher 4 , expected sometime in 2028 . Those fans probably know by now that their favorite monster-hunting games are based on an iconic book series (as is the Netflix show ), and they'll be glad to learn that author Andrzej Sapkowski has more up his sleeve.",
+      "author": "Austin Manchester",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.polygon.com/the-witcher-geralt-returns-in-2026-with-new-release/",
+      "image": "/images/feed/feed-755245ef557c.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-88d499677c69",
+      "title": "Aaron Paul Makes Surprise Cameo in DC’s Clayface",
+      "excerpt": "Three-time Emmy winner Aaron Paul has a blink and you’ll miss it cameo in the new DC movie Clayface. Now, the film’s director, James Watkins, has revealed why the Breaking Bad and Westworld star is in…",
+      "body": "Spoilers follow for Clayface, which is now playing in theaters. Three-time Emmy winner Aaron Paul has a blink and you’ll miss it cameo in the new DC movie Clayface . Now, the film’s director, James Watkins, has revealed why the Breaking Bad and Westworld star is in DC’s first R-rated horror movie. Paul plays Jimmy “One Nut” Hagen, the late abusive father of protagonist Matt Hagen (Tom Rhys Harries). Word of Paul’s casting was first reported by Feature First back in June. Paul’s cameo occurs during the climactic action sequence set at the Gotham City nightclub Vesuvius where Matt confronts the gangsters who disfigured him. Matt finds the hood who killed his dad and morphs into his father to shock the killer.",
+      "author": "Jim Vejvoda",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.ign.com/articles/aaron-paul-clayface-cameo-dc",
+      "image": "/images/feed/feed-88d499677c69.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-70b9f0cfd39a",
+      "title": "Dead by Daylight to Remove Chucky Content Just Months After Losing Michael Myers",
+      "excerpt": "Dead by Daylight fans are beside themselves after Behaviour Interactive announced that all Chucky content would no longer be available to purchase starting next month.",
+      "body": "Dead by Daylight fans are beside themselves after Behaviour Interactive announced that all Chucky content would no longer be available to purchase starting next month. The developer behind the popular asymmetrical horror game confirmed plans to pull the Chucky Chapter from sale in posts shared across social media. The message followed rumors that the possessed killer doll would soon be removed from the game, with the official statement promising that those who have purchased related content will be able to use it even after it is removed from shelves starting November 24, 2026. &quot;We welcomed The Good Guy out of his box and into The Fog nearly three years ago, but it&#39;s now time for the Chucky Chapter to leave the shelf,&quot; Behaviour said .",
+      "author": "Michael Cripe",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.ign.com/articles/dead-by-daylight-to-remove-chucky-content-just-months-after-losing-michael-myers",
+      "image": "/images/feed/feed-70b9f0cfd39a.png",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -147,7 +318,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 54,
       "url": "https://9to5mac.com/2026/10/23/apple-exploring-fix-for-safaris-cramped-layout-on-the-iphone-duos-outer-display/",
       "image": "/images/feed/feed-27ceb6918956.jpg",
       "source": "9to5Mac",
@@ -166,7 +337,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 44,
       "url": "https://www.polygon.com/darkwing-duck-reboot-disney-plus/",
       "image": "/images/feed/feed-de2828e0dd84.jpg",
       "source": "Polygon",
@@ -186,10 +357,29 @@
         "Satellite"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 35,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly",
       "image": "/images/feed/feed-d85dac685efb.jpg",
       "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-93691fb02d8f",
+      "title": "Barnes & Noble Has the First 500-Piece Dungeon Crawler Carl Jigsaw Puzzle for Sale",
+      "excerpt": "Barnes & Noble Has the First 500-Piece Dungeon Crawler Carl Jigsaw Puzzle for Sale",
+      "body": "The Dungeon Crawler Carl series has blown up this year in many ways, but it&#39;s the incredibly fast expansion into merchandise has been truly impressive for the franchise. There are T-shirts, graphic novels, action figures, tabletop games, and even a halloween costume available to buy already, but now you can add jigsaw puzzles to that list. Spotted on Reddit yesterday , there is a new 500-piece DCC puzzle now available at Barnes &amp; Noble Stores. It&#39;s called &quot;Meet the Crawlers&quot; and features a full cast of familiar characters from the books, including Carl and Donut. Surprisingly, this isn&#39;t even the first official Dungeon Crawler Carl jigsaw puzzle.",
+      "author": "Jacob Kienlen",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.ign.com/articles/barnes-noble-has-the-first-500-piece-dungeon-crawler-carl-jigsaw-puzzle-for-sale",
+      "image": "/images/feed/feed-93691fb02d8f.png",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -205,7 +395,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 31,
       "url": "https://9to5mac.com/2026/10/23/apples-official-diy-repair-guides-for-the-iphone-duo-now-available/",
       "image": "/images/feed/feed-6e462eaecae6.jpg",
       "source": "9to5Mac",
@@ -224,7 +414,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 39,
       "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "image": "/images/feed/feed-7384891d7abd.webp",
       "source": "TechCrunch",
@@ -243,7 +433,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 52,
       "url": "https://electrek.co/2026/10/23/gm-sodium-ion-battery-peak-energy/",
       "image": "/images/feed/feed-c0009a8fb7b1.jpg",
       "source": "Electrek",
@@ -263,7 +453,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 42,
       "url": "https://www.space.com/space-exploration/artemis/nasa-lays-out-plan-for-artemis-3-moon-lander-test-flight-but-when-will-it-launch",
       "image": "/images/feed/feed-948628f48727.jpg",
       "source": "Space.com",
@@ -282,7 +472,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 53,
       "url": "https://www.nasa.gov/missions/artemis/nasa-partners-accelerate-lander-development-for-2028-moon-missions/",
       "image": "/images/feed/feed-f7f2de01198c.jpg",
       "source": "NASA Breaking News",
@@ -302,9 +492,9 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 33,
       "url": "https://www.nasa.gov/missions/artemis/nasas-artemis-iii-mission-to-test-future-moon-lander-operations/",
-      "image": "/images/feed/feed-5be9c5a7c785.jpg",
+      "image": "/images/topics/topic-space.png",
       "source": "NASA Breaking News",
       "isLive": true
     },
@@ -321,48 +511,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 33,
       "url": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
       "image": "/images/feed/feed-6a15bfea735e.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-4f96bfd853cb",
-      "title": "7 Classic JRPGs That Are So Good They Never Need a Remake",
-      "excerpt": "These JRPGs may have been ported to newer platforms or lightly remastered, but they look and play nearly identical to when they were first released",
-      "body": "Remakes, remasters, and reimaginings are all the rage right now in video games. For the last several years, studios the world over have crafted new and vastly improved versions of all-time classic games, ranging from faithful modernizations like Capcom’s Resident Evil 4 remake to Square Enix’s wildly ambitious and expanded Final Fantasy 7 Remake trilogy . While plenty of older games benefit from a modern glow-up, others don’t need a lot of alterations to shine bright decades later.",
-      "author": "Jen Glennon",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.polygon.com/best-classic-jrpgs-no-remake/",
-      "image": "/images/feed/feed-4f96bfd853cb.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-8bef984e2c41",
-      "title": "Every Marvel Post-Credits Scene That Went Nowhere (So Far)",
-      "excerpt": "Marvel Studios has promised a lot in the Multiverse Saga. Here's every post-credits scene from the MCU we still need answers for.",
-      "body": "Once the Infinity Saga wrapped with 2019’s Spider-Man: Far From Home , Marvel had to find a new central organizing factor, a way to give all the crossovers , cataclysmic conflicts , and multiverse mayhem some meaning. That process has been bumpy , and it’s left Marvel with a lot of loose ends, hints, and promises of sagas to come, which have become difficult to keep track of.",
-      "author": "Michael McWhertor",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.polygon.com/marvel-movies-tv-shows-post-credits-scenes-teases/",
-      "image": "/images/feed/feed-8bef984e2c41.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -378,7 +530,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 52,
       "url": "https://science.nasa.gov/missions/swift/nasas-swift-mission-ends/",
       "image": "/images/feed/feed-74065f109300.jpg",
       "source": "NASA Breaking News",
@@ -397,29 +549,10 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 39,
       "url": "https://insideevs.com/features/813134/insideevs-podcast-bmw-ix5-gm-tesla/",
       "image": "/images/feed/feed-f4f065410933.jpg",
       "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-c0214855a6fc",
-      "title": "Xbox’s first chief operating officer is out after just a few months",
-      "excerpt": "Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verg…",
-      "body": "Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verge . Chiang has been at Microsoft for 21 years, serving as the head of Minecraft before being promoted to Xbox chief operating officer in July. Xbox CEO Asha Sharma announced Chiang's departure in a surprisingly short memo today. \"Helen Chiang is leaving Microsoft today. I'm grateful for her years of service and wish her well,\" said Sharma. As Chiang is departing today, her immediate responsibilities are being split up between other Xbox leaders … Read the full story at The Verge.",
-      "author": "Tom Warren",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Xbox"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure",
-      "image": "/images/feed/feed-c0214855a6fc.png",
-      "source": "The Verge",
       "isLive": true
     },
     {
@@ -436,29 +569,10 @@
         "Foldable"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 31,
       "url": "https://www.cnet.com/tech/mobile/iphone-duo-how-we-test-folds/",
       "image": "/images/feed/feed-f7ada32ceccb.png",
       "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-92f88c213856",
-      "title": "Belmont’s Curse Taught Me An Important Lesson About Parrying, Namely I Should Do It More",
-      "excerpt": "ABP, always be parrying",
-      "body": "ABP, always be parrying\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ash Parrish",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://kotaku.com/belmonts-curse-taught-me-an-important-lesson-about-parrying-namely-i-should-do-it-more-2000749181",
-      "image": "/images/feed/feed-92f88c213856.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -474,7 +588,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 53,
       "url": "https://www.androidauthority.com/iphone-duo-cracked-screens-first-day-3727498/",
       "image": "/images/feed/feed-8c283e017218.jpg",
       "source": "Android Authority",
@@ -493,7 +607,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 45,
       "url": "https://www.androidauthority.com/blip-launcher-for-android-handhelds-3727499/",
       "image": "/images/feed/feed-c6972ad3a210.jpg",
       "source": "Android Authority",
@@ -512,7 +626,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 32,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
       "image": "/images/feed/feed-78c968c71207.jpg",
       "source": "The Verge",
@@ -538,44 +652,6 @@
       "isLive": true
     },
     {
-      "id": "feed-227af2667a15",
-      "title": "Mass Effect Fans Call for EA Boycott as Petition to Save BioWare's Canceled Game Garners More than 75,000 Signatures",
-      "excerpt": "Mass Effect fans are calling for a boycott of all EA products and services in protest of the company closing down BioWare and canceling the next Mass Effect game.",
-      "body": "Mass Effect fans are calling for a boycott of all EA products and services in protest of the company closing down BioWare and canceling the next Mass Effect game. It’s a rough time for Mass Effect fans. On October 21, EA announced its plans to shut down BioWare , a 30-year-old studio that spearheaded RPGs in the West with titles like Dragon Age, Jade Empire, Baldur’s Gate, and of course, Mass Effect . Players were eagerly awaiting news of the next game in BioWare’s beloved sci-fi franchise — but EA shut that down, too, revealing in a statement that the project was officially canceled.",
-      "author": "Virginia Glaze",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.ign.com/articles/mass-effect-fans-call-for-ea-boycott-as-petition-to-save-biowares-canceled-game-garners-more-than-75000-signatures",
-      "image": "/images/feed/feed-227af2667a15.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-0a91f109175b",
-      "title": "An '80s Cult Horror-Comedy Becomes a Global Streaming Hit on HBO Max",
-      "excerpt": "1984's Gremlins finds worldwide streaming success on HBO Max, proving the horror comedy remains a fan favorite decades after its original release.",
-      "body": "There was a time when horror movies weren't afraid to get a little weird. The 1980s gave us everything from the surreal nightmares of A Nightmare on Elm Street to the gooey, creature-filled chaos of The Blob . It was an era when filmmakers could mix practical-effects gore, genuinely unsettling monsters, and a healthy dose of absurdity without worrying too much about fitting into a single genre.",
-      "author": "Sam Hill",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.polygon.com/gremlins-hbo-max-streaming-success-october-2026/",
-      "image": "/images/feed/feed-0a91f109175b.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-e258f9402b73",
       "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
       "excerpt": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute…",
@@ -588,7 +664,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
       "image": "/images/feed/feed-e258f9402b73.jpg",
       "source": "BleepingComputer",
@@ -607,7 +683,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 35,
       "url": "https://www.androidauthority.com/oneplus-nord-buds-3-pro-deal-amazon-3727521/",
       "image": "/images/feed/feed-b1dd94ae8e80.jpg",
       "source": "Android Authority",
@@ -627,29 +703,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 34,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-23-2026",
       "image": "/images/feed/feed-3f9964116032.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-33b05972afc9",
-      "title": "Nov. 5: Satellite Mission Management at the Edge",
-      "excerpt": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.",
-      "body": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at the Edge appeared first on SpaceNews.\n\nThis report, published by SpaceNews, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Satellite. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to SpaceNews using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "SpaceNews Editor",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Satellite"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
-      "image": "/images/feed/feed-33b05972afc9.jpg",
-      "source": "SpaceNews",
       "isLive": true
     },
     {
@@ -665,7 +722,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 47,
       "url": "https://electrek.co/2026/10/23/podcast-tesla-earnings-discussion-new-byd-seagull-mustang-mach-e-update-and-more/",
       "image": "/images/feed/feed-4d52dc0a828d.jpg",
       "source": "Electrek",
@@ -684,7 +741,7 @@
         "Phishing"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 49,
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
       "image": "/images/feed/feed-2ffdf1770876.jpg",
       "source": "BleepingComputer",
@@ -703,7 +760,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 43,
       "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
       "image": "/images/feed/feed-0f2175cedd51.jpg",
       "source": "The Hacker News",
@@ -722,29 +779,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/10/23/ev-battery-mystery-donut-labs-performance-extreme-cold/",
       "image": "/images/feed/feed-4723e1860633.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-a002b169e2ba",
-      "title": "Anker SOLIX 4,096Wh expanded C2000 Gen 2 power station $1,519, 150-mile L16 utility e-bike lows from $649, Snow blower low, more",
-      "excerpt": "We’re closing out this week with Anker’s newly launched SOLIX Spooktacular Halloween Sale lineup leading the pack with our top picks, exclusive savings, and FREE gifts, like expanded 4,096Wh C2000 Gen…",
-      "body": "We’re closing out this week with Anker’s newly launched SOLIX Spooktacular Halloween Sale lineup leading the pack with our top picks, exclusive savings, and FREE gifts, like expanded 4,096Wh C2000 Gen 2 Power Station at $1,519 . We also spotted new low prices on ENGWE’s L16 Utility e-bike (single or dual batteries) with a $99 FREE bundle starting from $649 , as well as the restocked Greenworks 80V 20-inch Cordless Snow Blower at its $450 low , and the new Jackery Red Cross HomePower 1000 Plus V2 and 2000 Plus V2 Power Stations at lows from $669 . There’s also the first discount on ONVIS’ Matter over Thread Outdoor Smart Plug, a three-arm AeroGarden grow light at 50% off, and more.",
-      "author": "Reinette LeJeune",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://electrek.co/2026/10/23/anker-solix-c2000-gen-2-power-station-l16-utility-e-bike-snow-blower-more/",
-      "image": "/images/feed/feed-a002b169e2ba.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -760,7 +798,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 52,
       "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
       "image": "/images/feed/feed-ce370a80c5a3.jpg",
       "source": "The Hacker News",
@@ -779,29 +817,10 @@
         "Ransomware"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 49,
       "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
       "image": "/images/feed/feed-be64687d24f1.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-9d735fdf749b",
-      "title": "If Google Fells 250,000 Trees In Finland, Does It Make A Sound?",
-      "excerpt": "What I don’t know about Finland would fill a small library. As a fan of Formula One, I know that many Finnish surnames have multiple k’s — Mika Hakkinen, and Kimi Raikkonen, for example, not to mentio…",
-      "body": "What I don&#8217;t know about Finland would fill a small library. As a fan of Formula One, I know that many Finnish surnames have multiple k&#8217;s &#8212; Mika Hakkinen, and Kimi Raikkonen, for example, not to mention World Rally driver Tommi Makkinen. In the world of motorsports, some like to ... [continued] The post If Google Fells 250,000 Trees In Finland, Does It Make A Sound? appeared first on CleanTechnica .",
-      "author": "Steve Hanley",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://cleantechnica.com/2026/10/23/if-google-fells-250000-trees-in-finland-does-it-make-a-sound/",
-      "image": "/images/feed/feed-9d735fdf749b.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -817,7 +836,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 42,
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
       "image": "/images/feed/feed-33414c46bda9.jpg",
       "source": "BleepingComputer",
@@ -836,7 +855,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 34,
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -856,7 +875,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 47,
       "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
       "image": "/images/feed/feed-3c8eb4755a62.jpg",
       "source": "BleepingComputer",
@@ -875,7 +894,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 54,
       "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
       "image": "/images/feed/feed-e3e4a3ed774d.webp",
       "source": "TechCrunch",
@@ -894,7 +913,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 40,
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -913,43 +932,24 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 31,
       "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
       "isLive": true
-    },
-    {
-      "id": "feed-c4c762c6b747",
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "excerpt": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
-      "body": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Julie Bort",
-      "date": "2026-10-22",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-      "image": "/images/feed/feed-c4c762c6b747.jpg",
-      "source": "TechCrunch",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Lemmy: 513 title matches, 94 certificate hits and 207 on 443",
-    "DEV.TO: Audio Deadlines: Running On-Device TTS Without Audible Glitches",
-    "DEV.TO: I stopped reviewing my coding agent's diffs file by file",
-    "DEV.TO: Our webhook dedupe check was a race, not a guard",
-    "DEV.TO: When both needs are valid: negotiating conditions for working together",
-    "DEV.TO: Qwen3-TTS Silently Dropped My Instruction, and My A/B Never Noticed",
-    "DEV.TO: Give your AI agent web-data tools with Apify's MCP server (Python, no SDK, 2026)",
-    "9TO5MAC: Apple exploring fix for Safari’s cramped layout on the iPhone Duo’s outer display",
-    "POLYGON: Disney's Officially Bringing Back a '90s Cartoon Icon After 35 Years",
-    "SPACE.COM: SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (photos)"
+    "DEV.TO: Rejetto HFS signs its admin session cookie with Math.random()",
+    "DEV.TO: Hello DEV Community! 👋 | Back to Learning, Building & Exploring 🚀",
+    "DEV.TO: Your AI Agents Are Logging In With Your Password. Banks Have Noticed.",
+    "DEV.TO: SlothSync: A Gentler Way to Get Things Done with Gemini",
+    "DEV.TO: Stateless agents cut long‑horizon token usage",
+    "DEV.TO: A pre-flight validator for QuickBooks Online bank CSV uploads",
+    "DEV.TO: Sorta — An AI Downloads Butler Built with Local Gemma",
+    "NASA BREAKING NEWS: APOD: 2026 October 24 – Rosetta’s Selfie",
+    "POLYGON: J.J. Abrams’ Best Original Sci-Fi Movie Officially Finds a New Home on Streaming",
+    "CLEANTECHNICA: US Tech Leaders Are Urgently Calling for Rules on AI — China Already Has Them"
   ],
   "sectionVideos": {}
 }
