@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-24T19:55:55.902Z",
+  "fetchedAt": "2026-10-24T22:06:50.522Z",
   "articles": [
     {
-      "id": "feed-8760aa18442d",
-      "title": "Metal PCB and PCBA Manufacturing: A Practical Guide to Materials, Assembly, and Global Sourcing",
-      "excerpt": "As electronic products become more compact and powerful, manufacturers face a growing challenge: how to manage heat while maintaining reliable electrical performance. This is particularly important in…",
-      "body": "As electronic products become more compact and powerful, manufacturers face a growing challenge: how to manage heat while maintaining reliable electrical performance. This is particularly important in LED lighting, industrial electronics, automotive systems, and power conversion equipment, where components can generate significant heat during operation. Metal printed circuit boards (metal PCBs) provide one approach to this challenge. By incorporating a metal base into the board structure, they can help transfer heat away from critical components. When these boards move into production, printed circuit board assembly (PCBA) introduces another set of considerations, including component sourcing, soldering, inspection, and functional testing.",
-      "author": "Richard",
+      "id": "feed-75218431b0ad",
+      "title": "Two npm Bugs, One Lesson: Upgrading the Runtime Is Not Upgrading the Dependencies",
+      "excerpt": "Two npm Bugs, One Lesson: Upgrading the Runtime Is Not Upgrading the Dependencies Two advisories published this month describe failures in ordinary libraries. One is a JWT verification bug that turns…",
+      "body": "Two npm Bugs, One Lesson: Upgrading the Runtime Is Not Upgrading the Dependencies Two advisories published this month describe failures in ordinary libraries. One is a JWT verification bug that turns a public key into a shared secret. The other is a path traversal that walks out of a target directory through a symlink chain. At the code level they share nothing; operationally they are the same problem, because both are fixed by a dependency bump and neither is fixed by upgrading the runtime. fast-jwt: when a public key becomes a shared secret CVE-2026-107722, CVSS 9.8, affects npm package fast-jwt versions 6.2.0 through 6.3.0. The mechanism deserves attention because the fix is a version number while the failure is a parsing assumption.",
+      "author": "jeffrey",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/richardjackson/metal-pcb-and-pcba-manufacturing-a-practical-guide-to-materials-assembly-and-global-sourcing-45f1",
-      "image": "/images/feed/feed-8760aa18442d.webp",
+      "xpReward": 34,
+      "url": "https://dev.to/jeffreyciend/two-npm-bugs-one-lesson-upgrading-the-runtime-is-not-upgrading-the-dependencies-39k8",
+      "image": "/images/feed/feed-75218431b0ad.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-a5529e46caa2",
-      "title": "KI: Strom rein, Intelligenz raus?",
-      "excerpt": "Wie NVIDIA-Chef Jensen Huang Stromverbrauch, Rechenleistung und Tokens zu einer fragwürdigen Erfolgsformel verbindet. KI: Strom rein, Intelligenz raus?Jen-Hsun Huang, CEO des Chipgiganten NVIDIA, besc…",
-      "body": "Wie NVIDIA-Chef Jensen Huang Stromverbrauch, Rechenleistung und Tokens zu einer fragwürdigen Erfolgsformel verbindet. KI: Strom rein, Intelligenz raus?Jen-Hsun Huang, CEO des Chipgiganten NVIDIA, beschreibt die Zukunft der künstlichen Intelligenz mit einer verblüffend einfachen Rechnung. Rechenzentren werden zu sogenannten AI Factories . Sie verbrauchen elektrische Leistung, erzeugen damit Rechenleistung und produzieren schließlich Tokens. Aus diesen Tokens entsteht künstliche Intelligenz. Und daraus wiederum&nbsp;Umsatz. Bei der GTC 2026 erklärte Huang, dass die elektrische Leistung eines Rechenzentrums begrenzt sei. Entscheidend sei deshalb, möglichst viele Tokens pro Watt zu produzieren.",
-      "author": "Christian Ahrweiler",
+      "id": "feed-93ad4088a7d9",
+      "title": "How to Humanize AI Text in Python: A Linter for Robotic Phrases + the Top 5 Free Tools (2026)",
+      "excerpt": "Updated October 2026. I'm on the team behind UnAIMyText, which is #3 below. Code is MIT-style: copy it freely. If you generate text with an LLM in a script, whether product descriptions, changelogs or…",
+      "body": "Updated October 2026. I'm on the team behind UnAIMyText, which is #3 below. Code is MIT-style: copy it freely. If you generate text with an LLM in a script, whether product descriptions, changelogs or support replies, you've probably seen the same tics come back: \"Moreover,\" \"It is important to note,\" \"delve,\" \"in today's fast-paced world.\" You can't fix them with taste at scale, but you can lint for them the way you lint code. This post builds a tiny Python checker that flags robotic phrasing, then covers five free tools for the rewrite step. The goal is clearer, more natural prose, not tricking anyone. Step 1: build a phrase linter Python's re module is enough. We'll flag three things: stock filler phrases, sentence-length monotony and repeated sentence openers.",
+      "author": "UnAIMyText",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Python"
+      ],
+      "featured": true,
+      "xpReward": 40,
+      "url": "https://dev.to/unaimytext_app/how-to-humanize-ai-text-in-python-a-linter-for-robotic-phrases-the-top-5-free-tools-2026-35ia",
+      "image": "/images/feed/feed-93ad4088a7d9.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-b9e47fd533a4",
+      "title": "Your Terminal Spots Password Prompts From Two TTY Bits. sudo's 2025 Fix Breaks the Check",
+      "excerpt": "Book: AI Agents Pocket Guide The series: Pocket Guides for Developers — 8 short books on agents, RAG, prompts, observability, events, databases and system design — the whole series My project: Hermes…",
+      "body": "Book: AI Agents Pocket Guide The series: Pocket Guides for Developers — 8 short books on agents, RAG, prompts, observability, events, databases and system design — the whole series My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You type sudo apt upgrade and the prompt says Password: . Nothing appears as you type. Your shell never sees those keys. sudo reads them straight from the terminal device. But your terminal app sees every single one, because it is the program that sends them down the pseudo-terminal in the first place. So the terminal is holding your password in its hands for a moment.",
+      "author": "Gabriel Anhaia",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/atec-systems/ki-strom-rein-intelligenz-raus-5g7c",
-      "image": "/images/feed/feed-a5529e46caa2.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/gabrielanhaia/your-terminal-spots-password-prompts-from-two-tty-bits-sudos-2025-fix-breaks-the-check-4nf3",
+      "image": "/images/feed/feed-b9e47fd533a4.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-e31f42f5c372",
-      "title": "sloth-tidy: a local AI that tidies your messy folder (and lets you undo it)",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady My Downloads folder is a museum of good intentions: IMG_0509.png, final_FINAL_v3.md, a pile of WhatsApp Imag…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built My Downloads folder is a museum of good intentions: IMG_0509.png , final_FINAL_v3.md , a pile of WhatsApp Image 2026-09-23 at 9.12.19 PM.png , and an invoice I keep meaning to deal with. Sorting it by hand is exactly the kind of chore I put off forever. sloth-tidy is a lazy, local, undoable file tidier. You point it at a folder. A small open-weight model running on my own laptop reads each file's name and the start of its contents, decides what the file is , gives it a clean name, and files it away: Receipts/ invoice-7qecmbeg-0001.pdf, payment-receipt-0612-9321.pdf Documents/ daily-notes.docx Images/ whatsapp-image-2026-09-23.png, ...",
-      "author": "Kehan Hasalawa",
+      "id": "feed-69374f582fed",
+      "title": "Your Agent Is a Guest: Egress Policy for Agent Fleets",
+      "excerpt": "Most agent code I review is careful about what it does inside the sandbox and careless about what it does on the way out. Then it hits a site that returns 403 to anything with python-httpx in the User…",
+      "body": "Most agent code I review is careful about what it does inside the sandbox and careless about what it does on the way out. Then it hits a site that returns 403 to anything with python-httpx in the User-Agent, retries forty times, and burns an afternoon. The web is getting less tolerant of agents. Publishers are blocking crawlers outright, CDNs fingerprint TLS and headers, and more sites are moving to \"pay for the API or go away.\" That's not a temporary mood — it's the steady state. If your fleet fetches anything from a domain you don't own, egress is a subsystem you have to design, not a client.get() call you sprinkle through a tool. This is the view from the proxy layer: what breaks, what to log, and what to put in front of the agents.",
+      "author": "skvrtyk",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -52,75 +71,56 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 42,
-      "url": "https://dev.to/hasalawa/sloth-tidy-a-local-ai-that-tidies-your-messy-folder-and-lets-you-undo-it-10jh",
-      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
+      "xpReward": 35,
+      "url": "https://dev.to/dima_kruglov_608741d9a416/your-agent-is-a-guest-egress-policy-for-agent-fleets-2baa",
+      "image": "/images/feed/feed-69374f582fed.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-465329b39612",
-      "title": "Cloud Pub/Sub Dead-Letter Recovery for Node.js Weekly Support Digests",
-      "excerpt": "Cloud Pub/Sub Dead-Letter Recovery for Node.js Weekly Support Digests Short answer: for Google Cloud Pub/Sub dead-letter retries versus an AWS SQS DLQ, choose the queue whose retention, delivery attem…",
-      "body": "Cloud Pub/Sub Dead-Letter Recovery for Node.js Weekly Support Digests Short answer: for Google Cloud Pub/Sub dead-letter retries versus an AWS SQS DLQ, choose the queue whose retention, delivery attempts, and replay permissions fit the weekly deadline, then keep idempotency and failure classification in the Node.js worker. Start with the recovery window. Recovery needs a clock. That window is the time between a failed active-customer digest and the point where the support team can no longer send it usefully. If the weekly report is due Monday morning, a queue that retains a dead-letter message is only part of the answer. The application must preserve the digest identity, record the attempt classification, and expose enough context for a replay decision.",
-      "author": "HumphreyFox1243",
+      "id": "feed-767d7e6f0598",
+      "title": "Canada And EU Are Slip Sliding Away On Vehicle Emissions",
+      "excerpt": "J. Wellington Wimpy, of Popeye comics fame, had a favorite expression. It went like this: “I will gladly pay you Tuesday for a cheeseburger today.” As the Earth gets hotter and hotter, most countries…",
+      "body": "J. Wellington Wimpy, of Popeye comics fame, had a favorite expression. It went like this: &#8220;I will gladly pay you Tuesday for a cheeseburger today.&#8221; As the Earth gets hotter and hotter, most countries have made commitments to reduce their climate warming emissions by 2030, or 2050, or 2077, or ... [continued] The post Canada And EU Are Slip Sliding Away On Vehicle Emissions appeared first on CleanTechnica .",
+      "author": "Steve Hanley",
       "date": "2026-10-24",
       "readTime": "2 min",
-      "section": "software",
+      "section": "cars",
       "tags": [
-        "Software"
+        "Vehicle"
       ],
       "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/humphreyfox1243/cloud-pubsub-dead-letter-recovery-for-nodejs-weekly-support-digests-amf",
-      "image": "/images/feed/feed-465329b39612.webp",
-      "source": "Dev.to",
+      "xpReward": 34,
+      "url": "https://cleantechnica.com/2026/10/24/canada-and-eu-are-slip-sliding-away-on-vehicle-emissions/",
+      "image": "/images/feed/feed-767d7e6f0598.jpg",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
-      "id": "feed-2da8c94913ce",
-      "title": "How to Autofill PDF Forms with AI",
-      "excerpt": "I've spent the last few months building an AI tool that fills PDF forms from a user's own documents (a passport, a W-2, a spreadsheet, or just a few typed sentences). The first version was the obvious…",
-      "body": "I've spent the last few months building an AI tool that fills PDF forms from a user's own documents (a passport, a W-2, a spreadsheet, or just a few typed sentences). The first version was the obvious one: send the PDF to an LLM and ask it to fill the form. It didn't work. This post covers what did work, with code, so you can build your own. Full disclosure: the tool is Simplifier . Everything below works with any stack and any LLM. The core idea: split \"understanding\" from \"doing\" LLMs are great at understanding meaning : \"this passport says the date of birth is 03/14/1990, and this form field asks for DOB.\" They're bad at precise, mechanical work: exact field names, coordinates, checkbox export values. So the pipeline looks like this: Code reads the form's fields.",
-      "author": "David Ben zaken",
+      "id": "feed-f36ce43b342f",
+      "title": "The pros and cons of using an eSIM over a physical SIM card",
+      "excerpt": "eSIMs are more convenient than physical SIM cards in many ways, but they aren't a 100 percent upgrade.",
+      "body": "eSIMs are more convenient than physical SIM cards in many ways, but they aren't a 100 percent upgrade.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Thomas Godwin)",
       "date": "2026-10-24",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gadgets",
       "tags": [
-        "Software"
+        "Gadgets"
       ],
       "featured": true,
-      "xpReward": 44,
-      "url": "https://dev.to/david_benzaken_1cce7fd85/how-to-autofill-pdf-forms-with-ai-25mh",
-      "image": "/images/feed/feed-2da8c94913ce.webp",
-      "source": "Dev.to",
+      "xpReward": 43,
+      "url": "https://www.engadget.com/2292112/using-esim-vs-physcial-sim-card-pros-and-cons/",
+      "image": "/images/feed/feed-f36ce43b342f.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-1f38ea38c23c",
-      "title": "Endurecer servidores mcp stdio",
-      "excerpt": "Un servidor de MCP que usa el transporte stdio es una línea de comandos que tu bash -c. Este post npx apuntando a un El advisory (GHSA-7w94-79vh-5mr2) nombra las líneas. La API acepta un MCPServerConf…",
-      "body": "Un servidor de MCP que usa el transporte stdio es una línea de comandos que tu agente corre como tú. En octubre de 2026 eso dejó de ser abstracto: el CVE-2026-105740 (CVSS 9.9) de Langflow dejó que cualquier usuario con sesión registrara un servidor stdio cuyo comando iba directo a bash -c . Este post recorre el bug, el arreglo que de verdad aguanta, y una auditoría de una máquina de desarrollo corriendo Claude Code, que sacó una línea de npx apuntando a un scope de npm que nadie tiene. El punto de partida: qué hizo Langflow El advisory (GHSA-7w94-79vh-5mr2) nombra las líneas. La API acepta un MCPServerConfig con command , args , env , url y headers de cualquier usuario autenticado. No hay \"ninguna allowlist de comandos permitidos, ninguna blocklist de comandos peligrosos\".",
-      "author": "Franchesco Romero",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/aws-builders/endurecer-servidores-mcp-stdio-2d7d",
-      "image": "/images/feed/feed-1f38ea38c23c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-9e3080c42093",
-      "title": "PSL Calculator",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady https://psl-calculator-mlh-hack-5dnqeov6yyaqpqkqq9eezj.streamlit.app https://github.com/Vedu56/PSL-Calculato…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built Demo https://psl-calculator-mlh-hack-5dnqeov6yyaqpqkqq9eezj.streamlit.app Code https://github.com/Vedu56/PSL-Calculator-MLH-Hack How WE Built It Our architecture relies on an open and flexible stack optimized for speed and transparency: AI &amp; Inference: Powered by open-weight models (such as Gemma 4 workflows) integrated via lightweight local harnesses and custom Python vision pipelines. Backend &amp; Processing: Built in Python, handling real-time state management, custom prompt structuring, and multi-agent analytical logic alongside seamless HEIC image parsing.",
-      "author": "Vedant Trivedi",
+      "id": "feed-3c795d171dfc",
+      "title": "Affinity MCP vs code: why I make my thumbnails with a script",
+      "excerpt": "Failing is hard. Especially when the tutorial is already recorded. I wanted to show how an agent can make a good thumbnail with Affinity MCP. I tried it multiple times. It didn't work as expected. Aff…",
+      "body": "Failing is hard. Especially when the tutorial is already recorded. I wanted to show how an agent can make a good thumbnail with Affinity MCP. I tried it multiple times. It didn't work as expected. Affinity's September 2026 update added in-app scripting and an AI Connector for Claude. Affinity's pitch is that you describe a process once, and Claude builds a reusable script . I connected it to Claude Code as an MCP server and asked for a finished thumbnail. Using Sonnet 5.5 with high reasoning was better. Opus 5.5 on xHigh was just thinking the whole time, so slow that I even cancelled it. The prompt Here is the prompt I used. Create an exceptional, finished, polished 1920 × 1080 LinkedIn video thumbnail in Affinity through MCP. Aim for award-winning, résumé-showreel quality. Go all out.",
+      "author": "Aleksandr Argunov",
       "date": "2026-10-24",
       "readTime": "2 min",
       "section": "software",
@@ -128,10 +128,181 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 38,
-      "url": "https://dev.to/vt-32/psl-calculator-14pi",
-      "image": "/images/feed/feed-9e3080c42093.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/argbetech/affinity-mcp-vs-code-why-i-make-my-thumbnails-with-a-script-2dom",
+      "image": "/images/feed/feed-3c795d171dfc.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-276d9a0f8776",
+      "title": "Show DEV: ComeBackHERE – a tiny GPS app for finding your way back",
+      "excerpt": "I built a small Android app called ComeBackHERE: Find My Spot for a problem I keep running into: remembering exactly where I left something. It is not a navigation suite. It does one job: save your cu…",
+      "body": "I built a small Android app called ComeBackHERE: Find My Spot for a problem I keep running into: remembering exactly where I left something. It is not a navigation suite. It does one job: save your current GPS location, then show you the direction and distance back to it. What it does Save your current location as a spot See the direction to the saved point Check the distance to it Use GPS to help navigate back No account required; saved locations stay on the device Where I use it Parked car: saving the spot in a large car park or an unfamiliar city Hiking: saving the trailhead before heading into a forest Camping: marking a campsite or a meeting point Travel: keeping a reference point for a hotel or landmark Why another location app?",
+      "author": "Piotr",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://dev.to/piotr_a1c4ec185bc8314a323/show-dev-comebackhere-a-tiny-gps-app-for-finding-your-way-back-1ckm",
+      "image": "/images/feed/feed-276d9a0f8776.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-115a7a1e79dc",
+      "title": "CODENIVA AI Quiet Queue: A Privacy-First AI Assistant That Sorts Tasks So You Don't Have To",
+      "excerpt": "This is a submission for the \"Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady\" (https://dev.to/challenges/hacktoberfest-week3-2026-10-19). What I Built I built CODENIVA AI — Quiet Queue…",
+      "body": "This is a submission for the \"Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady\" ( https://dev.to/challenges/hacktoberfest-week3-2026-10-19 ). What I Built I built CODENIVA AI — Quiet Queue, a privacy-first, open-source AI productivity assistant that transforms a messy collection of messages and tasks into a clear, prioritized daily action brief. The goal is simple: spend less time sorting information and more time getting things done. Quiet Queue classifies tasks into deadlines, replies, reviews, and lower-priority items. It highlights urgent deadlines, detects likely duplicates, and generates a structured summary. Created during Hacktoberfest Week 3 in October 2026, this is a standalone experimental prototype under the broader CODENIVA AI vision.",
+      "author": "Dir.Rashed Almayyas",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://dev.to/dirrashed_almayyas_64592/codeniva-ai-quiet-queue-a-privacy-first-ai-assistant-that-sorts-tasks-so-you-dont-have-to-48o8",
+      "image": "/images/feed/feed-115a7a1e79dc.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-f675c5bbda07",
+      "title": "Hands-on: Belkin’s new semi solid state batteries make for a much lighter carry",
+      "excerpt": "Belkin is now offering two new semi solid state batteries for your iPhone. There’s one 10,000mAh offering with a USB-C port for charging. The second is a 5,000mAh MagSafe offering, which offers 15W Qi…",
+      "body": "Belkin is now offering two new semi solid state batteries for your iPhone. There’s one 10,000mAh offering with a USB-C port for charging. The second is a 5,000mAh MagSafe offering , which offers 15W Qi2 charging. Both come in much lighter than you’d expect, and both offer premium aluminum builds that are cold to the touch. more…",
+      "author": "Michael Burkhardt",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Hands-on"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://9to5mac.com/2026/10/24/belkin-new-semi-solid-state-battery-options-for-iphone/",
+      "image": "/images/feed/feed-f675c5bbda07.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-4bd0704bc145",
+      "title": "5 Cozy Horror Books to Read This Fall That Are Perfect From Start to Finish",
+      "excerpt": "Spooky season is always better with horror stories that feel cozy.",
+      "body": "These stories might also lean into childhood nostalgia (think literally any Goosebumps book) or the familiar setting of a small town. Some are lighthearted and comedic; others soften their scares with pleasant elements, dark humor, or wit. Here are five of the best cozy horror books to read this fall.",
+      "author": "Debopriyaa Dutta",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.polygon.com/best-books-cozy-horror-fall-season/",
+      "image": "/images/feed/feed-4bd0704bc145.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-aae262bb6858",
+      "title": "Starlink seems to be working normally again in Ukraine",
+      "excerpt": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.",
+      "body": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Space. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Anthony Ha",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+      "image": "/images/feed/feed-aae262bb6858.jpg",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-68696cf01e00",
+      "title": "Lord of the Rings Officially Returns in November with 3 Releases",
+      "excerpt": "Rings of Power season 3 returns to Prime Video in November alongside the first two season on 4K Blu-ray and DVD for the first time.",
+      "body": "Rings of Power season 3 returns to Prime Video in November alongside the first two season on 4K Blu-ray and DVD for the first time.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Sam Hill",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.polygon.com/lotr-rings-of-power-s1-s2-physical-release-4k-blu-ray/",
+      "image": "/images/feed/feed-68696cf01e00.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b129ee278bf6",
+      "title": "The Best Deals Today: Persona 3 Reload, Pikmin 4, The Adventures of Elliot, and More",
+      "excerpt": "The Best Deals Today: Persona 3 Reload, Pikmin 4, The Adventures of Elliot, and More",
+      "body": "A new weekend has arrived, and today, you can save big on Persona 3 Reload, Pikmin 4, The Adventures of Elliot, Final Fantasy VII Rebirth, Star Wars Zero Company, and more. Check out our top picks for Saturday, October 24, below. Persona 3 Reload (Switch 2) for $24.99 Persona 3 Reload Switch 2 copies are available at Amazon for $24.99 this weekend. This is a pretty great price for an expansive RPG that you can easily sink 100 hours into. The Switch 2 version had a rocky launch with frame pacing issues, but those have been resolved. Atlus also did add support for 60 FPS in docked mode.",
+      "author": "Noah Hunter",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.ign.com/articles/best-deals-for-october-24-2026",
+      "image": "/images/feed/feed-b129ee278bf6.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-8af159f79d0a",
+      "title": "The 5 least-scary scary games for people who are scared of scary games",
+      "excerpt": "If you love Halloween, but could do without any nightmares, these non-scary scary games are for you.",
+      "body": "If you love Halloween, but could do without any nightmares, these non-scary scary games are for you.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lillian Ali",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.polygon.com/best-not-scary-horror-games/",
+      "image": "/images/feed/feed-8af159f79d0a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-3b312434be01",
+      "title": "10 Near-Perfect Netflix Sci-Fi Shows That Hook You in the First Scene",
+      "excerpt": "From mind-bending mysteries to dystopian futures, these Netflix sci-fi series prove that some stories can't be forgotten from the moment they start.",
+      "body": "Not every great sci-fi show needs to start with a bang, but the best ones know how to grab your attention from the very first frame. Whether it’s a gruesome public execution in the middle of a cultural revolution, a child stepping into a smoke-filled battleground littered with corpses, or an alien organism mutating a host in seconds, the most compelling series understand the power of a great first impression. Such shows offer something tangible enough to keep you glued to your seat before the opening credits even roll.",
+      "author": "Ryan Epps",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.polygon.com/perfect-netflix-sci-fi-shows-that-hook-you-in-the-first-scene/",
+      "image": "/images/feed/feed-3b312434be01.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
@@ -147,7 +318,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 32,
       "url": "https://cleantechnica.com/2026/10/24/if-teslas-robotaxi-miles-keep-compounding-at-20-a-week-the-math-gets-interesting-fast/",
       "image": "/images/feed/feed-4a1e988b9867.jpg",
       "source": "CleanTechnica",
@@ -173,6 +344,25 @@
       "isLive": true
     },
     {
+      "id": "feed-0218e434b11f",
+      "title": "Call of Duty Movie Director Teases Story That Explores 'the Cost of War,' Praises Modern Warfare Characters",
+      "excerpt": "Call of Duty movie director Peter Berg has teased more details from his live-action film, promising an adaptation with \"a very strong soul\" that explores \"the cost of war.\"",
+      "body": "Call of Duty movie director Peter Berg has teased more details from his live-action film, promising an adaptation with &quot;a very strong soul&quot; that explores &quot;the cost of war.&quot; The filmmaker behind Skydance-Paramount&#39;s upcoming reimagining of Activision&#39;s massive first-person shooter series dived into his thoughts on the franchise during an interview with ComicBook . We already know the Call of Duty movie will focus on the Modern Warfare portion of the FPS universe , and it sounds like Berg and writer Taylor Sheridan have already looked to the games it&#39;s based on for inspiration.",
+      "author": "Michael Cripe",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.ign.com/articles/call-of-duty-movie-director-teases-story-that-explores-the-cost-of-war-praises-modern-warfare-characters",
+      "image": "/images/feed/feed-0218e434b11f.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
       "id": "feed-3a39fbb55e98",
       "title": "Indie App Spotlight: ‘Flipcorder’ lets you shoot retro footage on your iPhone Duo",
       "excerpt": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. If you…",
@@ -185,48 +375,10 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 46,
       "url": "https://9to5mac.com/2026/10/24/indie-app-spotlight-flipcorder-lets-you-shoot-retro-footage-on-your-iphone-duo/",
       "image": "/images/feed/feed-3a39fbb55e98.png",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-7ac85531ab32",
-      "title": "One Piece Is Officially Coming to Fortnite",
-      "excerpt": "Epic Games confirms that One Piece, one of the most highly anticipated collabs, will be part of the next Fortnite season.",
-      "body": "Fortnite 's next mini-season is a week away. The minor teasers that have surfaced thus far have made it clear that the upcoming season's theme will be an anime -pirate mash-up, and its main focus will be treasure hunting. That's about it. Epic Games has finally decided to pull the curtain back on the mini-season, and it's everything fans have been waiting for.",
-      "author": "Ashely Claudino",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.polygon.com/fortnite-one-piece-confirmed-mini-season-teaser/",
-      "image": "/images/feed/feed-7ac85531ab32.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-6013b45962f8",
-      "title": "Clint Eastwood's Most Intense Western Is Officially Streaming for Free on YouTube",
-      "excerpt": "Clint Eastwood's second film as director, High Plains Drifter is a horror Western free on YouTube",
-      "body": "Throughout the 1960s, Clint Eastwood made the difficult leap from being a supporting player in a TV show to starring in movies as a headliner. That TV show was the Western series Rawhide and those movies were also primarily Westerns, most notably the three films which comprise “The Man with No Name Trilogy” — A Fistful of Dollars ; For a Few Dollars More ; and The Good, the Bad and the Ugly .",
-      "author": "Brian VanHooker",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.polygon.com/high-plains-drifter-clint-eastwood-free-to-stream/",
-      "image": "/images/feed/feed-6013b45962f8.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -242,7 +394,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 44,
       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "image": "/images/feed/feed-41208e707565.webp",
       "source": "TechCrunch",
@@ -261,7 +413,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 54,
       "url": "https://www.engadget.com/2292018/google-quietly-linking-phone-number-to-android-accounts/",
       "image": "/images/feed/feed-d0562b99e923.jpg",
       "source": "Engadget",
@@ -280,7 +432,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 41,
       "url": "https://www.cnet.com/tech/mobile/iphone-duo-scratch-dust-bend-test-jerryrigeverything/",
       "image": "https://www.cnet.com/wp-content/uploads/sites/2/IMG_0923.jpeg",
       "source": "CNET",
@@ -299,7 +451,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 48,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
       "image": "/images/feed/feed-0c58159611d9.jpg",
       "source": "The Verge",
@@ -325,44 +477,6 @@
       "isLive": true
     },
     {
-      "id": "feed-9f60eb981adc",
-      "title": "Elden Ring Movie's Budget Reportedly $200 Million, Almost 3x More Expensive Than A24's Marty Supreme",
-      "excerpt": "Alex Garland's Elden Ring movie reportedly carries a hefty budget of almost $200 million, making it A24's most expensive movie ever – and it's not close.",
-      "body": "Alex Garland&#39;s Elden Ring movie reportedly carries a hefty budget of almost $200 million, making it A24&#39;s most expensive movie ever – and it&#39;s not close. Background information on the live-action adaptation of FromSoftware and George R.R. Martin&#39;s 2022 RPG was shared in a Wall Street Journal report. The site stated that, according to its sources, Elden Ring&#39;s budget is &quot;nearly $200 million.&quot; That makes it far and away the most expensive movie for the arthouse film-focused company, which has built a reputation for delivering memorable projects on more modest budgets for the last 14 years.",
-      "author": "Michael Cripe",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.ign.com/articles/elden-ring-movies-budget-reportedly-200-million-almost-3x-more-expensive-than-a24s-marty-supreme",
-      "image": "/images/feed/feed-9f60eb981adc.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-7280c3267549",
-      "title": "Call Of Duty: Modern Warfare 4 Director Says There’s Probably No Such Thing As ‘Perfected’ Matchmaking",
-      "excerpt": "With the latest Call of Duty landing, seemingly without matchmaking features, multiplayer director Joe Cecot says he doesn't believe a system to satisfy all is possible",
-      "body": "With the latest Call of Duty landing, seemingly without matchmaking features, multiplayer director Joe Cecot says he doesn't believe a system to satisfy all is possible\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://kotaku.com/call-of-duty-modern-warfare-4-director-says-theres-probably-no-such-thing-as-perfected-matchmaking-2000749327",
-      "image": "/images/feed/feed-7280c3267549.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
       "id": "feed-e9ac751c1a33",
       "title": "Volkswagen Unleashes Wicked ID. Unyx 09 in China for $27,000",
       "excerpt": "Volkswagen, like pretty much all foreign brands, has really been struggling in China in recent years. The whole German auto industry is basically in crisis because their cash cow in China has shifted…",
@@ -375,29 +489,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 37,
       "url": "https://cleantechnica.com/2026/10/24/volkswagen-unleashes-wicked-id-unyx-09-in-china-for-27000/",
       "image": "/images/feed/feed-e9ac751c1a33.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-a1d086d3d19a",
-      "title": "Commander Shepard Voice Actors Call for Action to Save Mass Effect",
-      "excerpt": "Jennifer Hale and Mark Meer join fans in the fight to save Mass Effect after EA shut down its development project.",
-      "body": "News of BioWare shutting down and the development of Mass Effect Universe ending hit fans hard this week. The community is coming together on a large scale in an attempt to save the beloved sci-fi action role-playing game's future. The latest high-profile supporters, Jennifer Hale and Mark Meer, the original voice actors for Commander Shephard, have joined the fight to keep Mass Effect alive and round up more fan support.",
-      "author": "Ashely Claudino",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.polygon.com/mass-effect-universe-canceled-jennifer-hale-mark-meer-support-petition/",
-      "image": "/images/feed/feed-a1d086d3d19a.png",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -413,67 +508,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 46,
       "url": "https://www.engadget.com/2296237/steam-rolls-out-personal-calendar-feature-that-constantly-updates-recommended-games/",
       "image": "/images/feed/feed-c26d9c171d07.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-c209eb48ac10",
-      "title": "Hulu Officially Bringing Back 2000s Fan-Favorite Crime Drama",
-      "excerpt": "Prison Break is returning after an 8-year hiatus with a new streaming TV series titled Prison Break: Black Creek for Hulu and Disney Plus.",
-      "body": "One of Fox’s most popular TV shows of all time is coming back under Disney . Hulu revealed a first look at Prison Break: Black Creek , a spinoff series set in the same universe as the original. The revival series of the early aughts crime drama series is now in production and is “coming soon” to Hulu and Disney Plus.",
-      "author": "Elijah Gonzalez",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/prison-break-reboot-black-creek-hulu/",
-      "image": "/images/feed/feed-c209eb48ac10.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-73ad027a972a",
-      "title": "Xbox Game Pass could let you pick which features you pay for",
-      "excerpt": "Microsoft is reportedly planning to let subscribers build their own Game Pass bundle rather than pay for set tiers.",
-      "body": "Microsoft is reportedly planning to let subscribers build their own Game Pass bundle rather than pay for set tiers.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Ian Carlos Campbell)",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.engadget.com/2296222/xbox-game-pass-pick-which-features/",
-      "image": "/images/feed/feed-73ad027a972a.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-1b750d03ce0b",
-      "title": "iPhone Duo one day later: Here’s why its quirks don’t make it any less incredible",
-      "excerpt": "Yesterday, I picked up my iPhone Duo at Apple Fifth Avenue, and it’s been a wonder to use. Of course, the phone isn’t perfect, but after my first day of usage, I’m looking forward to daily driving it…",
-      "body": "Yesterday, I picked up my iPhone Duo at Apple Fifth Avenue, and it’s been a wonder to use. Of course, the phone isn’t perfect, but after my first day of usage, I’m looking forward to daily driving it — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michael Burkhardt",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://9to5mac.com/2026/10/24/thoughts-on-iphone-duo-24-hours-later/",
-      "image": "/images/feed/feed-1b750d03ce0b.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -489,7 +527,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 33,
       "url": "https://cleantechnica.com/2026/10/24/zayed-sustainability-prize-picks-finalists-from-10233-submissions/",
       "image": "/images/feed/feed-82a439e4829b.jpg",
       "source": "CleanTechnica",
@@ -508,7 +546,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 42,
       "url": "https://cleantechnica.com/2026/10/24/energy-transition-assumptions-future-demand/",
       "image": "/images/feed/feed-dc426b91a46d.jpg",
       "source": "CleanTechnica",
@@ -528,7 +566,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 46,
       "url": "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users/",
       "image": "/images/feed/feed-508a6c062963.jpg",
       "source": "Engadget",
@@ -547,7 +585,7 @@
         "Neural"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 31,
       "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
       "image": "/images/feed/feed-f5dc25340c38.jpg",
       "source": "Hacker News",
@@ -567,7 +605,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 45,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-233-the-artemis-generation",
       "image": "/images/feed/feed-585b1c3a2506.jpg",
       "source": "Space.com",
@@ -586,7 +624,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 49,
       "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
       "image": "/images/feed/feed-f931753cbcca.jpg",
       "source": "Hacker News",
@@ -605,7 +643,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 41,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-24-2026",
       "image": "/images/feed/feed-2e388bb43937.jpg",
       "source": "Space.com",
@@ -624,7 +662,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 47,
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "image": "/images/feed/feed-b8554dad591a.jpg",
       "source": "TechCrunch",
@@ -643,7 +681,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 36,
       "url": "https://cleantechnica.com/2026/10/24/trumps-war-on-iran-has-broken-the-oil-market/",
       "image": "/images/feed/feed-1fc76acc6c37.png",
       "source": "CleanTechnica",
@@ -662,7 +700,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 35,
       "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
       "image": "/images/feed/feed-e7f9610cf94e.jpg",
       "source": "BleepingComputer",
@@ -681,29 +719,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 45,
       "url": "https://electrek.co/2026/10/24/chinese-evs-found-back-door-into-western-car-markets-at-40-off-msrp/",
       "image": "/images/feed/feed-1c70e5f174bd.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-f91182069711",
-      "title": "Rivian Buys Synthetic Data Startup To Boost Its Autonomy Ambitions",
-      "excerpt": "The deal could allow Rivian to simluate edge cases before they occur in the real world.",
-      "body": "The deal could allow Rivian to simluate edge cases before they occur in the real world.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Rivian. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Rivian"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://insideevs.com/news/813110/rivian-third-dimension-aquisition-autonomous-driving/",
-      "image": "/images/feed/feed-f91182069711.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -719,7 +738,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 52,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-strange-new-worlds-season-of-gimmicks-was-afraid-to-say-anything",
       "image": "/images/feed/feed-2abf36f217ca.jpg",
       "source": "Space.com",
@@ -738,7 +757,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 46,
       "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
       "image": "/images/feed/feed-156181babac7.jpg",
       "source": "Wired",
@@ -757,7 +776,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 37,
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "image": "/images/feed/feed-0f71ebe7a492.jpg",
       "source": "The Hacker News",
@@ -776,7 +795,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 48,
       "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
       "image": "/images/feed/feed-9d52cbe35a24.jpg",
       "source": "The Hacker News",
@@ -795,7 +814,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 39,
       "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
       "image": "/images/feed/feed-c874b23267c2.jpg",
       "source": "The Hacker News",
@@ -814,7 +833,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 37,
       "url": "https://www.space.com/stargazing/medusas-eye-halloween-fireballs-and-more-5-skywatching-targets-to-look-out-for-this-spooky-season",
       "image": "/images/feed/feed-6461cb2cb3c8.jpg",
       "source": "Space.com",
@@ -833,7 +852,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 42,
       "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
       "image": "/images/feed/feed-f76395b595c2.jpg",
       "source": "The Hacker News",
@@ -853,7 +872,7 @@
         "Telescope"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 48,
       "url": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
       "image": "/images/feed/feed-64dee92637e2.jpg",
       "source": "Wired",
@@ -872,10 +891,29 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 34,
       "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
       "image": "/images/feed/feed-68af38395850.jpg",
       "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-06fb9b9fbf06",
+      "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
+      "excerpt": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
+      "body": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta&#8217;s Selfie Explanation: This Rosetta spacecraft selfie was snapped on October 7th, 2014. At the time the comet-chasing spacecraft was about 472 million kilometers from planet Earth, but only 16 kilometers from the surface of comet 67P/Churyumov-Gerasimenko . Looming beyond the spacecraft near the top of the frame, dust and gas stream away from the comet’s curious double-lobed nucleus .",
+      "author": "NASA Breaking News",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+      "image": "/images/feed/feed-06fb9b9fbf06.png",
+      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -891,64 +929,24 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 30,
       "url": "https://cleantechnica.com/2026/10/23/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them/",
       "image": "/images/feed/feed-e138519c2f71.png",
       "source": "CleanTechnica",
       "isLive": true
-    },
-    {
-      "id": "feed-d85dac685efb",
-      "title": "SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (video)",
-      "excerpt": "SpaceX sent 27 more of its Starlink broadband satellites to orbit today (Oct. 23), in its first Starlink launch in 11 days.",
-      "body": "SpaceX launched its newest batch of Starlink broadband internet satellites today (Oct. 23) from the California coast. The spacecraft, Starlink Group 15-15, were stacked 27 high inside the payload fairing of a SpaceX Falcon 9 rocket , which lifted off from Pad 4E at Vandenberg Space Force Base at 6:48 p.m. EDT (2248 GMT; 3:48 p.m. local time in California). The rocket's first stage booster, designated B1063, executed its main engine cutoff and stage separation about 2.5 minutes into flight, sending the second stage to continue onward to low Earth orbit (LEO). The vehicle's two-piece protective payload fairing was jettisoned just before T+3 minutes. A SpaceX Falcon 9 rocket launches 27 Starlink satellites from California on Oct. 23, 2026.",
-      "author": " Josh Dinner ",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Spacex",
-        "Satellite"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly",
-      "image": "/images/feed/feed-d85dac685efb.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-948628f48727",
-      "title": "NASA lays out plan for Artemis 3 moon-lander test flight —but when will it launch?",
-      "excerpt": "NASA just gave us our best look yet at its Artemis III moon-lander test flight, which is scheduled to launch to Earth orbit next year. But a firm liftoff date has not yet been announced.",
-      "body": "NASA just gave us our best look yet at its Artemis III moon-lander test flight. The agency laid out a detailed concept of operations for Artemis III today (Oct. 23) during a press conference at Kennedy Space Center , stressing how important the flight is to its moon plans and how challenging it will be to make everything go right. \"We're launching three of the most powerful rockets in the world, and undertaking what is likely the most complicated launch campaign ever undertaken,\" Jeremy Parsons, NASA’s Artemis program manager, said during today's event, which lasted more than two hours. The baseline concept of operations for NASA's Artemis III docking test in low Earth orbit.",
-      "author": " Mike Wall ",
-      "date": "2026-10-23",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Artemis",
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.space.com/space-exploration/artemis/nasa-lays-out-plan-for-artemis-3-moon-lander-test-flight-but-when-will-it-launch",
-      "image": "/images/feed/feed-948628f48727.jpg",
-      "source": "Space.com",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Metal PCB and PCBA Manufacturing: A Practical Guide to Materials, Assembly, and Global Sourcing",
-    "DEV.TO: KI: Strom rein, Intelligenz raus?",
-    "DEV.TO: sloth-tidy: a local AI that tidies your messy folder (and lets you undo it)",
-    "DEV.TO: Cloud Pub/Sub Dead-Letter Recovery for Node.js Weekly Support Digests",
-    "DEV.TO: How to Autofill PDF Forms with AI",
-    "DEV.TO: Endurecer servidores mcp stdio",
-    "DEV.TO: PSL Calculator",
-    "CLEANTECHNICA: If Tesla’s Robotaxi Miles Keep Compounding at 20% a Week, the Math Gets Interesting Fast",
-    "KOTAKU: Legend Of Zelda Producer Eiji Aonuma Knighted By French Ministry Of Culture",
-    "9TO5MAC: Indie App Spotlight: ‘Flipcorder’ lets you shoot retro footage on your iPhone Duo"
+    "DEV.TO: Two npm Bugs, One Lesson: Upgrading the Runtime Is Not Upgrading the Dependencies",
+    "DEV.TO: How to Humanize AI Text in Python: A Linter for Robotic Phrases + the Top 5 Free Tools (2026)",
+    "DEV.TO: Your Terminal Spots Password Prompts From Two TTY Bits. sudo's 2025 Fix Breaks the Check",
+    "DEV.TO: Your Agent Is a Guest: Egress Policy for Agent Fleets",
+    "CLEANTECHNICA: Canada And EU Are Slip Sliding Away On Vehicle Emissions",
+    "ENGADGET: The pros and cons of using an eSIM over a physical SIM card",
+    "DEV.TO: Affinity MCP vs code: why I make my thumbnails with a script",
+    "DEV.TO: Show DEV: ComeBackHERE – a tiny GPS app for finding your way back",
+    "DEV.TO: CODENIVA AI Quiet Queue: A Privacy-First AI Assistant That Sorts Tasks So You Don't Have To",
+    "9TO5MAC: Hands-on: Belkin’s new semi solid state batteries make for a much lighter carry"
   ],
   "sectionVideos": {}
 }
