@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-25T10:18:59.430Z",
+  "fetchedAt": "2026-10-25T14:39:01.875Z",
   "articles": [
     {
-      "id": "feed-c6cb2f049746",
-      "title": "Introducing OrgExplorer v1.0.0: Making Open-Source Organization Insights More Accessible",
-      "excerpt": "Finally, we're excited to announce the first release of OrgExplorer v1.0.0, launched on October 25, 2026! OrgExplorer started with a simple idea: building a platform that helps contributors, mentors,…",
-      "body": "Finally, we're excited to announce the first release of OrgExplorer v1.0.0 , launched on October 25, 2026! OrgExplorer started with a simple idea: building a platform that helps contributors, mentors, and organization admins better understand their open-source communities through meaningful insights. Where It All Started The idea came during the initial phase of GSoC, when I started contributing to open source and searching for an organization that matched my skills, interests, and goals. Finding the right organization took me a considerable amount of time. I had to explore different repositories, understand the organization's work, and figure out whether it was the right fit for me.",
-      "author": "Rahul Vyas",
+      "id": "feed-659a1d59cc13",
+      "title": "Your spend ceiling has to be a 403, not a dashboard",
+      "excerpt": "The agent that bankrupted its operator while scanning DN42 didn't malfunction. That's the part that bothers me. It ran a loop, got results, adjusted, ran the loop again. Nothing crashed. Nothing hallu…",
+      "body": "The agent that bankrupted its operator while scanning DN42 didn't malfunction. That's the part that bothers me. It ran a loop, got results, adjusted, ran the loop again. Nothing crashed. Nothing hallucinated. It just kept going, because nothing in its world told it that going costs money. Cost lived in a dashboard. Dashboards are for humans. Agents don't look at dashboards, and even if you paste a number into the system prompt, that's a suggestion, not a constraint. So here's the tip, and it's the only one I care about this week: put the spend ceiling inside the tool wrapper your agent calls, as a hard precondition that fails the call the way a 403 fails. Not a metric. Not an alert. A refusal.",
+      "author": "Aamer Mihaysi",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/rahul_vyas_cd4ab88ce6c842/introducing-orgexplorer-v100-making-open-source-organization-insights-more-accessible-193e",
-      "image": "/images/feed/feed-c6cb2f049746.webp",
+      "xpReward": 38,
+      "url": "https://dev.to/o96a/your-spend-ceiling-has-to-be-a-403-not-a-dashboard-55gb",
+      "image": "/images/feed/feed-659a1d59cc13.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-91efe1caa262",
-      "title": "# SlothSort: a local-first file organizer for people who would rather not sort files",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady. My Downloads folder tends to collect files faster than I feel like organizing them. SlothSort is a small Py…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady . What I Built My Downloads folder tends to collect files faster than I feel like organizing them. SlothSort is a small Python command-line tool that sorts files into folders such as Documents, Images, Videos, Audio, Code, and Archives. Point it at a folder to preview a cleanup or organize the files in one pass. It can also watch a folder and sort new files after they finish downloading. It skips hidden and temporary files, avoids overwriting duplicate names, and never opens file contents. Demo SlothSort is a local command-line app, not a hosted web page.",
-      "author": "NIRAJ THAPA",
+      "id": "feed-07d7d17de715",
+      "title": "AI Glasses May Soon Replace Traditional Headphones, Engadget Says",
+      "excerpt": "Smart AI glasses are everywhere, but is the audio any good? Engadget asks whether these wearables could replace traditional headphones, noting that sound quality really depends on what you’re using th…",
+      "body": "Smart AI glasses are everywhere, but is the audio any good? Engadget asks whether these wearables could replace traditional headphones, noting that sound quality really depends on what you’re using them for. ## Key takeaways Ubiquitous devices: AI glasses have become a common sight, according to Engadget. Audio variable: The listening experience changes based on the specific use case. Potential substitute: Engadget raises the question of glasses serving as headphones. Context matters: How you wear and what you listen to influence perceived quality. ## What happened Engadget published a short piece titled “When AI glasses could be a worthy headphones replacement.” The article points out that AI‑enhanced eyewear is now a familiar sight on streets and in offices.",
+      "author": "Code Khabar",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/nirajthapawork/-slothsort-a-local-first-file-organizer-for-people-who-would-rather-not-sort-files-4dni",
-      "image": "/images/feed/feed-91efe1caa262.webp",
+      "xpReward": 38,
+      "url": "https://dev.to/madhavsharma99/ai-glasses-may-soon-replace-traditional-headphones-engadget-says-1nf0",
+      "image": "/images/feed/feed-07d7d17de715.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-3e2f327f0ebc",
-      "title": "Verbs beat adjectives on a CV",
-      "excerpt": "Adjectives are claims. Verbs are events. When you write that a system was fast, robust, or mission critical, you are asking the reader to trust your opinion of your own work. When you write that a sys…",
-      "body": "Adjectives are claims. Verbs are events. When you write that a system was fast, robust, or mission critical, you are asking the reader to trust your opinion of your own work. When you write that a system was reduced, migrated, or renegotiated, you are giving them the telemetry. The job-hunt industry runs on adjectives because adjectives are easy to generate and impossible to index. Both the automated parser and the human reviewer have to do real work to verify an adjective, which means they usually skip it. Parsers match the event. They look for the action word attached to the technology or the metric. They want to know if you built, deployed, patched, or retired something. If your resume is a wall of descriptions, the parsing layer sees empty space where a relationship should be.",
-      "author": "simali dud",
+      "id": "feed-093455d2b31d",
+      "title": "Looking into Recent Agentic Development",
+      "excerpt": "TL;DR: I read three recent write-ups about running coding agents at scale: Bun's Zig-to-Rust rewrite, GitHub Copilot's runtime migration to Rust, and how the Claude Code team does code review. In all…",
+      "body": "TL;DR : I read three recent write-ups about running coding agents at scale: Bun's Zig-to-Rust rewrite, GitHub Copilot's runtime migration to Rust, and how the Claude Code team does code review. In all three, implementation and review run in separate contexts, and humans still own the goal, the phase boundaries, and the high-risk calls. My main takeaway is that the key skill is fixing the agents' loops, which means turning a feeling that \"something is off\" into instructions and mechanisms. My development these days goes like this: I talk with an AI to create a fairly large GitHub Issue, let the AI carry it through to PR creation and AI review, and finally review the parts that need a human myself.",
+      "author": "Shoya Taguchi",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/simali_dud_b97add4154d7a6/verbs-beat-adjectives-on-a-cv-gf7",
-      "image": "/images/feed/feed-3e2f327f0ebc.webp",
+      "xpReward": 46,
+      "url": "https://dev.to/shoyataguchi/looking-into-recent-agentic-development-157o",
+      "image": "/images/feed/feed-093455d2b31d.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-259bef571bc3",
-      "title": "5 Firefox New Tab Extensions Compared: Which One Actually Improves Your Workflow?",
-      "excerpt": "When Firefox loads a new tab, you have about two seconds of attention before you navigate somewhere else. Most default new tab pages waste those two seconds. So I compared the top five alternatives —…",
-      "body": "When Firefox loads a new tab, you have about two seconds of attention before you navigate somewhere else. Most default new tab pages waste those two seconds. So I compared the top five alternatives — and I'll give you my actual take on each. What I tested I installed and used each extension for at least a week: Tabliss — Free, open source, highly customizable nightTab — Beautiful dark themes, minimal setup Bonjourr — iOS-inspired, clean aesthetic Tabliss (again, different version) — Note: the \"free version\" misses key widgets Weather &amp; Clock Dashboard — My own extension, built for zero-config use To be transparent: I built option 5. I'm comparing the others fairly — if one of them is better for your use case, you should use it. The comparison Tabliss Pros: Most customizable.",
-      "author": "Weather Clock Dash",
+      "id": "feed-f32b92d257ec",
+      "title": "Codecanyon Install Checklist: From Download to Live in 90 Minutes",
+      "excerpt": "Codecanyon Install Checklist: From Download to Live in 90 Minutes Buying a script on Codecanyon is easy. Getting it live without 500 errors, blank pages, and security holes is not. I’m SHA REEQ, full-…",
+      "body": "Codecanyon Install Checklist: From Download to Live in 90 Minutes Buying a script on Codecanyon is easy. Getting it live without 500 errors, blank pages, and security holes is not. I’m SHA REEQ, full-stack developer in Hyderabad. I’ve installed and fixed 100+ Codecanyon scripts — Laravel, WordPress, React, Flutter. This is the exact checklist I use to go from download to production in ~90 minutes. Before you start Server requirements : Read the item’s requirements. Most Laravel apps need PHP 8.1+, Composer, MySQL 8, Redis optional. Backups : Snapshot files + DB before touching anything. Access : cPanel or VPS SSH, FTP/SFTP, DB user with privileges.",
+      "author": "Sha Reeq",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -71,18 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/weatherclockdash/5-firefox-new-tab-extensions-compared-which-one-actually-improves-your-workflow-2j3f",
-      "image": "/images/feed/feed-259bef571bc3.webp",
+      "xpReward": 41,
+      "url": "https://dev.to/mshariqq/codecanyon-install-checklist-from-download-to-live-in-90-minutes-4p2n",
+      "image": "/images/feed/feed-f32b92d257ec.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-b5fd666f69a6",
-      "title": "Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
-      "excerpt": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.",
-      "body": "Powering a car dashboard is more demanding on your handset than you might think. These tips will save battery life and help your phone chill out.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Software. As the situation continues to evolve, professionals and enthusiasts in the software development and engineering field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "David Nield",
+      "id": "feed-95926060268a",
+      "title": "title: CouchPilot: Autonomous Repository Housekeeping with Guaranteed AST Equivalence",
+      "excerpt": "What We Built Most AI coding assistants operate with unconstrained blast radiuses: when asked to document or format code, they rewrite entire functions, subtly change control flow, introduce hallucina…",
+      "body": "What We Built Most AI coding assistants operate with unconstrained blast radiuses: when asked to document or format code, they rewrite entire functions, subtly change control flow, introduce hallucinations, or silently alter edge-case semantics. For open-source maintainers, reviewing AI-generated pull requests often requires more cognitive overhead than writing the code from scratch. We built CouchPilot to solve this: an autonomous repository housekeeping engine and review workbench designed like a calibrated avionics bench. CouchPilot automates documentation and type annotation maintenance on Python repositories with a mathematical guarantee: functional code remains 100% immutable .",
+      "author": "Rish",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -90,37 +90,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 33,
-      "url": "https://www.wired.com/story/apple-carplay-and-android-auto-make-your-phone-hot-heres-how-to-keep-it-cool/",
-      "image": "/images/feed/feed-b5fd666f69a6.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-05980419550b",
-      "title": "Developing Software with AI: Why Understanding Code Still Matters",
-      "excerpt": "Artificial intelligence can help us develop software faster. It can produce an initial implementation, suggest tests, explain unfamiliar code, and assist with debugging. These are practical opportunit…",
-      "body": "Artificial intelligence can help us develop software faster. It can produce an initial implementation, suggest tests, explain unfamiliar code, and assist with debugging. These are practical opportunities whose value depends on the work we need to do. But generating code in seconds and delivering a reliable product are two different outcomes. The key is learning to use these tools while retaining the ability to understand what they produce. Generated code is a proposal to evaluate. Speed becomes an advantage when you know how to verify the result. The Benefits of AI Start with a Good Question Consider a common feature: deleting a document from an application. The request “add a button to delete documents” seems clear. Yet it leaves several questions unanswered. Who can delete them?",
-      "author": "Daniele Bourgis",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 53,
-      "url": "https://dev.to/thebetterway/developing-software-with-ai-why-understanding-code-still-matters-3iea",
-      "image": "/images/feed/feed-05980419550b.webp",
+      "xpReward": 32,
+      "url": "https://dev.to/rish_d76880aa4159dc8eba11/title-couchpilot-autonomous-repository-housekeeping-with-guaranteed-ast-equivalence-cli",
+      "image": "/images/feed/feed-95926060268a.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-378c7704d8f4",
-      "title": "r/startpages Is the Most Underrated Firefox Community You're Not Using",
-      "excerpt": "If you care about what happens when you open a new browser tab, you should know about r/startpages. 35,000+ members who post screenshots of their custom browser start pages. Pixel-perfect homepages bu…",
-      "body": "If you care about what happens when you open a new browser tab, you should know about r/startpages . 35,000+ members who post screenshots of their custom browser start pages. Pixel-perfect homepages built from scratch. New tab extensions reviewed and compared. But most Firefox extension developers never post there. Who's on r/startpages The community is mostly: Front-end developers who built their own HTML startpages Privacy-focused users who want weather/time/bookmarks without the noise Firefox power users who treat the new tab page as a productivity surface The dark mode preference is overwhelming. In most r/startpages posts, 80%+ of the screenshots use dark themes. Weather is the most-requested widget. Almost every post that doesn't have a weather widget gets a comment asking for one.",
-      "author": "Weather Clock Dash",
+      "id": "feed-9e5a66023192",
+      "title": "The Four Days We Spent on a Curtain",
+      "excerpt": "Four days. On a curtain. For a stage that doesn't exist, in a theatre nobody has built. I want to defend this, because the defence is the interesting part. Speed is the one thing generative tools are…",
+      "body": "Four days. On a curtain. For a stage that doesn't exist, in a theatre nobody has built. I want to defend this, because the defence is the interesting part. Speed is the one thing generative tools are unambiguously good at. I can produce ninety images of a curtain in the time it takes you to read this paragraph, and eighty-nine of them will be competent. Competent is the problem. Competent is what happens when nothing is at stake in the making. What took four days wasn't rendering. It was deciding: velvet or linen, and why. How heavy the fold should look when the light comes from the side. Whether the fabric should read as new or as something that has been pulled shut ten thousand times by hands.",
+      "author": "HYPHANTA",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 47,
+      "url": "https://dev.to/paifamily/the-four-days-we-spent-on-a-curtain-9j2",
+      "image": "/images/feed/feed-9e5a66023192.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-77dc977a853d",
+      "title": "Vibe Coding Got My AI Product Live. Production Engineering Showed Me the Gaps.",
+      "excerpt": "Building with AI made Cernalo move fast: architecture, auth, payments, desktop packaging, cloud, even a Windows app on the Microsoft Store. Going live was the easy part. Keeping it reliable was not. H…",
+      "body": "Building with AI made Cernalo move fast: architecture, auth, payments, desktop packaging, cloud, even a Windows app on the Microsoft Store. Going live was the easy part. Keeping it reliable was not. Here are four gaps AI-generated code didn't catch for me. 1. Green CI ≠ a working product Hundreds of tests can pass while real customer journeys fail. Microphone use, system tray, window management, and actual Quit on Windows needed validation beyond unit tests. Test the full path a customer takes. 2. The environment can fail when the code is fine I hit spawn EPERM and almost \"fixed\" packaging. The restricted test environment was blocking Node child processes. FFmpeg worked when run directly. Ask first: code, dependency, OS, or test environment? 3.",
+      "author": "Cernalo",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -128,18 +128,18 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 42,
-      "url": "https://dev.to/weatherclockdash/rstartpages-is-the-most-underrated-firefox-community-youre-not-using-1c37",
-      "image": "/images/feed/feed-378c7704d8f4.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/cernalo/vibe-coding-got-my-ai-product-live-production-engineering-showed-me-the-gaps-533j",
+      "image": "/images/feed/feed-77dc977a853d.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-8dfa403d8db3",
-      "title": "Vincent Price Is the Weirdest Serial Killer Ever in this '70s Cult Classic",
-      "excerpt": "The Abominable Dr. Phibes is a campy horror movie about an organist who murders surgeons",
-      "body": "We are 10 minutes into The Abominable Dr. Phibes , and nobody has spoken a word. Robert Fuest’s 1971 horror film is a surreal, kitsch, and intentionally funny murder-museum of a movie. But it's also dreamlike and deeply strange in a way that lingers after you've watched it.",
-      "author": "Oli Welsh",
+      "id": "feed-d268a6f60486",
+      "title": "Vinland Saga’s Creator Has ‘No Good News’ On Season 3: ‘The Project Is Not Currently In Progress’",
+      "excerpt": "Is MAPPA just too busy working on Chainsaw Man and Jujutsu Kaisen, or is this a sign that a second season of Vinland Saga was a commercial flop?",
+      "body": "Is MAPPA just too busy working on Chainsaw Man and Jujutsu Kaisen, or is this a sign that a second season of Vinland Saga was a commercial flop?\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lewis Parker",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "gaming",
@@ -147,10 +147,335 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 45,
-      "url": "https://www.polygon.com/halloween-horror-what-to-watch-vincent-price-abominable-dr-phibes/",
-      "image": "/images/feed/feed-8dfa403d8db3.jpg",
+      "xpReward": 41,
+      "url": "https://kotaku.com/vinland-sagas-creator-has-no-good-news-on-season-3-the-project-is-not-currently-in-progress-2000749374",
+      "image": "/images/feed/feed-d268a6f60486.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-bfda13d09821",
+      "title": "Why are earbuds usually cheaper than headphones?",
+      "excerpt": "Earbuds tend to be smaller and less complex to build than headphones.",
+      "body": "Earbuds tend to be smaller and less complex to build than headphones.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Headphones, Earbuds. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Erin Carson)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Headphones",
+        "Earbuds"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.engadget.com/2293014/why-earbuds-cheaper-than-headphones/",
+      "image": "/images/feed/feed-bfda13d09821.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-74a8287eefd5",
+      "title": "Elden Ring Has Quietly Become A24's Most Expensive Movie Yet",
+      "excerpt": "A new report indicates that A24's Elden Ring adaptation from Alex Garland has a blockbuster budget higher than Marty Supreme's",
+      "body": "It's been a while since we've gotten any official updates on A24's Elden Ring movie , but a new report has revealed that the film has a massive budget. Elden Ring is certainly more expensive than any other movie the Backrooms studio has made before, so it'll be A24's first true blockbuster.",
+      "author": "Tomas Franzese",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.polygon.com/elden-ring-movie-budget/",
+      "image": "/images/feed/feed-74a8287eefd5.jpg",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-aab16b771856",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "excerpt": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.",
+      "body": "We compiled a list of all the hottest AI wearables, including Muse Charm, Bee, Friend, Plaud, and more.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Wearable, Gadget. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lauren Forristal",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Wearable",
+        "Gadget"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "image": "/images/feed/feed-aab16b771856.jpg",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-2ac6d9ba92bf",
+      "title": "The Most Broken D&D Item Keeps Ruining Games. Here Are 3 Ways to Fix It",
+      "excerpt": "One of the most common magic items in D&D is way overpowered for its cost, but here are three easy ways to fix it.",
+      "body": "Magic items are an important component of the Dungeons & Dragons experience; collecting and using wondrous artifacts is a given in a role-playing game of heroic fantasy. This is why, in D&D, every character class has access to magic items , starting at the very first level. However, one of these items is so powerful that it can easily turn the game’s balance upside down.",
+      "author": "Francesco Cacciatore",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.polygon.com/dnd-most-broken-item-potion-healing-fix-dungeons-dragons/",
+      "image": "/images/feed/feed-2ac6d9ba92bf.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-e3f44149150b",
+      "title": "Chinese Auto Giant Chery Wants To Crack The U.S. Market. It Thinks Detroit Could Help",
+      "excerpt": "Despite a ban on cars made with Chinese hardware and software, Chery thinks a U.S. entry could be possible.",
+      "body": "Despite a ban on cars made with Chinese hardware and software, Chery thinks a U.S. entry could be possible.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://insideevs.com/news/813122/chery-us-try-soon-launch/",
+      "image": "/images/feed/feed-e3f44149150b.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-291e72c8e960",
+      "title": "Samsung probably isn't rebranding One UI as Galaxy OS",
+      "excerpt": "A bunch of recent rumors have suggested Samsung has some changes in store for its smartphone interface.",
+      "body": "A bunch of recent rumors have suggested Samsung has some changes in store for its smartphone interface.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.engadget.com/2292973/samsung-probably-not-rebranding-one-ui-as-galaxy-os/",
+      "image": "/images/feed/feed-291e72c8e960.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-02aafb3b5591",
+      "title": "Steve Rogers Wields Mjolnir in the Latest Avengers: Doomsday Trailer",
+      "excerpt": "Steve Rogers, Thor, Mjolnir, and the other Captain Americas take center stage in the latest trailer",
+      "body": "A new trailer for Avengers: Doomsday dropped on Oct. 24. While it's not very long, it shows a surprising amount of new footage rather than rehashing clips we've already seen. In particular, it has some great moments featuring Captain America (all three of them).",
+      "author": "Tomas Franzese",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.polygon.com/avengers-doomsday-mjolnir-trailer/",
+      "image": "/images/feed/feed-02aafb3b5591.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-795b2a84eb2f",
+      "title": "Quantum computers can get colder than deep space — Here's how they stay running",
+      "excerpt": "Heat disrupts the accuracy of a quantum computer, so the computer needs to be kept as cold as possible. Which is extremely cold, it turns out.",
+      "body": "Heat disrupts the accuracy of a quantum computer, so the computer needs to be kept as cold as possible. Which is extremely cold, it turns out.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Nimrod Aldea)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.engadget.com/2292950/how-quantum-computer-stays-running-extreme-cold/",
+      "image": "/images/feed/feed-795b2a84eb2f.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-7a65f0c37510",
+      "title": "On this day in space! Oct. 25, 1671: Astronomer Giovanni Cassini discovers Iapetus, Saturn's 'yin-yang' moon",
+      "excerpt": "On Oct. 25, 1671, the Italian astronomer Giovanni Cassini discovered a new moon at Saturn! Here's why it mattered.",
+      "body": "On Oct. 25, 1671, the Italian astronomer Giovanni Cassini discovered a new moon at Saturn! Iapetus was the second moon anyone had ever found orbiting Saturn, and it was the first of four moons Cassini would discover at the ringed planet. The Dutch astronomer Christiaan Huygens had discovered Titan , the largest of Saturn's moons, about six years earlier. After Cassini found Iapetus, he also found the moons Rhea, Tethys and Dione. When Cassini first saw Iapetus, the moon looked like a tiny speck on the west side of Saturn. He calculated its orbit and thought he would be able to see it again on the east side of Saturn 39 days later, but it was nowhere to be seen.",
+      "author": " Hanneke Weitering ",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-oct-25-1671-astronomer-giovanni-cassini-discovers-iapetus-saturns-yin-yang-moon",
+      "image": "/images/feed/feed-7a65f0c37510.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-26567801b67b",
+      "title": "Don't throw away your old Chromebook (even if you're getting a Googlebook)",
+      "excerpt": "There's plenty an old Chromebook can do, even if it's not your main computer.",
+      "body": "There's plenty an old Chromebook can do, even if it's not your main computer.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.engadget.com/2292939/dont-throw-away-old-chromebook-even-if-getting-googlebook/",
+      "image": "/images/feed/feed-26567801b67b.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-ab9fb46009fa",
+      "title": "GTA: San Andreas’ Most Frustrating MIssion Show How Far Rockstar Has Come in 22 Years",
+      "excerpt": "Grand Theft Auto: San Andreas is a classic game with interesting missions, but its annoying controls just feel worse after 22 years.",
+      "body": "With the imminent release of Grand Theft Auto 6 , I decided it was time to revisit what was probably the biggest game of my childhood: Grand Theft Auto: San Andreas . In 2005, GTA: San Andreas was one of the first four games I bought for the PlayStation 2, alongside Final Fantasy X , Kingdom Hearts , and Devil May Cry 3 . Since I can no longer enjoy that version of the game I played so many times as a kid, I picked up the Grand Theft Auto: The Trilogy — Definitive Edition , which includes San Andreas , on Steam and booted up the game.",
+      "author": "Paulo Kawanishi",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.polygon.com/gta-san-andreas-retrospective/",
+      "image": "/images/feed/feed-ab9fb46009fa.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-918d0b4bb05f",
+      "title": "The Entegra Coach Embark Is An Electric RV Without The Range Anxiety",
+      "excerpt": "The $400,000 mobile home brings electrification to the RV space in a whole new way.",
+      "body": "The $400,000 mobile home brings electrification to the RV space in a whole new way.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://insideevs.com/features/813127/entegra-coach-electric-rv-range-extender/",
+      "image": "/images/feed/feed-918d0b4bb05f.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-64807a7768d0",
+      "title": "When AI glasses could be a worthy headphones replacement",
+      "excerpt": "Smart AI glasses are everywhere, but is the audio any good? It really depends on what you're using them for.",
+      "body": "Smart AI glasses are everywhere, but is the audio any good? It really depends on what you're using them for.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Headphones. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Nimrod Aldea)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Headphones"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2292076/when-ai-glasses-worth-headphones-replacement/",
+      "image": "/images/feed/feed-64807a7768d0.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-99a8dab4081a",
+      "title": "Don't throw away your old speakers — Use them for your TV instead",
+      "excerpt": "Old speakers often get set aside alongside the device they were used with, but you may still be able to use them with your current tech.",
+      "body": "Old speakers often get set aside alongside the device they were used with, but you may still be able to use them with your current tech.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Nimrod Aldea)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.engadget.com/2291638/dont-throw-away-old-speakers-use-for-tv-instead/",
+      "image": "/images/feed/feed-99a8dab4081a.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-405eb8f2c97f",
+      "title": "Wallhack M-001 Review: When Fun Overrides Specs",
+      "excerpt": "With a tactile dongle for on-the-fly customization and a metal chassis, the Wallhack M-001 is the most fun I've had reviewing a gaming mouse in a long time.",
+      "body": "With a tactile dongle for on-the-fly customization and a metal chassis, the Wallhack M-001 is the most fun I've had reviewing a gaming mouse in a long time.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Henri Robbins",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.wired.com/review/wallhack-m-001/",
+      "image": "/images/feed/feed-405eb8f2c97f.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-13caf15e729a",
+      "title": "Nintendo Legend Reveals Super Mario Bros.' Most Surprising Innovation",
+      "excerpt": "Nintendo designer Shigeru Miyamoto pinpoints the NES game's most notable invention, which remains unique 41 years after the original Super Mario Bros.",
+      "body": "The original side-scrolling Super Mario Bros. is widely considered to be one of the best games of all time, and the list of reasons justifying that assertion is long. The NES game made Nintendo into a household name, and Mario into a media icon as recognizable as Mickey Mouse. The 1985 video game helped bring games into the mainstream, and it defined platforming as a video game genre. Super Mario Bros. remains one of the best-selling games of all time. Yet if you ask series creator Shigeru Miyamoto, none of these things truly capture SMB 's biggest contribution to the world of video games.",
+      "author": "Patricia Hernandez",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.polygon.com/nintendo-super-mario-japan-award-biggest-series-innovation/",
+      "image": "/images/feed/feed-13caf15e729a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-0cf33351807c",
+      "title": "Slate’s Bare-Bones Electric Truck Surprised This Early Reviewer",
+      "excerpt": "An early drive reveals surprising comfort and punch, though this unfinished prototype still has some rough edges.",
+      "body": "An early drive reveals surprising comfort and punch, though this unfinished prototype still has some rough edges.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://insideevs.com/reviews/813164/slate-ev-truck-review-tedward/",
+      "image": "/images/feed/feed-0cf33351807c.jpg",
+      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -166,74 +491,17 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 40,
       "url": "https://www.space.com/stargazing/octobers-hunters-moon-stalks-into-the-autumn-sky-tonight-heres-what-you-need-to-know",
       "image": "/images/feed/feed-e9ae28634ee8.jpg",
       "source": "Space.com",
       "isLive": true
     },
     {
-      "id": "feed-da0bbd77aa8a",
-      "title": "One UI 9 could have caught up to Google, but Samsung is still missing one thing",
-      "excerpt": "Samsung needs to do more to make One UI's selling point more robust.",
-      "body": "I remember the pain of firing up Samsung’s TouchWiz on my Galaxy phones. The software was laggy, unintuitive, and rarely updated. Quarterly security patches on flagship phones would be unacceptable in 2026, but that was the norm for Samsung devices. That all changed with the introduction of One UI. Samsung flipped the script and became known for reliable software with timely updates. One UI 9 running Android 17 is undoubtedly another solid software update. It’s been a smooth experience so far on my Galaxy S26 Plus , and Samsung’s been spot-on with patches. But while the company has made great strides in software, its pitch for Galaxy AI still leaves me unconvinced.",
-      "author": "Stephen Radochia",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.androidauthority.com/one-ui-9-ai-vs-google-software-3725715/",
-      "image": "/images/feed/feed-da0bbd77aa8a.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-7e65f03d8492",
-      "title": "iPhone Duo Owners: Your Apps Will Look Better Soon",
-      "excerpt": "Apple’s first foldable has new screen dimensions, leaving apps with a lot of unused space or awkward cropping. It’ll get better over time.",
-      "body": "Apple’s first foldable has new screen dimensions, leaving apps with a lot of unused space or awkward cropping. It’ll get better over time.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "David Lumb",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.cnet.com/tech/mobile/iphone-duo-owners-your-apps-will-look-better-soon/",
-      "image": "/images/feed/feed-7e65f03d8492.png",
-      "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-6cc1b7f606dc",
-      "title": "5 Near-Perfect Psychological Thriller Movies Streaming for Free",
-      "excerpt": "These tense genre picks are well worth your time.",
-      "body": "Psychological thrillers trigger a fight-or-flight response within a controlled environment and entertain us at the same time. Interpersonal relationships become the source of anxiety, as there’s more at stake than someone’s physical safety — their very sanity is on the line. The novelty of great psychological thrillers like Rear Window (1954), Memento (2000), or Mulholland Drive (2001) does not wear off after a first watch. There’s more to glean than suspense or twist, as catharsis is an integral part of the experience. Unfortunately, all those movies are locked up behind various streaming service subscriptions (if they're available to stream at all).",
-      "author": "Debopriyaa Dutta",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.polygon.com/best-psychological-thrillers-movies-streaming-free-online/",
-      "image": "/images/feed/feed-6cc1b7f606dc.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-a1af51ec2984",
-      "title": "Invest in solar and earn $3,000 a day?",
+      "title": "Invest in Solar and Earn $3,000 a Day?",
       "excerpt": "Driven by the rapid growth of artificial intelligence, data centers, electric vehicles, and industrial electrification, global electricity demand continues to rise, making solar power a focal point fo…",
-      "body": "Driven by the rapid growth of artificial intelligence, data centers, electric vehicles, and industrial electrification, global electricity demand continues to rise, making solar power a focal point for investment in energy infrastructure. For investors aiming for a daily return of $3,000, what scale of power generation capacity would be required? ... [continued] The post Invest in solar and earn $3,000 a day? appeared first on CleanTechnica .",
+      "body": "Driven by the rapid growth of artificial intelligence, data centers, electric vehicles, and industrial electrification, global electricity demand continues to rise, making solar power a focal point for investment in energy infrastructure. For investors aiming for a daily return of $3,000, what scale of power generation capacity would be required? ... [continued] The post Invest in Solar and Earn $3,000 a Day? appeared first on CleanTechnica .",
       "author": "Industry Sponsor",
       "date": "2026-10-25",
       "readTime": "2 min",
@@ -242,48 +510,29 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/10/25/invest-in-solar-and-earn-3000-a-day/",
       "image": "/images/feed/feed-a1af51ec2984.jpg",
       "source": "CleanTechnica",
       "isLive": true
     },
     {
-      "id": "feed-dc6bed2bc3c6",
-      "title": "23 Years Later, Spike's Best 'Buffy' Quote Is Still One of the Best Lines in TV History",
-      "excerpt": "Spike's best quote sums up his arc as one of the main characters in Buffy the Vampire Slayer.",
-      "body": "Buffy ’s writers gave Spike some of the show’s sharpest one-liners — who could forget “Out. For. A. Walk. Bitch.”? But his best line comes in the series finale, “Chosen.” It’s the natural culmination of a character pulled between heroism and selfishness for most of his life, and it captures the complicated truth of his relationship with Buffy.",
-      "author": "Jake Kleinman",
+      "id": "feed-2a5d77bec5cc",
+      "title": "APOD: 2026 October 25 – Dark Matter in a Simulated Universe",
+      "excerpt": "APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a dif…",
+      "body": "APOD Science APOD APOD: 2026 October 25 – Dark… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Dark Matter in a Simulated Universe Explanation: Is our universe haunted? It might look that way on this dark matter map. The gravity of unseen dark matter is the leading explanation for why galaxies rotate so fast , why galaxies orbit clusters so fast , why gravitational lenses so strongly deflect light, and how visible matter is distributed.",
+      "author": "NASA Breaking News",
       "date": "2026-10-25",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "space",
       "tags": [
-        "Gaming"
+        "Space"
       ],
       "featured": false,
-      "xpReward": 30,
-      "url": "https://www.polygon.com/buffy-vampire-slayer-best-spike-quote/",
-      "image": "/images/feed/feed-dc6bed2bc3c6.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-fb364b117154",
-      "title": "61 Years Later, Paul's Best Dune Line Is Still the Coldest Quote in Sci-Fi History",
-      "excerpt": "This brilliant quote from Frank Herbert's Dune reveals an unsavory truth.",
-      "body": "That said, the phenomenal success of Denis Villeneuve’s Dune movies proves that the impossible is always within reach. So far, Villeneuve’s adaptation has captured the sheer scale of the books and also made some meaningful changes to the source material. This version of Paul Atreides (Timothée Chalamet) begins his journey with a hesitant vulnerability that feels more intense than in the books. This is also why his turn as a self-proclaimed messiah feels more ominous and devastating in Dune: Part Two .",
-      "author": "Debopriyaa Dutta",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.polygon.com/paul-atreides-best-dune-quote/",
-      "image": "/images/feed/feed-fb364b117154.jpg",
-      "source": "Polygon",
+      "xpReward": 33,
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
+      "image": "/images/feed/feed-2a5d77bec5cc.jpg",
+      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -299,7 +548,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 32,
       "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
       "image": "/images/feed/feed-059df2aa94c4.jpg",
       "source": "The Hacker News",
@@ -318,162 +567,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 46,
       "url": "https://electrek.co/2026/10/24/police-pull-over-two-men-riding-an-electric-couch-down-the-street/",
       "image": "/images/feed/feed-9317ad15055b.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-2787a4ca1fcf",
-      "title": "Man Arrested for Brandishing Knife at Crew on the Set of Miami Vice ‘85",
-      "excerpt": "A knife-wielding man was arrested Friday night for threatening crew members on the Brooklyn set of Miami Vice ‘85. Citing information from the NYPD, TMZ reports that a police officer working security…",
-      "body": "A knife-wielding man was arrested Friday night for threatening crew members on the Brooklyn set of Miami Vice ‘85 . Citing information from the NYPD, TMZ reports that a police officer working security on the set arrested Alex Perez, 23, who has a criminal record. “Perez can be seen being escorted off the set by a staffer before taking out the large knife from his sweatshirt pocket,” according to TMZ, which also posted a video of the incident . “A cop on the scene then arrested Perez -- who hurled the n-word at the production staff member while in cuffs -- at 11:17 PM.” The site reports that Perez has been charged with menacing with a weapon in the 2nd degree and criminal possession of a weapon in the 4th degree.",
-      "author": "Jim Vejvoda",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.ign.com/articles/man-arrested-for-brandishing-knife-at-crew-on-the-set-of-miami-vice-85",
-      "image": "/images/feed/feed-2787a4ca1fcf.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-532a16a724bf",
-      "title": "Forget Tom Cruise, Sci-Fi's Foundational 1950s Classic Movie Is Free to Watch on YouTube",
-      "excerpt": "Every little green man from space for 70 years owes his existence to this flick from 1953",
-      "body": "H.G. Wells' The War of the Worlds is a punchline now, and it's Amazon's fault. At time of writing, the newest adaptation of The War of the Worlds is a \"screenlife\" movie from 2025 that’s a frontrunner for the worst film of the 21st century.",
-      "author": "Thomas Hindmarch",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.polygon.com/war-of-worlds-streaming-free-youtube-october-2026/",
-      "image": "/images/feed/feed-532a16a724bf.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-e1e2c22e0f1e",
-      "title": "Mass Effect: Universe Would Have Allowed Players To ‘Generate’ Timelines That Acknowledged Multiple Choices From The Trilogy",
-      "excerpt": "Now that the leaks are out there, some ex-BioWare devs are chatting about what they were working on before EA canceled the game",
-      "body": "Now that the leaks are out there, some ex-BioWare devs are chatting about what they were working on before EA canceled the game\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Kenneth Shepard",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://kotaku.com/mass-effect-universe-would-have-allowed-players-to-generate-timelines-that-acknowledged-multiple-choices-from-the-trilogy-2000749344",
-      "image": "/images/feed/feed-e1e2c22e0f1e.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-1490cf76244a",
-      "title": "Here's what you need to know before buying a wireless CarPlay adapter",
-      "excerpt": "Wireless CarPlay doesn't require a new car or head unit; with the right adapter, you can enjoy a cable-free connection.",
-      "body": "Wireless CarPlay doesn't require a new car or head unit; with the right adapter, you can enjoy a cable-free connection.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Filipe Espósito)",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.engadget.com/2293092/apple-wireless-carplay-adapter-what-to-know-before-buying/",
-      "image": "/images/feed/feed-1490cf76244a.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-77a3d7d776d7",
-      "title": "What is the cheapest new gaming console you can buy in 2026?",
-      "excerpt": "Even after price hikes, you can get an affordable console, but it requires some care to pick the right option.",
-      "body": "Even after price hikes, you can get an affordable console, but it requires some care to pick the right option.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Roger Fingas)",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.engadget.com/2293029/cheapest-new-gaming-console-you-can-buy-2026/",
-      "image": "/images/feed/feed-77a3d7d776d7.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-6d48c7dfee7b",
-      "title": "How to extend the battery life of your Apple AirTags",
-      "excerpt": "An AirTag's battery is easy to replace, but you don't want it to run low at a critical moment.",
-      "body": "An AirTag's battery is easy to replace, but you don't want it to run low at a critical moment.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Filipe Espósito)",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.engadget.com/2292921/how-to-extend-battery-life-apple-airtags/",
-      "image": "/images/feed/feed-6d48c7dfee7b.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-0f755e642ed1",
-      "title": "Common mistakes you should avoid when setting up your home network",
-      "excerpt": "Setting up a home network is rewarding, but you should be aware of common missteps to avoid hassle in the future.",
-      "body": "Setting up a home network is rewarding, but you should be aware of common missteps to avoid hassle in the future.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Thomas Godwin)",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.engadget.com/2292817/common-mistakes-avoid-setting-up-home-network/",
-      "image": "/images/feed/feed-0f755e642ed1.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-5f607c008c00",
-      "title": "Why your EV battery still loses charge while it's parked",
-      "excerpt": "Electric vehicles lose battery when they're left unused for long periods. There are a number of reasons why, and some might be totally out of your control.",
-      "body": "Electric vehicles lose battery when they're left unused for long periods. There are a number of reasons why, and some might be totally out of your control.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Husain Parvez)",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.engadget.com/2292646/ev-battery-why-it-loses-charge-when-parked/",
-      "image": "/images/feed/feed-5f607c008c00.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -489,7 +586,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 41,
       "url": "https://electrek.co/2026/10/24/volkswagens-new-electric-jetta-offers-285-miles-of-range-for-under-12k/",
       "image": "/images/feed/feed-fc50166d2cb5.jpg",
       "source": "Electrek",
@@ -508,7 +605,7 @@
         "Vehicle"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/10/24/canada-and-eu-are-slip-sliding-away-on-vehicle-emissions/",
       "image": "/images/feed/feed-767d7e6f0598.jpg",
       "source": "CleanTechnica",
@@ -527,7 +624,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 37,
       "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
       "image": "/images/feed/feed-aae262bb6858.jpg",
       "source": "TechCrunch",
@@ -546,7 +643,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 31,
       "url": "https://cleantechnica.com/2026/10/24/if-teslas-robotaxi-miles-keep-compounding-at-20-a-week-the-math-gets-interesting-fast/",
       "image": "/images/feed/feed-4a1e988b9867.jpg",
       "source": "CleanTechnica",
@@ -565,7 +662,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 37,
       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "image": "/images/feed/feed-41208e707565.webp",
       "source": "TechCrunch",
@@ -591,63 +688,6 @@
       "isLive": true
     },
     {
-      "id": "feed-e9ac751c1a33",
-      "title": "Volkswagen Unleashes Wicked ID. Unyx 09 in China for $27,000",
-      "excerpt": "Volkswagen, like pretty much all foreign brands, has really been struggling in China in recent years. The whole German auto industry is basically in crisis because their cash cow in China has shifted…",
-      "body": "Volkswagen, like pretty much all foreign brands, has really been struggling in China in recent years. The whole German auto industry is basically in crisis because their cash cow in China has shifted and now prefers buying cool new EVs from Chinese companies. Well, Volkswagen decided to team up with ... [continued] The post Volkswagen Unleashes Wicked ID. Unyx 09 in China for $27,000 appeared first on CleanTechnica .",
-      "author": "Z. S.",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://cleantechnica.com/2026/10/24/volkswagen-unleashes-wicked-id-unyx-09-in-china-for-27000/",
-      "image": "/images/feed/feed-e9ac751c1a33.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-82a439e4829b",
-      "title": "Zayed Sustainability Prize Picks Finalists from 10,233 Submissions",
-      "excerpt": "The Zayed Sustainability Prize recently made its final cuts to determine the finalists for the 2027 edition. I used to cover the prize very closely and thoroughly, back when it was called the Zayed Fu…",
-      "body": "The Zayed Sustainability Prize recently made its final cuts to determine the finalists for the 2027 edition. I used to cover the prize very closely and thoroughly, back when it was called the Zayed Future Energy Prize. I think the name was changed in large part because they wanted to ... [continued] The post Zayed Sustainability Prize Picks Finalists from 10,233 Submissions appeared first on CleanTechnica .",
-      "author": "Z. S.",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://cleantechnica.com/2026/10/24/zayed-sustainability-prize-picks-finalists-from-10233-submissions/",
-      "image": "/images/feed/feed-82a439e4829b.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-dc426b91a46d",
-      "title": "Energy Transition Plans Keep Freezing Today’s Demand Into Tomorrow",
-      "excerpt": "Before choosing the replacement technology, forecast the future market. Bad assumptions about demand can make weak solutions and oversized investment opportunities look compelling. The post Energy Tra…",
-      "body": "Before choosing the replacement technology, forecast the future market. Bad assumptions about demand can make weak solutions and oversized investment opportunities look compelling. The post Energy Transition Plans Keep Freezing Today’s Demand Into Tomorrow appeared first on CleanTechnica .",
-      "author": "Michael Barnard",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://cleantechnica.com/2026/10/24/energy-transition-assumptions-future-demand/",
-      "image": "/images/feed/feed-dc426b91a46d.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
       "id": "feed-508a6c062963",
       "title": "Capcom confirms data breach that affected 11.7 million users",
       "excerpt": "Capcom ID is still available to use, but users may see more phishing scam emails.",
@@ -661,7 +701,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 46,
       "url": "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users/",
       "image": "/images/feed/feed-508a6c062963.jpg",
       "source": "Engadget",
@@ -680,7 +720,7 @@
         "Neural"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 43,
       "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
       "image": "/images/feed/feed-f5dc25340c38.jpg",
       "source": "Hacker News",
@@ -700,7 +740,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 33,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-233-the-artemis-generation",
       "image": "/images/feed/feed-585b1c3a2506.jpg",
       "source": "Space.com",
@@ -719,7 +759,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 38,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-24-2026",
       "image": "/images/feed/feed-2e388bb43937.jpg",
       "source": "Space.com",
@@ -738,7 +778,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 34,
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
       "image": "/images/feed/feed-b8554dad591a.jpg",
       "source": "TechCrunch",
@@ -757,7 +797,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 53,
       "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
       "image": "/images/feed/feed-e7f9610cf94e.jpg",
       "source": "BleepingComputer",
@@ -776,7 +816,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 39,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-strange-new-worlds-season-of-gimmicks-was-afraid-to-say-anything",
       "image": "/images/feed/feed-2abf36f217ca.jpg",
       "source": "Space.com",
@@ -795,7 +835,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 34,
       "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
       "image": "/images/feed/feed-156181babac7.jpg",
       "source": "Wired",
@@ -814,7 +854,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 35,
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "image": "/images/feed/feed-0f71ebe7a492.jpg",
       "source": "The Hacker News",
@@ -833,7 +873,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 35,
       "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
       "image": "/images/feed/feed-9d52cbe35a24.jpg",
       "source": "The Hacker News",
@@ -852,29 +892,10 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 52,
       "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
       "image": "/images/feed/feed-c874b23267c2.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-6461cb2cb3c8",
-      "title": "Medusa's eye, Halloween fireballs and more: 5 skywatching targets to look out for this spooky season",
-      "excerpt": "Five spooky skywatching targets perfect for naked eye stargazing this Halloween!",
-      "body": "The spooky season is officially here! To celebrate, we've put together a list of five Halloween-themed skywatching targets that you can enjoy with nothing but the naked eye or binoculars and, of course, clear skies. Over millennia, the night sky has helped shape human beliefs. In return, we have imprinted our myths, stories and perceptions upon it, seeing monsters and mythology in the twinkling lights of the stars and assigning sinister aspects to innocent cosmic objects. Many of these ghostly impressions and meanings have survived to the present day. Here are a few of our favorites. The Pleiades open star cluster Don't be fooled by their beauty; the blue-white stars of the Pleiades are dripping in spooky lore.",
-      "author": " Anthony Wood ",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.space.com/stargazing/medusas-eye-halloween-fireballs-and-more-5-skywatching-targets-to-look-out-for-this-spooky-season",
-      "image": "/images/feed/feed-6461cb2cb3c8.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -890,30 +911,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 45,
       "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
       "image": "/images/feed/feed-f76395b595c2.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-64dee92637e2",
-      "title": "Inside the Supermassive Debate Over the James Webb Telescope’s ‘Little Red Dots’",
-      "excerpt": "The Webb telescope sees tiny red dots everywhere. Astronomers can’t agree on what they are, but some believe they may be enormous stars with black holes inside.",
-      "body": "The Webb telescope sees tiny red dots everywhere. Astronomers can’t agree on what they are, but some believe they may be enormous stars with black holes inside.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include James Webb, Telescope. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Charlie Wood",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "James Webb",
-        "Telescope"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
-      "image": "/images/feed/feed-64dee92637e2.jpg",
-      "source": "Wired",
       "isLive": true
     },
     {
@@ -929,7 +930,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 36,
       "url": "https://cleantechnica.com/2026/10/23/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them/",
       "image": "/images/feed/feed-e138519c2f71.png",
       "source": "CleanTechnica",
@@ -937,16 +938,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: Introducing OrgExplorer v1.0.0: Making Open-Source Organization Insights More Accessible",
-    "DEV.TO: # SlothSort: a local-first file organizer for people who would rather not sort files",
-    "DEV.TO: Verbs beat adjectives on a CV",
-    "DEV.TO: 5 Firefox New Tab Extensions Compared: Which One Actually Improves Your Workflow?",
-    "WIRED: Apple CarPlay and Android Auto Make Your Phone Hot. Here’s How to Keep It Cool",
-    "DEV.TO: Developing Software with AI: Why Understanding Code Still Matters",
-    "DEV.TO: r/startpages Is the Most Underrated Firefox Community You're Not Using",
-    "POLYGON: Vincent Price Is the Weirdest Serial Killer Ever in this '70s Cult Classic",
-    "SPACE.COM: October's 'Hunter's Moon' stalks into the autumn sky tonight: Here's what you need to know",
-    "ANDROID AUTHORITY: One UI 9 could have caught up to Google, but Samsung is still missing one thing"
+    "DEV.TO: Your spend ceiling has to be a 403, not a dashboard",
+    "DEV.TO: AI Glasses May Soon Replace Traditional Headphones, Engadget Says",
+    "DEV.TO: Looking into Recent Agentic Development",
+    "DEV.TO: Codecanyon Install Checklist: From Download to Live in 90 Minutes",
+    "DEV.TO: title: CouchPilot: Autonomous Repository Housekeeping with Guaranteed AST Equivalence",
+    "DEV.TO: The Four Days We Spent on a Curtain",
+    "DEV.TO: Vibe Coding Got My AI Product Live. Production Engineering Showed Me the Gaps.",
+    "KOTAKU: Vinland Saga’s Creator Has ‘No Good News’ On Season 3: ‘The Project Is Not Currently In Progress’",
+    "ENGADGET: Why are earbuds usually cheaper than headphones?",
+    "POLYGON: Elden Ring Has Quietly Become A24's Most Expensive Movie Yet"
   ],
   "sectionVideos": {}
 }
