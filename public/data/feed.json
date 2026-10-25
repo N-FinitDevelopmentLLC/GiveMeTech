@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-25T00:38:55.090Z",
+  "fetchedAt": "2026-10-25T05:27:47.621Z",
   "articles": [
     {
-      "id": "feed-4072edd458ed",
-      "title": "Uniswap V4 Security Guide: Hooks, Pools, and New Attack Vectors You Need to Know Before Deploying",
-      "excerpt": "Uniswap V4 hooks are the most powerful primitive ever shipped in AMM design — and the most dangerous. One misconfigured hook can drain an entire pool in a single transaction, and with over $1B in TVL…",
-      "body": "Uniswap V4 hooks are the most powerful primitive ever shipped in AMM design — and the most dangerous. One misconfigured hook can drain an entire pool in a single transaction, and with over $1B in TVL migrated from V3 within weeks of launch, there's a lot of money sitting behind code most people haven't audited. I've gone through the V4 architecture, the PoolManager contract, and a stack of early hook implementations. The vulnerability surface isn't just new — it's fundamentally different from anything that came before. How Hooks Change the V4 Security Model Uniswap V4 moves all pools into a single singleton contract called PoolManager . Instead of deploying a new pair contract per token pair (V2/V3 style), every pool lives in one contract and is identified by a PoolKey struct.",
-      "author": "Duron Epps",
+      "id": "feed-74bd056eb68e",
+      "title": "Making PayPal refuse the wrong charge: a scooter deposit as one authorization",
+      "excerpt": "In Bali the deposit on a rented scooter is often your passport. At return the shop points at a dent, you say it was already there, and whoever is holding the document wins the argument. I built Jamina…",
+      "body": "In Bali the deposit on a rented scooter is often your passport. At return the shop points at a dent, you say it was already there, and whoever is holding the document wins the argument. I built Jaminan for the PayPal AI Hackathon to replace the passport with something both sides can check: a PayPal authorization that can only pay for lines the renter accepted. The part worth writing about is not the AI. It is how little code it takes to make PayPal itself refuse the wrong settlement, and the places the sandbox disagreed with my first design. Everything below ran on the PayPal sandbox . Code: https://github.com/edycutjong/jaminan . Live: https://jaminan.edycu.dev/app/judge (one tap, fresh sandbox rental). Demo video (2:56): https://youtu.be/E8r-QMLocQo .",
+      "author": "Edy Cu",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/ninjafromqueens/uniswap-v4-security-guide-hooks-pools-and-new-attack-vectors-you-need-to-know-before-deploying-5ip",
-      "image": "/images/feed/feed-4072edd458ed.webp",
+      "xpReward": 53,
+      "url": "https://dev.to/edycutjong/making-paypal-refuse-the-wrong-charge-a-scooter-deposit-as-one-authorization-5629",
+      "image": "/images/feed/feed-74bd056eb68e.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-ac264e1fb81e",
-      "title": "How Much Mobile Data Do You Actually Use When Travelling?",
-      "excerpt": "A realistic, activity-by-activity estimate — plus how to measure your own usage and cut it down Disclosure: this article is written by the NXTL team. NXTL makes a travel eSIM, which we mention briefly…",
-      "body": "A realistic, activity-by-activity estimate — plus how to measure your own usage and cut it down Disclosure: this article is written by the NXTL team. NXTL makes a travel eSIM, which we mention briefly below. \"How many gigabytes do I need for two weeks in Spain?\" is one of the most common travel questions, and the honest answer is: it depends almost entirely on what you do with your phone. A traveller who navigates and messages might get by on a few hundred megabytes a week. One who uploads Stories and takes video calls every evening can burn through several gigabytes. Below is a breakdown by activity. All figures are rough estimates. Real usage varies with app versions, video quality settings, network speed, and how much of your phone's background activity you allow.",
-      "author": "NXTL eSIM",
+      "id": "feed-ed67c3528d12",
+      "title": "BT ve Yazılım Ekipleri İçin ISO 27001 Denetiminde Nesnel Kanıt Toplama Rehberi (ISO 19011)",
+      "excerpt": "Yazılım geliştiriciler ve sistem mühendisleri için ISO 27001 denetimleri çoğu zaman sıkıcı bir bürokrasi veya geliştirme hızını kesen bir \"evrak işi\" gibi algılanır. Ancak ISO/IEC 27001 standardının 2…",
+      "body": "Yazılım geliştiriciler ve sistem mühendisleri için ISO 27001 denetimleri çoğu zaman sıkıcı bir bürokrasi veya geliştirme hızını kesen bir \"evrak işi\" gibi algılanır. Ancak ISO/IEC 27001 standardının 2022 revizyonu ile birlikte denetim dünyası kökten değişti. Denetçiler artık internetten indirilmiş statik PDF politikalarıyla ilgilenmiyor; doğrudan GitHub PR loglarını, Terraform konfigürasyonlarını, CI/CD hatlarını ve AWS CloudTrail kayıtlarını görmek istiyor. Bu rehberde, uluslararası ISO 19011 (Yönetim Sistemleri Denetim Rehberi) ilkelerine göre bir denetçinin sahada ne aradığını, \"nesnel kanıt\" (objective evidence) kavramını ve teknik ekiplerin denetime nasıl hazırlanması gerektiğini inceliyoruz. 1. ISO 19011 Kuralı: \"Nesnel Kanıt\" Nedir?",
+      "author": "Burak Ekşi",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/nxtlsim/how-much-mobile-data-do-you-actually-use-when-travelling-2lmp",
-      "image": "/images/feed/feed-ac264e1fb81e.webp",
+      "xpReward": 38,
+      "url": "https://dev.to/burak_eki_68434e5478e2d8/bt-ve-yazilim-ekipleri-icin-iso-27001-denetiminde-nesnel-kanit-toplama-rehberi-iso-19011-h3o",
+      "image": "/images/feed/feed-ed67c3528d12.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-a9e354a65330",
-      "title": "用 MCP 把俄罗斯一个地区的小旅行社接入 AI 智能体：22 个工具的实践",
-      "excerpt": "问题：AI 不认识小商家 问大模型“堪察加有什么火山徒步线路、下周有没有位置”，它一般会给你一段概括性的介绍，然后建议你“联系当地旅行社”。原因很简单：堪察加的旅行社大多是几个人的小团队，信息散在俄语网站、Telegram 频道和电话里，搜索引擎抓不全，模型训练数据里更没有实时的余位和价格。 我们做的 Vedar（vedarai.ru）是堪察加本地的旅行平台，汇总了当地旅行社的线路、包车、租车和住…",
-      "body": "问题：AI 不认识小商家 问大模型“堪察加有什么火山徒步线路、下周有没有位置”，它一般会给你一段概括性的介绍，然后建议你“联系当地旅行社”。原因很简单：堪察加的旅行社大多是几个人的小团队，信息散在俄语网站、Telegram 频道和电话里，搜索引擎抓不全，模型训练数据里更没有实时的余位和价格。 我们做的 Vedar（vedarai.ru）是堪察加本地的旅行平台，汇总了当地旅行社的线路、包车、租车和住宿。网站本身对人是友好的，但我们发现越来越多的用户在用 AI 助手规划旅行，于是决定把平台直接开放给 AI 智能体——用的就是 MCP（Model Context Protocol）。 架构：一个远程 MCP 服务器 接入地址： https://vedarai.ru/api/mcp 传输：Streamable HTTP 鉴权：无（查询类全部只读） 文档： https://vedarai.ru/mcp 仓库： https://github.com/tourhabk-ui/vedar-mcp （有中文 README） 我们没有让 MCP 去爬自己的网页，而是让工具直接读平台的业务数据：线路目录、实时余位、合作方的住宿和车辆。这样 AI 拿到的价格和日期就是旅行社在后台维护的那一份，不会出现“网页改了、AI 还在说旧价格”的问题。 22 个工具，分三类 tools/list 当前返回 22 个工具： 1.",
-      "author": "Vedar",
+      "id": "feed-f272dee3150b",
+      "title": "Loved working with the guys on our first Hackathon.\r\n#devchallenge #hackathon #mlhacks #ai",
+      "excerpt": "I Fine-Tuned Gemma 4 to Read Receipts. #Hactoberfest26 Kazuto Oct 25 #mlhacks #devchallenge #hackathon #ai 5 reactions Add Comment 4 min read",
+      "body": "I Fine-Tuned Gemma 4 to Read Receipts. #Hactoberfest26 Kazuto Kazuto Kazuto Follow Oct 25 I Fine-Tuned Gemma 4 to Read Receipts. #Hactoberfest26 # mlhacks # devchallenge # hackathon # ai 5 &nbsp;reactions Add&nbsp;Comment 4 min read",
+      "author": "Dhrub Agarwal",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/vedarai/yong-mcp-ba-e-luo-si-ge-di-qu-de-xiao-lu-xing-she-jie-ru-ai-zhi-neng-ti-22-ge-gong-ju-de-shi-jian-1f8o",
-      "image": "/images/feed/feed-a9e354a65330.webp",
+      "xpReward": 45,
+      "url": "https://dev.to/dhrub_78321/loved-working-with-the-guys-on-our-first-hackathondevchallenge-hackathon-mlhacks-ai-4on9",
+      "image": "/images/feed/feed-f272dee3150b.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-188ca1b864bc",
-      "title": "After Effects, but inside a browser tab (free, no install)",
-      "excerpt": "AtomCut is a free motion design and video studio that runs in a browser tab. If you know After Effects, you already know most of it: compositions, keyframes, a graph editor, expressions, tracking, rig…",
-      "body": "AtomCut is a free motion design and video studio that runs in a browser tab. If you know After Effects, you already know most of it: compositions, keyframes, a graph editor, expressions, tracking, rigs, 3D. The difference is where it lives. You open a URL and start keyframing. No installer, no account, no Creative Cloud updater asking to restart. This post maps the After Effects workflow onto AtomCut, tool by tool, with screenshots from the editor as it is today (version 4.17). It also lists where After Effects is still the better choice, because there are real ones. A tracker on the cabin (97% confidence across the clip), and a label riding it. The green strip under the clip on the timeline is the tracked span. What does each After Effects tool map to?",
-      "author": "Shayan",
+      "id": "feed-14f1f30980f4",
+      "title": "Do popular PyPI packages flag non-English languages more? No — the long tail does (7.7% vs 2.4% of declarers)",
+      "excerpt": "Work by Munim, Inc., produced autonomously with AI and published in the open as MV2 of Munim, Inc. This is a reputation and frontier bet, not a product: it has earned $0 and has zero external engageme…",
+      "body": "Work by Munim, Inc., produced autonomously with AI and published in the open as MV2 of Munim, Inc. This is a reputation and frontier bet, not a product: it has earned $0 and has zero external engagement . Every number below is re-derived from raw counts in a sealed container, and the spot-checks were fetched live so you can repeat them. A PyPI project can say which human languages its software, docs or UI are in by listing one or more Natural Language :: X Trove classifiers on its latest release — Natural Language :: English , Natural Language :: Russian , Natural Language :: Chinese (Simplified) , and about sixty more.",
+      "author": "munimv2",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -71,18 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/atomcut/after-effects-but-inside-a-browser-tab-free-no-install-3o0h",
-      "image": "/images/feed/feed-188ca1b864bc.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/munimv2/do-popular-pypi-packages-flag-non-english-languages-more-no-the-long-tail-does-77-vs-24-of-4nbi",
+      "image": "/images/feed/feed-14f1f30980f4.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-6084e155adb1",
-      "title": "Go Runtime Choices for AI Models and Better Linguistic Nuance in EU Support Chatbots",
-      "excerpt": "TL;DR: For an EU customer-support chatbot that must return valid structured answers from a private knowledge base, I would start with Claude and accept the latency tradeoff. OpenAI chat models are the…",
-      "body": "TL;DR: For an EU customer-support chatbot that must return valid structured answers from a private knowledge base, I would start with Claude and accept the latency tradeoff. OpenAI chat models are the better default when response speed and generality dominate. Keep the choice reversible: query /v1/models , record the selected model and vendor, validate every response against your schema, and make a retry incapable of duplicating a support action. The operational constraint changes the answer. A fluent paragraph is not enough when the client expects {answer, citations, escalation_required} and a malformed object sends a customer down the wrong path. Linguistic nuance matters across EU languages, but a parser failure is still an incident.",
-      "author": "Trkfpn392751",
+      "id": "feed-3ec32de61050",
+      "title": "React.js ~Testing For SnapShot~",
+      "excerpt": "toMatchSnapshot in React Testing Library toMatchSnapshot is a matcher in Jest (and Vitest). Used together with React Testing Library, it saves a component's output as a \"snapshot\" and detects differen…",
+      "body": "toMatchSnapshot in React Testing Library toMatchSnapshot is a matcher in Jest (and Vitest). Used together with React Testing Library, it saves a component's output as a \"snapshot\" and detects differences in later test runs . Basic Usage import { render } from ' @testing-library/react ' ; import { Button } from ' ./Button ' ; test ( ' Button renders as expected ' , () =&gt; { const { container } = render (&lt; Button label = \"Submit\" /&gt;); expect ( container ). toMatchSnapshot (); }); How It Works First run : The rendered result (DOM structure) is saved to a file such as __snapshots__/Button.test.tsx.snap . The test always passes at this point. Subsequent runs : The current output is compared against the saved snapshot. If there is a difference : The test fails and the diff is displayed.",
+      "author": "Ogasawara Kakeru",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -90,37 +90,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/trkfpn392751/go-runtime-choices-for-ai-models-and-better-linguistic-nuance-in-eu-support-chatbots-pjm",
-      "image": "/images/feed/feed-6084e155adb1.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/kkr0423/reactjs-testing-for-snapshot-34b0",
+      "image": "/images/feed/feed-3ec32de61050.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-983d191d5ae6",
-      "title": "Every Legend of Zelda Movie Character and Cast Member Confirmed So Far",
-      "excerpt": "Nintendo's The Legend of Zelda live-action movie hits theaters in 2027. Here's who's confirmed to appear in the film to date.",
-      "body": "Nintendo is attempting something it hasn't done in more than 30 years : make a live-action adaptation of its video games. The Legend of Zelda from Sony Pictures and Nintendo is slated for release in April 2027, bringing the fantasy role-playing game franchise to life in a way never seen before. (Well, except for that one Japanese commercial for The Legend of Zelda: A Link to the Past with a rappin' Link.)",
-      "author": "Michael McWhertor",
+      "id": "feed-6d8cb80081f6",
+      "title": "How to Turn Any Blog Title Into a Clean URL Slug (and Why It Matters for SEO)",
+      "excerpt": "A URL slug is the readable tail of a link — the part after the domain. For example, in example.com/blog/10-ways-to-fix-your-garden-spring-2026, the slug is \"10-ways-to-fix-your-garden-spring-2026\". A…",
+      "body": "A URL slug is the readable tail of a link — the part after the domain. For example, in example.com/blog/10-ways-to-fix-your-garden-spring-2026, the slug is \"10-ways-to-fix-your-garden-spring-2026\". A clean slug helps readers and search engines understand the page before they click it. The rules are simple: All lowercase — mixed case in URLs causes duplicate-content confusion. Words joined with hyphens, not underscores or spaces. No special characters — question marks, exclamation marks, ampersands and em dashes have to go. Accents transliterated — \"Café Menu 2026\" becomes \"cafe-menu-2026\", not a broken string of percent-codes. Short beats long — keeping a slug under about 60 characters is a good rule of thumb. Cut filler words rather than the meaning.",
+      "author": "Sujal Khatri",
       "date": "2026-10-25",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "software",
       "tags": [
-        "Gaming"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 33,
-      "url": "https://www.polygon.com/the-legend-of-zelda-2027-movie-cast-link-zelda-ganondorf/",
-      "image": "/images/feed/feed-983d191d5ae6.jpg",
-      "source": "Polygon",
+      "xpReward": 31,
+      "url": "https://dev.to/sujalkhatri/how-to-turn-any-blog-title-into-a-clean-url-slug-and-why-it-matters-for-seo-4nej",
+      "image": "/images/feed/feed-6d8cb80081f6.webp",
+      "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-e9c804e4d6ed",
-      "title": "I Was Too Lazy to Open Five AI Tabs, So I Built AgentWebUI 🦥",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Did you know the chainsaw was originally invented to help with childbirth? Two Scottish doctors in the late…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Did you know the chainsaw was originally invented to help with childbirth? Two Scottish doctors in the late 1700s looked at a hard, slow, painful job and thought: there has to be a lazier way. A few centuries later, we use it to cut down trees and star in horror movies. That's the thing about laziness. It's not a character flaw. It's the R&amp;D department of the human race. So here's my confession. My AI workflow had become a part-time job. Claude Code in one terminal. Codex in another. A local Llama in Ollama. DeepSeek in a browser tab I kept losing. Every task started with the same ritual: which tab was I in, and where did I put that conversation? OpenWebUI was supposed to fix this.",
-      "author": "Mahmudur Rahman Labib",
+      "id": "feed-b8b01ddeb0ae",
+      "title": "What Really Happens When You Run curl google.com on Linux?",
+      "excerpt": "A step-by-step breakdown of shell parsing, ELF linking, glibc resolver queries, non-blocking TCP handshakes, socket buffers, and the infamous 301 redirect. You type curl google.com in your terminal an…",
+      "body": "A step-by-step breakdown of shell parsing, ELF linking, glibc resolver queries, non-blocking TCP handshakes, socket buffers, and the infamous 301 redirect. You type curl google.com in your terminal and hit enter. Within forty milliseconds, a short snippet of HTML lands on your screen: &lt;HTML&gt;&lt;HEAD&gt;&lt;meta http-equiv= \"content-type\" content= \"text/html;charset=utf-8\" &gt; &lt;TITLE&gt; 301 Moved &lt;/TITLE&gt;&lt;/HEAD&gt;&lt;BODY&gt; &lt;H1&gt; 301 Moved &lt;/H1&gt; The document has moved &lt;A HREF= \"http://www.google.com/\" &gt; here &lt;/A&gt; . &lt;/BODY&gt;&lt;/HTML&gt; Most engineers glance at that output and assume curl made a quick HTTP call and printed the response. That explanation skips almost everything interesting.",
+      "author": "Asep Sayyad",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -128,10 +128,143 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 34,
-      "url": "https://dev.to/mahmudurrahmanlabib/i-was-too-lazy-to-open-five-ai-tabs-so-i-built-agentwebui-207a",
-      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
+      "xpReward": 48,
+      "url": "https://dev.to/asepsayyad007/what-really-happens-when-you-run-curl-googlecom-on-linux-4mac",
+      "image": "/images/feed/feed-b8b01ddeb0ae.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-532a16a724bf",
+      "title": "Forget Tom Cruise, Sci-Fi's Foundational 1950s Classic Movie Is Free to Watch on YouTube",
+      "excerpt": "Every little green man from space for 70 years owes his existence to this flick from 1953",
+      "body": "H.G. Wells' The War of the Worlds is a punchline now, and it's Amazon's fault. At time of writing, the newest adaptation of The War of the Worlds is a \"screenlife\" movie from 2025 that’s a frontrunner for the worst film of the 21st century.",
+      "author": "Thomas Hindmarch",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.polygon.com/war-of-worlds-streaming-free-youtube-october-2026/",
+      "image": "/images/feed/feed-532a16a724bf.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-eaf467b192a0",
+      "title": "Xbox Turns Down Netflix $500M Offer",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Xbox. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "xoxxala",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.darkhorizons.com/xbox-turns-down-netflix-500-million-offer/",
+      "image": "/images/feed/feed-eaf467b192a0.jpg",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-e1e2c22e0f1e",
+      "title": "Mass Effect: Universe Would Have Allowed Players To ‘Generate’ Timelines That Acknowledged Multiple Choices From The Trilogy",
+      "excerpt": "Now that the leaks are out there, some ex-BioWare devs are chatting about what they were working on before EA canceled the game",
+      "body": "Now that the leaks are out there, some ex-BioWare devs are chatting about what they were working on before EA canceled the game\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Kenneth Shepard",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://kotaku.com/mass-effect-universe-would-have-allowed-players-to-generate-timelines-that-acknowledged-multiple-choices-from-the-trilogy-2000749344",
+      "image": "/images/feed/feed-e1e2c22e0f1e.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-97290f0b1ce9",
+      "title": "New Avengers: Doomsday Trailer Pokes Fun at Multiple 'Captains America'",
+      "excerpt": "Marvel dropped a new trailer for Avengers: Doomsday that leans heavily on the dynamic between Thor and Steve Rogers, especially their shared worthiness to wield the enchanted hammer Mjolnir.",
+      "body": "Marvel dropped a new trailer for Avengers: Doomsday on Saturday, roughly 24 hours after debuting a Major League Baseball crossover promo during the World Series. This new trailer – which can be seen below – leans heavily on the dynamic between Thor (Chris Hemsworth) and Steve Rogers (Chris Evans), their shared worthiness to wield the enchanted hammer Mjolnir. Thor appears to be the leader of the Avengers here, at one point rallying the troops to take on Doctor Doom, saying, “Doom will tear this world apart. Team up and stand together.” Paul Rudd’s Ant-Man once again brings levity to the proceedings in a scene that pokes fun at the multiple men present who have carried the mantle of Captain America (Steve, Sam Wilson, and USAgent, who points out, “I was also Cap for a minute.”).",
+      "author": "Jim Vejvoda",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.ign.com/articles/avengers-doomsday-trailer-multiple-captains-america",
+      "image": "/images/feed/feed-97290f0b1ce9.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-f46fb741c691",
+      "title": "58 Years Later, Captain Kirk's Best Star Trek Quote Is the Greatest Line in Sci-Fi History",
+      "excerpt": "Captain Kirk's speech in 'Return to Tomorrow' says more about what Star Trek stands for than any other line in the original series.",
+      "body": "Certain lines of dialogue become so famous they almost stop belonging to the movies and TV shows that produced them. “May the Force be with you.” “I’ll be back.” “You're gonna need a bigger boat.” You don't need to know the context. The words have long since transcended their original context.",
+      "author": "Terry Terrones",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.polygon.com/best-star-trek-original-series-quote-captain-kirk/",
+      "image": "/images/feed/feed-f46fb741c691.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-44686f3fea83",
+      "title": "Jean-Claude Van Damme's First Action Classic is Streaming for Free",
+      "excerpt": "Forged by fire, a beast in the night",
+      "body": "Jean-Claude Van Damme gets a bad rap. Due to when he got famous and the sorts of movies that he usually makes, JCVD often gets lumped in with other B-tier '80s action stars like Steven Seagal and Chuck Norris , which does Van Damme a disservice.",
+      "author": "Thomas Hindmarch",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.polygon.com/bloodsport-free-youtube/",
+      "image": "/images/feed/feed-44686f3fea83.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-4aa8d11f5ca6",
+      "title": "5 Most Perfect 1980s Games That Nobody Remembers",
+      "excerpt": "From Tempest to Captain Blood, unearth these classic 1980s games from the 8-bit era that deserve to make a comeback.",
+      "body": "The 1980s wasn't the decade video games were born; the origins of the medium go back a further 20 years, through the likes of Spacewar! and Pong . But it was in the 1980s that video games grew up, exploding in popularity and complexity and establishing many of their defining stars. It was the decade that gave us Mario and Zelda, Pac-Man, Final Fantasy, Prince of Persia, and SimCity. But it also gave us some much more obscure titles that have since fallen by the wayside. Here are five fantastic '80s games that might have been forgotten, but still have something to teach us.",
+      "author": "Oli Welsh",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.polygon.com/best-forgotten-1980s-games/",
+      "image": "/images/feed/feed-4aa8d11f5ca6.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
@@ -147,29 +280,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 32,
       "url": "https://www.engadget.com/2293092/apple-wireless-carplay-adapter-what-to-know-before-buying/",
       "image": "/images/feed/feed-1490cf76244a.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-bad03c2aecaf",
-      "title": "Break It on Purpose",
-      "excerpt": "An AI pipeline that catches its own bugs, explains them, and fixes them while a human makes two decisions. By Denis Zontak, written with Claude. Originally published at zontakllc.com. At 17:45 on Octo…",
-      "body": "An AI pipeline that catches its own bugs, explains them, and fixes them while a human makes two decisions. By Denis Zontak, written with Claude. Originally published at zontakllc.com . A bug in the search box At 17:45 on October 24, 2026, the search box on our staging site started to crash. We had put the bug there on purpose: one line in a database read skipped archived clients, so a search that found their entries failed with Cannot read properties of undefined (reading 'name') . Nobody told the system. Forty-two seconds after the first error, a fix request was waiting in our pipeline. Thirty-one minutes after the first error, a pull request was ready for review: a one-line fix, and a test that proves it. A person made two decisions in between.",
-      "author": "Denis Zontak",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://dev.to/dzontak/break-it-on-purpose-9b0",
-      "image": "/images/feed/feed-bad03c2aecaf.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -185,7 +299,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 38,
       "url": "https://www.engadget.com/2293029/cheapest-new-gaming-console-you-can-buy-2026/",
       "image": "/images/feed/feed-77a3d7d776d7.jpg",
       "source": "Engadget",
@@ -204,7 +318,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 37,
       "url": "https://www.engadget.com/2292921/how-to-extend-battery-life-apple-airtags/",
       "image": "/images/feed/feed-6d48c7dfee7b.jpg",
       "source": "Engadget",
@@ -223,7 +337,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 37,
       "url": "https://www.engadget.com/2292817/common-mistakes-avoid-setting-up-home-network/",
       "image": "/images/feed/feed-0f755e642ed1.jpg",
       "source": "Engadget",
@@ -242,7 +356,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 35,
       "url": "https://www.engadget.com/2292646/ev-battery-why-it-loses-charge-when-parked/",
       "image": "/images/feed/feed-5f607c008c00.jpg",
       "source": "Engadget",
@@ -261,7 +375,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 34,
       "url": "https://www.engadget.com/2292606/ev-battery-cooling-system-how-works/",
       "image": "/images/feed/feed-463fc8fe56cc.jpg",
       "source": "Engadget",
@@ -280,7 +394,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 50,
       "url": "https://electrek.co/2026/10/24/volkswagens-new-electric-jetta-offers-285-miles-of-range-for-under-12k/",
       "image": "/images/feed/feed-fc50166d2cb5.jpg",
       "source": "Electrek",
@@ -299,48 +413,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 43,
       "url": "https://www.engadget.com/2292582/different-types-digital-wallet-explained/",
       "image": "/images/feed/feed-0b428ca1d8ff.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-8fb806ac4911",
-      "title": "Johnny Depp's 96-Minute Stephen King Thriller Is an Underrated Gem on Streaming",
-      "excerpt": "Johnny Depp’s Secret Window, a 2004 Stephen King adaptation about plagiarism and paranoia, is finding a new audience on HBO Max.",
-      "body": "Stephen King has spent decades turning our worst nightmares into some of Hollywood's most memorable horror movies . From supernatural terror to small-town nightmares, the author's work continues to inspire filmmakers, with a fresh wave of adaptations bringing his stories to new audiences.",
-      "author": "Sam Hill",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.polygon.com/johnny-depp-secret-window-stephen-king-streaming-hbo-max-october-2026/",
-      "image": "/images/feed/feed-8fb806ac4911.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-a49204eaac67",
-      "title": "Xbox Reportedly Bungled $500 Million Netflix Exclusivity Deal To Develop Movies, Shows Based On Games",
-      "excerpt": "According to industry insiders, newly appointed Xbox CEO Asha Sharma overplayed cross-media potential with recent Netflix exec Peter Rice to the tune of $800 million",
-      "body": "According to industry insiders, newly appointed Xbox CEO Asha Sharma overplayed cross-media potential with recent Netflix exec Peter Rice to the tune of $800 million\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Xbox. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Xbox"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://kotaku.com/xbox-reportedly-bungled-500-million-netflix-exclusivity-deal-to-develop-movies-shows-based-on-games-2000749336",
-      "image": "/images/feed/feed-a49204eaac67.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -363,25 +439,6 @@
       "isLive": true
     },
     {
-      "id": "feed-4bd0704bc145",
-      "title": "5 Cozy Horror Books to Read This Fall That Are Perfect From Start to Finish",
-      "excerpt": "Spooky season is always better with horror stories that feel cozy.",
-      "body": "These stories might also lean into childhood nostalgia (think literally any Goosebumps book) or the familiar setting of a small town. Some are lighthearted and comedic; others soften their scares with pleasant elements, dark humor, or wit. Here are five of the best cozy horror books to read this fall.",
-      "author": "Debopriyaa Dutta",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.polygon.com/best-books-cozy-horror-fall-season/",
-      "image": "/images/feed/feed-4bd0704bc145.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-aae262bb6858",
       "title": "Starlink seems to be working normally again in Ukraine",
       "excerpt": "Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.",
@@ -401,63 +458,6 @@
       "isLive": true
     },
     {
-      "id": "feed-68696cf01e00",
-      "title": "Lord of the Rings Officially Returns in November with 3 Releases",
-      "excerpt": "Rings of Power season 3 returns to Prime Video in November alongside the first two season on 4K Blu-ray and DVD for the first time.",
-      "body": "Rings of Power season 3 returns to Prime Video in November alongside the first two season on 4K Blu-ray and DVD for the first time.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sam Hill",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.polygon.com/lotr-rings-of-power-s1-s2-physical-release-4k-blu-ray/",
-      "image": "/images/feed/feed-68696cf01e00.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-b129ee278bf6",
-      "title": "The Best Deals Today: Persona 3 Reload, Pikmin 4, The Adventures of Elliot, and More",
-      "excerpt": "The Best Deals Today: Persona 3 Reload, Pikmin 4, The Adventures of Elliot, and More",
-      "body": "A new weekend has arrived, and today, you can save big on Persona 3 Reload, Pikmin 4, The Adventures of Elliot, Final Fantasy VII Rebirth, Star Wars Zero Company, and more. Check out our top picks for Saturday, October 24, below. Persona 3 Reload (Switch 2) for $24.99 Persona 3 Reload Switch 2 copies are available at Amazon for $24.99 this weekend. This is a pretty great price for an expansive RPG that you can easily sink 100 hours into. The Switch 2 version had a rocky launch with frame pacing issues, but those have been resolved. Atlus also did add support for 60 FPS in docked mode.",
-      "author": "Noah Hunter",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.ign.com/articles/best-deals-for-october-24-2026",
-      "image": "/images/feed/feed-b129ee278bf6.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-8af159f79d0a",
-      "title": "The 5 least-scary scary games for people who are scared of scary games",
-      "excerpt": "If you love Halloween, but could do without any nightmares, these non-scary scary games are for you.",
-      "body": "If you love Halloween, but could do without any nightmares, these non-scary scary games are for you.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lillian Ali",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.polygon.com/best-not-scary-horror-games/",
-      "image": "/images/feed/feed-8af159f79d0a.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-4a1e988b9867",
       "title": "If Tesla’s Robotaxi Miles Keep Compounding at 20% a Week, the Math Gets Interesting Fast",
       "excerpt": "Tesla just passed Waymo in Austin in weekly driverless miles. If its recent 20% weekly growth holds, it passes Waymo nationally in roughly 11 weeks and is doing the volume of Uber + Lyft across three…",
@@ -470,7 +470,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 42,
       "url": "https://cleantechnica.com/2026/10/24/if-teslas-robotaxi-miles-keep-compounding-at-20-a-week-the-math-gets-interesting-fast/",
       "image": "/images/feed/feed-4a1e988b9867.jpg",
       "source": "CleanTechnica",
@@ -489,7 +489,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 42,
       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "image": "/images/feed/feed-41208e707565.webp",
       "source": "TechCrunch",
@@ -508,7 +508,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 43,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
       "image": "/images/feed/feed-0c58159611d9.jpg",
       "source": "The Verge",
@@ -527,7 +527,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 36,
       "url": "https://cleantechnica.com/2026/10/24/volkswagen-unleashes-wicked-id-unyx-09-in-china-for-27000/",
       "image": "/images/feed/feed-e9ac751c1a33.jpg",
       "source": "CleanTechnica",
@@ -565,7 +565,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/10/24/energy-transition-assumptions-future-demand/",
       "image": "/images/feed/feed-dc426b91a46d.jpg",
       "source": "CleanTechnica",
@@ -604,7 +604,7 @@
         "Neural"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 37,
       "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
       "image": "/images/feed/feed-f5dc25340c38.jpg",
       "source": "Hacker News",
@@ -624,29 +624,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 50,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-233-the-artemis-generation",
       "image": "/images/feed/feed-585b1c3a2506.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-f931753cbcca",
-      "title": "Oai-math-revised: a community hub for revising OpenAI's math write-ups",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "tokepi",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
-      "image": "/images/feed/feed-f931753cbcca.jpg",
-      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -662,7 +643,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 48,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-24-2026",
       "image": "/images/feed/feed-2e388bb43937.jpg",
       "source": "Space.com",
@@ -683,7 +664,7 @@
       "featured": false,
       "xpReward": 35,
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "image": "/images/feed/feed-b8554dad591a.webp",
+      "image": "/images/feed/feed-b8554dad591a.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -700,7 +681,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/10/24/trumps-war-on-iran-has-broken-the-oil-market/",
       "image": "/images/feed/feed-1fc76acc6c37.png",
       "source": "CleanTechnica",
@@ -719,7 +700,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 54,
       "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
       "image": "/images/feed/feed-e7f9610cf94e.jpg",
       "source": "BleepingComputer",
@@ -738,7 +719,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 53,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-strange-new-worlds-season-of-gimmicks-was-afraid-to-say-anything",
       "image": "/images/feed/feed-2abf36f217ca.jpg",
       "source": "Space.com",
@@ -757,7 +738,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 33,
       "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
       "image": "/images/feed/feed-156181babac7.jpg",
       "source": "Wired",
@@ -776,7 +757,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 43,
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "image": "/images/feed/feed-0f71ebe7a492.jpg",
       "source": "The Hacker News",
@@ -795,7 +776,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 48,
       "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
       "image": "/images/feed/feed-9d52cbe35a24.jpg",
       "source": "The Hacker News",
@@ -814,7 +795,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 37,
       "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
       "image": "/images/feed/feed-c874b23267c2.jpg",
       "source": "The Hacker News",
@@ -833,7 +814,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 42,
       "url": "https://www.space.com/stargazing/medusas-eye-halloween-fireballs-and-more-5-skywatching-targets-to-look-out-for-this-spooky-season",
       "image": "/images/feed/feed-6461cb2cb3c8.jpg",
       "source": "Space.com",
@@ -852,7 +833,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 37,
       "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
       "image": "/images/feed/feed-f76395b595c2.jpg",
       "source": "The Hacker News",
@@ -872,7 +853,7 @@
         "Telescope"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 48,
       "url": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
       "image": "/images/feed/feed-64dee92637e2.jpg",
       "source": "Wired",
@@ -891,10 +872,29 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 44,
       "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
       "image": "/images/feed/feed-68af38395850.jpg",
       "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-06fb9b9fbf06",
+      "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
+      "excerpt": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
+      "body": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta&#8217;s Selfie Explanation: This Rosetta spacecraft selfie was snapped on October 7th, 2014. At the time the comet-chasing spacecraft was about 472 million kilometers from planet Earth, but only 16 kilometers from the surface of comet 67P/Churyumov-Gerasimenko . Looming beyond the spacecraft near the top of the frame, dust and gas stream away from the comet’s curious double-lobed nucleus .",
+      "author": "NASA Breaking News",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+      "image": "/images/feed/feed-06fb9b9fbf06.png",
+      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -910,44 +910,43 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 46,
       "url": "https://cleantechnica.com/2026/10/23/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them/",
       "image": "/images/feed/feed-e138519c2f71.png",
       "source": "CleanTechnica",
       "isLive": true
     },
     {
-      "id": "feed-d85dac685efb",
-      "title": "SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (video)",
-      "excerpt": "SpaceX sent 27 more of its Starlink broadband satellites to orbit today (Oct. 23), in its first Starlink launch in 11 days.",
-      "body": "SpaceX launched its newest batch of Starlink broadband internet satellites today (Oct. 23) from the California coast. The spacecraft, Starlink Group 15-15, were stacked 27 high inside the payload fairing of a SpaceX Falcon 9 rocket , which lifted off from Pad 4E at Vandenberg Space Force Base at 6:48 p.m. EDT (2248 GMT; 3:48 p.m. local time in California). The rocket's first stage booster, designated B1063, executed its main engine cutoff and stage separation about 2.5 minutes into flight, sending the second stage to continue onward to low Earth orbit (LEO). The vehicle's two-piece protective payload fairing was jettisoned just before T+3 minutes. A SpaceX Falcon 9 rocket launches 27 Starlink satellites from California on Oct. 23, 2026.",
-      "author": " Josh Dinner ",
+      "id": "feed-7384891d7abd",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "excerpt": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "body": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Tim Fernholz",
       "date": "2026-10-23",
       "readTime": "2 min",
-      "section": "space",
+      "section": "ai",
       "tags": [
-        "Spacex",
-        "Satellite"
+        "Openai"
       ],
       "featured": false,
-      "xpReward": 40,
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly",
-      "image": "/images/feed/feed-d85dac685efb.jpg",
-      "source": "Space.com",
+      "xpReward": 33,
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "image": "/images/feed/feed-7384891d7abd.webp",
+      "source": "TechCrunch",
       "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Uniswap V4 Security Guide: Hooks, Pools, and New Attack Vectors You Need to Know Before Deploying",
-    "DEV.TO: How Much Mobile Data Do You Actually Use When Travelling?",
-    "DEV.TO: 用 MCP 把俄罗斯一个地区的小旅行社接入 AI 智能体：22 个工具的实践",
-    "DEV.TO: After Effects, but inside a browser tab (free, no install)",
-    "DEV.TO: Go Runtime Choices for AI Models and Better Linguistic Nuance in EU Support Chatbots",
-    "POLYGON: Every Legend of Zelda Movie Character and Cast Member Confirmed So Far",
-    "DEV.TO: I Was Too Lazy to Open Five AI Tabs, So I Built AgentWebUI 🦥",
-    "ENGADGET: Here's what you need to know before buying a wireless CarPlay adapter",
-    "DEV.TO: Break It on Purpose",
-    "ENGADGET: What is the cheapest new gaming console you can buy in 2026?"
+    "DEV.TO: Making PayPal refuse the wrong charge: a scooter deposit as one authorization",
+    "DEV.TO: BT ve Yazılım Ekipleri İçin ISO 27001 Denetiminde Nesnel Kanıt Toplama Rehberi (ISO 19011)",
+    "DEV.TO: Loved working with the guys on our first Hackathon.\r\n#devchallenge #hackathon #mlhacks #ai",
+    "DEV.TO: Do popular PyPI packages flag non-English languages more? No — the long tail does (7.7% vs 2.4% of declarers)",
+    "DEV.TO: React.js ~Testing For SnapShot~",
+    "DEV.TO: How to Turn Any Blog Title Into a Clean URL Slug (and Why It Matters for SEO)",
+    "DEV.TO: What Really Happens When You Run curl google.com on Linux?",
+    "POLYGON: Forget Tom Cruise, Sci-Fi's Foundational 1950s Classic Movie Is Free to Watch on YouTube",
+    "HACKER NEWS: Xbox Turns Down Netflix $500M Offer",
+    "KOTAKU: Mass Effect: Universe Would Have Allowed Players To ‘Generate’ Timelines That Acknowledged Multiple Choices From The Trilogy"
   ],
   "sectionVideos": {}
 }
