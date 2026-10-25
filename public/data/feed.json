@@ -1,80 +1,346 @@
 {
-  "fetchedAt": "2026-10-24T22:06:50.522Z",
+  "fetchedAt": "2026-10-25T00:38:55.090Z",
   "articles": [
     {
-      "id": "feed-75218431b0ad",
-      "title": "Two npm Bugs, One Lesson: Upgrading the Runtime Is Not Upgrading the Dependencies",
-      "excerpt": "Two npm Bugs, One Lesson: Upgrading the Runtime Is Not Upgrading the Dependencies Two advisories published this month describe failures in ordinary libraries. One is a JWT verification bug that turns…",
-      "body": "Two npm Bugs, One Lesson: Upgrading the Runtime Is Not Upgrading the Dependencies Two advisories published this month describe failures in ordinary libraries. One is a JWT verification bug that turns a public key into a shared secret. The other is a path traversal that walks out of a target directory through a symlink chain. At the code level they share nothing; operationally they are the same problem, because both are fixed by a dependency bump and neither is fixed by upgrading the runtime. fast-jwt: when a public key becomes a shared secret CVE-2026-107722, CVSS 9.8, affects npm package fast-jwt versions 6.2.0 through 6.3.0. The mechanism deserves attention because the fix is a version number while the failure is a parsing assumption.",
-      "author": "jeffrey",
-      "date": "2026-10-24",
+      "id": "feed-4072edd458ed",
+      "title": "Uniswap V4 Security Guide: Hooks, Pools, and New Attack Vectors You Need to Know Before Deploying",
+      "excerpt": "Uniswap V4 hooks are the most powerful primitive ever shipped in AMM design — and the most dangerous. One misconfigured hook can drain an entire pool in a single transaction, and with over $1B in TVL…",
+      "body": "Uniswap V4 hooks are the most powerful primitive ever shipped in AMM design — and the most dangerous. One misconfigured hook can drain an entire pool in a single transaction, and with over $1B in TVL migrated from V3 within weeks of launch, there's a lot of money sitting behind code most people haven't audited. I've gone through the V4 architecture, the PoolManager contract, and a stack of early hook implementations. The vulnerability surface isn't just new — it's fundamentally different from anything that came before. How Hooks Change the V4 Security Model Uniswap V4 moves all pools into a single singleton contract called PoolManager . Instead of deploying a new pair contract per token pair (V2/V3 style), every pool lives in one contract and is identified by a PoolKey struct.",
+      "author": "Duron Epps",
+      "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
+      "xpReward": 49,
+      "url": "https://dev.to/ninjafromqueens/uniswap-v4-security-guide-hooks-pools-and-new-attack-vectors-you-need-to-know-before-deploying-5ip",
+      "image": "/images/feed/feed-4072edd458ed.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-ac264e1fb81e",
+      "title": "How Much Mobile Data Do You Actually Use When Travelling?",
+      "excerpt": "A realistic, activity-by-activity estimate — plus how to measure your own usage and cut it down Disclosure: this article is written by the NXTL team. NXTL makes a travel eSIM, which we mention briefly…",
+      "body": "A realistic, activity-by-activity estimate — plus how to measure your own usage and cut it down Disclosure: this article is written by the NXTL team. NXTL makes a travel eSIM, which we mention briefly below. \"How many gigabytes do I need for two weeks in Spain?\" is one of the most common travel questions, and the honest answer is: it depends almost entirely on what you do with your phone. A traveller who navigates and messages might get by on a few hundred megabytes a week. One who uploads Stories and takes video calls every evening can burn through several gigabytes. Below is a breakdown by activity. All figures are rough estimates. Real usage varies with app versions, video quality settings, network speed, and how much of your phone's background activity you allow.",
+      "author": "NXTL eSIM",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 32,
+      "url": "https://dev.to/nxtlsim/how-much-mobile-data-do-you-actually-use-when-travelling-2lmp",
+      "image": "/images/feed/feed-ac264e1fb81e.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-a9e354a65330",
+      "title": "用 MCP 把俄罗斯一个地区的小旅行社接入 AI 智能体：22 个工具的实践",
+      "excerpt": "问题：AI 不认识小商家 问大模型“堪察加有什么火山徒步线路、下周有没有位置”，它一般会给你一段概括性的介绍，然后建议你“联系当地旅行社”。原因很简单：堪察加的旅行社大多是几个人的小团队，信息散在俄语网站、Telegram 频道和电话里，搜索引擎抓不全，模型训练数据里更没有实时的余位和价格。 我们做的 Vedar（vedarai.ru）是堪察加本地的旅行平台，汇总了当地旅行社的线路、包车、租车和住…",
+      "body": "问题：AI 不认识小商家 问大模型“堪察加有什么火山徒步线路、下周有没有位置”，它一般会给你一段概括性的介绍，然后建议你“联系当地旅行社”。原因很简单：堪察加的旅行社大多是几个人的小团队，信息散在俄语网站、Telegram 频道和电话里，搜索引擎抓不全，模型训练数据里更没有实时的余位和价格。 我们做的 Vedar（vedarai.ru）是堪察加本地的旅行平台，汇总了当地旅行社的线路、包车、租车和住宿。网站本身对人是友好的，但我们发现越来越多的用户在用 AI 助手规划旅行，于是决定把平台直接开放给 AI 智能体——用的就是 MCP（Model Context Protocol）。 架构：一个远程 MCP 服务器 接入地址： https://vedarai.ru/api/mcp 传输：Streamable HTTP 鉴权：无（查询类全部只读） 文档： https://vedarai.ru/mcp 仓库： https://github.com/tourhabk-ui/vedar-mcp （有中文 README） 我们没有让 MCP 去爬自己的网页，而是让工具直接读平台的业务数据：线路目录、实时余位、合作方的住宿和车辆。这样 AI 拿到的价格和日期就是旅行社在后台维护的那一份，不会出现“网页改了、AI 还在说旧价格”的问题。 22 个工具，分三类 tools/list 当前返回 22 个工具： 1.",
+      "author": "Vedar",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 30,
+      "url": "https://dev.to/vedarai/yong-mcp-ba-e-luo-si-ge-di-qu-de-xiao-lu-xing-she-jie-ru-ai-zhi-neng-ti-22-ge-gong-ju-de-shi-jian-1f8o",
+      "image": "/images/feed/feed-a9e354a65330.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-188ca1b864bc",
+      "title": "After Effects, but inside a browser tab (free, no install)",
+      "excerpt": "AtomCut is a free motion design and video studio that runs in a browser tab. If you know After Effects, you already know most of it: compositions, keyframes, a graph editor, expressions, tracking, rig…",
+      "body": "AtomCut is a free motion design and video studio that runs in a browser tab. If you know After Effects, you already know most of it: compositions, keyframes, a graph editor, expressions, tracking, rigs, 3D. The difference is where it lives. You open a URL and start keyframing. No installer, no account, no Creative Cloud updater asking to restart. This post maps the After Effects workflow onto AtomCut, tool by tool, with screenshots from the editor as it is today (version 4.17). It also lists where After Effects is still the better choice, because there are real ones. A tracker on the cabin (97% confidence across the clip), and a label riding it. The green strip under the clip on the timeline is the tracked span. What does each After Effects tool map to?",
+      "author": "Shayan",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 32,
+      "url": "https://dev.to/atomcut/after-effects-but-inside-a-browser-tab-free-no-install-3o0h",
+      "image": "/images/feed/feed-188ca1b864bc.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-6084e155adb1",
+      "title": "Go Runtime Choices for AI Models and Better Linguistic Nuance in EU Support Chatbots",
+      "excerpt": "TL;DR: For an EU customer-support chatbot that must return valid structured answers from a private knowledge base, I would start with Claude and accept the latency tradeoff. OpenAI chat models are the…",
+      "body": "TL;DR: For an EU customer-support chatbot that must return valid structured answers from a private knowledge base, I would start with Claude and accept the latency tradeoff. OpenAI chat models are the better default when response speed and generality dominate. Keep the choice reversible: query /v1/models , record the selected model and vendor, validate every response against your schema, and make a retry incapable of duplicating a support action. The operational constraint changes the answer. A fluent paragraph is not enough when the client expects {answer, citations, escalation_required} and a malformed object sends a customer down the wrong path. Linguistic nuance matters across EU languages, but a parser failure is still an incident.",
+      "author": "Trkfpn392751",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 39,
+      "url": "https://dev.to/trkfpn392751/go-runtime-choices-for-ai-models-and-better-linguistic-nuance-in-eu-support-chatbots-pjm",
+      "image": "/images/feed/feed-6084e155adb1.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-983d191d5ae6",
+      "title": "Every Legend of Zelda Movie Character and Cast Member Confirmed So Far",
+      "excerpt": "Nintendo's The Legend of Zelda live-action movie hits theaters in 2027. Here's who's confirmed to appear in the film to date.",
+      "body": "Nintendo is attempting something it hasn't done in more than 30 years : make a live-action adaptation of its video games. The Legend of Zelda from Sony Pictures and Nintendo is slated for release in April 2027, bringing the fantasy role-playing game franchise to life in a way never seen before. (Well, except for that one Japanese commercial for The Legend of Zelda: A Link to the Past with a rappin' Link.)",
+      "author": "Michael McWhertor",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://www.polygon.com/the-legend-of-zelda-2027-movie-cast-link-zelda-ganondorf/",
+      "image": "/images/feed/feed-983d191d5ae6.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-e9c804e4d6ed",
+      "title": "I Was Too Lazy to Open Five AI Tabs, So I Built AgentWebUI 🦥",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Did you know the chainsaw was originally invented to help with childbirth? Two Scottish doctors in the late…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Did you know the chainsaw was originally invented to help with childbirth? Two Scottish doctors in the late 1700s looked at a hard, slow, painful job and thought: there has to be a lazier way. A few centuries later, we use it to cut down trees and star in horror movies. That's the thing about laziness. It's not a character flaw. It's the R&amp;D department of the human race. So here's my confession. My AI workflow had become a part-time job. Claude Code in one terminal. Codex in another. A local Llama in Ollama. DeepSeek in a browser tab I kept losing. Every task started with the same ritual: which tab was I in, and where did I put that conversation? OpenWebUI was supposed to fix this.",
+      "author": "Mahmudur Rahman Labib",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
       "xpReward": 34,
-      "url": "https://dev.to/jeffreyciend/two-npm-bugs-one-lesson-upgrading-the-runtime-is-not-upgrading-the-dependencies-39k8",
-      "image": "/images/feed/feed-75218431b0ad.webp",
+      "url": "https://dev.to/mahmudurrahmanlabib/i-was-too-lazy-to-open-five-ai-tabs-so-i-built-agentwebui-207a",
+      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-93ad4088a7d9",
-      "title": "How to Humanize AI Text in Python: A Linter for Robotic Phrases + the Top 5 Free Tools (2026)",
-      "excerpt": "Updated October 2026. I'm on the team behind UnAIMyText, which is #3 below. Code is MIT-style: copy it freely. If you generate text with an LLM in a script, whether product descriptions, changelogs or…",
-      "body": "Updated October 2026. I'm on the team behind UnAIMyText, which is #3 below. Code is MIT-style: copy it freely. If you generate text with an LLM in a script, whether product descriptions, changelogs or support replies, you've probably seen the same tics come back: \"Moreover,\" \"It is important to note,\" \"delve,\" \"in today's fast-paced world.\" You can't fix them with taste at scale, but you can lint for them the way you lint code. This post builds a tiny Python checker that flags robotic phrasing, then covers five free tools for the rewrite step. The goal is clearer, more natural prose, not tricking anyone. Step 1: build a phrase linter Python's re module is enough. We'll flag three things: stock filler phrases, sentence-length monotony and repeated sentence openers.",
-      "author": "UnAIMyText",
-      "date": "2026-10-24",
+      "id": "feed-1490cf76244a",
+      "title": "Here's what you need to know before buying a wireless CarPlay adapter",
+      "excerpt": "Wireless CarPlay doesn't require a new car or head unit; with the right adapter, you can enjoy a cable-free connection.",
+      "body": "Wireless CarPlay doesn't require a new car or head unit; with the right adapter, you can enjoy a cable-free connection.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Filipe Espósito)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.engadget.com/2293092/apple-wireless-carplay-adapter-what-to-know-before-buying/",
+      "image": "/images/feed/feed-1490cf76244a.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-bad03c2aecaf",
+      "title": "Break It on Purpose",
+      "excerpt": "An AI pipeline that catches its own bugs, explains them, and fixes them while a human makes two decisions. By Denis Zontak, written with Claude. Originally published at zontakllc.com. At 17:45 on Octo…",
+      "body": "An AI pipeline that catches its own bugs, explains them, and fixes them while a human makes two decisions. By Denis Zontak, written with Claude. Originally published at zontakllc.com . A bug in the search box At 17:45 on October 24, 2026, the search box on our staging site started to crash. We had put the bug there on purpose: one line in a database read skipped archived clients, so a search that found their entries failed with Cannot read properties of undefined (reading 'name') . Nobody told the system. Forty-two seconds after the first error, a fix request was waiting in our pipeline. Thirty-one minutes after the first error, a pull request was ready for review: a one-line fix, and a test that proves it. A person made two decisions in between.",
+      "author": "Denis Zontak",
+      "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Python"
+        "Software"
       ],
-      "featured": true,
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://dev.to/dzontak/break-it-on-purpose-9b0",
+      "image": "/images/feed/feed-bad03c2aecaf.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-77a3d7d776d7",
+      "title": "What is the cheapest new gaming console you can buy in 2026?",
+      "excerpt": "Even after price hikes, you can get an affordable console, but it requires some care to pick the right option.",
+      "body": "Even after price hikes, you can get an affordable console, but it requires some care to pick the right option.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Roger Fingas)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.engadget.com/2293029/cheapest-new-gaming-console-you-can-buy-2026/",
+      "image": "/images/feed/feed-77a3d7d776d7.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-6d48c7dfee7b",
+      "title": "How to extend the battery life of your Apple AirTags",
+      "excerpt": "An AirTag's battery is easy to replace, but you don't want it to run low at a critical moment.",
+      "body": "An AirTag's battery is easy to replace, but you don't want it to run low at a critical moment.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Filipe Espósito)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
       "xpReward": 40,
-      "url": "https://dev.to/unaimytext_app/how-to-humanize-ai-text-in-python-a-linter-for-robotic-phrases-the-top-5-free-tools-2026-35ia",
-      "image": "/images/feed/feed-93ad4088a7d9.webp",
-      "source": "Dev.to",
+      "url": "https://www.engadget.com/2292921/how-to-extend-battery-life-apple-airtags/",
+      "image": "/images/feed/feed-6d48c7dfee7b.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-b9e47fd533a4",
-      "title": "Your Terminal Spots Password Prompts From Two TTY Bits. sudo's 2025 Fix Breaks the Check",
-      "excerpt": "Book: AI Agents Pocket Guide The series: Pocket Guides for Developers — 8 short books on agents, RAG, prompts, observability, events, databases and system design — the whole series My project: Hermes…",
-      "body": "Book: AI Agents Pocket Guide The series: Pocket Guides for Developers — 8 short books on agents, RAG, prompts, observability, events, databases and system design — the whole series My project: Hermes IDE | GitHub — an IDE for developers who ship with Claude Code and other AI coding tools Me: xgabriel.com | GitHub You type sudo apt upgrade and the prompt says Password: . Nothing appears as you type. Your shell never sees those keys. sudo reads them straight from the terminal device. But your terminal app sees every single one, because it is the program that sends them down the pseudo-terminal in the first place. So the terminal is holding your password in its hands for a moment.",
-      "author": "Gabriel Anhaia",
+      "id": "feed-0f755e642ed1",
+      "title": "Common mistakes you should avoid when setting up your home network",
+      "excerpt": "Setting up a home network is rewarding, but you should be aware of common missteps to avoid hassle in the future.",
+      "body": "Setting up a home network is rewarding, but you should be aware of common missteps to avoid hassle in the future.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Thomas Godwin)",
       "date": "2026-10-24",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gadgets",
       "tags": [
-        "Software"
+        "Gadgets"
       ],
-      "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/gabrielanhaia/your-terminal-spots-password-prompts-from-two-tty-bits-sudos-2025-fix-breaks-the-check-4nf3",
-      "image": "/images/feed/feed-b9e47fd533a4.webp",
-      "source": "Dev.to",
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.engadget.com/2292817/common-mistakes-avoid-setting-up-home-network/",
+      "image": "/images/feed/feed-0f755e642ed1.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-69374f582fed",
-      "title": "Your Agent Is a Guest: Egress Policy for Agent Fleets",
-      "excerpt": "Most agent code I review is careful about what it does inside the sandbox and careless about what it does on the way out. Then it hits a site that returns 403 to anything with python-httpx in the User…",
-      "body": "Most agent code I review is careful about what it does inside the sandbox and careless about what it does on the way out. Then it hits a site that returns 403 to anything with python-httpx in the User-Agent, retries forty times, and burns an afternoon. The web is getting less tolerant of agents. Publishers are blocking crawlers outright, CDNs fingerprint TLS and headers, and more sites are moving to \"pay for the API or go away.\" That's not a temporary mood — it's the steady state. If your fleet fetches anything from a domain you don't own, egress is a subsystem you have to design, not a client.get() call you sprinkle through a tool. This is the view from the proxy layer: what breaks, what to log, and what to put in front of the agents.",
-      "author": "skvrtyk",
+      "id": "feed-5f607c008c00",
+      "title": "Why your EV battery still loses charge while it's parked",
+      "excerpt": "Electric vehicles lose battery when they're left unused for long periods. There are a number of reasons why, and some might be totally out of your control.",
+      "body": "Electric vehicles lose battery when they're left unused for long periods. There are a number of reasons why, and some might be totally out of your control.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
       "date": "2026-10-24",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gadgets",
       "tags": [
-        "Software"
+        "Gadgets"
       ],
-      "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/dima_kruglov_608741d9a416/your-agent-is-a-guest-egress-policy-for-agent-fleets-2baa",
-      "image": "/images/feed/feed-69374f582fed.webp",
-      "source": "Dev.to",
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.engadget.com/2292646/ev-battery-why-it-loses-charge-when-parked/",
+      "image": "/images/feed/feed-5f607c008c00.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-463fc8fe56cc",
+      "title": "What kind of cooling system do EV batteries use and how does it work?",
+      "excerpt": "Electric cars need incredibly large batteries that offer long driving ranges and charge quickly, but remain cool when under load. This is how they do so.",
+      "body": "Electric cars need incredibly large batteries that offer long driving ranges and charge quickly, but remain cool when under load. This is how they do so.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Luke James)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.engadget.com/2292606/ev-battery-cooling-system-how-works/",
+      "image": "/images/feed/feed-463fc8fe56cc.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-fc50166d2cb5",
+      "title": "Volkswagen’s new electric Jetta offers 285 miles of range for under $12K",
+      "excerpt": "Volkswagen is offering its Chinese-market Jetta M6 electric sedan with nearly 290 miles of CLTC-rated range for less than $12,000 (USD), and if that’s not what “der people’s wagen” should be all about…",
+      "body": "Volkswagen is offering its Chinese-market Jetta M6 electric sedan with nearly 290 miles of CLTC-rated range for less than $12,000 (USD), and if that’s not what “der people’s wagen” should be all about — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jo Borrás",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://electrek.co/2026/10/24/volkswagens-new-electric-jetta-offers-285-miles-of-range-for-under-12k/",
+      "image": "/images/feed/feed-fc50166d2cb5.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-0b428ca1d8ff",
+      "title": "What are the different types of digital wallets?",
+      "excerpt": "Digital wallets can completely remove the need to carry cards and cash, but there's a lot more to them than just your usual Apple, Samsung and Google offerings.",
+      "body": "Digital wallets can completely remove the need to carry cards and cash, but there's a lot more to them than just your usual Apple, Samsung and Google offerings.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Yoni Yardeni)",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.engadget.com/2292582/different-types-digital-wallet-explained/",
+      "image": "/images/feed/feed-0b428ca1d8ff.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-8fb806ac4911",
+      "title": "Johnny Depp's 96-Minute Stephen King Thriller Is an Underrated Gem on Streaming",
+      "excerpt": "Johnny Depp’s Secret Window, a 2004 Stephen King adaptation about plagiarism and paranoia, is finding a new audience on HBO Max.",
+      "body": "Stephen King has spent decades turning our worst nightmares into some of Hollywood's most memorable horror movies . From supernatural terror to small-town nightmares, the author's work continues to inspire filmmakers, with a fresh wave of adaptations bringing his stories to new audiences.",
+      "author": "Sam Hill",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.polygon.com/johnny-depp-secret-window-stephen-king-streaming-hbo-max-october-2026/",
+      "image": "/images/feed/feed-8fb806ac4911.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-a49204eaac67",
+      "title": "Xbox Reportedly Bungled $500 Million Netflix Exclusivity Deal To Develop Movies, Shows Based On Games",
+      "excerpt": "According to industry insiders, newly appointed Xbox CEO Asha Sharma overplayed cross-media potential with recent Netflix exec Peter Rice to the tune of $800 million",
+      "body": "According to industry insiders, newly appointed Xbox CEO Asha Sharma overplayed cross-media potential with recent Netflix exec Peter Rice to the tune of $800 million\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Xbox. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Kotzer",
+      "date": "2026-10-24",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://kotaku.com/xbox-reportedly-bungled-500-million-netflix-exclusivity-deal-to-develop-movies-shows-based-on-games-2000749336",
+      "image": "/images/feed/feed-a49204eaac67.jpg",
+      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -89,106 +355,11 @@
       "tags": [
         "Vehicle"
       ],
-      "featured": true,
-      "xpReward": 34,
+      "featured": false,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/10/24/canada-and-eu-are-slip-sliding-away-on-vehicle-emissions/",
       "image": "/images/feed/feed-767d7e6f0598.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-f36ce43b342f",
-      "title": "The pros and cons of using an eSIM over a physical SIM card",
-      "excerpt": "eSIMs are more convenient than physical SIM cards in many ways, but they aren't a 100 percent upgrade.",
-      "body": "eSIMs are more convenient than physical SIM cards in many ways, but they aren't a 100 percent upgrade.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Thomas Godwin)",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": true,
-      "xpReward": 43,
-      "url": "https://www.engadget.com/2292112/using-esim-vs-physcial-sim-card-pros-and-cons/",
-      "image": "/images/feed/feed-f36ce43b342f.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-3c795d171dfc",
-      "title": "Affinity MCP vs code: why I make my thumbnails with a script",
-      "excerpt": "Failing is hard. Especially when the tutorial is already recorded. I wanted to show how an agent can make a good thumbnail with Affinity MCP. I tried it multiple times. It didn't work as expected. Aff…",
-      "body": "Failing is hard. Especially when the tutorial is already recorded. I wanted to show how an agent can make a good thumbnail with Affinity MCP. I tried it multiple times. It didn't work as expected. Affinity's September 2026 update added in-app scripting and an AI Connector for Claude. Affinity's pitch is that you describe a process once, and Claude builds a reusable script . I connected it to Claude Code as an MCP server and asked for a finished thumbnail. Using Sonnet 5.5 with high reasoning was better. Opus 5.5 on xHigh was just thinking the whole time, so slow that I even cancelled it. The prompt Here is the prompt I used. Create an exceptional, finished, polished 1920 × 1080 LinkedIn video thumbnail in Affinity through MCP. Aim for award-winning, résumé-showreel quality. Go all out.",
-      "author": "Aleksandr Argunov",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://dev.to/argbetech/affinity-mcp-vs-code-why-i-make-my-thumbnails-with-a-script-2dom",
-      "image": "/images/feed/feed-3c795d171dfc.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-276d9a0f8776",
-      "title": "Show DEV: ComeBackHERE – a tiny GPS app for finding your way back",
-      "excerpt": "I built a small Android app called ComeBackHERE: Find My Spot for a problem I keep running into: remembering exactly where I left something. It is not a navigation suite. It does one job: save your cu…",
-      "body": "I built a small Android app called ComeBackHERE: Find My Spot for a problem I keep running into: remembering exactly where I left something. It is not a navigation suite. It does one job: save your current GPS location, then show you the direction and distance back to it. What it does Save your current location as a spot See the direction to the saved point Check the distance to it Use GPS to help navigate back No account required; saved locations stay on the device Where I use it Parked car: saving the spot in a large car park or an unfamiliar city Hiking: saving the trailhead before heading into a forest Camping: marking a campsite or a meeting point Travel: keeping a reference point for a hotel or landmark Why another location app?",
-      "author": "Piotr",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://dev.to/piotr_a1c4ec185bc8314a323/show-dev-comebackhere-a-tiny-gps-app-for-finding-your-way-back-1ckm",
-      "image": "/images/feed/feed-276d9a0f8776.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-115a7a1e79dc",
-      "title": "CODENIVA AI Quiet Queue: A Privacy-First AI Assistant That Sorts Tasks So You Don't Have To",
-      "excerpt": "This is a submission for the \"Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady\" (https://dev.to/challenges/hacktoberfest-week3-2026-10-19). What I Built I built CODENIVA AI — Quiet Queue…",
-      "body": "This is a submission for the \"Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady\" ( https://dev.to/challenges/hacktoberfest-week3-2026-10-19 ). What I Built I built CODENIVA AI — Quiet Queue, a privacy-first, open-source AI productivity assistant that transforms a messy collection of messages and tasks into a clear, prioritized daily action brief. The goal is simple: spend less time sorting information and more time getting things done. Quiet Queue classifies tasks into deadlines, replies, reviews, and lower-priority items. It highlights urgent deadlines, detects likely duplicates, and generates a structured summary. Created during Hacktoberfest Week 3 in October 2026, this is a standalone experimental prototype under the broader CODENIVA AI vision.",
-      "author": "Dir.Rashed Almayyas",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://dev.to/dirrashed_almayyas_64592/codeniva-ai-quiet-queue-a-privacy-first-ai-assistant-that-sorts-tasks-so-you-dont-have-to-48o8",
-      "image": "/images/feed/feed-115a7a1e79dc.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-f675c5bbda07",
-      "title": "Hands-on: Belkin’s new semi solid state batteries make for a much lighter carry",
-      "excerpt": "Belkin is now offering two new semi solid state batteries for your iPhone. There’s one 10,000mAh offering with a USB-C port for charging. The second is a 5,000mAh MagSafe offering, which offers 15W Qi…",
-      "body": "Belkin is now offering two new semi solid state batteries for your iPhone. There’s one 10,000mAh offering with a USB-C port for charging. The second is a 5,000mAh MagSafe offering , which offers 15W Qi2 charging. Both come in much lighter than you’d expect, and both offer premium aluminum builds that are cold to the touch. more…",
-      "author": "Michael Burkhardt",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Hands-on"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://9to5mac.com/2026/10/24/belkin-new-semi-solid-state-battery-options-for-iphone/",
-      "image": "/images/feed/feed-f675c5bbda07.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -204,7 +375,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 30,
       "url": "https://www.polygon.com/best-books-cozy-horror-fall-season/",
       "image": "/images/feed/feed-4bd0704bc145.jpg",
       "source": "Polygon",
@@ -223,7 +394,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 34,
       "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
       "image": "/images/feed/feed-aae262bb6858.jpg",
       "source": "TechCrunch",
@@ -242,7 +413,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 45,
       "url": "https://www.polygon.com/lotr-rings-of-power-s1-s2-physical-release-4k-blu-ray/",
       "image": "/images/feed/feed-68696cf01e00.png",
       "source": "Polygon",
@@ -261,7 +432,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 35,
       "url": "https://www.ign.com/articles/best-deals-for-october-24-2026",
       "image": "/images/feed/feed-b129ee278bf6.png",
       "source": "IGN",
@@ -280,28 +451,9 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 33,
       "url": "https://www.polygon.com/best-not-scary-horror-games/",
       "image": "/images/feed/feed-8af159f79d0a.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-3b312434be01",
-      "title": "10 Near-Perfect Netflix Sci-Fi Shows That Hook You in the First Scene",
-      "excerpt": "From mind-bending mysteries to dystopian futures, these Netflix sci-fi series prove that some stories can't be forgotten from the moment they start.",
-      "body": "Not every great sci-fi show needs to start with a bang, but the best ones know how to grab your attention from the very first frame. Whether it’s a gruesome public execution in the middle of a cultural revolution, a child stepping into a smoke-filled battleground littered with corpses, or an alien organism mutating a host in seconds, the most compelling series understand the power of a great first impression. Such shows offer something tangible enough to keep you glued to your seat before the opening credits even roll.",
-      "author": "Ryan Epps",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.polygon.com/perfect-netflix-sci-fi-shows-that-hook-you-in-the-first-scene/",
-      "image": "/images/feed/feed-3b312434be01.jpg",
       "source": "Polygon",
       "isLive": true
     },
@@ -318,67 +470,10 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 51,
       "url": "https://cleantechnica.com/2026/10/24/if-teslas-robotaxi-miles-keep-compounding-at-20-a-week-the-math-gets-interesting-fast/",
       "image": "/images/feed/feed-4a1e988b9867.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-0e533192eed9",
-      "title": "Legend Of Zelda Producer Eiji Aonuma Knighted By French Ministry Of Culture",
-      "excerpt": "The longtime caretaker of the Zelda series traveled to Paris to receive his title, honored for inspiring the world’s 'imagination'",
-      "body": "The longtime caretaker of the Zelda series traveled to Paris to receive his title, honored for inspiring the world’s 'imagination'\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://kotaku.com/legend-of-zelda-producer-eiji-aonuma-knighted-by-french-ministry-of-culture-2000749331",
-      "image": "/images/feed/feed-0e533192eed9.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-0218e434b11f",
-      "title": "Call of Duty Movie Director Teases Story That Explores 'the Cost of War,' Praises Modern Warfare Characters",
-      "excerpt": "Call of Duty movie director Peter Berg has teased more details from his live-action film, promising an adaptation with \"a very strong soul\" that explores \"the cost of war.\"",
-      "body": "Call of Duty movie director Peter Berg has teased more details from his live-action film, promising an adaptation with &quot;a very strong soul&quot; that explores &quot;the cost of war.&quot; The filmmaker behind Skydance-Paramount&#39;s upcoming reimagining of Activision&#39;s massive first-person shooter series dived into his thoughts on the franchise during an interview with ComicBook . We already know the Call of Duty movie will focus on the Modern Warfare portion of the FPS universe , and it sounds like Berg and writer Taylor Sheridan have already looked to the games it&#39;s based on for inspiration.",
-      "author": "Michael Cripe",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.ign.com/articles/call-of-duty-movie-director-teases-story-that-explores-the-cost-of-war-praises-modern-warfare-characters",
-      "image": "/images/feed/feed-0218e434b11f.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-3a39fbb55e98",
-      "title": "Indie App Spotlight: ‘Flipcorder’ lets you shoot retro footage on your iPhone Duo",
-      "excerpt": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. If you…",
-      "body": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . If you want more of a nostalgic video feel from your iPhone footage, Flipcorder is a great app to check out. It’s optimized for iPhone Duo, though the app also works on all other iPhone models. more…",
-      "author": "Michael Burkhardt",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://9to5mac.com/2026/10/24/indie-app-spotlight-flipcorder-lets-you-shoot-retro-footage-on-your-iphone-duo/",
-      "image": "/images/feed/feed-3a39fbb55e98.png",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -394,48 +489,10 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 46,
       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "image": "/images/feed/feed-41208e707565.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-d0562b99e923",
-      "title": "Google is quietly linking your phone number to other Android accounts",
-      "excerpt": "Adding a new SIM to your phone links it to all Google accounts, and any new Google accounts you add all inherit your phone number.",
-      "body": "Adding a new SIM to your phone links it to all Google accounts, and any new Google accounts you add all inherit your phone number.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Luke James)",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.engadget.com/2292018/google-quietly-linking-phone-number-to-android-accounts/",
-      "image": "/images/feed/feed-d0562b99e923.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-3d001a58891e",
-      "title": "Man Destroys $2,000 iPhone Duo With Dirt, Fire, Knives and Medieval Chainmail",
-      "excerpt": "YouTuber JerryRigEverything tests the iPhone Duo’s durability for scratch and dust resistance. And it is wild to watch.",
-      "body": "YouTuber JerryRigEverything tests the iPhone Duo’s durability for scratch and dust resistance. And it is wild to watch.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Patrick Holland",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.cnet.com/tech/mobile/iphone-duo-scratch-dust-bend-test-jerryrigeverything/",
-      "image": "https://www.cnet.com/wp-content/uploads/sites/2/IMG_0923.jpeg",
-      "source": "CNET",
       "isLive": true
     },
     {
@@ -451,29 +508,10 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 31,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
       "image": "/images/feed/feed-0c58159611d9.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-a815d8191d3b",
-      "title": "Why the wires in your ethernet cables are twisted",
-      "excerpt": "There's a good reason for that arrangement.",
-      "body": "There's a good reason for that arrangement.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Anna Washenko)",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.engadget.com/2294278/why-wires-in-ethernet-cable-twisted-explained/",
-      "image": "/images/feed/feed-a815d8191d3b.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -489,29 +527,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 42,
       "url": "https://cleantechnica.com/2026/10/24/volkswagen-unleashes-wicked-id-unyx-09-in-china-for-27000/",
       "image": "/images/feed/feed-e9ac751c1a33.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-c26d9c171d07",
-      "title": "Steam rolls out Personal Calendar feature that constantly updates recommended games",
-      "excerpt": "You can try out the new feature on the Steam store's homepage.",
-      "body": "You can try out the new feature on the Steam store's homepage.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Jackson Chen)",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.engadget.com/2296237/steam-rolls-out-personal-calendar-feature-that-constantly-updates-recommended-games/",
-      "image": "/images/feed/feed-c26d9c171d07.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -527,7 +546,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/10/24/zayed-sustainability-prize-picks-finalists-from-10233-submissions/",
       "image": "/images/feed/feed-82a439e4829b.jpg",
       "source": "CleanTechnica",
@@ -546,7 +565,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 31,
       "url": "https://cleantechnica.com/2026/10/24/energy-transition-assumptions-future-demand/",
       "image": "/images/feed/feed-dc426b91a46d.jpg",
       "source": "CleanTechnica",
@@ -566,7 +585,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 54,
       "url": "https://www.engadget.com/2296218/capcom-confirms-data-breach-that-affected-117-million-users/",
       "image": "/images/feed/feed-508a6c062963.jpg",
       "source": "Engadget",
@@ -585,7 +604,7 @@
         "Neural"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 40,
       "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
       "image": "/images/feed/feed-f5dc25340c38.jpg",
       "source": "Hacker News",
@@ -605,7 +624,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 34,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-233-the-artemis-generation",
       "image": "/images/feed/feed-585b1c3a2506.jpg",
       "source": "Space.com",
@@ -624,7 +643,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 36,
       "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
       "image": "/images/feed/feed-f931753cbcca.jpg",
       "source": "Hacker News",
@@ -643,7 +662,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 50,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-24-2026",
       "image": "/images/feed/feed-2e388bb43937.jpg",
       "source": "Space.com",
@@ -662,9 +681,9 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 35,
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "image": "/images/feed/feed-b8554dad591a.jpg",
+      "image": "/images/feed/feed-b8554dad591a.webp",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -681,7 +700,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 45,
       "url": "https://cleantechnica.com/2026/10/24/trumps-war-on-iran-has-broken-the-oil-market/",
       "image": "/images/feed/feed-1fc76acc6c37.png",
       "source": "CleanTechnica",
@@ -700,29 +719,10 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 49,
       "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
       "image": "/images/feed/feed-e7f9610cf94e.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-1c70e5f174bd",
-      "title": "Chinese EVs found back door into Western car markets – at 40% off MSRP",
-      "excerpt": "The dumb oil war in Iran is driving up the cost of just about everything, including new cars. That’s giving Chinese EVs a huge advantage over Western “legacy” car brands already lagging in tech and st…",
-      "body": "The dumb oil war in Iran is driving up the cost of just about everything , including new cars. That’s giving Chinese EVs a huge advantage over Western “legacy” car brands already lagging in tech and struggling with affordability – and those legacy brands about to have a whole new to them problem on their hands: USED Chinese EVs . more…",
-      "author": "Jo Borrás",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://electrek.co/2026/10/24/chinese-evs-found-back-door-into-western-car-markets-at-40-off-msrp/",
-      "image": "/images/feed/feed-1c70e5f174bd.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -738,7 +738,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 49,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-strange-new-worlds-season-of-gimmicks-was-afraid-to-say-anything",
       "image": "/images/feed/feed-2abf36f217ca.jpg",
       "source": "Space.com",
@@ -757,7 +757,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 34,
       "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
       "image": "/images/feed/feed-156181babac7.jpg",
       "source": "Wired",
@@ -776,7 +776,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 47,
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "image": "/images/feed/feed-0f71ebe7a492.jpg",
       "source": "The Hacker News",
@@ -795,7 +795,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 35,
       "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
       "image": "/images/feed/feed-9d52cbe35a24.jpg",
       "source": "The Hacker News",
@@ -814,7 +814,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 41,
       "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
       "image": "/images/feed/feed-c874b23267c2.jpg",
       "source": "The Hacker News",
@@ -833,7 +833,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 36,
       "url": "https://www.space.com/stargazing/medusas-eye-halloween-fireballs-and-more-5-skywatching-targets-to-look-out-for-this-spooky-season",
       "image": "/images/feed/feed-6461cb2cb3c8.jpg",
       "source": "Space.com",
@@ -852,7 +852,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 50,
       "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
       "image": "/images/feed/feed-f76395b595c2.jpg",
       "source": "The Hacker News",
@@ -872,7 +872,7 @@
         "Telescope"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 53,
       "url": "https://www.wired.com/story/inside-the-supermassive-debate-over-the-james-webb-telescopes-little-red-dots/",
       "image": "/images/feed/feed-64dee92637e2.jpg",
       "source": "Wired",
@@ -891,29 +891,10 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 54,
       "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
       "image": "/images/feed/feed-68af38395850.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-06fb9b9fbf06",
-      "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
-      "excerpt": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
-      "body": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta&#8217;s Selfie Explanation: This Rosetta spacecraft selfie was snapped on October 7th, 2014. At the time the comet-chasing spacecraft was about 472 million kilometers from planet Earth, but only 16 kilometers from the surface of comet 67P/Churyumov-Gerasimenko . Looming beyond the spacecraft near the top of the frame, dust and gas stream away from the comet’s curious double-lobed nucleus .",
-      "author": "NASA Breaking News",
-      "date": "2026-10-24",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
-      "image": "/images/feed/feed-06fb9b9fbf06.png",
-      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -929,24 +910,44 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 35,
       "url": "https://cleantechnica.com/2026/10/23/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them/",
       "image": "/images/feed/feed-e138519c2f71.png",
       "source": "CleanTechnica",
       "isLive": true
+    },
+    {
+      "id": "feed-d85dac685efb",
+      "title": "SpaceX launches Starlink satellites from California as Falcon 9 cadence slows (video)",
+      "excerpt": "SpaceX sent 27 more of its Starlink broadband satellites to orbit today (Oct. 23), in its first Starlink launch in 11 days.",
+      "body": "SpaceX launched its newest batch of Starlink broadband internet satellites today (Oct. 23) from the California coast. The spacecraft, Starlink Group 15-15, were stacked 27 high inside the payload fairing of a SpaceX Falcon 9 rocket , which lifted off from Pad 4E at Vandenberg Space Force Base at 6:48 p.m. EDT (2248 GMT; 3:48 p.m. local time in California). The rocket's first stage booster, designated B1063, executed its main engine cutoff and stage separation about 2.5 minutes into flight, sending the second stage to continue onward to low Earth orbit (LEO). The vehicle's two-piece protective payload fairing was jettisoned just before T+3 minutes. A SpaceX Falcon 9 rocket launches 27 Starlink satellites from California on Oct. 23, 2026.",
+      "author": " Josh Dinner ",
+      "date": "2026-10-23",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Satellite"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly",
+      "image": "/images/feed/feed-d85dac685efb.jpg",
+      "source": "Space.com",
+      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Two npm Bugs, One Lesson: Upgrading the Runtime Is Not Upgrading the Dependencies",
-    "DEV.TO: How to Humanize AI Text in Python: A Linter for Robotic Phrases + the Top 5 Free Tools (2026)",
-    "DEV.TO: Your Terminal Spots Password Prompts From Two TTY Bits. sudo's 2025 Fix Breaks the Check",
-    "DEV.TO: Your Agent Is a Guest: Egress Policy for Agent Fleets",
-    "CLEANTECHNICA: Canada And EU Are Slip Sliding Away On Vehicle Emissions",
-    "ENGADGET: The pros and cons of using an eSIM over a physical SIM card",
-    "DEV.TO: Affinity MCP vs code: why I make my thumbnails with a script",
-    "DEV.TO: Show DEV: ComeBackHERE – a tiny GPS app for finding your way back",
-    "DEV.TO: CODENIVA AI Quiet Queue: A Privacy-First AI Assistant That Sorts Tasks So You Don't Have To",
-    "9TO5MAC: Hands-on: Belkin’s new semi solid state batteries make for a much lighter carry"
+    "DEV.TO: Uniswap V4 Security Guide: Hooks, Pools, and New Attack Vectors You Need to Know Before Deploying",
+    "DEV.TO: How Much Mobile Data Do You Actually Use When Travelling?",
+    "DEV.TO: 用 MCP 把俄罗斯一个地区的小旅行社接入 AI 智能体：22 个工具的实践",
+    "DEV.TO: After Effects, but inside a browser tab (free, no install)",
+    "DEV.TO: Go Runtime Choices for AI Models and Better Linguistic Nuance in EU Support Chatbots",
+    "POLYGON: Every Legend of Zelda Movie Character and Cast Member Confirmed So Far",
+    "DEV.TO: I Was Too Lazy to Open Five AI Tabs, So I Built AgentWebUI 🦥",
+    "ENGADGET: Here's what you need to know before buying a wireless CarPlay adapter",
+    "DEV.TO: Break It on Purpose",
+    "ENGADGET: What is the cheapest new gaming console you can buy in 2026?"
   ],
   "sectionVideos": {}
 }
