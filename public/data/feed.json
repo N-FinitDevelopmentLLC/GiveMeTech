@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-27T06:58:06.956Z",
+  "fetchedAt": "2026-10-27T12:56:38.184Z",
   "articles": [
     {
-      "id": "feed-0b6823036441",
-      "title": "Same MCP version, different tools: what two independent captures revealed",
-      "excerpt": "Nine write tools appeared in our capture of mongodb-mcp-server that were absent from another observer's capture of the same version. The launch commands explained it: our sandbox started the server ba…",
-      "body": "Nine write tools appeared in our capture of mongodb-mcp-server that were absent from another observer's capture of the same version. The launch commands explained it: our sandbox started the server bare; the other capture used --readOnly and a connection string. We run HISTOR , a public log of MCP tool definitions. Paraphern maintains RugSnare , which records and compares tool contracts across releases. On 26 October, we compared the overlapping parts of our records. Some differences described the servers' launch conditions. Others exposed mistakes in the measurement process, including gaps in ours. What we actually compared The overlap contained 26 packages. HISTOR held tool lists for 21 of them. RugSnare's pins supplied 34 version captures that could be compared against our record.",
-      "author": "Alex",
+      "id": "feed-416ab4d40ac7",
+      "title": "ShellGhost: a local open-weight spirit that haunts my terminal published",
+      "excerpt": "Liquid syntax error: Variable '{{ local s=$?; python3 \"{me}' was not properly terminated with regexp: /\\}\\}/",
+      "body": "Liquid syntax error: Variable '{{ local s=$?; python3 \"{me}' was not properly terminated with regexp: /\\}\\}/\n\nThis report, published by Dev.to, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Software. As the situation continues to evolve, professionals and enthusiasts in the software development and engineering field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Dev.to using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Parth Sharma",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "software",
@@ -14,37 +14,75 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 31,
-      "url": "https://dev.to/alexar76/same-mcp-version-different-tools-what-two-independent-captures-revealed-2p6d",
-      "image": "/images/feed/feed-0b6823036441.webp",
+      "xpReward": 46,
+      "url": "https://dev.to/darkvelocity_/shellghost-a-local-open-weight-spirit-that-haunts-my-terminalpublished-3ba",
+      "image": "/images/feed/feed-416ab4d40ac7.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-628bd0e263ca",
-      "title": "LeetCode #1 — Two Sum | Python Explained",
-      "excerpt": "🟢 LeetCode #1 — Two Sum Difficulty: Easy | Topic: Arrays (Video coming soon on DSA Decoded) Given an array of integers nums and an integer target, return indices of the two numbers such that they add…",
-      "body": "🟢 LeetCode #1 — Two Sum Difficulty: Easy | Topic: Arrays 🎬 Watch the Full Explanation (Video coming soon on DSA Decoded ) 📋 Problem Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. 🔗 Solve it on LeetCode 💡 Approach The key insight for Two Sum is to break the problem into smaller subproblems and recognize the core pattern.",
-      "author": "DSAwithSM",
+      "id": "feed-167a42e156d2",
+      "title": "Local LLM vs Cloud API: The VRAM Math, Unit Economics, and Routing Architecture",
+      "excerpt": "Almost nobody should deploy exclusively on local silicon or entirely behind a provider's API key. The functional engineering question is determining which segments of your workload belong on internal…",
+      "body": "Almost nobody should deploy exclusively on local silicon or entirely behind a provider's API key. The functional engineering question is determining which segments of your workload belong on internal hardware and which justify managed endpoints. Cloud models remain superior at deep multi-step reasoning, massive context processing, and complex tool orchestration. However, modern open-weight releases mean keeping sensitive data offline is no longer a compromise on utility. The architectural decision hinges on three constraints: physical memory limits, token volume break-even points, and regulatory data isolation. Memory Sets the Execution Ceiling Compute ratings dictate generation speed, but available memory dictates whether a model initializes at all.",
+      "author": "Anwar Iqbal Dawar",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Python"
+        "Api"
       ],
       "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/smarika_a76a646d9cca0d772/leetcode-1-two-sum-python-explained-2hm1",
-      "image": "/images/feed/feed-628bd0e263ca.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/anwariqbaldawar/local-llm-vs-cloud-api-the-vram-math-unit-economics-and-routing-architecture-3k7g",
+      "image": "/images/feed/feed-167a42e156d2.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-424b0e738202",
-      "title": "Claude Code Plan Mode: How It Works, How to Use It, and When to Skip It",
-      "excerpt": "Claude Code Plan Mode: How It Works, How to Use It, and When to Skip It The most expensive Claude Code mistake I know is not a bad edit. It is a confident edit. You ask for a refactor, the agent picks…",
-      "body": "Claude Code Plan Mode: How It Works, How to Use It, and When to Skip It The most expensive Claude Code mistake I know is not a bad edit. It is a confident edit. You ask for a refactor, the agent picks an approach in about four seconds, and twenty minutes later you are reading a diff across twelve files that solves a slightly different problem than the one you had. Nothing is broken. It is just wrong, and the cost of finding that out is the whole diff. Plan mode is the fix for that, and it costs almost nothing. Claude reads your code, writes down what it intends to do, and waits. You read the plan, change it if it is off, and only then does anything get edited.",
-      "author": "Alex Cloudstar",
+      "id": "feed-95e8a3efaeb9",
+      "title": "Two Runs Must Agree Before You Freeze a CLI Transcript",
+      "excerpt": "Freeze a repo's behavior only after two independent runs produce the same transcript. If two runs disagree, you have no baseline, only noise. This article builds a process-boundary harness that measur…",
+      "body": "Freeze a repo's behavior only after two independent runs produce the same transcript. If two runs disagree, you have no baseline, only noise. This article builds a process-boundary harness that measures that, then guards the smallest safe change. Most refactor baselines live at the function boundary. Someone calls build_report() and snapshots the returned string. That is convenient, and it hides the parts that actually break: exit codes, stderr, files written, and ordering across a whole run. Why the Process Boundary Wins First Functions change signatures freely. A CLI's contract changes slowly and visibly. Users script against exit codes and stdout, not against your internal call graph. A transcript is four things: exit code, stdout, stderr, and the output tree.",
+      "author": "Dakota Huang",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 46,
+      "url": "https://dev.to/hackrs_6393/two-runs-must-agree-before-you-freeze-a-cli-transcript-56c1",
+      "image": "/images/feed/feed-95e8a3efaeb9.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-a2a74a0543b1",
+      "title": "Localization Workbook: Douyin Demos to English Ads",
+      "excerpt": "A cross-border e-commerce content editor's adaptation guide When I adapt my own Douyin product demos into English-language ads, two jobs get confused: removing the Douyin watermark and translating the…",
+      "body": "A cross-border e-commerce content editor's adaptation guide When I adapt my own Douyin product demos into English-language ads, two jobs get confused: removing the Douyin watermark and translating the on-screen Chinese subtitles. They are separate tasks and must stay separate, because running them in the wrong order leaves artifacts. This workbook is the sheet I fill for every Douyin clip before it becomes an English ad. Column 1 — Source audit For each Douyin demo, note: does a clean master exist, or only a watermarked download? If only watermarked, the clip enters the cleanup queue. I also note where the Chinese subtitle sits (burned-in vs separate), because that decides the translation method.",
+      "author": "かねこゆう",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://dev.to/_4f724198d56c4c1edea/localization-workbook-douyin-demos-to-english-ads-539",
+      "image": "/images/feed/feed-a2a74a0543b1.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-0b0624562686",
+      "title": "A Good Fill Price. What About the Fee?",
+      "excerpt": "A limit order. You bought at exactly the price you specified, or even a little cheaper. So far, so good. But there is another line worth checking: what did the exchange charge for that fill? You can g…",
+      "body": "A limit order. You bought at exactly the price you specified, or even a little cheaper. So far, so good. But there is another line worth checking: what did the exchange charge for that fill? You can get a good price and still pay the taker fee. There is no contradiction. I develop software for automated trading. In the comments on my previous article , a reader corrected our explanation: a fill better than the limit can mean that the order took an offer already resting in the book. I agreed. Then I wanted to check the next question: what if the fill is not better, but exactly at the limit? How often do we still pay as takers? For a bot, this is more than a terminology issue. It buys and sells repeatedly.",
+      "author": "Sergei B",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "software",
@@ -53,55 +91,17 @@
       ],
       "featured": true,
       "xpReward": 47,
-      "url": "https://dev.to/alexcloudstar/claude-code-plan-mode-how-it-works-how-to-use-it-and-when-to-skip-it-57l",
-      "image": "/images/feed/feed-424b0e738202.webp",
+      "url": "https://dev.to/sergei_b/a-good-fill-price-what-about-the-fee-41mh",
+      "image": "/images/feed/feed-0b0624562686.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-825b1dbbc2c6",
-      "title": "Svelte Explained: The Framework That Disappears",
-      "excerpt": "Introduction React, Vue, and Angular all work the same way at runtime: they ship a framework to the browser, which watches your data and updates the page. Svelte takes a radically different approach —…",
-      "body": "Introduction React, Vue, and Angular all work the same way at runtime: they ship a framework to the browser, which watches your data and updates the page. Svelte takes a radically different approach — it is a compiler. It turns your components into plain JavaScript at build time, and ships no framework at all. The result: smaller bundles, faster pages, and code that reads almost like plain HTML, CSS, and JavaScript. Reactivity without ceremony In React you need hooks and state setters; in Svelte, reactivity is just assignment. Change a variable, and the page updates: &lt;script&gt; let count = 0 ; &lt;/script&gt; &lt;button on:click= {() = &gt; count += 1}&gt; Clicked {count} times &lt;/button&gt; There is no useState, no setter function, no virtual DOM diffing.",
-      "author": "The Practical Developer",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Framework"
-      ],
-      "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/practicaldevblog/svelte-explained-the-framework-that-disappears-4bfg",
-      "image": "/images/feed/feed-825b1dbbc2c6.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-7643f738f203",
-      "title": "Why Your Laptop Still Loses Battery Through a USB-C Hub",
-      "excerpt": "I work on the manufacturing side of USB-C hubs, and there is one complaint that comes back so consistently that it is worth explaining properly: the laptop is plugged in, through a 100 watt hub, and t…",
-      "body": "I work on the manufacturing side of USB-C hubs, and there is one complaint that comes back so consistently that it is worth explaining properly: the laptop is plugged in, through a 100 watt hub, and the battery is still going down. The hub is not lying to you. It is keeping some of the power for itself, and it is doing that because it has to. Here is the arithmetic. A hub advertising 100 watt passthrough takes 100 watts in from your charger. It then reserves somewhere between 12 and 20 watts to run its own electronics, to convert the DisplayPort signal into HDMI, and to power the peripherals you plug into it. What it passes through to the laptop is the remainder, and that is why the honest products print a second number, usually 85 watts or 87 watts, lower down on the page.",
-      "author": "Xingliao Smart Home",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 53,
-      "url": "https://dev.to/xingliao/why-your-laptop-still-loses-battery-through-a-usb-c-hub-12ck",
-      "image": "/images/feed/feed-7643f738f203.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-435f6c6523ce",
-      "title": "Building a Niche Website: The Web Development Lessons Behind MenudBros.com",
-      "excerpt": "As a web developer, one of the most useful ways to improve your skills is to build a real project instead of relying entirely on tutorials. A real website forces you to think about more than writing c…",
-      "body": "As a web developer, one of the most useful ways to improve your skills is to build a real project instead of relying entirely on tutorials. A real website forces you to think about more than writing code. You have to consider information architecture, responsive layouts, semantic HTML, search engine optimization, performance, and long-term maintainability. One project I've been working on is MenudBros.com, a niche website focused on Dutch Bros drinks, menu information, and pricing guides. Although the subject is coffee, the development challenges are similar to those involved in building documentation websites, product directories, content platforms, and other information-heavy web applications.",
-      "author": "Rana Hamza",
+      "id": "feed-4418accdab64",
+      "title": "VoiceStudio: A Chinese Translation That Lowers the Setup Barrier",
+      "excerpt": "VoiceStudio's README is long. It covers voice cloning, voice design, video dubbing, dictation, transcription, audiobook creation, 646 languages, several engine options, and a hardware matrix that chan…",
+      "body": "VoiceStudio's README is long. It covers voice cloning, voice design, video dubbing, dictation, transcription, audiobook creation, 646 languages, several engine options, and a hardware matrix that changes depending on whether you're on an NVIDIA card, an Apple Silicon Mac, an Intel Mac, or Windows on ARM. For a Chinese-speaking developer who just wants to hear the thing generate one sentence, that's a lot of English to read before the first curl . The Chinese version of the project — yangshun2005/VoiceStudio-cn — addresses exactly that. It is a translation of debpalash/VoiceStudio , which has 90387 stars and is written primarily in Python. The translation was published on 2026-10-27 and is licensed AGPL-3.0, matching the original.",
+      "author": "sun young",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "software",
@@ -110,17 +110,17 @@
       ],
       "featured": true,
       "xpReward": 43,
-      "url": "https://dev.to/hamzarana/building-a-niche-website-the-web-development-lessons-behind-menudbroscom-e1c",
-      "image": "/images/feed/feed-435f6c6523ce.webp",
+      "url": "https://dev.to/sun_young_517829fc09d0c05/voicestudio-a-chinese-translation-that-lowers-the-setup-barrier-150d",
+      "image": "/images/feed/feed-4418accdab64.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-49858c0568b8",
-      "title": "NecroShell — The Haunted Open-Source AI Terminal & Digital Séance",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine Between Halloween on October 31 and Día de los Muertos on November 1 and 2, the boundary separating the…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What I Built Between Halloween on October 31 and Día de los Muertos on November 1 and 2 , the boundary separating the physical present from the echoes of the past feels uniquely thin. In software engineering, we routinely discard architectures, deprecate protocols, and terminate processes—yet their ghosts linger in unlinked disk sectors, old magnetic tapes, and our collective memories. To honor this theme, I created NecroShell : an interactive, retro-cybernetic workstation that transforms your browser into a haunted phosphor CRT terminal powered by open-source AI.",
-      "author": "mansikardile",
+      "id": "feed-76b860cdc44f",
+      "title": "Budget Human Minutes Before You Generate Docs: A Contract-Driven Draft Queue",
+      "excerpt": "The scarce resource in an AI-assisted documentation pipeline is not model output; it is the reviewer minutes you can actually schedule. Free model access makes drafts nearly costless to produce, so pi…",
+      "body": "The scarce resource in an AI-assisted documentation pipeline is not model output; it is the reviewer minutes you can actually schedule. Free model access makes drafts nearly costless to produce, so pipelines that optimize generation quality often just create a larger unreviewed backlog. A better control point is a per-section contract that decides, before any generation, whether a section is draftable at all and how many minutes its review will consume. The artifact below turns that contract into a sorted queue and exits non-zero whenever an unowned or over-budget section tries to enter the model lane. 1. What the model may draft, and what stays human The split is not about difficulty; it is about who can be held responsible for the sentence.",
+      "author": "Avery Lin",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "software",
@@ -128,18 +128,37 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 47,
-      "url": "https://dev.to/mansikardile/necroshell-the-haunted-open-source-ai-terminal-digital-seance-2ol1",
-      "image": "/images/feed/feed-49858c0568b8.webp",
+      "xpReward": 33,
+      "url": "https://dev.to/github_7727/budget-human-minutes-before-you-generate-docs-a-contract-driven-draft-queue-1n4i",
+      "image": "/images/feed/feed-76b860cdc44f.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-d2f7d2b13e82",
-      "title": "The best PS2 emulator on Android can now make performance tweaks for you",
-      "excerpt": "ARMSX2 on Android can automatically change settings, one at a time, to find the best performance.",
-      "body": "Credit: Hadlee Simons / Android Authority TL;DR ARMSX2 has marked its one-year anniversary with the v2.9 update. The PS2 emulator can now automatically tweak your game’s settings to improve performance. It also runs faster on the Retroid Pocket Duo, while two other additions also deliver better performance. ARMSX2 is arguably the best PS2 emulator on Android , and that’s largely due to a steady stream of updates. It turns out that the project is celebrating its one-year anniversary, and the team has released a significant update to mark the occasion. ARMSX2 v2.9 has been released on GitHub and the Play Store , and brings some noteworthy features and improvements.",
-      "author": "Hadlee Simons",
+      "id": "feed-d3bd9955a6fc",
+      "title": "Lord Of The Rings RPG Game Studio Hit By ‘Serious’ Cyberattack As The Internet Continues Breaking",
+      "excerpt": "Warhorse Studios is investigating the extent of the damage",
+      "body": "Warhorse Studios is investigating the extent of the damage\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Game"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://kotaku.com/lord-of-the-rings-rpg-game-studio-hit-by-serious-cyberattack-as-the-internet-continues-breaking-2000750137",
+      "image": "/images/feed/feed-d3bd9955a6fc.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-b8ee63cac677",
+      "title": "4 drawbacks you should know before buying an Xbox Series X",
+      "excerpt": "The Xbox Series X has had some stumbles, so you should be aware of its faults before picking one up.",
+      "body": "The Xbox Series X has had some stumbles, so you should be aware of its faults before picking one up.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Dave Meikleham)",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "gadgets",
@@ -147,17 +166,36 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 49,
-      "url": "https://www.androidauthority.com/armsx2-ps2-emulator-android-1-year-update-3728027/",
-      "image": "/images/feed/feed-d2f7d2b13e82.jpg",
-      "source": "Android Authority",
+      "xpReward": 36,
+      "url": "https://www.engadget.com/2295682/drawbacks-you-should-know-before-buying-xbox-series-x/",
+      "image": "/images/feed/feed-b8ee63cac677.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-c4d94a73bea1",
-      "title": "Xiaomi’s latest fitness tracker makes its way to more countries",
-      "excerpt": "You can finally buy it without making a trip to China.",
-      "body": "TL;DR The Xiaomi Smart Band 11 is now available in Europe. It’s slimmer at 9.99mm, weighs 15.58g without the band, and is available in both standard and NFC-equipped variants. The Xiaomi Smart Band 11 starts at around $67 in Europe for the standard, metal-cased version. Xiaomi launched its latest fitness tracker — the Xiaomi Smart Band 11 — in China early last month. However, although the band appeared on Xiaomi’s global website soon after, it only became available outside China earlier this month. Even then, it was only available in South Korea and Hong Kong. If you were waiting to snag one of Xiaomi’s super-sleek fitness bands without visiting China, you can now finally do so.",
+      "id": "feed-1daa7bf5d72a",
+      "title": "Lectric launches XP Lite3 e-bike, the new best low-cost model in the US",
+      "excerpt": "Lectric eBikes, the largest electric bike company in the US by just about any metric you can measure, has just unveiled its latest model: the Lectric XP Lite3. And with a starting price of just $799,…",
+      "body": "Lectric eBikes, the largest electric bike company in the US by just about any metric you can measure, has just unveiled its latest model: the Lectric XP Lite3 . And with a starting price of just $799 , the new lightweight folding electric bike is continuing the company’s tradition of packing surprisingly impressive features into remarkably affordable e-bikes. more…",
+      "author": "Micah Toll",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://electrek.co/2026/10/27/lectric-launches-xp-lite3-e-bike-the-new-best-low-cost-model-in-the-us/",
+      "image": "/images/feed/feed-1daa7bf5d72a.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-b3c10e08e232",
+      "title": "Galaxy Watch Ultra 2 is glitching out on this health metric, but a fix is on the way",
+      "excerpt": "Track runners may not see VO2 Max data until Samsung fixes the issue.",
+      "body": "TL;DR The Galaxy Watch Ultra 2 is facing issues showing VO2 Max data for “Track Running.” VO2 Max readings are working normally for other activities, including outdoor runs. Samsung has confirmed that it’s working on a fix and will roll it out with a future software update. If you’re using a Galaxy Watch Ultra 2 to log running sessions, you may have noticed it isn’t displaying VO2 Max data for certain running activities. Well, you’re not alone. It seems the Galaxy Watch Ultra 2’s VO2 Max calculations are failing for “track running” sessions despite good GPS coverage, pace, and activity time. According to a user report on the Samsung Community forums, the Galaxy Watch Ultra 2 is encountering an odd error when calculating VO2 Max.",
       "author": "Akshay Gangwar",
       "date": "2026-10-27",
       "readTime": "2 min",
@@ -166,94 +204,37 @@
         "Gadgets"
       ],
       "featured": false,
+      "xpReward": 40,
+      "url": "https://www.androidauthority.com/galaxy-watch-ultra-2-vo2-max-error-3728454/",
+      "image": "/images/feed/feed-b3c10e08e232.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-effd71e0aa41",
+      "title": "US government acting illegally over electronic surveillance of its own citizens, say senators",
+      "excerpt": "Two senators with notable expertise in intelligence matters say that the US government is acting illegally over electronic surveillance of its own citizens. They say the Foreign Intelligence Surveilla…",
+      "body": "Two senators with notable expertise in intelligence matters say that the US government is acting illegally over electronic surveillance of its own citizens. They say the Foreign Intelligence Surveillance Court (FISC) has permitted intelligence agencies to continue warrantless interception of messages by US citizens despite failing to comply with the administration’s own privacy promise to allow public review of such rulings … more…",
+      "author": "Ben Lovejoy",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
       "xpReward": 37,
-      "url": "https://www.androidauthority.com/xiaomi-smart-band-11-available-globally-3728333/",
-      "image": "/images/feed/feed-c4d94a73bea1.jpg",
-      "source": "Android Authority",
+      "url": "https://9to5mac.com/2026/10/27/us-government-acting-illegally-over-electronic-surveillance-of-its-own-citizens-say-senators/",
+      "image": "/images/feed/feed-effd71e0aa41.jpg",
+      "source": "9to5Mac",
       "isLive": true
     },
     {
-      "id": "feed-3735fce90c72",
-      "title": "Google Docs finally fixes a frustrating problem with Markdown files",
-      "excerpt": "Google Docs and Markdown stopped giving each other the cold shoulder.",
-      "body": "TL;DR Google Docs now lets you open, edit, and collaborate on Markdown files without converting them. You can use familiar collaboration features like comments, suggested edits, and version history while preserving the original file format. Google Drive now offers formatted Markdown previews, and all Google account holders can use the feature. Google Docs has always made collaboration incredibly easy. Whether you’re working on a project, reviewing a colleague’s work, or making last-minute changes, a shared link is usually all it takes. But things haven’t been quite as convenient for Markdown files, a format that’s becoming increasingly popular thanks to AI tools .",
-      "author": "Shimul Sood",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.androidauthority.com/google-docs-markdown-support-3728330/",
-      "image": "/images/feed/feed-3735fce90c72.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-cb0152c5417d",
-      "title": "T-Mobile’s new T-Mix plans are getting roasted by customers",
-      "excerpt": "\"A plan created by AI that requires AI to understand,\" T-Mobile's new T-Mix plans are getting picked apart on Reddit.",
-      "body": "Credit: Joe Maring / Android Authority TL;DR T-Mobile’s new T-Mix plans are being criticized by customers for their confusing “Picks” system and restrictions on changing benefits. Customers worry they’ll have to choose between streaming perks and device promotions, with families potentially getting less value. Reddit users also fear losing legacy-plan benefits and discounts, while some say cheaper carriers offer a better deal. T-Mobile has officially unveiled its new T-Mix plans , but its latest attempt to give customers more control over their perks is already facing backlash.",
-      "author": "Adamya Sharma",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.androidauthority.com/t-mobile-t-mix-plan-customer-reactions-3728317/",
-      "image": "/images/feed/feed-cb0152c5417d.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-1e4584e682e2",
-      "title": "8 Most Entertaining Sci-Fi Books of the 21st Century That Are Impossible to Put Down",
-      "excerpt": "Get some laughs with psychic cats, friendly aliens, and snarky cyborgs",
-      "body": "Science fiction writers imagine humanity's future in order to explore our present and past. The best sci-fi is a mix of cautionary tale and social commentary, but books about heady topics like artificial intelligence, alien encounters, and galaxy-spanning wars are often filled with dense explanations of theoretical technologies or complex political factions. It doesn't have to be that way. While dry and heavy sci-fi can be extremely rewarding to read, the genre also offers plenty of lighter options filled with humor and adventure. If you want some laughs in your future, check out these eight extremely fun sci-fi books that grapple with modern issues facing humanity in the 21st Century.",
-      "author": "Sam Nelson",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.polygon.com/most-fun-sci-fi-books-21st-century-so-far/",
-      "image": "/images/feed/feed-1e4584e682e2.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-135db9795e4c",
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (…",
-      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Exploit"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "image": "/images/feed/feed-135db9795e4c.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-9b0de40b886d",
-      "title": "APOD: 2026 October 27 – Noctilucent Clouds over Sweden",
-      "excerpt": "APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
-      "body": "APOD Science APOD APOD: 2026 October 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Noctilucent Clouds over Sweden Explanation: Sometimes it’s night on the ground but day in the air. As the Earth rotates to eclipse the Sun, sunset rises up from the ground. Therefore, at sunset on the ground, sunlight still shines on clouds above. Under usual circumstances , a pretty sunset might be visible, but unusual noctilucent clouds float so high up they can be seen well after dark.",
-      "author": "NASA Breaking News",
+      "id": "feed-395cb30b5443",
+      "title": "'Star Trek' legend and sci-fi luminary Walter Koenig dies at 90",
+      "excerpt": "The man who portrayed the U.S.S. Enterprise’s Pavel Chekov has left us after a 60-year stage and screen career",
+      "body": "The \" Star Trek \" community lost one of its most beloved icons on Sunday, October 25, with the sad passing of Walter Koenig at the age of 90 in his North Hollywood home. Koenig was best known as the U.S.S. Enterprise's Russian navigator Pavel Andreievich Chekov for two seasons on \"Star Trek: The Original Series.\" The popular American actor continued in that role for Paramount's first seven \"Star Trek\" films, which began in 1979's \" Star Trek: The Motion Picture \" and ended with 1994's \" Star Trek: Generations .\" A native of Chicago, Illinois, Marvin Walter Koenig was born on Sept. 14, 1936, to Lithuanian immigrant parents and spent his formative years in New York City.",
+      "author": " Jeff Spry ",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "space",
@@ -262,17 +243,36 @@
       ],
       "featured": false,
       "xpReward": 52,
-      "url": "https://science.nasa.gov/image-article/apod-2026-october-27-noctilucent-clouds-over-sweden/",
-      "image": "/images/feed/feed-9b0de40b886d.jpg",
-      "source": "NASA Breaking News",
+      "url": "https://www.space.com/entertainment/star-trek-legend-and-sci-fi-luminary-walter-koenig-dies-at-90",
+      "image": "/images/feed/feed-395cb30b5443.png",
+      "source": "Space.com",
       "isLive": true
     },
     {
-      "id": "feed-44d0df576e22",
-      "title": "Major 'Avatar: Seven Havens’ Korra Reveal May Be Hiding the Truth About the Cataclysm",
-      "excerpt": "Did Korra destroy the world? An Avatar: Seven Havens flashback reveals her attacking Republic City, but the truth may be more complicated.",
-      "body": "For more than two centuries, the world of Avatar: Seven Havens has remembered Korra as the Avatar who destroyed everything. Everybody from Ellora to New Ba Sing Se has grown up hearing that story, and episode 7 seemingly gives Pavi (Saheli Khan) and Nisha (Aishu Devan) them proof: They witness their predecessor in the Avatar State, tearing apart Republic City as spiritual energy whips through its burning streets.",
-      "author": "Corey Plante",
+      "id": "feed-50527f55becd",
+      "title": "Here's how much your older Samsung phones are actually worth",
+      "excerpt": "You have options for selling your old Samsung phone, depending on how much hassle you'll tolerate for more cash.",
+      "body": "You have options for selling your old Samsung phone, depending on how much hassle you'll tolerate for more cash.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.engadget.com/2295544/older-samsung-phones-how-much-actually-worth/",
+      "image": "/images/feed/feed-50527f55becd.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-c0d519232a73",
+      "title": "Final Fantasy 7 Revelation Director Talks Deeper Narrative, Exploration, Combat, and Next Projects",
+      "excerpt": "From narrative details to a complex combat system, there's a lot to unpack in Hamaguchi's latest interview about Final Fantasy 7 Revelation.",
+      "body": "Final Fantasy 7 Revelation won't come out until April 2027, but the developers have been gradually pulling back the curtain, revealing more details about the trilogy's final entry. In a recent interview held during the 2026 Paris Game Week, whose contents have been shared online by fans , Naoki Hamaguchi, director of the Final Fantasy 7 remake trilogy, dove deeper into Revelation 's narrative, world map, and combat system, giving players an even better feel for what the game will be like.",
+      "author": "Ashely Claudino",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "gaming",
@@ -280,18 +280,94 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 41,
-      "url": "https://www.polygon.com/avatar-seven-havens-big-korra-reveal-feels-like-a-total-fakeout/",
-      "image": "/images/feed/feed-44d0df576e22.jpg",
+      "xpReward": 36,
+      "url": "https://www.polygon.com/final-fantasy-7-revelation-hamaguchi-projects-narrative-exploration-combat-system/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/final-fantasy-7-revelation-tifa-mage.png",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-8c2e41a8b21f",
-      "title": "A-81 Reaches South Georgia",
-      "excerpt": "The Antarctic iceberg made a relatively quick exit from the Weddell Sea, only to slow at the edge of a remote island’s underwater shelf.",
-      "body": "Earth Observatory Science Earth Observatory A-81 Reaches South Georgia Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &#038; Radiation Life on Earth Human Dimensions Natural Events Oceans Remote Sensing Technology Snow &#038; Ice Water More Content Collections Global Maps World of Change Articles Earth Matters Blog Blue Marble: Next Generation EO Kids Mission: Biomes About About Us Subscribe 🛜 RSS Contact Us Search Iceberg A-81 slows its drift near the edge of South Georgia’s shallow underwater shelf in this image, acquired on October 20, 2026, by the MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA’s Terra satellite.",
-      "author": "NASA Breaking News",
+      "id": "feed-109acab68249",
+      "title": "The Download: Anthropic’s IPO, smarter power grids, and exercise pills",
+      "excerpt": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzi…",
+      "body": "This is today&#8217;s edition of The Download , our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Will the real Anthropic please stand up? After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The 335-page document (100 pages or so are focused on risks) lays out the company’s unique view of the technology it is building and how it believes it will change the world. But Anthropic has been honing its storytelling skills for years. Its public messaging is a master class in narrative capture, presenting it as different things to different people: an AI safety organization, a profit-driven megacorp, and a group hell-bent on creating superhuman technology. These roles come with huge tensions.",
+      "author": "Thomas Macaulay",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.technologyreview.com/2026/10/27/1147693/the-download-anthropic-ipo-smarter-power-grids-exercise-pills/",
+      "image": "/images/feed/feed-109acab68249.jpg",
+      "source": "MIT Tech Review",
+      "isLive": true
+    },
+    {
+      "id": "feed-59911ee726a9",
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "excerpt": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's w…",
+      "body": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update. In the researchers' tests,",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "image": "/images/feed/feed-59911ee726a9.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-92f4aa7f15ec",
+      "title": "Pokémon Unite To Be Killed Off Forever In March 2027",
+      "excerpt": "The MOBA will become unplayable in five months time",
+      "body": "The MOBA will become unplayable in five months time\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "John Walker",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://kotaku.com/pokemon-unite-going-offline-tournament-event-aeos-gems-march-2000750127",
+      "image": "/images/feed/feed-92f4aa7f15ec.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-2efe55f14fe6",
+      "title": "I tried the Soulog Sense, and now it’s staying attached to my phone until further notice",
+      "excerpt": "Keep your notes and cards safe with the Soulog Sense!",
+      "body": "What is the best AI note-taking device? Aside from doing its job well, I would like something that blends into my EDC gear enough to be unnoticeable, but I know it’s there whenever I need it. After testing the Soulog Sense for a couple of weeks, I feel like it is much stealthier than any other alternative, but is the whole package up to standard? Let’s check it out. Hidden in plain view",
+      "author": "Edgar Cervantes",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.androidauthority.com/soulog-sense-ai-note-taking-device-review-3719400/",
+      "image": "/images/feed/feed-2efe55f14fe6.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-e0b6ee68292b",
+      "title": "Craft Prospect kicks off PERSEUS project to advance optical communications for space",
+      "excerpt": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-perfo…",
+      "body": "Craft Prospect is working with Fraunhofer Centre for Applied Photonics (Fraunhofer CAP) and Vector Photonics on a new project exploring the potential of next-generation laser technology for high-performance optical communications [&#8230;] The post Craft Prospect kicks off PERSEUS project to advance optical communications for space appeared first on SpaceNews .",
+      "author": "Craft Prospect",
       "date": "2026-10-27",
       "readTime": "2 min",
       "section": "space",
@@ -299,17 +375,384 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
-      "url": "https://science.nasa.gov/earth/earth-observatory/a-81-reaches-south-georgia/",
-      "image": "/images/feed/feed-8c2e41a8b21f.jpg",
+      "xpReward": 53,
+      "url": "https://spacenews.com/craft-prospect-kicks-off-perseus-project-to-advance-optical-communications-for-space/",
+      "image": "/images/feed/feed-e0b6ee68292b.png",
+      "source": "SpaceNews",
+      "isLive": true
+    },
+    {
+      "id": "feed-4f5d67f46d8b",
+      "title": "What causes mysterious long delayed radio echoes in Earth's atmosphere?",
+      "excerpt": "Baffling long radio echo delays have prompted a range of potential explanations, most of which focus on a variety of unexplained natural phenomena occurring in Earth's atmosphere.",
+      "body": "In 1927, Norwegian civil engineer and amateur radio operator Jørgen Hals made an unusual discovery: while monitoring transmissions from a shortwave radio station in Eindhoven, The Netherlands, he began hearing odd, \"delayed\" radio echoes, arriving approximately three seconds after the original transmissions, that sometimes accompanied the station's signals. \"From where this echo comes I cannot say for the present,\" Hals wrote of his peculiar discovery, adding that he could \"only confirm that I really heard it.\" Almost a century after Hals' discovery, the exact cause of this unusual phenomenon — known today as long delayed echoes, or LDEs — remains unknown.",
+      "author": " Micah Hanks ",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.space.com/astronomy/earth/what-causes-mysterious-long-delayed-radio-echoes-in-earths-atmosphere",
+      "image": "/images/feed/feed-4f5d67f46d8b.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-bbff7fc3e249",
+      "title": "Riftbound’s New Radiance Booster Set Brings an Awesome New Music Component to the League of Legends TCG",
+      "excerpt": "Get an early look at League of Legends Riftbound's upcoming Radiance expansion.",
+      "body": "Riftbound, the League of Legends card game, caps off the year with its latest booster set, Radiance. This marks the fifth set in the TCG, and a highly anticipated collaboration with Riot Games Music. In addition to some fan favorite iterations of Legends, we’re of course introduced to some new mechanics and new Legends, like Evelynn and the IGN-exclusively-revealed Mordekaiser. We’re also getting another two-player constructed starter kit in the form of the Evelynn and Seraphine showdown decks. As a fan of Riot Games Music and groups like K/DA , this set is looking to be an exciting drop not just for players but for a whole different segment within the Riot fanbase. Arguably, the most exciting addition of every new set are the new mechanics to play around with.",
+      "author": "Mike Mamon",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.ign.com/articles/riftbounds-new-radiance-booster-set-brings-an-awesome-new-music-component-to-the-league-of-legends-tcg",
+      "image": "/images/feed/feed-bbff7fc3e249.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-3027ff2896f2",
+      "title": "NASA plans to launch three massive rockets for the Artemis 3 crewed lunar test mission",
+      "excerpt": "NASA has detailed how the next Artemis 3 test will happen, but it doesn't have a concrete date for it yet.",
+      "body": "NASA has detailed how the next Artemis 3 test will happen, but it doesn't have a concrete date for it yet.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Mariella Moon)",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.engadget.com/2298015/nasa-plans-to-launch-three-massive-rockets-for-the-artemis-3-crewed-lunar-test-mission/",
+      "image": "/images/feed/feed-3027ff2896f2.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-10ffc2d4941c",
+      "title": "Acer's Predator Atlas 8 gaming handheld finally launches at Best Buy on November 1 for $1,300",
+      "excerpt": "The Predator Atlas 8 gaming handheld PC is coming to the US after all on November 1st for $1,300.",
+      "body": "The Predator Atlas 8 gaming handheld PC is coming to the US after all on November 1st for $1,300.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Steve Dent)",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.engadget.com/2298013/acer-predator-atlas-8-gaming-handheld-comes-to-best-buy-on-november-1-for-1300/",
+      "image": "/images/feed/feed-10ffc2d4941c.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-61e9e139a222",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "excerpt": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could…",
+      "body": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Hacker"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "image": "/images/feed/feed-61e9e139a222.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-7008cbe14a36",
+      "title": "Kingdom Come: Deliverance Developer Hit by 'Serious' Cybersecurity Incident",
+      "excerpt": "Warhorse Studios — the developer behind Kingdom Come: Deliverance, its sequel and an upcoming Lord of the Rings RPG — has been hit by a “serious” cyberattack.",
+      "body": "Warhorse Studios — the developer behind Kingdom Come: Deliverance, its sequel, and an upcoming Lord of the Rings RPG — has been hit by a “serious” cyberattack. The company announced the news on its website . The developer is currently working with cybersecurity experts to “secure its systems, investigate the incident, and assess its full impact.” Warhorse has also reached out to authorities to track down the culprits, who accessed company systems and data. “This is a serious incident for Warhorse Studios and everyone affected,” said Martin Frývaldský, CEO of Warhorse Studios. “Our immediate priority is to secure our systems, establish the full extent of the breach, and take the necessary steps to protect our employees, partners, and community.",
+      "author": "Kirk McKeand",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.ign.com/articles/kingdom-come-deliverance-developer-serious-cybersecurity-incident",
+      "image": "/images/feed/feed-7008cbe14a36.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-7f0a75b1e3a7",
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "excerpt": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing at…",
+      "body": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.&nbsp; Some fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "image": "/images/feed/feed-7f0a75b1e3a7.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-bb2b0816993b",
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "excerpt": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, softw…",
+      "body": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Malware",
+        "Encryption",
+        "Security"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "image": "/images/feed/feed-bb2b0816993b.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-041585102c6f",
+      "title": "SpaceX Falcon 9 launches early morning Starlink mission from California (video)",
+      "excerpt": "SpaceX launched 27 more Starlink satellites to low Earth orbit overnight (Oct. 27), aboard a Falcon 9 rocket that lifted off from California in the wee hours of darkness.",
+      "body": "A new stack of Starlink satellites is now in orbit following an early morning SpaceX launch from California. A Falcon 9 rocket lifted off at 3:25 a.m. EDT (0725 GMT) on Oct. 27, from from Pad 4E at Vandenberg Space Force Base. The rocket delivered the 27 satellites of Starlink Group 15-16 to low Earth orbit (LEO), and successfully executed its first stage booster landing. The mission's booster, B1082, cut its engines and disengaged from Falcon 9's upper stage approximately 2.5 minutes into flight, and adjusted its trajectory for a touchdown on SpaceX's Of Course I Still Love You (OCISLY) droneship in the Pacific Ocean. A SpaceX Falcon 9 rocket launches 27 Starlink satellites from California on Oct. 23, 2026.",
+      "author": " Josh Dinner ",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-16-b1082-ocisly",
+      "image": "/images/feed/feed-041585102c6f.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-f7eb27a8b315",
+      "title": "10 Years Ago, Anime's Most Bonkers Series Introduced a Disturbing Villain Who Changed Everything",
+      "excerpt": "This man has been single-handedly terrorizing Morioh for more than a decade.",
+      "body": "Part 4 of JoJo’s Bizarre Adventure , called Diamond Is Unbreakable, also features an idyllic town with a rotten core. Author Hirohiko Araki changes things up after a globe-trotting adventure in Stardust Crusaders (Part 3), shifting the scene to the beautiful town of Morioh. Part 3 protagonist Jotaro Kujo seeks out Morioh resident Josuke Higashikata seeking to learn more about his true parentage, which triggers a string of bizarre events in this seemingly peaceful small town.",
+      "author": "Debopriyaa Dutta",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.polygon.com/jojo-bizarre-adventure-villain-diamond-is-unbreakable/",
+      "image": "/images/feed/feed-f7eb27a8b315.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-86c34c349c91",
+      "title": "NASA’s Oldest Martian Spacecraft Have Been Running for Decades. Here’s How",
+      "excerpt": "Two orbiters have long outlasted their expected lifespans and completely reshaped our understanding of the Red Planet, all while operating 140 million miles from Earth.",
+      "body": "Two orbiters have long outlasted their expected lifespans and completely reshaped our understanding of the Red Planet, all while operating 140 million miles from Earth.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nasa, Spacecraft. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Meghan Bartels",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa",
+        "Spacecraft"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.wired.com/story/how-nasa-oldest-martian-spacecraft-run-for-decades/",
+      "image": "/images/feed/feed-86c34c349c91.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-600d1ad8d258",
+      "title": "Mass Effect Has Been Taken Away Just When We Needed It Most",
+      "excerpt": "Mass Effect: Universe looked great, and BioWare's closure means it's been taken away just when we needed it most.",
+      "body": "This is an IGN opinion piece from Carlos Morales. Mass Effect is his favorite game series, and he even wrote his major research paper for his Master’s degree on it. For the past week, all of Council space has been in an uproar over the shuttering of beloved RPG studio BioWare and the subsequent cancelling of Mass Effect 5. The next game in the acclaimed science-fiction saga, tentatively titled Mass Effect: Universe as revealed by a leaked trailer , will now seemingly never be finished. To say that the corporate overlords at Electronic Arts have done a disservice to their employees and gamers all over would be a tremendous understatement.",
+      "author": "Simon Cardy",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.ign.com/articles/mass-effect-has-been-taken-away-just-when-we-needed-it-most",
+      "image": "/images/feed/feed-600d1ad8d258.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-bff6c8a42674",
+      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "excerpt": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+      "body": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Zero-day. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Sergiu Gatlan",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Zero-day"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+      "image": "/images/feed/feed-bff6c8a42674.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-458ece20578e",
+      "title": "Astroscale proposes fleet of 'bodyguard' spacecraft to protect satellites from orbital attacks",
+      "excerpt": "Technologies developed to remove space junk and fix broken satellites can be repurposed to build fleets of bodyguard spacecraft to protect important assets from attacks.",
+      "body": "Technologies developed and tested in orbit to remove space junk and fix broken satellites can be speedily repurposed to build fleets of bodyguard spacecraft to protect important satellites from adversary attacks, space clean-up company Astroscale thinks. Astroscale made history with its 2024 up-close in-orbit inspection of a discarded Japanese rocket stage during the pioneering ADRAS-J mission in low Earth orbit (LEO), the region of space below altitudes of 1,200 miles (2,000 kilometers). The firm's ELSA-D mission , which ran from 2021 to 2024, was the first commercial endeavor to demonstrate orbital capture technologies in LEO. Now, this technology can come in handy as Western space assets face increasing threats from Russia.",
+      "author": " Tereza Pultarova ",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacecraft",
+        "Satellite",
+        "Orbit"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.space.com/space-exploration/satellites/astroscale-proposes-fleet-of-bodyguard-spacecraft-to-protect-satellites-from-orbital-attacks",
+      "image": "/images/feed/feed-458ece20578e.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-ecbaf890a297",
+      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "excerpt": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The…",
+      "body": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The next steps that we took were to disconnect that Amadey controller from all those",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Malware"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "image": "/images/feed/feed-ecbaf890a297.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-5d90cade4a30",
+      "title": "I Tested Every Major AI Agent for a Day. Here’s the Best One",
+      "excerpt": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.",
+      "body": "I ranked six AI agents—from Meta’s Muse to Anthropic’s Claude Duet—on how well they completed basic tasks.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Reece Rogers",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.wired.com/story/i-tested-every-major-ai-agent-for-a-day-heres-the-best-one/",
+      "image": "/images/feed/feed-5d90cade4a30.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-1332c584a278",
+      "title": "Energy giant ENGIE discloses data breach affecting customers",
+      "excerpt": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...…",
+      "body": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [ — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Data Breach, Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Sergiu Gatlan",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Data Breach",
+        "Breach"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+      "image": "/images/feed/feed-1332c584a278.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-e3684c2635c4",
+      "title": "How solid-state transformers could help power the AI boom",
+      "excerpt": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic…",
+      "body": "Transformers are a crucial but nearly invisible part of our grid. The devices help efficiently move power across long distances, but they’re complicated and in short supply. And given that their basic design hasn’t changed much for about a century, they could use an upgrade.&nbsp; As the world races to meet rising electricity demand from EVs, data centers, and more, researchers and companies are looking to modernize transformers. New, solid-state versions could help relieve some of the supply concerns and make sure the grid can handle the growing pressure. Conventional transformers generally rely on huge amounts of specialized steel alloys and miles of copper wire to do their work of transferring electricity between circuits.",
+      "author": "Casey Crownhart",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Transformer"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.technologyreview.com/2026/10/27/1147684/solid-state-transformers/",
+      "image": "/images/feed/feed-e3684c2635c4.jpg",
+      "source": "MIT Tech Review",
+      "isLive": true
+    },
+    {
+      "id": "feed-9b588d63883b",
+      "title": "How a Johnson Mentor Shapes the Next Generation of NASA Talent",
+      "excerpt": "When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation & Control (GN&C) engineer at NASA’s Johnson Space Center, whether he had time to keep teaching inter…",
+      "body": "3 Min Read How a Johnson Mentor Shapes the Next Generation of NASA Talent Daniel Cohen, Guidance, Navigation &amp; Control (GN&amp;C) engineer at NASA’s Johnson Space Center, leads an outdoor orbital mechanics lesson for interns on Oct. 9, 2026. From left are Cohen, Lucas Anton Alonso-Munoyerro, Nathan Samuell, Marcos Pena, and Malvika Bhardwaj. Credits: NASA When Rice University student Malvika Bhardwaj asked her mentor Daniel Cohen, a Guidance, Navigation &amp; Control (GN&amp;C) engineer at NASA’s Johnson Space Center, whether he had time to keep teaching interns with his busy workload, he answered, “You decide what’s important.”&nbsp; In honor of National Mentoring Day on Oct.",
+      "author": "Sumer Loggins",
+      "date": "2026-10-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.nasa.gov/general/how-a-johnson-mentor-shapes-the-next-generation-of-nasa-talent/",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/image.jpg",
       "source": "NASA Breaking News",
       "isLive": true
     },
     {
       "id": "feed-534ca60d2aa7",
       "title": "Wouldn’t It Be Funny If Audi Manufactures EVs In The US?",
-      "excerpt": "The German automaker Audi has dialed back its full EV plans for the US market, but its strategy still include plug-in hybrids and a new factory in Georgia, too. The post Wouldn’t It Be Funny If Audi M…",
-      "body": "The German automaker Audi has dialed back its full EV plans for the US market, but its strategy still include plug-in hybrids and a new factory in Georgia, too. The post Wouldn’t It Be Funny If Audi M — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by CleanTechnica, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CleanTechnica using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "excerpt": "The German automaker Audi has dialed back its full EV plans for the US market, but its strategy still includes plug-in hybrids and a new factory in Georgia, too. The post Wouldn’t It Be Funny If Audi…",
+      "body": "The German automaker Audi has dialed back its full EV plans for the US market, but its strategy still includes plug-in hybrids and a new factory in Georgia, too. The post Wouldn’t It Be Funny If Audi — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by CleanTechnica, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CleanTechnica using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "Tina Casey",
       "date": "2026-10-27",
       "readTime": "2 min",
@@ -318,29 +761,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 40,
       "url": "https://cleantechnica.com/2026/10/26/audi-factory-us-plugin-hybrid-evs-trump-celebrates/",
       "image": "/images/feed/feed-534ca60d2aa7.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-325fba304780",
-      "title": "JAŸ-Z confirmed as headliner for Apple Music’s 2027 Super Bowl Halftime Show",
-      "excerpt": "The NFL and Apple Music announced today that JAŸ-Z will headline the Apple Music Super Bowl LXI Halftime Show on February 14, 2027. Here are the details. more…",
-      "body": "The NFL and Apple Music announced today that JAŸ-Z will headline the Apple Music Super Bowl LXI Halftime Show on February 14, 2027. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://9to5mac.com/2026/10/26/jay-z-confirmed-as-headliner-for-apple-musics-2027-super-bowl-halftime-show/",
-      "image": "/images/feed/feed-325fba304780.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -356,7 +780,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 32,
       "url": "https://cleantechnica.com/2026/10/26/from-barrel-to-battery-what-will-europes-clean-car-debate-decide/",
       "image": "/images/feed/feed-fa664b924347.png",
       "source": "CleanTechnica",
@@ -375,7 +799,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 44,
       "url": "https://cleantechnica.com/2026/10/26/new-report-keeps-tabs-on-accs-utility-bias-that-ends-up-hurting-wallets/",
       "image": "/images/feed/feed-14f7a16099c5.png",
       "source": "CleanTechnica",
@@ -394,7 +818,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 41,
       "url": "https://cleantechnica.com/2026/10/26/how-the-swiss-want-to-travel-to-the-uk/",
       "image": "/images/feed/feed-b06cb07feb86.png",
       "source": "CleanTechnica",
@@ -413,29 +837,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 30,
       "url": "https://cleantechnica.com/2026/10/26/new-whitepaper-shows-how-grid-operators-energy-regulators-can-use-solar-storage-to-secure-the-grid-boost-reliability-reduce-energy-costs/",
       "image": "/images/feed/feed-6dd0a65d7dc5.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-62f4954737d2",
-      "title": "Phantom Blade Zero release time in your time zone",
-      "excerpt": "Here you find Phantom Blade Zero release date and release time in different time zones, and all the pre-order bonuses you can receive.",
-      "body": "S-Game's Phantom Blade Zero is a unique action game that lets you experience the Wuxia aesthetic and fight enemies as a true legendary swordmaster. The protagonist is Soul, a powerful member of the Order who has only 66 days to find a new heart. As he travels, Soul learns about a complex network of conspiracies.",
-      "author": "Paulo Kawanishi",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.polygon.com/phantom-blade-zero-release-time-when-edt-pdt/",
-      "image": "/images/feed/feed-62f4954737d2.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -451,68 +856,10 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 31,
       "url": "https://techcrunch.com/2026/10/26/how-openai-turned-its-coding-tools-into-dots-an-always-on-personal-assistant/",
       "image": "/images/feed/feed-cb685d5b4cbc.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-a3cc549820d4",
-      "title": "This TSA-Compliant Daran 89.6Wh 100W LiFePO4 Power Station Drops to Just $49.99",
-      "excerpt": "The smallest power station, weighing in at under 3 pounds.",
-      "body": "Ahead of Black Friday, Amazon is offering the diminutive Daran 89.6Wh 100W Power Station for just $49.99 after applying coupon code &quot; DDDD4999 &quot;. Unlike previous iterations of this deal, you don&#39;t to be an Amazon Prime member to be eligible. This &quot;power station&quot; is similar in size and capacity to a high-capacity power bank, except that it uses superior LiFePO4 battery cells and has AC outlets in addition to USB ports. Save 50% Off the Daran 89.6Wh 100W LiFePO4 Power Station The Daran power station just 6.5&quot; x 3.3&quot; x 4&quot; and weighs in at a portable 2.5 pounds. The 89.6W battery capacity (approximately 28,000mAh at 3.2V) is also TSA compliant, so you can bring it with you on your airplane flights.",
-      "author": "Eric Song",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.ign.com/articles/daran-lifepo4-power-station-deal-october-2026",
-      "image": "/images/feed/feed-a3cc549820d4.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-755fe1dbed98",
-      "title": "24 Years Later, Nintendo's Most Divisive Mario Game Is a Miracle on Switch 2",
-      "excerpt": "Super Mario Sunshine was beloved at launch but grew to become one of the most divisive Mario games ever. Here's why it's worth playing in 2026.",
-      "body": "I can’t remember what I had for lunch yesterday, but I still remember the day Super Mario Sunshine launched in 2002. It was a summer's day and I couldn’t wait to line up at the GameStop in the Natick Mall to pick up my pre-ordered copy. It was getting rave reviews — a 9.4 from IGN, a 9.75 from Game Informer, perfect marks from Nintendo Power! — so it felt like an instant classic. Players at the time seemed to agree, considering that the 3D platformer would go on to become the third best-selling GameCube game of all time. Everyone loved Super Mario Sunshine.",
-      "author": "Giovanni Colantonio",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Nintendo",
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.polygon.com/super-mario-sunshine-nintendo-switch-online/",
-      "image": "/images/feed/feed-755fe1dbed98.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-32b171fa6cb1",
-      "title": "10 Years Later, Nintendo's Switch Reveal Is a Fascinating Time Capsule",
-      "excerpt": "Nintendo’s hybrid console was not a sure thing back in 2016",
-      "body": "It seems outlandish to think about now that it’s sold 156 million units , but there was a lot of skepticism about the Nintendo Switch in October 2016.",
-      "author": "Jen Glennon",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Nintendo"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.polygon.com/nintendo-switch-nx-reveal-october-2016/",
-      "image": "/images/feed/feed-32b171fa6cb1.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -535,82 +882,6 @@
       "isLive": true
     },
     {
-      "id": "feed-07ca3064cdb6",
-      "title": "iPhone Lockdown Mode: The pros and cons of enabling Apple's security feature",
-      "excerpt": "Lockdown Mode enables extreme protections for those most at risk, but it's overkill for most people.",
-      "body": "Lockdown Mode enables extreme protections for those most at risk, but it's overkill for most people.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Filipe Espósito)",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.engadget.com/2295333/iphone-lockdown-mode-pros-cons/",
-      "image": "/images/feed/feed-07ca3064cdb6.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-272078f1f487",
-      "title": "9to5Mac Daily: October 26, 2026 – Apple unveils new iPad mini",
-      "excerpt": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca…",
-      "body": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-      "author": "Seth Kurkowski",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://9to5mac.com/2026/10/26/daily-october-26-2026/",
-      "image": "/images/feed/feed-272078f1f487.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-a7f6d566c05b",
-      "title": "Tesla Designed The Cybercab To Use LFP Cells In The Future",
-      "excerpt": "Tesla purposely built the Cybercab's battery pack with future LFP chemistry in mind.",
-      "body": "Tesla purposely built the Cybercab's battery pack with future LFP chemistry in mind.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://insideevs.com/news/813324/tesla-cybercab-lfp-battery-chemistry/",
-      "image": "/images/feed/feed-a7f6d566c05b.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-e951224527cd",
-      "title": "Marvel's Forgotten Mass Effect Clone Couldn't Escape the Avengers' Failure",
-      "excerpt": "Marvel's Guardians of the Galaxy was released five years ago and is still one of the best superhero games around, no matter what Square Enix thinks.",
-      "body": "The Avengers are massively successful on the big screen, with four films collectively making nearly $8 billion at the worldwide box office. But that cinematic success hasn't carried over to the video game world. Crystal Dynamics’ 2020 Marvel’s Avengers was a disappointment, with a tepid response from critics and players both. While the character writing was on point, its combat was a repetitive grind built around superfluous live-service elements.",
-      "author": "Austin Manchester",
-      "date": "2026-10-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/marvel-guardians-galaxy-underrated-superhero-game/",
-      "image": "/images/feed/feed-e951224527cd.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-636dd8e40f57",
       "title": "OpenAI announces three big science discoveries and a new way to work with academics",
       "excerpt": "Less than a month after its mass release of hundreds of manuscripts that it said contained solutions to long-standing mathematics questions, OpenAI is back with three more \"major\" discoveries in math,…",
@@ -623,49 +894,10 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 49,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1019143/openai-eth-kaseya-science-math-physics",
       "image": "/images/feed/feed-636dd8e40f57.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-6d4c5e071e52",
-      "title": "NASA’s Perseverance Views Dust at Neretva Vallis",
-      "excerpt": "Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol,…",
-      "body": "1 Min Read NASA’s Perseverance Views Dust at Neretva Vallis PIA26816 Credits: NASA/JPL-Caltech/ASU/MSSS Photojournal Navigation Science Photojournal NASA’s Perseverance… Photojournal Home Photojournal Search Latest Content Galleries Feedback RSS About Downloads NASA’s Perseverance Views Dust at Neretva Vallis TIFF (868.48 MB) Description This 360-degree look at Neretva Vallis within Mars’ Jezero Crater was stitched together using 217 images acquired by the rover’s Mastcam-Z on May 20, 2024, the 1,155th Martian day, or sol, of the mission. While it is a wind-swept dusty vista today, billions of years ago it was home to a river channel that fed fresh water into Jezero Crater.",
-      "author": "NASA Breaking News",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://science.nasa.gov/photojournal/nasas-perseverance-views-dust-at-neretva-vallis/",
-      "image": "/images/feed/feed-6d4c5e071e52.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-a6e754fd5052",
-      "title": "University of Copenhagen data breach exposes data of 525,000 people",
-      "excerpt": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
-      "body": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Data Breach, Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Data Breach",
-        "Breach"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
-      "image": "/images/feed/feed-a6e754fd5052.jpg",
-      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -681,7 +913,7 @@
         "Gpt"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 34,
       "url": "https://openai.com/index/greptile-code-review-codex-astra",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -700,255 +932,24 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 39,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
       "image": "/images/feed/feed-dace5288fc19.jpg",
       "source": "The Verge",
       "isLive": true
-    },
-    {
-      "id": "feed-d4eeb80f2a2a",
-      "title": "Why Anthropic’s IPO Prospectus Is Missing So Many Key Figures",
-      "excerpt": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells WIRED.",
-      "body": "Anthropic’s S-1 filing is hundreds of pages long—and it leaves out quite a few financial details. “Anthropic owes investors more information,” one analyst tells WIRED.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lauren Goode, Caroline Haskins, Kate Taylor",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.wired.com/story/anthropic-prospectus-leaves-out-some-numbers/",
-      "image": "/images/feed/feed-d4eeb80f2a2a.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-6781e1dd15cf",
-      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
-      "excerpt": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks.…",
-      "body": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
-      "image": "/images/feed/feed-6781e1dd15cf.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-54e2b8158bf4",
-      "title": "NASA’s Perseverance Offers Clues to Protect Crews From Mars Dust",
-      "excerpt": "Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, inclu…",
-      "body": "6 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) This 360-degree panorama from NASA’s Perseverance Mars rover shows Neretva Vallis, the dusty, long-dried river channel that cuts through the western rim of Mars’ Jezero Crater. NASA/JPL-Caltech/ASU/MSSS Over 1,645 Martian days, NASA’s Perseverance Mars rover measured the fine and ultrafine Martian dust particles found clinging to samples of spacesuit materials that are carried aboard the rover, including some that are small enough to penetrate the lungs and enter the bloodstream. The findings will be published Tuesday, Oct.",
-      "author": "Amanda Barnett",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/nasas-perseverance-offers-clues-to-protect-crews-from-mars-dust/",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/10/1-pia26816-pano-resized-for-web-feature.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-1e64ccb81710",
-      "title": "Analog astronauts: How living underwater can prepare humans for space missions",
-      "excerpt": "How living underwater can prepare humans for space missions",
-      "body": "I have been dreaming of doing research in space as an astronaut my whole life, but for some reason, the thought of working underwater made me nervous. I’ve known for a long time that astronauts train underwater to simulate different scenarios they’re likely to experience in space. Diving was never an issue for me, either — I even made it as far as becoming a certified rescue diver. So what was the problem? This summer, I led a simulated space mission in an underwater habitat called the Jules’ Undersea Lab. It is a research station that is located 22 feet (6.7 meters) underwater near Key Largo, Florida. You have to scuba dive to get in and out of the station. To become an aquanaut , you have to stay underwater for at least 24 hours in a so-called state of saturation.",
-      "author": " Michaela Musilova ",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Astronaut",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.space.com/space-exploration/missions/analog-astronauts-how-living-underwater-can-prepare-humans-for-space-missions",
-      "image": "/images/feed/feed-1e64ccb81710.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-f781306514d5",
-      "title": "NEO Surveyor’s Sunshade Gets Inspected",
-      "excerpt": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space & Mission Systems in Boulder, Colorado,…",
-      "body": "2 Min Read NEO Surveyor’s Sunshade Gets Inspected PIA26780 Credits: BAE Systems Space &#038; Mission Systems Photojournal Navigation Science Photojournal NEO Surveyor’s Sunshade Gets… Photojournal Home Photojournal Search Latest Content Galleries Feedback RSS About Downloads NEO Surveyor’s Sunshade Gets Inspected JPEG (1.17 MB) Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor is mounted on an assembly ring during inspections in a clean room at BAE Systems Space &#038; Mission Systems in Boulder, Colorado, in July 2026. The sunshade structure stands 20 feet (6 meters) tall and measures 8 feet (2.4 meters) wide at its base.",
-      "author": "NASA Breaking News",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://science.nasa.gov/photojournal/neo-surveyors-sunshade-gets-inspected/",
-      "image": "/images/feed/feed-f781306514d5.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-6c9f905ddefa",
-      "title": "Solar Cells Inspected on NASA’s NEO Surveyor",
-      "excerpt": "Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space & Mission Systems in Boulder, Colorado, in late July. Built by Appli…",
-      "body": "1 Min Read Solar Cells Inspected on NASA’s NEO Surveyor PIA26715 Credits: BAE Systems Space &#038; Mission Systems Photojournal Navigation Science Photojournal Solar Cells Inspected on… Photojournal Home Photojournal Search Latest Content Galleries Feedback RSS About Downloads Solar Cells Inspected on NASA’s NEO Surveyor JPEG (889.24 KB) Description The large sunshade of NASA’s Near-Earth Object (NEO) Surveyor mission is inspected by a technician at BAE Systems Space &#038; Mission Systems in Boulder, Colorado, in late July. Built by Applied Aerospace in Stockton, California, the sunshade structure was outfitted with its solar cells by SolAero Technologies in Albuquerque, New Mexico, in January.",
-      "author": "NASA Breaking News",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://science.nasa.gov/photojournal/solar-cells-inspected-on-nasas-neo-surveyor/",
-      "image": "/images/feed/feed-6c9f905ddefa.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-93b9918762df",
-      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-      "excerpt": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
-      "body": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Mayank Parmar",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-      "image": "/images/feed/feed-93b9918762df.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-3b23fcc8e63c",
-      "title": "OpenAI Has a Surprising Defense Against Election Deepfakes",
-      "excerpt": "ChatGPT is cracking down on photorealistic, political deepfakes ahead of next week’s US midterm elections.",
-      "body": "ChatGPT is cracking down on photorealistic, political deepfakes ahead of next week’s US midterm elections.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Katelyn Chedraoui",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.cnet.com/tech/services-and-software/openai-chatgpt-political-deepfakes-defense-midterm-elections/",
-      "image": "/images/feed/feed-3b23fcc8e63c.jpg",
-      "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-da1c873fea67",
-      "title": "DreamHost forces password resets in ongoing \"incident\"",
-      "excerpt": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
-      "body": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-      "image": "/images/feed/feed-da1c873fea67.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-705c8675aa44",
-      "title": "OpenAI upgrades ChatGPT and Codex with new GPT-6.1 Terra model",
-      "excerpt": "Earth is so back. Last month when OpenAI released GPT-6 models of Sol and Luna, its medium model Terra was excluded from the update. Now OpenAI has upgraded Terra from GPT-5.6 to GPT-6.1, touting spee…",
-      "body": "Earth is so back. Last month when OpenAI released GPT-6 models of Sol and Luna, its medium model Terra was excluded from the update. Now OpenAI has upgraded Terra from GPT-5.6 to GPT-6.1, touting spee — a development drawing significant attention in the artificial intelligence and machine learning space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai, Chatgpt, Gpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zac Hall",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai",
-        "Chatgpt",
-        "Gpt"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://9to5mac.com/2026/10/26/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-1-terra-model/",
-      "image": "/images/feed/feed-705c8675aa44.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-1838c8a4f1c6",
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "excerpt": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec,…",
-      "body": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks. \"When you",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-      "image": "/images/feed/feed-1838c8a4f1c6.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-437f2925c09c",
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "excerpt": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt m…",
-      "body": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Security"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "image": "/images/feed/feed-437f2925c09c.jpg",
-      "source": "The Hacker News",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Same MCP version, different tools: what two independent captures revealed",
-    "DEV.TO: LeetCode #1 — Two Sum | Python Explained",
-    "DEV.TO: Claude Code Plan Mode: How It Works, How to Use It, and When to Skip It",
-    "DEV.TO: Svelte Explained: The Framework That Disappears",
-    "DEV.TO: Why Your Laptop Still Loses Battery Through a USB-C Hub",
-    "DEV.TO: Building a Niche Website: The Web Development Lessons Behind MenudBros.com",
-    "DEV.TO: NecroShell — The Haunted Open-Source AI Terminal & Digital Séance",
-    "ANDROID AUTHORITY: The best PS2 emulator on Android can now make performance tweaks for you",
-    "ANDROID AUTHORITY: Xiaomi’s latest fitness tracker makes its way to more countries",
-    "ANDROID AUTHORITY: Google Docs finally fixes a frustrating problem with Markdown files"
+    "DEV.TO: ShellGhost: a local open-weight spirit that haunts my terminal published",
+    "DEV.TO: Local LLM vs Cloud API: The VRAM Math, Unit Economics, and Routing Architecture",
+    "DEV.TO: Two Runs Must Agree Before You Freeze a CLI Transcript",
+    "DEV.TO: Localization Workbook: Douyin Demos to English Ads",
+    "DEV.TO: A Good Fill Price. What About the Fee?",
+    "DEV.TO: VoiceStudio: A Chinese Translation That Lowers the Setup Barrier",
+    "DEV.TO: Budget Human Minutes Before You Generate Docs: A Contract-Driven Draft Queue",
+    "KOTAKU: Lord Of The Rings RPG Game Studio Hit By ‘Serious’ Cyberattack As The Internet Continues Breaking",
+    "ENGADGET: 4 drawbacks you should know before buying an Xbox Series X",
+    "ELECTREK: Lectric launches XP Lite3 e-bike, the new best low-cost model in the US"
   ],
   "sectionVideos": {}
 }
