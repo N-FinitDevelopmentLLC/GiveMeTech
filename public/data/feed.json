@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-10-29T03:14:46.683Z",
+  "fetchedAt": "2026-10-29T10:31:25.912Z",
   "articles": [
     {
-      "id": "feed-62287596974a",
-      "title": "Amazon just bet $200 that your phone can't replace a clock or a photo frame",
-      "excerpt": "On Wednesday, Amazon unveiled five new Alexa devices: the Echo Show 16 ($499.99, pre-order), the Echo Studio with Home Camera ($249.99), a redesigned Echo Dot ($99.99), the Echo Time ($199.99), and th…",
-      "body": "On Wednesday, Amazon unveiled five new Alexa devices: the Echo Show 16 ($499.99, pre-order), the Echo Studio with Home Camera ($249.99), a redesigned Echo Dot ($99.99), the Echo Time ($199.99), and the Alexa Photo Frame (from $199.99). Reuters confirmed the lineup the same day, and the details check out across independent coverage. This is not the interesting part. The interesting part is the two cheapest new ideas in the list: a $200 clock and a $200 photo frame, in a year when your phone already does both for free. I read the announcements the way I always do — by asking what the product is actually selling, once you strip out the adjectives. What Amazon actually announced The Echo Dot is the workhorse of the lineup.",
-      "author": "frank chu",
+      "id": "feed-40b299230b4d",
+      "title": "Free Study Resources and Reading Plans: 150 Books and Courses That Cost Nothing",
+      "excerpt": "You have been told a book is free. You clicked through, saw a cover image and the word \"Read\", and either hit a paywall three paragraphs in or got forty pages of a two-hundred-page book and a \"buy\" bu…",
+      "body": "You have been told a book is free. You clicked through, saw a cover image and the word \"Read\", and either hit a paywall three paragraphs in or got forty pages of a two-hundred-page book and a \"buy\" button. You downloaded it anyway, and it now sits in a folder called PDFs you have not opened since. You have done this eleven times. The problem is not that free books are hard to find. It is that \"free\" and \"available\" are the same thing, and they are not. Libraries are full of records: metadata about books you cannot download, catalogue entries for titles whose only copy sits in a reading room in Boston, and links that resolve to a lending queue rather than a file.",
+      "author": "Michael Banigo",
       "date": "2026-10-29",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 43,
-      "url": "https://dev.to/frankchu/amazon-just-bet-200-that-your-phone-cant-replace-a-clock-or-a-photo-frame-45g7",
-      "image": "/images/feed/feed-62287596974a.webp",
+      "xpReward": 35,
+      "url": "https://dev.to/michael_banigo_6bea76d866/free-study-resources-and-reading-plans-150-books-and-courses-that-cost-nothing-50oe",
+      "image": "/images/feed/feed-40b299230b4d.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-0b7ffcc06cbe",
-      "title": "Too many ADRs made our AI follow outdated decisions. The fix: keep them all, let an index name the current ones",
-      "excerpt": "The obvious fix for \"my AI agent keeps relying on superseded architecture decisions\" is a small parser: read each ADR's Supersedes field and mark the old records as replaced. We built exactly that. Th…",
-      "body": "The obvious fix for \"my AI agent keeps relying on superseded architecture decisions\" is a small parser: read each ADR's Supersedes field and mark the old records as replaced. We built exactly that. Then we ran it on two other repositories of ours, with 270 and 93 ADRs, and it reported live decisions as dead. In the larger repository, every one of the 5 records it called \"superseded\" was a false alarm. A parser that just picks up ADR numbers does not just miss things. It creates misreadings of its own, and an AI agent will trust them. This is a write-up of how we rebuilt the ADR index in ELN workflow, our in-house plugin suite for Claude Code, so that \"which decisions are current?\" is answered by one deterministic set of rules instead of by the model reading ADR bodies and guessing.",
-      "author": "uehara",
+      "id": "feed-c6a0d3a91c30",
+      "title": "7 Google Ads Mistakes That Are Draining Local Business Budgets (And How to Fix Them)",
+      "excerpt": "The average small local business wastes between 40% and 60% of their Google Ads budget on clicks that will never convert. I've audited hundreds of local campaigns, and the same seven mistakes show up…",
+      "body": "The average small local business wastes between 40% and 60% of their Google Ads budget on clicks that will never convert. I've audited hundreds of local campaigns, and the same seven mistakes show up every single time — whether it's a $300/month HVAC company or a $5,000/month dental group. Here's what's burning your money, and exactly what to do about it today. Mistake #1: Running on Broad Match With No Negative Keywords This is the #1 budget killer for local businesses, and it's shockingly common. When you add a keyword like plumber on broad match, Google is free to show your ad for searches like \"plumber salary,\" \"plumber licensing school,\" and \"how to become a licensed plumber.\" You'll pay for every click — and none of those visitors want to hire you.",
+      "author": "PPC Folks",
       "date": "2026-10-29",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 52,
-      "url": "https://dev.to/uehara/too-many-adrs-made-our-ai-follow-outdated-decisions-the-fix-keep-them-all-let-an-index-name-the-4hk9",
-      "image": "/images/feed/feed-0b7ffcc06cbe.webp",
+      "xpReward": 41,
+      "url": "https://dev.to/ppc_folks_896d8330649fa18/7-google-ads-mistakes-that-are-draining-local-business-budgets-and-how-to-fix-them-4knc",
+      "image": "/images/feed/feed-c6a0d3a91c30.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-dc3110c97d87",
-      "title": "Notion Version History Is Just Timestamps. Here’s What Real Versioning Looks Like",
-      "excerpt": "I write technical documentation in Notion. A few weeks ago I needed to get back to “the version I sent to the client before the review” — a specific state I remembered clearly but couldn’t locate. I o…",
-      "body": "I write technical documentation in Notion. A few weeks ago I needed to get back to “the version I sent to the client before the review” — a specific state I remembered clearly but couldn’t locate. I opened Page History and got a flat list of timestamps. No labels, no summaries, no way to tell which snapshot was the one I wanted. I clicked through a dozen entries, comparing them by eye, and gave up. That was the moment I realized: Notion’s version history isn’t version control. It’s a list of timestamps. And for anyone who has used Git, that gap is hard to unsee. What Notion actually gives you Notion’s Page History records snapshots on a time interval . A new version is saved every 10 minutes while you’re actively editing or two minutes after you stop edit.",
-      "author": "Bingfeng",
+      "id": "feed-311489bdd6e4",
+      "title": "10 digits or 13? The timestamp bug that sends your dates to the year 56,189",
+      "excerpt": "Every API you have ever used stores time as one number: the seconds since January 1, 1970. Databases do it, JWT tokens do it, log files do it. The number is timezone-free and sortable, which is why ev…",
+      "body": "Every API you have ever used stores time as one number: the seconds since January 1, 1970. Databases do it, JWT tokens do it, log files do it. The number is timezone-free and sortable, which is why everyone uses it. And then one day your UI shows a date in the year 56,189, and you spend an hour looking for a bug that is exactly one multiplication away. The bug is units. A Unix timestamp in seconds has 10 digits: 1700000000. A JavaScript timestamp in milliseconds has 13 digits: 1700000000000. JavaScript's Date.now() returns milliseconds. Most APIs return seconds. Feed a millisecond value into code that expects seconds and new Date(1700000000000 * 1000) lands tens of thousands of years in the future.",
+      "author": "Mubeen Khan",
       "date": "2026-10-29",
       "readTime": "2 min",
       "section": "software",
@@ -52,37 +52,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 42,
-      "url": "https://dev.to/bfzhao/notion-version-history-is-just-timestamps-heres-what-real-versioning-looks-like-2lp4",
-      "image": "/images/feed/feed-dc3110c97d87.webp",
+      "xpReward": 49,
+      "url": "https://dev.to/mubeenkhaaan/10-digits-or-13-the-timestamp-bug-that-sends-your-dates-to-the-year-56189-455",
+      "image": "/images/feed/feed-311489bdd6e4.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-70d610781f2b",
-      "title": "AI Ban vs. Contribution Policy: What Open Source Maintainers Should Govern",
-      "excerpt": "A project maintainer opens a pull request and sees a patch that is plausible, poorly tested, and difficult to review. The contributor says an AI coding tool helped. What should happen next: reject the…",
-      "body": "A project maintainer opens a pull request and sees a patch that is plausible, poorly tested, and difficult to review. The contributor says an AI coding tool helped. What should happen next: reject the patch because AI was involved, ask for more evidence, or review it under the same quality bar as any other contribution? That question moved beyond code review on October 24, when moderators of Reddit's r/opensource announced that projects using AI, made with AI, or intended for AI would not be welcome. The same rule update added age, maintenance, contributor-count, and account-history requirements. It also rejected AI-translated submissions on the grounds that moderators could not reliably distinguish them from AI-written text.",
-      "author": "jamilxt",
+      "id": "feed-79ce8a05e86d",
+      "title": "PHP2Shell and the eMudhra certificates have the same fix: rebuild the image",
+      "excerpt": "I'll admit something slightly embarrassing. For years my mental model of a compromised certificate was \"the browsers will handle it.\" Somebody revokes it, Chrome and Firefox stop trusting it, and I go…",
+      "body": "I'll admit something slightly embarrassing. For years my mental model of a compromised certificate was \"the browsers will handle it.\" Somebody revokes it, Chrome and Firefox stop trusting it, and I go back to watching my build. That model has a hole in it, and the hole is shaped exactly like every container I ship. Docker's write-up on PHP2Shell and the eMudhra certificate compromise is the clearest explanation of that hole I've read in a while. Two unrelated security events landed in the same week. If you run containers, both come down to the same chore of rebuilding the image on a fixed base and redeploying it. Two incidents, one chore PHP2Shell is a pair of critical flaws in the PHP engine itself, CVE-2026-109618 and CVE-2026-109619.",
+      "author": "Leo",
       "date": "2026-10-29",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Open Source"
+        "Software"
       ],
       "featured": true,
       "xpReward": 33,
-      "url": "https://dev.to/jamilxt/ai-ban-vs-contribution-policy-what-open-source-maintainers-should-govern-d68",
-      "image": "/images/feed/feed-70d610781f2b.webp",
+      "url": "https://dev.to/leobaniak/php2shell-and-the-emudhra-certificates-have-the-same-fix-rebuild-the-image-3ihk",
+      "image": "/images/feed/feed-79ce8a05e86d.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-32cd8c84929e",
-      "title": "My forgotten subscriptions gave me nightmares, so I built Ghost Bills",
-      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine Picture this: it's the end of October, you open your bank app for something boring, and there it is. A…",
-      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What I Built Picture this: it's the end of October, you open your bank app for something boring, and there it is. A charge for $119 from a storage service you can't remember signing up for. It renews every November. It has renewed before. Nobody told you, because nobody was watching. That's a ghost. It lives in your statement, it takes a little money every month (or one big bite every year), and it's very good at staying invisible. So I built a ghost hunter. Ghost Bills reads your bank statement (a plain CSV export) and finds the subscriptions you forgot about. Then it tells you, in simple words, what each one costs you per year, and helps you get rid of it.",
-      "author": "Thilakasiri H.A.B.D",
+      "id": "feed-b232a31a6c69",
+      "title": "How I built sub-agents for my desktop AI companion: isolated children, one capped envelope, and no grandchildren",
+      "excerpt": "Ankita is my open-source desktop AI companion — a little companion, a lot more possible. It lives on my machine, runs on my models, and does real work in my workspace: reading code, editing files, run…",
+      "body": "Ankita is my open-source desktop AI companion — a little companion, a lot more possible. It lives on my machine, runs on my models, and does real work in my workspace: reading code, editing files, running checks. Sooner or later, any agent like that hits the same wall: one conversation trying to do three independent jobs at once. The parent's context balloons, the work interleaves, and a long task blocks everything behind it. The obvious fix is sub-agents — hand a piece of work to a child. The dangerous version is giving the child everything the parent has. I built the opposite: a child that gets almost nothing, runs its own tool loop, and comes back with exactly one capped envelope.",
+      "author": "Krish Verma",
       "date": "2026-10-29",
       "readTime": "2 min",
       "section": "software",
@@ -90,18 +90,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/bin4yi/my-forgotten-subscriptions-gave-me-nightmares-so-i-built-ghost-bills-1a9n",
-      "image": "/images/feed/feed-32cd8c84929e.webp",
+      "xpReward": 34,
+      "url": "https://dev.to/krish_verma_77e28d3fd63ca/how-i-built-sub-agents-for-my-desktop-ai-companion-isolated-children-one-capped-envelope-and-no-4p64",
+      "image": "/images/feed/feed-b232a31a6c69.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-9b49f2818933",
-      "title": "How index keys affect inputs: compare DOM, row state, and parent state",
-      "excerpt": "When the first row is removed from a React list, do input values stay with the remaining rows? With index keys, the result depended on who owned the value. An uncontrolled input, whose value lived in…",
-      "body": "When the first row is removed from a React list, do input values stay with the remaining rows? With index keys, the result depended on who owned the value. An uncontrolled input, whose value lived in the DOM, and an input backed by row-local state displayed another row's value. Inputs receiving values from parent state displayed the correct values, but their DOM nodes were still reassigned to different rows. Narrow the reproduction from existing code The personal project's schedule creation screen passes the idx from rows.map as each Card key. It removes rows with array filtering and inserts duplicates by combining array slices. However, its title input is controlled through value={row.title} . The code alone does not show whether input values ever became mixed up in production.",
-      "author": "hiro@",
+      "id": "feed-37762e37e5c5",
+      "title": "Four-Minute Finality, Glamsterdam Delayed, Safer EOA Migration and Agent Swarms",
+      "excerpt": "Welcome to our weekly digest, where we unpack the latest in account and chain abstraction and the broader infrastructure shaping Ethereum. The latest news we’ll cover: Ethereum Targets Four-Minute Fin…",
+      "body": "Welcome to our weekly digest, where we unpack the latest in account and chain abstraction and the broader infrastructure shaping Ethereum. The latest news we’ll cover: Ethereum Targets Four-Minute Finality Glamsterdam on Hoodi Is Postponed A Pre-ERC Defines a Safer EOA Migration Path Privacy Pools v2 Adds Payments and Yield ERC-8447 Proposes Agent Swarms Please fasten your belts! Ethereum Targets Four-Minute Finality Ethereum researchers filed a draft aiming to cut the time a transaction takes to become final from about 16 minutes to roughly four. Ben Edgington, who coordinates the fast-finality research, filed it with Francesco D’Amato, Roberto Saltini, Yann Vonlanthen, and Mikhail Kalinin, with a four-fold improvement as the initial target. The mechanism change is a vote split.",
+      "author": "Alexandra",
       "date": "2026-10-29",
       "readTime": "2 min",
       "section": "software",
@@ -109,18 +109,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/hirodeath/how-index-keys-affect-inputs-compare-dom-row-state-and-parent-state-bgn",
-      "image": "/images/feed/feed-9b49f2818933.webp",
+      "xpReward": 35,
+      "url": "https://dev.to/etherspot/four-minute-finality-glamsterdam-delayed-safer-eoa-migration-and-agent-swarms-2bb2",
+      "image": "/images/feed/feed-37762e37e5c5.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-90f5e371a76f",
-      "title": "When “Send” Isn’t Risky: Context-Aware Confirmation in an Android AI Agent",
-      "excerpt": "When \"Send\" Isn't Risky: Context-Aware Confirmation in an Android AI Agent In the last post I covered the two-layer confirmation guard: the LLM's requires_confirmation flag plus a keyword guard as a d…",
-      "body": "When \"Send\" Isn't Risky: Context-Aware Confirmation in an Android AI Agent In the last post I covered the two-layer confirmation guard: the LLM's requires_confirmation flag plus a keyword guard as a dumb-but-reliable backstop. A reader raised the right follow-up: \"send\" in a banking app and \"send\" in a notes app are not the same risk. The guard shouldn't treat them the same way. This post covers the next layer — making the confirmation guard context-aware by weighing app identity and action type together. The Problem With a Flat Keyword List A flat list of risky keywords has two failure modes. False negatives (the dangerous kind): the guard misses a risky action because the label is in another language, uses a synonym, or comes from a resource ID the guard never sees.",
-      "author": "StareBrain",
+      "id": "feed-2ca7a07b3ba3",
+      "title": "I built a PaaS with its own OAuth server. Here's a deploy and a login, start to finish",
+      "excerpt": "Hi, I'm Marc. For the last couple of years I've been building Faable, a platform where you deploy an app and, if it has users, get an OAuth 2.0 / OIDC server for them in the same account. It's hosted…",
+      "body": "Hi, I'm Marc. For the last couple of years I've been building Faable, a platform where you deploy an app and, if it has users, get an OAuth 2.0 / OIDC server for them in the same account. It's hosted in the EU. Instead of a feature list, here is what using it actually looks like: an Express app deployed from the terminal, then a login added to a frontend. Every command below is copied from our docs, and we timed the deploys on a fresh account this week. 1. Deploy an Express app from your terminal No repository needed. Start with the smallest Express app there is: mkdir hello-express &amp;&amp; cd hello-express npm init -y npm install express // index.js const express = require ( ' express ' ) const app = express () const port = process . env . PORT app .",
+      "author": "Marc Pomar",
       "date": "2026-10-29",
       "readTime": "2 min",
       "section": "software",
@@ -128,10 +128,472 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 41,
-      "url": "https://dev.to/starebrain/when-send-isnt-risky-context-aware-confirmation-in-an-android-ai-agent-m5n",
-      "image": "/images/feed/feed-90f5e371a76f.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/boyander/i-built-a-paas-with-its-own-oauth-server-heres-a-deploy-and-a-login-start-to-finish-4165",
+      "image": "/images/feed/feed-2ca7a07b3ba3.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-0e68b425272c",
+      "title": "How to make a perfect E3 press conference (or drinking game) | Unraveled",
+      "excerpt": "E3 is here, and Brian David Gilbert has unraveled the 10 keys to a perfect press conference, which you could also use for a drinking game. Here are the rules: http://bit.ly/E3DrinkingGame",
+      "body": "E3 is here, and Brian David Gilbert has unraveled the 10 keys to a perfect press conference, which you could also use for a drinking game. Here are the rules: http://bit.ly/E3DrinkingGame\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Polygon Staff",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Game"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/video/how-to-make-a-perfect-e3-press-conference-or-drinking-game-unraveled/",
+      "image": "/images/feed/feed-0e68b425272c.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-55e781153e4a",
+      "title": "Fatal Frame Transforms an Ordinary Hobby Into Bone-Chilling Horror",
+      "excerpt": "The camera is a signature element in the Fatal Frame series, one that turns taking photos into a real test of courage.",
+      "body": "Fatal Frame creator and director Makoto Shibata once said that the most frightening thing is people's imaginations, which are populated by monsters that we can't see. When designing the first installment of one of the 2000s' most iconic horror series, his desire was to create a game that would make players feel terrified by the mere idea of even grabbing the controller. But the way he got there was unconventional: by making players take photos of ghosts.",
+      "author": "Paulo Kawanishi",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.polygon.com/fatal-frame-halloween-games/",
+      "image": "/images/feed/feed-55e781153e4a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-d759f4e4c807",
+      "title": "I’ve tested plenty of chargers, but this is the one staying on my desk",
+      "excerpt": "Love at first watt? Apparently, yes.",
+      "body": "A charger is one of those accessories we use every single day but rarely think much about. If there’s one thing I’ve learned from testing and spending money on quite a few chargers over the past few months, it’s that investing in a good one can make your life a lot easier. I’ve tried everything from compact chargers that take up almost no space to more powerful ones designed to charge multiple devices. But throughout my testing, I looked for something specific: a charger that could power my laptop and phone at the same time, charge both devices fast, and save me the hassle of reaching for two different adapters. After all, why carry multiple chargers when one can do the job? I’ve come across plenty of options that work well, but one charger in particular caught my attention.",
+      "author": "Shimul Sood",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.androidauthority.com/baseus-picogo-pro-100w-gan-charger-3722018/",
+      "image": "/images/feed/feed-d759f4e4c807.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-361dffac9b9e",
+      "title": "SpaceX's Starfall capsule delivers cargo for US Air Force in landmark 'point to point' space mission",
+      "excerpt": "The U.S. Air Force has recovered experimental cargo launched aboard SpaceX's mysterious Starfall capsule, marking a step forward in the effort to assess the viability of rapid, point-to-point deliveri…",
+      "body": "The U.S. Air Force is opening up about the SpaceX Starfall cargo capsule it flew on a recent rideshare mission to orbit — and showing off what the capsule carried. The Air Force Research Laboratory (AFRL) completed a point-to-point rocket cargo delivery test using the secretive uncrewed reentry vehicle, confirming on social media its recovery of the package in the Pacific Ocean. \"With support from SpaceX , the AFRL agile cargo pods were recovered after splashdown,\" the AFRL wrote in an X post on Oct. 26. The Starfall capsule launched on a Falcon 9 rocket as a part of SpaceX's Bandwagon-5 mission, which lifted off from Cape Canaveral Space Force Station on Oct. 20 .",
+      "author": " Josh Dinner ",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacexs-starfall-capsule-delivers-cargo-for-us-air-force-in-landmark-point-to-point-space-mission",
+      "image": "/images/feed/feed-361dffac9b9e.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-82b9dcd73249",
+      "title": "No one asked but I found Mortal Kombat's best cuddler | Unraveled",
+      "excerpt": "Mortal Kombat is a gruesome game filled with murderous characters that, honestly, should chill out a little. So Brian David Gilbert unraveled which Mortal Kombatant would cuddle the best.",
+      "body": "Mortal Kombat is a gruesome game filled with murderous characters that, honestly, should chill out a little. So Brian David Gilbert unraveled which Mortal Kombatant would cuddle the best.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Polygon Staff",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.polygon.com/video/no-one-asked-but-i-found-mortal-kombat-s-best-cuddler-unraveled/",
+      "image": "/images/feed/feed-82b9dcd73249.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-6ba844813ca5",
+      "title": "Which Dark Souls boss is the best manager? | Unraveled",
+      "excerpt": "Dark Souls bosses are dangerous on the battlefield, but can they survive corporate life? Brian David Gilbert unravels and ranks which Dark Souls boss is the best at business leadership.",
+      "body": "Dark Souls bosses are dangerous on the battlefield, but can they survive corporate life? Brian David Gilbert unravels and ranks which Dark Souls boss is the best at business leadership.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Polygon Staff",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.polygon.com/video/which-dark-souls-boss-is-the-best-manager-unraveled/",
+      "image": "/images/feed/feed-6ba844813ca5.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-325f16183573",
+      "title": "Google's Gemini 4 Carbon promises 'significant leap' in AI coding and cybersecurity",
+      "excerpt": "Google's latest Gemini 4 Carbon AI model boasts top benchmark scores in areas like cybersecurity and coding.",
+      "body": "Google's latest Gemini 4 Carbon AI model boasts top benchmark scores in areas like cybersecurity and coding.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Steve Dent)",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.engadget.com/2300677/google-gemini-carbon-promises-significant-leap-in-ai-coding-and-cybersecurity/",
+      "image": "/images/feed/feed-325f16183573.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-082d0b225f0f",
+      "title": "Survey says the Fitbit Edge’s biggest rival could be its own Google sibling",
+      "excerpt": "The call is coming from inside the house.",
+      "body": "The Fitbit Edge has launched to much fanfare and appreciation from those seeking an affordable fitness tracker with a smartwatch-like feel. Sitting plumb between the Pixel Watch and Fitbit Air lines, it offers consumers an easy first step if they want to climb Google’s wearable ladder. It’s not alone in its segment, though. There are a host of alternatives that undercut its price or offer a few more goodies.",
+      "author": "Andy Walker",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.androidauthority.com/best-fitbit-edge-alternative-poll-results-3729522/",
+      "image": "/images/feed/feed-082d0b225f0f.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-684d078e0035",
+      "title": "Locals Sent Tesla FSD Down Bratislava’s Toughest Streets. It Needed Help",
+      "excerpt": "Steep hills and tight gaps showed what FSD can do. Missed signs and driver takeovers showed how much supervision it still needs.",
+      "body": "Steep hills and tight gaps showed what FSD can do. Missed signs and driver takeovers showed how much supervision it still needs.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://insideevs.com/news/813661/tesla-full-self-driving-bratislava/",
+      "image": "/images/feed/feed-684d078e0035.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-a15fdab5a4af",
+      "title": "Liquid Glass Finally Makes Sense on the iPhone Duo",
+      "excerpt": "Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.",
+      "body": "Liquid Glass was a divisive redesign. But with a radically different iPhone, the pieces are finally falling into place.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Craig Grannell",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.wired.com/story/liquid-glass-finally-makes-sense-on-the-iphone-duo/",
+      "image": "/images/feed/feed-a15fdab5a4af.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-955b0900b6b6",
+      "title": "Trump Phone passes the bend test, fails the originality test",
+      "excerpt": "The gold paint can only hide so much.",
+      "body": "TL;DR JerryRigEverything puts the Trump Mobile T1 through scratch, bend, and teardown tests, with the phone surviving the physical punishment. The teardown reveals internals identical to the two-year-old HTC U24 Pro, reinforcing earlier findings from an iFixit investigation. Swapping the motherboards between the two phones leaves both fully functional, further proving their shared hardware origins. Buying a phone is one thing. Watching someone scratch, bend, and rip it apart is an entirely different kind of satisfaction. The Trump Mobile T1 Phone has finally received that treatment from JerryRigEverything, and while it holds up surprisingly well against physical abuse, its insides tell a far less flattering story.",
+      "author": "Hillary Keverenge",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.androidauthority.com/trump-phone-durability-test-3729503/",
+      "image": "/images/feed/feed-955b0900b6b6.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-4d56b28daeaa",
+      "title": "7 Fire Emblem: Three Houses Replay Ideas to Make Garreg Mach Feel Brand New",
+      "excerpt": "Fire Emblem: Three Houses boasts several unique story paths — and countless more challenges to make the experience even more memorable",
+      "body": "Whether you’ve already put hundreds of hours into Fire Emblem: Fortune’s Weave or you’re waiting until later to pick up a copy, it’s always a good time to revisit Three Houses . Intelligent Systems’ 2019 installment of the strategy RPG series takes place in the same universe as Fortune’s Weave , and there are even a couple of characters who appear in both games.",
+      "author": "Jen Glennon",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.polygon.com/fire-emblem-three-houses-replay-ideas/",
+      "image": "/images/feed/feed-4d56b28daeaa.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2a326d08d09e",
+      "title": "The 2027 Kia EV9 Gets Some Standard Features That Used To Be Optional",
+      "excerpt": "The base price goes up by $90, with the biggest changes coming on the mid-spec Land trim.",
+      "body": "The base price goes up by $90, with the biggest changes coming on the mid-spec Land trim.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://insideevs.com/news/813665/2027-kia-ev9-price-torque-increase/",
+      "image": "/images/feed/feed-2a326d08d09e.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-0e6a5ae46a78",
+      "title": "Samsung is killing another key Galaxy service",
+      "excerpt": "Your One UI home screen will look a little different later this year.",
+      "body": "Credit: Stephen Radochia / Android Authority TL;DR Samsung will seemingly discontinue Samsung News on December 21, 2026, ending all content delivery and widget updates. The leftmost swipe panel on One UI home screens will likely default exclusively to Google Discover, with no replacement disclosed yet. Samsung plans to delete collected personal user data upon termination, retaining only records required by local regulations. Samsung is surprisingly streamlining its secondary service footprint, recently shuttering services like Samsung Daily Plus and overhauling backend platforms like Samsung Community . It now seems Samsung News is next on the chopping block. Samsung has announced that it will officially discontinue Samsung News on December 21, 2026.",
+      "author": "Aamir Siddiqui",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Galaxy S"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.androidauthority.com/samsung-news-shutdown-december-2026-3729509/",
+      "image": "/images/feed/feed-0e6a5ae46a78.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-2df797c5d910",
+      "title": "Hackers leaked details of more than 41,000 Homeland Security personnel",
+      "excerpt": "A hacktivist group stole the information of ICE agents and border police from Homeland Security.",
+      "body": "A hacktivist group stole the information of ICE agents and border police from Homeland Security.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Mariella Moon)",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.engadget.com/2300661/hackers-leaked-details-more-than-41000-homeland-security-personnel/",
+      "image": "/images/feed/feed-2df797c5d910.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-6bc5f713e8f9",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "excerpt": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is d…",
+      "body": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network. The malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Malware",
+        "Encryption",
+        "Exploit"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+      "image": "/images/feed/feed-6bc5f713e8f9.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-7c3cdda5412a",
+      "title": "5 Forgotten 'Peanuts' Characters That Charles Schulz Abandoned in the Comic Strip",
+      "excerpt": "Better a has-been than a never-was, right?",
+      "body": "Every long-running comic strip has a few characters who got phased out early on. The most famous example might be Lyman from Garfield , Jon's roommate and Odie's original owner, who simply disappeared one day around 1985. (Davis has occasionally joked that if you want to find Lyman, you should dig up Jon's basement.) You could also point to most of the early human characters in Bloom County , Nicole in Doonesbury getting sidelined in favor of Joanie Caucus, or the abortive Uncle Max arc in Calvin and Hobbes .",
+      "author": "Thomas Hindmarch",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.polygon.com/forgotten-peanuts-characters/",
+      "image": "/images/feed/feed-7c3cdda5412a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-a706d8ef6a22",
+      "title": "This Underrated 5-Season Fantasy Series Is Basically Harry Potter for Adults",
+      "excerpt": "The Magicians turns its magic-school fantasy into an adult fairy tale about escapism, friendship, and the things magic can’t fix.",
+      "body": "I think far too much about the first chapter of Harry Potter and the Half-Blood Prince , in which the outgoing and incoming Ministers of Magic meet the British prime minister at 10 Downing Street. A bridge has collapsed, and one of the PM’s junior ministers has started quacking like a duck. Truly nefarious stuff. The wizards explain that these and other disasters are connected to the return of the evil Lord Voldemort.",
+      "author": "Corey Plante",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.polygon.com/the-magicians-fairy-tale-tv-shows/",
+      "image": "/images/feed/feed-a706d8ef6a22.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-dc9d53fde26e",
+      "title": "Toyota’s New Hybrids And Plug-In Hybrids Will Be 15% More Efficient",
+      "excerpt": "An all-new engine was developed specifically for electrified powertrains, promising higher efficiency than its predecessors.",
+      "body": "An all-new engine was developed specifically for electrified powertrains, promising higher efficiency than its predecessors.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Plug-in Hybrid, Hybrid. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Plug-in Hybrid",
+        "Hybrid"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://insideevs.com/news/813645/new-toyota-hybrid-engine-more-efficient-smaller/",
+      "image": "/images/feed/feed-dc9d53fde26e.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-339d6498ccff",
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrik…",
+      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector. The vulnerability in question is CVE-2026-41709 (CVSS score:",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Zero-day",
+        "Exploit",
+        "Hacker"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+      "image": "/images/feed/feed-339d6498ccff.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-db724a1c19cc",
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "excerpt": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been…",
+      "body": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces. \"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory. The vulnerabilities, tracked as",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Exploit"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+      "image": "/images/feed/feed-db724a1c19cc.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-a64ea7b70b2b",
+      "title": "APOD: 29 October 2026 – The Horns of Venus",
+      "excerpt": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a diff…",
+      "body": "APOD Science APOD APOD: 29 October 2026 – The… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Horns of Venus Explanation: That’s no moon. But you could be forgiven for thinking it was a crescent Moon in the sky. It is a lesser known fact that Venus also has phases . (What about other planets? ) The featured image shows Venus seen almost directly between the Sun and the Earth. This happens once every year and a half , and it is like the alignment that happens every month during a new Moon.",
+      "author": "NASA Breaking News",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://science.nasa.gov/image-article/apod-29-october-2026-the-horns-of-venus/",
+      "image": "/images/feed/feed-a64ea7b70b2b.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-99b6600f3a5f",
+      "title": "Arnab Strikes India",
+      "excerpt": "The first named storm of the North Indian Ocean’s cyclone season made landfall along the coast of Andhra Pradesh.",
+      "body": "Earth Observatory Science Earth Observatory Arnab Strikes India Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &#038; Radiation Life on Earth Human Dimensions Natural Events Oceans Remote Sensing Technology Snow &#038; Ice Water More Content Collections Global Maps World of Change Articles Earth Matters Blog Blue Marble: Next Generation EO Kids Mission: Biomes About About Us Subscribe 🛜 RSS Contact Us Search The first named storm of the 2026 North Indian Ocean cyclone season—Arnab (pronounced Or-nab)—emerged in the Bay of Bengal on October 25, a rather late start for a basin that typically produces named cyclones in April or May.",
+      "author": "NASA Breaking News",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://science.nasa.gov/earth/earth-observatory/arnab-strikes-india/",
+      "image": "/images/feed/feed-99b6600f3a5f.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-ac1de5df7e08",
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "NikZaal",
+      "date": "2026-10-29",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "image": "/images/feed/feed-ac1de5df7e08.png",
+      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -148,162 +610,10 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 54,
       "url": "https://www.nasa.gov/centers-and-facilities/jpl/caltech-names-artemis-ii-commander-reid-wiseman-as-nasa-jpl-deputy/",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/10/wiseman-portrait-crop-for-portal.jpg",
       "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-c6d4e2e9a50f",
-      "title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
-      "excerpt": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-…",
-      "body": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States , starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a single Made-in-USA laptop would be a surprise, because no major US computer company builds its laptops here - not Apple, not Dell, not HP, not Microsoft. We're not aware of any company that does. But we are aware of companies that have briefly and strategically assembled computers here seemingly to appease President Donald Trump . We're also aware of … Read the full story at The Verge.",
-      "author": "Sean Hollister",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Laptop"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.theverge.com/policy/1021554/anduril-bluechip-65-percent-domestic-buy-american",
-      "image": "/images/feed/feed-c6d4e2e9a50f.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-d4a937bb44e3",
-      "title": "'Slow Horses' Season 7 Confirmed? Release Date, Plot, and Everything You Need to Know",
-      "excerpt": "Here’s when you’ll find out what happens next after that brutal cliffhanger",
-      "body": "Apple’s tight spy thriller Slow Horses usually ties up each season-long mystery in six episodes, but the season 6 finale ended with a shocking cliffhanger. If you haven’t read Mick Herron’s Slough House books and are desperate to know what happens next, including which characters will be returning, we’ve got some answers. Here’s everything we know about Slow Horses season 7, including the potential release date and plot details.",
-      "author": "Sam Nelson",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.polygon.com/slow-horses-season-7-release-date-plot/",
-      "image": "/images/feed/feed-d4a937bb44e3.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-b4fe699334a0",
-      "title": "All ribbon locations in Phantom Blade Zero",
-      "excerpt": "In this guide, you find all ribbon locations in Phantom Blade Zero, and how to get there, so you can complete the \"Young Mistress\" side quest.",
-      "body": "If you find all the ribbons in the Village of Lu you will complete an important Phantom Blade Zero side quest: \"Young Mistress.\" They were left by Mu Xiaokui, daughter of Soul's master. He has known her since she was a child, and they have established a bond that you can only truly understand by hearing the short dialogues that play whenever you collect a ribbon. In addition, completing this side quest also makes the final boss fight in the area more challenging.",
-      "author": "Paulo Kawanishi",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.polygon.com/phantom-blade-zero-ribbon-location-where-to-find-rewards/",
-      "image": "/images/feed/feed-b4fe699334a0.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-e8cc9465c22c",
-      "title": "Where to find the Flesh Lily in Phantom Blade Zero",
-      "excerpt": "In this guide, we explain where you can find the Flesh Lily in Phantom Blade Zero to complete Yu'er's side quest.",
-      "body": "Locating the Flesh Lily in Phantom Blade Zero is part of one of the first secondary missions in the game. The \"Flesh Lily\" is a long quest that you only complete after reaching the fourth area in the game, Pangzhen. Although it takes a while for you to see the conclusion of this tale, completing the first step is worthwhile, as it involves obtaining one of the strongest weapons in the early game.",
-      "author": "Paulo Kawanishi",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.polygon.com/phantom-blade-zero-flesh-lily-location-where-to-find/",
-      "image": "/images/feed/feed-e8cc9465c22c.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-e376cdfdbd5d",
-      "title": "Where to find the Outpost cell key in Phantom Blade Zero",
-      "excerpt": "Here's where to find the cell key in Phantom Blade Zero to open the locked door in the Outpost Courtyard, and the reward from opening it.",
-      "body": "The Outpost cell key is a secondary objective in Phantom Blade Zero that teaches you that exploring the maps thoroughly is worthwhile. As you progress in the story, you will come across plenty of locked doors, and it might take some time before you can obtain the means to open them, as some are connected to the main story.",
-      "author": "Paulo Kawanishi",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.polygon.com/phantom-blade-zero-cell-key-location-where-to-find-outpost-courtyard/",
-      "image": "/images/feed/feed-e376cdfdbd5d.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-e3d9df374e49",
-      "title": "'A Healer's Mercy' quest walkthrough in Phantom Blade Zero",
-      "excerpt": "Here's where to find the wounded thieves' locations needed to complete 'A Healer's Mercy' in Phantom Blade Zero",
-      "body": "To complete \"A Healer's Mercy\" in Phantom Blade Zero , you must find four lost thieves in the Crimson Forest, the second region. As none of them are waiting on the main path, it's quite a hassle to distribute Yu'er's medicine and get the thieves back to thieving.",
-      "author": "Marloes Valentina Stella",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.polygon.com/phantom-blade-zero-a-healers-mercy-quest-walkthrough-wounded-thieves/",
-      "image": "/images/feed/feed-e3d9df374e49.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-a5d3061a3f9e",
-      "title": "All medicine locations for 'Apprentice Healer' in Phantom Blade Zero",
-      "excerpt": "Here's where to find the medicinal herb locations needed to complete the \"Apprentice Healer\" quest in Phantom Blade Zero",
-      "body": "To complete the \"Apprentice Healer\" quest in Phantom Blade Zero , you must find three medicinal herbs for Yu'er. It's easier said than done, as two of these herbs are found in a hidden valley, and entering this mysterious location is quite the challenge on its own.",
-      "author": "Marloes Valentina Stella",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.polygon.com/phantom-blade-zero-medicine-herb-locations-apprentice-healer/",
-      "image": "/images/feed/feed-a5d3061a3f9e.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-e2b70da4d464",
-      "title": "Where to find the primal stone for 'A Severed Mindseal' in Phantom Blade Zero",
-      "excerpt": "Here's the primal stone location needed to complete 'A Severed Mindseal' in Phantom Blade Zero.",
-      "body": "To find the Primal Stone during the \"A Severed Mindseal\" quest in Phantom Blade Zero , you must search a mysterious tower imbued with primal energy. It's easier said than done, but you'll make the Friendly Shadow Warden (that odd fellow you met on the roof of the Sha-Chi Tower) very happy.",
-      "author": "Marloes Valentina Stella",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.polygon.com/phantom-blade-zero-primal-stone-location-severed-mindseal/",
-      "image": "/images/feed/feed-e2b70da4d464.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -319,29 +629,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 35,
       "url": "https://cleantechnica.com/2026/10/28/construction-materials-stand-out-at-greenbuild-2026/",
       "image": "/images/feed/feed-08fef8edfb04.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-01076e8f2aff",
-      "title": "Russia now requires Apple to store user communications and hand them over if requested",
-      "excerpt": "As Bloomberg reported today, Apple and Microsoft are now subject to Russian regulations requiring companies to store users’ communications and provide them to security agencies if requested. Here are…",
-      "body": "As Bloomberg reported today, Apple and Microsoft are now subject to Russian regulations requiring companies to store users’ communications and provide them to security agencies if requested. Here are — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://9to5mac.com/2026/10/28/russia-now-requires-apple-to-store-user-communications-and-hand-them-over-if-requested/",
-      "image": "/images/feed/feed-01076e8f2aff.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -357,7 +648,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 47,
       "url": "https://electrek.co/2026/10/28/when-one-door-closes-polestar-2-production-ends-and-what-might-come-next/",
       "image": "/images/feed/feed-53bcb2888536.jpg",
       "source": "Electrek",
@@ -376,7 +667,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 35,
       "url": "https://cleantechnica.com/2026/10/28/nearly-half-of-eu-cities-do-not-yet-meet-new-clean-air-standards-report-shows-collaboration-is-key/",
       "image": "/images/feed/feed-e928d51741fc.jpg",
       "source": "CleanTechnica",
@@ -395,105 +686,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 45,
       "url": "https://cleantechnica.com/2026/10/28/trump-rolling-back-methane-pollution-safeguards/",
       "image": "/images/feed/feed-4b8919851ed4.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-de0ac1caa3c5",
-      "title": "BYD now has 1.02 million workers, more than Toyota, GM, Ford, and Tesla combined",
-      "excerpt": "BYD now has more than 1.02 million employees, according to chairman Wang Chuanfu. That’s more people than Toyota, GM, Ford, and Tesla employ combined. And it’s a big jump from the start of the year. B…",
-      "body": "BYD now has more than 1.02 million employees, according to chairman Wang Chuanfu. That’s more people than Toyota, GM, Ford, and Tesla employ combined. And it’s a big jump from the start of the year. BYD reported about 869,600 employees at the end of 2025, which means the Chinese automaker has added roughly 150,000 people in 10 months while its vehicle sales are down. more…",
-      "author": "Fred Lambert",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://electrek.co/2026/10/28/byd-1-million-employees-more-than-toyota-gm-ford-tesla/",
-      "image": "/images/feed/feed-de0ac1caa3c5.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-aec10e099523",
-      "title": "Waymo for Business | Ramp",
-      "excerpt": "Today, we’re announcing that Waymo for Business is integrated with Ramp, making it easier for organizations and their employees to manage expenses when using our fully autonomous ride-hailing service.…",
-      "body": "Today, we’re announcing that Waymo for Business is integrated with Ramp, making it easier for organizations and their employees to manage expenses when using our fully autonomous ride-hailing service. For over a year, Waymo for Business has offered 24/7 reliability and convenience directly to organizations embracing Waymo for their transportation ... [continued] The post Waymo for Business | Ramp appeared first on CleanTechnica .",
-      "author": "Press Release",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://cleantechnica.com/2026/10/28/waymo-for-business-ramp/",
-      "image": "/images/feed/feed-aec10e099523.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-641e8e154d62",
-      "title": "The Truth About Renewable Electricity: Your Questions, Answered",
-      "excerpt": "Reliable, affordable electricity is essential for many of the products and services that underpin the modern economy. But the sources of that electricity—and their respective merits and risks—are incr…",
-      "body": "Reliable, affordable electricity is essential for many of the products and services that underpin the modern economy. But the sources of that electricity—and their respective merits and risks—are increasingly the subject of debate and polarization. A flood of narratives and counternarratives is rising in the media and public conversation about ... [continued] The post The Truth About Renewable Electricity: Your Questions, Answered appeared first on CleanTechnica .",
-      "author": "World Resources Institute",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://cleantechnica.com/2026/10/28/the-truth-about-renewable-electricity-your-questions-answered/",
-      "image": "/images/feed/feed-641e8e154d62.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-9b66b4e7feef",
-      "title": "Apple and OpenAI trade secrets lawsuit now has an official trial date",
-      "excerpt": "Judge Edward Davila today formally established the schedule for Apple’s trade secrets misappropriation lawsuit against two former employees, OpenAI, and io Products, including a trial date. Here are t…",
-      "body": "Judge Edward Davila today formally established the schedule for Apple’s trade secrets misappropriation lawsuit against two former employees, OpenAI, and io Products, including a trial date. Here are t — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://9to5mac.com/2026/10/28/apple-and-openai-trade-secrets-lawsuit-now-has-an-official-trial-date/",
-      "image": "/images/feed/feed-9b66b4e7feef.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-3e32baf93626",
-      "title": "You Can Spend Nearly $15K on Apple’s New Touchscreen MacBook Pro. Why?",
-      "excerpt": "Maxing out the new touchscreen MacBook Pro with a M5 Max chip and 16TB of storage will cost more than buying 10 basic MacBook Air laptops.",
-      "body": "Maxing out the new touchscreen MacBook Pro with a M5 Max chip and 16TB of storage will cost more than buying 10 basic MacBook Air laptops.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Macbook. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Antuan Goodwin",
-      "date": "2026-10-29",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Macbook"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.cnet.com/tech/computing/max-out-new-apple-touchscreen-macbook-pro-nearly-15k/",
-      "image": "/images/feed/feed-3e32baf93626.png",
-      "source": "CNET",
       "isLive": true
     },
     {
@@ -511,7 +707,7 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 37,
       "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
       "image": "/images/topics/topic-cybersecurity.png",
       "source": "Hacker News",
@@ -530,48 +726,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 32,
       "url": "https://techcrunch.com/2026/10/28/upwind-raises-400m-after-walking-away-from-datadog-acquisition-offer/",
       "image": "/images/feed/feed-edad344f449a.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-3d0c44e1139c",
-      "title": "FCC chair wants to let prisons jam illegal cellphones",
-      "excerpt": "The agency will vote next month on relaxing its long-standing opposition to jammers.",
-      "body": "The agency will vote next month on relaxing its long-standing opposition to jammers.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Anna Washenko)",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.engadget.com/2300569/fcc-chair-wants-to-let-prisons-jam-illegal-cellphones/",
-      "image": "/images/feed/feed-3d0c44e1139c.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-206d9e64164a",
-      "title": "A Touchscreen MacBook Pro Just Invites More Filthy Fingerprints",
-      "excerpt": "Commentary: Yes, I’m judgy about how smudgy Apple’s new laptop screen is going to be.",
-      "body": "Commentary: Yes, I’m judgy about how smudgy Apple’s new laptop screen is going to be.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Macbook. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Jeff Carlson",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Macbook"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.cnet.com/tech/computing/touchscreen-macbook-pro-invites-smudges-fingerprints/",
-      "image": "/images/feed/feed-206d9e64164a.png",
-      "source": "CNET",
       "isLive": true
     },
     {
@@ -588,29 +746,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 50,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-28-2026",
       "image": "/images/feed/feed-34d1f1cd1924.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-4cb653fc9800",
-      "title": "The 2,000-Nit OLED in Apple’s New MacBook Is a Big Deal",
-      "excerpt": "The touchscreen in the new MacBook Pro is crazily bright with very deep blacks. Here’s why it’s unlike anything else you can currently buy.",
-      "body": "The touchscreen in the new MacBook Pro is crazily bright with very deep blacks. Here’s why it’s unlike anything else you can currently buy.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Macbook. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Luke Larsen",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Macbook"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.wired.com/story/the-2000-nit-oled-in-apples-new-macbook-pro-is-a-big-deal/",
-      "image": "/images/feed/feed-4cb653fc9800.jpg",
-      "source": "Wired",
       "isLive": true
     },
     {
@@ -626,7 +765,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 38,
       "url": "https://www.theverge.com/tech/1021528/ice-cbp-data-leak",
       "image": "/images/feed/feed-d0cbfbebeaab.jpg",
       "source": "The Verge",
@@ -646,7 +785,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 33,
       "url": "https://www.nasa.gov/organizations/oiir/nasa-welcomes-vietnam-as-newest-artemis-accords-signatory/",
       "image": "/images/feed/feed-57b5e30eab86.jpg",
       "source": "NASA Breaking News",
@@ -665,9 +804,9 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 37,
       "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
-      "image": "/images/feed/feed-65911ac3f4f5.jpg",
+      "image": "/images/feed/feed-65911ac3f4f5.webp",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -685,7 +824,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 40,
       "url": "https://www.space.com/space-exploration/human-spaceflight/5-days-beneath-the-waves-what-its-like-to-live-in-an-underwater-space-station",
       "image": "/images/feed/feed-528c4b586c13.jpg",
       "source": "Space.com",
@@ -704,7 +843,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 50,
       "url": "https://www.cnet.com/tech/services-and-software/google-genie-4-gemini-4-carbon-ai-news/",
       "image": "/images/feed/feed-db1cdd2358bb.jpg",
       "source": "CNET",
@@ -723,7 +862,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 53,
       "url": "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
       "image": "/images/feed/feed-a1a2d4901169.jpg",
       "source": "BleepingComputer",
@@ -742,87 +881,10 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 50,
       "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
       "image": "/images/feed/feed-8bdc1d3d9ec7.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-fb104c013e47",
-      "title": "Hacker stole personnel data about thousands of Homeland Security employees, including CBP and ICE agents",
-      "excerpt": "A hacker obtained personally identifiable information about more than 40,000 Homeland Security staffers, which has since been published online.",
-      "body": "A hacker obtained personally identifiable information about more than 40,000 Homeland Security staffers, which has since been published online.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Hacker, Security. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Whittaker",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Hacker",
-        "Security"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents/",
-      "image": "/images/feed/feed-fb104c013e47.jpg",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-adc7f722b251",
-      "title": "ISS astronaut will conduct Canada's 1st spacewalk in 7 years on Oct. 29: Watch it live",
-      "excerpt": "Joshua Kutryk will venture outside the International Space Station on Oct. 29, on the first spacewalk by a Canadian astronaut in more than seven years. Here's how to watch it live.",
-      "body": "The next International Space Station (ISS) spacewalk will have more maple-leaf flavor than usual, as a Canadian astronaut will become the first to go outside the orbiting complex in seven years. Canadian Space Agency (CSA) astronaut Joshua Kutryk, who's also a colonel in the Royal Canadian Air Force, will help the ISS boost its power supply during his first-ever spacewalk on Thursday (Oct. 29). Kutryk will be joined by NASA astronaut Anil Menon, who has done three spacewalks already and also serves as a colonel with the U.S. Space Force . The duo are scheduled to venture outside the orbiting lab at 8 a.m. EDT (1200 GMT), kicking off a spacewalk that will last roughly 6 hours and 45 minutes. You can watch it live here at Space.com , courtesy of NASA, beginning at 6:30 a.m. EDT (1030 GMT).",
-      "author": " Elizabeth Howell ",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Astronaut"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.space.com/space-exploration/international-space-station/iss-astronaut-will-conduct-canadas-1st-spacewalk-in-7-years-on-oct-29-watch-it-live",
-      "image": "/images/feed/feed-adc7f722b251.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-34dd884a9c98",
-      "title": "Massive Leak Exposes 41,000 Homeland Security Workers—Including Undercover ICE Agents",
-      "excerpt": "The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.",
-      "body": "The leaked records include the locations of ICE and CBP facilities, workers’ cell phone numbers, and the members of groups tied to wiretap programs, Palantir software, and xAI’s Grok chatbot.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Security. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Dhruv Mehrotra, Maddy Varner, Dell Cameron",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Security"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
-      "image": "/images/feed/feed-34dd884a9c98.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-f871cbbe777d",
-      "title": "Meet Apeiron, Virgin Galactic's 1st 'Delta-class' space plane",
-      "excerpt": "Virgin Galactic has officially unveiled its first \"Delta-class\" space plane, and announced the results of the worldwide vote to choose its name.",
-      "body": "Virgin Galactic has officially unveiled the first space plane in its next-gen \"Delta\" line, and announced the results of the worldwide vote to choose its name. Spaceship Apeiron will be the first Delta-class vehicle, Virgin Galactic revealed on Wednesday (Oct. 28). Apeiron (pronounced \"A'-per-on,\" according to the announcement) takes its name from the ancient Greek word meaning \"boundless,\" and was selected through a public poll that drew votes from thousands of people across 83 countries and six continents. The reveal comes on the same day that the space plane is scheduled to be flown from its manufacturing facility in Mesa, Arizona, to Spaceport America in New Mexico, where the vehicle will undergo final preparations before beginning flight tests.",
-      "author": " Josh Dinner ",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.space.com/space-exploration/private-spaceflight/meet-apeiron-virgin-galactics-1st-delta-class-space-plane",
-      "image": "/images/feed/feed-f871cbbe777d.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -838,48 +900,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 39,
       "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
       "image": "/images/feed/feed-b2173123b9bf.jpg",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-47cde1769100",
-      "title": "Artemis III SLS Core Stage Joins Boosters at Kennedy",
-      "excerpt": "NASA’s Artemis III SLS (Space Launch System) core stage is integrated alongside the twin solid rocket boosters on Oct. 28 inside the Vehicle Assembly Building’s High Bay 3 at NASA’s Kennedy Space Cent…",
-      "body": "The SLS (Space Launch System) core stage is lifted from the transfer aisle of the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Thursday, Oct. 22, 2026. NASA/Sean Cannon The SLS (Space Launch System) core stage is lifted from the transfer aisle of the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Thursday, Oct. 22, 2026. NASA/Sean Cannon The SLS (Space Launch System) core stage is horizontal in the transfer aisle of the Vehicle Assembly Building at NASA’s Kennedy Space Center in Florida on Friday, Oct. 23, 2026. NASA/Cory S Huston The SLS (Space Launch System) core stage is integrated alongside the twin solid rocket booster motor segments on Sunday, Oct.",
-      "author": "Tiffany L. Fairley",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Artemis"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.nasa.gov/image-article/artemis-iii-sls-core-stage-joins-boosters-at-kennedy/",
-      "image": "/images/feed/feed-47cde1769100.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-f7bbe08d1603",
-      "title": "Discord to let search engines index public server messages",
-      "excerpt": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]",
-      "body": "Discord will allow search engines to index discussions in Discoverable Servers and make them accessible on the web to users outside the platform without an account or invitation. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.bleepingcomputer.com/news/security/discord-to-let-search-engines-index-public-server-messages/",
-      "image": "/images/feed/feed-f7bbe08d1603.jpg",
-      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -895,7 +919,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 53,
       "url": "https://www.zdnet.com/innovation/claude-enterprise-efficiency-cost-tracking/",
       "image": "/images/feed/feed-63d1fa22fca3.jpg",
       "source": "ZDNet",
@@ -914,43 +938,24 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 46,
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
       "image": "/images/feed/feed-dff358d38296.png",
       "source": "Hacker News",
       "isLive": true
-    },
-    {
-      "id": "feed-7fbbcf0aac9e",
-      "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
-      "excerpt": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
-      "body": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sarah Perez",
-      "date": "2026-10-28",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gemini"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
-      "image": "/images/feed/feed-7fbbcf0aac9e.jpg",
-      "source": "TechCrunch",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Amazon just bet $200 that your phone can't replace a clock or a photo frame",
-    "DEV.TO: Too many ADRs made our AI follow outdated decisions. The fix: keep them all, let an index name the current ones",
-    "DEV.TO: Notion Version History Is Just Timestamps. Here’s What Real Versioning Looks Like",
-    "DEV.TO: AI Ban vs. Contribution Policy: What Open Source Maintainers Should Govern",
-    "DEV.TO: My forgotten subscriptions gave me nightmares, so I built Ghost Bills",
-    "DEV.TO: How index keys affect inputs: compare DOM, row state, and parent state",
-    "DEV.TO: When “Send” Isn’t Risky: Context-Aware Confirmation in an Android AI Agent",
-    "NASA BREAKING NEWS: Caltech Names Artemis II Commander Reid Wiseman as NASA JPL Deputy",
-    "THE VERGE: Anduril now says its BlueChip laptop will meet Buy American standards at launch",
-    "POLYGON: 'Slow Horses' Season 7 Confirmed? Release Date, Plot, and Everything You Need to Know"
+    "DEV.TO: Free Study Resources and Reading Plans: 150 Books and Courses That Cost Nothing",
+    "DEV.TO: 7 Google Ads Mistakes That Are Draining Local Business Budgets (And How to Fix Them)",
+    "DEV.TO: 10 digits or 13? The timestamp bug that sends your dates to the year 56,189",
+    "DEV.TO: PHP2Shell and the eMudhra certificates have the same fix: rebuild the image",
+    "DEV.TO: How I built sub-agents for my desktop AI companion: isolated children, one capped envelope, and no grandchildren",
+    "DEV.TO: Four-Minute Finality, Glamsterdam Delayed, Safer EOA Migration and Agent Swarms",
+    "DEV.TO: I built a PaaS with its own OAuth server. Here's a deploy and a login, start to finish",
+    "POLYGON: How to make a perfect E3 press conference (or drinking game) | Unraveled",
+    "POLYGON: Fatal Frame Transforms an Ordinary Hobby Into Bone-Chilling Horror",
+    "ANDROID AUTHORITY: I’ve tested plenty of chargers, but this is the one staying on my desk"
   ],
   "sectionVideos": {}
 }
