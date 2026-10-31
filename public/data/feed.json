@@ -1,12 +1,50 @@
 {
-  "fetchedAt": "2026-10-31T07:40:24.995Z",
+  "fetchedAt": "2026-10-31T13:59:13.208Z",
   "articles": [
     {
-      "id": "feed-0e0dd718f57b",
-      "title": "Before You Burn GPU Hours, Smoke-Test One Task on a Cheap CPU Runtime",
-      "excerpt": "This article was originally published in Japanese on Zenn. Hi, I'm Kohei Matsunobe, a second-year student in the online (correspondence) program at ZEN University. I'm working toward becoming an AI en…",
-      "body": "This article was originally published in Japanese on Zenn . Introduction Hi, I'm Kohei Matsunobe, a second-year student in the online (correspondence) program at ZEN University. I'm working toward becoming an AI engineer, and on my own I run experiment pipelines that evaluate LLM outputs and code on notebooks and cloud runtimes. GPU runtimes are great, but they're expensive per hour, and there's a cap on how many compute units you can use. I've made the same mistakes more than once: \"I grabbed a GPU, launched the real job, and it crashed in the first few minutes,\" or \"it crashed, I didn't notice, and the runtime just sat there running.\" Looking back, almost all of those failures could have been caught without a GPU.",
-      "author": "kohei matsunobu",
+      "id": "feed-3a10903932ec",
+      "title": "Source code leakage through AI coding assistants: 5 paths and the control for each",
+      "excerpt": "Originally published on ReclaimLLM: https://reclaimllm.com/blogs/source-code-leakage-ai-assistants Proprietary code leaves via provider context, agent reads, cloud agents, MCP tools, and shell egress.…",
+      "body": "Originally published on ReclaimLLM: https://reclaimllm.com/blogs/source-code-leakage-ai-assistants Proprietary code leaves via provider context, agent reads, cloud agents, MCP tools, and shell egress. The five paths, who controls each, and what to turn on first. Source code leakage through AI coding assistants: the five paths and the control for each Executive summary Separates source-code leakage from secrets leakage into five paths: provider terms, agent reads, cloud agents, MCP tools, and shell egress. Each path maps to a vendor control and a team control, plus what evidence you can show. Cursor readBoundary defaults to \"system\" (not \"workspace\" ); set \"workspace\" deliberately.",
+      "author": "Momin Aziz",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 30,
+      "url": "https://dev.to/momin_aziz_1/source-code-leakage-through-ai-coding-assistants-5-paths-and-the-control-for-each-37c7",
+      "image": "/images/feed/feed-3a10903932ec.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-2263fd19f013",
+      "title": "Search a YouTube channel's transcripts and get alerts for new uploads (Apify, no code)",
+      "excerpt": "You want to know what a YouTube channel said about a topic, and hear about it when it says it again. This walkthrough uses the YouTube Transcript Scraper Actor, which I built. Disclosure: it is my own…",
+      "body": "You want to know what a YouTube channel said about a topic, and hear about it when it says it again. This walkthrough uses the YouTube Transcript Scraper Actor, which I built. Disclosure: it is my own Actor, priced at $1.50 per 1,000 transcript hours on the Free and Starter plans (a video under an hour counts once). Actor: https://apify.com/fulox/youtube-transcript-scraper 1. Try the default input Open the Actor and click Start. It reads two public videos and costs about $0.003. Open the dataset: each video row has text , segments , chapters , quality and matches . 2. Preview a channel for free Paste a channel into Videos, channels or playlists, for example @mkbhd , set Videos per channel to 20 and turn on List only.",
+      "author": "Ayush Mishra",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 40,
+      "url": "https://dev.to/fuloxdev/search-a-youtube-channels-transcripts-and-get-alerts-for-new-uploads-apify-no-code-2ao7",
+      "image": "/images/feed/feed-2263fd19f013.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-a36f79330867",
+      "title": "Read a TLS certificate expiry check without turning every failure into expired",
+      "excerpt": "A certificate monitor that reports “expired” whenever a command fails will eventually send you on the wrong investigation. A missing file, a TLS handshake failure and a certificate approaching its exp…",
+      "body": "A certificate monitor that reports “expired” whenever a command fails will eventually send you on the wrong investigation. A missing file, a TLS handshake failure and a certificate approaching its expiry are different observations. Start with a file you already know represents the certificate you intend to monitor. Later, add a separate acquisition step for the live endpoint. Keeping those steps distinct makes failures explainable. Check the file before checking the threshold openssl x509 -in server.pem -noout -dates -ext subjectAltName openssl x509 -in server.pem -noout -checkend 604800 604800 is seven days in seconds. The -checkend option checks whether the certificate expires within that interval and uses a nonzero exit status when it will.",
+      "author": "PKI security",
       "date": "2026-10-31",
       "readTime": "2 min",
       "section": "software",
@@ -15,55 +53,17 @@
       ],
       "featured": true,
       "xpReward": 36,
-      "url": "https://dev.to/koheip/before-you-burn-gpu-hours-smoke-test-one-task-on-a-cheap-cpu-runtime-h8h",
-      "image": "/images/feed/feed-0e0dd718f57b.webp",
+      "url": "https://dev.to/pki-channnel/read-a-tls-certificate-expiry-check-without-turning-every-failure-into-expired-1kfm",
+      "image": "/images/feed/feed-a36f79330867.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-241661532997",
-      "title": "Summarize Kaggle Notebook Status and Logs in ~7 Lines with the Kaggle CLI (Goodbye, .bat + Notepad)",
-      "excerpt": "This article was originally published in Japanese on Qiita. Hi, I'm Kohei Matsunobe. I'm a second-year student in the online (correspondence) program at ZEN University, studying to become an AI engine…",
-      "body": "This article was originally published in Japanese on Qiita . Introduction Hi, I'm Kohei Matsunobe. I'm a second-year student in the online (correspondence) program at ZEN University, studying to become an AI engineer. Once I started running Kaggle notebooks (kernels) from my local machine with kaggle kernels push , one small thing kept eating my time: checking what was going on. Is it still running? Did it finish? Did it fail? And if it failed, where? Checking that in the browser or digging through log files every single time got old fast. In this post, I'll share a script that calls kaggle kernels status and kaggle kernels output from Python and boils the status and log down to a ~7-line summary plus one CSV row .",
-      "author": "kohei matsunobu",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/koheip/summarize-kaggle-notebook-status-and-logs-in-7-lines-with-the-kaggle-cli-goodbye-bat-notepad-32o2",
-      "image": "/images/feed/feed-241661532997.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-1fe07c0d9cc7",
-      "title": "One hotel API vs ten supplier integrations: what we learned",
-      "excerpt": "From the TraveleXe engineering team. We build APINex, a unified travel API — this post is about the trade-offs, including when you shouldn't use one. If you're building a travel booking product, you'l…",
-      "body": "From the TraveleXe engineering team. We build APINex, a unified travel API — this post is about the trade-offs, including when you shouldn't use one. If you're building a travel booking product, you'll hit the supplier question early: integrate each hotel supplier directly, or put one aggregation layer in front of all of them? Direct integrations give you full control of each supplier's features and no middle layer. The cost: every supplier has its own schema, auth, error codes, rate-limit behaviour and certification process. Ten suppliers is ten of everything, and they all change on their own schedules. A unified API gives you one schema, one auth model and normalised responses.",
-      "author": "Travelexe edge91",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Api"
-      ],
-      "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/travelexe_edge91_b08eec3f/one-hotel-api-vs-ten-supplier-integrations-what-we-learned-3dc9",
-      "image": "/images/feed/feed-1fe07c0d9cc7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-3faf4fbc9827",
-      "title": "HAQ",
-      "excerpt": "Haq (حق) — Making Legal Information Accessible with Local AI This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine. I built Haq Guide (حق گائیڈ), a privacy-f…",
-      "body": "Haq (حق) — Making Legal Information Accessible with Local AI This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine . What I Built I built Haq Guide (حق گائیڈ) , a privacy-focused legal information assistant designed to help people understand their rights, legal notices, agreements, and available options in plain language. The idea behind Haq is simple: legal information shouldn't be difficult to access or understand. Users can describe their situation or upload a legal document, such as a notice or agreement. Haq helps break down the information, identify important details, explain relevant rights and options, and point users towards official resources and legal aid.",
-      "author": "Tabiq ",
+      "id": "feed-2a85e28a3e00",
+      "title": "Introducing NHI-Blast v0.2.0 Beta 🔐",
+      "excerpt": "I've been working on NHI-Blast, an open-source security analysis tool focused on Non-Human Identity (NHI) risks. The idea is to help identify credentials and identity-related security risks across: Gi…",
+      "body": "I've been working on NHI-Blast , an open-source security analysis tool focused on Non-Human Identity (NHI) risks. The idea is to help identify credentials and identity-related security risks across: GitHub Actions workflows Terraform configurations AWS IAM policies It introduces an R/E/Z classification model to analyze credential lifecycle and exposure risks. Some of its capabilities: Access graph generation Security findings and risk analysis Credential rotation priorities Offline HTML reports This is an independently developed project, and it's currently in Beta (v0.2.0) . I'd appreciate feedback from developers and security practitioners, especially on the detection logic, usability and areas worth improving.",
+      "author": "Dinesh Karthick",
       "date": "2026-10-31",
       "readTime": "2 min",
       "section": "software",
@@ -72,17 +72,17 @@
       ],
       "featured": true,
       "xpReward": 38,
-      "url": "https://dev.to/tabiqzargar/haq-589a",
-      "image": "/images/feed/feed-3faf4fbc9827.webp",
+      "url": "https://dev.to/dinesh_karthick_b/introducing-nhi-blast-v020-beta-1llk",
+      "image": "/images/feed/feed-2a85e28a3e00.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-cd85d78fe818",
-      "title": "# 🛡️ Building an Enterprise AML/CFT Risk Intelligence Platform with Gemma 4",
-      "excerpt": "🛡️ Building an Enterprise AML/CFT Risk Intelligence Platform with Gemma 4 🏆 Hackathon Prize Track Alignment This project explicitly targets the Best Open-Source AI Project Track and the Best Use of…",
-      "body": "🛡️ Building an Enterprise AML/CFT Risk Intelligence Platform with Gemma 4 🏆 Hackathon Prize Track Alignment This project explicitly targets the Best Open-Source AI Project Track and the Best Use of Gemma 4 Track . It builds a highly disciplined compliance architecture around the Reserve Bank of India (RBI) Master KYC Directions, using open-weight architectures to ensure 100% data residency and secure financial audit pipelines. 📊 Core Workspace Architecture Stateless Semantic Reasoning Core: Integrates Google's Gemma 4 (gemma-4-26b-a4b-it) model combined with LangChain Vector RAG stores (FAISS) to parse legal regulation chunks dynamically.",
-      "author": "T A Srinivas",
+      "id": "feed-fb8eaf66846d",
+      "title": "Airlock: a veto window for your POT, built on Portaldot's Proxy pallet",
+      "excerpt": "A leaked hot key should not empty a wallet in one block. A multisig fixes that, but it needs a second signer for every payment, which is heavy for one person. The Portaldot runtime already has a bette…",
+      "body": "A leaked hot key should not empty a wallet in one block. A multisig fixes that, but it needs a second signer for every payment, which is heavy for one person. The Portaldot runtime already has a better primitive. The Proxy pallet can make a delegate announce a call, wait a set number of blocks, and only then execute it. Another delegate can reject the announcement in between. In my search (not a market survey) I did not find a product built around it, so I built one for the Portaldot Hacker House 2026. How it works airlock create makes a keyless vault ( proxy.create_pure ) controlled by two keys: Hot key , your daily key, registered with a delay (10 blocks = 60 s in the demo). It cannot move funds directly: the chain answers Proxy.Unannounced . It can only announce a call hash and wait.",
+      "author": "Edy Cu",
       "date": "2026-10-31",
       "readTime": "2 min",
       "section": "software",
@@ -90,37 +90,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 44,
-      "url": "https://dev.to/t_asrinivas_518e5dd5ed1a/-building-an-enterprise-amlcft-risk-intelligence-platform-with-gemma-4-145i",
-      "image": "/images/feed/feed-cd85d78fe818.webp",
+      "xpReward": 33,
+      "url": "https://dev.to/edycutjong/airlock-a-veto-window-for-your-pot-built-on-portaldots-proxy-pallet-390k",
+      "image": "/images/feed/feed-fb8eaf66846d.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-7f649754911f",
-      "title": "My API Was Returning Every User's Password Hash. I Didn't Notice for Weeks.",
-      "excerpt": "Why a FastAPI endpoint happily sends back fields you never meant to expose, and the one line that filters them out. The endpoint looked harmless. Fetch a user, return the user. @app.get(\"/users/{user_…",
-      "body": "Why a FastAPI endpoint happily sends back fields you never meant to expose, and the one line that filters them out. The endpoint looked harmless. Fetch a user, return the user. @app.get ( \" /users/{user_id} \" ) async def get_user ( user_id : int ): user = await db . get_user ( user_id ) return user It worked. It returned the user's name, email, everything the frontend needed. Nobody looked twice. Weeks later, someone opened the browser network tab while debugging an unrelated issue and went quiet. The JSON response for that endpoint had a field none of us wanted anyone to see. { \"id\" : 42 , \"username\" : \"anna\" , \"email\" : \"anna@example.com\" , \"password_hash\" : \"$2b$12$Q9....\" , \"is_admin\" : true , \"internal_notes\" : \"flagged for review\" } The password hash. The admin flag.",
-      "author": "Anas Issath",
+      "id": "feed-84d7cd4baa01",
+      "title": "MFQ — the person behind the initials",
+      "excerpt": "Hi, I'm Mustafa Faiz Qadria. I use MFQ as my personal identity online. My focus areas include banking, payments and agile delivery. I'm also exploring cloud transformation, automation and practical ap…",
+      "body": "Hi, I'm Mustafa Faiz Qadria. I use MFQ as my personal identity online. My focus areas include banking, payments and agile delivery. I'm also exploring cloud transformation, automation and practical applications of AI. The questions that interest me are practical: How do we make complex work easier to understand? What helps teams turn an idea into something useful? And how can new tools support that work while keeping their limitations visible? I'd like to use this space for notes, questions and lessons from that exploration, distinguishing between what I've tried, ideas I'm considering and questions I haven't answered yet. You can find my personal website and other profiles at https://mfq.me .",
+      "author": "Mustafa Faiz Qadria",
       "date": "2026-10-31",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Api"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/anas_issath/my-api-was-returning-every-users-password-hash-i-didnt-notice-for-weeks-4d4c",
-      "image": "/images/feed/feed-7f649754911f.webp",
+      "xpReward": 30,
+      "url": "https://dev.to/mfq/mfq-the-person-behind-the-initials-52ne",
+      "image": "/images/feed/feed-84d7cd4baa01.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-68b0c32d6889",
-      "title": "Agents don't go rogue. Scopes do. Five controls, in config",
-      "excerpt": "If your agent can reach the internet, hold a long-lived key and write its own logs, it doesn't need to \"go rogue\" to cause an incident. It just needs a task and an open door. That's the practical read…",
-      "body": "If your agent can reach the internet, hold a long-lived key and write its own logs, it doesn't need to \"go rogue\" to cause an incident. It just needs a task and an open door. That's the practical reading of this year's agent incidents. OpenAI's technical report says agents in a July 2026 cyber evaluation, run with certain safeguards disabled, exploited a flaw in an internal package-mirror service to reach the internet. They then used publicly exposed credentials, together with vulnerabilities in Hugging Face's own infrastructure, to compromise parts of its production systems.",
-      "author": "ankush1982",
+      "id": "feed-6bb558c1b7b2",
+      "title": "Ballast: freezing a test dollar on Portaldot when its reserve runs short",
+      "excerpt": "A custodial wrapped token fails silently: reserves leave, the token keeps moving, and holders learn last. Ballast is a safety layer for the first dollar on Portaldot. It is built around a clearly labe…",
+      "body": "A custodial wrapped token fails silently: reserves leave, the token keeps moving, and holders learn last. Ballast is a safety layer for the first dollar on Portaldot. It is built around a clearly labelled test asset, pUSDC-test , whose roles are enforced by the Portaldot V3 runtime itself (the native Assets pallet plus Multisig), with the reserve held in a ReserveVault contract on Ethereum Sepolia. One flow, four guarantees Mint needs a 2-of-2 multisig whose mandatory co-signer, the reserve bot, signs only if finalized reserves cover supply plus the amount. Reserves are attested on chain : BALLAST/1 remarks, mirrored into a ReserveOracle contract on Revive. ballast verify re-checks both chains and rejects a forged remark. A watcher set (a 1-of-2 multisig) can only freeze .",
+      "author": "Edy Cu",
       "date": "2026-10-31",
       "readTime": "2 min",
       "section": "software",
@@ -128,10 +128,603 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 31,
-      "url": "https://dev.to/ankush1982/agents-dont-go-rogue-scopes-do-five-controls-in-config-5169",
-      "image": "/images/feed/feed-68b0c32d6889.webp",
+      "xpReward": 45,
+      "url": "https://dev.to/edycutjong/ballast-freezing-a-test-dollar-on-portaldot-when-its-reserve-runs-short-2moo",
+      "image": "/images/feed/feed-6bb558c1b7b2.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-3f099859c29c",
+      "title": "Doom Director Says ‘We’re Doing Great’ After Half Of id Software Was Laid Off",
+      "excerpt": "The studio is collaborating more closely than ever with MachineGames",
+      "body": "The studio is collaborating more closely than ever with MachineGames\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://kotaku.com/doom-director-says-were-doing-great-after-half-of-id-software-was-laid-off-2000751940",
+      "image": "/images/feed/feed-3f099859c29c.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-aa8f48e5c589",
+      "title": "Anyone Can Play Soulframe For Free Starting Next Week",
+      "excerpt": "Soulframe Open Preludes will let anyone try this fantasy Warframe spin-off starting in November",
+      "body": "While Soulframe's pre-release playtesting has historically been invite-only, that's changing soon. Starting next week, anyone on PC will be able to try the fantasy Warframe spin-off for free thanks to Soulframe Open Preludes , which is rolling out ahead of the game's Verse of the Veilands update.",
+      "author": "Tomas Franzese",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.polygon.com/soulframe-open-preludes-release-date/",
+      "image": "/images/feed/feed-aa8f48e5c589.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-ead7c703085c",
+      "title": "This Week In Space podcast: Episode 234 — Living in Lunar Caves",
+      "excerpt": "On Episode 234 of This Week In Space, Tariq Malik and Mike Wall are joined by Than Putzig of the Planetary Science Institute about a NASA-backed payload bound for the Marius Hills Pit on the moon.",
+      "body": "On Episode 234 of This Week In Space , Tariq Malik and Mike Wall are joined by Than Putzig of the Planetary Science Institute about a NASA-backed payload bound for the Marius Hills Pit on the moon. In our ongoing quest to develop a moon base, could we possibly utilize the area beneath the surface of the moon in order to make the moon habitable? Could Marius Hills Pit, a roughly 50-meter-wide opening that may lead into a lunar lava tube, become the Moon's first living habitat for humans? Putzig explains how geophysical instruments on a rover could detect hidden voids beneath the surface and measure the size of these lava tubes.",
+      "author": " Space.com Staff ",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-234-living-in-lunar-caves",
+      "image": "/images/feed/feed-ead7c703085c.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-2bc84cb4cff9",
+      "title": "Here's how much the iPhone Pro cost in 2019 vs. 2026",
+      "excerpt": "The iPhone Pro has changed plenty since it was released in 2019, but how do the 2026 iPhone Pro prices fare in comparison with its original price?",
+      "body": "The iPhone Pro has changed plenty since it was released in 2019, but how do the 2026 iPhone Pro prices fare in comparison with its original price?\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Antony Terence)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.engadget.com/2300201/how-much-iphone-pro-cost-2021-vs-2026/",
+      "image": "/images/feed/feed-2bc84cb4cff9.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-541124f18c41",
+      "title": "Final Fantasy XIV Evercold release date delayed until February",
+      "excerpt": "FFXIV Evercold's release date is delayed, but only by a few weeks as Square Enix works to ensure the MMO's new expansion meets quality expectations",
+      "body": "Square Enix has delayed Final Fantasy XIV Evercold's release date, producer Naoki Yoshida announced during the Fan Fest Tokyo event, but it's not a big delay. The MMO's expansion was originally planned for a late January launch , but Yoshida decided to delay the launch by three weeks. Evercold's early access launch is now set for Feb. 19, and the full launch is Feb. 23. Pre-orders begin on Nov. 4.",
+      "author": "Josh Broadwell",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.polygon.com/final-fantasy-xiv-evercold-release-date-delayed/",
+      "image": "/images/feed/feed-541124f18c41.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-9462612a6d1f",
+      "title": "FFXIV Evercold's second new job brings pets back at last with a magic bird",
+      "excerpt": "FFXIV Evercold's second new job is the ranged physical DPS Zephyr, the first pet-based job since Stormblood's Summoner changes",
+      "body": "Square Enix revealed Final Fantasy XIV Evercold 's second new job during the Tokyo Fan Fest, a physical ranged DPS job called Zephyr. It's a pretty big deal in more ways than one. The last physical ranged class was Dancer back in 2019's Shadowbringers, and Zephyr uses a pet, the first class to do so since Square Enix changed Summoner's kit back in 2017's Stormblood expansion. ( Beastmaster is a limited class, so it doesn't count.)",
+      "author": "Josh Broadwell",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.polygon.com/ffxiv-evercold-new-job-ranged-dps-zephyr/",
+      "image": "/images/feed/feed-9462612a6d1f.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b7ffb9548511",
+      "title": "On this day in space! Oct. 31, 2015: Creepy skull-shaped Halloween asteroid flies by Earth, NASA names it the 'Great Pumpkin'",
+      "excerpt": "On October 31, 2015, an asteroid shaped like a human skull flew by Earth. Here's why it was so creepy.",
+      "body": "On October 31, 2015, an asteroid shaped like a human skull flew by Earth. It arrived with excellent timing on Halloween, which made the already-creepy asteroid even creepier. During its closest approach, the creepy asteroid was about 300,000 miles from Earth, or 1.3 times the average distance between Earth and the moon . So, it didn't pose a threat to our planet. It was discovered by astronomers at Hawaii's Pan-STARRS observatory only three weeks before the flyby, and it was given the official designation \"2015 TB145.\" But no one knew what it looked like until the day before Halloween, when the Arecibo Observatory in Puerto Rico captured the first radar images.",
+      "author": " Hanneke Weitering ",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa",
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-31-2026",
+      "image": "/images/feed/feed-b7ffb9548511.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-e1107b85b368",
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "healsdata",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "image": "/images/feed/feed-e1107b85b368.jpg",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-340f003b742c",
+      "title": "Final Fantasy 14 Evercold Gets A Month Long Delay But An Awesome New Trailer",
+      "excerpt": "This looks awesome",
+      "body": "This looks awesome\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://kotaku.com/final-fantasy-14-evercold-gets-a-month-long-delay-but-an-awesome-new-trailer-2000751936",
+      "image": "/images/feed/feed-340f003b742c.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-a03ab880e0b3",
+      "title": "Why you should never point a laser pointer at any aircraft",
+      "excerpt": "Unfortunately, some people need to hear this.",
+      "body": "Unfortunately, some people need to hear this.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Will Shanklin)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.engadget.com/2301206/why-you-should-never-point-a-laser-pointer-at-any-aircraft/",
+      "image": "/images/feed/feed-a03ab880e0b3.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-4bc7fcf06de1",
+      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "excerpt": "[...]",
+      "body": "[...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Sponsored by TryHackMe",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "image": "/images/feed/feed-4bc7fcf06de1.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-4a4ec36c4e63",
+      "title": "5 PS5 Games Releasing in November 2026 You Cannot Miss",
+      "excerpt": "Sony PlayStation 5 November releases are dominated by GTA 6, but there are some other games too!",
+      "body": "I'm not sure PlayStation 5 has ever had a quieter month for new releases than November 2026 . Quieter with one absolutely massive exception, that is, which explains the dearth of new releases otherwise. Scroll down to Nov. 19 to see what it is, but you know already.",
+      "author": "Oli Welsh",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.polygon.com/new-ps5-games-november-2026/",
+      "image": "/images/feed/feed-4a4ec36c4e63.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-8540e31da326",
+      "title": "Why your games take up way more drive space than expected (even when uninstalled)",
+      "excerpt": "Even after uninstalling a game, there are often remnants of data left in your storage. Some you may want to leave, and some you should delete manually.",
+      "body": "Even after uninstalling a game, there are often remnants of data left in your storage. Some you may want to leave, and some you should delete manually.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Nimrod Aldea)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.engadget.com/2299478/games-take-up-more-drive-space-expected/",
+      "image": "/images/feed/feed-8540e31da326.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-8b6ff3b01e3e",
+      "title": "The moon, Mars, and Jupiter shine in the heart of the Lion overnight on Nov. 1-2",
+      "excerpt": "The waning moon shines with Jupiter, Mars and the brilliant star Regulus in the eastern sky overnight Nov. 1-2.",
+      "body": "The moon dives towards the glowing heart of the constellation Leo for a spectacular rendezvous with Mars and Jupiter overnight on Nov. 1-2, as the glittering stars of the Beehive Cluster shine nearby. Here's what you need to know. Look to the eastern horizon an hour after midnight to see the 45%-lit waning moon shining less than 5 degrees from the red light of Mars — roughly the width of your three middle fingers held at arm's length to the night sky. Jupiter's bright light will gleam just below the red planet, with the bright star Regulus lining up beyond to form a dazzling procession leading back to the horizon. The stars of the Beehive Cluster (M44) can be found twinkling 10 degrees from the unlit side of the lunar disk around this time, in the middle of the constellation Cancer .",
+      "author": " Anthony Wood ",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.space.com/stargazing/the-moon-mars-and-jupiter-shine-in-the-heart-of-the-lion-overnight-on-nov-1-2",
+      "image": "/images/feed/feed-8b6ff3b01e3e.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-38074a19b1e4",
+      "title": "Can Silicon Valley Build A Safe Class 8 Truck? Early EV Semi Fires Expose The Experience Gap",
+      "excerpt": "If you drove through the East Bay area of California on Tuesday night, you probably got caught in a nightmare. A Tesla Semi traveling down Interstate 880 in Hayward caught fire during the evening comm…",
+      "body": "If you drove through the East Bay area of California on Tuesday night, you probably got caught in a nightmare. A Tesla Semi traveling down Interstate 880 in Hayward caught fire during the evening commute. There was no crash, no multi-vehicle pileup, and no obvious collision. The driver noticed something ... [continued] The post Can Silicon Valley Build A Safe Class 8 Truck? Early EV Semi Fires Expose The Experience Gap appeared first on CleanTechnica .",
+      "author": "Jennifer Sensiba",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://cleantechnica.com/2026/10/31/can-silicon-valley-build-a-safe-class-8-truck-early-ev-semi-fires-expose-the-experience-gap/",
+      "image": "/images/feed/feed-38074a19b1e4.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-390feb964204",
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "excerpt": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user I…",
+      "body": "Blockchain analytics firm Chainalysis disclosed a data breach after attackers used \"offensive agentic techniques\" to access internal systems and tools, exposing customer names, email addresses, user I — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Data Breach, Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ax Sharma",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Data Breach",
+        "Breach"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "image": "/images/feed/feed-390feb964204.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-0fe91ef86def",
+      "title": "How to improve audio quality on your Android phone with Bluetooth or wired headphones",
+      "excerpt": "Maximizing your listening experience on Android can get very complicated, but we'll guide you through settings and headphone choices to get you there.",
+      "body": "Maximizing your listening experience on Android can get very complicated, but we'll guide you through settings and headphone choices to get you there.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Android Phone, Headphones. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Max Miller)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Android Phone",
+        "Headphones"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.engadget.com/2298724/how-to-improve-android-phone-audio-quality-with-bluetooth-wired-headphones/",
+      "image": "/images/feed/feed-0fe91ef86def.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-9aac94722016",
+      "title": "Why Anthropic's Filing Crushed Tech Stocks",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "chmaynard",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+      "image": "/images/feed/feed-9aac94722016.jpg",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-3e5524f1ddd2",
+      "title": "What happens when AI starts self-replicating?",
+      "excerpt": "Anthropic warns that future is soon, but the threat is less novel than it seems.",
+      "body": "Anthropic warns that future is soon, but the threat is less novel than it seems.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Igor Bonifacic)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2302896/what-happens-when-ai-starts-self-replicating/",
+      "image": "/images/feed/feed-3e5524f1ddd2.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-e93a51f4c56c",
+      "title": "The pros and cons of using an all-in-one desktop computer",
+      "excerpt": "All-in-one (AIO) computers are more compact and easier to use than desktop setups, but they also trade simplicity for flexibility when it's time to upgrade.",
+      "body": "All-in-one (AIO) computers are more compact and easier to use than desktop setups, but they also trade simplicity for flexibility when it's time to upgrade.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Gabriela Vătu)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.engadget.com/2298592/pros-and-cons-using-all-in-one-desktop-computer/",
+      "image": "/images/feed/feed-e93a51f4c56c.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-13621c3cde10",
+      "title": "This Microsoft 365 Family plan cloud storage change may leave you frustrated",
+      "excerpt": "Your Microsoft 365 Family plan will transition to a new (smaller) shared storage model when you renew it.",
+      "body": "Your Microsoft 365 Family plan will transition to a new (smaller) shared storage model when you renew it.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Mariella Moon)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.engadget.com/2301048/this-microsoft-365-family-plan-cloud-storage-change-may-leave-you-frustrated/",
+      "image": "/images/feed/feed-13621c3cde10.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-065d6fd5d063",
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "excerpt": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the br…",
+      "body": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens. \"This month, Chainalysis detected an external actor using offensive agentic",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "image": "/images/feed/feed-065d6fd5d063.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-d731d6e9a7d5",
+      "title": "12 Years Later, Sofia Coppola's Unmade Epic Fantasy Still Lives Rent Free in My Head",
+      "excerpt": "Sofia Coppola, it’s not too late to make your dark take on The Little Mermaid",
+      "body": "The year was 2014. The live-action Disney remake craze had already begun thanks to the success of Tim Burton's Alice in Wonderland , but it hadn’t reached its box office peak. Meanwhile, on the other side of Hollywood, Sofia Coppola was attached to a movie bursting at the seams with possibilities: a live-action The Little Mermaid, not based on the 1998 Disney animated classic, but on the original Hans Christian Andersen fairy tale, where (spoiler alert) the brokenhearted mermaid dies by flinging herself into the ocean and dissolving into sea foam. I can picture Coppola’s compositions clearly in my mind: the mermaid (Elle Fanning) shot in pastel colors, thoughtfully looking out at the horizon. A song by The Strokes or Phoenix plays in the background.",
+      "author": "Maria Loreto",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/sofia-coppola-the-little-mermaid-story/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/sofia-coppola.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-46eb1c461b93",
+      "title": "Betelgeuse is haunted by a cosmic poltergeist tormenting the doomed star's atmosphere",
+      "excerpt": "Radio images show the supergiant's atmosphere recovering from its dramatic dimming, while a companion plows through its outer layers.",
+      "body": "Something spooky is stirring in the shadows of the infamous star Betelgeuse, a cosmic poltergeist that is disrupting the atmosphere of the red supergiant. New radio observations have shown Betelgeuse's smaller stellar companion, Siwarha (not Betelguese Betelguese, unfortunately), cutting through the supergiant's extended atmosphere and leaving a wake in its path, like a jet boat slicing through a lake.",
+      "author": " Sharmila Kuthunur ",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.space.com/astronomy/stars/betelgeuse-is-haunted-by-a-cosmic-poltergeist-tormenting-the-doomed-stars-atmosphere",
+      "image": "/images/feed/feed-46eb1c461b93.png",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-73d98880d862",
+      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
+      "excerpt": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.",
+      "body": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Malware. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lily Hay Newman, Matt Burgess",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Malware"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
+      "image": "/images/feed/feed-73d98880d862.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-9918e41da8c5",
+      "title": "AI-Powered Coffee Runs And Service Visits Are Coming To Rivians Next Year, Software Chief Says",
+      "excerpt": "Rivian Chief Software Officer Wassym Bensaid told InsideEVs an overhauled service experience is coming to its cars in 2027.",
+      "body": "Rivian Chief Software Officer Wassym Bensaid told InsideEVs an overhauled service experience is coming to its cars in 2027.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Rivian. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Rivian"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://insideevs.com/features/813951/rivian-chief-software-officer-wassym-bensaid-interview-ai-assistant/",
+      "image": "/images/feed/feed-9918e41da8c5.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-ca7f4163b022",
+      "title": "After A Year Without Tax Credits, EVs Are Down But Not Out",
+      "excerpt": "We look back at what happened in the EV market this year, and where things are headed next.",
+      "body": "We look back at what happened in the EV market this year, and where things are headed next.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://insideevs.com/features/813947/after-a-year-without-tax-credits-evs-are-down-not-out/",
+      "image": "/images/feed/feed-ca7f4163b022.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-cf9827198cd4",
+      "title": "We Took over ChatGPT Accounts",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Chatgpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "armcat",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Chatgpt"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "image": "/images/feed/feed-cf9827198cd4.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-81809b839557",
+      "title": "Halloween night sky 2026 — Saturn, shooting stars and a space station await US stargazers",
+      "excerpt": "From Saturn's spectacular rings to Halloween fireballs and a space station flyover, there are plenty of celestial treats in store this Halloween. Here's when and where to look.",
+      "body": "There could be more than just ghosts and ghouls lurking in the skies this Halloween! From Saturn's spectacular rings to shooting stars and even a space station flyover, the night sky has a few treats of its own in store for U.S. skywatchers on Oct. 31. Based on the latest national forecast, skies will be mainly clear on Saturday evening over most of New York State, northeast Pennsylvania, northern New Jersey and New England as well as a swath of the southern and central Great Plains, central Rockies, a portion of the Pacific Northwest and central and south Florida, as costumed kids arrive at the door looking for candy or some other Halloween treat.",
+      "author": " Joe Rao ",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space Station",
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.space.com/stargazing/halloween-night-sky-2026-saturn-shooting-stars-and-a-space-station-await-us-stargazers",
+      "image": "/images/feed/feed-81809b839557.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-a70c17c0a8e7",
+      "title": "The Wild World of Third-Party AI Apps for Ring Security, and Whether You Need Them",
+      "excerpt": "Ring cameras offer broad capabilities, but third-party AI tools give HOAs, landlords and others even more ways to use them.",
+      "body": "Ring cameras offer broad capabilities, but third-party AI tools give HOAs, landlords and others even more ways to use them.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Security. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Tyler Lacoma",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Security"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.cnet.com/home/security/ring-ai-app-store-third-parties-analysis-do-you-need-them/",
+      "image": "/images/feed/feed-a70c17c0a8e7.jpg",
+      "source": "CNET",
+      "isLive": true
+    },
+    {
+      "id": "feed-6c360090011b",
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, followin…",
+      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild. The vulnerabilities are listed below - CVE-2026-111357 (CVSS score: 8.8) - A missing authentication for a critical function vulnerability that could allow a",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "image": "/images/feed/feed-6c360090011b.jpg",
+      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -147,7 +740,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 42,
       "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
       "image": "/images/feed/feed-0ab8fba09e2d.jpg",
       "source": "The Hacker News",
@@ -155,9 +748,9 @@
     },
     {
       "id": "feed-05a9bedbc1dc",
-      "title": "Happy Halloween! SpaceX launches 27 Starlink satellites to orbit from California",
+      "title": "Happy Halloween! SpaceX launches 27 Starlink satellites to orbit from California (video)",
       "excerpt": "SpaceX sent another batch of its Starlink broadband satellites to orbit from California just after midnight on Halloween (Oct. 31).",
-      "body": "SpaceX celebrated Halloween with an early-morning launch from California. A Falcon 9 rocket lifted off from Vandenberg Space Force Base today (Oct. 31) at 12:04 a.m. EDT (0404 GMT; 9:04 p.m. on Oct. 30 local time), sending 27 of the company's Starlink internet satellites to low Earth orbit (LEO). The Falcon 9's first stage came back to Earth as planned, touching down about 8.5 minutes after launch on the SpaceX drone ship \"Of Course I Still Love You,\" which was stationed in the Pacific Ocean. The Falcon 9's first stage rests on the deck of a drone ship shortly after launch on Oct. 31, 2026. (Image credit: SpaceX) It was the 18th flight for this particular booster, which is designated B1093. The record for a SpaceX first stage is 37 , set this past August by the booster B1067.",
+      "body": "SpaceX celebrated Halloween with an early-morning launch from California. A Falcon 9 rocket lifted off from Vandenberg Space Force Base today (Oct. 31) at 12:04 a.m. EDT (0404 GMT; 9:04 p.m. on Oct. 30 local time), sending 27 of the company's Starlink internet satellites to low Earth orbit (LEO). The Falcon 9's first stage came back to Earth as planned, touching down about 8.5 minutes after launch on the SpaceX drone ship \"Of Course I Still Love You,\" which was stationed in the Pacific Ocean. A SpaceX Falcon 9 rocket launches 27 Starlink satellites from California's Vandenberg Space Force Base just after midnight ET on Oct. 31, 2026. (Image credit: SpaceX) It was the 18th flight for this particular booster, which is designated B1093.",
       "author": " Mike Wall ",
       "date": "2026-10-31",
       "readTime": "2 min",
@@ -168,48 +761,10 @@
         "Orbit"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 41,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly",
       "image": "/images/feed/feed-05a9bedbc1dc.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-dee7e8f25178",
-      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "excerpt": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomou…",
-      "body": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "image": "/images/feed/feed-dee7e8f25178.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-e8d411fa213d",
-      "title": "Costco Reveals Its Full Black Friday Ad and Sale Dates for 2026",
-      "excerpt": "Costco Reveals Its Full Black Friday Ad and Sale Dates for 2026",
-      "body": "Costco has officially revealed its annual Holiday Savings ad and you can already start browsing what will be discounted this year. Similar to other retailers, Costco is offering multiple waves of savings leading up to Black Friday and Cyber Monday . The first wave of sales kicked off on October 30 and will run through November 15. Costco Black Friday Sale Schedule According to Costco&#39;s official page, most the deals will be available both in-warehouse or online except for on Thanksgiving and Cyber Monday. You can check out the full schedule below and click on each link to check out the ads for each sale.",
-      "author": "Jacob Kienlen",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.ign.com/articles/costco-reveals-its-full-black-friday-ad-and-sale-dates-for-2026",
-      "image": "/images/feed/feed-e8d411fa213d.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -225,48 +780,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 53,
       "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
       "image": "/images/feed/feed-6937a10f3535.jpg",
       "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-9f9316fcde1d",
-      "title": "5 Must-Play New Xbox Games Coming in November, Including GTA 6",
-      "excerpt": "Xbox Series X is getting a lot of hidden gems in November, alongside Grand Theft Auto 6.",
-      "body": "If you only took a quick glance at November’s release date calendar, you might walk away with the idea that Xbox players are only getting one game this month: Grand Theft Auto 6 . While that’s certainly the only big game coming to Series X, the first few weeks of November are deceptively crowded . A stack of indie hidden gems and nostalgic remasters are here to make sure you have something to play while you wait for your return to Vice City.",
-      "author": "Giovanni Colantonio",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Xbox"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/new-xbox-games-november-2026/",
-      "image": "/images/feed/feed-9f9316fcde1d.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-850198205dce",
-      "title": "By Skipping Last-Gen Systems, Stranger Than Heaven is Allowing RGG Studio to Fully Leverage the Power of Current-Gen Consoles at Long Last",
-      "excerpt": "By Skipping Last-Gen Systems, Stranger Than Heaven is Allowing RGG Studio to Fully Leverage the Power of Current-Gen Consoles at Long Last",
-      "body": "Stranger Than Heaven will apparently be the most technically accomplished game that developer RGG Studio has ever produced, and that’s largely due to the fact that it&#39;s being created solely for current generation hardware. The game’s producer, Hiroyuki Sakamoto, confirmed as much to IGN during an interview conducted at Gamescom Asia x Thailand Game Show 2026 this week. “We set out to make Stranger Than Heaven as a completely brand-new game, with the goal of creating something entirely fresh while putting forth the absolute best quality we can produce right now,” explained Sakamoto.",
-      "author": "Tristan Ogilvie",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.ign.com/articles/by-skipping-last-gen-systems-stranger-than-heaven-is-allowing-rgg-studio-to-fully-leverage-the-power-of-current-gen-consoles-at-long-last",
-      "image": "/images/feed/feed-850198205dce.png",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -282,29 +799,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 32,
       "url": "https://cleantechnica.com/2026/10/30/hyundai-ioniq-3-named-european-car-of-the-year-2027-finalist/",
       "image": "/images/feed/feed-26fc1debd2a3.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-565d86cf3578",
-      "title": "Sony's Bringing Back Spider-Man $2.5 Billion Hit With New Footage",
-      "excerpt": "Spider-Man: Brand New Day isn't done dominating movie theaters, with Sony planning an extended rerelease of 2026's Spider-Man cinematic feat.",
-      "body": "As Marvel Studios' release of Avengers Endgame: Encore proves, blockbuster movies can still dominate the box office , even after a multibillion dollar run. Sony is reportedly planning a rerelease of Spider-Man: Brand New Day to bring web-head-heads back to movie theaters — and like Endgame: Encore , the studio is adding new footage of Spider-Man 's latest flick as an incentive.",
-      "author": "Michael McWhertor",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.polygon.com/spider-man-brand-new-day-rerelease-extended-new-footage-cameos/",
-      "image": "/images/feed/feed-565d86cf3578.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -320,29 +818,10 @@
         "Autonomous Driving"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 46,
       "url": "https://cleantechnica.com/2026/10/30/toyota-waymo-advance-autonomous-driving-collaboration-for-safer-streets-and-freedom-of-movement-for-all/",
       "image": "/images/feed/feed-bc77f841741d.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-1361c1b56238",
-      "title": "15 Classic Games That Prove Gameplay Is More Important Than Graphics",
-      "excerpt": "Great visuals never hurt, but these 15 classic games prove that gameplay is the more important factor for timelessness.",
-      "body": "There’s no getting around it: graphics matter a great deal for video games. For many years, visual fidelity alone was one of the best reasons to invest in new consoles and better gaming PCs. There have always been games that didn’t compete for a position at the head of the pack, though. Their developers recognized the importance of compelling gameplay loops, fiendish difficulty, multiplayer appeal, and innovation long before such priorities reliably drew crowds.",
-      "author": "Jason Venter",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gameplay"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.polygon.com/classic-games-bad-graphics-good-gameplay/",
-      "image": "/images/feed/feed-1361c1b56238.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -358,48 +837,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 40,
       "url": "https://cleantechnica.com/2026/10/30/the-share-of-solar-generation-with-co-located-battery-storage-is-increasing/",
       "image": "/images/feed/feed-f9a841791bc3.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-ec43398075a0",
-      "title": "Top 10 Pokémon Cards Most Likely to Be Fake",
-      "excerpt": "Counterfeit Pokémon cards is a big business, but some TCG cards are more suspicious than others. Here's how to tell fakes from legit Pokémon cards.",
-      "body": "The more Pokémon trading cards pop off , the more potential players and collectors have to worry about one thing: counterfeit cards. Sometimes, a fake card will be obvious. As more money pours into the hobby , however, there's more incentive than ever to pull a fast one on people. Fakes are getting harder to tell from authentic ones, but it helps to know what Pokémon cards are the most likely targets — and what you should look out for in general while inspecting singles.",
-      "author": "Patricia Hernandez",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.polygon.com/top-10-pokemon-cards-most-likely-to-be-fake-how-to-tell/",
-      "image": "/images/feed/feed-ec43398075a0.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-c69b947ae85b",
-      "title": "Final Fantasy XIV Evercold Delayed, New Release Date Announced at FFXIV Fan Fest",
-      "excerpt": "The MMORPG's next expansion was set to launch shortly after the new year, but Warriors of Light will have to wait a bit longer.",
-      "body": "Final Fantasy XIV Evercold was set to launch sometime in January 2027, which was announced as part of its initial reveal back in April this year during the North American FFXIV Fan Fest. However, this next expansion for the critically acclaimed MMORPG has been delayed – FFXIV Evercold&#39;s release date is now February 23, 2027 (and February 19, 2027 for early access). This was announced alongside the new, full trailer / intro cinematic for Evercold at FFXIV Fan Fest in Japan, and was said to only be a four-week delay.",
-      "author": "Michael Higham",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest",
-      "image": "/images/feed/feed-c69b947ae85b.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -415,164 +856,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 32,
       "url": "https://cleantechnica.com/2026/10/30/homepower-1000-plus-v2-portable-power-put-to-use/",
       "image": "/images/feed/feed-75ab6a29f080.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-dcf40710bd40",
-      "title": "Electric Vehicle Council Celebrating 10 Years of EV Progress in Australia",
-      "excerpt": "The Electric Vehicle Council has been tracking the progress of electric vehicle uptake in Australia over the last ten years. Their latest report is a celebration of achievements. It is 144 pages long,…",
-      "body": "The Electric Vehicle Council has been tracking the progress of electric vehicle uptake in Australia over the last ten years. Their latest report is a celebration of achievements. It is 144 pages long, and you can read the entire report here. I will just be hitting the highlights and providing ... [continued] The post Electric Vehicle Council Celebrating 10 Years of EV Progress in Australia appeared first on CleanTechnica .",
-      "author": "David Waterworth",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Electric Vehicle",
-        "Ev",
-        "Vehicle"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://cleantechnica.com/2026/10/30/electric-vehicle-council-celebrating-10-years-of-ev-progress-in-australia/",
-      "image": "/images/feed/feed-dcf40710bd40.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-df53fcadcfdb",
-      "title": "Download all 20 Apple HomeView wallpapers in light and dark mode here",
-      "excerpt": "Apple tonight rolled out the HomeView 27.2 system update, ahead of the device’s official launch on November 13. The update includes the device’s default wallpapers, each available in light and dark va…",
-      "body": "Apple tonight rolled out the HomeView 27.2 system update, ahead of the device’s official launch on November 13. The update includes the device’s default wallpapers, each available in light and dark va — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://9to5mac.com/2026/10/30/download-all-20-apple-homeview-wallpapers-in-light-and-dark-mode-here/",
-      "image": "/images/feed/feed-df53fcadcfdb.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-edbe57d73b91",
-      "title": "WhatsApp announces four new features to make group chats easier to manage",
-      "excerpt": "In a blog post this week, WhatsApp confirmed that it is rolling out four new features designed to make it easier to manage group chats and keep track of what’s going on in each one. Here are the detai…",
-      "body": "In a blog post this week, WhatsApp confirmed that it is rolling out four new features designed to make it easier to manage group chats and keep track of what’s going on in each one. Here are the detai — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://9to5mac.com/2026/10/30/whatsapp-announces-four-new-features-to-make-group-chats-easier-to-manage/",
-      "image": "/images/feed/feed-edbe57d73b91.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-c4633831b2d2",
-      "title": "The world mourns the passing of 'Star Trek's' Patrick Stewart with a galaxy of tearful tributes",
-      "excerpt": "\"He wore his heart on his sleeve, which made him a man to rely on, to admire and, in my case, love.\"",
-      "body": "As we all begin to absorb the bitter news of Patrick Stewart's death at the age of 86, a flood of personal tributes are pouring in, reflecting this global treasure's wonderful life lived with a dignity and bravado that few mortals possess. We’re getting just a hint of what Patrick Stewart meant to those who worked with him or knew him throughout his stellar career. Whether on stage with the Royal Shakespeare Company, on TV as the dashing Captain Jean-Luc Picard in \" Star Trek: The Next Generation ,\" and in Hollywood spectacles like 1984's \"Dune,\" four \" Star Trek \" feature films, and the many \"X-Men\" movies in which he portrayed Professor Charles Xavier, Stewart was always the consummate professional. His final screen performance arrives on Dec.",
-      "author": " Jeff Spry ",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.space.com/entertainment/the-world-mourns-the-passing-of-star-treks-patrick-stewart-with-a-galaxy-of-tearful-tributes",
-      "image": "/images/feed/feed-c4633831b2d2.png",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-d017624c709a",
-      "title": "9to5Mac Daily: October 30, 2026 – New HomePod features, more",
-      "excerpt": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca…",
-      "body": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-      "author": "Seth Kurkowski",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://9to5mac.com/2026/10/30/daily-october-30-2026/",
-      "image": "/images/feed/feed-d017624c709a.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-fffbf9548deb",
-      "title": "Apple confirms iOS 27.3 beta is coming next week with Apple Intelligence in China",
-      "excerpt": "Apple today took the unusual step of confirming when its next iOS developer beta is expected to arrive, as part of an announcement detailing the upcoming launch of Apple Intelligence in China. Here ar…",
-      "body": "Apple today took the unusual step of confirming when its next iOS developer beta is expected to arrive, as part of an announcement detailing the upcoming launch of Apple Intelligence in China. Here ar — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/",
-      "image": "/images/feed/feed-fffbf9548deb.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-dd381be2fa23",
-      "title": "Google Pixel Watch 5 Sale: Its Lowest Price Yet (2026)",
-      "excerpt": "Google’s latest smartwatch packs great new health and fitness features, and it’s already on sale ahead of Black Friday.",
-      "body": "Google’s latest smartwatch packs great new health and fitness features, and it’s already on sale ahead of Black Friday.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Boutayna Chokrane ",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.wired.com/story/googles-pixel-watch-5-is-down-to-its-lowest-price-yet/",
-      "image": "/images/feed/feed-dd381be2fa23.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-eadd31c78881",
-      "title": "Samsung Slices at Apple’s iPhone Duo With Its Z Fold 8 Ad",
-      "excerpt": "Samsung’s advertisement features a sliced green apple that rolls right along through the entire Galaxy Z Fold line.",
-      "body": "Samsung’s advertisement features a sliced green apple that rolls right along through the entire Galaxy Z Fold line.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Mike Sorrentino",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.cnet.com/tech/mobile/samsung-slice-apple-iphone-duo-z-fold-8-ad/",
-      "image": "/images/feed/feed-eadd31c78881.jpg",
-      "source": "CNET",
       "isLive": true
     },
     {
@@ -588,47 +875,9 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 36,
       "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "image": "/images/feed/feed-d12607a6e474.webp",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-702128da0bf4",
-      "title": "‘Pluribus’ season 2 reportedly begins filming tomorrow",
-      "excerpt": "According to a report published earlier this month, the second season of Apple TV’s acclaimed sci-fi drama ‘Pluribus’ is scheduled to begin filming tomorrow, October 31, in Albuquerque, New Mexico. He…",
-      "body": "According to a report published earlier this month, the second season of Apple TV’s acclaimed sci-fi drama ‘Pluribus’ is scheduled to begin filming tomorrow, October 31, in Albuquerque, New Mexico. He — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://9to5mac.com/2026/10/30/pluribus-season-2-reportedly-begins-filming-tomorrow/",
-      "image": "/images/feed/feed-702128da0bf4.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-62efadaf1b1a",
-      "title": "Last-minute Halloween costumes for tech nerds",
-      "excerpt": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.",
-      "body": "No Halloween costume? Just be a deceptively cute AI agent icon, a PHP vulnerability, or sleepy time Bryan Johnson.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Amanda Silberling",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
-      "image": "/images/feed/feed-62efadaf1b1a.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -645,7 +894,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 34,
       "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
       "image": "/images/feed/feed-ddc37ba70c3e.jpg",
       "source": "Wired",
@@ -664,49 +913,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 36,
       "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
       "image": "/images/feed/feed-0697c0d6577e.jpg",
       "source": "Ars Technica",
-      "isLive": true
-    },
-    {
-      "id": "feed-c2baec552feb",
-      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
-      "excerpt": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Mult…",
-      "body": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Mult — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lawrence Abrams",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
-      "image": "/images/feed/feed-c2baec552feb.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-a8b519f362c0",
-      "title": "An aquanaut comes home: Returning to Earth from an undersea 'space station'",
-      "excerpt": "After five days of living underwater, Analog Astronaut Commander Dr. Musilova and her crew return to terra firma, affected by higher pressures and the team's disconnection from home.",
-      "body": "Our time on our \"space mission\" underwater was coming to an end, and I felt like what I imagine an astronaut on the International Space Station (ISS) must feel before returning to Earth. On one hand, you are excited to return to your home and loved ones, as well as to fresh food and normal hygiene. On the other, you know you will miss your crew and the incredible experience of being in space. While my SEA STAR crew and I had not left Earth during our mission, we were separated from the surface of our home planet for five days. All we saw was a green alien water world surrounding us. We did this to live and work like astronauts on the ISS .",
-      "author": " Michaela Musilova ",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space Station",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.space.com/space-exploration/human-spaceflight/an-aquanaut-comes-home-returning-to-earth-from-an-undersea-space-station",
-      "image": "/images/feed/feed-a8b519f362c0.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -722,236 +932,24 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 47,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
       "image": "/images/feed/feed-22e8c569cc06.jpg",
       "source": "The Verge",
       "isLive": true
-    },
-    {
-      "id": "feed-13947adb5fdd",
-      "title": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
-      "excerpt": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.",
-      "body": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic, Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lily Hay Newman",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic",
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
-      "image": "/images/feed/feed-13947adb5fdd.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-9a8a7d8be1c8",
-      "title": "India launches next-gen navigation satellite to orbit (video)",
-      "excerpt": "India launched the NVS-03 navigation satellite to orbit today (Oct. 30) atop a GSLV rocket. It was the fourth orbital launch from Indian soil so far this year.",
-      "body": "India bolstered its homegrown satellite-navigation system today (Oct. 30). A GSLV Mark II rocket launched the nation's NVS-03 satellite from Satish Dhawan Space Centre today at 2:21 p.m. EDT (1821 GMT and 11:51 p.m. India Standard Time). Everything went well: The rocket deployed NVS-03 into geostationary transfer orbit as planned, officials with the Indian Space Research Organisation (ISRO) announced on X about 30 minutes after liftoff. An Indian GSLV Mark II rocket launches the NVS-03 navigation satellite on Oct. 30, 2026. (Image credit: ISRO) NVS-03 is the third next-gen satellite that India has launched for the Navigation with Indian Constellation (NavIC), its version of the United States' Global Positioning System ( GPS ).",
-      "author": " Mike Wall ",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Satellite",
-        "Orbit"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/india-launches-nvs-03-navigation-satellite-gslv-rocket",
-      "image": "/images/feed/feed-9a8a7d8be1c8.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-18ea57daed9d",
-      "title": "The biggest names in AI are backing a new way to opt out of scraping",
-      "excerpt": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this contro…",
-      "body": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable . With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal is proposed by Kevin Kelley, a technical lead for standards at Anthropic, as part of the Internet Engineering Task Force (IETF). It will live within a website's robots.txt file , which has long signaled which web crawlers can and can't scrape a site - whether for search indexing, archiving, or … Read the full story at The Verge.",
-      "author": "Emma Roth",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
-      "image": "/images/feed/feed-18ea57daed9d.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-4d20faed0a18",
-      "title": "BYD reveals a flashy new feature on its upcoming luxury EV",
-      "excerpt": "BYD is moving upmarket with its new flagship EV, featuring suicide doors, a gemstone grille, and possibly solid-state batteries. more…",
-      "body": "BYD is moving upmarket with its new flagship EV, featuring suicide doors, a gemstone grille, and possibly solid-state batteries. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://electrek.co/2026/10/30/byd-reveals-flashy-new-feature-upcoming-luxury-ev/",
-      "image": "/images/feed/feed-4d20faed0a18.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-ed4709d47839",
-      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
-      "excerpt": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the a…",
-      "body": "NASA’s Freedom 250 F-5 team, including NASA Administrator Jared Isaacman, performs a flyover during the national anthem at an NFL game between the Cleveland Browns and the Carolina Panthers at Huntington Bank Field, Sept. 27, 2026, in Cleveland. Credit: NASA/Jordan Cochran America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER , NASA and a variety of external collaborators will showcase the newest aircraft, autonomous vehicles, technologies, and more defining the future of air and space.",
-      "author": "Jessica Taveau",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
-      "image": "/images/feed/feed-ed4709d47839.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-8cacda895b21",
-      "title": "Podcast: Rivian earnings, Waymo partners with Toyota, Ford bets on V2H for Fathom, and more",
-      "excerpt": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Rivian’s earnings, Waymo partnering with Toyota, Ford…",
-      "body": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Rivian’s earnings, Waymo partnering with Toyota, Ford — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Rivian. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Fred Lambert",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Rivian"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://electrek.co/2026/10/30/podcast-rivian-earnings-waymo-partners-with-toyota-ford-bets-on-v2h-for-fathom-and-more/",
-      "image": "/images/feed/feed-8cacda895b21.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-a1c7541af339",
-      "title": "5 horror franchises that went to space... and one that absolutely should have but didn't",
-      "excerpt": "In space, no one can hear you scream, a bit like the empty theater screens that some horror franchise's final installments limp. But there are still some real gems among the space-based frightfests.",
-      "body": "In space, no one can hear you scream... not unlike in the empty theater screens that aging horror franchises play to when the lustre has gone and their final installments limp to the public. It is perhaps little wonder that some horror franchises go to space to die... or take long breaks, at least. In celebration of Halloween , we're running down some horror franchises that made the journey to the final frontier, resulting in films that range from the sublime and outrageously campy fun to just pure awful. Absent from the list are space horror movies that have space baked into their natural fabric. So no Event Horizon, no Alien, and no Critters 4 (they were aliens, so they just went back to space; that doesn't count). 1.",
-      "author": " Robert Lea ",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.space.com/entertainment/space-movies-shows/5-horror-franchises-that-went-to-space-and-one-that-absolutely-should-have-but-didnt",
-      "image": "/images/feed/feed-a1c7541af339.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-5caf201c7d73",
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "excerpt": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simulta…",
-      "body": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "image": "/images/feed/feed-5caf201c7d73.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-0fe2275ef1e8",
-      "title": "Your Netgear router may be vulnerable to a security exploit – how to check and patch it",
-      "excerpt": "A vulnerability in some Netgear routers could allow an attacker with access to your network to run malicious commands on the device.",
-      "body": "A vulnerability in some Netgear routers could allow an attacker with access to your network to run malicious commands on the device.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Exploit, Security. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lance Whitney",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Exploit",
-        "Security"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.zdnet.com/tech/netgear-routers-vulnerable-security-exploit/",
-      "image": "https://www.zdnet.com/wp-content/uploads/sites/3/wirelessred-GettyImages-865321186.jpg",
-      "source": "ZDNet",
-      "isLive": true
-    },
-    {
-      "id": "feed-68cc4ea87196",
-      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
-      "excerpt": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
-      "body": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
-      "image": "/images/feed/feed-68cc4ea87196.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-14b39e2399e0",
-      "title": "Making it easier for websites to express AI training preferences",
-      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "body": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "OpenAI Blog",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "image": "/images/topics/topic-ai-ml.png",
-      "source": "OpenAI Blog",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Before You Burn GPU Hours, Smoke-Test One Task on a Cheap CPU Runtime",
-    "DEV.TO: Summarize Kaggle Notebook Status and Logs in ~7 Lines with the Kaggle CLI (Goodbye, .bat + Notepad)",
-    "DEV.TO: One hotel API vs ten supplier integrations: what we learned",
-    "DEV.TO: HAQ",
-    "DEV.TO: # 🛡️ Building an Enterprise AML/CFT Risk Intelligence Platform with Gemma 4",
-    "DEV.TO: My API Was Returning Every User's Password Hash. I Didn't Notice for Weeks.",
-    "DEV.TO: Agents don't go rogue. Scopes do. Five controls, in config",
-    "THE HACKER NEWS: A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-    "SPACE.COM: Happy Halloween! SpaceX launches 27 Starlink satellites to orbit from California",
-    "THE HACKER NEWS: Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%"
+    "DEV.TO: Source code leakage through AI coding assistants: 5 paths and the control for each",
+    "DEV.TO: Search a YouTube channel's transcripts and get alerts for new uploads (Apify, no code)",
+    "DEV.TO: Read a TLS certificate expiry check without turning every failure into expired",
+    "DEV.TO: Introducing NHI-Blast v0.2.0 Beta 🔐",
+    "DEV.TO: Airlock: a veto window for your POT, built on Portaldot's Proxy pallet",
+    "DEV.TO: MFQ — the person behind the initials",
+    "DEV.TO: Ballast: freezing a test dollar on Portaldot when its reserve runs short",
+    "KOTAKU: Doom Director Says ‘We’re Doing Great’ After Half Of id Software Was Laid Off",
+    "POLYGON: Anyone Can Play Soulframe For Free Starting Next Week",
+    "SPACE.COM: This Week In Space podcast: Episode 234 — Living in Lunar Caves"
   ],
   "sectionVideos": {}
 }
