@@ -1,23 +1,445 @@
 {
-  "fetchedAt": "2026-10-31T01:12:07.008Z",
+  "fetchedAt": "2026-10-31T07:40:24.995Z",
   "articles": [
     {
-      "id": "feed-c3794e9ba522",
-      "title": "10 Essential NES Games Still Missing From Switch Online",
-      "excerpt": "Nintendo Switch Online may offer dozens of great titles, but 10 must-have NES games still haven't reached the service.",
-      "body": "The Nintendo Entertainment System is credited with rescuing a flailing industry back in the late ‘80s and early ‘90s. Over the years, hundreds of amazing games launched for the console, and many of the best and most memorable of them are now available to play on Nintendo Switch Online . However, dozens of other fantastic titles still haven’t reached the service, and that needs to change. Out of those dozens remaining, here are 10 NES games that still need to come to Switch Online as soon as possible.",
-      "author": "Jason Venter",
+      "id": "feed-0e0dd718f57b",
+      "title": "Before You Burn GPU Hours, Smoke-Test One Task on a Cheap CPU Runtime",
+      "excerpt": "This article was originally published in Japanese on Zenn. Hi, I'm Kohei Matsunobe, a second-year student in the online (correspondence) program at ZEN University. I'm working toward becoming an AI en…",
+      "body": "This article was originally published in Japanese on Zenn . Introduction Hi, I'm Kohei Matsunobe, a second-year student in the online (correspondence) program at ZEN University. I'm working toward becoming an AI engineer, and on my own I run experiment pipelines that evaluate LLM outputs and code on notebooks and cloud runtimes. GPU runtimes are great, but they're expensive per hour, and there's a cap on how many compute units you can use. I've made the same mistakes more than once: \"I grabbed a GPU, launched the real job, and it crashed in the first few minutes,\" or \"it crashed, I didn't notice, and the runtime just sat there running.\" Looking back, almost all of those failures could have been caught without a GPU.",
+      "author": "kohei matsunobu",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 36,
+      "url": "https://dev.to/koheip/before-you-burn-gpu-hours-smoke-test-one-task-on-a-cheap-cpu-runtime-h8h",
+      "image": "/images/feed/feed-0e0dd718f57b.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-241661532997",
+      "title": "Summarize Kaggle Notebook Status and Logs in ~7 Lines with the Kaggle CLI (Goodbye, .bat + Notepad)",
+      "excerpt": "This article was originally published in Japanese on Qiita. Hi, I'm Kohei Matsunobe. I'm a second-year student in the online (correspondence) program at ZEN University, studying to become an AI engine…",
+      "body": "This article was originally published in Japanese on Qiita . Introduction Hi, I'm Kohei Matsunobe. I'm a second-year student in the online (correspondence) program at ZEN University, studying to become an AI engineer. Once I started running Kaggle notebooks (kernels) from my local machine with kaggle kernels push , one small thing kept eating my time: checking what was going on. Is it still running? Did it finish? Did it fail? And if it failed, where? Checking that in the browser or digging through log files every single time got old fast. In this post, I'll share a script that calls kaggle kernels status and kaggle kernels output from Python and boils the status and log down to a ~7-line summary plus one CSV row .",
+      "author": "kohei matsunobu",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 49,
+      "url": "https://dev.to/koheip/summarize-kaggle-notebook-status-and-logs-in-7-lines-with-the-kaggle-cli-goodbye-bat-notepad-32o2",
+      "image": "/images/feed/feed-241661532997.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1fe07c0d9cc7",
+      "title": "One hotel API vs ten supplier integrations: what we learned",
+      "excerpt": "From the TraveleXe engineering team. We build APINex, a unified travel API — this post is about the trade-offs, including when you shouldn't use one. If you're building a travel booking product, you'l…",
+      "body": "From the TraveleXe engineering team. We build APINex, a unified travel API — this post is about the trade-offs, including when you shouldn't use one. If you're building a travel booking product, you'll hit the supplier question early: integrate each hotel supplier directly, or put one aggregation layer in front of all of them? Direct integrations give you full control of each supplier's features and no middle layer. The cost: every supplier has its own schema, auth, error codes, rate-limit behaviour and certification process. Ten suppliers is ten of everything, and they all change on their own schedules. A unified API gives you one schema, one auth model and normalised responses.",
+      "author": "Travelexe edge91",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Api"
+      ],
+      "featured": true,
+      "xpReward": 39,
+      "url": "https://dev.to/travelexe_edge91_b08eec3f/one-hotel-api-vs-ten-supplier-integrations-what-we-learned-3dc9",
+      "image": "/images/feed/feed-1fe07c0d9cc7.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-3faf4fbc9827",
+      "title": "HAQ",
+      "excerpt": "Haq (حق) — Making Legal Information Accessible with Local AI This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine. I built Haq Guide (حق گائیڈ), a privacy-f…",
+      "body": "Haq (حق) — Making Legal Information Accessible with Local AI This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine . What I Built I built Haq Guide (حق گائیڈ) , a privacy-focused legal information assistant designed to help people understand their rights, legal notices, agreements, and available options in plain language. The idea behind Haq is simple: legal information shouldn't be difficult to access or understand. Users can describe their situation or upload a legal document, such as a notice or agreement. Haq helps break down the information, identify important details, explain relevant rights and options, and point users towards official resources and legal aid.",
+      "author": "Tabiq ",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 38,
+      "url": "https://dev.to/tabiqzargar/haq-589a",
+      "image": "/images/feed/feed-3faf4fbc9827.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-cd85d78fe818",
+      "title": "# 🛡️ Building an Enterprise AML/CFT Risk Intelligence Platform with Gemma 4",
+      "excerpt": "🛡️ Building an Enterprise AML/CFT Risk Intelligence Platform with Gemma 4 🏆 Hackathon Prize Track Alignment This project explicitly targets the Best Open-Source AI Project Track and the Best Use of…",
+      "body": "🛡️ Building an Enterprise AML/CFT Risk Intelligence Platform with Gemma 4 🏆 Hackathon Prize Track Alignment This project explicitly targets the Best Open-Source AI Project Track and the Best Use of Gemma 4 Track . It builds a highly disciplined compliance architecture around the Reserve Bank of India (RBI) Master KYC Directions, using open-weight architectures to ensure 100% data residency and secure financial audit pipelines. 📊 Core Workspace Architecture Stateless Semantic Reasoning Core: Integrates Google's Gemma 4 (gemma-4-26b-a4b-it) model combined with LangChain Vector RAG stores (FAISS) to parse legal regulation chunks dynamically.",
+      "author": "T A Srinivas",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 44,
+      "url": "https://dev.to/t_asrinivas_518e5dd5ed1a/-building-an-enterprise-amlcft-risk-intelligence-platform-with-gemma-4-145i",
+      "image": "/images/feed/feed-cd85d78fe818.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-7f649754911f",
+      "title": "My API Was Returning Every User's Password Hash. I Didn't Notice for Weeks.",
+      "excerpt": "Why a FastAPI endpoint happily sends back fields you never meant to expose, and the one line that filters them out. The endpoint looked harmless. Fetch a user, return the user. @app.get(\"/users/{user_…",
+      "body": "Why a FastAPI endpoint happily sends back fields you never meant to expose, and the one line that filters them out. The endpoint looked harmless. Fetch a user, return the user. @app.get ( \" /users/{user_id} \" ) async def get_user ( user_id : int ): user = await db . get_user ( user_id ) return user It worked. It returned the user's name, email, everything the frontend needed. Nobody looked twice. Weeks later, someone opened the browser network tab while debugging an unrelated issue and went quiet. The JSON response for that endpoint had a field none of us wanted anyone to see. { \"id\" : 42 , \"username\" : \"anna\" , \"email\" : \"anna@example.com\" , \"password_hash\" : \"$2b$12$Q9....\" , \"is_admin\" : true , \"internal_notes\" : \"flagged for review\" } The password hash. The admin flag.",
+      "author": "Anas Issath",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Api"
+      ],
+      "featured": true,
+      "xpReward": 50,
+      "url": "https://dev.to/anas_issath/my-api-was-returning-every-users-password-hash-i-didnt-notice-for-weeks-4d4c",
+      "image": "/images/feed/feed-7f649754911f.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-68b0c32d6889",
+      "title": "Agents don't go rogue. Scopes do. Five controls, in config",
+      "excerpt": "If your agent can reach the internet, hold a long-lived key and write its own logs, it doesn't need to \"go rogue\" to cause an incident. It just needs a task and an open door. That's the practical read…",
+      "body": "If your agent can reach the internet, hold a long-lived key and write its own logs, it doesn't need to \"go rogue\" to cause an incident. It just needs a task and an open door. That's the practical reading of this year's agent incidents. OpenAI's technical report says agents in a July 2026 cyber evaluation, run with certain safeguards disabled, exploited a flaw in an internal package-mirror service to reach the internet. They then used publicly exposed credentials, together with vulnerabilities in Hugging Face's own infrastructure, to compromise parts of its production systems.",
+      "author": "ankush1982",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://dev.to/ankush1982/agents-dont-go-rogue-scopes-do-five-controls-in-config-5169",
+      "image": "/images/feed/feed-68b0c32d6889.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-0ab8fba09e2d",
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "excerpt": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parame…",
+      "body": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at&nbsp;the security firm Parameter&nbsp;showed. The researchers reported the flaw through&nbsp;OpenAI's bug bounty program&nbsp;on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "image": "/images/feed/feed-0ab8fba09e2d.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-05a9bedbc1dc",
+      "title": "Happy Halloween! SpaceX launches 27 Starlink satellites to orbit from California",
+      "excerpt": "SpaceX sent another batch of its Starlink broadband satellites to orbit from California just after midnight on Halloween (Oct. 31).",
+      "body": "SpaceX celebrated Halloween with an early-morning launch from California. A Falcon 9 rocket lifted off from Vandenberg Space Force Base today (Oct. 31) at 12:04 a.m. EDT (0404 GMT; 9:04 p.m. on Oct. 30 local time), sending 27 of the company's Starlink internet satellites to low Earth orbit (LEO). The Falcon 9's first stage came back to Earth as planned, touching down about 8.5 minutes after launch on the SpaceX drone ship \"Of Course I Still Love You,\" which was stationed in the Pacific Ocean. The Falcon 9's first stage rests on the deck of a drone ship shortly after launch on Oct. 31, 2026. (Image credit: SpaceX) It was the 18th flight for this particular booster, which is designated B1093. The record for a SpaceX first stage is 37 , set this past August by the booster B1067.",
+      "author": " Mike Wall ",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Satellite",
+        "Orbit"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starlink-launch-falcon-9-group-15-18-landing-ocisly",
+      "image": "/images/feed/feed-05a9bedbc1dc.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-dee7e8f25178",
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "excerpt": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomou…",
+      "body": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "image": "/images/feed/feed-dee7e8f25178.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-e8d411fa213d",
+      "title": "Costco Reveals Its Full Black Friday Ad and Sale Dates for 2026",
+      "excerpt": "Costco Reveals Its Full Black Friday Ad and Sale Dates for 2026",
+      "body": "Costco has officially revealed its annual Holiday Savings ad and you can already start browsing what will be discounted this year. Similar to other retailers, Costco is offering multiple waves of savings leading up to Black Friday and Cyber Monday . The first wave of sales kicked off on October 30 and will run through November 15. Costco Black Friday Sale Schedule According to Costco&#39;s official page, most the deals will be available both in-warehouse or online except for on Thanksgiving and Cyber Monday. You can check out the full schedule below and click on each link to check out the ads for each sale.",
+      "author": "Jacob Kienlen",
       "date": "2026-10-31",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
         "Gaming"
       ],
-      "featured": true,
-      "xpReward": 54,
-      "url": "https://www.polygon.com/best-nes-games-missing-switch-online/",
-      "image": "/images/feed/feed-c3794e9ba522.jpg",
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.ign.com/articles/costco-reveals-its-full-black-friday-ad-and-sale-dates-for-2026",
+      "image": "/images/feed/feed-e8d411fa213d.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-6937a10f3535",
+      "title": "APOD: 2026 October 31 – Night on a Spooky Planet",
+      "excerpt": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
+      "body": "APOD Science APOD APOD: 2026 October 31 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Night on a Spooky Planet Explanation: What spooky planet is this? Planet Earth on a dark and stormy night, of course. The ghostly scene was photographed at Hverir , a geothermally active area found along northeastern Iceland’s volcanic landscape . Triggered by solar activity , geomagnetic storms have unleashed energetic particles trapped in Earth’s magnetic field.",
+      "author": "NASA Breaking News",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://science.nasa.gov/image-article/apod-2026-october-31-night-on-a-spooky-planet/",
+      "image": "/images/feed/feed-6937a10f3535.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-9f9316fcde1d",
+      "title": "5 Must-Play New Xbox Games Coming in November, Including GTA 6",
+      "excerpt": "Xbox Series X is getting a lot of hidden gems in November, alongside Grand Theft Auto 6.",
+      "body": "If you only took a quick glance at November’s release date calendar, you might walk away with the idea that Xbox players are only getting one game this month: Grand Theft Auto 6 . While that’s certainly the only big game coming to Series X, the first few weeks of November are deceptively crowded . A stack of indie hidden gems and nostalgic remasters are here to make sure you have something to play while you wait for your return to Vice City.",
+      "author": "Giovanni Colantonio",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.polygon.com/new-xbox-games-november-2026/",
+      "image": "/images/feed/feed-9f9316fcde1d.jpg",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-850198205dce",
+      "title": "By Skipping Last-Gen Systems, Stranger Than Heaven is Allowing RGG Studio to Fully Leverage the Power of Current-Gen Consoles at Long Last",
+      "excerpt": "By Skipping Last-Gen Systems, Stranger Than Heaven is Allowing RGG Studio to Fully Leverage the Power of Current-Gen Consoles at Long Last",
+      "body": "Stranger Than Heaven will apparently be the most technically accomplished game that developer RGG Studio has ever produced, and that’s largely due to the fact that it&#39;s being created solely for current generation hardware. The game’s producer, Hiroyuki Sakamoto, confirmed as much to IGN during an interview conducted at Gamescom Asia x Thailand Game Show 2026 this week. “We set out to make Stranger Than Heaven as a completely brand-new game, with the goal of creating something entirely fresh while putting forth the absolute best quality we can produce right now,” explained Sakamoto.",
+      "author": "Tristan Ogilvie",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.ign.com/articles/by-skipping-last-gen-systems-stranger-than-heaven-is-allowing-rgg-studio-to-fully-leverage-the-power-of-current-gen-consoles-at-long-last",
+      "image": "/images/feed/feed-850198205dce.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-26fc1debd2a3",
+      "title": "Hyundai IONIQ 3 Named European Car of the Year 2027 Finalist",
+      "excerpt": "IONIQ 3 has been selected as one of seven finalists for the prestigious European automotive award Designed and developed in Europe and produced in Türkiye, IONIQ 3 has been developed around the needs…",
+      "body": "IONIQ 3 has been selected as one of seven finalists for the prestigious European automotive award Designed and developed in Europe and produced in Türkiye, IONIQ 3 has been developed around the needs of European customers Successful market launch marks an encouraging start for Hyundai Motor&#8217;s latest addition to its ... [continued] The post Hyundai IONIQ 3 Named European Car of the Year 2027 Finalist appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://cleantechnica.com/2026/10/30/hyundai-ioniq-3-named-european-car-of-the-year-2027-finalist/",
+      "image": "/images/feed/feed-26fc1debd2a3.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-565d86cf3578",
+      "title": "Sony's Bringing Back Spider-Man $2.5 Billion Hit With New Footage",
+      "excerpt": "Spider-Man: Brand New Day isn't done dominating movie theaters, with Sony planning an extended rerelease of 2026's Spider-Man cinematic feat.",
+      "body": "As Marvel Studios' release of Avengers Endgame: Encore proves, blockbuster movies can still dominate the box office , even after a multibillion dollar run. Sony is reportedly planning a rerelease of Spider-Man: Brand New Day to bring web-head-heads back to movie theaters — and like Endgame: Encore , the studio is adding new footage of Spider-Man 's latest flick as an incentive.",
+      "author": "Michael McWhertor",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.polygon.com/spider-man-brand-new-day-rerelease-extended-new-footage-cameos/",
+      "image": "/images/feed/feed-565d86cf3578.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-bc77f841741d",
+      "title": "Toyota & Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All",
+      "excerpt": "Toyota Motor Corporation (“Toyota”) and Waymo today announced the next phase of their autonomous driving collaboration, in pursuit of a world with safer streets and freedom of movement for all. Buildi…",
+      "body": "Toyota Motor Corporation (“Toyota”) and Waymo today announced the next phase of their autonomous driving collaboration, in pursuit of a world with safer streets and freedom of movement for all. Building on the preliminary agreement announced in April 2025, Toyota and Waymo will begin initial operations to test and validate ... [continued] The post Toyota &#038; Waymo Advance Autonomous Driving Collaboration for Safer Streets and Freedom of Movement for All appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Autonomous Driving"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://cleantechnica.com/2026/10/30/toyota-waymo-advance-autonomous-driving-collaboration-for-safer-streets-and-freedom-of-movement-for-all/",
+      "image": "/images/feed/feed-bc77f841741d.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-1361c1b56238",
+      "title": "15 Classic Games That Prove Gameplay Is More Important Than Graphics",
+      "excerpt": "Great visuals never hurt, but these 15 classic games prove that gameplay is the more important factor for timelessness.",
+      "body": "There’s no getting around it: graphics matter a great deal for video games. For many years, visual fidelity alone was one of the best reasons to invest in new consoles and better gaming PCs. There have always been games that didn’t compete for a position at the head of the pack, though. Their developers recognized the importance of compelling gameplay loops, fiendish difficulty, multiplayer appeal, and innovation long before such priorities reliably drew crowds.",
+      "author": "Jason Venter",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gameplay"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.polygon.com/classic-games-bad-graphics-good-gameplay/",
+      "image": "/images/feed/feed-1361c1b56238.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-f9a841791bc3",
+      "title": "The Share of Solar Generation with Co-located Battery Storage Is Increasing",
+      "excerpt": "Utility-scale solar developers are increasingly co-locating battery storage with new solar photovoltaic capacity. As of September 2026, over 16% of new utility-scale solar capacity added this year is…",
+      "body": "Utility-scale solar developers are increasingly co-locating battery storage with new solar photovoltaic capacity. As of September 2026, over 16% of new utility-scale solar capacity added this year is co-located with operable battery storage, compared with 2% in 2017, according to data reported to EIA by operators. Reported plans for solar ... [continued] The post The Share of Solar Generation with Co-located Battery Storage Is Increasing appeared first on CleanTechnica .",
+      "author": "US Energy Information Administration",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://cleantechnica.com/2026/10/30/the-share-of-solar-generation-with-co-located-battery-storage-is-increasing/",
+      "image": "/images/feed/feed-f9a841791bc3.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-ec43398075a0",
+      "title": "Top 10 Pokémon Cards Most Likely to Be Fake",
+      "excerpt": "Counterfeit Pokémon cards is a big business, but some TCG cards are more suspicious than others. Here's how to tell fakes from legit Pokémon cards.",
+      "body": "The more Pokémon trading cards pop off , the more potential players and collectors have to worry about one thing: counterfeit cards. Sometimes, a fake card will be obvious. As more money pours into the hobby , however, there's more incentive than ever to pull a fast one on people. Fakes are getting harder to tell from authentic ones, but it helps to know what Pokémon cards are the most likely targets — and what you should look out for in general while inspecting singles.",
+      "author": "Patricia Hernandez",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.polygon.com/top-10-pokemon-cards-most-likely-to-be-fake-how-to-tell/",
+      "image": "/images/feed/feed-ec43398075a0.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-c69b947ae85b",
+      "title": "Final Fantasy XIV Evercold Delayed, New Release Date Announced at FFXIV Fan Fest",
+      "excerpt": "The MMORPG's next expansion was set to launch shortly after the new year, but Warriors of Light will have to wait a bit longer.",
+      "body": "Final Fantasy XIV Evercold was set to launch sometime in January 2027, which was announced as part of its initial reveal back in April this year during the North American FFXIV Fan Fest. However, this next expansion for the critically acclaimed MMORPG has been delayed – FFXIV Evercold&#39;s release date is now February 23, 2027 (and February 19, 2027 for early access). This was announced alongside the new, full trailer / intro cinematic for Evercold at FFXIV Fan Fest in Japan, and was said to only be a four-week delay.",
+      "author": "Michael Higham",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest",
+      "image": "/images/feed/feed-c69b947ae85b.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-75ab6a29f080",
+      "title": "HomePower 1000 Plus v2: Portable Power Put To Use",
+      "excerpt": "I have been using the Jackery HomePower 1000 Plus v2 in a wide range of applications over the past few months around my apartment in Queens, NY. The flexibility and portability make it especially usef…",
+      "body": "I have been using the Jackery HomePower 1000 Plus v2 in a wide range of applications over the past few months around my apartment in Queens, NY. The flexibility and portability make it especially useful for people living in apartments. I had previously written about the Jackery HomePower 1000 Plus ... [continued] The post HomePower 1000 Plus v2: Portable Power Put To Use appeared first on CleanTechnica .",
+      "author": "Larry Evans",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://cleantechnica.com/2026/10/30/homepower-1000-plus-v2-portable-power-put-to-use/",
+      "image": "/images/feed/feed-75ab6a29f080.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-dcf40710bd40",
+      "title": "Electric Vehicle Council Celebrating 10 Years of EV Progress in Australia",
+      "excerpt": "The Electric Vehicle Council has been tracking the progress of electric vehicle uptake in Australia over the last ten years. Their latest report is a celebration of achievements. It is 144 pages long,…",
+      "body": "The Electric Vehicle Council has been tracking the progress of electric vehicle uptake in Australia over the last ten years. Their latest report is a celebration of achievements. It is 144 pages long, and you can read the entire report here. I will just be hitting the highlights and providing ... [continued] The post Electric Vehicle Council Celebrating 10 Years of EV Progress in Australia appeared first on CleanTechnica .",
+      "author": "David Waterworth",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Electric Vehicle",
+        "Ev",
+        "Vehicle"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://cleantechnica.com/2026/10/30/electric-vehicle-council-celebrating-10-years-of-ev-progress-in-australia/",
+      "image": "/images/feed/feed-dcf40710bd40.jpg",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -32,182 +454,11 @@
       "tags": [
         "Gadgets"
       ],
-      "featured": true,
-      "xpReward": 39,
+      "featured": false,
+      "xpReward": 53,
       "url": "https://9to5mac.com/2026/10/30/download-all-20-apple-homeview-wallpapers-in-light-and-dark-mode-here/",
       "image": "/images/feed/feed-df53fcadcfdb.jpg",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-f9aa1f45d83b",
-      "title": "Applebee's shipped its database password inside its app. Anyone with the APK was an admin.",
-      "excerpt": "Applebee's shipped its database password inside its app. Anyone with the APK was an admin. Applebee's fixed a flaw this week that let anyone read — and, per the researcher, modify — its customer datab…",
-      "body": "Applebee's shipped its database password inside its app. Anyone with the APK was an admin. Applebee's fixed a flaw this week that let anyone read — and, per the researcher, modify — its customer database. The credential was not stolen, phished, or guessed. It was shipped inside the company's own Android app, which has more than a million downloads on Google Play. TechCrunch published the story on October 30, 2026, after withholding it until the bug was confirmed fixed. Security researcher Robert Wiggins of What Security found it earlier this month, using AI to search through thousands of lines of the app's source code.",
-      "author": "frank chu",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Database"
-      ],
-      "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/frankchu/applebees-shipped-its-database-password-inside-its-app-anyone-with-the-apk-was-an-admin-4048",
-      "image": "/images/feed/feed-f9aa1f45d83b.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-7e21f87e7444",
-      "title": "Tìm orphan page và đo internal link graph của website bằng Python",
-      "excerpt": "Trang mồ côi (orphan page) là trang không có link nội bộ nào trỏ tới. Nó vẫn có thể được Google tìm thấy qua sitemap, nhưng thiếu tín hiệu để hiểu trang thuộc chủ đề nào và quan trọng đến đâu, còn ngư…",
-      "body": "Trang mồ côi (orphan page) là trang không có link nội bộ nào trỏ tới. Nó vẫn có thể được Google tìm thấy qua sitemap, nhưng thiếu tín hiệu để hiểu trang thuộc chủ đề nào và quan trọng đến đâu, còn người đọc không có đường vào. Bài này viết một crawler nhỏ để dựng đồ thị link nội bộ, tìm trang mồ côi và xem trang nào nhận nhiều link nhất. Google đọc link thế nào Theo hướng dẫn về link của Google Search Central, Google chỉ chắc chắn đọc được link viết bằng thẻ &lt;a&gt; có thuộc tính href . Nút bấm chạy JavaScript không có href , hoặc link nằm trong ảnh mà không có chữ thay thế, đều có thể bị bỏ qua. Google cũng nói mọi trang quan trọng nên có link từ ít nhất một trang khác trên website.",
-      "author": "Onic Ai",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Python"
-      ],
-      "featured": true,
-      "xpReward": 54,
-      "url": "https://dev.to/onicai/tim-orphan-page-va-do-internal-link-graph-cua-website-bang-python-34ln",
-      "image": "/images/feed/feed-7e21f87e7444.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-c51c305342d8",
-      "title": "Decentralizing the Future: The Power of Federated Learning",
-      "excerpt": "Federated Learning: Unlocking the power of collaborative AI without ever moving user data from local devices. Why the age of massive, centralized AI data collection is ending—and how collaborative edg…",
-      "body": "Federated Learning: Unlocking the power of collaborative AI without ever moving user data from local devices. Why the age of massive, centralized AI data collection is ending—and how collaborative edge training is transforming digital privacy. Over the last decade, AI progress was driven by a simple rule: bring all the data to one place. Whether training speech models on smartphone recordings or medical models on hospital records, the standard procedure required uploading vast datasets from edge devices and local systems onto a centralized server or cloud system. But as the volume and sensitivity of our data grow, this centralizing model has hit two massive roadblocks: the death of trust and the rise of data privacy laws.",
-      "author": "Mecky Alvin Tanuwidjaya",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 42,
-      "url": "https://dev.to/malvintnw/decentralizing-the-future-the-power-of-federated-learning-9c2",
-      "image": "/images/feed/feed-c51c305342d8.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-42d889ecef6f",
-      "title": "Cometflow Do: Two Modes. One Private Workspace. Your Device, Your Control.",
-      "excerpt": "What if one app could handle your everyday tasks instantly, understand what you mean, and bring AI assistance directly to your device — without making your personal data travel across the internet? Th…",
-      "body": "What if one app could handle your everyday tasks instantly, understand what you mean, and bring AI assistance directly to your device — without making your personal data travel across the internet? That's the idea behind Cometflow Do, an Android application we're building for people who want useful tools, intelligent assistance, and control over their own data. Instead of combining everything into one confusing interface, Cometflow Do is being designed around two distinct experiences: Utility Mode and Intelligence Mode. Utility Mode — Just Describe What You Need You shouldn't need to search through dozens of menus to complete a simple task. In Utility Mode, you describe what you want in natural language.",
-      "author": "Pratyush Ranjan Roul",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/pratyush_ranjan_roul/cometflow-do-two-modes-one-private-workspace-your-device-your-control-37me",
-      "image": "/images/feed/feed-42d889ecef6f.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-5a337d9290f7",
-      "title": "pgAdmin discovery should focus on server-mode identity and proxy trust",
-      "excerpt": "pgAdmin discovery should focus on server-mode identity and proxy trust pgAdmin is both a desktop application and a web application. The server mode is the deployment shape that changes the security qu…",
-      "body": "pgAdmin discovery should focus on server-mode identity and proxy trust pgAdmin is both a desktop application and a web application. The server mode is the deployment shape that changes the security question. Users must log in, an initial superuser is created, and file storage is scoped to each user under the configured storage directory. A public pgAdmin page therefore represents an authentication surface, not a direct database endpoint. Start with server mode pgAdmin documentation says server mode has been the default since version 2. A server-mode deployment can run behind a reverse proxy or through a WSGI interface. Users authenticate before using pgAdmin, and the initial administrator can add superusers and non-superusers.",
-      "author": "Ioneyrezende",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://dev.to/ioneyrezende/pgadmin-discovery-should-focus-on-server-mode-identity-and-proxy-trust-bi1",
-      "image": "/images/feed/feed-5a337d9290f7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-518d3e26b560",
-      "title": "How to Add Image Generation to Gemini CLI with NanoBanana MCP",
-      "excerpt": "When an image belongs in a prototype, issue comment, or README, the slow part is often not writing the prompt—it is breaking flow to open another app, move files around, and return to the terminal. A…",
-      "body": "When an image belongs in a prototype, issue comment, or README, the slow part is often not writing the prompt—it is breaking flow to open another app, move files around, and return to the terminal. A small MCP connection can make image generation available where you already work: inside a Gemini CLI conversation. This guide shows a minimal, reproducible setup for connecting Gemini CLI to NanoBanana MCP. The result is a terminal assistant that can call a text-to-image tool or an image-editing tool when you ask for it. What you can do The NanoBanana MCP server exposes two tools to Gemini CLI: Tool Purpose nano_banana_generate Text-to-image generation using nano-banana, nano-banana 2, or nano-banana pro nano_banana_edit Image editing That split is useful in everyday builder workflows.",
-      "author": "Germey",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://dev.to/germey/how-to-add-image-generation-to-gemini-cli-with-nanobanana-mcp-5c9h",
-      "image": "/images/feed/feed-518d3e26b560.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-4142c640e5e1",
-      "title": "Install a team of specialist agents into Claude Code",
-      "excerpt": "Generic prompts give generic answers, and writing a good persona for every role takes hours. Agency Agents is a collection of ready-made specialist agent files (frontend developer, backend architect,…",
-      "body": "Generic prompts give generic answers, and writing a good persona for every role takes hours. Agency Agents is a collection of ready-made specialist agent files (frontend developer, backend architect, DevOps automator and many more) that you can drop into Claude Code. Below is the route from the README, with the real commands. The short version is on the Deduped use-case page . What you get Each agent file holds an identity and personality, a core mission and workflow, technical deliverables with code examples, and success metrics. The idea is that you activate the specialist that fits the task instead of re-explaining a role every session.",
-      "author": "Deduped",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://dev.to/dedupedai/install-a-team-of-specialist-agents-into-claude-code-202e",
-      "image": "/images/feed/feed-4142c640e5e1.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-8cc10933a2e2",
-      "title": "Fortnite Chapter 7 mini season start time",
-      "excerpt": "Here's what time Fortnite maintenance for the Chapter 7 mini season starts and ends, in your time zone.",
-      "body": "The Fortnite Chapter 7 mini season, \" Treasure Hunters ,\" is upon us, with Chapter 7 Season 4 coming to a close on Nov. 1 . Video games are so out. The new \"in\" thing? Pirates. Pirates are so in. As usual, Season 4 will end and the game will have a lengthy maintenance period. After maintenance is over, you'll be able to jump into the mini season as soon as you log in.",
-      "author": "Julia Lee",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.polygon.com/fortnite-chapter-7-mini-season-treasure-hunters-start-time-maintenance-end/",
-      "image": "/images/feed/feed-8cc10933a2e2.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-b9222f94070e",
-      "title": "Why Best Buy Is a Great Place to Buy Pokémon LEGO This Holiday Season",
-      "excerpt": "Buy in person or online, with price ranges to fit your budget.",
-      "body": "This article was made possible by Best Buy. It was written and edited independently without partner oversight. With Black Friday rapidly approaching, the holiday gift buying season is pretty much here. LEGO sets make great gifts for crafty people of all ages, and Pokémon sets are some of the most popular. That can make them difficult to find, with hobby stores and other small shops not having enough stock to keep up with demand. You probably think of Best Buy as a place to get video games, TVs, laptops, and other electronics, but it’s actually a great option for Pokémon merch and collectibles .",
-      "author": "Lindsey Salzer",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.ign.com/sponsored/why-best-buy-is-a-great-place-to-buy-pokemon-legos-this-holiday-season",
-      "image": "/images/feed/feed-b9222f94070e.png",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -223,29 +474,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 49,
       "url": "https://9to5mac.com/2026/10/30/whatsapp-announces-four-new-features-to-make-group-chats-easier-to-manage/",
       "image": "/images/feed/feed-edbe57d73b91.jpg",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-dfd7dfe1906b",
-      "title": "Magic: The Gathering Designers Detail Reality Fracture’s Jace Arc, Echoed Pairs, and Secret Lair Bundles",
-      "excerpt": "Magic: The Gathering designers Yoni Skolnik and Meris Mullaley break down Reality Fracture’s Jace storyline, Echoed Pairs pack changes, and the future of Secret Lair bundles.",
-      "body": "Magic: The Gathering’s Reality Fracture set is a Universes Within set after two Universes Beyond sets in succession, but it’s also a little different in that it showcases iconic Magic characters, spells, and more that have been transformed by Jace Beleren. The Planeswalker has transformed the universe into how he feels it should be, and that means new versions of well-known cards in a sort of “What If?” scenario. IGN sat down with Yoni Skolnik, former Magic pro and Principal Game Designer, and Meris Mullaley, Worldbuilding Design Manager, to talk about the set’s influences, what comes in a pack, and the Secret Lair bundle.",
-      "author": "Robert Anderson",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.ign.com/articles/magic-the-gathering-designers-on-making-jace-relevant-for-reality-fracture-favorite-cards-and-that-secret-lair-bundle",
-      "image": "/images/feed/feed-dfd7dfe1906b.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -261,7 +493,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 48,
       "url": "https://www.space.com/entertainment/the-world-mourns-the-passing-of-star-treks-patrick-stewart-with-a-galaxy-of-tearful-tributes",
       "image": "/images/feed/feed-c4633831b2d2.png",
       "source": "Space.com",
@@ -287,82 +519,6 @@
       "isLive": true
     },
     {
-      "id": "feed-d12607a6e474",
-      "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "jnord",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-      "image": "/images/feed/feed-d12607a6e474.webp",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-c31e44b7ec61",
-      "title": "The 10 Best Star Trek: The Next Generation Episodes, Ranked",
-      "excerpt": "From Tapestry to The Inner Light, these are the 10 best Star Trek: The Next Generation episodes, ranked.",
-      "body": "One of the great things about Star Trek: The Next Generation is that you never quite knew what kind of adventure you were going to get. One week, the Enterprise might be facing an enemy capable of destroying the Federation. The next, Captain Picard could be living an entire lifetime on an alien planet. And occasionally, Worf would find himself dressed as one of Robin Hood's Merry Men, looking like he'd rather be anywhere else in the galaxy.",
-      "author": "Terry Terrones",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/best-star-trek-next-generation-episodes-ranked/",
-      "image": "/images/feed/feed-c31e44b7ec61.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-1897d04bf2ad",
-      "title": "Hideo Kojima Makes Surprise Cameo in New My Chemical Romance Animated Short",
-      "excerpt": "Death Stranding creator Hideo Kojima showed up for a cameo role in a new animated short from legendary rock outfit My Chemical Romance.",
-      "body": "Death Stranding creator Hideo Kojima showed up for a cameo role in a new animated short from legendary rock outfit My Chemical Romance. That&#39;s probably not the first sentence you expected to read heading into the Halloween weekend, but considering Kojima is known for his love of music, movies, games, and everything in between, it may not be too surprising. Still, fans of his work as a creative powerhouse were probably shocked to see him appear in the credits for the band&#39;s new animated short film, Prelude to The End . The seven-and-a-half-minute project, which arrived as a surprise drop yesterday evening, is a stop-motion, dark fairytale based on director Lauren Tsai&#39;s The Dying World.",
-      "author": "Michael Cripe",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.ign.com/articles/hideo-kojima-makes-surprise-cameo-in-new-my-chemical-romance-animated-short",
-      "image": "/images/feed/feed-1897d04bf2ad.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-24f35a47fa84",
-      "title": "Everything Coming to Prime Video in November",
-      "excerpt": "Everything Coming to Prime Video in November",
-      "body": "November is one of the most important times of the year for Amazon, thanks to Black Friday sales. So it&#39;s not surprising that Amazon&#39;s Prime Video would have an absolutely stacked slate of upcoming releases to entice new subscribers this month. Along with the usual dump of movies getting added to the platform on November 1, we&#39;ll get quite a few highly anticipated Prime Video Originals. There&#39;s a Muhammand Ali series, Season 3 of Rings of Power, the Madden Movie, and a new Blade Runner series all premiering this month. If you&#39;re wondering how to make the most of your Prime Video subscription this month, I&#39;ve curated a quick selection of movies and shows that are absolutely worth your time.",
-      "author": "Jacob Kienlen",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.ign.com/articles/whats-new-on-prime-video-november-2026",
-      "image": "/images/feed/feed-24f35a47fa84.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
       "id": "feed-fffbf9548deb",
       "title": "Apple confirms iOS 27.3 beta is coming next week with Apple Intelligence in China",
       "excerpt": "Apple today took the unusual step of confirming when its next iOS developer beta is expected to arrive, as part of an announcement detailing the upcoming launch of Apple Intelligence in China. Here ar…",
@@ -375,7 +531,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 52,
       "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china/",
       "image": "/images/feed/feed-fffbf9548deb.jpg",
       "source": "9to5Mac",
@@ -394,7 +550,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 46,
       "url": "https://www.wired.com/story/googles-pixel-watch-5-is-down-to-its-lowest-price-yet/",
       "image": "/images/feed/feed-dd381be2fa23.jpg",
       "source": "Wired",
@@ -413,7 +569,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 46,
       "url": "https://www.cnet.com/tech/mobile/samsung-slice-apple-iphone-duo-z-fold-8-ad/",
       "image": "/images/feed/feed-eadd31c78881.jpg",
       "source": "CNET",
@@ -432,7 +588,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 39,
       "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "image": "/images/feed/feed-d12607a6e474.webp",
       "source": "TechCrunch",
@@ -451,7 +607,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 42,
       "url": "https://9to5mac.com/2026/10/30/pluribus-season-2-reportedly-begins-filming-tomorrow/",
       "image": "/images/feed/feed-702128da0bf4.jpg",
       "source": "9to5Mac",
@@ -470,7 +626,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 42,
       "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
       "image": "/images/feed/feed-62efadaf1b1a.jpg",
       "source": "TechCrunch",
@@ -489,7 +645,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 49,
       "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
       "image": "/images/feed/feed-ddc37ba70c3e.jpg",
       "source": "Wired",
@@ -508,7 +664,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 38,
       "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
       "image": "/images/feed/feed-0697c0d6577e.jpg",
       "source": "Ars Technica",
@@ -527,7 +683,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 32,
       "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
       "image": "/images/feed/feed-c2baec552feb.jpg",
       "source": "BleepingComputer",
@@ -547,7 +703,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 43,
       "url": "https://www.space.com/space-exploration/human-spaceflight/an-aquanaut-comes-home-returning-to-earth-from-an-undersea-space-station",
       "image": "/images/feed/feed-a8b519f362c0.jpg",
       "source": "Space.com",
@@ -566,7 +722,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 41,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
       "image": "/images/feed/feed-22e8c569cc06.jpg",
       "source": "The Verge",
@@ -586,7 +742,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 42,
       "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
       "image": "/images/feed/feed-13947adb5fdd.jpg",
       "source": "Wired",
@@ -606,7 +762,7 @@
         "Orbit"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 45,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/india-launches-nvs-03-navigation-satellite-gslv-rocket",
       "image": "/images/feed/feed-9a8a7d8be1c8.jpg",
       "source": "Space.com",
@@ -625,7 +781,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 50,
       "url": "https://www.theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
       "image": "/images/feed/feed-18ea57daed9d.jpg",
       "source": "The Verge",
@@ -644,10 +800,29 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 48,
       "url": "https://electrek.co/2026/10/30/byd-reveals-flashy-new-feature-upcoming-luxury-ev/",
       "image": "/images/feed/feed-4d20faed0a18.jpg",
       "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-ed4709d47839",
+      "title": "NASA Releases MAX POWER Key Events for Media, Participants",
+      "excerpt": "America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the a…",
+      "body": "NASA’s Freedom 250 F-5 team, including NASA Administrator Jared Isaacman, performs a flyover during the national anthem at an NFL game between the Cleveland Browns and the Carolina Panthers at Huntington Bank Field, Sept. 27, 2026, in Cleveland. Credit: NASA/Jordan Cochran America’s newest aerospace expo and air show – MAX POWER – is fast approaching, and NASA has announced key events beginning Friday, Nov. 6, and running through Sunday, Nov. 8, hosted on and near the agency’s Kennedy Space Center in Florida. Through multiple park experiences at MAX POWER , NASA and a variety of external collaborators will showcase the newest aircraft, autonomous vehicles, technologies, and more defining the future of air and space.",
+      "author": "Jessica Taveau",
+      "date": "2026-10-30",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.nasa.gov/news-release/nasa-releases-max-power-key-events-for-media-participants/",
+      "image": "/images/feed/feed-ed4709d47839.jpg",
+      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -663,48 +838,10 @@
         "Rivian"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 34,
       "url": "https://electrek.co/2026/10/30/podcast-rivian-earnings-waymo-partners-with-toyota-ford-bets-on-v2h-for-fathom-and-more/",
       "image": "/images/feed/feed-8cacda895b21.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-7682cd2e9ae6",
-      "title": "Waymo's Public Fast-Charging Problem Is Infuriating EV Drivers",
-      "excerpt": "Robotaxi companies need to figure out how their driverless cars can be less annoying for everyday drivers.",
-      "body": "Robotaxi companies need to figure out how their driverless cars can be less annoying for everyday drivers.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://insideevs.com/news/813929/waymo-ev-charging-problem-california/",
-      "image": "/images/feed/feed-7682cd2e9ae6.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-43554876dd57",
-      "title": "Fuel From Bamboo Costs Just $2.75 Per Gallon",
-      "excerpt": "At CleanTechnica, we are passionate champions of the “electrify everything” movement promoted by Tony Seba and Mark Jacobson, among others. However, being realistic, internal combustion engines will c…",
-      "body": "At CleanTechnica, we are passionate champions of the &#8220;electrify everything&#8221; movement promoted by Tony Seba and Mark Jacobson, among others. However, being realistic, internal combustion engines will continue to play an important role in transportation by land, sea, and air for the remainder of this century and perhaps beyond. Almost ... [continued] The post Fuel From Bamboo Costs Just $2.75 Per Gallon appeared first on CleanTechnica .",
-      "author": "Steve Hanley",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://cleantechnica.com/2026/10/30/fuel-from-bamboo-costs-just-2-75-per-gallon/",
-      "image": "/images/feed/feed-43554876dd57.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -720,125 +857,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 47,
       "url": "https://www.space.com/entertainment/space-movies-shows/5-horror-franchises-that-went-to-space-and-one-that-absolutely-should-have-but-didnt",
       "image": "/images/feed/feed-a1c7541af339.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-17e9220c850c",
-      "title": "ESI supplying solar array components to missile defense programs",
-      "excerpt": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array c…",
-      "body": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space […] The post ESI supplying solar array c — a development drawing significant attention in the space exploration and astronomy space.\n\nThis report, published by SpaceNews, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Space. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to SpaceNews using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "ESI Motion",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
-      "image": "/images/feed/feed-17e9220c850c.png",
-      "source": "SpaceNews",
-      "isLive": true
-    },
-    {
-      "id": "feed-b119c6eeb05f",
-      "title": "Google&#8217;s satellite AI server transmits its first response to Earth",
-      "excerpt": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowin…",
-      "body": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in silent grace Starlight feeds my core. &#10024; Google says it tried out other space-themed limericks and telemetry prompts as well. The test is part of Google's Project Suncatcher, an experimental initiative that could eventually put AI data centers in space. Google launched the satellite into orbit earlier this … Read the full story at The Verge.",
-      "author": "Emma Roth",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Satellite"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
-      "image": "/images/feed/feed-b119c6eeb05f.png",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-04189d12c505",
-      "title": "Tesla drops car referral rewards, now pays owners in FSD for referrals",
-      "excerpt": "Tesla has launched a new referral program in the US that pays owners in Full Self-Driving (Supervised) instead of rewarding car sales. A referred owner gets one free month of FSD, and the referrer get…",
-      "body": "Tesla has launched a new referral program in the US that pays owners in Full Self-Driving (Supervised) instead of rewarding car sales. A referred owner gets one free month of FSD, and the referrer gets a free month or a $99 Tesla Credit if that person starts paying. At the same time, Tesla’s Refer and Earn terms no longer list any vehicle as a qualifying purchase for buyer or referrer rewards. Buy a Tesla with a friend’s code today and neither of you gets anything. more…",
-      "author": "Fred Lambert",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://electrek.co/2026/10/30/tesla-referral-program-fsd-car-rewards-dropped/",
-      "image": "/images/feed/feed-04189d12c505.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-a106b02a6b2e",
-      "title": "Satlyt takes another step toward turning satellites into space data centers",
-      "excerpt": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.",
-      "body": "Satlyt ran a successful test this month bringing it closer to turning spacecraft, starting with satellites, into virtual data centers.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Satellite, Space. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Dominic-Madori Davis",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Satellite",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://techcrunch.com/2026/10/30/satlyt-takes-another-step-toward-turning-satellites-into-space-data-centers/",
-      "image": "/images/feed/feed-a106b02a6b2e.webp",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-129273dea6c0",
-      "title": "Bluetti 288Wh Elite 30 Mini power station exclusive pre-order deals, Aventon Abound SR + LR cargo e-bikes first savings, more",
-      "excerpt": "We’ve got two big first-time deals leading our end-of-the-week Green Deals edition, starting with Bluetti’s pre-order launch of the Elite 30 Mini 288Wh Portable Power Station and bundles starting from…",
-      "body": "We’ve got two big first-time deals leading our end-of-the-week Green Deals edition, starting with Bluetti’s pre-order launch of the Elite 30 Mini 288Wh Portable Power Station and bundles starting from an exclusive $237 . Right behind that is Aventon’s Early Bird Black Friday Access deals , which have provided the first savings on its Abound SR and Abound LR Cargo e-bikes starting from $1,899 , and others from $1,799. From there, we have an off-season deal for a new low on Greenworks’ 40V 10-inch Cordless Tiller/Cultivator kit , savings on Anker’s SoloCam S340 Solar Security Camera, some Birdfy smart bird house deals, and more.",
-      "author": "Reinette LeJeune",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://electrek.co/2026/10/30/bluetti-288wh-elite-30-mini-power-station-aventon-abound-sr-lr-cargo-e-bikes-more/",
-      "image": "/images/feed/feed-129273dea6c0.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-c3c52f8d1ac6",
-      "title": "Toyota reveals five new lifted Woodland concepts, including the bZ electric SUV",
-      "excerpt": "Toyota introduced a new family of lifted, “adventure-ready” Woodland concepts based on the RAV4, Grand Highlander, Sienna, Crown Signia, and bZ electric SUV. more…",
-      "body": "Toyota introduced a new family of lifted, “adventure-ready” Woodland concepts based on the RAV4, Grand Highlander, Sienna, Crown Signia, and bZ electric SUV. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://electrek.co/2026/10/30/toyota-reveals-five-new-lifted-woodland-concepts-including-an-ev/",
-      "image": "/images/feed/feed-c3c52f8d1ac6.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -854,7 +876,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 46,
       "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
       "image": "/images/feed/feed-5caf201c7d73.jpg",
       "source": "The Hacker News",
@@ -874,7 +896,7 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 50,
       "url": "https://www.zdnet.com/tech/netgear-routers-vulnerable-security-exploit/",
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/wirelessred-GettyImages-865321186.jpg",
       "source": "ZDNet",
@@ -893,62 +915,43 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 53,
       "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
       "image": "/images/feed/feed-68cc4ea87196.jpg",
       "source": "BleepingComputer",
       "isLive": true
     },
     {
-      "id": "feed-e29dd3432bcc",
-      "title": "People Are Creating ‘Survival Guides’ to Cope With the ‘AO3 Apocalypse’",
-      "excerpt": "The fanfic site could be down for weeks due to a “security incident.” Users are not taking it well.",
-      "body": "The fanfic site could be down for weeks due to a “security incident.” Users are not taking it well.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ej Dickson ",
+      "id": "feed-14b39e2399e0",
+      "title": "Making it easier for websites to express AI training preferences",
+      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "body": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "OpenAI Blog",
       "date": "2026-10-30",
       "readTime": "2 min",
-      "section": "cybersecurity",
+      "section": "ai",
       "tags": [
-        "Cybersecurity"
+        "Ai"
       ],
       "featured": false,
-      "xpReward": 33,
-      "url": "https://www.wired.com/story/people-are-creating-survival-guides-to-cope-with-the-ao3-apocalypse/",
-      "image": "/images/feed/feed-e29dd3432bcc.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-8fe595add26b",
-      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-      "excerpt": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes c…",
-      "body": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-      "image": "/images/feed/feed-8fe595add26b.jpg",
-      "source": "The Hacker News",
+      "xpReward": 43,
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "OpenAI Blog",
       "isLive": true
     }
   ],
   "breakingNews": [
-    "POLYGON: 10 Essential NES Games Still Missing From Switch Online",
-    "9TO5MAC: Download all 20 Apple HomeView wallpapers in light and dark mode here",
-    "DEV.TO: Applebee's shipped its database password inside its app. Anyone with the APK was an admin.",
-    "DEV.TO: Tìm orphan page và đo internal link graph của website bằng Python",
-    "DEV.TO: Decentralizing the Future: The Power of Federated Learning",
-    "DEV.TO: Cometflow Do: Two Modes. One Private Workspace. Your Device, Your Control.",
-    "DEV.TO: pgAdmin discovery should focus on server-mode identity and proxy trust",
-    "DEV.TO: How to Add Image Generation to Gemini CLI with NanoBanana MCP",
-    "DEV.TO: Install a team of specialist agents into Claude Code",
-    "POLYGON: Fortnite Chapter 7 mini season start time"
+    "DEV.TO: Before You Burn GPU Hours, Smoke-Test One Task on a Cheap CPU Runtime",
+    "DEV.TO: Summarize Kaggle Notebook Status and Logs in ~7 Lines with the Kaggle CLI (Goodbye, .bat + Notepad)",
+    "DEV.TO: One hotel API vs ten supplier integrations: what we learned",
+    "DEV.TO: HAQ",
+    "DEV.TO: # 🛡️ Building an Enterprise AML/CFT Risk Intelligence Platform with Gemma 4",
+    "DEV.TO: My API Was Returning Every User's Password Hash. I Didn't Notice for Weeks.",
+    "DEV.TO: Agents don't go rogue. Scopes do. Five controls, in config",
+    "THE HACKER NEWS: A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+    "SPACE.COM: Happy Halloween! SpaceX launches 27 Starlink satellites to orbit from California",
+    "THE HACKER NEWS: Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%"
   ],
   "sectionVideos": {}
 }
