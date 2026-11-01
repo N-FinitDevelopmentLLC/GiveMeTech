@@ -1,88 +1,12 @@
 {
-  "fetchedAt": "2026-11-01T00:46:15.506Z",
+  "fetchedAt": "2026-11-01T06:59:07.571Z",
   "articles": [
     {
-      "id": "feed-4ab2cd5ba94c",
-      "title": "All That Glisters Is Softmax: Shiny-Object Interns, Airplane-Magazine Execs, and Why AI Labs Can Only Bake In Half the Scars",
-      "excerpt": "Why do an eager intern with a Hacker News blog post, a C-level executive stepping off an airplane with an in-flight magazine, and a trillion-parameter LLM all walk straight into the exact same product…",
-      "body": "Why do an eager intern with a Hacker News blog post, a C-level executive stepping off an airplane with an in-flight magazine, and a trillion-parameter LLM all walk straight into the exact same production bog? Because for 3,000 years of human literature—and in every softmax attention matrix—the shiniest path is a trap. \"All that glisters is not gold; / Often have you heard that told.\" — William Shakespeare , The Merchant of Venice (Act II, Scene VII) \"While many say THIS leads to THAT, I'm here to say THIS should lead to THE OTHER.\" — Randal L. Schwartz (The 12-Word Definition of a Synthetic Scar) 1. The Power Loader vs.",
-      "author": "Randal L. Schwartz",
-      "date": "2026-11-01",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 54,
-      "url": "https://dev.to/gde/all-that-glisters-is-softmax-shiny-object-interns-airplane-magazine-execs-and-why-ai-labs-can-18af",
-      "image": "/images/feed/feed-4ab2cd5ba94c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-20c43ca9f90f",
-      "title": "https://security-score-seven.vercel.app/",
-      "excerpt": "🚀 Just built and deployed to production «DEFENSA TI»: an automated perimeter security auditing and compliance engine. Many organizations still rely solely on having an active SSL certificate, overloo…",
-      "body": "🚀 Just built and deployed to production «DEFENSA TI»: an automated perimeter security auditing and compliance engine. Many organizations still rely solely on having an active SSL certificate, overlooking critical transport headers and TCP socket exposure that leave web perimeters vulnerable under OWASP guidelines. I engineered this platform using Next.js (App Router), TypeScript, and Node.js network sockets, solving core security and networking challenges: 🔒 Strict Anti-SSRF Defense: Deterministic filtering of RFC 1918 private ranges and loopback interfaces to prevent backend proxy misuse. ⚡ Socket Timeouts &amp; Redirect Handling: Enforcing manual redirect inspection and AbortSignal timeouts to prevent process blocking from hanging ports.",
-      "author": "Martin Castillo",
-      "date": "2026-11-01",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/martin_castillo_8292742ea/httpssecurity-score-sevenvercelapp-505i",
-      "image": "/images/feed/feed-20c43ca9f90f.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-5550e44623d4",
-      "title": "Label Promise.any() inputs so AggregateError.errors drive retries not mysteries",
-      "excerpt": "If you race multiple mirrors, caches, or endpoints with Promise.any(), the all-fail case often trips teams: the catch block receives an AggregateError and the code treats the failure as a single anony…",
-      "body": "If you race multiple mirrors, caches, or endpoints with Promise.any(), the all-fail case often trips teams: the catch block receives an AggregateError and the code treats the failure as a single anonymous incident. Promise.any() actually gives you what you need to make that failure actionable: an AggregateError whose errors array preserves the input order. Implementation approach (no code here — the server will insert the verified example): label each source before you pass it into Promise.any(). Convert rejections into Error objects that carry a stable sourceLabel and the originalReason. When Promise.any() rejects, inspect aggregate.errors in input order and classify each entry with a predicate that answers “retryable or fatal?”.",
-      "author": "Chris Rodriguez",
-      "date": "2026-11-01",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 53,
-      "url": "https://dev.to/chriserodriguez/label-promiseany-inputs-so-aggregateerrorerrors-drive-retries-not-mysteries-1338",
-      "image": "/images/feed/feed-5550e44623d4.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-46d4483fe3f1",
-      "title": "We Built pkgtruth: Looking Beyond the Code We Trust",
-      "excerpt": "This is a submission for the MLH x DEV Writing Challenge During Hacktoberfest 2026 at Newton School of Technology × Rishihood University, my team participated in a Hack Day where we had to turn a prob…",
-      "body": "This is a submission for the MLH x DEV Writing Challenge pkgtruth: What You Review Isn't Always What You Install What I Built During Hacktoberfest 2026 at Newton School of Technology × Rishihood University , my team participated in a Hack Day where we had to turn a problem statement into a working product under a limited time. Our team, Commit-tee , chose Problem Statement 4: Published Package vs Source Code Integrity Analyzer. At first, the problem seemed simple: compare the source code available on GitHub with the package published on a registry such as PyPI. But then we started asking some important questions: What if the published package contains files that aren't present in the source repository? What if someone modifies a function in the published package?",
-      "author": "Arpit Chhimpa",
-      "date": "2026-11-01",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 41,
-      "url": "https://dev.to/arpit_chhimpa/we-built-pkgtruth-looking-beyond-the-code-we-trust-1m77",
-      "image": "/images/feed/feed-46d4483fe3f1.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-5d50e460041d",
-      "title": "WooCommerce Checkout Not Working? 9 Checks to Find the Cause",
-      "excerpt": "A broken WooCommerce checkout rarely shows an error to the store owner: orders just stop. This is the checklist we published on optiuser.com, in the order we run it. Disclosure: we build Opti-Behavior…",
-      "body": "A broken WooCommerce checkout rarely shows an error to the store owner: orders just stop. This is the checklist we published on optiuser.com, in the order we run it. Disclosure: we build Opti-Behavior, the plugin mentioned in some sections. If your WooCommerce checkout is not working, the cause is almost always one of five things: a JavaScript error on the checkout page, a plugin or theme conflict, a cached checkout page, a payment gateway problem, or a broken HTTPS or session setup. This guide shows the signs, then 9 checks to run in order, most of them without any extra plugin, and how to confirm the fix on your live store. Signs your WooCommerce checkout is not working A broken checkout rarely shows a clear error. Look for these signs: The Place order button does nothing.",
-      "author": "Hamdi Bk",
+      "id": "feed-5c629edd5dbb",
+      "title": "The US$6.3 Billion Binance Hack — Incident Analysis and Response Playbook",
+      "excerpt": "The US$6.3 Billion Binance Hack — Incident Analysis and Response Playbook About the Author *Dennis Kim * — Former CEO of Cyworld Email: gameworker@gmail.com GitHub: github.com/gameworkerkim PDF E-Book…",
+      "body": "The US$6.3 Billion Binance Hack — Incident Analysis and Response Playbook About the Author * Dennis Kim * — Former CEO of Cyworld Email: gameworker@gmail.com GitHub: github.com/gameworkerkim PDF E-Book Version This is a cyber threat intelligence (CTI) report compiled from public reporting, law-enforcement statements and security-vendor analysis. Facts about matters still under investigation may change. North Korea's hacking organizations have a history of more than 20 years and long relied on Chinese-made hacking tools. Over the past year, with the AI boom, they have begun using LLMs to port Go code to Rust and to harden unstable malware.",
+      "author": "Dennis Kim",
       "date": "2026-11-01",
       "readTime": "2 min",
       "section": "software",
@@ -91,17 +15,17 @@
       ],
       "featured": true,
       "xpReward": 52,
-      "url": "https://dev.to/opti-behavior/woocommerce-checkout-not-working-9-checks-to-find-the-cause-2hff",
-      "image": "/images/feed/feed-5d50e460041d.webp",
+      "url": "https://dev.to/denniskim/the-us63-billion-binance-hack-incident-analysis-and-response-playbook-468g",
+      "image": "/images/feed/feed-5c629edd5dbb.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-44b087bbc1da",
-      "title": "Endpoint Evidence: Proving Patching and Protection to an Auditor",
-      "excerpt": "Introduction In today's digital landscape, maintaining the security of endpoints is not just a best practice but a compliance requirement for various frameworks including ISO 27001, SOC 2, GDPR, HIPAA…",
-      "body": "Introduction In today's digital landscape, maintaining the security of endpoints is not just a best practice but a compliance requirement for various frameworks including ISO 27001 , SOC 2, GDPR, HIPAA, and PCI DSS. Auditors often assess an organization’s ability to protect data across various endpoints. This post outlines how to effectively prove patching and protection to auditors, ensuring you showcase robust endpoint security measures during an audit. Understanding Endpoint Security What Are Endpoints? Endpoints refer to devices such as laptops, desktops, servers, smartphones, and IoT devices that connect to a network. Each of these endpoints presents a potential entry point for threats to an organization’s data integrity and confidentiality.",
-      "author": "Bitkosh Technologies",
+      "id": "feed-6f97c01b85e6",
+      "title": "The Listener",
+      "excerpt": "The Listener: a ghost story that listens back Ghost in the Machine submission. Open-weight model + open TTS + open speech recognition, all on one laptop, no internet required. I built a ghost story th…",
+      "body": "The Listener: a ghost story that listens back Ghost in the Machine submission. Open-weight model + open TTS + open speech recognition, all on one laptop, no internet required. I built a ghost story that is written live from what your room does while you sit in it. Headphones on, lights off. A local model (Llama 3.2 via Ollama) writes a creepypasta one beat at a time, as a tired narrator posting updates to a night-owl forum. Your microphone is the other author. A knock on the wall becomes \"something bumped the other side of the wall, softly, like it was checking the wall was still there.\" A long silence becomes \"the refrigerator stopped humming.\" Say \"is anyone there\" out loud, and a few beats later the hallway answers in your voice, slightly wrong.",
+      "author": "Vijay Kumar",
       "date": "2026-11-01",
       "readTime": "2 min",
       "section": "software",
@@ -109,29 +33,200 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/bitkosh_technologies/endpoint-evidence-proving-patching-and-protection-to-an-auditor-oap",
-      "image": "/images/feed/feed-44b087bbc1da.webp",
+      "xpReward": 42,
+      "url": "https://dev.to/vjkr29/the-listener-4ih2",
+      "image": "/images/feed/feed-6f97c01b85e6.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-ec6ae176389f",
-      "title": "why and how did I rebuild wolfenstein 3D from scratch via python with no AI?",
-      "excerpt": "Want to play yourself? The source is at https://github.com/atifcodesalot/pyWolf3D. I haven't made a release yet, so you would have to clone the repo and run the package. Enjoy! It was a rainy afternoo…",
-      "body": "Want to play yourself? The source is at https://github.com/atifcodesalot/pyWolf3D . I haven't made a release yet, so you would have to clone the repo and run the package. Enjoy! How did the project start and why? It was a rainy afternoon; I was mentally reviewing one of my failed Raycaster attempts. Suddenly I decided to make one that actually works, and since I enjoyed remaking stuff, why not remake the game? It basically started it all. The answer was simply, why not? I would learn a lot and do what I love most! How it went? Not particularly bad. I was determined not to use AI, not even for debugging, because I wanted to recreate it myself. The source was already made public more than a decade ago, so what would be the point of using AI?",
-      "author": "unhappygirl",
+      "id": "feed-6c55fdeb3d0a",
+      "title": "Echo",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What if you could have an ongoing, intimate conversation with the person you are working so hard to bec…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine ECHO: Talking to the Ghost of Who You Aspire to Become What I Built What if you could have an ongoing, intimate conversation with the person you are working so hard to become? ECHO is a local-first, open-source, RAG-powered future-self AI companion. It simulates an accomplished, experienced version of your future identity who has already surmounted the obstacles, doubts, and milestones you are facing today.",
+      "author": "Victor Teppeh",
       "date": "2026-11-01",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Python"
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 47,
+      "url": "https://dev.to/victorteppeh233/echo-4h74",
+      "image": "/images/feed/feed-6c55fdeb3d0a.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-960c3866d378",
+      "title": "I built many ghosts that haunt my Windows desktop — each one reacts to a different action",
+      "excerpt": "devchallenge #hf26challenge 👻 GITM: I Built a Windows Desktop That Gets Haunted When You Actually Use It What if your computer had a ghost? Not the kind that sits permanently on your desktop, consume…",
+      "body": "devchallenge #hf26challenge 👻 GITM: I Built a Windows Desktop That Gets Haunted When You Actually Use It What if your computer had a ghost? Not the kind that sits permanently on your desktop, consumes screen space, and waits for you to interact with it. I'm talking about a ghost that appears when you type, reacts when you copy something, gets angry when you delete something, and disappears before you even realize it was there. That's GITM — Ghost in the Machine. A Windows desktop experience built around one simple idea: Your desktop shouldn't need a permanent companion. Sometimes, it just needs a little haunting. What exactly is GITM? GITM is a Windows desktop tray application that stays invisible until something happens on your computer.",
+      "author": "Abhishek Emmanual Hansdak",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 54,
+      "url": "https://dev.to/soumabhi/i-built-many-ghosts-that-haunt-my-windows-desktop-each-one-reacts-to-a-different-action-3ooh",
+      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-e8ea43600c04",
+      "title": "CodeBoo: Exorcising Your Codebase’s Hidden TODOs and Haunted Bugs",
+      "excerpt": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine We’ve all left a line like // TODO: fix memory leak before launch in a file, closed the editor, and pro…",
+      "body": "This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What I Built We’ve all left a line like // TODO: fix memory leak before launch in a file, closed the editor, and promptly forgotten it ever existed. Over time, repos turn into digital haunted houses—populated by lingering code debt, unindexed security hazards, and ghost functions abandoned three years ago. CodeBoo is a lightweight, local AI tool that brings those spectral bugs out of the shadows. Point CodeBoo at any local directory or public GitHub repo link, and it scans the codebase to surface hidden TODOs, potential memory leaks, unhandled errors, and security issues.",
+      "author": "John Marin Babu",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 40,
+      "url": "https://dev.to/csu250304/codeboo-exorcising-your-codebases-hidden-todos-and-haunted-bugs-16op",
+      "image": "/images/feed/feed-e8ea43600c04.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-14023d6d097b",
+      "title": "DAYBACK: An AI time machine that finds the receipts of your past, reconstructs what happened, and never makes up a memory",
+      "excerpt": "DAYBACK: Yesterday Is Not Finished This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine Some moments are too important to live only in memory. The night a c…",
+      "body": "DAYBACK: Yesterday Is Not Finished This is a submission for the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine What I Built Some moments are too important to live only in memory. The night a country won a World Cup, the hours after a result nobody expected. People remember how those moments felt, but the voices, headlines and videos that surrounded them are scattered across the web. DAYBACK takes one sentence and turns it into an entire remembered experience. You type a moment, for example \"Argentina wins the 2022 FIFA World Cup\", and DAYBACK: Works out what the event actually was (date, place, people involved). Plans a spread of searches across the four phases of any historical moment: the anticipation, the moment, the aftermath and the legacy.",
+      "author": "Sherwin Kumar",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 37,
+      "url": "https://dev.to/galaxystar/dayback-an-ai-time-machine-that-finds-the-receipts-of-your-past-reconstructs-what-happened-and-1l0c",
+      "image": "/images/feed/feed-14023d6d097b.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-05f681c8e871",
+      "title": "Building an In-Browser 478-Point Facial Landmark & Symmetry Analyzer (Zero Cloud Uploads)",
+      "excerpt": "Most facial measurement and \"rating\" applications on the market today share two huge flaws: They charge aggressive subscription fees. They upload users' personal biometric selfie photos to centralized…",
+      "body": "Most facial measurement and \"rating\" applications on the market today share two huge flaws: They charge aggressive subscription fees. They upload users' personal biometric selfie photos to centralized cloud servers. I built FaceIQ as an open web application that executes 100% client-side in the browser. How It Works Under the Hood Using Google's MediaPipe 478-point landmark topology and WebAssembly/WebGL, the application computes: Bilateral Cranial Symmetry : Evaluates lateral deviation across 32 anatomical mirror pairs. Palpebral Canthal Tilt : Accurately measures inner-to-outer canthus inclination in degrees. Facial Thirds &amp; FWHR : Bizygomatic cheekbone width to midface height proportions. Golden Ratio (Phi 1.618) : Mathematical alignment against classical neoclassical cannons.",
+      "author": "Abdulbasit Mansha",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
       ],
       "featured": false,
-      "xpReward": 37,
-      "url": "https://dev.to/unhappygirl/why-and-how-did-i-rebuild-wolfenstein-3d-from-scratch-via-python-with-no-ai-511m",
-      "image": "/images/feed/feed-ec6ae176389f.webp",
+      "xpReward": 52,
+      "url": "https://dev.to/abdulbasit_mansha_0377a48/building-an-in-browser-478-point-facial-landmark-symmetry-analyzer-zero-cloud-uploads-pc",
+      "image": "/images/feed/feed-05f681c8e871.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-ae73c60768c0",
+      "title": "9 Years Later, Jon Bernthal’s Action Series Is a Masterpiece From Start to Finish",
+      "excerpt": "One batch, two batch, penny and dime",
+      "body": "Ever since superhero movies and television became popular, fans have debated which actors are the perfect fit for their characters. The debate has escalated over the years, especially when multiple actors have played iconic characters like Superman and Spider-Man . Nine years ago, one of the best actor-to-character pairings came when Jon Bernthal took on Frank Castle in The Punisher . In the process, Bernthal delivered one of the grittiest and most action -packed comic book adaptations in history.",
+      "author": "Collier Jennings",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.polygon.com/jon-bernthal-punisher-action-masterpiece-marvel-disney-plus/",
+      "image": "/images/feed/feed-ae73c60768c0.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-9c82c607a07a",
+      "title": "Ridley Scott's Near-Perfect Sci-Fi Masterpiece is Waiting to Be Rediscovered on Streaming",
+      "excerpt": "One of the best films in Ridley Scott's filmography and a key entry into the sci-fi canon",
+      "body": "The ‘70s and ‘80s was a major turning point for science fiction . Star Wars revitalized the genre in 1977 and turned it into one of Hollywood’s main box office draws, inspiring a wave of films that reshaped the entire industry. Two years later, Ridley Scott threw down the gauntlet with Alien , taking a big step away from the optimism that had once permeated sci-fi pulp storytelling and instead infusing it with corporate anxiety and untrustworthy artificial intelligence. It was a signal for things to come.",
+      "author": "Maria Loreto",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.polygon.com/ridley-scott-blade-runner-final-cut-streaming-november-2026/",
+      "image": "/images/feed/feed-9c82c607a07a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-86467798314b",
+      "title": "All 8 Dungeon Crawler Carl Books Ranked (by Their Goodreads Score)",
+      "excerpt": "Matt Dinniman's hit LitRPG series keeps raising the stakes, but which Dungeon Crawler Carl book ranks highest?",
+      "body": "Matt Dinniman's Dungeon Crawler Carl takes one of fantasy's oldest setups and throws it into a blender with reality television, apocalyptic horror, and video game logic, creating a series that has evolved into one of the biggest breakout hits in modern speculative fiction. The premise is fairly simple, starting with a fight for survival inside an alien-dominated game show that escalates into a sprawling saga of bizarre monsters, convoluted mechanics, and a talking cat with an ego to match.",
+      "author": "Ryan Epps",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.polygon.com/every-dungeon-crawler-carl-book-ranked-by-their-goodreads-score/",
+      "image": "/images/feed/feed-86467798314b.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-7c5749245aa1",
+      "title": "Patrick Stewart's Perfect 'Simpsons' Episode Reveals the Beloved Actor's Secret Weapon",
+      "excerpt": "Sir Patrick Stewart is being remembered for Star Trek and X-Men, but he was also the perfect guest star on The Simpsons",
+      "body": "Yesterday, news broke that Sir Patrick Stewart died at age 86. With his background performing Shakespeare and his incredible sense of dignity and gravitas, Stewart is being celebrated primarily for his work as Captain Jean-Luc Picard on Star Trek: The Next Generation , as well as being the perfect man to portray Professor Charles Xavier in the X-Men films. But while he was beloved for the dramatic weight he brought to his roles, it's worth acknowledging that the man pulled off some incredibly memorable comedic performances, one of the first was on The Simpsons , where he guest-starred in the season 6 episode, “Homer the Great.”",
+      "author": "Brian VanHooker",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.polygon.com/patrick-stewart-the-simpsons-guest-star/",
+      "image": "/images/feed/feed-7c5749245aa1.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2a550bc4965c",
+      "title": "10 Video Games With the Best Twist Endings Nobody Saw Coming",
+      "excerpt": "From Spec Ops: The Line to Link’s Awakening, these 10 video games have the best twist endings, with reveals that recast everything before them.",
+      "body": "The best twist endings in video games change what you thought you were playing. A great one makes you want to start over to spot the clues, and a perfect one hides those clues in plain sight: in dialogue, in chapter titles, perhaps even the controller you’re holding. These ten games span three decades and nearly every genre, from horror to puzzle-platformers to a Game Boy adventure about a dream. But they all have one thing in common: Every one of them had us totally fooled the first time.",
+      "author": "Rebecca Corgan",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Video Game"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/best-video-game-twist-endings/",
+      "image": "/images/feed/feed-2a550bc4965c.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
@@ -147,7 +242,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 43,
       "url": "https://www.engadget.com/2300213/3d-printer-expensive-hobbies-where-it-saves-money/",
       "image": "/images/feed/feed-5ad889bc2a76.jpg",
       "source": "Engadget",
@@ -166,7 +261,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 31,
       "url": "https://www.engadget.com/2300219/amazon-made-alexa-devices-aux-port-less-useful/",
       "image": "/images/feed/feed-04339c312058.jpg",
       "source": "Engadget",
@@ -186,7 +281,7 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 52,
       "url": "https://www.engadget.com/2300227/how-big-powerful-spacex-starship-rocket/",
       "image": "/images/feed/feed-bccfc1fa00d2.jpg",
       "source": "Engadget",
@@ -206,7 +301,7 @@
         "Nintendo"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 43,
       "url": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage",
       "image": "/images/feed/feed-8f0b639c1218.jpg",
       "source": "IGN",
@@ -225,7 +320,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 41,
       "url": "https://www.engadget.com/2300231/why-airpods-battery-drains-fast-how-to-fix/",
       "image": "/images/feed/feed-85f39329836e.jpg",
       "source": "Engadget",
@@ -244,68 +339,10 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 48,
       "url": "https://www.polygon.com/andy-weir-benjamin-percy-exoplanet-sci-fi-audiobook/",
       "image": "/images/feed/feed-88d631dcf1a8.png",
       "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-93d454bfc34b",
-      "title": "Save Mass Effect Graffiti Reportedly Spray-Painted Outside EA Building",
-      "excerpt": "An EA office building in Madrid was vandalized with the words \"Save Mass Effect\" just days after the company announced it had shuttered series developer BioWare.",
-      "body": "An EA office building in Madrid was vandalized with the words &quot;Save Mass Effect&quot; just days after the company announced it had shuttered series developer BioWare. It&#39;s the latest update to an ongoing story that started when the beloved sci-fi RPG series was put on an indefinite hold earlier this month. With the studio&#39;s Mass Effect: Universe project canceled and the franchise without a future, fans have now seemingly taken their push to see the series continue with spray paint. EA&#39;s Madrid office in Spain was seemingly the target of one disgruntled fan hoping to make a change. Reddit user Ok_Link9625 shared pictures of the graffiti in question, which show at least two separate instances of Save Mass Effect being tagged around the location.",
-      "author": "Michael Cripe",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.ign.com/articles/save-mass-effect-graffiti-reportedly-spray-painted-outside-ea-building",
-      "image": "/images/feed/feed-93d454bfc34b.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-a383606cd10e",
-      "title": "5 Must-Play Nintendo Switch 2 Games Coming in November 2026",
-      "excerpt": "The Legend of Zelda: Ocarina of Time remake and Metaphor: ReFantazio lead a strong month for Nintendo Switch 2 game releases",
-      "body": "November is typically a major month for video game releases, and 2026 is no exception. The biggest game of the month is undoubtedly Grand Theft Auto 6 , which is one of the most anticipated entertainment events of all time. But Rockstar’s magnum opus isn’t coming to Switch 2 — not yet, anyway. That said, there are still plenty of intriguing new games coming out for Nintendo’s hybrid console in November. Here are five that we’re especially excited about.",
-      "author": "Jen Glennon",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Nintendo Switch",
-        "Nintendo"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.polygon.com/new-nintendo-switch-games-november-2026/",
-      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ns2_thelegendofzeldaocarinaoftime_scrn_15.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-4bdb2b24273d",
-      "title": "Star Wars Actor Hayden Christensen Says a Man Who Burgled His House Recognized Him Then Gave His Stuff Back Mid-Robbery",
-      "excerpt": "Anakin Skywalker actor Hayden Christensen has revealed the strangest fan encounter he’s ever had.",
-      "body": "Anakin Skywalker actor Hayden Christensen has revealed the strangest fan encounter he’s ever had. Speaking on stage at L.A. Comic Con, as reported by The Nerd Wire , the Star Wars veteran said that years ago, a burglar recognized him during a robbery at his home, apologized, then gave his stuff back. Christensen was upstairs when he heard the door open, and when he found the burglar, he was holding his belongings. “I’m like, is this a delivery guy?” Christensen was quoted as saying. “And I look and I’m like, this is all my stuff.” Remarkably, Christensen then offered to buy the man who broke into his house a train ticket home. No, a Jedi mind trick hadn’t caused the burglar to have a surprise change of heart. He just happened to be a fan who decided on a quick U-turn.",
-      "author": "Wesley Yin-Poole",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.ign.com/articles/star-wars-actor-hayden-christensen-says-a-man-who-burgled-his-house-recognized-him-then-gave-his-stuff-back-mid-robbery",
-      "image": "/images/feed/feed-4bdb2b24273d.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -321,7 +358,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 50,
       "url": "https://www.engadget.com/2300238/slate-vs-ford-fathom-android-auto-carplay-support/",
       "image": "/images/feed/feed-32f9b7e7169e.jpg",
       "source": "Engadget",
@@ -340,7 +377,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 46,
       "url": "https://www.engadget.com/2300242/important-features-should-know-microsoft-teams/",
       "image": "/images/feed/feed-2fa2ea3562e5.jpg",
       "source": "Engadget",
@@ -359,49 +396,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 41,
       "url": "https://www.engadget.com/2300248/reason-most-electrical-plug-prongs-have-holes/",
       "image": "/images/feed/feed-1183e72f466c.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-cdaade422644",
-      "title": "5 Best Nintendo Switch Games That Desperately Need Switch 2 Upgrades, Ranked",
-      "excerpt": "Many Nintendo Switch games received upgrades for Switch 2, but here are five classic Nintendo Switch games that did not.",
-      "body": "The Nintendo Switch 2 has been on one heck of run through launch. Though it has yet to see new installments of some heavy-hitter franchises, Nintendo’s latest console has built up an impressive library of games over its first year and a half. A chunk of that list includes excellent Nintendo Switch 2 Editions of the Switch’s best games. Super Mario Bros. Wonder , Kirby and the Forgotten Land , and more have gotten substantial updates that have helped make great Nintendo games even better. That trend is continuing too, as evidenced by the upcoming Pikmin 4 — Nintendo Switch 2 Edition + Dandori Academy .",
-      "author": "Giovanni Colantonio",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Nintendo Switch",
-        "Nintendo"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.polygon.com/nintendo-switch-games-no-switch-2-edition/",
-      "image": "/images/feed/feed-cdaade422644.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-4c6c9eb7f89b",
-      "title": "10 Classic '90s RPGs That Have Aged Like Fine Wine, Ranked",
-      "excerpt": "RPGs from the 1990s were some of the most pivotal games in history. Here are 10 classic 1990s RPGs that are so good they don't need a remake.",
-      "body": "The 1990s proved a pivotal decade for gaming, fueled by technological advancements and new businesses that would go on to leave a lasting impact on the industry. The '90s saw the release of both the original Sony PlayStation (1995) and the Nintendo 64 (1996) which brought iconic titles such as Super Mario 64, Resident Evil, and The Legend of Zelda: Ocarina of Time.",
-      "author": "Ashley Potter",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/best-classic-90s-rpgs/",
-      "image": "/images/feed/feed-4c6c9eb7f89b.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -417,10 +415,29 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 42,
       "url": "https://www.engadget.com/2300249/netflix-download-speeds-offline-tricks-wish-knew-sooner/",
       "image": "/images/feed/feed-972a3bed8324.jpg",
       "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-e705a4465849",
+      "title": "ChatGPT and Codex usage limits merging",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Chatgpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zariel",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Chatgpt"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -436,7 +453,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 37,
       "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
       "image": "/images/feed/feed-9a46afb49d1d.jpg",
       "source": "TechCrunch",
@@ -455,7 +472,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 43,
       "url": "https://karpathy.bearblog.dev/hacker-tube/",
       "image": "/images/feed/feed-91a61e61f66b.png",
       "source": "Hacker News",
@@ -474,7 +491,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 42,
       "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "image": "/images/feed/feed-8b95ff6d8b4e.jpg",
       "source": "Hacker News",
@@ -493,7 +510,7 @@
         "Cve-"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 30,
       "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "image": "/images/feed/feed-b3d72d5cb222.png",
       "source": "Hacker News",
@@ -512,7 +529,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/10/31/record-demand-catches-some-oems-with-their-pants-down-europe-september-2026/",
       "image": "/images/feed/feed-1bd363ee49bb.png",
       "source": "CleanTechnica",
@@ -531,7 +548,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 50,
       "url": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
       "image": "/images/feed/feed-4dd2ab7fa688.jpg",
       "source": "The Verge",
@@ -551,7 +568,7 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 36,
       "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
       "image": "/images/feed/feed-b0ff533efc67.jpg",
       "source": "BleepingComputer",
@@ -570,7 +587,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/10/31/elon-musks-attack-ads-are-backfiring-as-midterms-near/",
       "image": "/images/feed/feed-8b56348a31f2.jpg",
       "source": "CleanTechnica",
@@ -589,7 +606,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 54,
       "url": "https://cleantechnica.com/2026/10/31/antwerp-electric-mobile-harbour-cranes/",
       "image": "/images/feed/feed-3f68c29183cb.png",
       "source": "CleanTechnica",
@@ -608,7 +625,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 45,
       "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
       "image": "/images/feed/feed-149be8f7454b.jpg",
       "source": "TechCrunch",
@@ -627,7 +644,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 46,
       "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
       "image": "/images/feed/feed-c8a9e4d99f4e.jpg",
       "source": "BleepingComputer",
@@ -646,7 +663,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 35,
       "url": "https://www.space.com/entertainment/9-nightmarish-sci-fi-spaceships-to-crawl-aboard-for-halloween-if-you-dare",
       "image": "/images/feed/feed-d219c3b1ec91.jpg",
       "source": "Space.com",
@@ -665,7 +682,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 36,
       "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
       "image": "/images/feed/feed-c9bba5656d41.jpg",
       "source": "BleepingComputer",
@@ -684,7 +701,7 @@
         "Rivian"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 47,
       "url": "https://insideevs.com/news/813896/rivian-adventure-networks-dc-fast-chargers-growth-q3-2026/",
       "image": "/images/feed/feed-66cdabd4c814.jpg",
       "source": "InsideEVs",
@@ -703,7 +720,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 42,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-234-living-in-lunar-caves",
       "image": "/images/feed/feed-ead7c703085c.jpg",
       "source": "Space.com",
@@ -723,7 +740,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 44,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-31-2026",
       "image": "/images/feed/feed-b7ffb9548511.jpg",
       "source": "Space.com",
@@ -742,7 +759,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 54,
       "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
       "image": "/images/feed/feed-4bc7fcf06de1.jpg",
       "source": "BleepingComputer",
@@ -761,7 +778,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 52,
       "url": "https://www.space.com/stargazing/the-moon-mars-and-jupiter-shine-in-the-heart-of-the-lion-overnight-on-nov-1-2",
       "image": "/images/feed/feed-8b6ff3b01e3e.jpg",
       "source": "Space.com",
@@ -780,7 +797,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 31,
       "url": "https://cleantechnica.com/2026/10/31/can-silicon-valley-build-a-safe-class-8-truck-early-ev-semi-fires-expose-the-experience-gap/",
       "image": "/images/feed/feed-38074a19b1e4.jpg",
       "source": "CleanTechnica",
@@ -799,7 +816,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 40,
       "url": "https://www.space.com/astronomy/stars/betelgeuse-is-haunted-by-a-cosmic-poltergeist-tormenting-the-doomed-stars-atmosphere",
       "image": "/images/feed/feed-46eb1c461b93.png",
       "source": "Space.com",
@@ -818,7 +835,7 @@
         "Rivian"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 42,
       "url": "https://insideevs.com/news/813951/rivian-chief-software-officer-wassym-bensaid-interview-ai-assistant/",
       "image": "/images/feed/feed-1ea752cafaef.jpg",
       "source": "InsideEVs",
@@ -837,7 +854,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 33,
       "url": "https://insideevs.com/features/813947/after-a-year-without-tax-credits-evs-are-down-not-out/",
       "image": "/images/feed/feed-ca7f4163b022.jpg",
       "source": "InsideEVs",
@@ -856,7 +873,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 47,
       "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
       "image": "/images/feed/feed-cf9827198cd4.png",
       "source": "Hacker News",
@@ -875,9 +892,9 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 36,
       "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
-      "image": "/images/feed/feed-d12607a6e474.webp",
+      "image": "/images/feed/feed-d12607a6e474.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -894,7 +911,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 31,
       "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
       "image": "/images/feed/feed-ddc37ba70c3e.jpg",
       "source": "Wired",
@@ -913,44 +930,24 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 34,
       "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
       "image": "/images/feed/feed-0697c0d6577e.jpg",
       "source": "Ars Technica",
       "isLive": true
-    },
-    {
-      "id": "feed-13947adb5fdd",
-      "title": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
-      "excerpt": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.",
-      "body": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic, Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lily Hay Newman",
-      "date": "2026-10-30",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic",
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
-      "image": "/images/feed/feed-13947adb5fdd.jpg",
-      "source": "Wired",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: All That Glisters Is Softmax: Shiny-Object Interns, Airplane-Magazine Execs, and Why AI Labs Can Only Bake In Half the Scars",
-    "DEV.TO: https://security-score-seven.vercel.app/",
-    "DEV.TO: Label Promise.any() inputs so AggregateError.errors drive retries not mysteries",
-    "DEV.TO: We Built pkgtruth: Looking Beyond the Code We Trust",
-    "DEV.TO: WooCommerce Checkout Not Working? 9 Checks to Find the Cause",
-    "DEV.TO: Endpoint Evidence: Proving Patching and Protection to an Auditor",
-    "DEV.TO: why and how did I rebuild wolfenstein 3D from scratch via python with no AI?",
-    "ENGADGET: 5 expensive hobbies where owning a 3D printer actually saves you money",
-    "ENGADGET: Amazon made the AUX input on older Alexa devices less useful",
-    "ENGADGET: How big and powerful is SpaceX's Starship rocket?"
+    "DEV.TO: The US$6.3 Billion Binance Hack — Incident Analysis and Response Playbook",
+    "DEV.TO: The Listener",
+    "DEV.TO: Echo",
+    "DEV.TO: I built many ghosts that haunt my Windows desktop — each one reacts to a different action",
+    "DEV.TO: CodeBoo: Exorcising Your Codebase’s Hidden TODOs and Haunted Bugs",
+    "DEV.TO: DAYBACK: An AI time machine that finds the receipts of your past, reconstructs what happened, and never makes up a memory",
+    "DEV.TO: Building an In-Browser 478-Point Facial Landmark & Symmetry Analyzer (Zero Cloud Uploads)",
+    "POLYGON: 9 Years Later, Jon Bernthal’s Action Series Is a Masterpiece From Start to Finish",
+    "POLYGON: Ridley Scott's Near-Perfect Sci-Fi Masterpiece is Waiting to Be Rediscovered on Streaming",
+    "POLYGON: All 8 Dungeon Crawler Carl Books Ranked (by Their Goodreads Score)"
   ],
   "sectionVideos": {}
 }
