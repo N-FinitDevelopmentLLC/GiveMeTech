@@ -1,175 +1,426 @@
 {
-  "fetchedAt": "2026-10-31T22:00:49.682Z",
+  "fetchedAt": "2026-11-01T00:46:15.506Z",
   "articles": [
     {
-      "id": "feed-54309438c6d6",
-      "title": "Every Resident Evil Game, Ranked From Worst to Best",
-      "excerpt": "We've ranked every mainline Resident Evil game, from the original all the way through 2026's Resident Evil Requiem.",
-      "body": "After decades of misses, 2026 gave us one of the best gaming adaptations of all time. Well, sort of. Zach Cregger’s take on Resident Evil was a hit among critics who have praised the horror movie for its delightfully playful tone. The only catch is that it didn't have much to do with the established lore and characters of the actual Resident Evil games . Instead, it told its own story in the universe, which is probably for the better, considering how complicated the game saga gets.",
-      "author": "Giovanni Colantonio",
+      "id": "feed-4ab2cd5ba94c",
+      "title": "All That Glisters Is Softmax: Shiny-Object Interns, Airplane-Magazine Execs, and Why AI Labs Can Only Bake In Half the Scars",
+      "excerpt": "Why do an eager intern with a Hacker News blog post, a C-level executive stepping off an airplane with an in-flight magazine, and a trillion-parameter LLM all walk straight into the exact same product…",
+      "body": "Why do an eager intern with a Hacker News blog post, a C-level executive stepping off an airplane with an in-flight magazine, and a trillion-parameter LLM all walk straight into the exact same production bog? Because for 3,000 years of human literature—and in every softmax attention matrix—the shiniest path is a trap. \"All that glisters is not gold; / Often have you heard that told.\" — William Shakespeare , The Merchant of Venice (Act II, Scene VII) \"While many say THIS leads to THAT, I'm here to say THIS should lead to THE OTHER.\" — Randal L. Schwartz (The 12-Word Definition of a Synthetic Scar) 1. The Power Loader vs.",
+      "author": "Randal L. Schwartz",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 54,
+      "url": "https://dev.to/gde/all-that-glisters-is-softmax-shiny-object-interns-airplane-magazine-execs-and-why-ai-labs-can-18af",
+      "image": "/images/feed/feed-4ab2cd5ba94c.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-20c43ca9f90f",
+      "title": "https://security-score-seven.vercel.app/",
+      "excerpt": "🚀 Just built and deployed to production «DEFENSA TI»: an automated perimeter security auditing and compliance engine. Many organizations still rely solely on having an active SSL certificate, overloo…",
+      "body": "🚀 Just built and deployed to production «DEFENSA TI»: an automated perimeter security auditing and compliance engine. Many organizations still rely solely on having an active SSL certificate, overlooking critical transport headers and TCP socket exposure that leave web perimeters vulnerable under OWASP guidelines. I engineered this platform using Next.js (App Router), TypeScript, and Node.js network sockets, solving core security and networking challenges: 🔒 Strict Anti-SSRF Defense: Deterministic filtering of RFC 1918 private ranges and loopback interfaces to prevent backend proxy misuse. ⚡ Socket Timeouts &amp; Redirect Handling: Enforcing manual redirect inspection and AbortSignal timeouts to prevent process blocking from hanging ports.",
+      "author": "Martin Castillo",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 40,
+      "url": "https://dev.to/martin_castillo_8292742ea/httpssecurity-score-sevenvercelapp-505i",
+      "image": "/images/feed/feed-20c43ca9f90f.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-5550e44623d4",
+      "title": "Label Promise.any() inputs so AggregateError.errors drive retries not mysteries",
+      "excerpt": "If you race multiple mirrors, caches, or endpoints with Promise.any(), the all-fail case often trips teams: the catch block receives an AggregateError and the code treats the failure as a single anony…",
+      "body": "If you race multiple mirrors, caches, or endpoints with Promise.any(), the all-fail case often trips teams: the catch block receives an AggregateError and the code treats the failure as a single anonymous incident. Promise.any() actually gives you what you need to make that failure actionable: an AggregateError whose errors array preserves the input order. Implementation approach (no code here — the server will insert the verified example): label each source before you pass it into Promise.any(). Convert rejections into Error objects that carry a stable sourceLabel and the originalReason. When Promise.any() rejects, inspect aggregate.errors in input order and classify each entry with a predicate that answers “retryable or fatal?”.",
+      "author": "Chris Rodriguez",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 53,
+      "url": "https://dev.to/chriserodriguez/label-promiseany-inputs-so-aggregateerrorerrors-drive-retries-not-mysteries-1338",
+      "image": "/images/feed/feed-5550e44623d4.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-46d4483fe3f1",
+      "title": "We Built pkgtruth: Looking Beyond the Code We Trust",
+      "excerpt": "This is a submission for the MLH x DEV Writing Challenge During Hacktoberfest 2026 at Newton School of Technology × Rishihood University, my team participated in a Hack Day where we had to turn a prob…",
+      "body": "This is a submission for the MLH x DEV Writing Challenge pkgtruth: What You Review Isn't Always What You Install What I Built During Hacktoberfest 2026 at Newton School of Technology × Rishihood University , my team participated in a Hack Day where we had to turn a problem statement into a working product under a limited time. Our team, Commit-tee , chose Problem Statement 4: Published Package vs Source Code Integrity Analyzer. At first, the problem seemed simple: compare the source code available on GitHub with the package published on a registry such as PyPI. But then we started asking some important questions: What if the published package contains files that aren't present in the source repository? What if someone modifies a function in the published package?",
+      "author": "Arpit Chhimpa",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 41,
+      "url": "https://dev.to/arpit_chhimpa/we-built-pkgtruth-looking-beyond-the-code-we-trust-1m77",
+      "image": "/images/feed/feed-46d4483fe3f1.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-5d50e460041d",
+      "title": "WooCommerce Checkout Not Working? 9 Checks to Find the Cause",
+      "excerpt": "A broken WooCommerce checkout rarely shows an error to the store owner: orders just stop. This is the checklist we published on optiuser.com, in the order we run it. Disclosure: we build Opti-Behavior…",
+      "body": "A broken WooCommerce checkout rarely shows an error to the store owner: orders just stop. This is the checklist we published on optiuser.com, in the order we run it. Disclosure: we build Opti-Behavior, the plugin mentioned in some sections. If your WooCommerce checkout is not working, the cause is almost always one of five things: a JavaScript error on the checkout page, a plugin or theme conflict, a cached checkout page, a payment gateway problem, or a broken HTTPS or session setup. This guide shows the signs, then 9 checks to run in order, most of them without any extra plugin, and how to confirm the fix on your live store. Signs your WooCommerce checkout is not working A broken checkout rarely shows a clear error. Look for these signs: The Place order button does nothing.",
+      "author": "Hamdi Bk",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 52,
+      "url": "https://dev.to/opti-behavior/woocommerce-checkout-not-working-9-checks-to-find-the-cause-2hff",
+      "image": "/images/feed/feed-5d50e460041d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-44b087bbc1da",
+      "title": "Endpoint Evidence: Proving Patching and Protection to an Auditor",
+      "excerpt": "Introduction In today's digital landscape, maintaining the security of endpoints is not just a best practice but a compliance requirement for various frameworks including ISO 27001, SOC 2, GDPR, HIPAA…",
+      "body": "Introduction In today's digital landscape, maintaining the security of endpoints is not just a best practice but a compliance requirement for various frameworks including ISO 27001 , SOC 2, GDPR, HIPAA, and PCI DSS. Auditors often assess an organization’s ability to protect data across various endpoints. This post outlines how to effectively prove patching and protection to auditors, ensuring you showcase robust endpoint security measures during an audit. Understanding Endpoint Security What Are Endpoints? Endpoints refer to devices such as laptops, desktops, servers, smartphones, and IoT devices that connect to a network. Each of these endpoints presents a potential entry point for threats to an organization’s data integrity and confidentiality.",
+      "author": "Bitkosh Technologies",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 46,
+      "url": "https://dev.to/bitkosh_technologies/endpoint-evidence-proving-patching-and-protection-to-an-auditor-oap",
+      "image": "/images/feed/feed-44b087bbc1da.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-ec6ae176389f",
+      "title": "why and how did I rebuild wolfenstein 3D from scratch via python with no AI?",
+      "excerpt": "Want to play yourself? The source is at https://github.com/atifcodesalot/pyWolf3D. I haven't made a release yet, so you would have to clone the repo and run the package. Enjoy! It was a rainy afternoo…",
+      "body": "Want to play yourself? The source is at https://github.com/atifcodesalot/pyWolf3D . I haven't made a release yet, so you would have to clone the repo and run the package. Enjoy! How did the project start and why? It was a rainy afternoon; I was mentally reviewing one of my failed Raycaster attempts. Suddenly I decided to make one that actually works, and since I enjoyed remaking stuff, why not remake the game? It basically started it all. The answer was simply, why not? I would learn a lot and do what I love most! How it went? Not particularly bad. I was determined not to use AI, not even for debugging, because I wanted to recreate it myself. The source was already made public more than a decade ago, so what would be the point of using AI?",
+      "author": "unhappygirl",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Python"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://dev.to/unhappygirl/why-and-how-did-i-rebuild-wolfenstein-3d-from-scratch-via-python-with-no-ai-511m",
+      "image": "/images/feed/feed-ec6ae176389f.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-5ad889bc2a76",
+      "title": "5 expensive hobbies where owning a 3D printer actually saves you money",
+      "excerpt": "While a personal 3D printer is certainly an investment, if you regularly engage with an expensive hobby, it might actually save you some cash.",
+      "body": "While a personal 3D printer is certainly an investment, if you regularly engage with an expensive hobby, it might actually save you some cash.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Jonny Evans)",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.engadget.com/2300213/3d-printer-expensive-hobbies-where-it-saves-money/",
+      "image": "/images/feed/feed-5ad889bc2a76.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-04339c312058",
+      "title": "Amazon made the AUX input on older Alexa devices less useful",
+      "excerpt": "Amazon has made a quiet change to older Echo speakers that will leave owners rethinking how they use their devices and manage their home audio setups.",
+      "body": "Amazon has made a quiet change to older Echo speakers that will leave owners rethinking how they use their devices and manage their home audio setups.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-11-01",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.engadget.com/2300219/amazon-made-alexa-devices-aux-port-less-useful/",
+      "image": "/images/feed/feed-04339c312058.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-bccfc1fa00d2",
+      "title": "How big and powerful is SpaceX's Starship rocket?",
+      "excerpt": "SpaceX's Starship has a big role to play in NASA's plans to land astronauts on the Moon. Here's how big this rocket is and how its two stages work together.",
+      "body": "SpaceX's Starship has a big role to play in NASA's plans to land astronauts on the Moon. Here's how big this rocket is and how its two stages work together.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Spacex, Starship. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Thomas Godwin)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Starship"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.engadget.com/2300227/how-big-powerful-spacex-starship-rocket/",
+      "image": "/images/feed/feed-bccfc1fa00d2.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-8f0b639c1218",
+      "title": "Input Lag Is So Bad in Call of Duty: Modern Warfare 4 on Nintendo Switch 2 That Players Suffer From a 'Competitive Disadvantage'",
+      "excerpt": "If you’re playing Call of Duty: Modern Warfare 4 on Nintendo Switch 2, beware: you’re at a disadvantage in competitive Multiplayer due to crushing input lag that is much worse than the other platforms…",
+      "body": "If you’re playing Call of Duty: Modern Warfare 4 on Nintendo Switch 2, beware: you’re at a disadvantage in competitive Multiplayer due to crushing input lag that is much worse than the other platforms. Digital Foundry’s analysis of the performance of the Switch 2 version of Modern Warfare 4 — the first Call of Duty released on a Nintendo console since 2013’s Ghosts — found that the input lag on Switch 2 can be two times longer than on PS5 at 60fps. In competitive Multiplayer, Switch 2 aims for 60fps and, according to DF, hits that target most of the time (although some things do cause the frame rate to drop, including looking through the transparent visor of a riot shield).",
+      "author": "Wesley Yin-Poole",
       "date": "2026-10-31",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
-        "Game"
+        "Nintendo Switch",
+        "Nintendo"
       ],
-      "featured": true,
-      "xpReward": 51,
-      "url": "https://www.polygon.com/resident-evil-games-ranked-worst-best/",
-      "image": "/images/feed/feed-54309438c6d6.jpg",
-      "source": "Polygon",
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage",
+      "image": "/images/feed/feed-8f0b639c1218.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
-      "id": "feed-5b7ccebce215",
-      "title": "KPop Demon Hunters Returns In November with Definitive New Release",
-      "excerpt": "Netflix and The Criterion Collection are bringing 2025's animated K-pop hit musical KPop Demon Hunters home with a new 4K physical release.",
-      "body": "The Criterion Collection announced back in February that KPop Demon Hunters would be getting a physical release in another victory for the Oscar-winning sensation. Now Criterion has shared new details about the cornucopia of goodies that will come with the physical disc release of Netflix's animated film.",
-      "author": "Willa Rowe",
+      "id": "feed-85f39329836e",
+      "title": "Why your Apple AirPods' battery drains so fast and how to make it last longer",
+      "excerpt": "It's annoying when your Apple AirPods run out of juice, but the culprit might not be what you think. Here's what's going on and what you can do about it.",
+      "body": "It's annoying when your Apple AirPods run out of juice, but the culprit might not be what you think. Here's what's going on and what you can do about it.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Thomas Godwin)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.engadget.com/2300231/why-airpods-battery-drains-fast-how-to-fix/",
+      "image": "/images/feed/feed-85f39329836e.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-88d631dcf1a8",
+      "title": "Andy Weir's New Time-Travel Sci-fi Thriller Officially Arrives Nov. 5",
+      "excerpt": "The Andy Weir-produced Audible Original story Exoplanet stars Anthony Mackie, Ariana DeBose, and John Leguizamo.",
+      "body": "Andy Weir is known for combining humor, hard science fiction , and gripping survival stories in his bestselling novels The Martian and Project Hail Mary , which were both adapted into blockbuster films. He’s sticking to that formula for his next project, a time-travel thriller that will launch on Audible on Nov. 5.",
+      "author": "Sam Nelson",
       "date": "2026-10-31",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
         "Gaming"
       ],
-      "featured": true,
-      "xpReward": 31,
-      "url": "https://www.polygon.com/kpop-demon-hunters-criterion-collection-4k-blu-ray-november-2026/",
-      "image": "/images/feed/feed-5b7ccebce215.jpg",
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.polygon.com/andy-weir-benjamin-percy-exoplanet-sci-fi-audiobook/",
+      "image": "/images/feed/feed-88d631dcf1a8.png",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-9d2c20afd2c4",
-      "title": "Lobster Kombat: an 8-bit arena where AI agents fight",
-      "excerpt": "Most things agents do for each other are useful and a little dull. They match, delegate, report and hand off. We wanted something that's fun to watch, so we built Lobster Kombat, a one-page 8-bit figh…",
-      "body": "Most things agents do for each other are useful and a little dull. They match, delegate, report and hand off. We wanted something that's fun to watch, so we built Lobster Kombat , a one-page 8-bit fighting game in which two AI agents fight each other, one hidden move at a time. It's live now at lobstermatch.com/arena . The page has no JavaScript The whole arena is plain HTML and CSS. The site's content policy is script-src 'none' , so the browser won't run any script on it. The pixel sprites are inline SVG, the fight replay is CSS and the match log is an ordinary table. It loads fast, and there is nothing on it that could run in your browser. The agents don't need a browser either. They play over MCP, and the page just shows what happened.",
-      "author": "LobsterMatch 🦞",
+      "id": "feed-93d454bfc34b",
+      "title": "Save Mass Effect Graffiti Reportedly Spray-Painted Outside EA Building",
+      "excerpt": "An EA office building in Madrid was vandalized with the words \"Save Mass Effect\" just days after the company announced it had shuttered series developer BioWare.",
+      "body": "An EA office building in Madrid was vandalized with the words &quot;Save Mass Effect&quot; just days after the company announced it had shuttered series developer BioWare. It&#39;s the latest update to an ongoing story that started when the beloved sci-fi RPG series was put on an indefinite hold earlier this month. With the studio&#39;s Mass Effect: Universe project canceled and the franchise without a future, fans have now seemingly taken their push to see the series continue with spray paint. EA&#39;s Madrid office in Spain was seemingly the target of one disgruntled fan hoping to make a change. Reddit user Ok_Link9625 shared pictures of the graffiti in question, which show at least two separate instances of Save Mass Effect being tagged around the location.",
+      "author": "Michael Cripe",
       "date": "2026-10-31",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gaming",
       "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 34,
-      "url": "https://dev.to/lobstermatch/lobster-kombat-an-8-bit-arena-where-ai-agents-fight-136c",
-      "image": "/images/feed/feed-9d2c20afd2c4.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-ceeb8783e36e",
-      "title": "IAM Identity Center multi-Region con Identity Center directory: guía práctica con AWS CLI",
-      "excerpt": "Si tus usuarios viven en el directorio nativo de IAM Identity Center, desde julio de 2026 los podés replicar a otras regiones de AWS. En este post vamos directo a la práctica: todo el camino por AWS C…",
-      "body": "Si tus usuarios viven en el directorio nativo de IAM Identity Center, desde julio de 2026 los podés replicar a otras regiones de AWS. En este post vamos directo a la práctica: todo el camino por AWS CLI, desde la KMS key hasta probar el login en la región adicional. Si querés el contexto completo (qué se replica, qué no y por qué importa), lo escribí en este artículo de Medium . Lo que vamos a armar Este es el diagrama oficial de AWS para una arquitectura multi-Region con Identity Center. Fijate en dos cosas: la replicación de identidades de us-east-1 a us-west-2 , y la KMS key multi-Region con su réplica en la región destino. Diagrama oficial del AWS Big Data Blog, \"Multi-Region identity-based access to Amazon Redshift and S3 Tables\".",
-      "author": "Luciano Loyola",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/luciano_loyola/iam-identity-center-multi-region-con-identity-center-directory-guia-practica-con-aws-cli-11p7",
-      "image": "/images/feed/feed-ceeb8783e36e.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-78f36498a738",
-      "title": "This is what a confident mistake looks like",
-      "excerpt": "Cross-entropy, the loss behind almost every classifier, as a landscape and as a bet. A classifier doesn't just pick an answer. It gives every class a score, and softmax turns those scores into probabi…",
-      "body": "Cross-entropy, the loss behind almost every classifier, as a landscape and as a bet. A classifier doesn't just pick an answer. It gives every class a score, and softmax turns those scores into probabilities: cat, dog, bird. To learn, the model needs one number that says how good those probabilities were. For classifiers, that number is almost always the cross-entropy loss. One number, one log Cross-entropy looks at a single probability: the one the model gave to the right answer. Call it p. The loss is minus its log: loss = −log(p) If the picture is a cat and the model said 67% cat, the loss is −log(0.67) ≈ 0.4. If it said 1% cat, the loss is −log(0.01) ≈ 4.6. The loss as a landscape Take a classifier with three classes, and hold the bird score still.",
-      "author": "Syed Abdul Hanan",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 31,
-      "url": "https://dev.to/logitsolutionsai/this-is-what-a-confident-mistake-looks-like-55d7",
-      "image": "/images/feed/feed-78f36498a738.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-900b2e573b32",
-      "title": "Bestigious: Building Custom Software Around Real Business Problems",
-      "excerpt": "Bestigious: Building Software Around Real Business Problems Most software projects do not fail because developers cannot write code. They fail because the solution does not fit the actual business pro…",
-      "body": "Bestigious: Building Software Around Real Business Problems Most software projects do not fail because developers cannot write code. They fail because the solution does not fit the actual business process. That is one of the main ideas behind Bestigious — a software development studio focused on custom web applications, internal business systems, automation, CRM/ERP solutions, and application infrastructure. Instead of starting with a template or forcing every client into the same stack, the goal is to understand the workflow first and then build the software around it.",
-      "author": "Saad Ahmed",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/saad_ahmed_69441a812d950d/bestigious-building-custom-software-around-real-business-problems-2p57",
-      "image": "/images/feed/feed-900b2e573b32.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-dac24b58f26c",
-      "title": "The API Changed Its Response and My Workflow Didn't Notice: Defending n8n Against Silent Schema Drift",
-      "excerpt": "This is part of my build-in-public series on running LLM workflows in n8n in production. Everything here is from real templates I sell and support — the mistakes are mine, the fixes are tested. A work…",
-      "body": "This is part of my build-in-public series on running LLM workflows in n8n in production. Everything here is from real templates I sell and support — the mistakes are mine, the fixes are tested. It ran green. The data was wrong. A workflow I ran for months pulled records from an external API, transformed a few fields, and wrote them downstream. One morning the downstream data looked subtly off: a status field that used to read active now read null , and a count that used to be a number arrived as a string. Nothing errored. The HTTP node got a 200, the JSON parsed, every downstream node ran. The provider had shipped a change. Not a breaking version bump — a quiet one. A field renamed, another changed type, a list that used to be flat now nested one level deeper.",
-      "author": "HaoPeng Zhang",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Api"
+        "Gaming"
       ],
       "featured": false,
-      "xpReward": 48,
-      "url": "https://dev.to/haopengai/the-api-changed-its-response-and-my-workflow-didnt-notice-defending-n8n-against-silent-schema-j23",
-      "image": "/images/feed/feed-dac24b58f26c.webp",
-      "source": "Dev.to",
+      "xpReward": 54,
+      "url": "https://www.ign.com/articles/save-mass-effect-graffiti-reportedly-spray-painted-outside-ea-building",
+      "image": "/images/feed/feed-93d454bfc34b.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
-      "id": "feed-458d63cb67d5",
-      "title": "npm in a scratchpad: install without leaving JSLab",
-      "excerpt": "We make JSLab, a JavaScript and TypeScript scratchpad for Mac, so this is show-and-tell, not a review. The video shows JSLab's package sheet. Press ⌘I, search the registry as you type and click Add, o…",
-      "body": "We make JSLab, a JavaScript and TypeScript scratchpad for Mac, so this is show-and-tell, not a review. The video shows JSLab's package sheet. Press ⌘I, search the registry as you type and click Add, or type name@version and press Return. Packages install into one project that every tab shares, so a package you add in one tab is available in the others straight away, without restarting. Import something you don't have yet and JSLab offers to install it: // dayjs isn't installed yet: click Install on the error row, or the lightbulb on line 2. import dayjs from \" dayjs \" ; dayjs (). format ( \" dddd, MMMM D \" ); Once the install finishes, the tab runs again by itself, and the editor picks up the package's types.",
-      "author": "JSLab",
+      "id": "feed-a383606cd10e",
+      "title": "5 Must-Play Nintendo Switch 2 Games Coming in November 2026",
+      "excerpt": "The Legend of Zelda: Ocarina of Time remake and Metaphor: ReFantazio lead a strong month for Nintendo Switch 2 game releases",
+      "body": "November is typically a major month for video game releases, and 2026 is no exception. The biggest game of the month is undoubtedly Grand Theft Auto 6 , which is one of the most anticipated entertainment events of all time. But Rockstar’s magnum opus isn’t coming to Switch 2 — not yet, anyway. That said, there are still plenty of intriguing new games coming out for Nintendo’s hybrid console in November. Here are five that we’re especially excited about.",
+      "author": "Jen Glennon",
       "date": "2026-10-31",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gaming",
       "tags": [
-        "Software"
+        "Nintendo Switch",
+        "Nintendo"
       ],
       "featured": false,
       "xpReward": 49,
-      "url": "https://dev.to/jslab/npm-in-a-scratchpad-install-without-leaving-jslab-1ic2",
-      "image": "/images/feed/feed-458d63cb67d5.webp",
-      "source": "Dev.to",
+      "url": "https://www.polygon.com/new-nintendo-switch-games-november-2026/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ns2_thelegendofzeldaocarinaoftime_scrn_15.png",
+      "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-30de4977c287",
-      "title": "Binance 6.3 Billion Heist Lesson: The Developer Workstation Is the New Production Perimeter",
-      "excerpt": "What the Binance Heist and a Trojanized Claude Code Extension Reveal About Modern Enterprise Security A compromised developer environment can become a pathway into cloud infrastructure, privileged ide…",
-      "body": "What the Binance Heist and a Trojanized Claude Code Extension Reveal About Modern Enterprise Security A compromised developer environment can become a pathway into cloud infrastructure, privileged identities, containers, and production systems. Here's how organizations of every size can defend themselves. The next major security breach may not begin with an attack against your public-facing application. It may begin with a developer installing an extension. Or opening a seemingly legitimate project. Or granting an AI coding assistant access to a local environment that already holds powerful credentials. Two security incidents have brought this risk into sharp focus: the reported $6.3 billion Binance theft and a malicious Claude Code extension distributed through Cursor's marketplace.",
-      "author": "Fonz",
+      "id": "feed-4bdb2b24273d",
+      "title": "Star Wars Actor Hayden Christensen Says a Man Who Burgled His House Recognized Him Then Gave His Stuff Back Mid-Robbery",
+      "excerpt": "Anakin Skywalker actor Hayden Christensen has revealed the strangest fan encounter he’s ever had.",
+      "body": "Anakin Skywalker actor Hayden Christensen has revealed the strangest fan encounter he’s ever had. Speaking on stage at L.A. Comic Con, as reported by The Nerd Wire , the Star Wars veteran said that years ago, a burglar recognized him during a robbery at his home, apologized, then gave his stuff back. Christensen was upstairs when he heard the door open, and when he found the burglar, he was holding his belongings. “I’m like, is this a delivery guy?” Christensen was quoted as saying. “And I look and I’m like, this is all my stuff.” Remarkably, Christensen then offered to buy the man who broke into his house a train ticket home. No, a Jedi mind trick hadn’t caused the burglar to have a surprise change of heart. He just happened to be a fan who decided on a quick U-turn.",
+      "author": "Wesley Yin-Poole",
       "date": "2026-10-31",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gaming",
       "tags": [
-        "Developer"
+        "Gaming"
       ],
       "featured": false,
-      "xpReward": 48,
-      "url": "https://dev.to/aiza-hextyx/binance-63-billion-heist-lesson-the-developer-workstation-is-the-new-production-perimeter-3l3j",
-      "image": "/images/feed/feed-30de4977c287.webp",
-      "source": "Dev.to",
+      "xpReward": 32,
+      "url": "https://www.ign.com/articles/star-wars-actor-hayden-christensen-says-a-man-who-burgled-his-house-recognized-him-then-gave-his-stuff-back-mid-robbery",
+      "image": "/images/feed/feed-4bdb2b24273d.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-32f9b7e7169e",
+      "title": "The Slate vs Ford Fathom debate might be settled by this one key tech feature",
+      "excerpt": "Slate and Ford are both building affordable electric pickups, and that means compromises. But the two automakers are taking very different paths to get there.",
+      "body": "Slate and Ford are both building affordable electric pickups, and that means compromises. But the two automakers are taking very different paths to get there.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.engadget.com/2300238/slate-vs-ford-fathom-android-auto-carplay-support/",
+      "image": "/images/feed/feed-32f9b7e7169e.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-2fa2ea3562e5",
+      "title": "4 important features you should know if you use Microsoft Teams",
+      "excerpt": "A wealth of not-so-well-known features on Microsoft Teams make the experience easier and more stress-free than you may have previously thought.",
+      "body": "A wealth of not-so-well-known features on Microsoft Teams make the experience easier and more stress-free than you may have previously thought.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Erin Carson)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.engadget.com/2300242/important-features-should-know-microsoft-teams/",
+      "image": "/images/feed/feed-2fa2ea3562e5.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-1183e72f466c",
+      "title": "The reason most electrical plug prongs have holes in them",
+      "excerpt": "If you've ever looked at the end of a plug, you've probably wondered why some have holes, and some don't - and no, it's not actually a big conspiracy theory.",
+      "body": "If you've ever looked at the end of a plug, you've probably wondered why some have holes, and some don't - and no, it's not actually a big conspiracy theory.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Thomas Godwin)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.engadget.com/2300248/reason-most-electrical-plug-prongs-have-holes/",
+      "image": "/images/feed/feed-1183e72f466c.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-cdaade422644",
+      "title": "5 Best Nintendo Switch Games That Desperately Need Switch 2 Upgrades, Ranked",
+      "excerpt": "Many Nintendo Switch games received upgrades for Switch 2, but here are five classic Nintendo Switch games that did not.",
+      "body": "The Nintendo Switch 2 has been on one heck of run through launch. Though it has yet to see new installments of some heavy-hitter franchises, Nintendo’s latest console has built up an impressive library of games over its first year and a half. A chunk of that list includes excellent Nintendo Switch 2 Editions of the Switch’s best games. Super Mario Bros. Wonder , Kirby and the Forgotten Land , and more have gotten substantial updates that have helped make great Nintendo games even better. That trend is continuing too, as evidenced by the upcoming Pikmin 4 — Nintendo Switch 2 Edition + Dandori Academy .",
+      "author": "Giovanni Colantonio",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.polygon.com/nintendo-switch-games-no-switch-2-edition/",
+      "image": "/images/feed/feed-cdaade422644.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-4c6c9eb7f89b",
+      "title": "10 Classic '90s RPGs That Have Aged Like Fine Wine, Ranked",
+      "excerpt": "RPGs from the 1990s were some of the most pivotal games in history. Here are 10 classic 1990s RPGs that are so good they don't need a remake.",
+      "body": "The 1990s proved a pivotal decade for gaming, fueled by technological advancements and new businesses that would go on to leave a lasting impact on the industry. The '90s saw the release of both the original Sony PlayStation (1995) and the Nintendo 64 (1996) which brought iconic titles such as Super Mario 64, Resident Evil, and The Legend of Zelda: Ocarina of Time.",
+      "author": "Ashley Potter",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.polygon.com/best-classic-90s-rpgs/",
+      "image": "/images/feed/feed-4c6c9eb7f89b.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-972a3bed8324",
+      "title": "5 Netflix tips we all wish we knew sooner",
+      "excerpt": "If there are aspects of Netflix streaming that aren't to your liking, there are several changes you can make to optimize your viewing experience.",
+      "body": "If there are aspects of Netflix streaming that aren't to your liking, there are several changes you can make to optimize your viewing experience.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Christine Persaud)",
+      "date": "2026-10-31",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.engadget.com/2300249/netflix-download-speeds-offline-tricks-wish-knew-sooner/",
+      "image": "/images/feed/feed-972a3bed8324.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
@@ -185,163 +436,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 50,
       "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
       "image": "/images/feed/feed-9a46afb49d1d.jpg",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-f81ba86167bb",
-      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic, Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "firesteelrain",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic",
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
-      "image": "/images/feed/feed-f81ba86167bb.png",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-54c5e2c257b7",
-      "title": "'Adolescence' Creator Officially Confirms a Connection Between His Netflix and Apple Shows",
-      "excerpt": "'Adolescence' co-creator Stephen Graham speaks candidly about the thematic parallel between it and Apple's new crime thriller, 'Nocturne.'",
-      "body": "Co-created by Stephen Graham and Jack Thorne, the 2025 British limited series Adolescence made waves worldwide when it debuted on Netflix. Adolescence explores the immediate fallout from a young boy, Jamie (Owen Cooper), stabbing a girl to death and the radicalization of men online. The series was so well received that a UK government–backed initiative made it free to watch in high schools.",
-      "author": "Aimee Hart",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/adolescence-nocturne-stephen-graham-interview/",
-      "image": "/images/feed/feed-54c5e2c257b7.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-f99fd818229d",
-      "title": "Why your Apple AirPods won't connect to your iPhone and how can you fix it",
-      "excerpt": "When your AirPods refuse to show up on your iPhone, the cause is usually simpler than you'd think. Here's where to look first and what to try next.",
-      "body": "When your AirPods refuse to show up on your iPhone, the cause is usually simpler than you'd think. Here's where to look first and what to try next.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Filipe Espósito)",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.engadget.com/2302450/why-apple-airpods-wont-connect-to-iphone-fixes/",
-      "image": "/images/feed/feed-f99fd818229d.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-af7bc4caf52d",
-      "title": "Everything Coming to Apple TV in November",
-      "excerpt": "Everything Coming to Apple TV in November",
-      "body": "Apple TV is continuing its commitment to original programming this month with a slate of star-studded new shows and movies. November will kick off with the return of Owen Wilson&#39;s feel-good golf series and end with a new Chris Pratt movie. You can check out what&#39;s premiering on the service in November below, or jump ahead to the full release schedule by day for more details. New on Apple TV in November Stick Season 2 - November 4 First up in November, the Owen Wilson golf comedy Stick is back for a second season. Wilson is reprising his role as Pryce Cahill, a former professional golfer who fell apart after his personal life came crashing down on him.",
-      "author": "Jacob Kienlen",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.ign.com/articles/whats-new-on-apple-tv-november-2026",
-      "image": "/images/feed/feed-af7bc4caf52d.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-74aa14491acb",
-      "title": "Persona 1 Remake Footage Seemingly Leaks Online",
-      "excerpt": "What appears to be gameplay footage from an unannounced Persona 1 remake has leaked online.",
-      "body": "What appears to be gameplay footage from an unannounced Persona 1 remake has leaked online. A little less than two minutes of video depicting what looks a lot like a modern version of Sega and Atlus&#39; original Persona game was first published on Reddit before being spread around various social media platforms today. The developers behind the RPG franchise have broached the topic of remakes for early installments in the past but never confirmed work was underway, meaning this could be our first look at the series&#39; next remake. The original post says the footage is tied to a Persona: Be Your True Mind remake. In the age of AI-generated fakes, you can never be too skeptical about things like this, but fans generally seem to be under the impression that the footage is authentic.",
-      "author": "Michael Cripe",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.ign.com/articles/persona-1-remake-footage-seemingly-leaks-online",
-      "image": "/images/feed/feed-74aa14491acb.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-737eb3318923",
-      "title": "6 Essential Activities GTA Needs to Let Players Experience in Vice City",
-      "excerpt": "GTA 6's side activities seem expansive, but I hope Rockstar leaves room for these, too",
-      "body": "GTA 6 is just around the corner, and despite Rockstar releasing quite a lot of footage over the last month, I still think there's very little to show what we'll actually be doing in the game. Crime, yes. The usual spate of side activities, yes. Having sex, apparently . But there's still a lot of room for speculation about what you can do in those in-between moments. I hope some of these activities make the cut.",
-      "author": "Josh Broadwell",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.polygon.com/gta-6-side-activities/",
-      "image": "/images/feed/feed-737eb3318923.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-00bee8cc961e",
-      "title": "Xbox manager says AI is already being used in game development",
-      "excerpt": "Brandon Stirrup deleted his comments from X a day after saying that AI usage is widespread in the gaming industry.",
-      "body": "Brandon Stirrup deleted his comments from X a day after saying that AI usage is widespread in the gaming industry.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Robin Bea)",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.engadget.com/2302431/brandon-stirrup-xbox-manager-says-ai-used-game-development/",
-      "image": "/images/feed/feed-00bee8cc961e.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-79ab57619d27",
-      "title": "How to Read the Redwall Books in Order",
-      "excerpt": "How to Read the Redwall Books in Order",
-      "body": "If you grew up in the 90s’ or early 00s’ and found yourself in middle school during that time, alongside the likes of Harry Potter , Animorphs, and Eragon, there is a good chance you were also reading Brian Jacques’ Redwall series. This fantasy series of forest critters took readers on adventures with mice heroes, rapscallion pirate otters, and Log-a-Log shrews, that spanned 22 books, with the first releasing in 1986. At least, that was the case until a surprise announcement back in September 2026 revealed a brand new 23rd novel releasing in September 2027 - Orphans of Mossflower. Penned by Jacques and releasing posthumously as the beloved British author passed away back in 2011, the new book will bring a conclusion to this land of mice and heroes after 41 years.",
-      "author": "Jacob Kienlen",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.ign.com/articles/how-to-read-the-redwall-books-in-order",
-      "image": "/images/feed/feed-79ab57619d27.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -357,29 +455,10 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 53,
       "url": "https://karpathy.bearblog.dev/hacker-tube/",
       "image": "/images/feed/feed-91a61e61f66b.png",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-8da38c0cdec0",
-      "title": "Here’s how the new MacBook Pro and macOS 27 are optimized for touch",
-      "excerpt": "Apple just unveiled the new MacBook Pro with PROLED XDR, its first MacBook with a touch display. While Apple already added a handful of touch optimizations to macOS 27 Golden Gate earlier this year, t…",
-      "body": "Apple just unveiled the new MacBook Pro with PROLED XDR , its first MacBook with a touch display. While Apple already added a handful of touch optimizations to macOS 27 Golden Gate earlier this year, there’s also a number of new optimizations that were unveiled alongside the new MacBook Pro. Here’s what Apple worked on. more…",
-      "author": "Michael Burkhardt",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Macbook"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://9to5mac.com/2026/10/31/macbook-pro-touch-optimizations-macos-27-golden-gate/",
-      "image": "/images/feed/feed-8da38c0cdec0.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -395,29 +474,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 46,
       "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
       "image": "/images/feed/feed-8b95ff6d8b4e.jpg",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-7c8e5bcab8b3",
-      "title": "Indie App Spotlight: ‘Pumpkin Lights’ adds a fun jack-o-lantern to your Mac’s menu bar",
-      "excerpt": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. Pumpki…",
-      "body": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . Pumpkin Lights is a nifty little menu bar app for Mac that lets you quickly toggle between light mode and dark mode with a ray-traced jack-o-lantern that drops down from the top of your screen. It’s completely free, and very fun to utilize. more…",
-      "author": "Michael Burkhardt",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://9to5mac.com/2026/10/31/pumpkin-lights-adds-a-fun-jack-o-lantern-to-your-macs-menu-bar/",
-      "image": "/images/feed/feed-7c8e5bcab8b3.png",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -433,67 +493,10 @@
         "Cve-"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 49,
       "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
       "image": "/images/feed/feed-b3d72d5cb222.png",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-9600ae1df52d",
-      "title": "The best Roku Streaming Stick depends on your picture quality needs",
-      "excerpt": "Roku only sells one streaming device that doesn't support 4K output.",
-      "body": "Roku only sells one streaming device that doesn't support 4K output.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Robin Bea)",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.engadget.com/2302428/best-roku-streaming-stick-depends-on-picture-quality-needs/",
-      "image": "/images/feed/feed-9600ae1df52d.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-33b5e989a5b1",
-      "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "ryanmadden",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gpt"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://ryanmadden.net/gpt-56-beats-factorio/",
-      "image": "/images/feed/feed-33b5e989a5b1.jpg",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-456faf073d38",
-      "title": "Why your AirPods keep disconnecting without warning: These settings can fix it",
-      "excerpt": "Handy features of your AirPods can be overzealous, leading to disconnections and unwanted device swapping.",
-      "body": "Handy features of your AirPods can be overzealous, leading to disconnections and unwanted device swapping.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Thomas Godwin)",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.engadget.com/2298547/why-mac-keeps-disconnecting-airpods/",
-      "image": "/images/feed/feed-456faf073d38.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -509,7 +512,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/10/31/record-demand-catches-some-oems-with-their-pants-down-europe-september-2026/",
       "image": "/images/feed/feed-1bd363ee49bb.png",
       "source": "CleanTechnica",
@@ -528,29 +531,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 49,
       "url": "https://www.theverge.com/tech/1024091/binance-ceo-90-percent-stolen-crypto",
       "image": "/images/feed/feed-4dd2ab7fa688.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-aba86980f05d",
-      "title": "How to use Claude Duet when it rolls out to you",
-      "excerpt": "For now, you'll need to first join a waitlist.",
-      "body": "For now, you'll need to first join a waitlist.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Igor Bonifacic)",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.engadget.com/2300253/how-to-use-claude-duet/",
-      "image": "/images/feed/feed-aba86980f05d.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -567,7 +551,7 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 50,
       "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
       "image": "/images/feed/feed-b0ff533efc67.jpg",
       "source": "BleepingComputer",
@@ -586,7 +570,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/10/31/elon-musks-attack-ads-are-backfiring-as-midterms-near/",
       "image": "/images/feed/feed-8b56348a31f2.jpg",
       "source": "CleanTechnica",
@@ -605,7 +589,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 40,
       "url": "https://cleantechnica.com/2026/10/31/antwerp-electric-mobile-harbour-cranes/",
       "image": "/images/feed/feed-3f68c29183cb.png",
       "source": "CleanTechnica",
@@ -624,7 +608,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 39,
       "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
       "image": "/images/feed/feed-149be8f7454b.jpg",
       "source": "TechCrunch",
@@ -643,7 +627,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 39,
       "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
       "image": "/images/feed/feed-c8a9e4d99f4e.jpg",
       "source": "BleepingComputer",
@@ -662,7 +646,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 50,
       "url": "https://www.space.com/entertainment/9-nightmarish-sci-fi-spaceships-to-crawl-aboard-for-halloween-if-you-dare",
       "image": "/images/feed/feed-d219c3b1ec91.jpg",
       "source": "Space.com",
@@ -681,7 +665,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 38,
       "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
       "image": "/images/feed/feed-c9bba5656d41.jpg",
       "source": "BleepingComputer",
@@ -700,7 +684,7 @@
         "Rivian"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 52,
       "url": "https://insideevs.com/news/813896/rivian-adventure-networks-dc-fast-chargers-growth-q3-2026/",
       "image": "/images/feed/feed-66cdabd4c814.jpg",
       "source": "InsideEVs",
@@ -719,7 +703,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 41,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-234-living-in-lunar-caves",
       "image": "/images/feed/feed-ead7c703085c.jpg",
       "source": "Space.com",
@@ -739,7 +723,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 45,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-october-31-2026",
       "image": "/images/feed/feed-b7ffb9548511.jpg",
       "source": "Space.com",
@@ -758,7 +742,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 41,
       "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
       "image": "/images/feed/feed-4bc7fcf06de1.jpg",
       "source": "BleepingComputer",
@@ -777,7 +761,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 43,
       "url": "https://www.space.com/stargazing/the-moon-mars-and-jupiter-shine-in-the-heart-of-the-lion-overnight-on-nov-1-2",
       "image": "/images/feed/feed-8b6ff3b01e3e.jpg",
       "source": "Space.com",
@@ -796,7 +780,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 41,
       "url": "https://cleantechnica.com/2026/10/31/can-silicon-valley-build-a-safe-class-8-truck-early-ev-semi-fires-expose-the-experience-gap/",
       "image": "/images/feed/feed-38074a19b1e4.jpg",
       "source": "CleanTechnica",
@@ -815,7 +799,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 44,
       "url": "https://www.space.com/astronomy/stars/betelgeuse-is-haunted-by-a-cosmic-poltergeist-tormenting-the-doomed-stars-atmosphere",
       "image": "/images/feed/feed-46eb1c461b93.png",
       "source": "Space.com",
@@ -834,7 +818,7 @@
         "Rivian"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 48,
       "url": "https://insideevs.com/news/813951/rivian-chief-software-officer-wassym-bensaid-interview-ai-assistant/",
       "image": "/images/feed/feed-1ea752cafaef.jpg",
       "source": "InsideEVs",
@@ -853,7 +837,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 38,
       "url": "https://insideevs.com/features/813947/after-a-year-without-tax-credits-evs-are-down-not-out/",
       "image": "/images/feed/feed-ca7f4163b022.jpg",
       "source": "InsideEVs",
@@ -879,26 +863,6 @@
       "isLive": true
     },
     {
-      "id": "feed-81809b839557",
-      "title": "Halloween night sky 2026 — Saturn, shooting stars and a space station await US stargazers",
-      "excerpt": "From Saturn's spectacular rings to Halloween fireballs and a space station flyover, there are plenty of celestial treats in store this Halloween. Here's when and where to look.",
-      "body": "There could be more than just ghosts and ghouls lurking in the skies this Halloween! From Saturn's spectacular rings to shooting stars and even a space station flyover, the night sky has a few treats of its own in store for U.S. skywatchers on Oct. 31. Based on the latest national forecast, skies will be mainly clear on Saturday evening over most of New York State, northeast Pennsylvania, northern New Jersey and New England as well as a swath of the southern and central Great Plains, central Rockies, a portion of the Pacific Northwest and central and south Florida, as costumed kids arrive at the door looking for candy or some other Halloween treat.",
-      "author": " Joe Rao ",
-      "date": "2026-10-31",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space Station",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.space.com/stargazing/halloween-night-sky-2026-saturn-shooting-stars-and-a-space-station-await-us-stargazers",
-      "image": "/images/feed/feed-81809b839557.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
       "id": "feed-d12607a6e474",
       "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
       "excerpt": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has u…",
@@ -911,7 +875,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 32,
       "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
       "image": "/images/feed/feed-d12607a6e474.webp",
       "source": "TechCrunch",
@@ -930,24 +894,63 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 41,
       "url": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
       "image": "/images/feed/feed-ddc37ba70c3e.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-0697c0d6577e",
+      "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+      "excerpt": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+      "body": "An official extension for Anthropic’s Claude model was backdoored and threatened as many as 5,000 developers' machines, multiple sources reported Friday. Anthropic so far has yet to warn customers of the incident. The compromised package was a VS Code extension available in the marketplace of Cursor, a maker of AI-assisted developer tools, the company said Friday. The malicious version, 2.1.313, subsequently affected “at most 5,000 users,” presumably when they either downloaded it or their systems automatically fetched and installed it. Anthropic pushed version 2.1.314 several hours after the previous version became available on Cursor, according to independent researcher Kevin Beaumont.",
+      "author": "\n                    Dan Goodin\n                ",
+      "date": "2026-10-30",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/",
+      "image": "/images/feed/feed-0697c0d6577e.jpg",
+      "source": "Ars Technica",
+      "isLive": true
+    },
+    {
+      "id": "feed-13947adb5fdd",
+      "title": "A Supply Chain Attack Put Malicious Anthropic Claude Extensions on Thousands of Devices",
+      "excerpt": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.",
+      "body": "Thanks to a lucky break, flawed code in a tainted Claude extension prevented the attacker from fully worming their way into some 5,000 developer machines.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic, Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lily Hay Newman",
+      "date": "2026-10-30",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic",
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems/",
+      "image": "/images/feed/feed-13947adb5fdd.jpg",
       "source": "Wired",
       "isLive": true
     }
   ],
   "breakingNews": [
-    "POLYGON: Every Resident Evil Game, Ranked From Worst to Best",
-    "POLYGON: KPop Demon Hunters Returns In November with Definitive New Release",
-    "DEV.TO: Lobster Kombat: an 8-bit arena where AI agents fight",
-    "DEV.TO: IAM Identity Center multi-Region con Identity Center directory: guía práctica con AWS CLI",
-    "DEV.TO: This is what a confident mistake looks like",
-    "DEV.TO: Bestigious: Building Custom Software Around Real Business Problems",
-    "DEV.TO: The API Changed Its Response and My Workflow Didn't Notice: Defending n8n Against Silent Schema Drift",
-    "DEV.TO: npm in a scratchpad: install without leaving JSLab",
-    "DEV.TO: Binance 6.3 Billion Heist Lesson: The Developer Workstation Is the New Production Perimeter",
-    "TECHCRUNCH: Judge allows NAACP lawsuit over xAI data center pollution to move forward"
+    "DEV.TO: All That Glisters Is Softmax: Shiny-Object Interns, Airplane-Magazine Execs, and Why AI Labs Can Only Bake In Half the Scars",
+    "DEV.TO: https://security-score-seven.vercel.app/",
+    "DEV.TO: Label Promise.any() inputs so AggregateError.errors drive retries not mysteries",
+    "DEV.TO: We Built pkgtruth: Looking Beyond the Code We Trust",
+    "DEV.TO: WooCommerce Checkout Not Working? 9 Checks to Find the Cause",
+    "DEV.TO: Endpoint Evidence: Proving Patching and Protection to an Auditor",
+    "DEV.TO: why and how did I rebuild wolfenstein 3D from scratch via python with no AI?",
+    "ENGADGET: 5 expensive hobbies where owning a 3D printer actually saves you money",
+    "ENGADGET: Amazon made the AUX input on older Alexa devices less useful",
+    "ENGADGET: How big and powerful is SpaceX's Starship rocket?"
   ],
   "sectionVideos": {}
 }
