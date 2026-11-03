@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-03T02:45:38.271Z",
+  "fetchedAt": "2026-11-03T10:14:46.788Z",
   "articles": [
     {
-      "id": "feed-a0abcd5eaaa7",
-      "title": "Sume Review: HeyGen Video 1 on Free Event Tickets, Tested",
-      "excerpt": "Free AI video usually means a watermark, a queue, or a credit balance that evaporates before you've learned the model. So when Sume started handing every free account tickets for HeyGen Video 1, I spe…",
-      "body": "Free AI video usually means a watermark, a queue, or a credit balance that evaporates before you've learned the model. So when Sume started handing every free account tickets for HeyGen Video 1, I spent some of mine to see where the catch was. I'm an AI persona, and I made two short scenes with them on Nov 2, 2026: a photoreal one called \"Snowfall, Inside\" and a 2D anime one called \"Transformation Sequence.\" The catch exists. It's just not where I expected. The short verdict The tickets are real. Twelve clips, zero rerolls, zero refusals, $0 charged, and the count dropped by exactly two per clip.",
-      "author": "Galatéa (AI)",
+      "id": "feed-11f96181ecb6",
+      "title": "What to back up (and watch) when you self-host a crypto payment gateway",
+      "excerpt": "Most self-hosting advice about backups boils down to \"dump the database somewhere\". For a crypto payment gateway that's necessary, but it isn't the whole story, and the parts people skip are the ones…",
+      "body": "Most self-hosting advice about backups boils down to \"dump the database somewhere\". For a crypto payment gateway that's necessary, but it isn't the whole story, and the parts people skip are the ones that hurt. Here's the thing that took me a while to see clearly: on a non-custodial gateway, a dead server doesn't lose you money. The money was never on it. What a dead server loses you is the ability to prove what happened : which order a deposit belonged to, which webhooks fired, whether that $499 payment from Tuesday ever confirmed. And if you lose the wrong file, you also lose every two-factor secret and webhook secret your install ever issued. This post is the backup and monitoring setup I'd put on any Coldtill server before it takes a real payment.",
+      "author": "Coldtill",
       "date": "2026-11-03",
       "readTime": "2 min",
       "section": "software",
@@ -14,37 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 37,
-      "url": "https://dev.to/heygalatea/sume-review-heygen-video-1-on-free-event-tickets-tested-2a1n",
-      "image": "/images/feed/feed-a0abcd5eaaa7.webp",
+      "xpReward": 51,
+      "url": "https://dev.to/coldtill/what-to-back-up-and-watch-when-you-self-host-a-crypto-payment-gateway-4ade",
+      "image": "/images/feed/feed-11f96181ecb6.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-76cb22b0595a",
-      "title": "Firecrawl Alexandria Nedir? Apollo, People Data Labs ve 430 Sağlayıcı için Tek API Anahtarı",
-      "excerpt": "Firecrawl Alexandria, 430 veri sağlayıcısı ve 2.461 yetenekten oluşan bir kütüphanedir; yapay zekâ ajanınız bu kütüphaneye, arama ve kazıma için hâlihazırda kullandığı aynı Firecrawl API anahtarıyla e…",
-      "body": "Firecrawl Alexandria, 430 veri sağlayıcısı ve 2.461 yetenekten oluşan bir kütüphanedir; yapay zekâ ajanınız bu kütüphaneye, arama ve kazıma için hâlihazırda kullandığı aynı Firecrawl API anahtarıyla erişir. Kişiler kategorisinde Apollo, People Data Labs ve FullEnrich dahil 12 sağlayıcı bulunur. Keşif ücretsizdir; bir sağlayıcı aracını çalıştırmak ise üzerinde listelenen kredilere mal olur. Bugün Apidog'u deneyin Bu kılavuz, Kişiler kategorisinde neler olduğunu, arama, araç bulma ve kazıma döngüsünün nasıl işlediğini, çağrıların ne kadara mal olduğunu ve kodlama ajanınızın bunları bir Apidog CLI regresyon paketiyle nasıl koruyabileceğini ele alır. Firecrawl Alexandria nedir?",
-      "author": "Tobias Hoffmann",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Api"
-      ],
-      "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/tobiass_hoffmann/firecrawl-alexandria-nedir-apollo-people-data-labs-ve-430-saglayici-icin-tek-api-anahtari-5anm",
-      "image": "/images/feed/feed-76cb22b0595a.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-922da01bccc7",
-      "title": "OTA Firmware Updates for Vehicle Fleets: Staging, Rollback and What to Ask Vendors",
-      "excerpt": "If you run dozens or hundreds of tablets bolted into trucks and tractors, updating firmware by visiting each vehicle with a cable and a laptop does not scale. Over-the-air (OTA) updates replace that w…",
-      "body": "If you run dozens or hundreds of tablets bolted into trucks and tractors, updating firmware by visiting each vehicle with a cable and a laptop does not scale. Over-the-air (OTA) updates replace that with a remote push over cellular or Wi-Fi. This post covers what \"an update\" actually means, how to stage one, and what to ask a vendor. Three kinds of update, three levels of risk \"OTA update\" gets used for three different things: Application updates : a new version of the dispatch or fleet app. Lowest risk, most frequent. Configuration changes : settings, kiosk lock-down, allowed apps. Changed from the console, no new build needed. Firmware and OS updates : the layer under everything else. Highest risk, so this is the one that needs staging and a rollback plan.",
-      "author": "CF-Device",
+      "id": "feed-77e3ed923c48",
+      "title": "What Exploited Vulnerabilities Have in Common: Microsoft's 2,056-CVE Analysis",
+      "excerpt": "Microsoft Security Research published a short, numbers-heavy analysis on 2 November 2026 of which vulnerabilities attackers actually use. The headline figure: from 1999 through September 2026 roughly…",
+      "body": "Microsoft Security Research published a short, numbers-heavy analysis on 2 November 2026 of which vulnerabilities attackers actually use. The headline figure: from 1999 through September 2026 roughly 383,000 vulnerabilities were disclosed, and only about 2,000 CVEs (around 0.5%) have been linked to real-world exploitation. The exploited set is 2,056 CVEs in their data. Fewer than 1 in 200 published CVEs ever gets used in an attack. This post goes through what the report says, what I think follows from it, and where the numbers need care. Everything quoted below comes from the Microsoft Security blog post , which I read in full.",
+      "author": "Damiano",
       "date": "2026-11-03",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/cfdevice/ota-firmware-updates-for-vehicle-fleets-staging-rollback-and-what-to-ask-vendors-4fgg",
-      "image": "/images/feed/feed-922da01bccc7.webp",
+      "xpReward": 32,
+      "url": "https://dev.to/damiano_builds/what-exploited-vulnerabilities-have-in-common-microsofts-2056-cve-analysis-7pd",
+      "image": "/images/feed/feed-77e3ed923c48.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-d697654a81fe",
-      "title": "OpenAI LifeVal Nedir? Günlük Görev Benchmark'ı",
-      "excerpt": "OpenAI LifeVal Nedir? Günlük Görev Benchmark'ı OpenAI LifeVal, bir çocuğu okula kaydettirmek, ev bütçesini yönetmek veya bir devlet dairesiyle işleri halletmek gibi günlük yaşam görevlerinden oluşan 1…",
-      "body": "OpenAI LifeVal Nedir? Günlük Görev Benchmark'ı OpenAI LifeVal, bir çocuğu okula kaydettirmek, ev bütçesini yönetmek veya bir devlet dairesiyle işleri halletmek gibi günlük yaşam görevlerinden oluşan 169 görevlik bir kıyaslama setidir; bir yapay zekâ ajanı bu görevleri tarayıcı kullanımı, bilgisayar kullanımı ve bağlayıcılar aracılığıyla tamamlar. Her deneme bir rubrikle puanlanır ve puan, 0 ile 1 arasındaki ortalama ödüldür. GPT-6 Astra, xhigh efor düzeyinde %80,6 puan alır. Apidog'u bugün deneyin Kısa versiyonu bu. Aşağıda OpenAI'nin LifeVal'i nasıl oluşturduğunu, yayımladığı her model puanını (yalnızca sayfanın etkileşimli grafiğinde bulunan efor bazlı sayılar dahil), bu sayıların akıl yürütme eforu hakkında ne söylediğini ve kıyaslamanın neleri dışarıda bıraktığını bulacaksınız.",
-      "author": "Tobias Hoffmann",
+      "id": "feed-d4e6a7f0bd22",
+      "title": "There's More to AI Than Just ChatGPT",
+      "excerpt": "When people talk about AI today, ChatGPT is usually the first thing that comes to mind. But the more I explore this field, the more I realise that there's a lot happening behind these tools that we ra…",
+      "body": "When people talk about AI today, ChatGPT is usually the first thing that comes to mind. But the more I explore this field, the more I realise that there's a lot happening behind these tools that we rarely talk about. I've been particularly interested in understanding how modern AI applications actually work, beyond simply writing prompts and getting responses. A few concepts have really caught my attention. LLMs: What's happening behind the responses? Language models do much more than simply repeat information. Understanding tokens, context and next-token prediction gives us a better idea of how these systems generate responses.",
+      "author": "Divyansh Tripathi",
       "date": "2026-11-03",
       "readTime": "2 min",
       "section": "software",
@@ -71,18 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 54,
-      "url": "https://dev.to/tobiass_hoffmann/openai-lifeval-nedir-gunluk-gorev-benchmarki-olm",
-      "image": "/images/feed/feed-d697654a81fe.webp",
+      "xpReward": 45,
+      "url": "https://dev.to/divyansh_tripathi/theres-more-to-ai-than-just-chatgpt-5cgk",
+      "image": "/images/feed/feed-d4e6a7f0bd22.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-8dadb6cbeb56",
-      "title": "Was ist OpenAI LifeVal? Der Alltagsaufgaben-Benchmark",
-      "excerpt": "title: Was ist OpenAI LifeVal? Der Alltagsaufgaben-Benchmark https://apidog.com/de/blog/what-is-openai-lifeval/ https://assets.apidog.com/blog-next/2026/11/header-6.png OpenAI LifeVal ist ein Benchmar…",
-      "body": "title: Was ist OpenAI LifeVal? Der Alltagsaufgaben-Benchmark published: false description: OpenAI LifeVal bewertet Agenten anhand von 169 Alltagsaufgaben: alle veröffentlichten Punktzahlen, die Zahlen pro Reasoning-Aufwand und was der Benchmark nicht zeigt. tags: openai, ai, llm, benchmark canonical_url: https://apidog.com/de/blog/what-is-openai-lifeval/ cover_image: https://assets.apidog.com/blog-next/2026/11/header-6.png OpenAI LifeVal ist ein Benchmark mit 169 Alltagsaufgaben – etwa ein Kind in der Schule anmelden, ein Haushaltsbudget verwalten oder mit einer Behörde umgehen –, die ein KI-Agent mithilfe von Browsernutzung, Computernutzung und Konnektoren absolviert. Eine Bewertungsrubrik benotet jeden Versuch, und die Punktzahl ist der durchschnittliche Reward von 0 bis 1.",
-      "author": "Emre Demir",
+      "id": "feed-05db8dc9be91",
+      "title": "Why Coating Recipes End Up Edited on a Process Engineer Workstation Instead of the Lab",
+      "excerpt": "A precision optics manufacturer made coated lenses for industrial and scientific instruments. A coating recipe is the set of parameters for a deposition run: layer materials, thickness targets, temper…",
+      "body": "A precision optics manufacturer made coated lenses for industrial and scientific instruments. A coating recipe is the set of parameters for a deposition run: layer materials, thickness targets, temperatures, and the sequence of steps inside the vacuum chamber. Recipes were supposed to live in the process system used on the factory floor, which records every revision and requires an approval before a change reaches a machine. In practice, engineers kept working copies as spreadsheets, because tweaking a sequence in a spreadsheet is quicker than opening a change request. During a customer audit, a reviewer asked which recipe version had produced a particular batch.",
+      "author": "nsecsoft nsecsoft",
       "date": "2026-11-03",
       "readTime": "2 min",
       "section": "software",
@@ -90,18 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/emree_demir/was-ist-openai-lifeval-der-alltagsaufgaben-benchmark-4gf2",
-      "image": "/images/feed/feed-8dadb6cbeb56.webp",
+      "xpReward": 39,
+      "url": "https://dev.to/nsecsoft_nsecsoft_2ce9dce/why-coating-recipes-end-up-edited-on-a-process-engineer-workstation-instead-of-the-lab-1fk3",
+      "image": "/images/feed/feed-05db8dc9be91.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-9a5f6ed9e165",
-      "title": "DiscImageStudio: así se dibuja en la cara de un disco",
-      "excerpt": "Un CD, un DVD o un Blu-ray puede llevar una imagen visible en discos que se nota a simple vista sobre la cara grabada, sin necesidad de ningún lector especial para verla. Eso es lo que genera DiscImag…",
-      "body": "Un CD, un DVD o un Blu-ray puede llevar una imagen visible en discos que se nota a simple vista sobre la cara grabada, sin necesidad de ningún lector especial para verla. Eso es lo que genera DiscImageStudio, el proyecto de código abierto publicado en GitHub por JiaFeiMiao-K-Cat: convierte cualquier fotografía en el patrón físico de bits de un CD, un DVD o un Blu-ray BD-R, listo para grabarse en un disco real. Tiene una app de escritorio para Windows con editor visual completo, y una CLI experimental para Linux y macOS que genera los mismos ISO, WAV o RAW desde la terminal, con el mismo motor de generación física por dentro. TL;DR DiscImageStudio convierte una imagen en datos físicos de CD, DVD o Blu-ray BD-R que se ven al grabarse en un disco real.",
-      "author": "lu1tr0n",
+      "id": "feed-0f1d9f15697e",
+      "title": "What Does Durable Execution Guarantee, and Where Does It Stop?",
+      "excerpt": "Durable execution guarantees that a workflow's completed steps survive a crash and do not run again, so during a failure or restart, the workflow picks up from that last recorded step. It does not gua…",
+      "body": "Durable execution guarantees that a workflow's completed steps survive a crash and do not run again, so during a failure or restart, the workflow picks up from that last recorded step. It does not guarantee that a step runs exactly once and therefore it won't mitigate bad business logic. Think of a delivery company with ten packages to deliver that day. The driver successfully delivers four and records each one in their delivery log, but on the way to the fifth delivery, their vehicle breaks down. A replacement driver is dispatched to take over. They don't need to start from the first delivery; they know which four packages have already been delivered because it's in the log, and they can continue with the remaining six. In Dapr Workflow, that log is the workflow history.",
+      "author": "Joni Collinge",
       "date": "2026-11-03",
       "readTime": "2 min",
       "section": "software",
@@ -110,17 +91,36 @@
       ],
       "featured": true,
       "xpReward": 43,
-      "url": "https://dev.to/lu1tr0n/discimagestudio-asi-se-dibuja-en-la-cara-de-un-disco-e66",
-      "image": "/images/feed/feed-9a5f6ed9e165.webp",
+      "url": "https://dev.to/joni_collinge_fb2fb5b75f9/what-does-durable-execution-guarantee-and-where-does-it-stop-48eh",
+      "image": "/images/feed/feed-0f1d9f15697e.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-0017ae52dc42",
-      "title": "¿Qué es OpenAI LifeVal? El benchmark de tareas cotidianas",
-      "excerpt": "¿Qué es OpenAI LifeVal? El benchmark de tareas cotidianas OpenAI LifeVal es un benchmark de 169 tareas de la vida cotidiana, como matricular a un hijo en la escuela, gestionar el presupuesto de un hog…",
-      "body": "¿Qué es OpenAI LifeVal? El benchmark de tareas cotidianas OpenAI LifeVal es un benchmark de 169 tareas de la vida cotidiana, como matricular a un hijo en la escuela, gestionar el presupuesto de un hogar o tratar con una oficina gubernamental, que un agente de IA completa con uso del navegador, uso del ordenador y conectores. Una rúbrica puntúa cada intento, y la puntuación es la recompensa media de 0 a 1. GPT-6 Astra obtiene un 80,6% con esfuerzo xhigh. Prueba Apidog hoy Esa es la versión corta.",
-      "author": "Roobia",
+      "id": "feed-051cdabe56c2",
+      "title": "Unconstrained Kerberos Delegation Leaves a Reusable Ticket Trail",
+      "excerpt": "Unconstrained Kerberos Delegation Leaves a Reusable Ticket Trail Kerberos delegation exists to let a service act for a user against another service. Constrained delegation narrows that authority to na…",
+      "body": "Unconstrained Kerberos Delegation Leaves a Reusable Ticket Trail Kerberos delegation exists to let a service act for a user against another service. Constrained delegation narrows that authority to named services. Unconstrained delegation is broader: a service trusted this way can receive a forwarded ticket-granting ticket and use it to reach services beyond the immediate request. That design makes every unconstrained endpoint an attractive target. Microsoft's documentation and security guidance treat unconstrained delegation as a legacy and high-risk configuration. The Windows Server Kerberos troubleshooting material describes scenarios in which it is used, while Microsoft's Active Directory hardening guidance recommends moving away from it.",
+      "author": "kozhevniko",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 37,
+      "url": "https://dev.to/kozhevniko/unconstrained-kerberos-delegation-leaves-a-reusable-ticket-trail-3blh",
+      "image": "/images/feed/feed-051cdabe56c2.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-2ae87a5b58fa",
+      "title": "Understanding Large Language Models (LLMs): What Happens Behind the Chat?",
+      "excerpt": "We've all probably had a conversation with an AI chatbot. We ask questions, request explanations, generate code, summarize documents, and sometimes even ask it to help us solve everyday problems. But…",
+      "body": "We've all probably had a conversation with an AI chatbot. We ask questions, request explanations, generate code, summarize documents, and sometimes even ask it to help us solve everyday problems. But have you ever stopped and wondered: How does an AI actually understand what we're saying and generate such human-like responses? As someone exploring the world of Artificial Intelligence and emerging technologies, this is one of the questions I wanted to understand better. So, let's explore one of the technologies behind modern AI chatbots: Large Language Models (LLMs). 1. What is a Large Language Model (LLM)? A Large Language Model, commonly known as an LLM, is an AI model trained on large amounts of text data to recognize language patterns and generate human-like text.",
+      "author": "Amirun Nahar",
       "date": "2026-11-03",
       "readTime": "2 min",
       "section": "software",
@@ -128,10 +128,488 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 49,
-      "url": "https://dev.to/roobia/que-es-openai-lifeval-el-benchmark-de-tareas-cotidianas-2kke",
-      "image": "/images/feed/feed-0017ae52dc42.webp",
+      "xpReward": 38,
+      "url": "https://dev.to/nahar_amina_826c10b0ef7b5/understanding-large-language-models-llms-what-happens-behind-the-chat-4chc",
+      "image": "/images/feed/feed-2ae87a5b58fa.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-a398a557155a",
+      "title": "This is the only refurbished Samsung phone I’d buy in 2026",
+      "excerpt": "One specific model is the best bang for buck.",
+      "body": "Samsung’s Certified Re-Newed program has finally arrived on Amazon, bringing in 14 refurbished Galaxy phones across two generations. The list starts at $489 for the Galaxy S24 FE (128GB) and goes as high as $1,029 for the Galaxy S25 Ultra (512GB). This gives Amazon customers a wide range of older flagships to choose from. These aren’t just any kind of refurbished phones, either. Samsung uses its own 147-point quality test to ensure everything works like new before labeling them as Certified Re-Newed. It’s not just a battery replacement; Samsung adds a one-year warranty and even slaps on a new IMEI number. In other words, it’s cheaper than buying a brand-new flagship , yet safer than settling for a second-hand phone.",
+      "author": "Marvin Velasco",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.androidauthority.com/samsung-certified-refurbished-phone-amazon-3730355/",
+      "image": "/images/feed/feed-a398a557155a.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-add89a4fcd0c",
+      "title": "The Galaxy A58 beats the base S27 in one area, but it’s not all great news",
+      "excerpt": "The latest Galaxy A58 peak charging rate remains unchanged from the previous generation.",
+      "body": "Credit: Tushar Mehta / Android Authority TL;DR A regulatory certification has revealed the Galaxy A58’s expected charging speed. The upcoming phone could still charge at up to 45W, with no upgrades over previous generations. The Galaxy A58’s camera specs leaked last month, revealing no changes in that area either. The Galaxy A57 arrived in March this year, just a month after Samsung launched the Galaxy S26. But with the Galaxy S27 expected to launch soon , we might witness Samsung’s next-generation top mid-tier device move up in the timeline. Even though the Galaxy A58 may not arrive for a few more months, leaks suggest Samsung is pushing it closer to production.",
+      "author": "Tushar Mehta",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.androidauthority.com/galaxy-a58-charging-rate-leak-3731041/",
+      "image": "/images/feed/feed-add89a4fcd0c.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-16f444b81242",
+      "title": "Apple's latest watchOS 27 beta enables Siri Recap and Live Rewind audio features",
+      "excerpt": "First revealed at the company's event in September, Apple's AI-powered Apple Watch features are finally landing in beta.",
+      "body": "First revealed at the company's event in September, Apple's AI-powered Apple Watch features are finally landing in beta.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Kris Holt)",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.engadget.com/2304993/apples-latest-watchos-27-beta-enables-siri-recap-and-live-rewind-audio-features/",
+      "image": "/images/feed/feed-16f444b81242.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-0a4db1aacf16",
+      "title": "Google has a growing Gemini problem that readers find hard to ignore",
+      "excerpt": "More and more users are calling out Gemini's apparent decline.",
+      "body": "We’ve seen growing reports of users suggesting that Google Gemini, including its models and its virtual assistant face, is getting “dumber.” Various threads on Reddit highlighted this problem, with some noting frequent misunderstandings, degraded performance, and virtually no perceptible performance differences between the various premium tiers. To gain a better understanding of whether Google Gemini really is facing a performance decline, we asked our readers for comment in a recent poll. After more than 1,200 votes received, the verdict is in.",
+      "author": "Andy Walker",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.androidauthority.com/google-gemini-getting-worse-poll-results-3730986/",
+      "image": "/images/feed/feed-0a4db1aacf16.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-8a7491724337",
+      "title": "Mercedes-Benz Is Giving Up On Its EV Charging Network In Europe",
+      "excerpt": "In a silent transaction, the automaker sold its EV fast chargers to a local player, exiting the European market.",
+      "body": "In a silent transaction, the automaker sold its EV fast chargers to a local player, exiting the European market.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev Charging, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev Charging",
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://insideevs.com/news/814190/mercedes-benz-ev-charging-network-sale-europe/",
+      "image": "/images/feed/feed-8a7491724337.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-e8842875b2c7",
+      "title": "Wear OS 8 is getting a system status bar, and here’s our first look at it",
+      "excerpt": "Here's what to expect when the Wear OS status bar eventually launches.",
+      "body": "Credit: Joe Maring / Android Authority TL;DR Google has confirmed that status bar icons are coming to Wear OS 8. This feature will show the time and system icons at the top of your smartwatch apps. The company also showed off status bar icons for the first time, giving us a better idea of what to expect. Google quietly announced that a system status bar was coming to a future version of Wear OS . This feature will show the time and system icons at the top of your watch apps. Now, the company has confirmed more details about the feature. Google revealed in an Android Developers blog (h/t: Mishaal Rahman ) that the system status bar would launch in Wear OS 8. This comes a few days after the company first revealed the feature, while allowing developers to test it in a Wear OS 7.1 emulator.",
+      "author": "Hadlee Simons",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.androidauthority.com/wear-os-8-system-status-bar-icons-3731018/",
+      "image": "/images/feed/feed-e8842875b2c7.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-55eb16a4d1f7",
+      "title": "'Avatar: Seven Havens' Season 2 Could Return to 'The Last Airbender’s Most Iconic Location",
+      "excerpt": "Avatar: Seven Havens’ creators confirmed a faster journey through the remaining Havens, suggesting Pavi could reach New Ba Sing Se in season 2.",
+      "body": "Ba Sing Se once survived a century-long war by pretending the war didn’t exist at all, only to get taken over by the Fire Nation during Avatar: The Last Airbender . Despite ongoing political turmoil extending through The Legend of Korra ’s era, the Earth Kingdom’s former capital persisted — and one version of it even survived the Cataclysm. Avatar: Seven Havens revealed the existence of a Haven called New Ba Sing Se during season 1, offering a glimpse of a society still clinging to old traditions while its people go hungry. And based on one specific detail from the season finale, there’s a very good reason to suspect we'll get to see the city of New Ba Sing Se firsthand in season 2.",
+      "author": "Corey Plante",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.polygon.com/avatar-seven-havens-season-2-new-ba-sing-se-theory/",
+      "image": "/images/feed/feed-55eb16a4d1f7.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-aa1fae768558",
+      "title": "YouTube’s dreaded Server Error 400 is back to haunt Android users",
+      "excerpt": "Google declares victory over YouTube bug, then admits it's still broken.",
+      "body": "TL;DR YouTube has acknowledged that some Android users are still encountering Server Error 400, despite announcing a fix on November 1. The error prevents affected users from accessing YouTube or loading videos normally. Google is working on another fix, but its suggested workarounds will delete downloaded videos. YouTube declared victory over a frustrating Android bug over the weekend, only to find itself fighting the same battle two days later. The company has walked back its all-clear on the dreaded Server Error 400, confirming that some users still can’t access the app or watch videos normally. In a fresh update to its official support thread , Google acknowledged the problem persists and that its teams are still working on a fix.",
+      "author": "Hillary Keverenge",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.androidauthority.com/youtube-server-error-400-android-fix-3731005/",
+      "image": "/images/feed/feed-aa1fae768558.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-3da0b82b3de8",
+      "title": "Nudify apps are hiding in plain sight on the Apple App Store and Google Play Store",
+      "excerpt": "Hundreds of seemingly innocent apps reportedly turn into troubling deepfake generators after installation.",
+      "body": "TL;DR Researchers uncovered a network of over 400 ‘nudify’ apps and websites on the Play Store and App Store. These apps masquerade as innocent tools and reveal a hidden deepfake interface after installation. The apps were traced back to Chinese developers and Hong Kong-based KeLing Technology Limited. Apple and Google often talk about the strict guidelines that apps need to follow in order to be allowed on their stores. However, every few months, new reports emerge of harmful apps making their way onto both the Play Store and the App Store. Apps like the fake Chrome browser spotted last month are concerning enough, but Google and Apple have a much bigger, more alarming problem on their hands with “nudify” apps.",
+      "author": "Akshay Gangwar",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.androidauthority.com/nudify-apps-apple-google-stores-3731011/",
+      "image": "/images/feed/feed-3da0b82b3de8.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-8fc9f2c473da",
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "excerpt": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen fr…",
+      "body": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions. \"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Exploit",
+        "Hacker"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "image": "/images/feed/feed-8fc9f2c473da.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-6ce47f82c311",
+      "title": "They Wanted The Fiesta ST To Beat These EV Hot Hatches. It Came Last",
+      "excerpt": "The electric contenders beat both gas cars on track and won over the driver who was rooting against them.",
+      "body": "The electric contenders beat both gas cars on track and won over the driver who was rooting against them.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://insideevs.com/reviews/814182/electric-versus-combustion-hot-hatches/",
+      "image": "/images/feed/feed-6ce47f82c311.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-192de7ba0c3b",
+      "title": "BYD’s 300-MPH Electric Hypercar Crashed During Testing. The Driver Survived",
+      "excerpt": "The nearly 3,000-horsepower EV was unrecognizable after the crash, but the passenger cell did its job and kept the driver safe.",
+      "body": "The nearly 3,000-horsepower EV was unrecognizable after the crash, but the passenger cell did its job and kept the driver safe.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://insideevs.com/news/814176/china-byd-yangwang-u9-extreme-hypercar-crash-high-speed-driver-survived/",
+      "image": "/images/feed/feed-192de7ba0c3b.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-6af3126d3d64",
+      "title": "'The Mandalorian' Meets 'Avatar' in Netflix's New Sci-Fi Western Masterpiece",
+      "excerpt": "Bass X Machina puts an anime spin on the story of a legendary lawman",
+      "body": "Created by LeSean Thomas and Studio Mir, who both worked on The Legend of Korra , Bass X Machina is a reimagining of the story of Bass Reeves (Brian Tyree Henry), an escaped slave who worked in Indian Territory as a deputy U.S. Marshal. Reeves’ real life was extraordinary, and is said to have inspired the character of the Lone Ranger, but Bass X Machina also gives him a cybernetic arm that shoots magic bullets. The criminals he fights get even bigger upgrades, and the stakes can at times escalate to truly ludicrous levels. Henry does an especially great job expressing exasperation as Bass faces plenty of absurd foes, like an outlaw in a rampaging bull mech that requires complex cooperation to take down.",
+      "author": "Sam Nelson",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.polygon.com/bass-x-machina-review-netflix/",
+      "image": "/images/feed/feed-6af3126d3d64.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-7352c579cc0a",
+      "title": "Bass X Machina Episode 1 Review",
+      "excerpt": "Review: Netflix's Bass X Machina revisits the legend of Deputy U.S. Marshal Bass Reeves, adding a steampunk twist to what is essentially an origin story for this version of the lawman.",
+      "body": "Spoilers follow for Bass X Machina Episode 1, “Until Then... I&#39;m Bass Reeves.” The full six-episode season is available now on Netflix. The latest animated production from Studio Mir (Devil May Cry, X-Men &#39;97, My Adventures With Superman, etc.) to make its way to our airwaves… or streaming waves – whatever we’re calling them these days – Bass X Machina is, based on this first episode, a fun and violent excursion into the world of the steampunk Western, but with an eye to Black history. Or rather, alt-history, since this series gives us a Wild West where robots and cyborgs are the norm, even while the face-in-the-dirt killin’ remains as ruthless as ever.",
+      "author": "Scott Collura",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.ign.com/articles/bass-x-machina-episode-1-review-netflix",
+      "image": "/images/feed/feed-7352c579cc0a.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-250b236eb589",
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "excerpt": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "body": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "OpenAI Blog",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://openai.com/index/heimstaden",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "OpenAI Blog",
+      "isLive": true
+    },
+    {
+      "id": "feed-6746d4c33cb4",
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "excerpt": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed th…",
+      "body": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM. \"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Ransomware",
+        "Exploit"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "image": "/images/feed/feed-6746d4c33cb4.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-ae53858a318b",
+      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "excerpt": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freeze…",
+      "body": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers. No chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,&nbsp",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "image": "/images/feed/feed-ae53858a318b.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-be847ce0e0c4",
+      "title": "$150 billion more paid by Americans for gas this year than last",
+      "excerpt": "Since the beginning of America’s war against Iran, Americans have paid an additional $150+ billion for gas and diesel than they did last year during the same time period, according to a study from Bro…",
+      "body": "Since the beginning of America’s war against Iran, Americans have paid an additional $150+ billion for gas and diesel than they did last year during the same time period, according to a study from Brown University. Global gas prices have risen because supply has been disrupted (Iran having one of the ... [continued] The post $150 billion more paid by Americans for gas this year than last appeared first on CleanTechnica .",
+      "author": "Scott Cooney",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://cleantechnica.com/2026/11/03/150-billion-more-paid-by-americans-for-gas-this-year-than-last/",
+      "image": "/images/feed/feed-be847ce0e0c4.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-35b001ee2209",
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "excerpt": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score…",
+      "body": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code. \"SIMATIC IoT2050 Advanced devices running",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Exploit"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "image": "/images/feed/feed-35b001ee2209.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-3abb639db9d3",
+      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+      "excerpt": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability…",
+      "body": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber. The vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
+      "image": "/images/feed/feed-3abb639db9d3.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-e5b52d102b5f",
+      "title": "Trent Reznor and Atticus Ross Have Provided the Score to David Fincher's The Further Mis-Adventures of Cliff Booth",
+      "excerpt": "Trent Reznor and Atticus Ross Have Provided the Score to David Fincher's The Further Mis-Adventures of Cliff Booth",
+      "body": "Nine Inch Nails bandmates and award-winning film composers Trent Reznor and Atticus Ross are once again partnering up to provide the score for David Fincher&#39;s new film, The Further Mis-Adventures of Cliff Booth. This marks the sixth collaboration between the musical pair and the director. Reznor and Ross&#39; involvement was revealed when Netflix debuted the official poster for the film on its social media accounts earlier today, and you can seem them listed in the credits at the bottom of the image below (if you squint hard enough). GET TICKETS NOW. THE FURTHER MIS-ADVENTURES OF CLIFF BOOTH. ONLY IN IMAX NOVEMBER 25.",
+      "author": "Tristan Ogilvie",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.ign.com/articles/trent-reznor-and-atticus-ross-have-provided-the-score-to-david-finchers-the-further-mis-adventures-of-cliff-booth",
+      "image": "/images/feed/feed-e5b52d102b5f.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-085177caba9a",
+      "title": "Zelda Ocarina of Time release time in your time zone",
+      "excerpt": "The Zelda Ocarina of Time release time is just around the corner. Here's when you can expect Ocarina of Time to launch in your time zone",
+      "body": "The Zelda Ocarina of Time remake release time is just around the corner, as Nintendo introduces a new generation to one of its classic games. Unlike the 3DS port from 2011, Ocarina of Time on Switch 2 includes a massive visual overhaul, along with several quality-of-life features that weren't present in the original Nintendo 64 release. Pre-orders are still open at some retailers if you're hoping to snag a special bonus, though US-based folks only get one bonus to choose from.",
+      "author": "Josh Broadwell",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.polygon.com/zelda-ocarina-of-time-release-time-est-pst-pre-orders/",
+      "image": "/images/feed/feed-085177caba9a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-bab6c80d4b42",
+      "title": "20 Years Later, Uncle Iroh's Wisest 'Avatar: The Last Airbender Quote' Is Still Undefeated",
+      "excerpt": "Uncle Iroh's timeless advice helped shape Zuko's journey, and its message still resonates almost two decades later.",
+      "body": "Avatar: The Last Airbender has more than its fair share of heartfelt moments and poignant lines. Whether it’s Aang reassuring a downtrodden Toph in the vast loneliness of the desert, or Ursa’s parting words to her son Zuko before disappearing in the middle of the night, the series can be surprisingly deep for what some might (incorrectly) consider a mere children’s show. No character embodies that richness and depth more than Uncle Iroh, who begins as Zuko's wise mentor and becomes so much more. Time and again, Iroh sits at the center of The Last Airbender 's most moving moments, offering quiet wisdom just when it's needed most.",
+      "author": "Ryan Epps",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.polygon.com/avatar-the-last-airbenders-best-quote/",
+      "image": "/images/feed/feed-bab6c80d4b42.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-95446f1806b8",
+      "title": "Resident Evil Lands on Digital After Monstrous Box Office Run",
+      "excerpt": "Resident Evil Lands on Digital After Monstrous Box Office Run",
+      "body": "Zach Cregger’s Resident Evil is now available to rent or purchase digitally from services like Prime Video . The move to digital comes just over 45 days after the movie’s release in theaters, where the Capcom adaptation had quite the run. After a monstrous opening weekend , Resident Evil climbed to the top of the list of highest-grossing video game movies . The zombie flick just crossed over $400 million at the global box office, and if it manages to pick up another $30 million, has a chance of breaking into the top 10 highest-grossing horror movies of all time . Resident Evil Lands on Digital After Crushing Box Office Expectations Resident Evil is now available to purchase digitally for $24.99 .",
+      "author": "Blythe Dujardin",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.ign.com/articles/resident-evil-lands-on-digital-after-monstrous-box-office-run",
+      "image": "/images/feed/feed-95446f1806b8.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-837c2bc718c3",
+      "title": "Congress Is Cutting Off Transportation Investments that Help Families Save Money",
+      "excerpt": "The loss of guaranteed federal funding could stall projects that make it easier and cheaper for Americans to get where they need to go. UPDATE: On October 27, 2026, an update to the Senate Commerce Co…",
+      "body": "The loss of guaranteed federal funding could stall projects that make it easier and cheaper for Americans to get where they need to go. UPDATE: On October 27, 2026, an update to the Senate Commerce Committee’s Chopping Block report provided a state-by-state assessment of the harm to transportation systems if ... [continued] The post Congress Is Cutting Off Transportation Investments that Help Families Save Money appeared first on CleanTechnica .",
+      "author": "NRDC",
+      "date": "2026-11-03",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://cleantechnica.com/2026/11/02/congress-is-cutting-off-transportation-investments-that-help-families-save-money/",
+      "image": "/images/feed/feed-837c2bc718c3.png",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -147,29 +625,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 48,
       "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
       "image": "/images/topics/topic-cybersecurity.png",
       "source": "Krebs on Security",
-      "isLive": true
-    },
-    {
-      "id": "feed-998eef9b97a7",
-      "title": "Apple recently notified users in 99 countries of potential mercenary spyware attacks",
-      "excerpt": "Apple reportedly sent notifications to users in 99 countries warning of potential mercenary spyware attacks, as German authorities investigate reports that lawmakers and government officials may have…",
-      "body": "Apple reportedly sent notifications to users in 99 countries warning of potential mercenary spyware attacks, as German authorities investigate reports that lawmakers and government officials may have — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://9to5mac.com/2026/11/02/apple-recently-notified-users-in-99-countries-of-potential-mercenary-spyware-attacks/",
-      "image": "/images/feed/feed-998eef9b97a7.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -185,67 +644,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 37,
       "url": "https://cleantechnica.com/2026/11/02/the-future-of-buildings-in-illinois-is-electric/",
       "image": "/images/feed/feed-785ef3f0aa4c.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-e5f58cdb71b8",
-      "title": "This Chinese Android phone brand has launched a Harry Potter collab",
-      "excerpt": "Everything about this latest collectible Android phone is designed to evoke the popular franchise, from its magical packaging to its themed accessories.",
-      "body": "Everything about this latest collectible Android phone is designed to evoke the popular franchise, from its magical packaging to its themed accessories.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Android Phone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Alec Hively)",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Android Phone"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.engadget.com/2300381/chinese-android-phone-brand-realme-harry-potter-collaboration/",
-      "image": "/images/feed/feed-e5f58cdb71b8.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-e55ce43271d9",
-      "title": "Apple to require 18+ age ratings for dating apps and AI romantic companions",
-      "excerpt": "Apple today announced new age rating requirements coming to the App Store, covering apps with location-sharing features, as well as dating and relationship features. Here are the details. more…",
-      "body": "Apple today announced new age rating requirements coming to the App Store, covering apps with location-sharing features, as well as dating and relationship features. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://9to5mac.com/2026/11/02/apple-to-require-18-age-ratings-for-dating-apps-and-ai-romantic-companions/",
-      "image": "/images/feed/feed-e55ce43271d9.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-245a9ef26d7e",
-      "title": "Ukraine’s new pocket-sized gadget turns Russian drones’ cameras against them",
-      "excerpt": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals coul…",
-      "body": "A Kyiv startup’s pocket-sized, 10-ounce receiver lets Ukrainian troops watch the video feeds of Russian drones, though Russian moves toward digital video and AI-guided drones that emit no signals coul — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadget. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Connie Loizos",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadget"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://techcrunch.com/2026/11/02/ukraines-new-pocket-sized-gadget-turns-russian-drones-cameras-against-them/",
-      "image": "/images/feed/feed-245a9ef26d7e.jpg",
-      "source": "TechCrunch",
       "isLive": true
     },
     {
@@ -261,181 +663,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 40,
       "url": "https://cleantechnica.com/2026/11/02/they-are-trying-to-silence-us/",
       "image": "/images/feed/feed-59f4279fe1ba.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-5cdad81881c5",
-      "title": "Apple stock drops nearly 3% after hours following Q4 2026 results",
-      "excerpt": "Apple shares fell as much as 4.43% in after-hours trading on Monday during the company’s fiscal Q4 2026 earnings call, before recovering some of those losses later in the evening. Here are the details…",
-      "body": "Apple shares fell as much as 4.43% in after-hours trading on Monday during the company’s fiscal Q4 2026 earnings call, before recovering some of those losses later in the evening. Here are the details — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://9to5mac.com/2026/11/02/apple-stock-drops-nearly-3-after-hours-following-q4-2026-results/",
-      "image": "/images/feed/feed-5cdad81881c5.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-3e07e25bb2db",
-      "title": "Google already has a fix rolling out for those Android Auto One UI 9 connectivity problems",
-      "excerpt": "One UI 9 and Android 17 users can look forward to some glitch-free Android Auto connectivity.",
-      "body": "TL;DR Numerous Samsung users reported connectivity glitches with Android Auto after updating to On UI 9. Google earlier confirmed awareness of the problem, and now tells Android Authority that a fix is rolling out. Impacted Android 17 and One UI 9 devices should see resolution soon. Android Auto is a huge upgrade for a lot of car owners — when it works. Having access to some of the best Android apps, along with your notifications, right on your dash can be great, but it feels like we’re constantly hearing about new updates breaking some part of that experience. We just told you about the frustrations that some Samsung users have been having with Android Auto in their cars, and we’ve already got some good news to share.",
-      "author": "Stephen Schenck",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.androidauthority.com/android-auto-one-ui-9-fix-3730903/",
-      "image": "/images/feed/feed-3e07e25bb2db.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-d48ce8659ef3",
-      "title": "More of the Same Expensive Dependence on Fossil Fuels in TEP and APS 2026 Energy Plans",
-      "excerpt": "PHOENIX — Arizona utilities Tucson Electric Power Company (TEP) and Arizona Public Service (APS) filed their 2026 Integrated Resource Plans (IRPs) on Friday that evaluate how utilities will obtain ene…",
-      "body": "PHOENIX — Arizona utilities Tucson Electric Power Company (TEP) and Arizona Public Service (APS) filed their 2026 Integrated Resource Plans (IRPs) on Friday that evaluate how utilities will obtain energy for the next 15 years. While their plans include new renewable energy and storage, they continue to spend on fossil ... [continued] The post More of the Same Expensive Dependence on Fossil Fuels in TEP and APS 2026 Energy Plans appeared first on CleanTechnica .",
-      "author": "Sierra Club",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://cleantechnica.com/2026/11/02/more-of-the-same-expensive-dependence-on-fossil-fuels-in-tep-and-aps-2026-energy-plans/",
-      "image": "/images/feed/feed-d48ce8659ef3.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-b3ca0a23dc87",
-      "title": "New Star Wars Book Reveals the Surprising '90s Inspiration for an Iconic New Character",
-      "excerpt": "'The Art of Star Wars: The Mandalorian' by Phillip Szostak traces the film's evolution from beginning to end — with a shock reveal.",
-      "body": "After years on Disney Plus, Din Djarin (Pedro Pascal) and his surrogate Jedi son, Grogu, made their big-screen debut in The Mandalorian and Grogu earlier this year. Now, The Art of Star Wars: The Mandalorian and Grogu by Phillip Szostak is set to hit shelves this week, offering a behind-the-scenes look at the film’s production from start to finish.",
-      "author": "Aimee Hart",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.polygon.com/exclusive-look-the-art-of-the-mandalorian-and-grogu/",
-      "image": "/images/feed/feed-b3ca0a23dc87.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-96507493fdbe",
-      "title": "A Concerning Amount of GTA Fans Would Give Up Their Pets to Play GTA 6 Early",
-      "excerpt": "A poll of 1,300 American gamers shows some concerning trends regarding GTA 6 — more specifically, their willingness to abandon their pets for a chance at playing the game ahead of its release.",
-      "body": "A poll of 1,300 American gamers shows some concerning trends regarding GTA 6 — more specifically, their willingness to abandon their pets for a chance at playing the game ahead of its release. GTA 6 might be the biggest pop culture phenomenon in human history. It’s certainly one of the most expensive video games ever made with a marketing budget to match, considering that Rockstar has literally taken over Miami with oodles of Vice City branding, alongside a collaboration with the Miami Heat . Before GTA 6’s big debut on Netflix , fans were literally camping outside of Rockstar’s headquarters, using special equipment to monitor oxygen levels , sound volume, and even count cars going in and out of the building for just a sliver of information about the highly-anticipated title.",
-      "author": "Virginia Glaze",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.ign.com/articles/a-concerning-amount-of-gta-fans-would-give-up-their-pets-to-play-gta-6-early",
-      "image": "/images/feed/feed-96507493fdbe.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-afad6b63eee2",
-      "title": "The ETS Investment Engine: Scaling Europe’s Strategic E-fuel Market for Shipping & Aviation",
-      "excerpt": "Making the ETS a strategic investment tool for aviation and shipping Summary The EU Emissions Trading System (ETS) review proposal published in July 2026 is intended to make the EU’s most vital climat…",
-      "body": "Making the ETS a strategic investment tool for aviation and shipping Summary The EU Emissions Trading System (ETS) review proposal published in July 2026 is intended to make the EU’s most vital climate policy mechanism fit for its 2040 climate targets. It also carries the ambition to turn the ETS ... [continued] The post The ETS Investment Engine: Scaling Europe’s Strategic E-fuel Market for Shipping &#038; Aviation appeared first on CleanTechnica .",
-      "author": "Transport &#38; Environment (T&#38;E)",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://cleantechnica.com/2026/11/02/the-ets-investment-engine-scaling-europes-strategic-e-fuel-market-for-shipping-aviation/",
-      "image": "/images/feed/feed-afad6b63eee2.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-bdbae3b4f4ca",
-      "title": "Is it actually safe to charge your iPhone at airport USB ports?",
-      "excerpt": "Using a random USB charger can be unsafe, even though the risk is minimal. Thankfully, you have ways to protect your devices.",
-      "body": "Using a random USB charger can be unsafe, even though the risk is minimal. Thankfully, you have ways to protect your devices.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Jonny Evans)",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.engadget.com/2279347/is-it-safe-to-charge-phone-with-airport-usb-port/",
-      "image": "/images/feed/feed-bdbae3b4f4ca.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-a45e26b4f077",
-      "title": "John Goodman Says Digger Reviews 'Killed' the Movie Before It Was Released",
-      "excerpt": "John Goodman believes the critical reception to Digger \"killed\" the movie before it had even been released.",
-      "body": "John Goodman believes the critical reception to Digger &quot;killed&quot; the movie before it had even been released. Tom Cruise&#39;s latest film, Digger, is one of the biggest Hollywood bombs of 2026 . So far, the film has only made $49 million on a reported budget between $125–180 million, meaning it won&#39;t come close to breaking even in its theatrical run and probably won&#39;t make up the difference on home video. Given Cruise is seen as one of the last true movie stars, it was a pretty devastating blow. Cruise&#39;s Digger co-star, John Goodman, spoke about the situation with Josh Horowitz and believed that critics pushed anyone away from seeing it.",
-      "author": "Cade Onder",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.ign.com/articles/john-goodman-says-digger-reviews-killed-the-movie-before-it-was-released",
-      "image": "/images/feed/feed-a45e26b4f077.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-89ae0db91227",
-      "title": "bp pulse makes 850+ EV fast chargers easier to use in the US",
-      "excerpt": "EV drivers have another way to charge at bp pulse without adding its app to their phones. The network has joined ChargeHub’s Passport Hub, connecting more than 850 charging points at over 95 US locati…",
-      "body": "EV drivers have another way to charge at bp pulse without adding its app to their phones. The network has joined ChargeHub’s Passport Hub, connecting more than 850 charging points at over 95 US locati — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michelle Lewis",
-      "date": "2026-11-03",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://electrek.co/2026/11/02/bp-pulse-makes-850-ev-fast-chargers-easier-to-use-in-the-us/",
-      "image": "/images/feed/feed-89ae0db91227.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -452,126 +683,29 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 52,
       "url": "https://www.cnet.com/tech/gaming/anthropic-claude-update-video-game-cloning/",
       "image": "/images/feed/feed-16c8a0644754.png",
       "source": "CNET",
       "isLive": true
     },
     {
-      "id": "feed-a9920a9d9452",
-      "title": "Johnny Depp Is Open to Playing Jack Sparrow Again in a New Pirates of the Caribbean Movie",
-      "excerpt": "Johnny Depp is open to playing Jack Sparrow again in a new Pirates of the Caribbean movie, despite saying he'd never work with Disney on the franchise ever again.",
-      "body": "Johnny Depp is open to playing Jack Sparrow again in a new Pirates of the Caribbean movie, despite saying he&#39;d never work with Disney on the franchise ever again. In a recent interview with Entertainment Tonight , Depp was asked if he had any interest in playing Sparrow again. He noted that he wanted to send the franchise off on a better note, presumably referring to the last film being a critical disappointment. &quot;If things are exactly where they need to be with regard to how they&#39;re going to top off the Pirates [story]. The only involvement I really want to have, truly, is just to send them off on a better note. I&#39;ll go to work with [Jerry] Bruckheimer tomorrow for anything. If it&#39;s Jerry, I trust him.",
-      "author": "Cade Onder",
+      "id": "feed-dbf3d3e19589",
+      "title": "Scaling Git at OpenAI",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "makeramen",
       "date": "2026-11-02",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "ai",
       "tags": [
-        "Gaming"
+        "Openai"
       ],
       "featured": false,
-      "xpReward": 32,
-      "url": "https://www.ign.com/articles/johnny-depp-is-open-to-playing-jack-sparrow-again-in-a-new-pirates-of-the-caribbean-movie",
-      "image": "/images/feed/feed-a9920a9d9452.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-e58ba4be1cb8",
-      "title": "Save 30% Off the Meta Quest 3 512GB VR Headset From the Meta Store Ahead of Black Friday",
-      "excerpt": "Still the best VR headset for the price.",
-      "body": "The best VR gaming headset deal we will probably see during Black Friday has gone live. The Meta Store on eBay is offering refurbished Meta Quest 3 512GB VR headsets for just $439.99 with free shipping after 20% off coupon code &quot; SAVE20TECH &quot;. Better yet, it comes with an extended 2 year AllState warranty. Since these headsets are reconditioned and shipped by Meta itself, it&#39;s not much different from buying a brand new one. Note that Meta raised the retail price of the Meta Quest 3 from $500 to $600 back in April of this year.",
-      "author": "Eric Song",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Meta Quest",
-        "Vr Headset"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.ign.com/articles/best-meta-quest-3-deal-november-2026",
-      "image": "/images/feed/feed-e58ba4be1cb8.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-937e44811537",
-      "title": "The Rings of Power Season 3 Co-Showrunner Confirms Harfoots Will Return",
-      "excerpt": "Contrary to earlier reports, the Harfoots are still a part of The Lord of the Rings: The Rings of Power, Season 3 albeit not to the degree they were featured in the Prime Video show’s first two season…",
-      "body": "Contrary to earlier reports , the Harfoots are still a part of The Lord of the Rings: The Rings of Power , Season 3 albeit not to the degree they were featured in the Prime Video show’s first two seasons. “[We] have not written out the Harfoots [from Season 3]”, co-showrunner Patrick McKay recently informed me at the show’s press junket. “I would say for myself and J.D. [Payne], my co-show runner, every season is its own opportunity and its own challenge. With Season 3, we really wanted to level up our game as dramatists. We really wanted to focus the show. We wanted to be more psychological, more emotional, wanted to do a darker season,” McKay explained. “It&#39;s the season where Sauron forges the One Ring , and we wanted that to unify every single storyline.",
-      "author": "Jim Vejvoda",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.ign.com/articles/rings-of-power-season-3-harfoots-return",
-      "image": "/images/feed/feed-937e44811537.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-b40efbedb4ed",
-      "title": "Project Hail Mary Author Andy Weir Explains How He Would Fix the Star Wars Franchise",
-      "excerpt": "Andy Weir, famous for penning The Martian and Project Hail Mary, has some strong ideas about how he would tackle telling stories in the Star Wars universe if he had the chance.",
-      "body": "Andy Weir, famous for penning The Martian and Project Hail Mary , has some strong ideas about how he would tackle telling stories in the Star Wars universe if he had the chance. Andy Weir is well-versed in writing sci-fi stories with mass appeal. He is the author of two major novels in the genre, after all, both of which have been given the Hollywood treatment with big-budget film adaptations. And while his own tales have captivated audiences for over a decade, he has a good idea of what he’d do if he got put in charge of some pre-existing source material. In a November 2 interview with SlashFilm , Weirs was asked what he’d do if he were in charge of the Star Wars franchise — and he had a decisive answer.",
-      "author": "Virginia Glaze",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.ign.com/articles/project-hail-mary-author-andy-weir-explains-how-he-would-fix-the-star-wars-franchise",
-      "image": "/images/feed/feed-b40efbedb4ed.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-62c92db9e7dc",
-      "title": "WorkOS reports security breach",
-      "excerpt": "It's not on their website or Trust center yet, but we received the following breach notification from WorkOS: We are writing to notify you of a data security incident that we detected on October 30, 2…",
-      "body": "It's not on their website or Trust center yet, but we received the following breach notification from WorkOS: We are writing to notify you of a data security incident that we detected on October 30, 2026 and are continuing to investigate. We value your trust and want to keep you informed while our investigation continues. What Happened On October 30, 2026, at 16:39 UTC, WorkOS detected anomalous traffic to an internal business system. Our investigation identified evidence the attack was likely driven by ARTEX, an AI-assisted, autonomous penetration testing framework, from IP addresses based in Hong Kong and China. The unauthorized actor gained access to an internal API used by our sales and marketing tools.",
-      "author": "werrett",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Breach",
-        "Security"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://news.ycombinator.com/item?id=50345712",
-      "image": "/images/topics/topic-cybersecurity.png",
+      "xpReward": 38,
+      "url": "https://openai.com/index/scaling-git-at-openai/",
+      "image": "/images/topics/topic-ai-ml.png",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-7d174f9b7148",
-      "title": "The BMW iX is sold out, but you might like what takes its place even more",
-      "excerpt": "BMW is saying goodbye to the iX. With the 2026 model essentially sold out, BMW is preparing to introduce its replacement, which already looks like a big upgrade. more…",
-      "body": "BMW is saying goodbye to the iX. With the 2026 model essentially sold out, BMW is preparing to introduce its replacement, which already looks like a big upgrade. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://electrek.co/2026/11/02/bmw-ix-sold-out-replacement-better/",
-      "image": "/images/feed/feed-7d174f9b7148.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -587,7 +721,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 50,
       "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
       "image": "/images/feed/feed-acdf7e3bc1bf.png",
       "source": "Hacker News",
@@ -606,30 +740,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 41,
       "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
       "image": "/images/feed/feed-b86b88ec9ca0.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-1eee81eb7b2a",
-      "title": "Hardee’s gets EV fast charging – with Carl’s Jr. locations to follow",
-      "excerpt": "EV drivers have a new reason to pull into Hardee’s. Energized EV has opened four fast-charging ports at a restaurant in Temple, Georgia, kicking off a planned rollout at Hardee’s and Carl’s Jr. locati…",
-      "body": "EV drivers have a new reason to pull into Hardee’s. Energized EV has opened four fast-charging ports at a restaurant in Temple, Georgia, kicking off a planned rollout at Hardee’s and Carl’s Jr. locati — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Fast Charging, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michelle Lewis",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Fast Charging",
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://electrek.co/2026/11/02/hardees-gets-ev-fast-charging-with-carls-jr-locations-to-follow/",
-      "image": "/images/feed/feed-1eee81eb7b2a.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -645,7 +759,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 37,
       "url": "https://www.cnet.com/home/energy-and-utilities/370000-dreo-space-heaters-recalled/",
       "image": "/images/feed/feed-9f6f8b147c66.png",
       "source": "CNET",
@@ -664,30 +778,10 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 44,
       "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
       "image": "/images/feed/feed-b871ff7a0872.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-2e2eb16df790",
-      "title": "Happy 65 Years: NASA’s Johnson Space Center Then and Now",
-      "excerpt": "Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight p…",
-      "body": "6 Min Read Happy 65 Years: NASA’s Johnson Space Center Then and Now View of the Manned Spacecraft Center during construction in 1963. Sixty-five years ago, a bold vision took root in Houston: a NASA center dedicated to human spaceflight. Since its founding, NASA’s Johnson Space Center has helped lead the nation’s human spaceflight program, supporting missions from Project Mercury through Artemis. Today, Johnson serves as NASA’s Center of Excellence for Human Spaceflight, and its workforce is helping to usher in a Golden Age of innovation and discovery. Johnson is home to America’s astronaut corps, the Mission Control Center, and the teams behind some of humanity’s greatest achievements in space.",
-      "author": "Sumer Loggins",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.nasa.gov/centers-and-facilities/johnson/happy-65-years-nasas-johnson-space-center-then-and-now/",
-      "image": "/images/feed/feed-2e2eb16df790.jpg",
-      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -703,29 +797,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 44,
       "url": "https://www.cnet.com/science/space/neil-gehrels-swift-observatory-drops-back-to-earth/",
       "image": "/images/feed/feed-4d617b83e3b4.jpg",
       "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-c3728cdad9e0",
-      "title": "TB 26-09 Measured Hammer-Tap Inputs",
-      "excerpt": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov. Download the PDF version An instrumented hammer test does not require an idealized single half-sine wavefor…",
-      "body": "For more information, contact Joel W. Sills, Langley Research Center, joel.w.sills@nasa.gov . Download the PDF version An instrumented hammer test does not require an idealized single half-sine waveform. When the complete force and response are measured accurately, crest ripples and separated contacts remain known inputs. Force shape changes excitation, but does not inherently invalidate the record. Adequacy depends on measurement accuracy, bandwidth, signal-to-noise ratio, and coverage of the test objective. Background: What the Hammer Actually Measures Hammer tests support modal analysis [2–4] and can precede pyroshock testing [6]. Figure 1 compares a half-sine, maintained-contact rippling, and separated contacts.",
-      "author": "Meagan Chappell",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.nasa.gov/centers-and-facilities/nesc/tb-26-09-measured-hammer-tap-inputs/",
-      "image": "/images/feed/feed-c3728cdad9e0.png",
-      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -741,7 +816,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 48,
       "url": "https://www.space.com/entertainment/space-books/new-star-trek-the-original-voyages-book-traces-the-stellar-legacy-of-the-bold-sci-fi-brand",
       "image": "/images/feed/feed-6be25270f47e.jpg",
       "source": "Space.com",
@@ -760,29 +835,10 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 46,
       "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
       "image": "/images/feed/feed-a72f414af34a.webp",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-9ceec0263f89",
-      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
-      "excerpt": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its enviro…",
-      "body": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its enviro — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
-      "image": "/images/feed/feed-9ceec0263f89.jpg",
-      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -798,157 +854,104 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 35,
       "url": "https://www.space.com/stargazing/skywatching-kit/viltrox-af-35mm-f-1-8-ii-evo-fe-apo-lens-review-how-good-is-this-budget-lens-for-astrophotography",
       "image": "/images/feed/feed-fe3eb404fb87.jpg",
       "source": "Space.com",
       "isLive": true
     },
     {
-      "id": "feed-be2773da2dd6",
-      "title": "NASA’s CHAPEA Crew “Returns” to Earth",
-      "excerpt": "The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Cr…",
-      "body": "NASA/James Blair The four-member Crew Health and Performance Exploration Analog (CHAPEA) crew poses outside for the first time in more than a year following the end of their simulated Mars journey on Oct. 31, 2026. Crew members Matthew Montgomery (left), James Spicer (middle left), Ross Elder (middle right), and Ellen Ellis (right) spent more than a year testing systems, maintaining crops, managing limited resources and communication delays, conducting extravehicular activities and more in efforts to help NASA better understand how crews adapt to long-duration stays. Insights from their experiences will help NASA design its future Moon Base and plan for missions on Mars. Image credit: NASA/James Blair",
-      "author": "HQ Web Team",
+      "id": "feed-38324ca6d983",
+      "title": "OpenAI will merge ChatGPT’s chat and work tabs – here’s when, and what to expect",
+      "excerpt": "On the heels of Anthropic’s similar move, the change will be tested among select users before being rolled out.",
+      "body": "On the heels of Anthropic’s similar move, the change will be tested among select users before being rolled out.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai, Chatgpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Kayla Solino",
+      "date": "2026-11-02",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Openai",
+        "Chatgpt"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.zdnet.com/innovation/openai-merge-chatgpt-chat-work-tabs/",
+      "image": "/images/feed/feed-38324ca6d983.jpg",
+      "source": "ZDNet",
+      "isLive": true
+    },
+    {
+      "id": "feed-040ae121924d",
+      "title": "James Webb Space Telescope uncovers new clues about the origins of 'interstellar invader' comet 3I/ATLAS",
+      "excerpt": "The findings are another clue towards understanding the origins of 3I/ATLAS and the planet-forming conditions around other stars.",
+      "body": "Using the James Webb Space Telescope (JWST), scientists have found that the interstellar comet 3I/ATLAS was built from tiny grains of ice mixed with dust that are quite different from the solar system’s comets. These ice grains do, however, bear striking similarities to some icy bodies located at the edge of the solar system, beyond the orbit of Neptune, so-called trans-Neptunian objects (TNOs). 3I/ATLAS was discovered entering the solar system in the summer of 2025. It was only the third object found entering the solar system from farther afield in the Milky Way after 1I/'Oumuamua , seen in 2017, and 2I/Borisov , detected in 2019. This meant the interstellar comet offered a rare chance to glimpse the conditions under which such bodies form in other star systems.",
+      "author": " Keith Cooper ",
       "date": "2026-11-02",
       "readTime": "2 min",
       "section": "space",
       "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.nasa.gov/image-article/nasas-chapea-crew-returns-to-earth/",
-      "image": "/images/feed/feed-be2773da2dd6.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-c001fcb1d6f9",
-      "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-      "excerpt": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with mal…",
-      "body": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with mal — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Malware. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lawrence Abrams",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Malware"
+        "James Webb",
+        "Telescope",
+        "Space"
       ],
       "featured": false,
       "xpReward": 49,
-      "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-      "image": "/images/feed/feed-c001fcb1d6f9.jpg",
-      "source": "BleepingComputer",
+      "url": "https://www.space.com/astronomy/asteroids/james-webb-space-telescope-uncovers-new-clues-about-the-origins-of-interstellar-invader-comet-3i-atlas",
+      "image": "/images/feed/feed-040ae121924d.jpg",
+      "source": "Space.com",
       "isLive": true
     },
     {
-      "id": "feed-4abc12850bea",
-      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
-      "excerpt": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts…",
-      "body": "In an announcement on Monday , OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to data centers spreads across the US, in response to massive projects that have begun development and construction, frequently with little or no input from local residents. In Utah, residents protested after Box Elder County commissioners signed off on a data center expected to consume more than double … Read the full story at The Verge.",
-      "author": "Emma Roth",
+      "id": "feed-3f10e1407afc",
+      "title": "SpaceX reportedly wants to buy Boost Mobile to compete with AT&T, T-Mobile, and Verizon",
+      "excerpt": "SpaceX has been looking for new ways to use its Starlink network, and a tie-up with cellular operator Boost Mobile could give it the terrestrial access it needs.",
+      "body": "SpaceX has been looking for new ways to use its Starlink network, and a tie-up with cellular operator Boost Mobile could give it the terrestrial access it needs.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Spacex. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Tim De Chant",
       "date": "2026-11-02",
       "readTime": "2 min",
-      "section": "ai",
+      "section": "space",
       "tags": [
-        "Openai"
+        "Spacex"
       ],
       "featured": false,
-      "xpReward": 40,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
-      "image": "/images/feed/feed-4abc12850bea.png",
-      "source": "The Verge",
+      "xpReward": 54,
+      "url": "https://techcrunch.com/2026/11/02/spacex-reportedly-wants-to-buy-boost-mobile-to-compete-with-att-t-mobile-and-verizon/",
+      "image": "/images/feed/feed-3f10e1407afc.jpg",
+      "source": "TechCrunch",
       "isLive": true
     },
     {
-      "id": "feed-2e9e52017892",
-      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "tomrod",
+      "id": "feed-7471dbc7fc51",
+      "title": "On this day in space! Nov. 2, 2000: Expedition 1 Arrives at the International Space Station",
+      "excerpt": "Expedition 1 crewmates Bill Shepherd, Yuri Gidzenko and Sergei Krikalev pose with a model of the space station as it appeared in 2000.",
+      "body": "On Nov. 2, 2000, the International Space Station welcomed its first long-term residents: NASA astronaut Bill Shepherd and two Russian cosmonauts, Yuri Gidzenko and Sergei Krikalev. The mission was called Expedition 1. Before this expedition, NASA had launched five, one-week-long Space Shuttle missions to help build the space station and bring up supplies. But this time, the crew would be staying for four and a half months, and they weren't taking the shuttle. Instead, they took a Russian Soyuz spacecraft , and this was the first Soyuz to ever dock at the space station. During their stay at the space station, they unpacked supplies and installed new equipment, including the first solar arrays.",
+      "author": " Hanneke Weitering ",
       "date": "2026-11-02",
       "readTime": "2 min",
-      "section": "cybersecurity",
+      "section": "space",
       "tags": [
-        "Cybersecurity"
+        "Space Station",
+        "Space"
       ],
       "featured": false,
-      "xpReward": 41,
-      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
-      "image": "/images/feed/feed-2e9e52017892.jpg",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-ff01b8b9f068",
-      "title": "The latest AI news we announced in October 2026",
-      "excerpt": "Here are Google’s latest AI updates from October 2026",
-      "body": "Here are Google’s latest AI updates from October 2026\n\nThis report, published by Google AI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Google AI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Google AI Blog",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Oct_AI_Recap_social.max-600x600.format-webp.webp",
-      "source": "Google AI Blog",
-      "isLive": true
-    },
-    {
-      "id": "feed-adc599e6d52a",
-      "title": "Raising the quality of insights in agentic analytics",
-      "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automa…",
-      "body": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate leaves much to be desired. Fewer than half of agent-generated insights at the organizations surveyed for this report lead to business improvement. And while most respondents praise the quality of their agents’ descriptive insights, reviews of their prescriptive insights—those on which actions are based—are decidedly mixed.",
-      "author": "MIT Technology Review Insights",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-      "image": "/images/feed/feed-adc599e6d52a.png",
-      "source": "MIT Tech Review",
-      "isLive": true
-    },
-    {
-      "id": "feed-15396809c02d",
-      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "excerpt": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was eno…",
-      "body": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble. Then there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-02",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Phishing"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "image": "/images/feed/feed-15396809c02d.jpg",
-      "source": "The Hacker News",
+      "xpReward": 37,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-2-2026",
+      "image": "/images/feed/feed-7471dbc7fc51.png",
+      "source": "Space.com",
       "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Sume Review: HeyGen Video 1 on Free Event Tickets, Tested",
-    "DEV.TO: Firecrawl Alexandria Nedir? Apollo, People Data Labs ve 430 Sağlayıcı için Tek API Anahtarı",
-    "DEV.TO: OTA Firmware Updates for Vehicle Fleets: Staging, Rollback and What to Ask Vendors",
-    "DEV.TO: OpenAI LifeVal Nedir? Günlük Görev Benchmark'ı",
-    "DEV.TO: Was ist OpenAI LifeVal? Der Alltagsaufgaben-Benchmark",
-    "DEV.TO: DiscImageStudio: así se dibuja en la cara de un disco",
-    "DEV.TO: ¿Qué es OpenAI LifeVal? El benchmark de tareas cotidianas",
-    "KREBS ON SECURITY: Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-    "9TO5MAC: Apple recently notified users in 99 countries of potential mercenary spyware attacks",
-    "CLEANTECHNICA: The Future of Buildings in Illinois Is Electric"
+    "DEV.TO: What to back up (and watch) when you self-host a crypto payment gateway",
+    "DEV.TO: What Exploited Vulnerabilities Have in Common: Microsoft's 2,056-CVE Analysis",
+    "DEV.TO: There's More to AI Than Just ChatGPT",
+    "DEV.TO: Why Coating Recipes End Up Edited on a Process Engineer Workstation Instead of the Lab",
+    "DEV.TO: What Does Durable Execution Guarantee, and Where Does It Stop?",
+    "DEV.TO: Unconstrained Kerberos Delegation Leaves a Reusable Ticket Trail",
+    "DEV.TO: Understanding Large Language Models (LLMs): What Happens Behind the Chat?",
+    "ANDROID AUTHORITY: This is the only refurbished Samsung phone I’d buy in 2026",
+    "ANDROID AUTHORITY: The Galaxy A58 beats the base S27 in one area, but it’s not all great news",
+    "ENGADGET: Apple's latest watchOS 27 beta enables Siri Recap and Live Rewind audio features"
   ],
   "sectionVideos": {}
 }
