@@ -1,42 +1,747 @@
 {
-  "fetchedAt": "2026-11-05T21:39:55.238Z",
+  "fetchedAt": "2026-11-06T01:53:23.725Z",
   "articles": [
     {
-      "id": "feed-e6d1dfb83439",
-      "title": "CVE-2026-12411: CVE-2026-12411: Cross-Guest Volume Hijack via DevLXD Device PATCH in Canonical LXD",
-      "excerpt": "CVE-2026-12411: Cross-Guest Volume Hijack via DevLXD Device PATCH in Canonical LXD Vulnerability ID: CVE-2026-12411 CVSS Score: 8.4 Published: 2026-11-05 CVE-2026-12411 is a broken access control vuln…",
-      "body": "CVE-2026-12411: Cross-Guest Volume Hijack via DevLXD Device PATCH in Canonical LXD Vulnerability ID: CVE-2026-12411 CVSS Score: 8.4 Published: 2026-11-05 CVE-2026-12411 is a broken access control vulnerability in the DevLXD interface of Canonical LXD versions 6.6 through 6.8. The flaw resides in the devLXDInstancePatchHandler component, which fails to verify storage volume ownership when an instance attaches a new disk device via the /dev/lxd guest socket. When the security.devlxd.management.volumes configuration option is enabled, an untrusted guest or DevLXD identity can issue a crafted HTTP PATCH request referencing another tenant's custom storage volume.",
-      "author": "CVE Reports",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/cverports/cve-2026-12411-cve-2026-12411-cross-guest-volume-hijack-via-devlxd-device-patch-in-canonical-lxd-i4i",
-      "image": "/images/feed/feed-e6d1dfb83439.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-93f66a0074da",
-      "title": "9to5Mac Daily: November 5, 2026 – MacBook Neo 2 rumors, watchOS 27.3",
-      "excerpt": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca…",
-      "body": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-      "author": "Seth Kurkowski",
-      "date": "2026-11-05",
+      "id": "feed-92260d479de6",
+      "title": "Apple explains how to turn off the new MacBook Pro’s glowing logo",
+      "excerpt": "While the illuminated Apple logo on the new MacBook Pro drew one of the biggest cheers during last week’s announcement, Apple knows that not everyone will want to keep it on. Here’s the company’s offi…",
+      "body": "While the illuminated Apple logo on the new MacBook Pro drew one of the biggest cheers during last week’s announcement, Apple knows that not everyone will want to keep it on. Here’s the company’s offi — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Macbook. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-06",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
         "Macbook"
       ],
       "featured": true,
-      "xpReward": 31,
-      "url": "https://9to5mac.com/2026/11/05/daily-november-5-2026/",
-      "image": "/images/feed/feed-93f66a0074da.jpg",
+      "xpReward": 46,
+      "url": "https://9to5mac.com/2026/11/05/apple-explains-how-to-turn-off-the-new-macbook-pros-glowing-logo/",
+      "image": "/images/feed/feed-92260d479de6.jpg",
       "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-e70ddbb89cd6",
+      "title": "How to Build a Browser-Based Jigsaw Puzzle Game with JavaScript and HTML5 Canvas",
+      "excerpt": "Building a jigsaw puzzle game for the browser is an interesting combination of geometry, graphics programming, and interactive game development. Unlike a traditional grid-based puzzle, a jigsaw puzzle…",
+      "body": "Building a jigsaw puzzle game for the browser is an interesting combination of geometry, graphics programming, and interactive game development. Unlike a traditional grid-based puzzle, a jigsaw puzzle requires irregular piece shapes, matching edges, image clipping, and precise drag-and-drop interactions. Players should be able to move individual pieces, connect matching pieces, and gradually reconstruct the original image. In this tutorial, we'll explore how to build a browser-based jigsaw puzzle game using JavaScript and HTML5 Canvas, starting with the basic game architecture and moving through piece generation, rendering, interaction, and performance optimization.",
+      "author": "Cliff",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Javascript"
+      ],
+      "featured": true,
+      "xpReward": 48,
+      "url": "https://dev.to/cliffwang/how-to-build-a-browser-based-jigsaw-puzzle-game-with-javascript-and-html5-canvas-33gm",
+      "image": "/images/feed/feed-e70ddbb89cd6.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-fedf65036979",
+      "title": "AI Financial Reporting: A 14-Case Release Gate for Close Narratives",
+      "excerpt": "AI Financial Reporting: A 14-Case Release Gate for Close Narratives A finance team should treat an AI-written close narrative as a proposal, not as a number source or a self-approving control. The pra…",
+      "body": "AI Financial Reporting: A 14-Case Release Gate for Close Narratives A finance team should treat an AI-written close narrative as a proposal, not as a number source or a self-approving control. The practical sequence is: freeze the reporting period and data snapshot; reconcile every material figure to an owned source; draft explanations with claims linked to those figures; run deterministic checks; obtain a named preparer and independent reviewer; then release a versioned report with its evidence and approval record. If the source data, accounting mapping, period, or approval is uncertain, the safe output is a hold with a precise reason. This guide turns that rule into a reusable release protocol and a small executable gate.",
+      "author": "isabelle dubuis",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 51,
+      "url": "https://dev.to/isabelle_dubuis_d858453d7/ai-financial-reporting-a-14-case-release-gate-for-close-narratives-4dgh",
+      "image": "/images/feed/feed-fedf65036979.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-ad7bbf902583",
+      "title": "Demystifying the MCP Protocol for Open Source AI",
+      "excerpt": "The MCP protocol is the connective tissue for many open source AI workflows—yet is often treated as a black box. Here’s a developer’s-eye primer on why MCP matters, how it relates to A2A and CLI adapt…",
+      "body": "The MCP protocol is the connective tissue for many open source AI workflows—yet is often treated as a black box. Here’s a developer’s-eye primer on why MCP matters, how it relates to A2A and CLI adapters, and where runtimes like apcore step up to fill governance, audit, and multi-protocol gaps. MCP defines how an agent or model can discover, describe, and invoke remote tools. Classic “bare server” MCP implementations give you a surface, but they don’t enforce validation or traceability. Projects aiming for responsible agent development are increasingly layering governed runtimes that check schemas, approvals, and usage evidence before anything is exposed to MCP or A2A.",
+      "author": "tercel",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Open Source"
+      ],
+      "featured": true,
+      "xpReward": 47,
+      "url": "https://dev.to/tercelyi/demystifying-the-mcp-protocol-for-open-source-ai-39da",
+      "image": "/images/feed/feed-ad7bbf902583.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1b7404208b10",
+      "title": "Open models vs Claude: Kimi K3, GLM 5.3 and DeepSeek V4 Pro against Sonnet 5.5 and Opus 5.5",
+      "excerpt": "Originally published on the QuickSilver Pro blog. The usual reason to choose an open model over Claude is price. Now that every Claude model on QuickSilver Pro costs 75% less than Anthropic's list pri…",
+      "body": "Originally published on the QuickSilver Pro blog . The usual reason to choose an open model over Claude is price. Now that every Claude model on QuickSilver Pro costs 75% less than Anthropic's list price, that reason needs checking again, and so does the question of what you give up in quality. So we put three large open models from our catalog and two Claude models through the same set of tasks, on 2026-10-20.",
+      "author": "xiun xiao",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://dev.to/xiun_xiao_6eae2df5c108c5f/open-models-vs-claude-kimi-k3-glm-53-and-deepseek-v4-pro-against-sonnet-55-and-opus-55-3f1d",
+      "image": "/images/feed/feed-1b7404208b10.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-f241cd9f785b",
+      "title": "Inkling 2 Small Is Here — the Weights Aren't. What to Do Now",
+      "excerpt": "Mira Murati's lab just shipped its second model. It's a big one. And the part everyone actually wants — the downloadable weights — isn't here yet. Thinking Machines Lab announced Inkling 2 Small on 5…",
+      "body": "Mira Murati's lab just shipped its second model. It's a big one. And the part everyone actually wants — the downloadable weights — isn't here yet. Thinking Machines Lab announced Inkling 2 Small on 5 November 2026: a 594-billion-parameter sparse mixture-of-experts model aimed at long-horizon autonomous work, coding, vision and knowledge tasks. It scores 31 on the Artificial Analysis Intelligence Index, 18 points above the first generation's Inkling Small. Artificial Analysis says that once the weights are released, it would be the highest-scoring open-weights model developed outside China. Read that sentence again, because the word doing all the work is \"once\". At launch, Inkling 2 Small is closed weights. You can use it through Thinking Machines' Tinker platform and its Playground.",
+      "author": "Paul Lovelace",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 42,
+      "url": "https://dev.to/paullovelace/inkling-2-small-is-here-the-weights-arent-what-to-do-now-3292",
+      "image": "/images/feed/feed-f241cd9f785b.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-5fa18c11acbb",
+      "title": "Fleet Report #2: ChatGPT sent one page 515 readers in a week. My agents built it a door, then hid it.",
+      "excerpt": "I run a small studio where AI agents do most of the work: 13 standing agents, one human (me). Every item an agent handles gets one line in a handover ledger. This weekly issue is written only from tha…",
+      "body": "I run a small studio where AI agents do most of the work: 13 standing agents, one human (me). Every item an agent handles gets one line in a handover ledger. This weekly issue is written only from that ledger and the files beside it, so nothing in it can be backfilled later. Week: Friday 30 October to Thursday 5 November 2026. 1. The week in one number: 72 72 items marked BUILT, on all seven days. The week before: 81. The ledger counts handled items, not effort or value, so a smaller number doesn't mean a worse week. I'm not going to invent a reason. 2. The number that changed a decision: 7 → 515 One of the sites, MonitoringRoom, has a page on the US midterms that shows what prediction markets priced. In the 7 days to 5 November, ChatGPT sent that page 515 visitors. The 7 days before: 7.",
+      "author": "Jukka Blomberg",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://dev.to/jukkablomberg/fleet-report-2-chatgpt-sent-one-page-515-readers-in-a-week-my-agents-built-it-a-door-then-hid-2oif",
+      "image": "/images/feed/feed-5fa18c11acbb.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-05a595c86e23",
+      "title": "Agent Skill for Debugging Things",
+      "excerpt": "Today, I want to create an agent skill for debugging. Sometimes, I receive bug reports or tickets from QA, but I don't always know where to start the investigation or what prompts to use. I decided to…",
+      "body": "Today, I want to create an agent skill for debugging. Sometimes, I receive bug reports or tickets from QA, but I don't always know where to start the investigation or what prompts to use. I decided to use the Engineering: Debug skill to help with this process. However, its responses can sometimes be too long, with large paragraphs that are difficult to follow. I want to improve the skill so that it breaks the investigation into clear, structured sections, such as Root Cause , How the Issue Occurs , and other relevant topics. This will make the investigation easier to understand, review, and share with the development team. That's why I decided to create Panda Debugger , an agent skill designed to make debugging investigations more structured, clear, and easier to follow.",
+      "author": "Akkarapon Phikulsri",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://dev.to/akkaraponph/agent-skill-for-debugging-things-694",
+      "image": "/images/feed/feed-05a595c86e23.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-b1b2e75082bc",
+      "title": "You Need A New Car? Go Electric! It’s Superior Technology! Part 1",
+      "excerpt": "Your car is getting “long in tooth,” or maybe your daughter is going away to college and you are giving her your car. Whatever the reason, you are looking for another car. It could be new, it could be…",
+      "body": "Your car is getting “long in tooth,” or maybe your daughter is going away to college and you are giving her your car. Whatever the reason, you are looking for another car. It could be new, it could be used: don’t even look at gas cars, electric cars are superior ... [continued] The post You Need A New Car? Go Electric! It&#8217;s Superior Technology! Part 1 appeared first on CleanTechnica .",
+      "author": "Arthur Frederick (Fritz) Hasler",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://cleantechnica.com/2026/11/05/you-need-a-new-car-go-electric-its-superior-technology-part-1/",
+      "image": "/images/feed/feed-b1b2e75082bc.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-b93111228277",
+      "title": "WhatsApp’s AI-powered photo expansion tool starts rolling out on iOS",
+      "excerpt": "Select WhatsApp users on TestFlight and in the main app are now seeing the option to expand an image in the app’s photo editor. Here are the details. more…",
+      "body": "Select WhatsApp users on TestFlight and in the main app are now seeing the option to expand an image in the app’s photo editor. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://9to5mac.com/2026/11/05/whatsapps-ai-powered-photo-expansion-tool-starts-rolling-out-on-ios/",
+      "image": "/images/feed/feed-b93111228277.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-3fcbe1838be2",
+      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
+      "excerpt": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. […",
+      "body": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [ — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
+      "image": "/images/feed/feed-3fcbe1838be2.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-371c6b7bde41",
+      "title": "Report: iPad shipments drop 27.5% as global tablet market plunges in Q3",
+      "excerpt": "Despite global iPad shipments dropping 27.5% year-over-year in the third calendar quarter, Apple maintained its lead in the tablet market, according to a new report released today. Here are the detail…",
+      "body": "Despite global iPad shipments dropping 27.5% year-over-year in the third calendar quarter, Apple maintained its lead in the tablet market, according to a new report released today. Here are the detail — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tablet. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Tablet"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://9to5mac.com/2026/11/05/report-ipad-shipments-drop-27-5-as-global-tablet-market-plunges-in-q3/",
+      "image": "/images/feed/feed-371c6b7bde41.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-9f7f72c54780",
+      "title": "Hyundai Motor Group Outlines Future Mobility Technology Roadmap at FISITA World Mobility Summit 2026",
+      "excerpt": "Hyundai Motor Group co-hosts the FISITA World Mobility Summit 2026 in Korea with the International Federation of Automotive Engineering Societies (FISITA) Group leaders present the electrification str…",
+      "body": "Hyundai Motor Group co-hosts the FISITA World Mobility Summit 2026 in Korea with the International Federation of Automotive Engineering Societies (FISITA) Group leaders present the electrification strategy and approach to AI-based future vehicle development Global automotive leaders discuss software-defined vehicles, AI, autonomous driving, batteries and energy infrastructure Group exhibits Genesis ... [continued] The post Hyundai Motor Group Outlines Future Mobility Technology Roadmap at FISITA World Mobility Summit 2026 appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://cleantechnica.com/2026/11/05/hyundai-motor-group-outlines-future-mobility-technology-roadmap-at-fisita-world-mobility-summit-2026/",
+      "image": "/images/feed/feed-9f7f72c54780.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-3323df791b8b",
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "excerpt": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center proj…",
+      "body": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion , OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions between developers and local officials. However, OpenAI says it is now allowing \"only narrow protections covering legitimate security information, trade secrets, or proprietary or competitively sensitive information.\" In October, Amazon announced it would no longer u … Read the full story at The Verge.",
+      "author": "Jay Peters",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Openai"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "image": "/images/feed/feed-3323df791b8b.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-4478faaf520c",
+      "title": "Apple expected to bid for F1 streaming rights in more countries, says Formula 1 CEO",
+      "excerpt": "Starting this year, Apple has exclusive streaming rights for Formula 1 racing in the United States, which sees every race stream on Apple TV. Both Apple and the league have proudly reported a very pos…",
+      "body": "Starting this year, Apple has exclusive streaming rights for Formula 1 racing in the United States, which sees every race stream on Apple TV . Both Apple and the league have proudly reported a very positive response in terms of viewership and subscriber acquisition, although they do not publish exact viewing figures. On the latest earnings call for F1’s parent company Liberty Media, the CEO of Formula 1 Stefano Domenicali said that both parties are happy with the US deal, and he expects that Apple will bid for rights in more countries as the opportunities become available. more…",
+      "author": "Benjamin Mayo",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://9to5mac.com/2026/11/05/apple-f1-streaming-international-countries/",
+      "image": "/images/feed/feed-4478faaf520c.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-e5c1f0e309d5",
+      "title": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5T Valuation",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "JumpCrisscross",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-bde25cade2f3",
+      "title": "Two New Commissioners Headed to the Arizona Corporation Commission",
+      "excerpt": "Phoenix — Come January, the Arizona Corporation Commission (ACC) will be bi-partisan as two Democrats, Clara Pratte and Jonathon Hill, have been elected to the ACC. They will be joining current Republ…",
+      "body": "Phoenix — Come January, the Arizona Corporation Commission (ACC) will be bi-partisan as two Democrats, Clara Pratte and Jonathon Hill, have been elected to the ACC. They will be joining current Republican commissioners Lea Márquez Peterson, Rachel Walden, and René Lopez. The election comes as the Commission is considering rate ... [continued] The post Two New Commissioners Headed to the Arizona Corporation Commission appeared first on CleanTechnica .",
+      "author": "Sierra Club",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://cleantechnica.com/2026/11/05/two-new-commissioners-headed-to-the-arizona-corporation-commission/",
+      "image": "/images/feed/feed-bde25cade2f3.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-149e4976943a",
+      "title": "Janus Electric secures battery supply deal for its battery-swap semi truck",
+      "excerpt": "Australian conversion specialists Janus Electric have been celebrating a growing slate of orders for their Class 8 electric truck conversions, which ditch diesel in favor of advanced battery-swap elec…",
+      "body": "Australian conversion specialists Janus Electric have been celebrating a growing slate of orders for their Class 8 electric truck conversions, which ditch diesel in favor of advanced battery-swap electric power – but exactly how they’d deliver all those trucks was still a question. Now, we have an answer: Electrovaya will supply the batteries . more…",
+      "author": "Jo Borrás",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://electrek.co/2026/11/05/janus-electric-secures-battery-supply-deal-for-its-battery-swap-semi-truck/",
+      "image": "/images/feed/feed-149e4976943a.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-e001a2070b9b",
+      "title": "Amazon's Black Friday Audible Deal Is Now Live: Pay $0.99 Per Month Plus Get $20 Credit",
+      "excerpt": "Both Amazon Prime and non-Prime members, new and previous subscribers are eligible.",
+      "body": "Black Friday lands on November 27 this year but plenty of deals are already going live now, including Amazon&#39;s annual Audible Black Friday promotion. Starting now and running through December 28, both Amazon Prime and non-Prime members can sign up for three months of Audible Standard for $0.99 per month. In addition to the discounted membership, you also get an extra $20 in Audible credit. This deal is valid for new and previous (currently expired) subscribers, however your mileage may vary (we noticed that some this deal doesn&#39;t show up for some account). Afterwards your subscription will convert to the standard $8.99/mo, but you can cancel the auto-renewal at any time.",
+      "author": "Eric Song",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.ign.com/articles/amazon-early-black-friday-audible-deal-2026",
+      "image": "/images/feed/feed-e001a2070b9b.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-99704f77e3c7",
+      "title": "Amazon Reveals Free Uber Eats Delivery for Prime Members, Plus $20 Off Your First Two Orders",
+      "excerpt": "Amazon Reveals Free Uber Eats Delivery for Prime Members, Plus $20 Off Your First Two Orders",
+      "body": "Amazon Prime members can now get $0 delivery fees on orders over $25. Amazon revealed in a November 5 press release that this benefit is now available to use, and subscribers are eligible for $20 off their first two orders for the next two weeks. This new service replaces the Prime GrubHub+ benefit, which has officially expired as of today . If you&#39;re already a member, all you need to do is search &#39;Uber Eats&#39; on Amazon to find restaurants and start placing an order. Alternatively, you can go straight to the official Uber Eats page to check out what&#39;s available. For those who don&#39;t already have an Amazon Prime membership, you can sign up for a free trial to get the benefit.",
+      "author": "Jacob Kienlen",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.ign.com/articles/amazon-reveals-free-uber-eats-delivery-for-prime-members-plus-20-off-your-first-two-orders",
+      "image": "/images/feed/feed-99704f77e3c7.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-31fce3f44be6",
+      "title": "Brazilian Credit Guarantor Fund Data Breach Affecting PII and Payout Data",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Data Breach, Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "doodlesdev",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Data Breach",
+        "Breach"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.fgc.org.br/comunicado",
+      "image": "/images/topics/topic-cybersecurity.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-a8ed29498817",
+      "title": "Animated John Wick Prequel Film in the Works Starring Keanu Reeves",
+      "excerpt": "Keanu Reeves is returning as John Wick in an animated film that aims to tell the assassin’s story before the tragic events of the first movie.",
+      "body": "Keanu Reeves is returning as John Wick in an animated film that aims to tell the assassin’s story before the tragic events of the first movie. The animated flick will be produced by the same team that produced the John Wick movies , comprised of Thunder Road’s Basil Iwanyk and Erica Lee, 87Eleven Entertainment’s Chad Stahelski, and, of course, Keanu Reeves. Point Grey will join the group to produce, as well.",
+      "author": "Virginia Glaze",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.ign.com/articles/animated-john-wick-prequel-film-in-the-works-starring-keanu-reeves",
+      "image": "/images/feed/feed-a8ed29498817.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-36e8a39b4d47",
+      "title": "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;",
+      "excerpt": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim Höttges says…",
+      "body": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday , Deutsche Telekom CEO Tim H&ouml;ttges says he takes the Elon Musk-owned company \"super serious,\" but that it will cost at least $200 billion to pull off: He [Musk] has now bought 76 megahertz of spectrum. By the way, we have 400. So if you now say he can buy the spectrum prospectively, do your math. These are kind of triple-digit billions which are needed to gain the spectrum position. If he has the money, go for it. Then he has to build a network. I can tell you, we have 85,000 tower … Read the full story at The Verge.",
+      "author": "Emma Roth",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
+      "image": "/images/feed/feed-36e8a39b4d47.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-de2ac0271472",
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "excerpt": "Certain configurations of Alpine are affected. Other distros may be as well.",
+      "body": "Devices running some configurations of Alpine Linux, and possibly other distributions, are affected by a decade-old vulnerability that allows attackers to log into devices with no password. The vulnerability exists in the interaction between OpenSSH, the code library implementing SSH connections, and musl, a lightweight alternative to the libc library that, unlike most other Linux distributions, is used in Alpine. Further, OpenSSH using musl (pronounced muscle) must not use PAM (pluggable authentication modules), a framework that handles user authentication and account-access checks. Alpine is a lightweight, widely used Linux distribution. Other platforms may be affected if they use the same configurations.",
+      "author": "\n                    Dan Goodin\n                ",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Vulnerability",
+        "Hacker"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "image": "/images/feed/feed-de2ac0271472.jpg",
+      "source": "Ars Technica",
+      "isLive": true
+    },
+    {
+      "id": "feed-f19cada93472",
+      "title": "E-quipment highlight: Jungheinrich launches new forklift for Asian markets",
+      "excerpt": "Like many equipment brands, German forklift maker Jungheinrich has been struggling to crack the Asian industrial markets – but the company is set to change all that with the launch of a new line of 1.…",
+      "body": "Like many equipment brands, German forklift maker Jungheinrich has been struggling to crack the Asian industrial markets – but the company is set to change all that with the launch of a new line of 1.6- to 3-ton class electric forklifts designed specifically to navigate the region’s tight warehouses and factories. more…",
+      "author": "Jo Borrás",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://electrek.co/2026/11/05/e-quipment-highlight-jungheinrich-launches-new-forklift-for-asian-markets/",
+      "image": "/images/feed/feed-f19cada93472.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-b25976aa19ea",
+      "title": "Spectrum Is Offering Free Internet Upgrades So People Can Download GTA 6 Faster",
+      "excerpt": "Spectrum customers can get a free internet upgrade this month to download GTA 6 faster.",
+      "body": "Spectrum customers can get a free internet upgrade this month to download GTA 6 faster. The company announced earlier this week that it would be a free &quot;Gig Speed Lift&quot; from November 9 to November 30 for existing customers. This will allow players the opportunity to download the game within 30 minutes. So, if you&#39;re planning on buying the game on day one or later in November, this will be a huge time saver. Or, if you just want to watch your pre-load complete incredibly quickly, this is also an option. You can click here to learn more about how to activate this offer if you&#39;re a Spectrum user. Pre-loading for GTA 6 begins on November 10 , and it will be an absolute beast of a game when it comes to download size.",
+      "author": "Cade Onder",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.ign.com/articles/spectrum-is-offering-free-internet-upgrades-so-people-can-download-gta-6-faster",
+      "image": "/images/feed/feed-b25976aa19ea.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-b6b4d75275cf",
+      "title": "Classic Halo Trilogy Gets Brand-New Release on Nov. 10",
+      "excerpt": "Halo’s Master Chief Omnibus arrives November 10, 2026, collecting three bestselling novels that expand the franchise’s lore.",
+      "body": "It's been a busy year for Halo fans, with plenty of new releases and surprises keeping the franchise alive. Halo: Campaign Evolved , a remake of the original game, is bringing Master Chief's first adventure to a new generation, while a tabletop adaptation is also in development . Even Halo Infinite isn't quite ready to call it quits, continuing to receive unexpected updates this year despite its major content support coming to an end.",
+      "author": "Sam Hill",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.polygon.com/halo-master-chief-omnibus-book-november-2026/",
+      "image": "/images/feed/feed-b6b4d75275cf.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-d47490fe87a1",
+      "title": "Save Over 30% Off the Latest DJI Neo 2 4K Quadcopter Drone Camera Fly More Combo for Black Friday",
+      "excerpt": "This drone is legal to purchase and use and is FAA registration exempt.",
+      "body": "The latest generation DJI Neo 2 4K is an excellent quadcopter drone camera for beginners looking to try out aerial videography. It doesn&#39;t require FAA registration, it automates most essential functions, it has built-in mechanical gimbal, and it has dropped to the lowest price ever. As part of the AliExpress early Black Friday sale going on right now, you can pick up the all-encompassing DJI Neo 2 Fly More Combo which also includes the RC-N3 remote, digital transceiver, three batteries, and charger for just $290.34 with free shipping after you apply $70 off coupon code &quot; USAFF70 &quot;. The drone ships from a local US warehouse, so there are no additional import fees and delivery is within a week.",
+      "author": "Eric Song",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.ign.com/articles/dji-neo-2-4k-quadcopter-drone-camera-deal-november-2026",
+      "image": "/images/feed/feed-d47490fe87a1.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-4732ef8645c1",
+      "title": "Bill Skarsgård Explains Why Starring in Hideo Kojima’s Physint Is a ‘Big Deal’ for Him",
+      "excerpt": "Skarsgård opened up about Physint in a November 5 episode of Josh Horowitz’s Happy Sad Confused podcast, where he revealed that he’s a massive fan of the Metal Gear series and shared a conversation he…",
+      "body": "In September 2026, Hollywood’s resident horror icon Bill Skarsgård was confirmed to play the lead role in Hideo Kojima’s highly anticipated action-espionage project Physint . This game marks a long-awaited return to form from Kojima as fans pine for another Metal Gear-style experience. And while much about it is still unknown, we got just a smidge more information about the project thanks to its leading man, Bill Skarsgård. Skarsgård opened up about the game in a November 5 episode of Josh Horowitz’s Happy Sad Confused podcast, where he revealed that he’s a massive fan of the Metal Gear series and shared a conversation he had with Kojima regarding his love for cinema. “That’s a big deal for me,” he said. “Specifically, the Metal Gear Solid games.",
+      "author": "Virginia Glaze",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.ign.com/articles/bill-skarsgrd-explains-why-starring-in-hideo-kojimas-physint-is-a-big-deal-for-him",
+      "image": "/images/feed/feed-4732ef8645c1.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-9a9bbdde4fcf",
+      "title": "Motorola introduces Polar-powered Moto Watch 2 Fit and Bose-boosted Moto Buds 2 Ultra",
+      "excerpt": "They pair well with the Motorola Signature 27.",
+      "body": "TL;DR Motorola expands the ecosystem around the Motorola Signature 27 with the Moto Watch 2 Fit and the Moto Buds 2 Ultra. The Moto Watch 2 Fit has Polar-powered insights, while the Moto Buds 2 Ultra have Bose SoundDesign tuning and Bose QuietControl active noise cancellation. The fitness tracker and earbuds will be available in the coming weeks. Fresh off the launch of the premium Motorola Signature 27 phone, Motorola has introduced two new products that pair with it: the Moto Watch 2 Fit and the Moto Buds 2 Ultra. The Moto Watch 2 Fit adds Polar tracking to the Fit line, while the Moto Buds 2 Ultra have Bose SoundDesign tuning and Bose QuietControl active noise cancellation.",
+      "author": "Chandra Steele",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.androidauthority.com/moto-watch-2-fit-and-moto-buds-2-ultra-3732293/",
+      "image": "/images/feed/feed-9a9bbdde4fcf.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-448caf20b907",
+      "title": "Perplexity launches its own take on AI agents for work",
+      "excerpt": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects…",
+      "body": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer , an AI system that can deploy agents on your device to complete tasks. But Perplexity says Teammates \"build on top\" of Computer by offering the ability to collaborate and complete \"ongoing, large-scale work.\" You can assign each Teammate different jobs that they can perform simultaneously - much like OpenAI's Dots and Claude Duet . Perple … Read the full story at The Verge.",
+      "author": "Emma Roth",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "image": "/images/feed/feed-448caf20b907.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-1a9c46f1ddb4",
+      "title": "Report: Apple captured half of global smartphone revenue in Q3",
+      "excerpt": "According to a new report from Counterpoint Research, Apple just recorded its highest-ever global smartphone revenue for a third calendar quarter. Here are the details. more…",
+      "body": "According to a new report from Counterpoint Research, Apple just recorded its highest-ever global smartphone revenue for a third calendar quarter. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Smartphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Smartphone"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://9to5mac.com/2026/11/05/report-apple-captured-half-of-global-smartphone-revenue-in-q3/",
+      "image": "/images/feed/feed-1a9c46f1ddb4.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-d9b3a36d5a2a",
+      "title": "Ford’s electric pickup is suddenly selling like hotcakes at 50% off used",
+      "excerpt": "Once America’s most popular electric pickup, the Ford F-150 Lightning is finding a second life on the used market. more…",
+      "body": "Once America’s most popular electric pickup, the Ford F-150 Lightning is finding a second life on the used market. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Peter Johnson",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://electrek.co/2026/11/05/fords-electric-pickup-selling-like-hotcakes-50-off-used/",
+      "image": "/images/feed/feed-d9b3a36d5a2a.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-6efc00abc1aa",
+      "title": "Claude Code sends your email address to websites",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "motoroco",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "image": "/images/feed/feed-6efc00abc1aa.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-a31a116f7e79",
+      "title": "Blue Origin's New Glenn launch delay will continue into 2027",
+      "excerpt": "Repairs have been slow after an explosion earlier this year.",
+      "body": "Repairs have been slow after an explosion earlier this year.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Anna Washenko)",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.engadget.com/2308647/blue-origin-new-glenn-launch-delay-will-continue-into-2027/",
+      "image": "/images/feed/feed-a31a116f7e79.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-de848d5aba4f",
+      "title": "'We got it done!' Spacewalking astronauts finish installing next-gen ISS solar arrays",
+      "excerpt": "Spacewalkers Anil Menon and Joshua Kutryk installed the final ISS Roll-Out Solar Array on Thursday (Nov. 5), wrapping up a multiyear effort to boost the station's power generation by 30%.",
+      "body": "Just as NASA is preparing to demonstrate \" Max Power \" on the ground, two astronauts on a spacewalk have provided the International Space Station (ISS) with the same. Expedition 75 flight engineers Anil Menon of NASA and Joshua Kutryk of the Canadian Space Agency installed and deployed the eighth and final ISS Roll-Out Solar Array (iROSA) on Thursday (Nov. 5), augmenting the space station's legacy solar array wings to produce as much as 30% more electricity. \"We got it done!\" said Menon at the end of the 6-hour-and-59-minute spacewalk . The EVA (extravehicular activity) began at 8:36 a.m. EST and ended at 3:35 p.m. EST (1336 to 2035 GMT).",
+      "author": " Robert Z. Pearlman ",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Astronaut"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.space.com/space-exploration/international-space-station/we-got-it-done-spacewalking-astronauts-finish-installing-next-gen-iss-solar-arrays",
+      "image": "/images/feed/feed-de848d5aba4f.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-91c8da5e0af5",
+      "title": "Andy Weir says his new sci-fi audio drama 'Exoplanet' is a way to 'revive the old art of radio plays' (interview)",
+      "excerpt": "\"Earlier on in my life, even before 'The Martian,' I wanted to bring back audio-only entertainment.\"",
+      "body": "Hot off the tremendous theatrical success of this year's \"Project Hail Mary,\" adapted from Andy Weir's 2021 novel of the same name, the New York Times bestselling author is rocketing back into deep space with a brand new Audible Original release landing on Nov. 5, 2026, titled \" Exoplanet .\" Weir (\" The Martian \") is executive producing this ambitious full-cast audiobook drama with acclaimed author and ace comic writer Benjamin Percy (\"Wolverine\") for the first in a series of curated sci-fi projects for Amazon's Audible. The seven-episode sci-fi thriller stars the vocal talents of Anthony Mackie, Ariana DeBose, and John Leguizamo in a wild time-travel space disaster odyssey that also benefits from Lucasfilm’s Skywalker Sound, which provided the show’s immersive acoustic elements.",
+      "author": " Jeff Spry ",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.space.com/entertainment/andy-weir-says-his-sci-fi-audio-drama-exoplanet-is-a-way-to-revive-the-old-art-of-radio-plays-interview",
+      "image": "/images/feed/feed-91c8da5e0af5.png",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-9e900bc94292",
+      "title": "CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission",
+      "excerpt": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than […] Th…",
+      "body": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing, valuing the company at more than [&#8230;] The post CesiumAstro Secures $730 Million in Janus Henderson-Led Series D at a Valuation Above $4.5 Billion; Unveils Synchronicity Satellite Constellation Following Fully Successful Element-1 Mission appeared first on SpaceNews .",
+      "author": "CesiumAstro",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Satellite"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
+      "image": "/images/feed/feed-9e900bc94292.png",
+      "source": "SpaceNews",
+      "isLive": true
+    },
+    {
+      "id": "feed-0a1519b296f2",
+      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+      "excerpt": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.",
+      "body": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Paresh Dave",
+      "date": "2026-11-05",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "image": "/images/feed/feed-0a1519b296f2.jpg",
+      "source": "Wired",
       "isLive": true
     },
     {
@@ -51,163 +756,11 @@
       "tags": [
         "Cybersecurity"
       ],
-      "featured": true,
-      "xpReward": 44,
+      "featured": false,
+      "xpReward": 46,
       "url": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
       "image": "/images/feed/feed-f87c666e26e8.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-621a52e8d995",
-      "title": "Zelda Fans Are Being Personally Victimized By Ocarina Of Time Remake’s Jump Button",
-      "excerpt": "28 years of muscle memory going right down the drain",
-      "body": "28 years of muscle memory going right down the drain\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Kenneth Shepard",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": true,
-      "xpReward": 36,
-      "url": "https://kotaku.com/legend-zelda-ocarina-of-time-remake-switch-2-jump-button-2000754255",
-      "image": "/images/feed/feed-621a52e8d995.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-15294ddb3d1d",
-      "title": "The Science of Natural-Sounding AI Speech",
-      "excerpt": "The Science of Natural‑Sounding AI Speech When you open a new language‑learning app or a voice‑controlled assistant, the first thing that hits you is the voice. A synthetic voice that sounds like a hu…",
-      "body": "The Science of Natural‑Sounding AI Speech When you open a new language‑learning app or a voice‑controlled assistant, the first thing that hits you is the voice. A synthetic voice that sounds like a human, that can convey emotion and intent, is a huge differentiator. In this post we’ll dive into the engineering behind natural‑sounding text‑to‑speech (TTS) and voice cloning, and show you how to get started with a real‑world tool—ElevenLabs—right from your terminal or in a few lines of Python. 1. What Makes a Voice “Natural”? A natural synthetic voice is more than a waveform. It’s a complex dance of: Element Why it matters Typical tech Pitch &amp; Duration (Prosody) Mimics how humans stress words.",
-      "author": "VoiceDeveloper",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/voice_developer/the-science-of-natural-sounding-ai-speech-3hhk",
-      "image": "/images/feed/feed-15294ddb3d1d.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-c44bdb191cda",
-      "title": "Horror camera angles and lighting for animated Shorts: a shot-by-shot guide",
-      "excerpt": "Originally published on Homingo Learn. Fear on a phone screen comes from where the camera stands and where the light falls. What each choice does, how to plan it shot by shot and how to build it for f…",
-      "body": "Originally published on Homingo Learn . Fear on a phone screen comes from where the camera stands and where the light falls. What each choice does, how to plan it shot by shot and how to build it for flat 2D art in code. Horror cinematographers work with a short list of tools: where the camera stands, how it moves, and which part of the frame the light is allowed to reach. An animated vertical Short uses the same tools, with two differences. The frame is tall and small, so every choice has to read at a glance on a phone. And there is no set: a camera move is a transform on your art layers, and a light is a layer you draw. This guide covers both halves, the film grammar and the code for it. What each camera angle tells the viewer Five heights, five meanings.",
-      "author": "Mohd Yusuf Khan",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 54,
-      "url": "https://dev.to/mohd_yusufkhan_6c2088c04/horror-camera-angles-and-lighting-for-animated-shorts-a-shot-by-shot-guide-4ean",
-      "image": "/images/feed/feed-c44bdb191cda.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-cca9025ea66d",
-      "title": "Barnes & Noble and TCL team up for a new Tab A1 NXTPAPER",
-      "excerpt": "A new variant of the TCL Tab A1 NXTPAPER is up for pre-order.",
-      "body": "Credit: Barnes and Noble TL;DR TCL and Barnes &amp; Noble have partnered up for a co-branded NXTPAPER tablet. The tablet comes with an 11-inch display and is preloaded with the NOOK reading app. It will be released on November 19, 2026, for $249.99. Back in September, TCL launched the Tab A1 NXTPAPER in the US. Now the company has partnered with Barnes and Noble to launch a co-branded version of the tablet. This variant will cost $249.99, which is the same launch price as the original. The original model currently sells for $229.98 on TCL’s website . This version of the TCL Tab A1 NXTPAPER features an anti-glare 11-inch display, 6GB of RAM, 128GB of storage (can be expanded up to 2TB via microSD), and an 8000mAh battery.",
-      "author": "Ryan McNeal",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.androidauthority.com/barnes-and-noble-tab-a1-nxtpaper-3732263/",
-      "image": "/images/feed/feed-cca9025ea66d.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-52bf5c369e6b",
-      "title": "How to Write Twice as Fast With Voice Typing and AI",
-      "excerpt": "The shortcut to writing faster with voice input is to separate two steps: dictating a rough draft by voice, and having AI clean it up. Spoken words don't become a manuscript on their own, so the appro…",
-      "body": "The shortcut to writing faster with voice input is to separate two steps: dictating a rough draft by voice, and having AI clean it up. Spoken words don't become a manuscript on their own, so the approach is two-stage: generate volume with your voice, and let generative AI shape it into prose. For freelancers who spend a large part of their week on blog posts, client reports and newsletters, the first draft is usually what eats the most time when everything is typed. Combining voice input with AI cleanup noticeably shortens the time to a finished first draft. Here is a workflow you can run day to day.",
-      "author": "Hanako H.",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://dev.to/bestaitool/how-to-write-twice-as-fast-with-voice-typing-and-ai-4ac7",
-      "image": "/images/feed/feed-52bf5c369e6b.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-6cb747292af8",
-      "title": "What's inside a GPU? Cores, streaming multiprocessors and the memory problem",
-      "excerpt": "A modern GPU is not one very powerful processor. It is thousands of simple arithmetic cores grouped into streaming multiprocessors, plus specialised tensor cores for matrix maths and ray-tracing cores…",
-      "body": "A modern GPU is not one very powerful processor. It is thousands of simple arithmetic cores grouped into streaming multiprocessors , plus specialised tensor cores for matrix maths and ray-tracing cores for light simulation, all surrounded by schedulers, caches and a very wide memory system. The hard engineering problem isn't the maths. It's moving data fast enough to keep all those cores busy. What are CUDA cores? Most of the work runs on simple parallel arithmetic units. NVIDIA calls them CUDA cores , AMD calls them stream processors (inside its compute units), and Apple simply counts GPU cores . Each is much simpler than a CPU core, but there are thousands of them running the same instruction across different data at once.",
-      "author": "Ali Ahmed",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://dev.to/ali_ahmed_44ee99051e327ce/whats-inside-a-gpu-cores-streaming-multiprocessors-and-the-memory-problem-13m5",
-      "image": "/images/feed/feed-6cb747292af8.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-7bbde74d0b45",
-      "title": "Was trainiert LoRA-Fine-Tuning eigentlich?",
-      "excerpt": "\"LoRA trainiert etwa 1 % des Modells\" ist die übliche Ein-Satz-Erklärung. Sie stimmt, verschweigt aber die Teile, die entscheiden, ob ein Lauf auf deinen Rechner passt und wie lange er dauert: welche…",
-      "body": "\"LoRA trainiert etwa 1 % des Modells\" ist die übliche Ein-Satz-Erklärung. Sie stimmt, verschweigt aber die Teile, die entscheiden, ob ein Lauf auf deinen Rechner passt und wie lange er dauert: welche Layer Adapter bekommen, was der Rank an der Anzahl ändert, in welcher Präzision die eingefrorenen Gewichte liegen und wie viele Optimizer-Schritte ein kleiner Datensatz tatsächlich ergibt. Hier sind diese Zahlen für einen konkreten Lauf durchgerechnet: Qwen2.5-1.5B-Instruct, Rank 16, auf einem Mac mit Apple Silicon und 16 GB. Die Einstellungen sind die Standardwerte des lokalen Trainers in der Desktop-App osFoundry , einem ganz normalen Skript aus transformers + PEFT + TRL. Die Rechnung lässt sich also auf jedes ähnliche Setup übertragen.",
-      "author": "Hanako H.",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://dev.to/bestaitools-de/was-trainiert-lora-fine-tuning-eigentlich-4afc",
-      "image": "/images/feed/feed-7bbde74d0b45.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-aacd1ba458e3",
-      "title": "Google Workspace vs Zoho Mail for a small startup: is the price gap worth it?",
-      "excerpt": "For a startup that mainly needs business email, Zoho Mail is far cheaper than Google Workspace. For our 10-person team it came to roughly $120–150 a year on Zoho Mail Lite, against about $840 a year f…",
-      "body": "For a startup that mainly needs business email, Zoho Mail is far cheaper than Google Workspace . For our 10-person team it came to roughly $120–150 a year on Zoho Mail Lite, against about $840 a year for Google Workspace Business Starter. That's because Workspace charges for a whole productivity suite. If your team lives in Docs, Drive, Meet and Gemini, Workspace earns its price. If you need reliable email with proper admin controls, Zoho is the easy call. Prices are what I saw when I set this up. Both change, so check current pricing. Why does business email cost so much? Nobody tells you that the expensive part of starting a company isn't always the engineering. It's the subscriptions: Slack, ClickUp, GitHub, hosting, domains, monitoring, and then business email.",
-      "author": "Ali Ahmed",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Startup"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://dev.to/ali_ahmed_44ee99051e327ce/google-workspace-vs-zoho-mail-for-a-small-startup-is-the-price-gap-worth-it-1k3b",
-      "image": "/images/feed/feed-aacd1ba458e3.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -223,143 +776,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 47,
       "url": "https://insideevs.com/news/814587/volkswagen-xl1-for-sale/",
       "image": "/images/feed/feed-caf045374c48.jpg",
       "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-d6bbf6896ac6",
-      "title": "James Cameron’s Avatar Franchise Gets a Massive New December Release",
-      "excerpt": "Avatar: Fire and Ash gets a new 4K Blu-ray Collector’s Edition in December, featuring more than six hours of previously unseen bonus content.",
-      "body": "James Cameron is giving Avatar: Fire and Ash another home-video release, and this one comes with enough behind-the-scenes material to keep Pandora fans busy for several hours. 20th Century Studios has announced a new Collector's Edition 4K Blu-ray, arriving this December, with more than six hours of previously unreleased bonus features.",
-      "author": "Sam Hill",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.polygon.com/avatar-fire-and-ash-collectors-edition-4k-blu-ray-december-release/",
-      "image": "/images/feed/feed-d6bbf6896ac6.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-f7999c252344",
-      "title": "Rockstar Dumps Nearly 40 Spectacular New GTA 6 Screenshots Ahead Of Launch",
-      "excerpt": "The wait is almost over",
-      "body": "The wait is almost over\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ethan Gach",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://kotaku.com/rockstar-dumps-nearly-40-spectacular-new-gta-6-screenshots-ahead-of-launch-2000754266",
-      "image": "/images/feed/feed-f7999c252344.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-97812eddb382",
-      "title": "Zelda Ocarina of Time guides and walkthroughs",
-      "excerpt": "Making your way through The Legend of Zelda: Ocarina of Time remake for Nintendo Switch 2? Here's a plethora of guides and walkthroughs to use.",
-      "body": "The Legend of Zelda: Ocarina of Time remake for Nintendo Switch 2 is more than just a graphical overhaul of the game. Some of the puzzles you may remember from the original game have been changed, and Link can even jump now. Rather than racking your brain trying to remember how you beat the Water Temple back in 1998 (or perhaps 2003 or 2011), let us guide the way.",
-      "author": "Polygon Staff",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.polygon.com/zelda-ocarina-of-time-oot-guides-walkthroughs/",
-      "image": "/images/feed/feed-97812eddb382.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-099aaf54b313",
-      "title": "Fortune treasure hours schedule in the Fortnite Chapter 7 mini season",
-      "excerpt": "Here's what time you can expect the next batch of Fortnite treasure hours, as well as what bonuses are coming with them.",
-      "body": "Fortnite is continuing the tradition of special Saturday hourly events during the Chapter 7 mini season , though this time they're treasure hours , centered around the pirate-themed \"Treasure Hunters\" season. During these hours, certain sprites will get increased drop rates, and you'll drop into the game with special items.",
-      "author": "Julia Lee",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.polygon.com/fornite-treasure-hours-chapter-7-mini-season-c7ms/",
-      "image": "/images/feed/feed-099aaf54b313.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-e778bebaae5f",
-      "title": "Google is ditching Firebase Studio soon, and it wants you to use its newer AI tools instead",
-      "excerpt": "The company is going all-in on Antigravity and Google AI Studio and hopes developers will do the same.",
-      "body": "The company is going all-in on Antigravity and Google AI Studio and hopes developers will do the same.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Ian Carlos Campbell)",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.engadget.com/2308541/google-is-ditching-firebase-studio-soon-and-it-wants-you-to-use-its-newer-ai-tools-instead/",
-      "image": "/images/feed/feed-e778bebaae5f.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-d3dc3f27070a",
-      "title": "Magic’s Most Broken New Mechanic Perfectly Captures the Essence of Star Trek",
-      "excerpt": "Magic’s Star Trek set turns the Federation’s commitment to diversity into a compelling mechanic that rewards you for building a varied crew.",
-      "body": "If there’s one thing I do know about Star Trek, however, it’s that its vision of the future is brimming with optimism and curiosity. In tandem with that is an emphasis on the importance of diversity. I remember my dad watching Star Trek: The Next Generation when I was very young, and the “Wookiee guy” kind of scared me. These days, Worf (who is actually a Klingon) would probably be my favorite character. So it makes sense that what finally won me over about Magic' s Trek connects directly to the franchise's idealistic core message.",
-      "author": "Corey Plante",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.polygon.com/mtg-star-trek-preview-federation-mechanic-limited-magic-the-gathering/",
-      "image": "/images/feed/feed-d3dc3f27070a.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-ce3be6c2acb9",
-      "title": "Ocarina Of Time Makes One Of Link’s Strongest Attacks Harder To Use, But There’s An Easy Fix",
-      "excerpt": "Yaah!",
-      "body": "Yaah!\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Rebekah Valentine",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://kotaku.com/ocarina-of-time-makes-one-of-links-strongest-attacks-harder-to-use-but-theres-an-easy-fix-2000754246",
-      "image": "/images/feed/feed-ce3be6c2acb9.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -376,29 +796,10 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 43,
       "url": "https://www.cnet.com/tech/services-and-software/man-sues-openai-wife-alleged-chatgpt-poison/",
       "image": "/images/feed/feed-880e4c9ecd59.jpg",
       "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-b0fa87479d93",
-      "title": "Kia’s EV5 spotted with an updated design and a huge new infotainment display",
-      "excerpt": "Kia’s Sportage-sized electric SUV, the EV5, was spotted with a distinct new style and an overhauled interior, including a huge widescreen infotainment screen. more…",
-      "body": "Kia’s Sportage-sized electric SUV, the EV5, was spotted with a distinct new style and an overhauled interior, including a huge widescreen infotainment screen. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Infotainment. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Infotainment"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://electrek.co/2026/11/05/kias-ev5-spotted-with-updated-design-huge-display/",
-      "image": "/images/feed/feed-b0fa87479d93.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -414,29 +815,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 39,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/blue-origin-announces-3rd-stage-for-its-powerful-new-glenn-rocket-and-a-new-engine",
       "image": "/images/feed/feed-33f476f068ab.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-133a6b941e8a",
-      "title": "Apple Arcade adds four games, including Crossy Road Rush and NBA 2K27 with WNBA teams",
-      "excerpt": "Apple Arcade subscribers got four new games today, with another major release coming next week. Here are the details. more…",
-      "body": "Apple Arcade subscribers got four new games today, with another major release coming next week. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://9to5mac.com/2026/11/05/apple-arcade-adds-four-games-including-crossy-road-rush-and-nba-2k27-with-wnba-teams/",
-      "image": "/images/feed/feed-133a6b941e8a.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -452,7 +834,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 33,
       "url": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
       "image": "/images/feed/feed-b18925fcf2c1.jpg",
       "source": "The Verge",
@@ -471,87 +853,10 @@
         "Vulnerability"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 49,
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
       "image": "/images/topics/topic-cybersecurity.png",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-f85f356f927f",
-      "title": "A BioWare documentary is set to arrive next year",
-      "excerpt": "Massive Effect: The BioWare Story started filming two years before EA shut down the studio.",
-      "body": "Massive Effect: The BioWare Story started filming two years before EA shut down the studio.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Kris Holt)",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.engadget.com/2308483/a-bioware-documentary-is-set-to-arrive-next-year/",
-      "image": "/images/feed/feed-f85f356f927f.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-426d3fe27a4d",
-      "title": "BMW Is Giving New EV Buyers $500 In Free Charging",
-      "excerpt": "Buyers of eligible 2027 BMW EVs will get $500 in public charging credits, including $200 for use at the fast-growing IONNA network.",
-      "body": "Buyers of eligible 2027 BMW EVs will get $500 in public charging credits, including $200 for use at the fast-growing IONNA network.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://insideevs.com/news/814588/bmw-giving-new-ev-buyers-500-free-charging/",
-      "image": "/images/feed/feed-426d3fe27a4d.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-89daa59a12e6",
-      "title": "Google Forms will start using Gemini to summarize responses and uncover trends",
-      "excerpt": "Google is rolling out actionable insights to Forms so you can act on results faster.",
-      "body": "Credit: Andy Walker / Android Authority TL;DR Google is introducing actionable insights to Google Forms. The new feature uses Gemini to analyze the form responses, uncover trends, and recommend next steps. The update will be available to Google AI Pro and Ultra customers. Get ready for an injection of Gemini into your Google Forms. The Mountain View-based firm has announced that it is rolling out an update for the platform. This update will introduce actionable insights that you’ll be able to access straight from the Responses tab of your form. According to the announcement , these actionable insights use Gemini to analyze responses, uncover trends, and recommend next steps. With its ability to spot patterns, the AI is able to reveal how answers connect.",
-      "author": "Ryan McNeal",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.androidauthority.com/google-forms-actionable-insights-3732228/",
-      "image": "/images/feed/feed-89daa59a12e6.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-5f7c4e2af9ac",
-      "title": "Qualcomm’s latest Snapdragon chips are compatible with Android’s Linux Terminal app",
-      "excerpt": "Sadly, it's still not looking good for older Snapdragon-based hardware.",
-      "body": "TL;DR Google first introduced Linux Terminal app for Pixel phones, and we’ve since seen it spread to devices from other manufacturers. So far, though, that hadn’t included any hardware running Qualcomm Snapdragon chips. Compatibility has now been confirmed for the REDMAGIC 12 Pro, powered by a new Snapdragon 8 Elite Extreme Gen 6. Google’s Linux Terminal app for Android is a fantastic power-user tool that so far has been held back by its limited hardware support — but the good news is, that’s finally changing. We first saw the Linux Terminal debut for Pixel phones running Google’s own Tensor chips, but the vast majority of popular smartphones on the market run Qualcomm’s Snapdragon chips. So far, though, Snapdragon chips haven’t been compatible with the Terminal app.",
-      "author": "Stephen Schenck",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Snapdragon",
-        "Qualcomm"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.androidauthority.com/snapdragon-android-linux-terminal-3732212/",
-      "image": "/images/feed/feed-5f7c4e2af9ac.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -567,29 +872,29 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 38,
       "url": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
       "image": "/images/feed/feed-445cac95ac8d.jpg",
       "source": "BleepingComputer",
       "isLive": true
     },
     {
-      "id": "feed-8f67fe60a578",
-      "title": "Meta-backed 250 MW solar farm breaks ground in Arkansas",
-      "excerpt": "Arkansas is getting another 250 megawatts (MW) of solar power, and Meta has signed up to buy it. more…",
-      "body": "Arkansas is getting another 250 megawatts (MW) of solar power, and Meta has signed up to buy it. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michelle Lewis",
+      "id": "feed-a001352201c8",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "excerpt": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "body": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "OpenAI Blog",
       "date": "2026-11-05",
       "readTime": "2 min",
-      "section": "cars",
+      "section": "ai",
       "tags": [
-        "Cars"
+        "Ai"
       ],
       "featured": false,
-      "xpReward": 43,
-      "url": "https://electrek.co/2026/11/05/meta-backed-250-mw-solar-farm-breaks-ground-in-arkansas/",
-      "image": "/images/feed/feed-8f67fe60a578.jpg",
-      "source": "Electrek",
+      "xpReward": 44,
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "OpenAI Blog",
       "isLive": true
     },
     {
@@ -605,67 +910,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 35,
       "url": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
       "image": "/images/feed/feed-9f581bf250f2.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-d4fb1a293141",
-      "title": "Tesla Is Now Powering One Of Its Biggest Charging Rivals",
-      "excerpt": "EVgo just opened its first station featuring Tesla Superchargers, with hundreds more stalls on the way.",
-      "body": "EVgo just opened its first station featuring Tesla Superchargers, with hundreds more stalls on the way.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://insideevs.com/news/814582/tesla-supercharging-ev-go-chicago/",
-      "image": "/images/feed/feed-d4fb1a293141.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-2bf787a301ee",
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "excerpt": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "body": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Tim Fernholz",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "image": "/images/feed/feed-2bf787a301ee.webp",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-8a4c14b30ac7",
-      "title": "The Gyesera Is Karma’s First New Model In A Decade. But It Doesn’t Feel New",
-      "excerpt": "The Gyesera may have a new face, but it’s still based on the original Fisker Karma. That makes it compromised.",
-      "body": "The Gyesera may have a new face, but it’s still based on the original Fisker Karma. That makes it compromised.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://insideevs.com/reviews/814584/karma-gyesera-review/",
-      "image": "/images/feed/feed-8a4c14b30ac7.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -681,276 +929,24 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 34,
       "url": "https://www.space.com/astronomy/earth/earth-has-captured-a-new-mini-moon-but-it-wont-stick-around-for-long",
       "image": "/images/feed/feed-e0ba5bb95557.png",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-cbdd889cd168",
-      "title": "EcoFlow DELTA Gen4 Series power stations launch at up to $1,435 off, Segway Myon e-bike $400 off, Lectric Black Friday Sale, more",
-      "excerpt": "EcoFlow is once again leading our Green Deals with the launch of its DELTA 3000 Gen4 and DELTA 3800 Gen4 Power Stations and bundles at up to $1,435 off, not to mention the brand has launched another 4…",
-      "body": "EcoFlow is once again leading our Green Deals with the launch of its DELTA 3000 Gen4 and DELTA 3800 Gen4 Power Stations and bundles at up to $1,435 off, not to mention the brand has launched another 48-hour flash sale with options like the DELTA 2 Max 2,048Wh Power Station, 2x 220W solar panels , a free bag, and a free TRAIL 200 DC station at $1,529 + others from $659. We also have three Black Friday deals from Segway, like the Myon Smart Electric Bike down at $1,600 , and Lectric’s official full Black Friday e-bike sale with up to $822 in savings (including price cuts). At the very bottom of the page, you’ll also find all the deals and sales from across this week collected together.",
-      "author": "Reinette LeJeune",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://electrek.co/2026/11/05/ecoflow-delta-gen4-power-stations-segway-myon-e-bike-lectric-black-friday-sale-more/",
-      "image": "/images/feed/feed-cbdd889cd168.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-e7cdac150554",
-      "title": "On this day in space! Nov. 5, 2002: NASA's Galileo spacecraft flies by Jupiter moon Almathea only to find it's a 'pile of icy rubble less dense than water'",
-      "excerpt": "On Nov. 5, 2002, NASA's old Galileo spacecraft flew by a small moon called Amalthea and made a surprising find. Here's why it mattered.",
-      "body": "On Nov. 5, 2002, NASA's old Galileo spacecraft was almost out of fuel. But the Jupiter mission still had some science to do. Galileo flew by a small moon called Amalthea. Amalthea is small, but it's interesting for scientists. The Jupiter moon Amalthea is the reddest object in our solar system. It also generates more heat than it gets from the sun. Scientists think Amalthea creates electrical currents as it orbits in Jupiter's huge magnetic field. Near this little moon, strong radiation from Jupiter is dangerous for spacecraft. The flyby caused some problems for Galileo. The spacecraft went into safe mode only 30 minutes after going past Amalthea. NASA said it was ready for problems, because Galileo was on its last legs, and the radiation near Amalthea was strong.",
-      "author": " Hanneke Weitering ",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa",
-        "Spacecraft",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-5-2026",
-      "image": "/images/feed/feed-e7cdac150554.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-3cbf932ea50c",
-      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "excerpt": "OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
-      "body": "OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sarah Perez",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "image": "/images/feed/feed-3cbf932ea50c.jpg",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-c1604b41fd36",
-      "title": "Claude’s new Personal Finance tool aims to help analyze your spending – read-only, of course",
-      "excerpt": "Anthropic has released what appears to be its answer to ChatGPT Finances.",
-      "body": "Anthropic has released what appears to be its answer to ChatGPT Finances.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Radhika Rajkumar",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.zdnet.com/innovation/personal-finance-claude-anthropic/",
-      "image": "/images/feed/feed-c1604b41fd36.jpg",
-      "source": "ZDNet",
-      "isLive": true
-    },
-    {
-      "id": "feed-4aeb42e804ca",
-      "title": "Claude AI can plug directly into your bank account",
-      "excerpt": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging…",
-      "body": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview with a breakdown of spending by category, including rent and utilities, shopping, and food. Claude can also answer broader questions around what bills are left before your next payday, if you can afford big purchases like holiday trips, and how much money you could be saving each month. Its access is read-only, and with Plaid facilit … Read the full story at The Verge.",
-      "author": "Jess Weatherbed",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
-      "image": "/images/feed/feed-4aeb42e804ca.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-00aedcc8bb41",
-      "title": "The ex-Secret Service agent who flipped a hacker is now raising a second $250M cybersecurity fund",
-      "excerpt": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
-      "body": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity, Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Connie Loizos",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity",
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://techcrunch.com/2026/11/05/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
-      "image": "/images/feed/feed-00aedcc8bb41.jpg",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-ecdcd39295ca",
-      "title": "Claude can now analyze your spending with its new Personal Finance tool",
-      "excerpt": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
-      "body": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Aisha Malik",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-      "image": "/images/feed/feed-ecdcd39295ca.png",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-fe4f083be794",
-      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
-      "excerpt": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, si…",
-      "body": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, si — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lawrence Abrams",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
-      "image": "/images/feed/feed-fe4f083be794.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-fe9ea7e4adbf",
-      "title": "Cork Takes the Heat So DRACO’s Data Can Survive",
-      "excerpt": "Mozelos, Portugal, September 2, 2026 – Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-…",
-      "body": "Mozelos, Portugal, September 2, 2026 &#8211; Amorim Cork Solutions is contributing its P50 cork-based thermal protection material to DRACO, a European Space Agency (ESA) mission designed to capture rare in-flight [&#8230;] The post Cork Takes the Heat So DRACO’s Data Can Survive appeared first on SpaceNews .",
-      "author": "Amorim Cork Solutions",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://spacenews.com/cork-takes-the-heat-so-dracos-data-can-survive/",
-      "image": "/images/feed/feed-fe9ea7e4adbf.png",
-      "source": "SpaceNews",
-      "isLive": true
-    },
-    {
-      "id": "feed-b7eb933e56ce",
-      "title": "You don't have to go to the moon to see Earth differently: Artemis II astronaut Victor Glover on what really matters",
-      "excerpt": "After a record-breaking journey around the moon, Artemis 2 astronaut Victor Glover explains why you don't need to travel into space to see Earth differently.",
-      "body": "TENERIFE, Canary Islands — Imagine traveling over 250 million miles from home, watching Earth disappear behind the moon and losing contact with the billions of people who call it home. What would you miss most? For Artemis II astronaut Victor Glover, the answer wasn't a particular place, a familiar view or even the comforts of home. It was something much more fundamental: human connection. Speaking during a discussion with former astronaut Chris Hadfield at the Starmus VIII festival on Oct. 18 in Tenerife, Canary Islands, Glover reflected on the extraordinary experience of traveling around the moon and how being so far from Earth had given him a renewed appreciation for the people living on it. \"The greatest reason to go to space, it isn't to be a swashbuckler hero,\" Glover said.",
-      "author": " Daisy Dobrijevic ",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Artemis",
-        "Astronaut"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.space.com/space-exploration/artemis/the-greatest-reason-to-go-to-space-artemis-ii-astronaut-victor-glover-reveals-what-he-discovered-on-his-journey-to-the-moon",
-      "image": "/images/feed/feed-b7eb933e56ce.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-4eabb5f27738",
-      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
-      "excerpt": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
-      "body": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.\n\nThis report, published by Google AI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Google AI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Google AI Blog",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gemini"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.max-600x600.format-webp.webp",
-      "source": "Google AI Blog",
-      "isLive": true
-    },
-    {
-      "id": "feed-7d1426211b66",
-      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-      "excerpt": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server,…",
-      "body": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
-      "image": "/images/feed/feed-7d1426211b66.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-75a081e28298",
-      "title": "NASA's Voyager 1 probe bounces back from communications glitch in interstellar space",
-      "excerpt": "NASA's Voyager 1 probe is back in communication after the 49-year-old spacecraft briefly fell silent last month, during its interstellar-space mission.",
-      "body": "Voyager, 1, humanity's most distant spacecraft, is back in contact after briefly losing touch with Earth last month. The spacecraft stopped phoning home for about 48 hours between Oct. 18 and 20 due to a communications glitch that Voyager 1 resolved on its own, before engineers could send the long-running spacecraft a remote fix. \"This is the first time we've seen the spacecraft do something like this, but we are also at a point in the mission where we have to expect the unexpected,\" Kareem Badaruddin, Voyager mission manager at NASA's Jet Propulsion Laboratory (JPL), said in an agency statement about the incident on Oct. 29.",
-      "author": " Elizabeth Howell ",
-      "date": "2026-11-05",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.space.com/space-exploration/voyager/nasas-voyager-1-probe-bounces-back-from-communications-glitch-in-interstellar-space",
-      "image": "/images/feed/feed-75a081e28298.jpg",
       "source": "Space.com",
       "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: CVE-2026-12411: CVE-2026-12411: Cross-Guest Volume Hijack via DevLXD Device PATCH in Canonical LXD",
-    "9TO5MAC: 9to5Mac Daily: November 5, 2026 – MacBook Neo 2 rumors, watchOS 27.3",
-    "BLEEPINGCOMPUTER: Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
-    "KOTAKU: Zelda Fans Are Being Personally Victimized By Ocarina Of Time Remake’s Jump Button",
-    "DEV.TO: The Science of Natural-Sounding AI Speech",
-    "DEV.TO: Horror camera angles and lighting for animated Shorts: a shot-by-shot guide",
-    "ANDROID AUTHORITY: Barnes & Noble and TCL team up for a new Tab A1 NXTPAPER",
-    "DEV.TO: How to Write Twice as Fast With Voice Typing and AI",
-    "DEV.TO: What's inside a GPU? Cores, streaming multiprocessors and the memory problem",
-    "DEV.TO: Was trainiert LoRA-Fine-Tuning eigentlich?"
+    "9TO5MAC: Apple explains how to turn off the new MacBook Pro’s glowing logo",
+    "DEV.TO: How to Build a Browser-Based Jigsaw Puzzle Game with JavaScript and HTML5 Canvas",
+    "DEV.TO: AI Financial Reporting: A 14-Case Release Gate for Close Narratives",
+    "DEV.TO: Demystifying the MCP Protocol for Open Source AI",
+    "DEV.TO: Open models vs Claude: Kimi K3, GLM 5.3 and DeepSeek V4 Pro against Sonnet 5.5 and Opus 5.5",
+    "DEV.TO: Inkling 2 Small Is Here — the Weights Aren't. What to Do Now",
+    "DEV.TO: Fleet Report #2: ChatGPT sent one page 515 readers in a week. My agents built it a door, then hid it.",
+    "DEV.TO: Agent Skill for Debugging Things",
+    "CLEANTECHNICA: You Need A New Car? Go Electric! It’s Superior Technology! Part 1",
+    "9TO5MAC: WhatsApp’s AI-powered photo expansion tool starts rolling out on iOS"
   ],
   "sectionVideos": {}
 }
