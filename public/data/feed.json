@@ -1,32 +1,12 @@
 {
-  "fetchedAt": "2026-11-07T01:24:25.802Z",
+  "fetchedAt": "2026-11-07T07:56:21.786Z",
   "articles": [
     {
-      "id": "feed-2d3c2ab30364",
-      "title": "Got tired of typing random dictionary words, so I built SyntaxMonkey 🐒. It's a typing test specifically for developers to practice syntax in Python, JS, C++ & more. Track your WPM & accuracy on real code! \r\nTry it out: www.syntaxmonkey.online",
-      "excerpt": "Got tired of typing random dictionary words, so I built SyntaxMonkey 🐒. It's a typing test specifically for developers to practice syntax in Python, JS, C++ & more. Track your WPM & accuracy on real…",
-      "body": "Got tired of typing random dictionary words, so I built SyntaxMonkey 🐒. It's a typing test specifically for developers to practice syntax in Python, JS, C++ & more. Track your WPM & accuracy on real — a development drawing significant attention in the software development and engineering space.\n\nThis report, published by Dev.to, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Python, Developer. As the situation continues to evolve, professionals and enthusiasts in the software development and engineering field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Dev.to using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Suraj Maurya",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Python",
-        "Developer"
-      ],
-      "featured": true,
-      "xpReward": 34,
-      "url": "https://dev.to/surajdev3290/got-tired-of-typing-random-dictionary-words-so-i-built-syntaxmonkey-its-a-typing-test-572b",
-      "image": "/images/feed/feed-2d3c2ab30364.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-8095558747cf",
-      "title": "Hitobito OAuth tokens inherit the full role set of their user",
-      "excerpt": "Hitobito OAuth tokens inherit the full role set of their user Hitobito manages hierarchical groups, members, roles and events. Its access model is derived from the roles a person holds in different gr…",
-      "body": "Hitobito OAuth tokens inherit the full role set of their user Hitobito manages hierarchical groups, members, roles and events. Its access model is derived from the roles a person holds in different groups, which makes the API and OAuth token scope an extension of that model rather than a separate permission universe. The project's JSON API documentation states that personal OAuth access tokens have the same permissions as the corresponding user. It also says the relevant people must have a role in the defined permission range. That is a useful property for integrations and a dangerous one for long-lived tokens created by administrators or power users.",
-      "author": "facilishz",
+      "id": "feed-9b5ac036ae1e",
+      "title": "Building Your Own Hermes AI Hacking Agent: A Complete Setup Guide",
+      "excerpt": "Why Most Guides Get This Wrong Most \"AI hacking agent\" tutorials throw you into a wall of commands. You copy-paste half of it, miss a critical step, and end up with a very expensive chatbot that occas…",
+      "body": "Why Most Guides Get This Wrong Most \"AI hacking agent\" tutorials throw you into a wall of commands. You copy-paste half of it, miss a critical step, and end up with a very expensive chatbot that occasionally runs curl . The problem isn't the tools it's the sequence. This guide follows the actual order things need to happen, from infrastructure to automation. The goal here is to build a Hermes AI Agent for ethical hacking, reconnaissance, and bug bounty automation, then give it specialized security skills one milestone at a time. A quick note before we start: this guide follows a widely shared architecture and workflow, but it doesn't independently verify every installation command, provider, or feature. Always check the current official documentation before executing anything.",
+      "author": "Deno Roy",
       "date": "2026-11-07",
       "readTime": "2 min",
       "section": "software",
@@ -34,56 +14,56 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/facilishz/hitobito-oauth-tokens-inherit-the-full-role-set-of-their-user-o52",
-      "image": "/images/feed/feed-8095558747cf.webp",
+      "xpReward": 42,
+      "url": "https://dev.to/denoroy737/building-your-own-hermes-ai-hacking-agent-a-complete-setup-guide-4337",
+      "image": "/images/feed/feed-9b5ac036ae1e.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-722b4584c4fa",
-      "title": "“어디서 틀렸는지 모르겠습니다.” — 예치금 정합성 배치를 주문 1건 단위로 다시 설계한 이야기",
-      "excerpt": "들어가며 예치금을 다루는 시스템에서 금액의 오차는 작더라도 그냥 넘길 수 없습니다. 이번 글에서는 하루치 합계를 비교하던 예치금 정합성 배치를, 주문 1건의 기대값에서 출발하는 구조로 바꾼 과정을 이야기합니다. 예치금의 정합성을 보여주는 템플릿이 있습니다. 핵심은 다음 한 줄로 정리됩니다. 오늘자 거래 집계 금액 = 오늘과 어제 사이의 거래금액 차이 결제금…",
-      "body": "들어가며 예치금을 다루는 시스템에서 금액의 오차는 작더라도 그냥 넘길 수 없습니다. 그런데 금액이 틀렸다는 사실을 아는 것과, 왜 틀렸는지를 아는 것은 전혀 다른 문제였습니다. 이번 글에서는 하루치 합계를 비교하던 예치금 정합성 배치를, 주문 1건의 기대값에서 출발하는 구조로 바꾼 과정을 이야기합니다. 기존 구조: 하루치 합계를 비교하는 양식 예치금의 정합성을 보여주는 템플릿이 있습니다. 핵심은 다음 한 줄로 정리됩니다. 오늘자 거래 집계 금액 = 오늘과 어제 사이의 거래금액 차이 결제금액, 수수료 등 여러 항목의 하루치 데이터를 집계하고, 그 합을 비교해 오차를 확인하는 방식이었습니다. 문제: 오차는 보이는데 원인은 보이지 않는다 이 구조에는 두 가지 문제가 있었습니다. 1. 계산이 오래 걸렸습니다 하루치 거래금액, 즉 오늘까지의 거래금액과 어제까지의 거래금액의 차이를 각각 계산하기 위해 DB 전체를 뒤져야 했습니다. 2. 오차의 원인을 추적하기 어려웠습니다 오늘자 거래 합계만으로는 어떤 주문에 문제가 있는지 알 수 없었습니다. 주문 1건이 잘못된 것인지 여러 건이 잘못되어 그 합으로 오차가 발생한 것인지 서로 다른 항목의 이슈가 상쇄되어 드러나지 않은 것은 없는지 합계는 이상 여부를 확인하는 데는 유용합니다. 하지만 합산 과정에서 건별 정보가 사라지기 때문에, 원인을 찾는 데는 도움이 되지 않았습니다. 오차 하나를 찾아내는 데 꼬박 하루가 걸리기도 했습니다. 전환점: 주문이 단 1건뿐이라면? 일단 하나씩, 거래 집계부터 풀어보기로 했습니다. 출발점은 단순한 질문이었습니다.",
-      "author": "park suhyun",
+      "id": "feed-2ff05742bc2f",
+      "title": "How We Keep a Chat Widget to 4 KB on Every Page Load",
+      "excerpt": "Most visitors never open a chat widget, but every one of them downloads it. That was the problem we wanted to avoid when building an embeddable chat widget. Customers paste one script tag on their sit…",
+      "body": "Most visitors never open a chat widget, but every one of them downloads it. That was the problem we wanted to avoid when building an embeddable chat widget. Customers paste one script tag on their site, so our code runs on pages we don't control, on connections we can't predict. It has to be small, it can't break the host page, and it has to work under a strict Content-Security-Policy. Here is what we ended up with: File Gzipped When it loads Loader about 4 KB Every page view Full chat about 20 KB First time it's needed Split the widget in two The script tag only loads the loader. It does three things: Fetches the chatbot's public settings Draws the launcher button Waits The chat UI, message rendering and everything else live in a second file.",
+      "author": "rutvik patel",
       "date": "2026-11-07",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
-      ],
-      "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/park_suhyun_44708616b3a00/eodiseo-teulryeossneunji-moreugessseubnida-yecigeum-jeonghabseong-baecireul-jumun-1geon-danwiro-dasi-seolgyehan-iyagi-4h87",
-      "image": "/images/feed/feed-722b4584c4fa.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-bdff2b7f1fba",
-      "title": "Stop typing random words. I built a typing test specifically for developers. 🐒",
-      "excerpt": "If you are anything like me, you probably enjoy warming up your fingers on sites like Monkeytype or 10FastFingers. They are fantastic tools, but I realized they have one major flaw for us software eng…",
-      "body": "If you are anything like me, you probably enjoy warming up your fingers on sites like Monkeytype or 10FastFingers. They are fantastic tools, but I realized they have one major flaw for us software engineers: we don't spend our days typing standard dictionary words. Practicing the word \"because\" for the 100th time doesn't help you type a nested for loop, camelCase variables, or a chain of brackets and semicolons any faster. So, I decided to build a typing test tailored entirely for code. Meet SyntaxMonkey. 🛠️ What is SyntaxMonkey? SyntaxMonkey is a minimalistic, distraction-free typing benchmark and practice tool engineered specifically for coders. Instead of typing plain English sentences, you type real, language-specific code snippets.",
-      "author": "Suraj Maurya",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Developer"
       ],
       "featured": true,
       "xpReward": 31,
-      "url": "https://dev.to/surajdev3290/stop-typing-random-words-i-built-a-typing-test-specifically-for-developers-39k6",
-      "image": "/images/feed/feed-bdff2b7f1fba.webp",
+      "url": "https://dev.to/rutvik_patel_05b3a7219ebb/how-we-keep-a-chat-widget-to-4-kb-on-every-page-load-29h9",
+      "image": "/images/feed/feed-2ff05742bc2f.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-638dbbbcbe41",
-      "title": "Bluetooth Mesh Battery Devices: Why Can They Report Promptly but Not Receive Control Immediately?",
-      "excerpt": "Imagine a battery-powered door sensor: opening the door quickly produces a phone notification, but changing its settings from the phone takes a while to take effect. Why can the same device be quick t…",
-      "body": "Imagine a battery-powered door sensor: opening the door quickly produces a phone notification, but changing its settings from the phone takes a while to take effect. Why can the same device be quick to report, yet slower to receive? It is not necessarily poor reception or a stuck program. A Bluetooth Mesh device using low-power mechanisms may follow different schedules for transmitting and receiving. Here is the short answer: a local event can wake a device to transmit, while messages sent to it during sleep may be stored by a Friend until it requests them. Diagnose the delay by separating those paths. This article explains how devices reduce listening, how a Friend stores messages, and how to check whether energy saving affects the response your application needs.",
-      "author": "weiyi",
+      "id": "feed-b0f851e890ef",
+      "title": "Database Schema Planning: Operational Best Practices",
+      "excerpt": "Designing a database schema on paper is one thing, but running it under heavy production traffic is another challenge entirely. Plan for Zero-Downtime Migrations As your application grows, your schema…",
+      "body": "Designing a database schema on paper is one thing, but running it under heavy production traffic is another challenge entirely. Bad operational planning leads to locking issues, slow deployment down-times, and unmaintainable infrastructure. Here are the critical operational best practices you must follow during the schema planning phase to ensure long-term stability. Plan for Zero-Downtime Migrations As your application grows, your schema will change. Never plan migrations that require taking your database offline. • The Expand and Contract Pattern: Instead of renaming a column directly, first add the new column (Expand), sync the data, and only drop the old column later (Contract).",
+      "author": "Leena Deore",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Database"
+      ],
+      "featured": true,
+      "xpReward": 41,
+      "url": "https://dev.to/leena_deore_400371c043837/database-schema-planning-operational-best-practices-5hlo",
+      "image": "/images/feed/feed-b0f851e890ef.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-47ac0be7aa01",
+      "title": "Searching for a job in the AI era, part 1: the setup and the first 16 days",
+      "excerpt": "I was laid off in August. I didn’t start searching for a new job immediately; I took some At the beginning of October, I accepted the quest “Find a new Job”. I started the way everyone does, manually,…",
+      "body": "I was laid off in August. I didn’t start searching for a new job immediately; I took some time for myself first: to decompress, handle the burnout that was affecting me, and to start a few personal improvement plans, like studying for some certifications. In the meantime, I kept an eye on LinkedIn, saving a few jobs here and there. But without a real effort. At the beginning of October, I accepted the quest “Find a new Job”. I started the way everyone does, manually, on LinkedIn. I dusted off the few job postings that I saved and started searching for more. It took me very little to see that: It was time-consuming. I needed more job boards, not just one. I needed to keep track of connections, messages, and who said what. I needed to know what to do and when, with reminders.",
+      "author": "Giulio Calacoci",
       "date": "2026-11-07",
       "readTime": "2 min",
       "section": "software",
@@ -91,18 +71,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/weiyi/bluetooth-mesh-battery-devices-why-can-they-report-promptly-but-not-receive-control-immediately-4mih",
-      "image": "/images/feed/feed-638dbbbcbe41.webp",
+      "xpReward": 53,
+      "url": "https://dev.to/asdmaster/searching-for-a-job-in-the-ai-era-part-1-the-setup-and-the-first-16-days-3pj7",
+      "image": "/images/feed/feed-47ac0be7aa01.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-90068093e2a6",
-      "title": "How to Choose Bluetooth Mesh: Validate the Design with a Lighting Acceptance Checklist",
-      "excerpt": "The first four articles covered how the approaches relate, turning custom broadcasts into multihop networking, SIG Mesh provisioning and model binding, and why SIG Mesh support does not guarantee Mi H…",
-      "body": "The first four articles covered how the approaches relate , turning custom broadcasts into multihop networking , SIG Mesh provisioning and model binding , and why SIG Mesh support does not guarantee Mi Home integration . When it is time to choose, the question returns: which approach should we use? First replace that broad question with a concrete one: can this implementation reliably perform the actions users need in the space we plan to deliver? Some projects only need a wall switch, some require Mi Home, and others need a custom gateway bridging devices to Matter. A generic protocol comparison cannot decide all three. This article uses lighting in a meeting room and adjacent corridor as a hypothetical example.",
-      "author": "weiyi",
+      "id": "feed-d39c233ad4bc",
+      "title": "Reduce Lambda Cold Starts: A TypeScript Guide",
+      "excerpt": "If you want to reduce Lambda cold starts, it can sound like fine-tuning for people with no real problems. Until the first request on Monday morning takes two seconds and someone in the daily asks whet…",
+      "body": "If you want to reduce Lambda cold starts , it can sound like fine-tuning for people with no real problems. Until the first request on Monday morning takes two seconds and someone in the daily asks whether “this Serverless thing” was such a good idea after all. Cold starts are rare, but they hit exactly the moments when somebody is watching. Two things keep this topic on my mind right now. First, since August 2025 AWS bills the Init phase for all functions, including classic ZIP functions on a managed runtime. A slow start is no longer just a comfort issue. Second, I keep seeing the same causes in TypeScript projects: too much code at startup, unbundled dependencies, clients created inside the handler.",
+      "author": "Sascha Mirow-Stanitzok",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Typescript"
+      ],
+      "featured": true,
+      "xpReward": 41,
+      "url": "https://dev.to/sascha-ms/reduce-lambda-cold-starts-a-typescript-guide-55km",
+      "image": "/images/feed/feed-d39c233ad4bc.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-f695e596c56a",
+      "title": "We checked 1,000 DeFi websites: 76% have no CSP and 64% can be framed by another site",
+      "excerpt": "A passive look at the front door of DeFi. There were no attacks; we only looked at what every visitor's browser receives. Smart contracts get audited. The website in front of them usually does not. Ye…",
+      "body": "A passive look at the front door of DeFi. There were no attacks; we only looked at what every visitor's browser receives. Smart contracts get audited. The website in front of them usually does not. Yet some of the most painful losses did not touch a contract at all. In BadgerDAO (December 2021, about $120M), a script injected into the front end asked users for token approvals. In the Ledger Connect Kit incident (December 2023), a poisoned version of a widely used front-end library turned dApps into wallet drainers. So we looked at the websites of DeFi protocols listed on DefiLlama. Method We took every protocol listed on DefiLlama with a website, which is about 4,000 domains, and picked 1,000 at random. We loaded only the home page, once, like a normal visitor.",
+      "author": "Alex Simakov",
       "date": "2026-11-07",
       "readTime": "2 min",
       "section": "software",
@@ -110,18 +109,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/weiyi/how-to-choose-bluetooth-mesh-validate-the-design-with-a-lighting-acceptance-checklist-389o",
-      "image": "/images/feed/feed-90068093e2a6.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/alex_simakov_d5176f3977ad/we-checked-1000-defi-websites-76-have-no-csp-and-64-can-be-framed-by-another-site-5m5",
+      "image": "/images/feed/feed-f695e596c56a.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-7a4a24abcbcc",
-      "title": "My Agents Ran in Parallel. I Didn't",
-      "excerpt": "A review queue for people who run many AI agents, and the rule that keeps it safe: the model proposes, code can veto. By Arnold Wang, Chief Software Architect at Ingeniux Corporation. The examples and…",
-      "body": "A review queue for people who run many AI agents, and the rule that keeps it safe: the model proposes, code can veto. By Arnold Wang, Chief Software Architect at Ingeniux Corporation. The examples and numbers come from DSH (DeepSeek Harness), an agent harness with a plugin system that I use every day. I have only run this pattern there. Disclosure: the ideas, the data and the design are mine, taken from my own logs and design notes. An AI agent wrote the draft text under my direction, several fresh AI reviewers critiqued it, and I reviewed and approved the result. On November 2 at 10:18 in the morning, ten of my coding-agent sessions were waiting for my next instruction, eleven messages in all (one session had two), the oldest 16 minutes old.",
-      "author": "Arnold Wang",
+      "id": "feed-045c481cd2ef",
+      "title": "Favicon 404s: the tiny missing file that made Google show a generic globe",
+      "excerpt": "When I rebuilt my site as plain PHP pages on shared hosting, I spent weeks on the downloader itself — the resolve endpoint, the download proxy, the quality list. Then one day I searched for my own sit…",
+      "body": "When I rebuilt my site as plain PHP pages on shared hosting, I spent weeks on the downloader itself — the resolve endpoint, the download proxy, the quality list. Then one day I searched for my own site on Google and the result showed a plain grey globe instead of my logo. Everything worked. The site was fast, the pages were indexed. But in a list of search results, my site looked like nobody owned it. The cause was a one-line mistake I had never thought about: there was no favicon. What a favicon actually is A favicon is the little icon a browser shows in the tab, in bookmarks, and — this is the part I missed — next to your pages in Google's search results.",
+      "author": "Mobeen Ahmed",
       "date": "2026-11-07",
       "readTime": "2 min",
       "section": "software",
@@ -129,18 +128,173 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 46,
-      "url": "https://dev.to/arnold_wang_dfbbb991be9ff/my-agents-ran-in-parallel-i-didnt-2enh",
-      "image": "/images/feed/feed-7a4a24abcbcc.webp",
+      "xpReward": 41,
+      "url": "https://dev.to/mobeenahmedgondal/favicon-404s-the-tiny-missing-file-that-made-google-show-a-generic-globe-2gdd",
+      "image": "/images/feed/feed-045c481cd2ef.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-4ad6ce72032a",
-      "title": "Every GTA Game, Ranked by Metacritic Score",
-      "excerpt": "With plenty of Grand Theft Auto games earning Metacritic scores in the high 90s, GTA 6 has an exceptionally high bar to meet.",
-      "body": "With plenty of installments boasting Metacritic scores in the high 90s, GTA 6 has an exceptionally high bar to meet. That said, the series has had occasional growing pains over the years, even if true stinkers are a rarity among Rockstar Games’ back catalog. These are the top 10 GTA games of all time, ranked according to their Metacritic scores.",
-      "author": "Jen Glennon",
+      "id": "feed-c51adc47baf8",
+      "title": "Why Human Documentation Fails Coding Agents (And How I Asked Gemini, Claude, and OpenAI to Fix It)",
+      "excerpt": "I use LLM coding agents on almost all of my projects. Working mainly in Rust on distributed, multi-workspace systems, I rely on them heavily to move fast. When a project is brand new or small, coding…",
+      "body": "I use LLM coding agents on almost all of my projects. Working mainly in Rust on distributed, multi-workspace systems, I rely on them heavily to move fast. When a project is brand new or small, coding agents feel like magic. Give them a prompt, and they write clean functions in seconds. However, as soon as I use them on an already-existing, mature Rust workspace —spanning multiple crates, established patterns, strict security boundaries, and asynchronous flows—the magic starts breaking down. Regularly, the agents produce subtle bugs, unwanted stylistic tweaks, or dangerous simplifications. The most frustrating part isn't syntax errors; Rust's compiler catches those. The real problem is coherence and architectural drift .",
+      "author": "fcn06",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Openai",
+        "Gemini",
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://dev.to/fcn06/why-human-documentation-fails-coding-agents-and-how-i-asked-gemini-claude-and-openai-to-fix-it-5dc8",
+      "image": "/images/feed/feed-c51adc47baf8.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-15fca1b7faff",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "excerpt": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask a…",
+      "body": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "image": "/images/feed/feed-15fca1b7faff.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-94255b046986",
+      "title": "APOD: 2026 November 7 – De Gerlache-Kocher Massif",
+      "excerpt": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
+      "body": "APOD Science APOD APOD: 2026 November 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. De Gerlache-Kocher Massif Explanation: De Gerlache-Kocher massif looms on the visible horizon in this close-up of the edge of the Moon. The mountainous formation rises about 4 kilometers above its surroundings and is located very close to the lunar south pole.",
+      "author": "NASA Breaking News",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-7-de-gerlache-kocher-massif/",
+      "image": "/images/feed/feed-94255b046986.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-8d4786f39c59",
+      "title": "NRDC Assessment of BAAJA, the 2026 Permitting & Transmission Bill",
+      "excerpt": "The Bipartisan American Affordability and Jobs Act of 2026 (BAAJA) is the result of years of negotiations on permitting reform. The product is a bill that combines critically important transmission an…",
+      "body": "The Bipartisan American Affordability and Jobs Act of 2026 (BAAJA) is the result of years of negotiations on permitting reform. The product is a bill that combines critically important transmission and grid reforms with significant and concerning changes to federal environmental laws, permitting standards, and judicial remedies. The transmission provisions ... [continued] The post NRDC Assessment of BAAJA, the 2026 Permitting &#038; Transmission Bill appeared first on CleanTechnica .",
+      "author": "NRDC",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://cleantechnica.com/2026/11/06/nrdc-assessment-of-baaja-the-2026-permitting-transmission-bill/",
+      "image": "/images/feed/feed-8d4786f39c59.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-ac00d2183e81",
+      "title": "The 8 Best Castlevania Games Of All Time, Ranked",
+      "excerpt": "The finest Castlevania games of all time come from multiple decades. Together, they built a franchise that is better than ever.",
+      "body": "The finest Castlevania games of all time come from multiple decades. Together, they built a franchise that is better than ever.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jason Venter",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.polygon.com/best-castlevania-games/",
+      "image": "/images/feed/feed-ac00d2183e81.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-f57540828a58",
+      "title": "10 Essential GBA Games Still Disappointingly Missing From Nintendo Switch Online",
+      "excerpt": "Loads of GBA classics are already available on Switch Online, but 10 more terrific games need to join the service.",
+      "body": "When the original Game Boy came out, games like the ones people enjoyed on their NES were finally playable on the go, and players loved Nintendo for it. The green and black color palette was a bit of a bummer, but finally was rectified with the Game Boy Color. Even so, most of the games were still pretty basic. The next step was to make a handheld unit that could replicate the superior experience offered on the Super Nintendo, and the Game Boy Advance did precisely that.",
+      "author": "Jason Venter",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.polygon.com/game-boy-advance-games-missing-nintendo-switch-online/",
+      "image": "/images/feed/feed-f57540828a58.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2f14ee8be92f",
+      "title": "World of Warcraft Forever World First Level 60 Character Hits Cap Three Days After Launch",
+      "excerpt": "World of Warcraft Forever World First Level 60 Character Hits Cap Three Days After Launch",
+      "body": "World of Warcraft Forever is all about taking your time and exploring the world, rather than rushing to the endgame. But, despite the Forever team&#39;s insistence on taking your time and making friends, a WoW Forever player has already hit level 60. Team JokerD, led by the eponymous streamer was the first team of characters to hit level 60, and the team was made up entirely of Undead characters and one Troll. The Undead race was important there, because Blizzard changed the Cannibalize ability to help you regenerate mana, which meant there was little to no downtime between massive pulls. I spent some time watching the streams of these speedrunners, and they&#39;d gather entire groups of mobs to nuke them down with AoE abilities.",
+      "author": "Jacqueline Thomas",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.ign.com/articles/world-of-warcraft-forever-world-first-level-60-character-hits-cap-three-days-after-launch",
+      "image": "/images/feed/feed-2f14ee8be92f.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-c2fcdd1a0e24",
+      "title": "Robert Pattinson Reportedly Screen-Tested for 007 in James Bond 26",
+      "excerpt": "Robert Pattinson reportedly screen-tested for the role of 007 in James Bond 26. Lex Luthor actor Nicholas Hoult has also emerged as a contender for the role of Bond.",
+      "body": "Robert Pattinson reportedly screen-tested for the role of 007 in James Bond 26 . &quot;The screen tests are said to have occurred the weekend of Oct. 24,&quot; according to The Hollywood Reporter . &quot;THR previously reported that four, possibly five actors were in the mix but only three names surfaced at the time.&quot; Those three named actors are Callum Turner, Jack Lowden and Josh O’Connor . THR also said Lex Luthor actor Nicholas Hoult has emerged as a contender for the role of Bond. This wouldn&#39;t be the first time Hoult and Pattinson have vied for the same high-profile franchise role. Hoult was the runner-up for the role of Batman in Matt Reeves’ 2022 film, which Pattinson won.",
+      "author": "Jim Vejvoda",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.ign.com/articles/robert-pattinson-bond-26-007-screen-test-nicholas-hoult",
+      "image": "/images/feed/feed-c2fcdd1a0e24.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-a083119a98c5",
+      "title": "10 Devastating Game Cancellations That Are Still Disappointing Years Later",
+      "excerpt": "Canceled games are nothing new, but 10 exciting games were taken out of action before they could deliver on their promise.",
+      "body": "Sometimes, it’s fun to think about the great games that might have been — until they were canceled without ever getting the chance to make their mark. Most of the time, we just shrug our shoulders and move on, because that’s life. But sometimes, we mourn the wasted potential.",
+      "author": "Jason Venter",
       "date": "2026-11-07",
       "readTime": "2 min",
       "section": "gaming",
@@ -149,8 +303,142 @@
       ],
       "featured": false,
       "xpReward": 53,
-      "url": "https://www.polygon.com/gta-games-ranked-metacritic-scores/",
-      "image": "/images/feed/feed-4ad6ce72032a.jpg",
+      "url": "https://www.polygon.com/game-cancellations/",
+      "image": "/images/feed/feed-a083119a98c5.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-4b722422490a",
+      "title": "GTA 6's Biggest Competition Officially Arrives on PC in 2027",
+      "excerpt": "Ananta, the \"anime GTA\" game from NetEase, has an early 2027 release date, steering clear of Rockstar Games' Grand Theft Auto 6.",
+      "body": "Grand Theft Auto 6 is set to dominate 2026 with its long-awaited release on PlayStation 5 and Xbox Series X, another game — one heavily inspired by GTA, Marvel's Spider-Man , and Genshin Impact — will give Rockstar Games a run for its money: Ananta .",
+      "author": "Willa Rowe",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.polygon.com/ananta-anime-gta-pc-ps5-release-date-2027-netease-games/",
+      "image": "/images/feed/feed-4b722422490a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b07f8045992d",
+      "title": "Solar Industry Shows Hope After US Election, Focuses On Key Message",
+      "excerpt": "Let’s be honest — even with humongous, epic control of Congress like we haven’t seen in several decades, Democrats can’t really do anything legislatively unless Donald Trump wants to, and there’s a su…",
+      "body": "Let&#8217;s be honest — even with humongous, epic control of Congress like we haven&#8217;t seen in several decades, Democrats can&#8217;t really do anything legislatively unless Donald Trump wants to, and there&#8217;s a super slim chance Trump would do anything to support clean energy. He is extremely anti clean energy and ... [continued] The post Solar Industry Shows Hope After US Election, Focuses On Key Message appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://cleantechnica.com/2026/11/06/solar-industry-shows-hope-after-us-election-focuses-on-key-message/",
+      "image": "/images/feed/feed-b07f8045992d.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-b301fbbe943f",
+      "title": "Apple Music Classical gets new black-and-white icon in latest update",
+      "excerpt": "Following the redesign of the Apple Music app icon, which replaced the familiar white music note on a red background with a black-and-white look, Apple today updated Apple Music Classical to match the…",
+      "body": "Following the redesign of the Apple Music app icon, which replaced the familiar white music note on a red background with a black-and-white look, Apple today updated Apple Music Classical to match the — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://9to5mac.com/2026/11/06/apple-music-classical-gets-new-black-and-white-icon-in-latest-update/",
+      "image": "/images/feed/feed-b301fbbe943f.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-feeb0cec84b6",
+      "title": "Amazon set to deploy more than 3,000 TATA electric delivery trucks",
+      "excerpt": "Amazon isn’t just electrifying its American delivery operations. The virtual big box stores that Bezos built understands the benefits of EVs as well as anyone, and they’re working hard to deploy elect…",
+      "body": "Amazon isn’t just electrifying its American delivery operations. The virtual big box stores that Bezos built understands the benefits of EVs as well as anyone, and they’re working hard to deploy electric vehicles everywhere they can . And now, that global push is extending to India. more…",
+      "author": "Jo Borrás",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://electrek.co/2026/11/06/amazon-set-to-deploy-more-than-3000-tata-electric-delivery-trucks/",
+      "image": "/images/feed/feed-feeb0cec84b6.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-3013a430965d",
+      "title": "SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (photos)",
+      "excerpt": "SpaceX launched a classified mission for the U.S. Space Force from California this evening (Nov. 6). It was the company's 125th liftoff of 2026.",
+      "body": "SpaceX just launched a classified mission for the U.S. military. A Falcon 9 rocket lifted off from California's Vandenberg Space Force Base this evening (Nov. 6) at 7:48 p.m. EST (4:48 p.m. local California time; 0048 GMT on Nov. 7), rising into the sky as the sun sank toward the Pacific. The launch kicked off the USSF-432 mission for the U.S. Space Force , which we know little about. Neither SpaceX nor the Space Force told us much about USSF-432 beforehand, and we learned tonight; SpaceX cut its webcast off about 10 minutes into the flight, shortly after the Falcon 9's first stage came back to Earth for a landing. The Falcon 9's first stage after its landing on Nov. 6, 2026.",
+      "author": " Mike Wall ",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432",
+      "image": "/images/feed/feed-3013a430965d.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-6cb7ca810380",
+      "title": "Tampa Community Turns Out for Sierra Club’s ‘Power & Perspectives: The Energy Dialogue’",
+      "excerpt": "TAMPA, Fla. — On Thursday, November 5, Sierra Club Florida and partner organizations hosted “Power & Perspectives: The Energy Dialogue,” a community town hall addressing TECO bill increases and the ne…",
+      "body": "TAMPA, Fla. — On Thursday, November 5, Sierra Club Florida and partner organizations hosted “Power &#38; Perspectives: The Energy Dialogue,” a community town hall addressing TECO bill increases and the need for local utility accountability. Over 25 people attended the event featuring a panel of Sierra Club, Food &#38; Water ... [continued] The post Tampa Community Turns Out for Sierra Club’s ‘Power &#038; Perspectives: The Energy Dialogue’ appeared first on CleanTechnica .",
+      "author": "Sierra Club",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://cleantechnica.com/2026/11/06/tampa-community-turns-out-for-sierra-clubs-power-perspectives-the-energy-dialogue/",
+      "image": "/images/feed/feed-6cb7ca810380.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-1095c08acdf6",
+      "title": "Ryan Gosling is Officially Reviving The Flintstones for New Project",
+      "excerpt": "Ryan Gosling and Warner Bros are developing live-action Flintstones reboot about Bamm-Bamm",
+      "body": "Ryan Gosling has been incredibly booked and busy of late. He starred in the lead role in the sci-fi smash hit Project Hail Mary earlier this year. In 2027, he'll travel to the galaxy far, far away in St ar Wars: Starfighter . Then in 2028 he'll make his long-awaited MCU debut as Ghost Rider , re-teaming with Starfighter director Shawn Levy. If all that wasn't enough, Gosling has lined up one more unexpected project: The Flintstones .",
+      "author": "Willa Rowe",
+      "date": "2026-11-07",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.polygon.com/ryan-gosling-flintstones-bamm-bamm-movie/",
+      "image": "/images/feed/feed-1095c08acdf6.jpg",
       "source": "Polygon",
       "isLive": true
     },
@@ -167,7 +455,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 51,
       "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
       "image": "/images/feed/feed-c7eefdbf3488.jpg",
       "source": "BleepingComputer",
@@ -186,7 +474,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 54,
       "url": "https://www.zdnet.com/tech/alpine-linux-openssh-patch-flaw/",
       "image": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-879472452.jpg",
       "source": "ZDNet",
@@ -205,10 +493,30 @@
         "Macbook"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 36,
       "url": "https://9to5mac.com/2026/11/06/daily-november-6-2026/",
       "image": "/images/feed/feed-45f7bac82835.jpg",
       "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-53c8a40c524c",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+      "excerpt": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long af…",
+      "body": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg . That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal reports from last week, Bloomberg says OpenAI is still pursuing additional investments that could increase the amount to $20 billion, and that it had initially hoped to raise as much as $30 billion at a higher valuation of $1.4 trillion. That was before tech stocks dropped, and the results of the midterms showed how much public o … Read the full story at The Verge.",
+      "author": "Stevie Bonifield",
+      "date": "2026-11-06",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Openai",
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+      "image": "/images/feed/feed-53c8a40c524c.jpg",
+      "source": "The Verge",
       "isLive": true
     },
     {
@@ -224,7 +532,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 52,
       "url": "https://9to5mac.com/2026/11/06/apple-tv-renews-knife-edge-chasing-michelin-stars-for-season-three/",
       "image": "/images/feed/feed-02b2dbd49d89.jpg",
       "source": "9to5Mac",
@@ -243,7 +551,7 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 54,
       "url": "https://www.cnet.com/tech/mobile/apple-iphone-duo-100000-apps-available/",
       "image": "/images/feed/feed-7663e0ece4c5.jpg",
       "source": "CNET",
@@ -262,86 +570,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 54,
       "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
       "image": "/images/feed/feed-421fa7063f06.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-cd57889b5912",
-      "title": "EA HQ Graced With 'Save Mass Effect' Truck as N7 Day Looms",
-      "excerpt": "Mass Effect fans have taken their mission to save BioWare and its beloved sci-fi franchise to EA headquarters with a truck displaying the #SaveMassEffect message.",
-      "body": "Mass Effect fans have taken their mission to save BioWare and its beloved sci-fi franchise to EA headquarters with a truck displaying the #SaveMassEffect message. The latest update to what has ballooned into a full-blown movement arrived today when the dedicated group of fans known as We are Mass Effect announced they had brought their latest billboard right to the publisher&#39;s front door. Where their last push arrived in the form of a daylong billboard in New York City&#39;s Times Square , this mobile effort will see a truck sharing the word on the streets surrounding EA and EA Sports HQ in Redwood City, California. Anyone who visits the area today can spot the truck, which features signage updated with a handy QR code and website URL directing curious players to SaveMassEffect.com .",
-      "author": "Michael Cripe",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.ign.com/articles/ea-hq-graced-with-save-mass-effect-truck-as-n7-day-looms",
-      "image": "/images/feed/feed-cd57889b5912.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-6479b3488b49",
-      "title": "Three Free Games You Can Play For Free This Weekend On PC",
-      "excerpt": "Here's how to save on games in November",
-      "body": "Here's how to save on games in November\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ethan Gach",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://kotaku.com/three-free-games-you-can-play-for-free-this-weekend-on-pc-2000754769",
-      "image": "/images/feed/feed-6479b3488b49.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-4750e79a7b94",
-      "title": "Godzilla Minus Zero Ending Explained and Our Biggest Burning Questions",
-      "excerpt": "We've got some questions about Godzilla Minus Zero, as well as how it might set up a third installment in the series.",
-      "body": "You want to know if Godzilla Minus Zero has any post-credits scenes, don&#39;t you? We&#39;ll tell you right here: It does not. Though there is a short audio surprise for those who stick around to the end. Spoilers follow! It’s time to go go Godzilla , because Godzilla Minus Zero is now in theaters. The sequel to 2023’s instant classic Godzilla Minus One, Minus Zero reunites director Takashi Yamazaki and his cast for a new adventure featuring the Big G. The film is entering its opening weekend with strong reviews , including a 7/10 from IGN’s Scott Collura, who wrote that it “doesn’t disappoint in the slightest on the kaiju front.” Still, now that we’ve seen the film, we have some questions about certain plot elements and a potential third installment in the series.",
-      "author": "CarlosAMorales",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.ign.com/articles/godzilla-minus-zero-ending-explained-biggest-burning-questions",
-      "image": "/images/feed/feed-4750e79a7b94.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-e6e4e8d2a902",
-      "title": "Avery the Poké Kid's Father Pleads With The Pokémon Company to Make a Trading Card in Honor of His Late Son",
-      "excerpt": "The father of late Pokémon influencer Avery the Poké Kid is asking The Pokémon Company to create a special card in honor of his son.",
-      "body": "The father of late Pokémon influencer Avery the Poké Kid is asking The Pokémon Company to create a special card in honor of his son. Avery the Poké Kid was a prominent and cheerful voice in the Pokémon Trading Card Game community. He died in September 2026 at 12 years old in after a seven-year-battle with pancreatic cancer; he went viral posthumously when his family shared a video of his final card pack opening a few days after his death, in which he excitedly pulled a 30th Anniversary Jirachi SIR card. Now, his father is putting forth a public request to The Pokémon Company to make a special card in Avery’s honor. On November 6, Christian Garcia — Avery’s father — published a tearful video on Instagram with a special plea to &quot;immortalize&quot; his son in the hobby he loved the most.",
-      "author": "Virginia Glaze",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.ign.com/articles/avery-the-pok-kids-father-pleads-with-the-pokmon-company-to-make-a-trading-card-in-honor-of-his-late-son",
-      "image": "/images/feed/feed-e6e4e8d2a902.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -357,29 +589,10 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 38,
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "image": "/images/feed/feed-41cd6da548e0.webp",
+      "image": "/images/feed/feed-41cd6da548e0.jpg",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-9f9c8072457e",
-      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Chatgpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Aldipower",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Chatgpt"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
-      "image": "/images/feed/feed-9f9c8072457e.png",
-      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -395,48 +608,10 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 46,
       "url": "https://www.theverge.com/science/1029162/spacex-starlink-mobile-elon-musk-news",
       "image": "/images/feed/feed-9cc3f6625889.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-4386ffcc6a13",
-      "title": "All Happy Mask Shop buyer locations in Zelda Ocarina of Time",
-      "excerpt": "This guide walks you through each step of Ocarina of Time's Happy Mask Shop quest, including who gets the Spooky Mask, Skull Mask, and Bunny Hood",
-      "body": "The Legend of Zelda: Ocarina of Time remake's Happy Mask Shop quest sends you around Hyrule peddling masks to specific customers. That sounds like a cushy gig, except you have very little guidance about who your customers are, and you occasionally even have to pay back the cost of the mask, too. However, if you want a big chunk of cash and a chance to see and hear everything in Ocarina of Time , it's worth the hassle.",
-      "author": "Josh Broadwell",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.polygon.com/zelda-ocarina-of-time-happy-mask-shop-spooky-skull-bunny-hood/",
-      "image": "/images/feed/feed-4386ffcc6a13.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-483109cb2ca4",
-      "title": "This Is One Of My Favorite Stupid Details They Kept In The Ocarina Of Time Remake",
-      "excerpt": "These boots weren’t made for walking",
-      "body": "These boots weren’t made for walking\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Kenneth Shepard",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://kotaku.com/legend-zelda-ocarina-of-time-remake-iron-boots-cutscenes-2000754765",
-      "image": "/images/feed/feed-483109cb2ca4.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -452,7 +627,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 46,
       "url": "https://9to5mac.com/2026/11/06/raycast-combines-voice-dictation-and-screen-awareness-in-new-ai-feature/",
       "image": "/images/feed/feed-8d47818f302a.jpg",
       "source": "9to5Mac",
@@ -471,7 +646,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 32,
       "url": "https://www.androidauthority.com/google-messages-pinned-chats-redesign-user-reactions-3732689/",
       "image": "/images/feed/feed-baedc1af8c93.jpg",
       "source": "Android Authority",
@@ -490,7 +665,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 50,
       "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
       "image": "/images/feed/feed-34d079298944.jpg",
       "source": "BleepingComputer",
@@ -509,7 +684,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 32,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-6-2026",
       "image": "/images/feed/feed-49e1fdb5f729.jpg",
       "source": "Space.com",
@@ -528,7 +703,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 35,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/ast-spacemobile-announces-new-blacklift-rocket-targets-2028-launch-debut",
       "image": "/images/feed/feed-32aa9414049f.jpg",
       "source": "Space.com",
@@ -554,25 +729,6 @@
       "isLive": true
     },
     {
-      "id": "feed-360c3c3d6d11",
-      "title": "Google Health app 5.12 update revamps glucose, blood pressure, and resilience tracking",
-      "excerpt": "Google is releasing a big update for the Health app.",
-      "body": "Credit: Kaitlyn Cimino / Android Authority TL;DR Version 5.12 of the Google Health app is rolling out. This version includes updates for medical records, health tracking, pregnancy tracking, nutrition, resilience, and Health Coach. The rollout is expected to continue over the next week in phases. Since the big rebrand, the Google Health experience has continued to be refined. Last month, the app received a fairly substantial update, adding new Health Guardian features for the Fitbit Air, improved sleep tracking, and more. This month, the update is just as large, with several updates ranging from health tracking to nutrition. Google has started the rollout of version 5.12 of the Health app. Although the rollout is starting today, it may take some time to hit your device.",
-      "author": "Ryan McNeal",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.androidauthority.com/google-health-5-12-update-3732684/",
-      "image": "/images/feed/feed-360c3c3d6d11.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
       "id": "feed-242589c581cb",
       "title": "Apollo’s newest electric scooter is also its lowest-cost yet",
       "excerpt": "Apollo has spent the last several years carving out a spot for itself toward the more premium end of the electric scooter market. Now the company is trying something different: going after the mass ma…",
@@ -585,7 +741,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 53,
       "url": "https://electrek.co/2026/11/06/apollos-newest-electric-scooter-is-also-its-lowest-cost-yet/",
       "image": "/images/feed/feed-242589c581cb.jpg",
       "source": "Electrek",
@@ -623,7 +779,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 39,
       "url": "https://www.space.com/stargazing/whats-that-bright-star-in-the-early-morning-sky-its-not-a-star-at-all",
       "image": "/images/feed/feed-22d2ad2b7c7d.jpg",
       "source": "Space.com",
@@ -642,7 +798,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 46,
       "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
       "image": "/images/feed/feed-9678fc2a3d37.jpg",
       "source": "Ars Technica",
@@ -661,28 +817,9 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 32,
       "url": "https://electrek.co/2026/11/06/evgo-opens-its-first-tesla-superchargers-with-hundreds-more-planned/",
       "image": "/images/feed/feed-0c8bba5b4894.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-b786ac08651f",
-      "title": "BYD is launching this 5-seat luxury electric SUV next week with over 1,000 km of range",
-      "excerpt": "BYD’s luxury brand, Denza, calls it “the king of large 5-seater pure electric vehicles.” The new Denza N8 electric SUV will launch next week, offering an impressive CLTC driving range of over 1,000 km…",
-      "body": "BYD’s luxury brand, Denza, calls it “the king of large 5-seater pure electric vehicles.” The new Denza N8 electric SUV will launch next week, offering an impressive CLTC driving range of over 1,000 km — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://electrek.co/2026/11/06/byd-launching-5-seat-luxury-suv-next-week-with-1000-km-range/",
-      "image": "/images/feed/feed-b786ac08651f.jpg",
       "source": "Electrek",
       "isLive": true
     },
@@ -700,7 +837,7 @@
         "Gpt"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 46,
       "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
       "image": "/images/feed/feed-86cd7cb41c9e.jpg",
       "source": "BleepingComputer",
@@ -719,87 +856,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 34,
       "url": "https://www.space.com/stargazing/skywatching-kit/i-finally-got-my-hands-on-the-unistellar-envision-smart-binoculars-with-augmented-reality-for-the-night-sky-heres-what-theyre-like",
       "image": "/images/feed/feed-fdf1da2bac1c.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-1da56f122a22",
-      "title": "Alas, Poor Cybertruck, We Hardly Knew Thee",
-      "excerpt": "Tesla CEO Elon Musk laid a billion-dollar egg with the Cybertruck, and he is finally putting the ill-fated EV out of its misery. The post Alas, Poor Cybertruck, We Hardly Knew Thee appeared first on C…",
-      "body": "Tesla CEO Elon Musk laid a billion-dollar egg with the Cybertruck, and he is finally putting the ill-fated EV out of its misery. The post Alas, Poor Cybertruck, We Hardly Knew Thee appeared first on C — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by CleanTechnica, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybertruck. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CleanTechnica using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Tina Casey",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cybertruck"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://cleantechnica.com/2026/11/06/tesla-cybertruck-production-halted-elon-musk-2026-elections/",
-      "image": "/images/feed/feed-1da56f122a22.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-7edca80f631d",
-      "title": "Podcast: Tesla kills the Cybertruck, EVs are surging, and more",
-      "excerpt": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla killing the Cybertruck, EVs surging in several k…",
-      "body": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla killing the Cybertruck, EVs surging in several k — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybertruck, Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Fred Lambert",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cybertruck",
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://electrek.co/2026/11/06/podcast-tesla-kills-the-cybertruck-evs-are-surging-and-more/",
-      "image": "/images/feed/feed-7edca80f631d.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-231f3445a81d",
-      "title": "See the space race like you’ve never seen it before in PBS’s new living documentary, ‘We Chose to Go to the Moon’",
-      "excerpt": "Hear Neil Armstrong's son and granddaughter sing a moving tribute to the legendary Apollo 11 astronaut",
-      "body": "Straight from its inspiring live performance at New York City's Carnegie Hall this past April, RadicalMedia's filmed presentation of the immersive living space documentary, \"We Chose to Go to the Moon,\" is finally available for the rest of us to watch. \"We Chose to Go to the Moon\" premieres Nov. 10 at 8:00 p.m. ET on PBS, PBS.org, and the PBS app, and we’ve got an exclusive clip to share featuring Mark and Kali Armstrong singing \"Flight of Fancy.\" With a poignant introduction by Oscar winning director Ron Howard (\"Apollo 13\"), \"We Chose to Go to the Moon\" recalls the extraordinary saga of the global space race and Apollo moon landings by actors portraying pivotal persons who made it all happen.",
-      "author": " Jeff Spry ",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.space.com/entertainment/space-movies-shows/see-the-space-race-like-youve-never-seen-it-before-in-pbss-new-living-documentary-we-chose-to-go-to-the-moon",
-      "image": "/images/feed/feed-231f3445a81d.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-8ec8ed08f1b9",
-      "title": "Bluetti Apex 200 2,560Wh power station exclusive $1,044 in Early Black Friday deals, Velotric e-bikes up to $760 off, Segway, more",
-      "excerpt": "This week’s closing Green Deals edition is packed with some great Early Black Friday savings, starting with the freshly launched Bluetti holiday lineup, which includes the new Apex 200 2,560Wh Power S…",
-      "body": "This week’s closing Green Deals edition is packed with some great Early Black Friday savings, starting with the freshly launched Bluetti holiday lineup , which includes the new Apex 200 2,560Wh Power Station that just hit the market with an exclusive $1,044 starting price. That’s not all, as we also have Jackery’s early Black Friday offers , too. There’s also Velotric’s best prices of the year , with a bunch of first-time discounts, like the 2026 Discover 3 Ultimate Comfort Commuter e-bike with a FREE $136 bundle at $1,899 + more from $1,199, as well as a spotlight on Segway’s F3 Electric Scooter at its $650 annual low .",
-      "author": "Reinette LeJeune",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://electrek.co/2026/11/06/bluetti-apex-200-2560wh-power-station-black-friday-velotric-e-bikes-segway-more/",
-      "image": "/images/feed/feed-8ec8ed08f1b9.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -815,29 +875,10 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 45,
       "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
       "image": "/images/feed/feed-0f6ce4b3a763.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-37d75a0fa379",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "excerpt": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
-      "body": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Whittaker",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "image": "/images/feed/feed-37d75a0fa379.webp",
-      "source": "TechCrunch",
       "isLive": true
     },
     {
@@ -853,7 +894,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 45,
       "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
       "image": "/images/feed/feed-2b7f2f98758a.jpg",
       "source": "Wired",
@@ -873,48 +914,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 34,
       "url": "https://www.cnet.com/tech/services-and-software/roundup-chatgpt-claude-gpt-6-cyber-images-2-6-personal-finance/",
       "image": "https://www.cnet.com/wp-content/uploads/sites/2/AdobeStock_1957197742_Editorial_Use_Only.jpeg",
       "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-5c2be49917b9",
-      "title": "You can see another galaxy with the naked eye — here's how to find it",
-      "excerpt": "The Andromeda galaxy is one of the most distant things you can see with the naked eye. The difficult part isn't finding it. It's believing that faint smudge really is another galaxy.",
-      "body": "The first time I showed someone the Andromeda galaxy (M31), our conversation did not go quite as planned. I'd carefully worked my way across the sky, starting from the Great Square of Pegasus and hopping from star to star until I was confident I had the right patch. I pointed the telescope, got M31 in its crosshairs and proudly announced to my wife that I had found the closest giant galaxy to the Milky Way . Would she like to see it? She then stayed quiet for a little too long as she looked through the eyepiece. Then came an unexpected question. \"Is it near that little smudge?\" Hmmm. \"Err, no. It is that little smudge,\" I replied. There was a pause. Of course, I knew exactly what had happened.",
-      "author": " Jamie Carter ",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.space.com/stargazing/you-can-see-another-galaxy-with-the-naked-eye-heres-how-to-find-it",
-      "image": "/images/feed/feed-5c2be49917b9.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-671dd8ccd729",
-      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
-      "excerpt": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3...",
-      "body": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3 — a development drawing significant attention in the artificial intelligence and machine learning space.\n\nThis report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "dgellow",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-      "image": "/images/topics/topic-ai-ml.png",
-      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -930,24 +933,24 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 42,
       "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "image": "/images/feed/feed-7b5a2965d87a.webp",
+      "image": "/images/feed/feed-7b5a2965d87a.png",
       "source": "TechCrunch",
       "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Got tired of typing random dictionary words, so I built SyntaxMonkey 🐒. It's a typing test specifically for developers to practice syntax in Python, JS, C++ & more. Track your WPM & accuracy on real code! \r\nTry it out: www.syntaxmonkey.online",
-    "DEV.TO: Hitobito OAuth tokens inherit the full role set of their user",
-    "DEV.TO: “어디서 틀렸는지 모르겠습니다.” — 예치금 정합성 배치를 주문 1건 단위로 다시 설계한 이야기",
-    "DEV.TO: Stop typing random words. I built a typing test specifically for developers. 🐒",
-    "DEV.TO: Bluetooth Mesh Battery Devices: Why Can They Report Promptly but Not Receive Control Immediately?",
-    "DEV.TO: How to Choose Bluetooth Mesh: Validate the Design with a Lighting Acceptance Checklist",
-    "DEV.TO: My Agents Ran in Parallel. I Didn't",
-    "POLYGON: Every GTA Game, Ranked by Metacritic Score",
-    "BLEEPINGCOMPUTER: SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-    "ZDNET: Alpine Linux and OpenSSH patch flaw that’s as bad as it can get"
+    "DEV.TO: Building Your Own Hermes AI Hacking Agent: A Complete Setup Guide",
+    "DEV.TO: How We Keep a Chat Widget to 4 KB on Every Page Load",
+    "DEV.TO: Database Schema Planning: Operational Best Practices",
+    "DEV.TO: Searching for a job in the AI era, part 1: the setup and the first 16 days",
+    "DEV.TO: Reduce Lambda Cold Starts: A TypeScript Guide",
+    "DEV.TO: We checked 1,000 DeFi websites: 76% have no CSP and 64% can be framed by another site",
+    "DEV.TO: Favicon 404s: the tiny missing file that made Google show a generic globe",
+    "DEV.TO: Why Human Documentation Fails Coding Agents (And How I Asked Gemini, Claude, and OpenAI to Fix It)",
+    "THE HACKER NEWS: Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+    "NASA BREAKING NEWS: APOD: 2026 November 7 – De Gerlache-Kocher Massif"
   ],
   "sectionVideos": {}
 }
