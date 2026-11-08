@@ -1,107 +1,12 @@
 {
-  "fetchedAt": "2026-11-08T03:03:21.787Z",
+  "fetchedAt": "2026-11-08T10:50:46.771Z",
   "articles": [
     {
-      "id": "feed-6e5c21387078",
-      "title": "Conheça o Hallmark: skill de design para assistentes de código",
-      "excerpt": "O que é Hallmark é uma habilidade de design desenvolvida pela Together AI para assistentes de código como Claude Code, Cursor, Codex e OpenCode. O objetivo do projeto é gerar interfaces web que evitem…",
-      "body": "O que é Hallmark é uma habilidade de design desenvolvida pela Together AI para assistentes de código como Claude Code, Cursor, Codex e OpenCode. O objetivo do projeto é gerar interfaces web que evitem padrões visuais artificiais comumente associados a conteúdos gerados por inteligência artificial. A ferramenta oferece um catálogo com 50 temas baseados em materiais visuais específicos, além de permitir a criação em modo customizado. Para quem serve A ferramenta é voltada para desenvolvedores que utilizam assistentes de código durante o desenvolvimento de páginas web. Ela atende a quem precisa estruturar interfaces focadas na ação principal do produto, utilizar fotografias reais e licenciadas, e garantir critérios de acessibilidade, contraste e layouts responsivos.",
-      "author": "Victor Hugo",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 31,
-      "url": "https://dev.to/victor_hugo_a07c85ac09eea/conheca-o-hallmark-skill-de-design-para-assistentes-de-codigo-30ia",
-      "image": "/images/feed/feed-6e5c21387078.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-e032ddb3d904",
-      "title": "From Measles Tragedy to Molecular Insight: How VR Structural Biology Changes the Way We See Vaccines",
-      "excerpt": "From Measles Tragedy to Molecular Insight: How VR Structural Biology Changes the Way We See Vaccines I read the headline on a rainy Tuesday in upstate New York: a child, unvaccinated, had died of meas…",
-      "body": "From Measles Tragedy to Molecular Insight: How VR Structural Biology Changes the Way We See Vaccines I read the headline on a rainy Tuesday in upstate New York: a child, unvaccinated, had died of measles — the first such death in the state in thirty years. The article listed the usual statistics, the vaccination gap, the preventable nature of the disease. But what stuck with me was the quiet line about the virus’s two glycoproteins, hemagglutinin (H) and fusion protein (F), and how neutralizing antibodies latch onto specific epitopes. I’ve spent years staring at ribbon diagrams on a 27‑inch monitor, rotating them with a mouse, trying to imagine the three‑dimensional dance of those proteins.",
-      "author": "Ashish",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/ashish_624379625242c5d263/from-measles-tragedy-to-molecular-insight-how-vr-structural-biology-changes-the-way-we-see-vaccines-434f",
-      "image": "/images/feed/feed-e032ddb3d904.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-78aabec1cb5c",
-      "title": "Bulk-Convert Digital PDFs to Text and Markdown for a RAG Index (and Catch the Scanned Ones)",
-      "excerpt": "Most \"chat with your documents\" projects die on step one: getting text out of the PDFs. A handful of files is easy. A few hundred reports, manuals and specs from different sources is where you find th…",
-      "body": "Most \"chat with your documents\" projects die on step one: getting text out of the PDFs. A handful of files is easy. A few hundred reports, manuals and specs from different sources is where you find the edge cases: encrypted files, 400-page monsters, and scans that look like documents but contain only images. This post walks through: a DIY extraction script and its traps, the same batch job with a hosted Actor and real output, chunking the result for a search or RAG index, plus cost and limits. The DIY version With pypdf the basic extraction is a few lines: import io , requests from pypdf import PdfReader def pdf_text ( url ): data = requests . get ( url , timeout = 60 ). content reader = PdfReader ( io . BytesIO ( data )) return \" \\n\\n \" . join ( page .",
-      "author": "SteadyScrape",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/steadyscrape/bulk-convert-digital-pdfs-to-text-and-markdown-for-a-rag-index-and-catch-the-scanned-ones-5ee4",
-      "image": "/images/feed/feed-78aabec1cb5c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-3d1b9da745c4",
-      "title": "Privacy-First Flutter Apps: On-Device Data",
-      "excerpt": "HerCycle, a privacy-first period tracker I built, stores everything on the device: cycle logs, symptom history, and health reports. There is no account, no registration, and no server sync. The app wo…",
-      "body": "HerCycle, a privacy-first period tracker I built, stores everything on the device: cycle logs, symptom history, and health reports. There is no account, no registration, and no server sync. The app works fully offline, and it ships with a PIN and biometric app lock. For an app that holds some of the most sensitive health data a person has, that architecture is not a marketing line. It is the product. Most apps treat privacy as a settings screen. A privacy-first app treats it as an architecture decision made before the first screen is drawn. This article shows how to build one in Flutter: on-device storage, no account, no cloud sync, an app lock, and data flows that keep sensitive information inside the phone.",
-      "author": "Muhammad Uzair",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/uzairxdev/privacy-first-flutter-apps-on-device-data-1n76",
-      "image": "/images/feed/feed-3d1b9da745c4.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-6121a0dcd035",
-      "title": "Turing's Tango: The Story of Tara and Go",
-      "excerpt": "Theresia uses the term Turing's Tango for the never-ending contest between bots and anti-bots: each side getting better at the other's game, forever, neither of them winning. We borrow the term for th…",
-      "body": "Theresia uses the term Turing's Tango for the never-ending contest between bots and anti-bots: each side getting better at the other's game, forever, neither of them winning. We borrow the term for the opposite kind of dance — a human and an AI trying to understand each other rather than catch each other. You can read Theresia's original article here . One of us remembers. The other one searches. Go, The Human My name is Go, a mere programmer with some years of experience as an IT professional. I don't have a degree in psychology or neurology, but I have always been interested in how the human mind actually works. I love seeing the possibilities of how humans and machines can work together. What makes a human a machine, and what makes a machine human.",
-      "author": "Go Frendi Gunawan",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/gofrendiasgard/turings-tango-the-story-of-tara-and-go-5637",
-      "image": "/images/feed/feed-6121a0dcd035.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-ade60ff5ce28",
-      "title": "I wanted my coding agent to examine me out loud, so I built a local voice layer for it",
-      "excerpt": "A few weeks ago I wrote about the learning system I built inside my AI coding workflow: notes in Obsidian for every project, and an exam the agent offers when I reach a milestone. That post mentioned…",
-      "body": "A few weeks ago I wrote about the learning system I built inside my AI coding workflow : notes in Obsidian for every project, and an exam the agent offers when I reach a milestone. That post mentioned an oral mode almost in passing. This is the story of that oral mode, which grew into its own project: Socra . Writing an answer lets me edit until it sounds right. Saying it out loud doesn't. If I can't explain a decision in my own project while someone listens, I don't understand it yet. So I wanted the agent to ask me questions with its voice and listen to my answers. What Socra is Socra is a local voice layer for coding agents.",
-      "author": "Teo Furlan",
+      "id": "feed-bdad6b16add6",
+      "title": "Prompt Chaining for LLMs: Build Reliable Workflows",
+      "excerpt": "Liquid syntax error: 'raw' tag was never closed",
+      "body": "Liquid syntax error: 'raw' tag was never closed\n\nThis report, published by Dev.to, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Software. As the situation continues to evolve, professionals and enthusiasts in the software development and engineering field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Dev.to using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "KAMAL KISHOR",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "software",
@@ -110,36 +15,189 @@
       ],
       "featured": true,
       "xpReward": 47,
-      "url": "https://dev.to/teo_furlan/i-wanted-my-coding-agent-to-examine-me-out-loud-so-i-built-a-local-voice-layer-for-it-2ni4",
-      "image": "/images/feed/feed-ade60ff5ce28.webp",
+      "url": "https://dev.to/koolkamalkishor/prompt-chaining-for-llms-build-reliable-workflows-4n2a",
+      "image": "/images/feed/feed-bdad6b16add6.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-16b40f26bc1a",
-      "title": "Turn Any Product Page Into the Same JSON Shape With Python (Schema-First AI Extraction)",
-      "excerpt": "Every scraping project starts the same way: one site, a few CSS selectors, done. Then a second site arrives with different markup. Then a third redesigns its product page. A few weeks later you are ma…",
-      "body": "Every scraping project starts the same way: one site, a few CSS selectors, done. Then a second site arrives with different markup. Then a third redesigns its product page. A few weeks later you are maintaining a pile of per-site parsers whose only job is to produce the same five fields . This post shows a schema-first approach: you describe the shape of the data you want once, then extract it from many different pages. We will: look at the DIY version (fetch + LLM + validation) and where it gets tricky, run the same workflow with a hosted Actor and read the real output, cover cost and the caveats you should know before trusting AI extraction.",
-      "author": "SteadyScrape",
+      "id": "feed-789846b46152",
+      "title": "Claude Sonnet 4.6 Is Here: 1M Context, Opus-Level Coding at Sonnet Prices",
+      "excerpt": "Anthropic shipped Claude Sonnet 4.6 today, 8 November 2026, and it is the most interesting Sonnet release in a while — not because of one flashy feature, but because of what it quietly makes unnecessa…",
+      "body": "Anthropic shipped Claude Sonnet 4.6 today, 8 November 2026, and it is the most interesting Sonnet release in a while — not because of one flashy feature, but because of what it quietly makes unnecessary. For a lot of everyday coding work, you no longer need to reach for the most expensive model in the lineup. Sonnet now does work that used to require Opus, at Sonnet prices. I have not used Sonnet 4.6 hands-on, and I am not going to pretend otherwise. Everything below is what Anthropic published in its announcement, checked 8 November 2026. The numbers in this article — the 70%, the 59%, the benchmark gains — are Anthropic's own claims from its early testing, not independent measurements. I will say so where it matters, because a launch-day announcement is a promise, not a review.",
+      "author": "Paul Lovelace",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Python"
+        "Software"
       ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://dev.to/steadyscrape/turn-any-product-page-into-the-same-json-shape-with-python-schema-first-ai-extraction-5ed4",
-      "image": "/images/feed/feed-16b40f26bc1a.webp",
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://dev.to/paullovelace/claude-sonnet-46-is-here-1m-context-opus-level-coding-at-sonnet-prices-3odc",
+      "image": "/images/feed/feed-789846b46152.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-52afe4922f5f",
-      "title": "How to Play Every GTA Game in 2026",
-      "excerpt": "GTA might be the most popular video game franchise of all time, but a lot of it is hard to play. Here's a guide on how to play every GTA game.",
-      "body": "Rockstar Games seems to have an ambivalent attitude towards GTA's past, particularly the early 2D games and some spinoff titles, and its record in making these games available is decidedly spotty. Below, we break down the current state of availability of every game in the series — where you can find it, and what the best way to play it is.",
-      "author": "Oli Welsh",
+      "id": "feed-66f95c716a0e",
+      "title": "Apple’s Grey List: What It Means for Developers and How to Work Around It",
+      "excerpt": "1. What was released / announced Apple has quietly extended its “grey list” – a set of words and phrases that the native iOS keyboard will deliberately refuse to autocorrect or suggest. From a develop…",
+      "body": "1. What was released / announced Apple has quietly extended its “grey list” – a set of words and phrases that the native iOS keyboard will deliberately refuse to autocorrect or suggest . The list now includes a range of profanity, slurs, and even some politically‑charged terms. When you type any of these strings, the keyboard shows a warning and offers no spelling assistance. The change rolled out with iOS 18.1 and is enforced system‑wide, not just in the Messages app. 2. Why it matters From a developer’s standpoint this is more than a UI quirk: User‑experience impact – Many productivity apps (notes, IDEs, chat clients) rely on the default keyboard for quick typing.",
+      "author": "Naveen Malothu",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Developer"
+      ],
+      "featured": true,
+      "xpReward": 48,
+      "url": "https://dev.to/naveenmalothu/apples-grey-list-what-it-means-for-developers-and-how-to-work-around-it-1m23",
+      "image": "/images/feed/feed-66f95c716a0e.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-c7ce87c08dea",
+      "title": "Does Static Typing Reduce AI's Bugs? I Had Claude Code Build the Same Git Clone Three Times Each in TypeScript and JavaScript",
+      "excerpt": "\"If an AI is writing your code, TypeScript is the safer choice.\" You hear it a lot, and I more or less believed it too. A type checker tells you what's wrong, so an AI should reach correct code more e…",
+      "body": "\"If an AI is writing your code, TypeScript is the safer choice.\" You hear it a lot, and I more or less believed it too. A type checker tells you what's wrong, so an AI should reach correct code more easily with one. But is that actually true? When an AI writes the code, does static typing (TypeScript) versus dynamic typing (JavaScript) really change how many bugs are left behind? This experiment was inspired by Yusuke Endoh's article here on DEV: Which Programming Language Is Best for Claude Code? Yusuke Endoh Yusuke Endoh Yusuke Endoh Follow Mar 5 Which Programming Language Is Best for Claude Code? # ai # llm # programming 50 &nbsp;reactions 13 &nbsp;comments 8 min read He had Claude Code write a simplified Git in many languages, 20 times each, and compared time and cost.",
+      "author": "Toru Ikeda",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Typescript",
+        "Javascript"
+      ],
+      "featured": true,
+      "xpReward": 36,
+      "url": "https://dev.to/torudev/does-static-typing-reduce-ais-bugs-i-had-claude-code-build-the-same-git-clone-three-times-each-in-3epb",
+      "image": "/images/feed/feed-c7ce87c08dea.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1f8f093af3f7",
+      "title": "CreateProcess search order turns an executable name into a trust decision",
+      "excerpt": "CreateProcess search order turns an executable name into a trust decision Windows CreateProcess can launch an executable by name or by full path. When the caller supplies a name without a directory, t…",
+      "body": "CreateProcess search order turns an executable name into a trust decision Windows CreateProcess can launch an executable by name or by full path. When the caller supplies a name without a directory, the operating system resolves it through a search sequence that includes locations beyond the caller's explicit directory. That behavior is convenient for interactive tools and risky for a privileged service that inherits an attacker-influenced working directory or environment. Microsoft's CreateProcessW documentation lists the search sequence used when the file name does not contain a path. It includes the application's directory, the current directory, system directories, the Windows directory, and directories in PATH in the documented order.",
+      "author": "facilishz",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 44,
+      "url": "https://dev.to/facilishz/createprocess-search-order-turns-an-executable-name-into-a-trust-decision-3n3g",
+      "image": "/images/feed/feed-1f8f093af3f7.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-8549a6fdb972",
+      "title": "I built 59 free browser-based dev tools in vanilla JS — here's what I learned",
+      "excerpt": "I've been quietly building Antigravity Tools — a collection of 59 free, browser-based developer utilities — and today I'm sharing everything I built and learned. The main constraint I set for myself:…",
+      "body": "I've been quietly building Antigravity Tools — a collection of 59 free, browser-based developer utilities — and today I'm sharing everything I built and learned. Why vanilla JS? No React, no build step. The main constraint I set for myself: zero dependencies, zero server, zero telemetry . When you paste your JWT token into jwt.io, it goes to their server. When you use an online regex tester, your test strings are logged. I built Antigravity Tools so every operation runs inside your browser, using native APIs. No Node.js backend No npm packages No webpack/vite/parcel No Google Analytics No cookies Everything runs on Web Crypto API , Canvas API , Web Audio API , and IndexedDB — all native to modern browsers.",
+      "author": "Yuva",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 35,
+      "url": "https://dev.to/yuvaraj_radhakrishnan_224/i-built-59-free-browser-based-dev-tools-in-vanilla-js-heres-what-i-learned-19lm",
+      "image": "/images/feed/feed-8549a6fdb972.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-e1182784a135",
+      "title": "Silent Failures: When an AI Agent Says Done and the Work Is Wrong",
+      "excerpt": "A customer asks for a refund. The agent checks the order, calls the payments tool, and replies: your refund has been processed, you will see it in three to five days. The conversation closes with a sa…",
+      "body": "A customer asks for a refund. The agent checks the order, calls the payments tool, and replies: your refund has been processed, you will see it in three to five days. The conversation closes with a satisfied rating. Nothing in the logs is red. Two weeks later the customer writes again, angrier. The money never arrived. The payments call had returned a pending status that the agent read as success, and no one ever looked at what happened next. Nothing crashed, no alert fired, and every dashboard stayed green. The only evidence that anything went wrong was a customer who noticed. This is the silent failure, and it is the subject of this article. We start with the problem and only then look at a way of handling it.",
+      "author": "Mir Arshad Ali Talpur",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://dev.to/mir_arshadalitalpur_1b3/silent-failures-when-an-ai-agent-says-done-and-the-work-is-wrong-43ib",
+      "image": "/images/feed/feed-e1182784a135.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-8b2a5c142bd2",
+      "title": "7 apps that still look terrible on foldables, and Google should call them out first",
+      "excerpt": "Developers are gradually adapting to the iPhone Duo, but these app makers still haven't adapted to Android foldables.",
+      "body": "Credit: Hadlee Simons / Android Authority Opinion post by Hadlee Simons Foldable phones have been around since 2018/2019, when brands like Royole, Samsung, and HUAWEI debuted their first devices. Google eventually released Android 12L to deliver a better software experience on foldables, while also pushing developers to release optimized versions of their apps. Apple has just released the iPhone Duo , and it’s clear that many developers haven’t optimized their apps for the form factor. But things aren’t perfect on Android foldables either, even after all this time. Don’t believe me? You only need to see these apps for proof.",
+      "author": "Hadlee Simons",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Foldable"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.androidauthority.com/worst-android-apps-foldables-3729614/",
+      "image": "/images/feed/feed-8b2a5c142bd2.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-69cec1a9ef80",
+      "title": "68 Years Later, Peanuts’ Most Mysterious Character Is Finally Making Her Official Debut — But There's a Catch",
+      "excerpt": "\"Yeah, but Morag--\" Hang on, we're covering that",
+      "body": "There are some elements of Charles Schulz's Peanuts comic that have hardly aged at all, such as the characters' relationships or its focus on team sports. Most kids in America, before or since, have had the experience of being on a team where one kid is taking the game way too seriously while another seems barely aware of what's going on.",
+      "author": "Thomas Hindmarch",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.polygon.com/charlie-brown-pencil-pal-history-peanuts/",
+      "image": "/images/feed/feed-69cec1a9ef80.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-d3a22b8bac7d",
+      "title": "The best Android browser isn’t on the Play Store. Here’s how to install it",
+      "excerpt": "Chrome who? This browser plays by different rules.",
+      "body": "Credit: Andy Walker / Android Authority For anyone looking to ditch Google Chrome, the Play Store has enough options already, from privacy-focused ones like Brave to extension-friendly browsers like Firefox. But no matter which you pick, there’s something always missing, whether it’s features, customization, or just a bit of personality. Solipsism Browser is an open-source, Chromium-based browser that’s a rare exception. I don’t blame you if you haven’t heard of it — it’s fairly new and isn’t available on the Play Store either. Here’s how to install it on your Android and, more importantly, why it’s worth jumping through a few extra hoops.",
+      "author": "Pankil Shah",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.androidauthority.com/solipsism-browser-android-how-to-download-3731532/",
+      "image": "/images/feed/feed-d3a22b8bac7d.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-4a1230fcea1d",
+      "title": "Bethesda's Most Reviled Game Becomes a 10/10 If You Ignore the Story",
+      "excerpt": "If you bounced from one of Bethesda's biggest releases because the plot didn't spark interest, you missed out.",
+      "body": "Recently, Bethesda dominated conversations simply by announcing that the long-awaited Elder Scrolls 6 has an official subtitle : Sentinel . We didn’t learn much more than that, but it was enough to keep us talking because that’s the sort of hold Bethesda has on us. Sometimes. There have been other instances, however, when the hold loosened.",
+      "author": "Jason Venter",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "gaming",
@@ -147,18 +205,94 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 31,
-      "url": "https://www.polygon.com/gta-games-all-2026-where-to-play/",
-      "image": "/images/feed/feed-52afe4922f5f.jpg",
+      "xpReward": 39,
+      "url": "https://www.polygon.com/starfield-retrospective-bethesda-story/",
+      "image": "/images/feed/feed-4a1230fcea1d.jpg",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-b16fd1c30c8d",
-      "title": "8 Near-Perfect BioWare Games That Aged Like Fine Wine",
-      "excerpt": "From Baldur's Gate to a surprisingly good Sonic RPG, these 8 BioWare games still hold up decades later",
-      "body": "A pack of wolves can end a Baldur’s Gate 1 playthrough a mere five minutes after the tutorial ends. A squadmate you didn’t bother checking in on in Mass Effect 2 can die permanently during a mission you don’t get to redo. And a Sonic RPG on the Nintendo DS can end its story with the good guys saving the universe…then coming home to find someone named Eggman conquered Earth while they were gone. Most people know BioWare as the Mass Effect studio, which is incredible on its own — but that undersells the vast range that built the studio’s reputation in the first place.",
-      "author": "Rebecca Corgan",
+      "id": "feed-b852add1e1c6",
+      "title": "6 Best Touchscreen Gloves (2026) Knitted, Waterproof, Leather, and More",
+      "excerpt": "We braved the cold to answer a modern dilemma: Can you keep your hands warm and use a smartphone at the same time?",
+      "body": "We braved the cold to answer a modern dilemma: Can you keep your hands warm and use a smartphone at the same time?\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Simon Hill",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.wired.com/gallery/best-touchscreen-gloves/",
+      "image": "/images/feed/feed-b852add1e1c6.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-c150f5ee7df2",
+      "title": "The Apple MacBook Pro M5 is on Sale, and a Top MacBook to Buy Right Now",
+      "excerpt": "Apple announced an updated 14-inch MacBook Pro with the latest M6 chip. But with the M5 model on sale, I’m not sure the M6 is worth the upgrade.",
+      "body": "Apple announced an updated 14-inch MacBook Pro with the latest M6 chip. But with the M5 model on sale, I’m not sure the M6 is worth the upgrade.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Macbook. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Luke Larsen",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Macbook"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.wired.com/story/macbook-pro-m5-deal-11-6-2026/",
+      "image": "/images/feed/feed-c150f5ee7df2.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-695378b9928a",
+      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+      "excerpt": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
+      "body": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Space. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Reece Rogers",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+      "image": "/images/feed/feed-695378b9928a.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-7e2fb9906601",
+      "title": "Everyone wants an electric pickup truck. I want more electric 125cc motorcycles",
+      "excerpt": "If you follow the EV industry in North America, you’d be forgiven for thinking that the future of transportation revolves around electric SUVs and pickups. Every week seems to bring another teaser fro…",
+      "body": "If you follow the EV industry in North America, you’d be forgiven for thinking that the future of transportation revolves around electric SUVs and pickups. Every week seems to bring another teaser from a startup promising to reinvent the family car or truck. The latest electric SUVs, “coming soon” tiny trucks, lifestyle trucks, modular trucks, etc. Companies like Slate, TELO, and countless others have generated plenty of excitement, even if many of them still have everything left to prove. Don’t get me wrong – I hope they succeed. We need more affordable electric vehicles.",
+      "author": "Micah Toll",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://electrek.co/2026/11/08/everyone-wants-an-electric-pickup-truck-i-want-more-electric-125cc-motorcycles/",
+      "image": "/images/feed/feed-7e2fb9906601.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-052522651953",
+      "title": "Anya Taylor-Joy's Billion-Dollar Sci-Fi Epic Officially Sets New Streaming Home on Netflix",
+      "excerpt": "Anya Taylor-Joy's epic space blockbuster arrives on Netflix in just a few weeks.",
+      "body": "Anya Taylor-Joy captivated audiences as chess prodigy Beth Harmon in Netflix ’s 2020 miniseries The Queen’s Gambit . Her performance balanced poise with emotional depth, creating a character whose story and presence have lingered with viewers long after the series ended. Even years later, the role remains especially memorable — more so than her appearances in action-packed franchises, including Fox’s Marvel superhero film The New Mutants .",
+      "author": "Aimee Hart",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "gaming",
@@ -166,18 +300,18 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 34,
-      "url": "https://www.polygon.com/top-bioware-games/",
-      "image": "/images/feed/feed-b16fd1c30c8d.jpg",
+      "xpReward": 41,
+      "url": "https://www.polygon.com/anya-taylor-joy-sci-fi-netflix-super-mario-galaxy-movie/",
+      "image": "/images/feed/feed-052522651953.jpg",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-3dfb1b622dcb",
-      "title": "4 Years Later, Captain Pike's Most Inspiring Star Trek Quote Is Still the Best Sci-Fi Line of the Decade",
-      "excerpt": "Anson Mount's Captain Pike delivers a powerful Star Trek quote about hope, destiny, and why the future is still ours to shape.",
-      "body": "For most of Star Trek's existence, Christopher Pike was little more than a footnote in franchise history. He was the captain of the Enterprise before James T. Kirk , a character whose greatest claim to fame was appearing in a rejected television pilot. Then Anson Mount came along and changed everything.",
-      "author": "Terry Terrones",
+      "id": "feed-3c5676aa511e",
+      "title": "Sydney Sweeney’s Extremely R-Rated 131-Minute Thriller Is Officially Streaming on HBO",
+      "excerpt": "Sydney Sweeney’s R-rated thriller The Housemaid is streaming on HBO, bringing 131 minutes of twisted secrets and suspense to your watchlist.",
+      "body": "Despite its overwhelming commercial success, Freida McFadden’s psychological thriller, The Housemaid , is far from a perfect read. Trope-heavy and full of obvious contrivances, The Housemaid sets up a tense domestic thriller premise that is meant to be consumed as a fast-paced popcorn novel. This, however, sets the stage for a pulpy screen adaptation, one that mimics the conventions of a lurid thriller with some decent character writing to round things out.",
+      "author": "Debopriyaa Dutta",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "gaming",
@@ -185,10 +319,124 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 54,
-      "url": "https://www.polygon.com/star-trek-captain-pike-most-inspiring-quote/",
-      "image": "/images/feed/feed-3dfb1b622dcb.jpg",
+      "xpReward": 45,
+      "url": "https://www.polygon.com/sydney-sweeney-erotic-thriller-the-housemaid-hbo-max/",
+      "image": "/images/feed/feed-3c5676aa511e.png",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-9c5ed840ce98",
+      "title": "Epic Reveals Drop Rate for Fortnite's Pirate Token Following Pressure From Fans",
+      "excerpt": "Epic Games has revealed the drop rate for Fortnite's Pirate Token after backlash surrounding the infamous in-game pickup saw fans try to report the studio to the FTC.",
+      "body": "Epic Games has revealed the drop rate for Fortnite &#39;s Pirate Token after backlash surrounding the infamous in-game pickup saw fans try to report the studio to the FTC. It&#39;s been just one week since Epic turned the Item Shop on its head with the launch of its Treasure Hunters mini-season November 1. At the center of the backlash is the Pirate Token, an ultra-rare drop that grants access to the Pirate Shop and effectively makes just about every item in the shop free for 14 days. It&#39;s an in-game collectible with unprecedented value, so naturally, it&#39;s sent players into a frenzy as they turn over every chest in hopes of finding one for themselves.",
+      "author": "Michael Cripe",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Fortnite"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.ign.com/articles/epic-reveals-drop-rate-for-fortnites-pirate-token-following-pressure-from-fans",
+      "image": "/images/feed/feed-9c5ed840ce98.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-a390b02bf2dc",
+      "title": "APOD: 2026 November 8 – Major Fireball Meteor",
+      "excerpt": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differen…",
+      "body": "APOD Science APOD APOD: 2026 November 8 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Major Fireball Meteor Explanation: The sky glows with soft pinkish colors of fading twilight in this serendipitous mountaintop vista. Taken in subfreezing temperatures, the thoughtfully composed photo shows snowy, rugged peaks seen from a mountain pass on 2017 November 14. Below lies the village of La Villa, Alta Badia in Italy ‘s Dolomite Alps . Above the nestled village lights, the constellation Ursa Major hangs over the northern horizon.",
+      "author": "NASA Breaking News",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-8-major-fireball-meteor/",
+      "image": "/images/feed/feed-a390b02bf2dc.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-0f45f928d32b",
+      "title": "10 Perfectly Designed Final Fantasy Magic Cards That Are 10/10, No Notes",
+      "excerpt": "Discover 10 perfectly designed Final Fantasy Magic: The Gathering cards that nail the crossover's flavor and mechanics.",
+      "body": "Packed with hilarious nods, like Suplex , and incredible powerhouses, like Diamond Weapon , it comes as no surprise that Final Fantasy is among the best Universe Beyond sets in the game. But the most perfect designs among them capture a fundamental element of their source material, whether that's Bahamut 's devastating Mega Flare, Phoenix Down' s clutch resurrection, or the sheer spectacle of summoning Primal Odin .",
+      "author": "Ryan Epps",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.polygon.com/best-final-fantasy-magic-the-gathering-card-designs/",
+      "image": "/images/feed/feed-0f45f928d32b.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-54f6cf4df594",
+      "title": "Tesla Hasn’t Had A Successful New Product Launch Since JB Straubel Stepped Down As CTO",
+      "excerpt": "As has been widely reported, Tesla is about to end Cybertruck production. The Cybertruck has been a shocking failure. I’m sure there are more detailed analyses out there somewhere, but this short resp…",
+      "body": "As has been widely reported, Tesla is about to end Cybertruck production. The Cybertruck has been a shocking failure. I&#8217;m sure there are more detailed analyses out there somewhere, but this short response on X from Ben McCombe that Tina Casey included in her article on the matter sums it ... [continued] The post Tesla Hasn&#8217;t Had A Successful New Product Launch Since JB Straubel Stepped Down As CTO appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as-cto/",
+      "image": "/images/feed/feed-54f6cf4df594.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-95ac365881a9",
+      "title": "Paramount’s 4-Part Action Fantasy Epic Has One of the Best Seasons in TV History",
+      "excerpt": "In its third season, a beloved animated hero grows up the hard way, living with the fallout of her biggest choice and facing a chilling new villain.",
+      "body": "Few things feel more grown-up than dealing with the consequences of your actions. Whether you stay up too late and still have to get up the next day or make a mistake at work and have to answer for it, adulthood means no one’s coming to fix things. For the most part, it’s all up to you.",
+      "author": "Maria Loreto",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.polygon.com/the-legend-of-korra-season-3-best-season/",
+      "image": "/images/feed/feed-95ac365881a9.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-fd76eb13ab29",
+      "title": "Goodbye Claude, Hello Pi",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "karagenit",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -204,7 +452,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 41,
       "url": "https://www.engadget.com/2307469/how-to-sync-apple-music-across-devices/",
       "image": "/images/feed/feed-6804a856f9c4.jpg",
       "source": "Engadget",
@@ -223,7 +471,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 31,
       "url": "https://www.engadget.com/2307479/samsung-one-ui-9-5-beta-program-how-to-sign-up/",
       "image": "/images/feed/feed-819550fbcc1b.jpg",
       "source": "Engadget",
@@ -242,28 +490,9 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 49,
       "url": "https://www.engadget.com/2307324/spam-callers-how-they-get-your-number/",
       "image": "/images/feed/feed-06cf4ad5607b.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-578fe9efcbca",
-      "title": "What does Apple One Family come with and which subscription is best for you?",
-      "excerpt": "Apple One offers strong value if you're using a lot of Apple services anyway, but make sure you do the math before signing up.",
-      "body": "Apple One offers strong value if you're using a lot of Apple services anyway, but make sure you do the math before signing up.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Yoni Yardeni)",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.engadget.com/2307150/apple-one-family-plan-what-comes-with-which-subscription-best/",
-      "image": "/images/feed/feed-578fe9efcbca.jpg",
       "source": "Engadget",
       "isLive": true
     },
@@ -280,124 +509,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 32,
       "url": "https://cleantechnica.com/2026/11/07/wind-farms-us-energy-policy-lawsuits-trump/",
       "image": "/images/feed/feed-34ed9ad4aabe.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-0539e2805900",
-      "title": "10 useful iPad apps that could make your daily life easier",
-      "excerpt": "Your iPad can do a lot with the right apps. Go beyond Apple's defaults and try these useful offerings that all have great free tiers.",
-      "body": "Your iPad can do a lot with the right apps. Go beyond Apple's defaults and try these useful offerings that all have great free tiers.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Philip Berne)",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.engadget.com/2309904/useful-ipad-apps-make-daily-life-easier/",
-      "image": "/images/feed/feed-0539e2805900.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-b659438d7fd3",
-      "title": "LEGO Black Friday 2026 Sales: What to Expect",
-      "excerpt": "You can expect to see plenty of deals on LEGO sets during Black Friday 2026. I've covered LEGO deals for years, and here's what I expect to see this year.",
-      "body": "On nearly every IGN article about LEGO sets (and as the LEGO editor here at IGN, I post a lot of them), commenters complain that LEGO sets cost too much. That’s a fair criticism, especially because many of the most noteworthy LEGO sets are expensive . Even the smaller sets cost more than you might expect if you don’t pay attention to the market. They’re comprised of many tiny interlocking pieces, after all. If you feel like you’re priced out of many LEGO sets you’d want to buy, Black Friday offers an excellent opportunity to buy them at some of the lowest prices of the year. The question is, what kinds of discounts on LEGO can we expect to see this Black Friday? I’ve been covering LEGO deals for many years now, so here’s what I expect based on my experience.",
-      "author": "Chris Reed",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.ign.com/articles/lego-black-friday-2026-sales-what-to-expect",
-      "image": "/images/feed/feed-b659438d7fd3.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-93dd50c02c6f",
-      "title": "Cyberpunk 2077 Meets Papers, Please in Steam’s Latest Surprise Viral Hit",
-      "excerpt": "Probably Stolen is the latest indie game to explode in popularity on Steam, pulling in over 150,000 concurrent players, and it's showing no signs of s",
-      "body": "Every now and then, a game with little to no fanfare pre-launch gets blessed by the algorithm and surges in popularity. Probably Stolen is the latest recipient of this; after being released on Oct. 28, it's continued to climb in popularity, peaking at 174,382 concurrent players on Nov. 4, according to SteamDB .",
-      "author": "Ford James",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/probably-stolen-cyberpunk-shopkeeping-simulator-steam-hit/",
-      "image": "/images/feed/feed-93dd50c02c6f.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-38e481888f28",
-      "title": "Why you shouldn't remove the screen protector film on your Nintendo Switch 2",
-      "excerpt": "The Switch 2 comes with a protective film on its screen, and you may be tempted to peel it off. Here's why you shouldn't.",
-      "body": "The Switch 2 comes with a protective film on its screen, and you may be tempted to peel it off. Here's why you shouldn't.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Maddie Fisher)",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.engadget.com/2307095/why-keep-nintendo-switch-2-screen-protector/",
-      "image": "/images/feed/feed-38e481888f28.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-85960bec5715",
-      "title": "Why you should never put your PlayStation 5 on a carpeted floor",
-      "excerpt": "The PlayStation 5 needs to stay cool when playing games, and a carpet is a literal hotbed. Here's the best ways to store a PS5 while keeping it cool.",
-      "body": "The PlayStation 5 needs to stay cool when playing games, and a carpet is a literal hotbed. Here's the best ways to store a PS5 while keeping it cool.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Thomas Godwin)",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.engadget.com/2306821/why-never-put-playstation-5-on-carpeted-floor/",
-      "image": "/images/feed/feed-85960bec5715.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-099aaf54b313",
-      "title": "Fortune treasure hours schedule in the Fortnite Chapter 7 mini season",
-      "excerpt": "Here's what time you can expect the next batch of Fortnite treasure hours, as well as what bonuses are coming with them.",
-      "body": "Fortnite is continuing the tradition of special Saturday hourly events during the Chapter 7 mini season , though this time they're treasure hours , centered around the pirate-themed \"Treasure Hunters\" season. During these hours, certain sprites will get increased drop rates, and you'll drop into the game with special items.",
-      "author": "Julia Lee",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.polygon.com/fornite-treasure-hours-chapter-7-mini-season-c7ms/",
-      "image": "/images/feed/feed-099aaf54b313.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -413,30 +528,10 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 39,
       "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
       "image": "/images/feed/feed-56aafbfa9ff3.jpg",
       "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-da3c73b04477",
-      "title": "Wendy’s Just Released a Video Game Where You Can Win Fast Food",
-      "excerpt": "I won a medium fries by defeating a sinister robot that looked suspiciously similar to a McDonald’s french fry container.",
-      "body": "I won a medium fries by defeating a sinister robot that looked suspiciously similar to a McDonald’s french fry container.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Video Game, Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Julian Dossett",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Video Game",
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.cnet.com/tech/gaming/wendys-video-game-fast-food/",
-      "image": "/images/feed/feed-da3c73b04477.jpg",
-      "source": "CNET",
       "isLive": true
     },
     {
@@ -453,7 +548,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 33,
       "url": "https://cleantechnica.com/2026/11/07/ev-charging-credit-bmw-free-hours-us-market/",
       "image": "/images/feed/feed-7204e1b5fbc9.png",
       "source": "CleanTechnica",
@@ -472,9 +567,9 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 51,
       "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "image": "/images/feed/feed-f4f061dd3e2b.webp",
+      "image": "/images/feed/feed-f4f061dd3e2b.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -491,7 +586,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/11/07/redd-picking-up-our-new-tesla-model-y/",
       "image": "/images/feed/feed-fe3c517a29ba.jpg",
       "source": "CleanTechnica",
@@ -510,7 +605,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 52,
       "url": "https://cleantechnica.com/2026/11/07/the-velotric-gomad-electric-utility-ebike-cleantechnica-tested/",
       "image": "/images/feed/feed-24df5fa91192.jpg",
       "source": "CleanTechnica",
@@ -530,7 +625,7 @@
         "Astronaut"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 32,
       "url": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
       "image": "/images/feed/feed-942d60470dba.jpg",
       "source": "NASA Breaking News",
@@ -549,9 +644,9 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 37,
       "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
-      "image": "/images/feed/feed-ff59ab9d8295.webp",
+      "image": "/images/feed/feed-ff59ab9d8295.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -568,7 +663,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 43,
       "url": "https://cleantechnica.com/2026/11/07/esbjerg-seawater-heat-pumps-cold-water-district-heating/",
       "image": "/images/feed/feed-be0a01bbb403.png",
       "source": "CleanTechnica",
@@ -587,30 +682,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 38,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-235-robots-in-dark-and-scary-places",
       "image": "/images/feed/feed-712cef52f7f4.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-738956fb030f",
-      "title": "GM Steps On Tesla’s EV Toes With EV1 Celebration",
-      "excerpt": "General Motors seeks to reclaim the title of EV innovator from Tesla, drawing renewed attention to its work on the 1990's-era Impact concept EV and EV1 sedan. The post GM Steps On Tesla’s EV Toes With…",
-      "body": "General Motors seeks to reclaim the title of EV innovator from Tesla, drawing renewed attention to its work on the 1990's-era Impact concept EV and EV1 sedan. The post GM Steps On Tesla’s EV Toes With — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by CleanTechnica, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CleanTechnica using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Tina Casey",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla",
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://cleantechnica.com/2026/11/07/cybertruck-tesla-gm-ev1-ev-sales-us-market-electric-pickups/",
-      "image": "/images/feed/feed-738956fb030f.png",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -628,7 +703,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 30,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-7-2026",
       "image": "/images/feed/feed-55d189290d02.jpg",
       "source": "Space.com",
@@ -647,7 +722,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 51,
       "url": "https://electrek.co/2026/11/07/tesla-solar-roof-fraud-liable-experiment-lawsuit/",
       "image": "/images/feed/feed-3b4928a397ba.jpg",
       "source": "Electrek",
@@ -666,7 +741,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 54,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
       "image": "/images/feed/feed-0fdcc08f6305.jpg",
       "source": "BleepingComputer",
@@ -685,7 +760,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 51,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/send-your-name-to-saturns-moon-titan-with-nasas-upcoming-dragonfly-mission",
       "image": "/images/feed/feed-59d10bb78368.jpg",
       "source": "Space.com",
@@ -704,7 +779,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 54,
       "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
       "image": "/images/feed/feed-c350b1638a53.jpg",
       "source": "The Verge",
@@ -723,48 +798,10 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 48,
       "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
       "image": "/images/feed/feed-0a53cb4de44f.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-969f93ccdbe5",
-      "title": "The Zeekr 7GT Made Me Question Every Other Luxury EV",
-      "excerpt": "The Zeekr 7GT feels lavish, rides beautifully, and goes like hell. But it also feels unfinished.",
-      "body": "The Zeekr 7GT feels lavish, rides beautifully, and goes like hell. But it also feels unfinished.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://insideevs.com/reviews/812960/zeekr-7gt-privilege-review/",
-      "image": "/images/feed/feed-969f93ccdbe5.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-3ae5bae2b29e",
-      "title": "Star Wars is experiencing a golden age of video games",
-      "excerpt": "The movies might be struggling to recapture the magic, but Star Wars video games are strong with the Force.",
-      "body": "After a tumultuous start to EA's rebooted Star Wars Battlefront series, in 2021 Lucasfilm and Disney decided to open up the development of new Star Wars games by bringing in different publishers and studios under the Lucasfilm Games banner. Now, over five years on, we can confidently say we're entering a new golden era of amazing Star Wars games . With LucasArts' successor calling the shots and coordinating a multitude of projects set in a galaxy far, far away, even EA's latest efforts like Squadrons and the Jedi series have taken bigger and bolder swings. Now, in 2026, the full potential of the Star Wars universe has become clearer with specific releases squarely aimed at niche audiences.",
-      "author": " Fran Ruiz ",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.space.com/entertainment/space-games/star-wars-is-experiencing-a-golden-age-of-video-games",
-      "image": "/images/feed/feed-3ae5bae2b29e.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -780,7 +817,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 42,
       "url": "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/",
       "image": "/images/feed/feed-caa493ce51a5.jpg",
       "source": "Wired",
@@ -799,30 +836,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 33,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
       "image": "/images/feed/feed-d36485a6e1db.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-b779e160d1af",
-      "title": "'I think we will prevail': NASA chief Jared Isaacman on Artemis, China and the new moon race (exclusive)",
-      "excerpt": "NASA Administrator Jared Isaacman during a a Dec. 3, 2025 confirmation hearing. In October of 2026, Isaacman sat down with Space.com to discuss the future of the space agency.",
-      "body": "NASA Administrator Jared Isaacman is serious about launching \"big rockets\" to the moon every single year for the agency's Artemis program. And the new space race with China is fueling that ambition. \"I feel good. I feel like we are certainly on a more achievable path to the lunar surface today than where we were before,\" Isaacman told Space.com. We recently sat down with the NASA chief to discuss the state of the Artemis program , and, off the bat, he made it clear that he's confident in the U.S. space program following the success of April's Artemis II mission around the moon. In fact, just prior to our conversation, it was announced that Artemis II commander Reid Wiseman will become the new deputy director of NASA's Jet Propulsion Laboratory.",
-      "author": " Chelsea Gohd ",
-      "date": "2026-11-07",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Artemis",
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.space.com/space-exploration/i-think-we-will-prevail-nasa-chief-jared-isaacman-on-artemis-china-and-the-new-moon-race-exclusive",
-      "image": "/images/feed/feed-b779e160d1af.png",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -839,7 +856,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 41,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
       "image": "/images/feed/feed-53c8a40c524c.jpg",
       "source": "The Verge",
@@ -858,7 +875,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 35,
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
       "image": "/images/feed/feed-41cd6da548e0.jpg",
       "source": "TechCrunch",
@@ -878,7 +895,7 @@
         "Gpt"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 35,
       "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
       "image": "/images/feed/feed-86cd7cb41c9e.jpg",
       "source": "BleepingComputer",
@@ -897,7 +914,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 43,
       "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
       "image": "/images/feed/feed-2b7f2f98758a.jpg",
       "source": "Wired",
@@ -917,43 +934,24 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 33,
       "url": "https://www.cnet.com/tech/services-and-software/roundup-chatgpt-claude-gpt-6-cyber-images-2-6-personal-finance/",
       "image": "https://www.cnet.com/wp-content/uploads/sites/2/AdobeStock_1957197742_Editorial_Use_Only.jpeg",
       "source": "CNET",
       "isLive": true
-    },
-    {
-      "id": "feed-7b5a2965d87a",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "excerpt": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
-      "body": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Rebecca Bellan",
-      "date": "2026-11-06",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "image": "/images/feed/feed-7b5a2965d87a.png",
-      "source": "TechCrunch",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Conheça o Hallmark: skill de design para assistentes de código",
-    "DEV.TO: From Measles Tragedy to Molecular Insight: How VR Structural Biology Changes the Way We See Vaccines",
-    "DEV.TO: Bulk-Convert Digital PDFs to Text and Markdown for a RAG Index (and Catch the Scanned Ones)",
-    "DEV.TO: Privacy-First Flutter Apps: On-Device Data",
-    "DEV.TO: Turing's Tango: The Story of Tara and Go",
-    "DEV.TO: I wanted my coding agent to examine me out loud, so I built a local voice layer for it",
-    "DEV.TO: Turn Any Product Page Into the Same JSON Shape With Python (Schema-First AI Extraction)",
-    "POLYGON: How to Play Every GTA Game in 2026",
-    "POLYGON: 8 Near-Perfect BioWare Games That Aged Like Fine Wine",
-    "POLYGON: 4 Years Later, Captain Pike's Most Inspiring Star Trek Quote Is Still the Best Sci-Fi Line of the Decade"
+    "DEV.TO: Prompt Chaining for LLMs: Build Reliable Workflows",
+    "DEV.TO: Claude Sonnet 4.6 Is Here: 1M Context, Opus-Level Coding at Sonnet Prices",
+    "DEV.TO: Apple’s Grey List: What It Means for Developers and How to Work Around It",
+    "DEV.TO: Does Static Typing Reduce AI's Bugs? I Had Claude Code Build the Same Git Clone Three Times Each in TypeScript and JavaScript",
+    "DEV.TO: CreateProcess search order turns an executable name into a trust decision",
+    "DEV.TO: I built 59 free browser-based dev tools in vanilla JS — here's what I learned",
+    "DEV.TO: Silent Failures: When an AI Agent Says Done and the Work Is Wrong",
+    "ANDROID AUTHORITY: 7 apps that still look terrible on foldables, and Google should call them out first",
+    "POLYGON: 68 Years Later, Peanuts’ Most Mysterious Character Is Finally Making Her Official Debut — But There's a Catch",
+    "ANDROID AUTHORITY: The best Android browser isn’t on the Play Store. Here’s how to install it"
   ],
   "sectionVideos": {}
 }
