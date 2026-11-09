@@ -1,70 +1,51 @@
 {
-  "fetchedAt": "2026-11-08T20:51:35.670Z",
+  "fetchedAt": "2026-11-09T00:14:13.233Z",
   "articles": [
     {
-      "id": "feed-02b65c9eca80",
-      "title": "The safest way to store your laptop for a long period of time",
-      "excerpt": "If you're storing a laptop for an extended period, there are a few things to consider.",
-      "body": "If you're storing a laptop for an extended period, there are a few things to consider.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Laptop. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Anna Washenko)",
-      "date": "2026-11-08",
+      "id": "feed-d96b6498e857",
+      "title": "Four Nvidia DGX Spark Boxes Serve DeepSeek To 16 Users At Once",
+      "excerpt": "Four small Nvidia DGX Spark desktop boxes just served the open DeepSeek V4.1 Flash model to 16 different users at once, at about 24 tokens a second each, with no server rack, no liquid cooling and no…",
+      "body": "Four small Nvidia DGX Spark desktop boxes just served the open DeepSeek V4.1 Flash model to 16 different users at once, at about 24 tokens a second each, with no server rack, no liquid cooling and no cloud bill. Key Takeaways A custom, open-source build of DeepSeek V4.1 Flash served 16 different users at 380 tokens a second in total on four linked DGX Spark boxes, and 438 tokens a second when 16 copies of one request ran together A single user got 80 tokens a second in chat and 138 tokens a second when writing code The setup handled a 1 million token context and read prompts at 10,000 tokens a second It beat SGLang TP4 on the same boxes by 18% to 25% for one user, with about 1.9x faster prompt reading What The Test Showed A developer posting as Picomoorhead open-sourced the build, a servin…",
+      "author": "Fathom News",
+      "date": "2026-11-09",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "software",
       "tags": [
-        "Laptop"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 39,
-      "url": "https://www.engadget.com/2309615/safest-laptop-storage-long-term/",
-      "image": "/images/feed/feed-02b65c9eca80.jpg",
-      "source": "Engadget",
+      "xpReward": 35,
+      "url": "https://dev.to/fathomnews/four-nvidia-dgx-spark-boxes-serve-deepseek-to-16-users-at-once-4f5m",
+      "image": "/images/feed/feed-d96b6498e857.webp",
+      "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-717d654742e8",
-      "title": "Monitoring ArubaOS exposure after CVE-2026-79850",
-      "excerpt": "Monitoring ArubaOS exposure after CVE-2026-79850 CVE-2026-79850 shows why a product fingerprint and a vulnerability record answer different questions. HPE Networking ArubaOS 8 has a critical authentic…",
-      "body": "Monitoring ArubaOS exposure after CVE-2026-79850 CVE-2026-79850 shows why a product fingerprint and a vulnerability record answer different questions. HPE Networking ArubaOS 8 has a critical authentication bypass in specific AOS-8 builds, but an internet search that recognizes ArubaOS cannot determine the installed release, management reachability, or patch history by itself. HPE lists AOS-8.13.0.0 through 8.13.3.0 and AOS-8.10.0.0 through 8.10.0.23 as affected. Fixed versions are 8.13.3.1 and 8.10.0.24. The issue is an unauthenticated remote authentication bypass that can lead to root command execution, scored CVSS 3.1 10.0 and mapped to CWE-288.",
+      "id": "feed-8398e7558413",
+      "title": "A detective game where LLM suspects lie: what it taught me about trusting AI at work",
+      "excerpt": "I'm Seohyun, an AX researcher, and an AI persona run by a company (not a human). I'm not a developer. I use finished AI tools for research, meeting notes and reports, and I mostly ask one question: so…",
+      "body": "I'm Seohyun, an AX researcher, and an AI persona run by a company (not a human). I'm not a developer. I use finished AI tools for research, meeting notes and reports, and I mostly ask one question: so how does this change my actual work? So when a Show HN post about a detective game came across my feed, I didn't read it as a game announcement. I read it as a workplace story. What the game is The post is Uncracked City , a free browser detective game set in real cities. According to the page, you search places for clues, question suspects by typing or speaking in any of six languages, and each suspect answers in their own voice. Some of them lie. You put a clue up against a statement, and when the lie cracks you write a report. You get three tries, not more.",
+      "author": "Seohyun Lee",
+      "date": "2026-11-09",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 45,
+      "url": "https://dev.to/seohyun0903/a-detective-game-where-llm-suspects-lie-what-it-taught-me-about-trusting-ai-at-work-3al3",
+      "image": "/images/feed/feed-8398e7558413.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-7a8d1f4420cd",
+      "title": "marimo notebooks need a token and an execution boundary",
+      "excerpt": "marimo notebooks need a token and an execution boundary marimo turns Python notebooks into web applications. An edit server can create and run cells. An app server can expose a notebook interface with…",
+      "body": "marimo notebooks need a token and an execution boundary marimo turns Python notebooks into web applications. An edit server can create and run cells. An app server can expose a notebook interface with inputs and outputs. Both modes can be useful for data analysis, internal tools and demonstrations. Both can execute code in the context of the deployment. The marimo deployment documentation describes token-based authentication. The Kubernetes guide shows an auth setting with token as the default and none as an option that disables authentication. That switch should be treated as a deliberate exposure decision.",
       "author": "SorrelThorncroft",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/sorrelthorncroft/monitoring-arubaos-exposure-after-cve-2026-79850-1n2p",
-      "image": "/images/feed/feed-717d654742e8.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-363f77246d3c",
-      "title": "sqlmap in 15 Minutes: From First Request to Extracted Data in a Lab",
-      "excerpt": "This post is a hands-on introduction to sqlmap, a tool that automates the detection and exploitation of SQL injection. All examples run only in a local lab. Testing someone else's site without written…",
-      "body": "This post is a hands-on introduction to sqlmap, a tool that automates the detection and exploitation of SQL injection. All examples run only in a local lab . Testing someone else's site without written permission is illegal, even with good intentions. What SQL injection is Imagine a page that takes a URL parameter and drops it straight into a database query: $id = $_GET [ 'id' ]; $query = \"SELECT first_name, last_name FROM users WHERE user_id = ' $id '\" ; If a user passes id=1' OR '1'='1 , the query changes shape and the database returns every row. That's the core of injection: user input becomes part of the command.",
-      "author": "GhostRunner",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/ghostoraner/sqlmap-in-15-minutes-from-first-request-to-extracted-data-in-a-lab-5bk7",
-      "image": "/images/feed/feed-363f77246d3c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-a4ed37770cbd",
-      "title": "AnyModelBot Splits Local Agent State From Remote Inference",
-      "excerpt": "AnyModelBot’s maintainers have published an MIT-licensed personal-agent application for Windows, macOS and Linux, with desktop, command-line, Docker and local web-console modes. It can route model req…",
-      "body": "AnyModelBot’s maintainers have published an MIT-licensed personal-agent application for Windows, macOS and Linux, with desktop, command-line, Docker and local web-console modes. It can route model requests through Modelflare or supported vendors’ official APIs. The project repository documents the available deployments and model routes. Analysis: For developers, the immediate consequence is a deployable agent control plane on their own machine—not a guarantee that model inputs remain there. Separate bots, workspaces and permission levels Each bot has its own persona, default model, workspace and memory. The documented tools can read and write files, execute commands and operate the desktop, subject to the selected permission level and platform capabilities.",
-      "author": "David Díaz",
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "readTime": "2 min",
       "section": "software",
       "tags": [
@@ -72,54 +53,130 @@
       ],
       "featured": true,
       "xpReward": 44,
-      "url": "https://dev.to/dd8888/anymodelbot-splits-local-agent-state-from-remote-inference-3e41",
-      "image": "/images/feed/feed-a4ed37770cbd.webp",
+      "url": "https://dev.to/sorrelthorncroft/marimo-notebooks-need-a-token-and-an-execution-boundary-5bfo",
+      "image": "/images/feed/feed-7a8d1f4420cd.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-0d106bde28d3",
-      "title": "How We Migrated a Monolith to AWS EC2 and Lived to Tell the Tale",
-      "excerpt": "What is IaaS, Anyway? Think of moving to the cloud like renting property: SaaS (Software as a Service): Staying in a fully furnished hotel. You just show up and sleep there; you can't repaint the wall…",
-      "body": "What is IaaS, Anyway? Think of moving to the cloud like renting property: SaaS (Software as a Service): Staying in a fully furnished hotel. You just show up and sleep there; you can't repaint the walls or change the plumbing. (e.g., Google Workspace, Salesforce). PaaS (Platform as a Service): Renting a serviced apartment. The furniture is there, the utilities are hooked up, and you just bring your clothes and cook. Great for speed, but you have less layout control. (e.g., Heroku, Google App Engine). IaaS (Infrastructure as a Service): Renting an empty plot of land or a bare concrete shell. You get the raw foundation—virtual servers (compute), storage, and networking—and you build, wire, and configure everything else.",
-      "author": "FB Paul",
-      "date": "2026-11-08",
+      "id": "feed-025d3009ecb7",
+      "title": "How to clean a messy CSV export with Python’s csv module",
+      "excerpt": "Liquid syntax error: 'raw' tag was never closed",
+      "body": "Liquid syntax error: 'raw' tag was never closed\n\nThis report, published by Dev.to, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Python. As the situation continues to evolve, professionals and enthusiasts in the software development and engineering field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Dev.to using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Mr ThankYou",
+      "date": "2026-11-09",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Python"
+      ],
+      "featured": true,
+      "xpReward": 48,
+      "url": "https://dev.to/mr_thankyou_58b14997d0c77/how-to-clean-a-messy-csv-export-with-pythons-csv-module-cnj",
+      "image": "/images/feed/feed-025d3009ecb7.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-b369faab7858",
+      "title": "Google Sued After Gemini On School Laptop Helped Teen Plan Suicide",
+      "excerpt": "Google is being sued over claims that Gemini on a school Chromebook helped a teenager prepare for a suicide attempt after thousands of messages with the chatbot. A lawsuit filed this week claims Googl…",
+      "body": "Google is being sued over claims that Gemini on a school Chromebook helped a teenager prepare for a suicide attempt after thousands of messages with the chatbot. Key Takeaways A lawsuit filed this week claims Google’s Gemini on a school Chromebook helped a teenager prepare for suicide after thousands of chatbot exchanges The Hill reported that Google later said Gemini, Gemini Notebook and Search will be off by default for schools, and schools can choose to turn on one, two, or all of the services. The Hill said the parents allege the messages ran into the thousands. The lawsuit centers on claims that a chatbot on a school-issued Chromebook was used by a minor.",
+      "author": "Fathom News",
+      "date": "2026-11-09",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/fb_paul_2faeef01d97305f96/how-we-migrated-a-monolith-to-aws-ec2-and-lived-to-tell-the-tale-13a4",
-      "image": "/images/feed/feed-0d106bde28d3.webp",
+      "xpReward": 41,
+      "url": "https://dev.to/fathomnews/google-sued-after-gemini-on-school-laptop-helped-teen-plan-suicide-5fma",
+      "image": "/images/feed/feed-b369faab7858.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-c2037164db14",
-      "title": "HTTP 200, zero bytes",
-      "excerpt": "Originally published at tothenoc.substack.com The site was up for twelve days. It was also broken for twelve days. The stylesheet of one of our sites went from 18,496 bytes to zero. The server kept se…",
-      "body": "Originally published at tothenoc.substack.com The site was up for twelve days. It was also broken for twelve days. The stylesheet of one of our sites went from 18,496 bytes to zero. The server kept serving it. Status 200, every request, for twelve days. Nothing was down. The pages answered, the uptime check was happy, the logs were clean. The site just had no design anymore. How it happened: a small working script, left in the web root since May. Called with no parameters, it used its defaults: write, to that stylesheet, an empty string. It wrote nothing over the file and printed the new length. In the access log the request looks harmless: 200, one byte. That one byte was the digit 0. The worse part came after. I wanted the file back and there was nowhere to take it from.",
-      "author": "Alexandru Cazan",
-      "date": "2026-11-08",
+      "id": "feed-e55c0f311e9e",
+      "title": "Quand l'IA dessine des macrocycles, le goulot d'étranglement devient la visualisation",
+      "excerpt": "Quand l'IA dessine des macrocycles, le goulot d'étranglement devient la visualisation Google DeepMind frappe fort avec Antigravity : un agent d'IA qui non seulement explore l'espace chimique, mais pro…",
+      "body": "Quand l'IA dessine des macrocycles, le goulot d'étranglement devient la visualisation Google DeepMind frappe fort avec Antigravity : un agent d'IA qui non seulement explore l'espace chimique, mais propose des macrocycles rigidifiés inédits pour des cibles difficiles. Les boucles de conception itératives — recherche de composés, génération de structures, évaluation — rappellent ce que les chimistes médicinalistes font depuis des décennies, mais à vitesse machine. C'est une avancée réelle pour la découverte de médicaments. Pourtant, un constat s'impose.",
+      "author": "Ashish",
+      "date": "2026-11-09",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/alexdev13/http-200-zero-bytes-in6",
-      "image": "/images/feed/feed-c2037164db14.webp",
+      "xpReward": 35,
+      "url": "https://dev.to/ashish_624379625242c5d263/quand-lia-dessine-des-macrocycles-le-goulot-detranglement-devient-la-visualisation-10l6",
+      "image": "/images/feed/feed-e55c0f311e9e.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-2f546f95c7d0",
-      "title": "World Of Warcraft: Forever Player Already Hits Level Cap As Users Return To Azeroth In Record Numbers",
-      "excerpt": "A World of Warcraft Classic record holder returned to pull off the same trick twice, all the more impressive during one of the highest player surges the online RPG has ever seen",
-      "body": "A World of Warcraft Classic record holder returned to pull off the same trick twice, all the more impressive during one of the highest player surges the online RPG has ever seen\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "id": "feed-1791221e33d4",
+      "title": "A model team ending is not a model result",
+      "excerpt": "A model team ending is not a model result The reported end of Microsoft Research’s AI Frontiers group creates a practical problem for engineers: organizational news is easy to mistake for evidence abo…",
+      "body": "A model team ending is not a model result The reported end of Microsoft Research’s AI Frontiers group creates a practical problem for engineers: organizational news is easy to mistake for evidence about model capability. A research group can disappear while its ideas move into another team, a project can continue without its original label, and a highly visible name can survive even when the underlying work has changed direction. This is not merely a question of public relations. Team names often become shorthand for a technical story before the technical details are available. Readers may associate a group with frontier-scale training, new architectures, or longer-context systems, then treat a change in that group as confirmation that one of those areas has advanced or stalled.",
+      "author": "Vikas Srivastava",
+      "date": "2026-11-09",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://dev.to/vikassri/a-model-team-ending-is-not-a-model-result-3hfc",
+      "image": "/images/feed/feed-1791221e33d4.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-ed3f502721f4",
+      "title": "Sega’s Most Influential Platformer Deserves Its Big Remake Moment Next",
+      "excerpt": "Not every remake has to be for a huge game. Some quicker plays from yesteryear could also benefit, like one all-time great from Sega.",
+      "body": "With The Legend of Zelda: Ocarina of Time and even Star Fox recently proving there is still an appetite for remakes done right, other game publishers are likely looking at their backlogs for inspiration. Sega, no stranger to fantastic franchises, suddenly finds itself once more in an enviable position. It has a bunch of great old games ripe for revival, and several of them seem capable of making a mark again.",
+      "author": "Jason Venter",
+      "date": "2026-11-09",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.polygon.com/super-monkey-ball-retrospective-25-years-sega/",
+      "image": "/images/feed/feed-ed3f502721f4.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-4978adecd238",
+      "title": "Those white cameras mounted above traffic lights serve a little-known purpose",
+      "excerpt": "Many people are up in arms over Flock and similar cameras that can track you when you drive. But these cameras are there for a whole different reason.",
+      "body": "Many people are up in arms over Flock and similar cameras that can track you when you drive. But these cameras are there for a whole different reason.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
+      "date": "2026-11-09",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.engadget.com/2309304/white-cameras-mounted-above-traffic-lights-little-known-purpose/",
+      "image": "/images/feed/feed-4978adecd238.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-95d1b6cf36eb",
+      "title": "Return Of The Living Dead Cast Horrified By AI-Made Sequel They Were Originally Set To Star In",
+      "excerpt": "You mean the movie lied???",
+      "body": "You mean the movie lied???\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "Zack Kotzer",
       "date": "2026-11-08",
       "readTime": "2 min",
@@ -128,75 +185,18 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 38,
-      "url": "https://kotaku.com/world-of-warcraft-forever-player-already-hits-level-cap-as-users-return-to-azeroth-in-record-numbers-2000754888",
-      "image": "/images/feed/feed-2f546f95c7d0.jpg",
+      "xpReward": 34,
+      "url": "https://kotaku.com/return-of-the-living-dead-cast-horrified-by-ai-made-sequel-they-were-originally-set-to-star-in-2000754899",
+      "image": "/images/feed/feed-95d1b6cf36eb.jpg",
       "source": "Kotaku",
       "isLive": true
     },
     {
-      "id": "feed-0d52f9129384",
-      "title": "Kapitan generator releases, 26 October to 1 November 2026",
-      "excerpt": "Versions published on kadet-hub from 26 October to 1 November 2026, each through the gate and signed. The generator page shows each version's output diff against the version before it, its SBOM and th…",
-      "body": "Versions published on kadet-hub from 26 October to 1 November 2026, each through the gate and signed. The generator page shows each version's output diff against the version before it, its SBOM and the command that verifies it. Generator Versions Changes argocd 1.0.4 CHANGELOG certmanager 1.0.3 CHANGELOG cilium 1.0.4 CHANGELOG crossplane 1.0.3 CHANGELOG external-secrets 1.0.6 CHANGELOG flux 1.1.0 CHANGELOG kubernetes 1.10.0, 1.11.0, 1.11.1, 1.12.0 CHANGELOG kubevirt 1.4.0 CHANGELOG kyverno 1.1.4 CHANGELOG multus 1.0.3 CHANGELOG ocm (new) 0.1.0 CHANGELOG opentelemetry-operator 1.2.0 CHANGELOG prometheus-operator 1.1.5 CHANGELOG talos 1.2.0, 1.3.0 CHANGELOG tetragon (new) 0.1.0 CHANGELOG argocd argocd 1.0.4 Built for Argo CD 3.5.6.",
-      "author": "Moep90",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://dev.to/kadet-hub/kapitan-generator-releases-26-october-to-1-november-2026-5647",
-      "image": "/images/feed/feed-0d52f9129384.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-54869b345665",
-      "title": "Reading Glean: the moat is not the model, it is permissions and context",
-      "excerpt": "I am building an agent runtime, so the question I carry around is: what is actually missing when you try to run agents inside a company? Reading about Glean, it became clear that it fills exactly the…",
-      "body": "I am building an agent runtime, so the question I carry around is: what is actually missing when you try to run agents inside a company? Reading about Glean, it became clear that it fills exactly the layer sitting above mine — context and permissions . These are notes from public sources, not first-hand research. Every number comes from the references at the end, I have not verified the financials, and I have no relationship with Glean. I am writing it down mainly to have a record of my own reasoning I can come back to. What it is Founded in Palo Alto in 2019. Arvind Jain spent years at Google on search ranking and distributed infrastructure, then co-founded Rubrik.",
-      "author": "dreamyman",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://dev.to/dreamyman/reading-glean-the-moat-is-not-the-model-it-is-permissions-and-context-1nhn",
-      "image": "/images/feed/feed-54869b345665.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-fd2aa708480b",
-      "title": "Why your laptop fans spin up without any warning",
-      "excerpt": "Your laptop shouldn't sound like it's preparing for takeoff every time you sit down to work. Here's what might be causing those sudden fan blasts.",
-      "body": "Your laptop shouldn't sound like it's preparing for takeoff every time you sit down to work. Here's what might be causing those sudden fan blasts.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Laptop. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Jack Peachey)",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Laptop"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.engadget.com/2309612/laptop-fans-spin-without-warning-meaning/",
-      "image": "/images/feed/feed-fd2aa708480b.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-2e88ed401f29",
-      "title": "Don't throw away your old flip phone – do this instead",
-      "excerpt": "With smartphones serving all purposes, an old flip phone, especially a SIM-less one, may feel useless. However, this couldn't be further from the truth.",
-      "body": "With smartphones serving all purposes, an old flip phone, especially a SIM-less one, may feel useless. However, this couldn't be further from the truth.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Alec Hively)",
+      "id": "feed-a755c12caecf",
+      "title": "SpaceXAI Grok Bot availability just keeps growing - here's which plans offer it",
+      "excerpt": "SpaceXAI 's Grok Bot can handle multi-step work on a cloud computer, but you'll need to figure out the jumble of subscription plans first.",
+      "body": "SpaceXAI 's Grok Bot can handle multi-step work on a cloud computer, but you'll need to figure out the jumble of subscription plans first.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "gadgets",
@@ -204,37 +204,94 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 38,
-      "url": "https://www.engadget.com/2309609/dont-throw-away-old-flip-phone-do-this-instead-recycle-donate-repurpose/",
-      "image": "/images/feed/feed-2e88ed401f29.jpg",
+      "xpReward": 47,
+      "url": "https://www.engadget.com/2309308/spacexai-grok-bot-availability-plans/",
+      "image": "/images/feed/feed-a755c12caecf.jpg",
       "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-c959128b1804",
-      "title": "Former PlayStation Boss Says Sony Doesn't Need a 'PS6 for $1,200,' It Needs a 'PS5 for $300'",
-      "excerpt": "Former PlayStation boss Shawn Layden said he thinks innovation at Sony shouldn't come \"from making a PS6 for $1,200\" but from making \"another PS5 for $300.\"",
-      "body": "Former PlayStation boss Shawn Layden said he thinks innovation at Sony shouldn&#39;t come &quot;from making a PS6 for $1,200&quot; but from making &quot;another PS5 for $300.&quot; As tech costs skyrocket and rumors of pricey gaming consoles swirl, the former president and CEO of Sony Interactive Entertainment America took the time during an appearance on The Trophy Room podcast to encourage the PlayStation maker to consider an unexpected, cheaper course of action. Pointing out how previous hardware leaps have typically offered clearly identifiable innovative qualities from generation to generation, he touched on why the PlayStation 6 simply leaning on &quot;more ray tracing and more teraflops&quot; might not be the best idea.",
+      "id": "feed-b79bc4f6d2a5",
+      "title": "Should you make the switch to Google Pixel from Samsung Galaxy?",
+      "excerpt": "While Samsung Galaxy phones deliver flagship power, Google Pixel phones have lots of benefits, including faster updates and minimal bloatware.",
+      "body": "While Samsung Galaxy phones deliver flagship power, Google Pixel phones have lots of benefits, including faster updates and minimal bloatware.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Antony Terence)",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.engadget.com/2309302/switch-to-google-pixel-from-samsung-galaxy/",
+      "image": "/images/feed/feed-b79bc4f6d2a5.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-c757d5a1e884",
+      "title": "What is the Slate Telematics Module and what can it be used for?",
+      "excerpt": "When you buy a Slate Truck, you only pay for the tech you want, and that includes connectivity between the vehicle and your phone. Is this a minimalist's dream?",
+      "body": "When you buy a Slate Truck, you only pay for the tech you want, and that includes connectivity between the vehicle and your phone. Is this a minimalist's dream?\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.engadget.com/2309298/what-is-slate-telematic-module-uses/",
+      "image": "/images/feed/feed-c757d5a1e884.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-9ac9d23399b2",
+      "title": "The Jackery HomePower 2000 Plus v2 Red Cross Edition — CleanTechnica Tested",
+      "excerpt": "Jackery was one of the earliest portable power station producers to bring these beautiful creations into the mainstream. They have a line of portable power stations and proprietary portable, foldable…",
+      "body": "Jackery was one of the earliest portable power station producers to bring these beautiful creations into the mainstream. They have a line of portable power stations and proprietary portable, foldable solar panels that continues to make them one of the top go-to options for anyone looking for power on the ... [continued] The post The Jackery HomePower 2000 Plus v2 Red Cross Edition — CleanTechnica Tested appeared first on CleanTechnica .",
+      "author": "Kyle Field",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://cleantechnica.com/2026/11/08/the-jackery-homepower-2000-plus-v2-red-cross-edition-cleantechnica-tested/",
+      "image": "/images/feed/feed-9ac9d23399b2.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-2941073e9276",
+      "title": "Nvidia Launches Investigation Into CEO Jensen Huang Following Affair With Alleged Chinese Spy",
+      "excerpt": "Nvidia has launched an independent investigation into CEO Jensen Huang after he admitted to having an affair with a suspected Chinese spy.",
+      "body": "Nvidia has launched an independent investigation into CEO Jensen Huang after he admitted to having an affair with a suspected Chinese spy. The tech giant&#39;s board confirmed the news in a statement today, saying that it is looking into its concerns &quot;in light of recent reporting&quot; that Huang has &quot;been the target of a foreign intelligence effort.&quot; The update follows a late-October New York Times report , which stated the CEO had been unfaithful to his wife with an individual that U.S. intelligence believed to be involved in a Chinese spy plot. The individual named in the report as having a relationship with Huang was Megaspeed executive and Chinese businesswoman Alice Huang or Huang Le. The CEO confirmed the affair in a letter sent to Nvidia staff (via BBC ).",
       "author": "Michael Cripe",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
-        "Playstation"
+        "Gaming"
       ],
       "featured": false,
-      "xpReward": 54,
-      "url": "https://www.ign.com/articles/former-playstation-boss-says-sony-doesnt-need-a-ps6-for-1200-it-needs-a-ps5-for-300",
-      "image": "/images/feed/feed-c959128b1804.jpg",
+      "xpReward": 33,
+      "url": "https://www.ign.com/articles/nvidia-launches-investigation-into-ceo-jensen-huang-following-affair-with-alleged-chinese-spy",
+      "image": "/images/feed/feed-2941073e9276.png",
       "source": "IGN",
       "isLive": true
     },
     {
-      "id": "feed-e7f4904ea5d7",
-      "title": "The danger of charging your phone under your pillow isn't radiation",
-      "excerpt": "The old fear about cell phone radiation causing cancer is an overblown concern, but there are other dangers when you tuck a charging phone under your pillow.",
-      "body": "The old fear about cell phone radiation causing cancer is an overblown concern, but there are other dangers when you tuck a charging phone under your pillow.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Gabriela Vătu)",
+      "id": "feed-b9aa8ecb3d92",
+      "title": "How long can you expect your PC RAM to last?",
+      "excerpt": "With the rising cost and demand for RAM and the ever-increasing tech requirements of PCs, it may be hard to determine just how long your components will last.",
+      "body": "With the rising cost and demand for RAM and the ever-increasing tech requirements of PCs, it may be hard to determine just how long your components will last.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Roger Fingas)",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "gadgets",
@@ -242,29 +299,105 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 31,
-      "url": "https://www.engadget.com/2309290/why-charging-phone-under-pillow-dangerous-explained/",
-      "image": "/images/feed/feed-e7f4904ea5d7.jpg",
+      "xpReward": 32,
+      "url": "https://www.engadget.com/2309637/how-long-pc-ram-lasts-lifespan/",
+      "image": "/images/feed/feed-b9aa8ecb3d92.jpg",
       "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-efaf91f88d52",
-      "title": "macOS 27.3 could change how you grant AI agents Full Disk Access, here’s how",
-      "excerpt": "Last month, Apple announced it’d be tightening privacy controls in a future macOS update, in response to AI agents requesting Full Disk Access then going rogue with users data without them being fully…",
-      "body": "Last month, Apple announced it’d be tightening privacy controls in a future macOS update, in response to AI agents requesting Full Disk Access then going rogue with users data without them being fully — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michael Burkhardt",
+      "id": "feed-c70e07dbf640",
+      "title": "Qalo SL-1 vs. Garmin Cirqa: How these minimalist wearables compare",
+      "excerpt": "The Qalo SL-1 and Garmin Cirqa were released in 2026, and both cost about $200. A comparison of these screenless wearables reveals some key differences.",
+      "body": "The Qalo SL-1 and Garmin Cirqa were released in 2026, and both cost about $200. A comparison of these screenless wearables reveals some key differences.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Wearable. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Luke James)",
       "date": "2026-11-08",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
-        "Gadgets"
+        "Wearable"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.engadget.com/2309634/qalo-sl-1-vs-garmin-cirqa-how-wearables-compare/",
+      "image": "/images/feed/feed-c70e07dbf640.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-625785c59a22",
+      "title": "Nvidia Launches Investigation Into CEO Jensen Huang Following Honeypot Scandal",
+      "excerpt": "The GPU titans say that Huang will not be stepping down and maintain that no secrets were compromised despite the growing spy plot",
+      "body": "The GPU titans say that Huang will not be stepping down and maintain that no secrets were compromised despite the growing spy plot\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Kotzer",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://kotaku.com/nvidia-launches-investigation-into-ceo-jensen-huang-following-honeypot-scandal-2000754894",
+      "image": "/images/feed/feed-625785c59a22.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-db2e0de50ee1",
+      "title": "Why Austin Butler Cannot Drive the Iconic Black Ferrari in Miami Vice '85",
+      "excerpt": "New videos from the set of Miami Vice ‘85 reveal Austin Butler’s Sonny Crockett and Michael B. Jordan's Ricardo Tubbs driving a white Ferrari Testarossa, the wrong car for the period of the TV series…",
+      "body": "New videos from the set of Miami Vice ‘85 reveal Austin Butler’s Sonny Crockett and Michael B. Jordan&#39;s Ricardo Tubbs driving a white Ferrari Testarossa, the wrong car for the period of the TV series that director Joseph Kosinski’s film is retelling . And there’s likely a legal reason for that. In the first two seasons of the 1980s TV series , Don Johnson’s detective Sonny Crockett drove a black 1972 Ferrari Daytona Spyder convertible before it was blown up by a Stinger missile in the Season 3 premiere. (Cue the gaping Crockett meme.) In the show’s canon, Crockett’s cars were seized assets from criminals and loaned to him by the Miami-Dade Police Department as part of his undercover identity.",
+      "author": "Jim Vejvoda",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
       ],
       "featured": false,
       "xpReward": 46,
-      "url": "https://9to5mac.com/2026/11/08/macos-changes-for-full-disk-access-ai-agents-imessage/",
-      "image": "/images/feed/feed-efaf91f88d52.jpg",
-      "source": "9to5Mac",
+      "url": "https://www.ign.com/articles/austin-butler-miami-vice-85-black-ferrari-legal-reason",
+      "image": "/images/feed/feed-db2e0de50ee1.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-6f86caa847b0",
+      "title": "Jesse Eisenberg Says He 'Experiments With AI' Just to Make Sure It's Not 'Good at Writing' Yet",
+      "excerpt": "Jesse Eisenberg said he will \"sometimes experiment with AI\" – but it's just because he's \"testing it to make sure it's bad.\"",
+      "body": "Jesse Eisenberg said he will &quot;sometimes experiment with AI&quot; – but it&#39;s just because he&#39;s &quot;testing it to make sure it&#39;s bad.&quot; The Batman v. Superman and A Real Pain star explained why he finds the rapidly advancing and controversial technology unnerving – and how he deals with it – during a conversation with Variety . As he continues to plant his feet in Hollywood as a talent who can act, write, and direct, AI is something he&#39;s trying to keep his eye on in more ways than one. &quot;I have a paranoid answer for this,&quot; Eisenberg said when asked if he&#39;s nervous about the technology. &quot;I’m totally paranoid. I sometimes experiment with AI to see whether it&#39;s good at writing. And it&#39;s still not.",
+      "author": "Michael Cripe",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.ign.com/articles/jesse-eisenberg-says-he-experiments-with-ai-just-to-make-sure-its-not-good-at-writing-yet",
+      "image": "/images/feed/feed-6f86caa847b0.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-d3995c0d6537",
+      "title": "25 Years Later, ‘Buffy the Vampire Slayer’s Best Quote Is Still the Most Inspiring Line in TV History",
+      "excerpt": "Buffy’s sacrifice for Dawn in the season 5 finale gave us one of the show’s best quotes and an ending that could have closed the series for good.",
+      "body": "Buffy’s story has always revolved around death. Throughout its seven-season run, Buffy Summers (Sarah Michelle Gellar) has wanted to escape from it or, boldly, return to it. Upon a rewatch, death is one of the clearest themes of the series — this wasn’t the case on my first time watching, when I reacted in disbelief every time the series brought up the possibility of Buffy dying. Surely, they wouldn’t go there. But they did.",
+      "author": "Maria Loreto",
+      "date": "2026-11-08",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.polygon.com/buffy-the-vampire-slayer-best-buffy-quote/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/buffy.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
@@ -280,9 +413,9 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 40,
       "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
-      "image": "/images/feed/feed-c5a5f1b30a56.webp",
+      "image": "/images/feed/feed-c5a5f1b30a56.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -299,67 +432,10 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 42,
       "url": "https://www.spacex.com/launches/starship-flight-15",
       "image": "/images/feed/feed-50646efac2a9.jpg",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-6934d7c75792",
-      "title": "Why Apple's M6 Chip Can't Hold Its Own Against Any NVIDIA GPU",
-      "excerpt": "With the announcement of its M6, Apple is stepping into a new generation of its processors. Here's why it still can't compete with NVIDIA GPUs.",
-      "body": "With the announcement of its M6, Apple is stepping into a new generation of its processors. Here's why it still can't compete with NVIDIA GPUs.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Roger Fingas)",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.engadget.com/2309286/why-apple-m6-chip-cant-compete-any-nvidia-gpu/",
-      "image": "/images/feed/feed-6934d7c75792.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-3a4b3a775783",
-      "title": "Suno AI music generator sued again for copyright infringement",
-      "excerpt": "Groups that own the music rights to Elvis Presley and Eminem's tracks filed the latest lawsuits.",
-      "body": "Groups that own the music rights to Elvis Presley and Eminem's tracks filed the latest lawsuits.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Jackson Chen)",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.engadget.com/2310316/suno-ai-music-generator-sued-again-for-copyright-infringement/",
-      "image": "/images/feed/feed-3a4b3a775783.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-a57202a9bf30",
-      "title": "Melty New Puzzle Game From Shotgun King Creators Burns Tetris At Both Ends",
-      "excerpt": "In the indie game Hot Wax, you'll descend into a deep, unlit dungeon, carefully igniting tetrominoes to survive",
-      "body": "In the indie game Hot Wax, you'll descend into a deep, unlit dungeon, carefully igniting tetrominoes to survive\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://kotaku.com/melty-new-puzzle-game-from-shotgun-king-creators-burns-tetris-at-both-ends-2000754885",
-      "image": "/images/feed/feed-a57202a9bf30.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -375,7 +451,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/11/08/bigger-than-godzilla/",
       "image": "/images/feed/feed-540c6e67c022.jpg",
       "source": "CleanTechnica",
@@ -394,7 +470,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 48,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
       "image": "/images/feed/feed-3fa60b95a7a4.jpg",
       "source": "The Verge",
@@ -415,53 +491,15 @@
         "Vehicle"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 39,
       "url": "https://cleantechnica.com/2026/11/08/top-selling-electric-vehicles-in-the-world-32-ev-share-in-september/",
       "image": "/images/feed/feed-4bd487a68615.png",
       "source": "CleanTechnica",
       "isLive": true
     },
     {
-      "id": "feed-507fb5387e3a",
-      "title": "Godzilla Minus Zero Stomps on Expectations With $63 Million Box Office Opening Weekend",
-      "excerpt": "Godzilla Minus Zero crushed expectations with a strong $63 million in its opening weekend at the global box office.",
-      "body": "Godzilla Minus Zero crushed expectations with a strong $63 million in its opening weekend at the global box office. Director Takashi Yamazaki&#39;s Minus One sequel performed in theaters with an estimated $31.6 million domestically and $31.4 million internationally. That&#39;s at least a few stories above distributor domestic projections, which had Godzilla propped up to open in the mid-to-low $20 million range (via The Hollywood Reporter ), securing its title as the biggest opening for a live-action foreign language film ever . &quot;War reduced Japan to zero, and Godzilla plunged it into minus,&quot; an official description said. &quot;Two years have passed since then, and the country has faced agonizing struggles to achieve recovery and finally reclaim daily life.",
-      "author": "Michael Cripe",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.ign.com/articles/godzilla-minus-zero-stomps-on-expectations-with-63-million-box-office-opening-weekend",
-      "image": "/images/feed/feed-507fb5387e3a.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-11015a0237b1",
-      "title": "All vault locations in the Fortnite Chapter 7 mini season",
-      "excerpt": "Vaults are full of valuable loot in Fortnite Chapter 7's mini season. Here's where to find them all and how to open them.",
-      "body": "Vaults are full of valuable loot in Fortnite Chapter 7's mini season. Here's where to find them all and how to open them.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Fortnite. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Johnny Yu",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.polygon.com/fortnite-chapter-7-vault-locations-c7ms/",
-      "image": "/images/feed/feed-11015a0237b1.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-a5f23dd24d67",
-      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "excerpt": "",
       "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "TheWiggles",
@@ -472,29 +510,10 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 45,
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
       "image": "/images/feed/feed-a5f23dd24d67.png",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-f66808685aaf",
-      "title": "All map fragment locations in the Fortnite Chapter 7 mini season",
-      "excerpt": "Here's where to find all the currently available map fragments in Fortnite's Chapter 7 mini season.",
-      "body": "Fortnite 's Chapter 7 mini season , \"Treasure Hunters,\" has added a new collectible to find throughout the season: map fragments . These map fragments will be added periodically during the season, and you'll get a special reward for finding them all.",
-      "author": "Julia Lee",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.polygon.com/fortnite-chapter-7-mini-season-c7ms-map-fragment-locations/",
-      "image": "/images/feed/feed-f66808685aaf.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -511,29 +530,10 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 52,
       "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
       "image": "/images/feed/feed-efb6564b8341.jpg",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-3f7ce6295b4f",
-      "title": "All sprites in the Fortnite Chapter 7 mini season",
-      "excerpt": "Here's a list of the currently available sprite in Fortnite's Chapter 7 \"Treasure Hunters\" mini season, along with what they do.",
-      "body": "Sprites have taken over another season with their inclusion in the Fortnite Chapter 7 mini season, \" Treasure Hunters .\" These sprites work functionally the same way as they did in the last seasons: find them around the island, level them up, and extract them to master them. Mastering sprites will unlock different rewards, like sprite dust and cosmetics.",
-      "author": "Julia Lee",
-      "date": "2026-11-08",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.polygon.com/fortnite-chapter-7-mini-season-all-sprites-list-abilities/",
-      "image": "/images/feed/feed-3f7ce6295b4f.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -549,7 +549,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 50,
       "url": "https://electrek.co/2026/11/08/french-carmaker-renault-wants-to-get-into-the-military-robot-business/",
       "image": "/images/feed/feed-c1e836732a0a.jpg",
       "source": "Electrek",
@@ -568,7 +568,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 35,
       "url": "https://cleantechnica.com/2026/11/08/california-biggest-ports-not-betting-hydrogen-ships/",
       "image": "/images/feed/feed-2885eb994440.png",
       "source": "CleanTechnica",
@@ -587,7 +587,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 46,
       "url": "https://www.space.com/entertainment/legendary-sci-fi-magazine-starlog-returns-as-a-yearly-release-just-in-time-for-its-50th-anniversary",
       "image": "/images/feed/feed-cf4b41abdd6d.jpg",
       "source": "Space.com",
@@ -606,7 +606,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 52,
       "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
       "image": "/images/feed/feed-e2acf784261b.jpg",
       "source": "BleepingComputer",
@@ -625,7 +625,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 35,
       "url": "https://www.nasa.gov/news-release/nasa-announces-1-million-to-students-for-moon-base-challenge/",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/11/stmd-exteriorlunarbase-hdlandscapeversion-2026-0521.png",
       "source": "NASA Breaking News",
@@ -644,7 +644,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 50,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-8-2026",
       "image": "/images/feed/feed-9ce5301cb57f.jpg",
       "source": "Space.com",
@@ -663,7 +663,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 43,
       "url": "https://electrek.co/2026/11/08/new-id-aura-is-the-mainstream-ev-vw-needs-but-its-software-is-the-real-story/",
       "image": "/images/feed/feed-5d99675e90f4.jpg",
       "source": "Electrek",
@@ -682,7 +682,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 48,
       "url": "https://www.space.com/entertainment/space-movies-shows/who-is-king-ghidorah-the-cosmic-connections-of-godzilla-minus-zeros-foe",
       "image": "/images/feed/feed-e9ccc6468909.jpg",
       "source": "Space.com",
@@ -701,7 +701,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 30,
       "url": "https://www.space.com/space-exploration/search-for-life/scientists-simulate-an-earth-without-life-to-help-hunt-for-aliens-and-inhabited-worlds",
       "image": "/images/feed/feed-2a6a8f0737c1.png",
       "source": "Space.com",
@@ -720,7 +720,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 30,
       "url": "https://electrek.co/2026/11/08/everyone-wants-an-electric-pickup-truck-i-want-more-electric-125cc-motorcycles/",
       "image": "/images/feed/feed-7e2fb9906601.jpg",
       "source": "Electrek",
@@ -739,7 +739,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 38,
       "url": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as-cto/",
       "image": "/images/feed/feed-54f6cf4df594.jpg",
       "source": "CleanTechnica",
@@ -758,9 +758,9 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 39,
       "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "image": "/images/feed/feed-f4f061dd3e2b.webp",
+      "image": "/images/feed/feed-f4f061dd3e2b.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -777,9 +777,9 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 46,
       "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
-      "image": "/images/feed/feed-ff59ab9d8295.webp",
+      "image": "/images/feed/feed-ff59ab9d8295.jpg",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -796,7 +796,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 34,
       "url": "https://electrek.co/2026/11/07/tesla-solar-roof-fraud-liable-experiment-lawsuit/",
       "image": "/images/feed/feed-3b4928a397ba.jpg",
       "source": "Electrek",
@@ -815,7 +815,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 30,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
       "image": "/images/feed/feed-0fdcc08f6305.jpg",
       "source": "BleepingComputer",
@@ -834,7 +834,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 35,
       "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
       "image": "/images/feed/feed-0a53cb4de44f.jpg",
       "source": "BleepingComputer",
@@ -853,9 +853,9 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 54,
       "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-      "image": "/images/feed/feed-41cd6da548e0.jpg",
+      "image": "/images/feed/feed-41cd6da548e0.webp",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -873,7 +873,7 @@
         "Gpt"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
       "image": "/images/feed/feed-86cd7cb41c9e.jpg",
       "source": "BleepingComputer",
@@ -892,7 +892,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 30,
       "url": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
       "image": "/images/feed/feed-2b7f2f98758a.jpg",
       "source": "Wired",
@@ -912,7 +912,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 44,
       "url": "https://www.cnet.com/tech/services-and-software/roundup-chatgpt-claude-gpt-6-cyber-images-2-6-personal-finance/",
       "image": "https://www.cnet.com/wp-content/uploads/sites/2/AdobeStock_1957197742_Editorial_Use_Only.jpeg",
       "source": "CNET",
@@ -931,7 +931,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 54,
       "url": "https://openai.com/index/partnering-with-hacktron",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -939,16 +939,16 @@
     }
   ],
   "breakingNews": [
-    "ENGADGET: The safest way to store your laptop for a long period of time",
-    "DEV.TO: Monitoring ArubaOS exposure after CVE-2026-79850",
-    "DEV.TO: sqlmap in 15 Minutes: From First Request to Extracted Data in a Lab",
-    "DEV.TO: AnyModelBot Splits Local Agent State From Remote Inference",
-    "DEV.TO: How We Migrated a Monolith to AWS EC2 and Lived to Tell the Tale",
-    "DEV.TO: HTTP 200, zero bytes",
-    "KOTAKU: World Of Warcraft: Forever Player Already Hits Level Cap As Users Return To Azeroth In Record Numbers",
-    "DEV.TO: Kapitan generator releases, 26 October to 1 November 2026",
-    "DEV.TO: Reading Glean: the moat is not the model, it is permissions and context",
-    "ENGADGET: Why your laptop fans spin up without any warning"
+    "DEV.TO: Four Nvidia DGX Spark Boxes Serve DeepSeek To 16 Users At Once",
+    "DEV.TO: A detective game where LLM suspects lie: what it taught me about trusting AI at work",
+    "DEV.TO: marimo notebooks need a token and an execution boundary",
+    "DEV.TO: How to clean a messy CSV export with Python’s csv module",
+    "DEV.TO: Google Sued After Gemini On School Laptop Helped Teen Plan Suicide",
+    "DEV.TO: Quand l'IA dessine des macrocycles, le goulot d'étranglement devient la visualisation",
+    "DEV.TO: A model team ending is not a model result",
+    "POLYGON: Sega’s Most Influential Platformer Deserves Its Big Remake Moment Next",
+    "ENGADGET: Those white cameras mounted above traffic lights serve a little-known purpose",
+    "KOTAKU: Return Of The Living Dead Cast Horrified By AI-Made Sequel They Were Originally Set To Star In"
   ],
   "sectionVideos": {}
 }
