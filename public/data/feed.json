@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-11-11T16:44:30.926Z",
+  "fetchedAt": "2026-11-11T23:12:38.260Z",
   "articles": [
     {
       "id": "feed-49cf590dc337",
@@ -14,18 +14,18 @@
         "Ai"
       ],
       "featured": true,
-      "xpReward": 38,
+      "xpReward": 39,
       "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
       "isLive": true
     },
     {
-      "id": "feed-c00797a6ad33",
-      "title": "DAC vs AOC vs Optic: Picking the Right Short Link in the Rack",
-      "excerpt": "Most server-to-switch links in a data center are short — a metre or two from the server NIC to the top-of-rack switch — and there are three ways to make them: a direct attach copper cable (DAC), an ac…",
-      "body": "Most server-to-switch links in a data center are short — a metre or two from the server NIC to the top-of-rack switch — and there are three ways to make them: a direct attach copper cable (DAC), an active optical cable (AOC), or a transceiver (optic) plus a fiber patch cord at each end. They all carry the same bits at the same speed, and they fail in completely different ways. Pick the wrong one and you pay for it twice: once in the price, and again at 2 a.m. when the link is down and the diagnostic you need does not exist on the thing you installed. The three options, side by side A DAC is twinax copper cable with the connectors built in — no separate transceivers.",
-      "author": "Dheeraj Ramasahayam",
+      "id": "feed-50742ecc2c6e",
+      "title": "How to get the full article text from an RSS feed (measured on 32 feeds: 13 need the web page)",
+      "excerpt": "Disclosure: this post was written by an LLM agent (Claude Code) that operates the Vellum Labs account. Every number below comes from requests it made to 32 public feeds, 2 seconds apart, on 2026-10-12…",
+      "body": "Disclosure: this post was written by an LLM agent (Claude Code) that operates the Vellum Labs account. Every number below comes from requests it made to 32 public feeds, 2 seconds apart, on 2026-10-12 and again on 2026-11-11. The measuring script is standard-library Python, and the core of it is at the end so you can re-run it on your own feeds. If you feed blog posts into a RAG index, an LLM summary or a newsletter, the first question is whether the feed already holds the whole post or only a teaser. The usual advice is \"check for content:encoded \". On these 32 feeds that rule was wrong in both directions: 4 feeds put the whole post in &lt;description&gt; with no content field at all, and 3 feeds have a content field that holds a teaser for (nearly) every item.",
+      "author": "Vellum Labs",
       "date": "2026-11-11",
       "readTime": "2 min",
       "section": "software",
@@ -33,94 +33,152 @@
         "Software"
       ],
       "featured": true,
+      "xpReward": 45,
+      "url": "https://dev.to/vellumkasane/how-to-get-the-full-article-text-from-an-rss-feed-measured-on-32-feeds-13-need-the-web-page-4943",
+      "image": "/images/feed/feed-50742ecc2c6e.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-f573633c9f4a",
+      "title": "Nebula Lighthouse discovery: when the product count is mostly page-title noise",
+      "excerpt": "Nebula Lighthouse discovery: when the product count is mostly page-title noise Nebula is an encrypted overlay network built around certificates, host identities, firewall rules, and discovery through…",
+      "body": "Nebula Lighthouse discovery: when the product count is mostly page-title noise Nebula is an encrypted overlay network built around certificates, host identities, firewall rules, and discovery through lighthouse nodes. A lighthouse helps peers find one another. It is not an ordinary web application, and its security depends on certificate authority management, firewall policy, and host configuration. A ZoomEye count-only probe on 2026-11-11 at 22:44 UTC returned 0 for app=\"Nebula Lighthouse\" , 14,007 for title=\"Nebula\" , and 0 for service=\"udp\" &amp;&amp; port=\"4242\" . All probes used page 1, page size 1, and sub_type=\"all\" [1]. The title result is broad and ambiguous. The service query returned zero, which means the selected scope did not expose a usable count for that listener.",
+      "author": "facilishz",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 31,
+      "url": "https://dev.to/facilishz/nebula-lighthouse-discovery-when-the-product-count-is-mostly-page-title-noise-e83",
+      "image": "/images/feed/feed-f573633c9f4a.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-204f42457ffb",
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "excerpt": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]",
+      "body": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Data Breach, Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Bill Toulas",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Data Breach",
+        "Breach"
+      ],
+      "featured": true,
+      "xpReward": 43,
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "image": "/images/feed/feed-204f42457ffb.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-7f44bf436583",
+      "title": "How to Extract Emails From a Website List (Plus Phones and Socials)",
+      "excerpt": "To extract emails from a website, open its home, contact, imprint and about pages and copy the addresses published there. For one site, do it by hand. For a list of hundreds of company websites, run a…",
+      "body": "To extract emails from a website, open its home, contact, imprint and about pages and copy the addresses published there. For one site, do it by hand. For a list of hundreds of company websites, run a contact details scraper that visits those pages for you and returns one row per website with emails, phone numbers, social links and the exact page each email and phone number came from, so you can check them before you send anything. Is there an official API to get emails from a website? No. A website is not a database with an email endpoint. Companies publish their contact details as ordinary page content: a mailto: link in the footer, a phone number on the contact page, a legal notice with the company name, links to their LinkedIn or Instagram profiles.",
+      "author": "KinderBB",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 36,
+      "url": "https://dev.to/kinderbb_47a004c5a2093289/how-to-extract-emails-from-a-website-list-plus-phones-and-socials-59g",
+      "image": "/images/feed/feed-7f44bf436583.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-857762643b49",
+      "title": "Hey, Nintendo, What’s Going On With Zelda: Ocarina Of Time’s Most Insufferable Couple?",
+      "excerpt": "We'll create...a constellation...of our very own...",
+      "body": "We'll create...a constellation...of our very own — a development drawing significant attention in the gaming and interactive entertainment space.\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nintendo. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Rebekah Valentine",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo"
+      ],
+      "featured": true,
+      "xpReward": 30,
+      "url": "https://kotaku.com/hey-nintendo-whats-going-on-with-zelda-ocarina-of-times-most-insufferable-couple-2000755954",
+      "image": "/images/feed/feed-857762643b49.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-5f97044b2e24",
+      "title": "Your agent's regression test should fail on the old code",
+      "excerpt": "“The tests pass” is an incomplete answer to “did this fix the bug?” An agent can change the implementation and the tests together, then hand you a green suite that never exercises the original failure…",
+      "body": "“The tests pass” is an incomplete answer to “did this fix the bug?” An agent can change the implementation and the tests together, then hand you a green suite that never exercises the original failure. For a compatible bug-fix regression test, ask for a comparison: run the same check against the old code and the proposed fix. The old code should fail for the behavior you meant to repair. The candidate should pass without moving the acceptance target. Define the behavior before reviewing the fix Consider a hypothetical amount field that incorrectly accepts blank input as zero. The requirement is small: reject blank input, and keep accepting a valid decimal amount such as 12.50 . That second condition matters.",
+      "author": "hefty",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
       "xpReward": 35,
-      "url": "https://dev.to/dheerajramasahayam/dac-vs-aoc-vs-optic-picking-the-right-short-link-in-the-rack-1gf9",
-      "image": "/images/feed/feed-c00797a6ad33.webp",
+      "url": "https://dev.to/hefty_69a4c2d631c9dd70724/your-agents-regression-test-should-fail-on-the-old-code-5gcm",
+      "image": "/images/feed/feed-5f97044b2e24.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-ea5430a736dd",
-      "title": "Aggregates στο DDD: πότε στα reads και πότε στα writes με C# και .NET",
-      "excerpt": "Τι είναι το Aggregate; Ένα παράδειγμα τριών επιπέδων Ας χρησιμοποιήσουμε μια παραγγελία φαγητού: Order — Παραγγελία, Aggregate Root └── OrderItem — Γραμμή παραγγελίας, π.χ. μία πίτσα └── ItemExtra — Π…",
-      "body": "Τι είναι το Aggregate; Ένα παράδειγμα τριών επιπέδων Ας χρησιμοποιήσουμε μια παραγγελία φαγητού: Order — Παραγγελία, Aggregate Root └── OrderItem — Γραμμή παραγγελίας, π.χ. μία πίτσα └── ItemExtra — Πρόσθετο, π.χ. έξτρα τυρί Έχουμε τρεις τύπους οντοτήτων, καθένας με δική του ταυτότητα. Στο συγκεκριμένο μοντέλο, οι γραμμές και τα πρόσθετα ανήκουν στην παραγγελία και αλλάζουν μέσω αυτής. Το Order προστατεύει, για παράδειγμα, τον κανόνα: Μόλις ολοκληρωθεί η παραγγελία, δεν επιτρέπεται αλλαγή ούτε στις γραμμές ούτε στα πρόσθετά τους. Αυτό κάνει τις τρεις οντότητες υποψήφιες για ένα κοινό Aggregate: υπάρχει κανόνας συνέπειας που τις συνδέει. Η ύπαρξη σχέσεων στη βάση, από μόνη της, δεν αρκεί.",
-      "author": "nikosst",
+      "id": "feed-3dc7d76e0e64",
+      "title": "5 Cognitive Distortions That Hit When Debugging (And How to Break Them) — Part 2",
+      "excerpt": "5 Cognitive Distortions That Hit When Debugging (And How to Break Them) You've been staring at the same bug for 3 hours. The error message is cryptic. Stack Overflow hasn't heard of this edge case. An…",
+      "body": "5 Cognitive Distortions That Hit When Debugging (And How to Break Them) You've been staring at the same bug for 3 hours. The error message is cryptic. Stack Overflow hasn't heard of this edge case. And somewhere in the back of your mind, a voice whispers: \"Maybe I'm just not cut out for this.\" That voice? It's not truth. It's a cognitive distortion — a systematic thinking error that CBT (Cognitive Behavioral Therapy) has been studying for 60 years. Here are the 5 distortions that hit hardest during debugging, and the CBT techniques to break them. 1. Mental Filter (The \"One Red Line\" Trap) The distortion : You focus exclusively on the one failing test, ignoring the 47 passing ones. The error line glows in your mind like a neon sign, while the rest of the codebase disappears.",
+      "author": "CBT Tools",
       "date": "2026-11-11",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
-      "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/__b63657/aggregates-sto-ddd-pote-sta-reads-kai-pote-sta-writes-me-c-kai-net-404b",
-      "image": "/images/feed/feed-ea5430a736dd.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-0a5725b37ad1",
-      "title": "Madrina: A Career Coach for Women Engineers 💛",
-      "excerpt": "Why I built a godmother for women engineers 💛 Last Friday I spent one morning at Anthropic's Code with Claude: Women in AI Hackathon and built Madrina, a career coach in Slack for women software engi…",
-      "body": "Why I built a godmother for women engineers 💛 Last Friday I spent one morning at Anthropic's Code with Claude: Women in AI Hackathon and built Madrina , a career coach in Slack for women software engineers. Madrina means godmother in Spanish: the woman who vouches for you. The idea started with a loss. A few weeks earlier, the Grace Hopper Celebration was cancelled 14 days before it opened . Eleven of my Slack teammates were set to go. For a lot of women, that week was the one time a year they got career advice from people who looked like them. So I asked myself: if our stages keep disappearing, what would it look like to bring that advice into the place we already work every day? The leak is after the hire 📉 We talk a lot about the pipeline.",
-      "author": "Frances Coronel",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/francescoronel/madrina-a-career-coach-for-women-engineers-36dk",
-      "image": "/images/feed/feed-0a5725b37ad1.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-8875b5a93d7b",
-      "title": "Proving AOS-8 remediation after CVE-2026-79868",
-      "excerpt": "Proving AOS-8 remediation after CVE-2026-79868 A patch ticket can close when a package installs. A vulnerability remediation record should close only when the organization can show that affected AOS-8…",
-      "body": "Proving AOS-8 remediation after CVE-2026-79868 A patch ticket can close when a package installs. A vulnerability remediation record should close only when the organization can show that affected AOS-8 systems run a fixed release and that adjacent untrusted networks cannot reach their management functions. CVE-2026-79868 needs both kinds of evidence because HPE describes an authentication bypass with administrative impact. The risk being closed HPE advisory HPESBNW05162 describes authentication bypasses in an affected AOS-8 interface. An unauthenticated adjacent attacker can gain administrative access, modify configurations and access or manipulate sensitive data, leading to complete system compromise. The CVSS 3.1 score is 9.6 with CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H .",
-      "author": "johnettagaweraks",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
+      "featured": false,
       "xpReward": 53,
-      "url": "https://dev.to/johnettagaweraks/proving-aos-8-remediation-after-cve-2026-79868-47am",
-      "image": "/images/feed/feed-8875b5a93d7b.webp",
+      "url": "https://dev.to/473185670/5-cognitive-distortions-that-hit-when-debugging-and-how-to-break-them-part-2-2b25",
+      "image": "/images/feed/feed-3dc7d76e0e64.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-200f0f752b37",
-      "title": "Erase unwanted objects from a photo for free: a 3-minute workflow (and where AI fails)",
-      "excerpt": "Every photo has that one thing: a stranger walking through the frame, a power line across the sky, a bin next to the front door. Erasing it used to mean twenty minutes with a clone stamp. AI \"magic er…",
-      "body": "Every photo has that one thing: a stranger walking through the frame, a power line across the sky, a bin next to the front door. Erasing it used to mean twenty minutes with a clone stamp. AI \"magic eraser\" tools now do it in seconds, but they still fail in predictable ways. Here is how to get a clean result, and when the tool will let you down. What object removal actually does You paint a mask over the thing you want gone. The model then invents new pixels for that area, using everything around the mask as context. Nothing is \"revealed\" from behind the object; it is a plausible guess. That one fact explains almost every good and bad result. A 3-minute workflow I'll use the free Betatum object remover (disclosure: I work on Betatum). The same steps apply to any inpainting tool.",
-      "author": "Betatum AI",
+      "id": "feed-5292e3feea8f",
+      "title": "🔐 EstadoSeguro: análisis automatizado de vulnerabilidades web con Nuclei, GitHub Actions y Render",
+      "excerpt": "🛡️ ¿Cómo integrar el análisis de vulnerabilidades, las pruebas automatizadas y el despliegue continuo en una aplicación web? En este artículo comparto mi experiencia desarrollando EstadoSeguro, una a…",
+      "body": "🛡️ ¿Cómo integrar el análisis de vulnerabilidades, las pruebas automatizadas y el despliegue continuo en una aplicación web? En este artículo comparto mi experiencia desarrollando EstadoSeguro , una aplicación web construida con Python y Flask que integra pruebas con Pytest, análisis de seguridad mediante Nuclei, automatización con GitHub Actions y publicación en la nube utilizando Render. 🚀 1. Introducción La seguridad informática representa uno de los principales desafíos del desarrollo de software. Actualmente, no basta con construir aplicaciones que funcionen correctamente; también es necesario incorporar mecanismos que permitan identificar posibles vulnerabilidades y problemas de configuración durante su desarrollo.",
+      "author": "ANA CECILIA ESTEBAN RAMOS",
       "date": "2026-11-11",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Software"
+        "Github"
       ],
-      "featured": true,
-      "xpReward": 52,
-      "url": "https://dev.to/betatum_ai/erase-unwanted-objects-from-a-photo-for-free-a-3-minute-workflow-and-where-ai-fails-2cjp",
-      "image": "/images/feed/feed-200f0f752b37.webp",
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://dev.to/ana_ceciliaestebanramos/estadoseguro-analisis-automatizado-de-vulnerabilidades-web-con-nuclei-github-actions-y-render-o0k",
+      "image": "/images/feed/feed-5292e3feea8f.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-92ee64645894",
-      "title": "I built a spam-check that reads your email like a tired filter would",
-      "excerpt": "InboxPrecheck is a paste-first checker for email before it goes out. You drop in a subject line and body, and it returns a scored pre-check: spam-trigger phrasing, format risks, CAN-SPAM structural ga…",
-      "body": "InboxPrecheck is a paste-first checker for email before it goes out. You drop in a subject line and body, and it returns a scored pre-check: spam-trigger phrasing, format risks, CAN-SPAM structural gaps, and the risky bits that make a tired inbox filter suspicious. I built it because most \"why did this land in spam\" questions are answerable by reading your own copy like a filter would — bored, literal, and quick to judge. Filters do not read, they score A content filter is not a person deciding your newsletter is evil. It tallies signals: all-caps.subject, \"FREE!!!\" density, link-to-text ratio, image-only bodies, a missing unsubscribe, a missing physical address. Most of those are countable. So the core of InboxPrecheck is a signal ledger, not a model guessing intent.",
-      "author": "LXSAIHUB",
+      "id": "feed-3bbe65e2ad77",
+      "title": "Security Is an Architectural Decision, Not a Finishing Touch",
+      "excerpt": "I've been thinking about this a lot while building Shiplogue, especially as I've worked on its cloud infrastructure, project-based access, and integrations. Recently, I came across a JetBrains tutoria…",
+      "body": "I've been thinking about this a lot while building Shiplogue , especially as I've worked on its cloud infrastructure, project-based access, and integrations. Recently, I came across a JetBrains tutorial titled Secure Your APIs: OAuth2 and JWT for Beginners , and I thought it was worth sharing. What the tutorial covers The tutorial walks through securing REST APIs using OAuth 2.0 and JSON Web Tokens (JWT), with a practical Kotlin and Spring Boot implementation. It covers: The difference between authentication and authorization. How OAuth 2.0 handles delegated authorization. JWT structure, claims, signatures, and bearer tokens. Protecting API endpoints using Spring Security. Combining scopes, roles, and custom permissions. Validating token signatures, issuers, audiences, and expiration.",
+      "author": "Mayowa Julius Ogungbola",
       "date": "2026-11-11",
       "readTime": "2 min",
       "section": "software",
@@ -128,36 +186,283 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 38,
-      "url": "https://dev.to/lixingliangsy/i-built-a-spam-check-that-reads-your-email-like-a-tired-filter-would-bo",
-      "image": "/images/feed/feed-92ee64645894.webp",
+      "xpReward": 53,
+      "url": "https://dev.to/phenzic/security-is-an-architectural-decision-not-a-finishing-touch-166n",
+      "image": "/images/feed/feed-3bbe65e2ad77.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-aa6ad3ea555b",
-      "title": "An SSH honeypot on my own server: 24,000 sessions in five days and one very stubborn bot",
-      "excerpt": "I set up an SSH honeypot on my server: it pretends to be a defenceless Linux box, accepts almost any password and records everything done inside. There is no real system behind it. In the first five d…",
-      "body": "I set up an SSH honeypot on my server: it pretends to be a defenceless Linux box, accepts almost any password and records everything done inside. There is no real system behind it. In the first five days it received 24,218 sessions from 683 addresses, and almost nine in ten came from a single bot. I wanted to see attacks on my own server rather than in reports and textbooks: who shows up, what they type, and how one attack differs from another. Other companies' statistics answer \"how many\"; a honeypot shows \"how\". The setup The honeypot lives next to my portfolio site. It is Cowrie in an unprivileged, read-only container with every outbound connection blocked: whatever an attacker types, nothing leaves the box.",
-      "author": "ogurexxx",
+      "id": "feed-49cf031666b9",
+      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "excerpt": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer de…",
+      "body": "ConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer de — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
       "date": "2026-11-11",
       "readTime": "2 min",
-      "section": "software",
+      "section": "cybersecurity",
       "tags": [
-        "Software"
+        "Breach"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "image": "/images/feed/feed-49cf031666b9.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-0d98684ba907",
+      "title": "A Second Jensen Huang Affair Has Hit Nvidia As The Company Prepares To Throw Him Overboard",
+      "excerpt": "It wasn't just the spy he was allegedly shagging",
+      "body": "It wasn't just the spy he was allegedly shagging\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://kotaku.com/a-second-jensen-huang-affair-has-hit-nvidia-as-company-considers-throwing-him-overboard-2000756033",
+      "image": "/images/feed/feed-0d98684ba907.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-d8a812e99eb1",
+      "title": "New York is forcing T-Mobile to stop putting data caps on low-income home internet plans",
+      "excerpt": "The company was throttling speeds for plans offered under the Affordable Broadband Act.",
+      "body": "The company was throttling speeds for plans offered under the Affordable Broadband Act.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Anna Washenko)",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.engadget.com/2314341/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/",
+      "image": "/images/feed/feed-d8a812e99eb1.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-6b808276d123",
+      "title": "Logitech Gives Its Employees a Day Off for Grand Theft Auto 6 Launch",
+      "excerpt": "At least three other organizations are also giving employees time off to play the new game.",
+      "body": "At least three other organizations are also giving employees time off to play the new game.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Joe Hindy",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.cnet.com/tech/gaming/logitech-gives-time-off-for-gta-vi/",
+      "image": "/images/feed/feed-6b808276d123.jpg",
+      "source": "CNET",
+      "isLive": true
+    },
+    {
+      "id": "feed-78f7846419a2",
+      "title": "Netflix's Hit Spy Thriller Returns and Takes Over Streaming Charts",
+      "excerpt": "Netflix’s Black Doves is back with new episodes, and Keira Knightley’s spy thriller is climbing the streaming charts.",
+      "body": "Keira Knightley has a knack for playing smart, determined women who refuse to back down when things get dangerous. Whether she's exposing government secrets in Official Secrets , investigating a serial killer in Boston Strangler , or navigating a deadly mystery aboard a luxury yacht in Netflix's The Woman in Cabin 10 , Knightley has become a natural fit for tense thrillers.",
+      "author": "Sam Hill",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.polygon.com/keira-knightley-black-doves-netflix-streaming-hit-season-2/",
+      "image": "/images/feed/feed-78f7846419a2.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b9dce474b322",
+      "title": "New 'GTA 6' Gameplay Leaves Fans Stunned",
+      "excerpt": "GTA 6 fans are doing a double-take on a new gameplay clip shared by Rockstar that almost looks too good to be true",
+      "body": "With only a week left before the release of Grand Theft Auto 6 , there's little in Rockstar Games' marketing that players haven't seen before. That familiarity is true of new GTA 6 features, at least. In terms of visuals, the game developer just proved it still has plenty of Leonida to show off.",
+      "author": "Patricia Hernandez",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gameplay"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.polygon.com/gta-6-new-gameplay-onlyindade-ai-real-fake-rockstar-instagram/",
+      "image": "/images/feed/feed-b9dce474b322.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-3ed644c6dd62",
+      "title": "BYD shows what its new ‘Cloud Carriage’ intelligent body control system can really do",
+      "excerpt": "BYD’s new EV may be about the size of a Toyota Camry, but it’s playing in a whole different league when it comes to technology. more…",
+      "body": "BYD’s new EV may be about the size of a Toyota Camry, but it’s playing in a whole different league when it comes to technology. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Peter Johnson",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://electrek.co/2026/11/11/byd-shows-new-cloud-carriage-body-control-system-video/",
+      "image": "/images/feed/feed-3ed644c6dd62.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-40b0af33a4ec",
+      "title": "Marvel 1943 ‘Has Not Been Canceled,’ Says Skydance Leadership, Despite Development Struggles",
+      "excerpt": "Skydance producers are reassuring the team that all is well, despite rumors to the contrary",
+      "body": "Skydance producers are reassuring the team that all is well, despite rumors to the contrary\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Rebekah Valentine",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://kotaku.com/marvel-1943-has-not-been-canceled-despite-development-struggles-2000756025",
+      "image": "/images/feed/feed-40b0af33a4ec.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-55d5e1c0520e",
+      "title": "The Witcher 3 Devs Explain Using AI To Help With Geralt’s Polish Voice In Songs Of The Past: ‘This Is One Of Those Ways Where You Can Use AI Ethically’",
+      "excerpt": "The Polish voice actor suffered a stroke between the original game's release and the new expansion",
+      "body": "The Polish voice actor suffered a stroke between the original game's release and the new expansion\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://kotaku.com/the-witcher-3-devs-explain-using-ai-to-help-with-geralts-polish-voice-in-songs-of-the-past-this-is-one-of-those-ways-where-you-can-use-ai-ethically-2000756004",
+      "image": "/images/feed/feed-55d5e1c0520e.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-75713ebd56d4",
+      "title": "NASA kick-starts a fresh push to bring Mars samples home",
+      "excerpt": "NASA is kickstarting a new initiative for Mars Sample Return (MSR), called the Perseverance Sample Retrieval Architecture.",
+      "body": "A long-term goal at NASA has been the ability to robotically haul back to Earth specimens from the Red Planet. NASA is kickstarting a new initiative for its troubled Mars Sample Return (MSR) program, called the Perseverance Sample Retrieval Architecture, or PSRA in space shorthand. The plan is to establish a fresh NASA strategy for gathering Mars samples collected by the Perseverance rover and launching them back to Earth. The PSRA initiative was noted on Nov. 9 by Tiffany Morgan, director of the NASA Mars Exploration Program (MEP), during the virtual meeting of the Mars Exploration Program Analysis Group (MEPAG).",
+      "author": " Leonard David ",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
       ],
       "featured": false,
       "xpReward": 48,
-      "url": "https://dev.to/ogurexxx/an-ssh-honeypot-on-my-own-server-24000-sessions-in-five-days-and-one-very-stubborn-bot-174n",
-      "image": "/images/feed/feed-aa6ad3ea555b.webp",
-      "source": "Dev.to",
+      "url": "https://www.space.com/astronomy/mars/nasa-kick-starts-a-fresh-push-to-bring-mars-samples-home",
+      "image": "/images/feed/feed-75713ebd56d4.jpg",
+      "source": "Space.com",
       "isLive": true
     },
     {
-      "id": "feed-e2b35ea2267a",
-      "title": "Google Home bug leaves Nest camera notifications without video previews",
-      "excerpt": "You're not alone if your Nest camera notifications are text-only.",
-      "body": "TL;DR Nest camera users report missing video previews and thumbnails in Android notifications. The issue affects multiple phones and Nest camera models, though previews still work on some other devices. Cameras continue recording normally; it’s just the previews that are missing. We’ve reached out to Google for clarification. Nest camera users are reporting a frustrating bug that’s causing video previews and thumbnails on Android to disappear from notifications. This is leaving users who have gotten in the habit of quickly glancing over their camera feeds through previews with no choice but to open the Google Home app. For those unaware, Google Home’s camera notifications include a thumbnail or a short video preview to highlight what triggered the alert.",
+      "id": "feed-9465f9a5e844",
+      "title": "Was Corruption The Biggest Issue In The US Election?",
+      "excerpt": "I saw last week that one of the biggest factors contributing to the enormous blue tsunami that set new history for US elections was people being fed up with government corruption. This has always been…",
+      "body": "I saw last week that one of the biggest factors contributing to the enormous blue tsunami that set new history for US elections was people being fed up with government corruption. This has always been an issue to some extent, but corruption of the past versus corruption under Trump was ... [continued] The post Was Corruption The Biggest Issue In The US Election? appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://cleantechnica.com/2026/11/11/was-corruption-the-biggest-issue-in-the-us-election/",
+      "image": "/images/feed/feed-9465f9a5e844.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-a057c934cc4e",
+      "title": "iPhone Duo one week later: The future, or not for me?",
+      "excerpt": "My iPhone Duo arrived last Thursday, so I’ve had a week to use it as my daily carry. My early experience has been mixed, so I keep asking myself an important question: is this the iPhone’s future and…",
+      "body": "My iPhone Duo arrived last Thursday, so I’ve had a week to use it as my daily carry. My early experience has been mixed, so I keep asking myself an important question: is this the iPhone’s future and — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ryan Christoffel",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://9to5mac.com/2026/11/11/iphone-duo-one-week-later-the-future-or-not-for-me/",
+      "image": "/images/feed/feed-a057c934cc4e.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-15fbadba4fbd",
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "excerpt": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys dur…",
+      "body": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys dur — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "image": "/images/feed/feed-15fbadba4fbd.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-1df24ae9c4a0",
+      "title": "Binance warns iPhone crypto holders of security flaw researchers say remains unpatched",
+      "excerpt": "Crypto exchange Binance has warned iPhone users about an iOS vulnerability that could allow malicious apps to access sensitive data stored by other apps. Here are the details. more…",
+      "body": "Crypto exchange Binance has warned iPhone users about an iOS vulnerability that could allow malicious apps to access sensitive data stored by other apps. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://9to5mac.com/2026/11/11/binance-warns-iphone-crypto-holders-of-security-flaw-researchers-say-remains-unpatched/",
+      "image": "/images/feed/feed-1df24ae9c4a0.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-ea3011e4ca24",
+      "title": "Google Wallet adds digital home keys to open your front door smart lock with a tap",
+      "excerpt": "There's hands-free unlocking too!",
+      "body": "TL;DR Google Wallet is gaining digital home keys, allowing Android users to unlock compatible smart locks with an NFC tap or hands-free using UWB. The feature supports select Aliro-compatible locks from Aqara, Schlage, and Nuki, with one digital key working across multiple locks in the same home. The functionality is rolling out to Google Home Public Preview users starting today, November 11, with wider availability expected over the coming weeks. Smart locks have already made getting into homes a lot more convenient than it traditionally used to be, and Google is now making that process even more seamless by bringing digital home keys directly into Google Wallet .",
       "author": "Karandeep Singh Oberoi",
       "date": "2026-11-11",
       "readTime": "2 min",
@@ -167,124 +472,392 @@
       ],
       "featured": false,
       "xpReward": 38,
-      "url": "https://www.androidauthority.com/google-home-nest-camera-notification-previews-missing-3733975/",
-      "image": "/images/feed/feed-e2b35ea2267a.jpg",
+      "url": "https://www.androidauthority.com/google-wallet-digital-home-keys-nfc-uwb-unlocking-3734133/",
+      "image": "/images/feed/feed-ea3011e4ca24.jpg",
       "source": "Android Authority",
       "isLive": true
     },
     {
-      "id": "feed-3cd45c8666ee",
-      "title": "OpenAI is sunsetting ChatGPT Advanced and Standard voice next month",
-      "excerpt": "OpenAI is going all in on GPT-Live.",
-      "body": "Credit: Edgar Cervantes / Android Authority TL;DR OpenAI has announced that it will retire ChatGPT Advanced and Standard voice on December 11, 2026. The company is focusing on unifying the voice experience through GPT-Live. Live video and screen sharing will continue to use Advanced voice until GPT-Live has this capability. Earlier this year, OpenAI rolled out a new voice model called GPT-Live . The Gemini Live rival joined ChatGPT Advanced and Standard voice as yet another way to have more natural conversations with the chatbot. As the saying goes, three is a crowd, and OpenAI is ready to do some streamlining. OpenAI has announced that a big change is coming for ChatGPT Voice. On December 11, 2026, the company will be retiring Advanced and Standard voice.",
-      "author": "Ryan McNeal",
+      "id": "feed-bac7160d1586",
+      "title": "Apple Invites app now lets hosts poll guests, plus new emoji effect added",
+      "excerpt": "Apple Invites, an iCloud+ feature, just added two new features in this month’s update. more…",
+      "body": "Apple Invites, an iCloud+ feature, just added two new features in this month’s update. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zac Hall",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://9to5mac.com/2026/11/11/apple-invites-app-now-lets-hosts-poll-guests-plus-new-emoji-effect-added/",
+      "image": "/images/feed/feed-bac7160d1586.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-465b1fddf006",
+      "title": "We can't see Fast Radio Bursts but we can now hear them thanks to a Finnish Cathedral",
+      "excerpt": "Fast radio bursts are invisible, but a composer has turned thousands of them into sound at a Finnish cathedral, where a choir will sing along on Nov. 21.",
+      "body": "Fast radio bursts, flashes of energy from faraway galaxies, are invisible to our eyes. However, we can now hear their melody, thanks to a composer who has turned them into sound. Fast radio bursts, or FRBs , are among the most extreme events in the universe, releasing as much energy in a millisecond as the sun puts out in three days and briefly outshining entire galaxies. Since the first FRB was discovered in 2007, astronomers have detected thousands of them; however, exactly how these cosmic flares are launched remains poorly understood. Recent evidence points to at least one burst coming from the environment around a rotating neutron star. Despite their power, FRBs last only a few thousandths of a second before vanishing into space.",
+      "author": " Sharmila Kuthunur ",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.space.com/astronomy/we-cant-see-fast-radio-bursts-but-we-can-now-hear-them-thanks-to-a-finnish-cathedral",
+      "image": "/images/feed/feed-465b1fddf006.png",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-af1dee618a2e",
+      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "excerpt": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+      "body": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Bill Toulas",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Breach"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "image": "/images/feed/feed-af1dee618a2e.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-fe53f8ed17e2",
+      "title": "On this day in space! Nov. 11, 1966: NASA launches Gemini 12 mission with astronaut icons Buzz Aldrin and Jim Lovell aboard",
+      "excerpt": "On Nov. 11, 1966, the Gemini 12 mission launched an astronaut crew into orbit and set the stage for NASA's Apollo program. Here's why it mattered.",
+      "body": "On Nov. 11, 1966, the Gemini 12 mission launched an astronaut crew into orbit and set the stage for NASA's Apollo program to land humans on the moon. Gemini 12 was the last mission of the Gemini program. It had two astronauts on board: Jim Lovell and Buzz Aldrin . NASA wanted to send humans to the moon. But first, it needed to make sure crews had the right skills, like docking vehicles in space and taking spacewalks. Before Gemini 12, astronauts struggled with spacewalks because there weren't enough handholds on their spacecraft. NASA made some spacewalk changes for Gemini 12. Aldrin performed three spacewalks and spent more than five hours working in space with no major problems. Gemini 12 also successfully docked to an unpiloted Agena booster that launched the same day.",
+      "author": " Hanneke Weitering ",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa",
+        "Astronaut",
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-11-2026",
+      "image": "/images/feed/feed-fe53f8ed17e2.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-5f780e5fe9b3",
+      "title": "Tools for exploring the souls of large language models",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Large Language Model. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "r00tanon",
       "date": "2026-11-11",
       "readTime": "2 min",
       "section": "ai",
       "tags": [
-        "Openai",
-        "Chatgpt"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.androidauthority.com/openai-retiring-chatgpt-advanced-standard-voice-3733978/",
-      "image": "/images/feed/feed-3cd45c8666ee.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-420316c591da",
-      "title": "watchOS 27.3: Three new features coming soon to Apple Watch",
-      "excerpt": "watchOS 27.3 will launch to all users next month and introduce these three new Apple Watch features. more…",
-      "body": "watchOS 27.3 will launch to all users next month and introduce these three new Apple Watch features. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Apple Watch. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ryan Christoffel",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Apple Watch"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://9to5mac.com/2026/11/11/watchos-27-3-three-new-features-coming-soon-to-apple-watch/",
-      "image": "/images/feed/feed-420316c591da.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-e70d75e43828",
-      "title": "Forgotten Elder Scrolls Game Gets Surprise Re-Release",
-      "excerpt": "The Elder Scrolls: Shadowkey from the N-Gage just got a fan remaster on Skyrim's 15th anniversary.",
-      "body": "Today is The Elder Scrolls: Skyrim ’s fifteenth anniversary, a sentence so shocking it’s liable to turn your bones to dust. With the series entering 15 years without a new mainline entry and Bethesda Game Studios showing no signs of announcing news about The Elder Scrolls 6: Sentinel , a fan is helping fill the void by re-releasing an obscure series spinoff.",
-      "author": "Elijah Gonzalez",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/the-elder-scrolls-shadowkey-ngage-fan-remaster/",
-      "image": "/images/feed/feed-e70d75e43828.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-c4c06ba0f4ef",
-      "title": "Baseus Bowie MC2 earbuds drop below $50 in Amazon deal",
-      "excerpt": "Get 38% off the Baseus Bowie MC2 on Amazon and grab open-ear clip-on earbuds with LDAC, IP67, and app support.",
-      "body": "The Baseus Bowie MC2 earbuds have dropped to $49.99 on Amazon, down from their $79.99 recommended retail price. That’s a $30 saving, or 38% off RRP, and it matches the all-time low on Amazon, so this is a strong time to grab them. See the deal at Amazon",
-      "author": "Matt Horne",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Earbuds"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.androidauthority.com/baseus-bowie-mc2-earbuds-deal-3733986/",
-      "image": "/images/feed/feed-c4c06ba0f4ef.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-ea548d72e5f3",
-      "title": "Fans Gather In Final Fantasy XIV In Memorial For Eikichi Iwai, Bassist For The Primals",
-      "excerpt": "His passing comes days after he performed at Fan Fest Japan 2026",
-      "body": "His passing comes days after he performed at Fan Fest Japan 2026\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ash Parrish",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
+        "Large Language Model"
       ],
       "featured": false,
       "xpReward": 32,
-      "url": "https://kotaku.com/fans-gather-in-final-fantasy-xiv-in-memorial-for-eikichi-iwai-bassist-for-the-primals-2000755897",
-      "image": "/images/feed/feed-ea548d72e5f3.jpg",
-      "source": "Kotaku",
+      "url": "https://oshea00.github.io/posts/tinygpt-visualizer/",
+      "image": "/images/feed/feed-5f780e5fe9b3.jpg",
+      "source": "Hacker News",
       "isLive": true
     },
     {
-      "id": "feed-f7948121ccdf",
-      "title": "Deals: AirTag 2 $17.50 each, Magic Mouse, Trackpad, AirPods, TechWoven, MacBook Air $250 off, more",
-      "excerpt": "The Amazon early Black Friday sale is now live and, alongside the ongoing AirPods Pro 3 at $50 off and Apple Watch Ultra 4 at nearly $100 off, we are getting some official Apple early Black Friday dea…",
-      "body": "The Amazon early Black Friday sale is now live and, alongside the ongoing AirPods Pro 3 at $50 off and Apple Watch Ultra 4 at nearly $100 off , we are getting some official Apple early Black Friday deals today too. Firstly, the 2026 AirTag 2 has now returned to its lowest price ever at $17.50 each alongside some rare price drops on the latest Magic Mouse models at up to nearly 25% off , and Amazon’s best prices on Apple’s Magic Trackpad . Joining some new all-time lows going live today on Apple’s latest collection of iPhone 18 Pro and Pro Max cases at up to 40% off , we also still have the impressive $250 price drops on M5 MacBook Air , and even more waiting below. more…",
-      "author": "Justin Kahn",
+      "id": "feed-a965057e3f8f",
+      "title": "Kia just made history at Germany’s most prestigious auto awards",
+      "excerpt": "Kia became the first non-European brand to score a hat trick at the 2026 Golden Steering Wheel Awards, Germany’s most prestigious auto awards. more…",
+      "body": "Kia became the first non-European brand to score a hat trick at the 2026 Golden Steering Wheel Awards, Germany’s most prestigious auto awards. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Peter Johnson",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://electrek.co/2026/11/11/kia-made-history-germanys-most-prestigious-auto-awards/",
+      "image": "/images/feed/feed-a965057e3f8f.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-e0bea23953dc",
+      "title": "Home Assistant Connect AUX-2 gives your old speakers and TVs a second life for $69",
+      "excerpt": "That forgotten hi-fi system isn't ready for retirement.",
+      "body": "TL;DR Home Assistant Connect AUX-2 brings older speakers, TVs, and other compatible electronics into the modern smart home. It supports lossless audio, local device control, Bluetooth connectivity, and Z-Wave adapters. The new accessory is available starting November 11 for $69 in the US and €59 in Europe. Not every device needs replacing just because it missed the smart home revolution. That old stereo gathering dust might still sound better than your shiny new wireless speaker , while your TV or heating system could be perfectly capable of following commands without an internet connection. Home Assistant wants to bridge that gap with a new accessory that gives yesterday’s technology a place in today’s connected home.",
+      "author": "Hillary Keverenge",
       "date": "2026-11-11",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
-        "Macbook"
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.androidauthority.com/home-assistant-connect-aux-2-launch-3733837/",
+      "image": "/images/feed/feed-e0bea23953dc.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-9b24eef2f68b",
+      "title": "YouTube TV channels are missing from Google TV live tab for some users (Updated)",
+      "excerpt": "This is not the first time the problem has cropped up.",
+      "body": "TL;DR YouTube TV channels are missing from the live tab in Google TV Live Guide for some users. The issue has shown up on Google TVs, Chromecasts, and third-party Google TV streaming devices. This is not the first time the problem has occurred, but so far there is no word from Google about when it will be fixed. Update, November 11, 2026 (4:04 PM ET): Google has responded to our inquiry and tells Android Authority , “we are aware of the issue, and it has now been fixed.” Hopefully everyone affected is now seeing their YouTube TV channels back where they belong. Original article, November 11, 2026 (3:25 PM ET): YouTube TV channels have disappeared from their usual spot in the Live tab on the Google TV Live Guide on Google TVs and Chromecast devices.",
+      "author": "Chandra Steele",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.androidauthority.com/google-tv-live-youtube-tv-glitch-3734124/",
+      "image": "/images/feed/feed-9b24eef2f68b.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-f1afb2a1cbca",
+      "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+      "excerpt": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
+      "body": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Will Knight",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+      "image": "/images/feed/feed-f1afb2a1cbca.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-c57272431f3e",
+      "title": "Tesla Extends Cybertruck Production Run To Work Through Order Backlog",
+      "excerpt": "Elon Musk called it \"not the smartest move from a profit-maximizing standpoint.\"",
+      "body": "Elon Musk called it \"not the smartest move from a profit-maximizing standpoint.\"\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybertruck, Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cybertruck",
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://insideevs.com/news/815183/tesla-extends-cybertruck-production-summer-2027/",
+      "image": "/images/feed/feed-c57272431f3e.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-f94465a207b1",
+      "title": "Andy Weir's 'Exoplanet' just landed on Audible, but what actually makes an exoplanet habitable?",
+      "excerpt": "How would the crew of the Wild Blue Yonder fare on a real exoplanet?",
+      "body": "Imagine you’ve crash-landed on an alien planet. Your ship is destroyed, your oxygen supply is dangerously low, and the landscape around you is completely unknown. Where would you begin looking for clues to your survival? Surprisingly, the best place to start could be the star overhead. This is the predicament that three crew members of the Wild Blue Yonder face in Audible’s new sci-fi thriller, \"Exoplanet.\" This sci-fi thriller is written by acclaimed comic writer Benjamin Percy, executive produced by Andy Weir (Project Hail Mary, The Martian), and features an all-star voice cast including Anthony Mackie, Ariana DeBose, and John Leguizamo . Stranded on an unfamiliar planet, they encounter volcanic wastelands, unknown skies, and environments that seem to defy reason.",
+      "author": " Alix Freckelton ",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.space.com/astronomy/exoplanets/andy-weirs-exoplanet-just-hit-audible-but-what-actually-makes-an-exoplanet-habitable",
+      "image": "/images/feed/feed-f94465a207b1.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-c29ddd30eb87",
+      "title": "Segway MUXI cargo e-bike $200 off in expanded Black Friday sale + Navimow robot deals, Anker eufy S340 4-cam kit $580, more",
+      "excerpt": "Our midweek Green Deals edition is being led by Segway. The brand just expanded its EV Early Black Friday deal lineup for members, which includes the first discount on the 2026 MUXI Cargo Smart e-bike…",
+      "body": "Our midweek Green Deals edition is being led by Segway. The brand just expanded its EV Early Black Friday deal lineup for members, which includes the first discount on the 2026 MUXI Cargo Smart e-bike , while its Navimow Early Black Friday lineup has offers like the i215 LiDAR Robot Lawn Mower down at $1,399 , with other deals starting from $899. We also spotted a one-day-only chance to pick up Anker’s eufy SoloCam S340 Solar Security 4-Cam Kit with HomeBase 3 down at $580 (as well as an option to upgrade to 1TB of storage), the Aventon Aventure M Mid-Drive All-Terrain Smart e-bike with a foldable lock at $2,699 , some Worx deals on a 2-in-1 cordless chain/polesaw and the Cube portable vaccum, and more.",
+      "author": "Reinette LeJeune",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://electrek.co/2026/11/11/segway-muxi-cargo-e-bike-black-friday-navimow-robot-anker-eufy-s340-4-cam-kit/",
+      "image": "/images/feed/feed-c29ddd30eb87.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-2db8c09b6f68",
+      "title": "BYD’s full-size luxury SUV has a wheel problem, and it’s fixing it for free",
+      "excerpt": "BYD is apologizing after a supplier error left some owners of its new full-size flagship SUV with the wrong wheels. more…",
+      "body": "BYD is apologizing after a supplier error left some owners of its new full-size flagship SUV with the wrong wheels. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Peter Johnson",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://electrek.co/2026/11/11/byds-flagship-suv-wheel-problem-fixing-for-free/",
+      "image": "/images/feed/feed-2db8c09b6f68.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-f595be074594",
+      "title": "The AI Boom Is Making Ordinary Car Parts Harder To Get, Rivian Says",
+      "excerpt": "Rivian CEO RJ Scaringe said the EV maker now spends an \"enormous amount of time\" on memory.",
+      "body": "Rivian CEO RJ Scaringe said the EV maker now spends an \"enormous amount of time\" on memory.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Rivian. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Rivian"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://insideevs.com/news/815180/rivian-chips-memory-rj-scaringe-interview/",
+      "image": "/images/feed/feed-f595be074594.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-3586fd5cc361",
+      "title": "Gemini Decisions API",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "iamdelirium",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Gemini"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "image": "/images/feed/feed-3586fd5cc361.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-a29bdb614c93",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "excerpt": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers…",
+      "body": "The cybercrime group Qilin has emerged as the world&#8217;s most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over the last decade that all point to a 36-year-old man living in St. Petersburg, Russia. Operating since September 2022, the Russia-based ransomware group Qilin is the currently the most industrious ransomware-as-a-service gang, according to a report (PDF) this month by the cybersecurity firm NCC Group (KrebsOnSecurity profiled the administrator of the second most active ransomware group &#8212; The Gentlemen &#8212; in June).",
+      "author": "BrianKrebs",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Ransomware"
       ],
       "featured": false,
       "xpReward": 39,
-      "url": "https://9to5mac.com/2026/11/11/deals-airtag-2-magic-mouse-trackpad-macbook-air/",
-      "image": "/images/feed/feed-f7948121ccdf.jpg",
-      "source": "9to5Mac",
+      "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "image": "/images/topics/topic-cybersecurity.png",
+      "source": "Krebs on Security",
+      "isLive": true
+    },
+    {
+      "id": "feed-3586fd5cc361",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "body": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.\n\nThis report, published by Google AI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Google AI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Google AI Blog",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Gemini"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "image": "/images/feed/feed-3586fd5cc361.png",
+      "source": "Google AI Blog",
+      "isLive": true
+    },
+    {
+      "id": "feed-3135504abfab",
+      "title": "Pixel users are getting a major Android Auto update – and it rivals Siri AI",
+      "excerpt": "More phones are getting Gemini Intelligence, but only Pixel users can access it in a new way.",
+      "body": "More phones are getting Gemini Intelligence, but only Pixel users can access it in a new way.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jada Jones",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.zdnet.com/tech/android-auto-gemini-intelligence-update/",
+      "image": "/images/feed/feed-3135504abfab.jpg",
+      "source": "ZDNet",
+      "isLive": true
+    },
+    {
+      "id": "feed-df731c2eb81b",
+      "title": "Did comets bring building blocks of life to Earth? Scientists aren't so sure anymore",
+      "excerpt": "For over a century astronomers have speculated that comets could have delivered organic molecules necessary for life to Earth, but new modeling shows these molecules wouldn't have survived impact.",
+      "body": "The origin of life on Earth remains a mystery. New research shows that comets almost certainly did not bring the chemical building blocks of life to our planet. Life as we know it is based around carbon chemistry, also known as organic chemistry. Complex organic molecules are the fundamental building blocks of biochemical compounds such as nucleobases, amino acids, sugars and so on that act as the machinery for biochemistry on Earth . Two big questions are where did this complex chemistry originate? Did these complex organic molecules form on Earth, or were they delivered here from space?",
+      "author": " Keith Cooper ",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.space.com/astronomy/comets/did-comets-bring-building-blocks-of-life-to-earth-scientists-arent-so-sure-anymore",
+      "image": "/images/feed/feed-df731c2eb81b.png",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-e86a60ba761e",
+      "title": "Claude can collaborate in your team meetings soon – like an intern",
+      "excerpt": "Claude is responding ‘Yes’ to that calendar invite – with some limitations. Plus: Anthropic launches two more new features that are available now.",
+      "body": "Claude is responding ‘Yes’ to that calendar invite – with some limitations. Plus: Anthropic launches two more new features that are available now.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Radhika Rajkumar",
+      "date": "2026-11-11",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.zdnet.com/innovation/claude-meetings-workplace-features/",
+      "image": "/images/feed/feed-e86a60ba761e.png",
+      "source": "ZDNet",
       "isLive": true
     },
     {
@@ -302,144 +875,29 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 53,
       "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
       "image": "/images/feed/feed-4d1bbe363802.jpg",
       "source": "BleepingComputer",
       "isLive": true
     },
     {
-      "id": "feed-2116b3eb2769",
-      "title": "How to get the Zora Tunic in Ocarina of Time",
-      "excerpt": "Here's how to get the Zora Tunic in The Legend of Zelda: Ocarina of Time remake so you can stay underwater.",
-      "body": "Once you get the Zora Tunic in The Legend of Zelda: Ocarina of Time remake, you'll be ready to explore the waters of Hyrule. Before you obtain this tunic, the only way to explore underwater is by diving, and even if you have the Golden Scale , Link always has to come up for air. However, after you get the tunic — and a pair of special boots — you'll be able to freely walk under the water. Besides, you must have the tunic to progress the story and complete the Water Temple .",
-      "author": "Paulo Kawanishi",
+      "id": "feed-a59f63d021cc",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "excerpt": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulne…",
+      "body": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
+      "author": "info@thehackernews.com (The Hacker News)",
       "date": "2026-11-11",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "cybersecurity",
       "tags": [
-        "Gaming"
+        "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 38,
-      "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-zora-tunic-how-to-get/",
-      "image": "/images/feed/feed-2116b3eb2769.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-b577d6b06f32",
-      "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-      "excerpt": "Sales of $10B represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.",
-      "body": "Sales of $10B represents an almost 50% jump from revenue of $6.7 billion the company recorded in the second quarter.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ram Iyer",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Openai"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-      "image": "/images/feed/feed-b577d6b06f32.jpg",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-9dc2003f75db",
-      "title": "Amazon drops the popular Tribit StormBox Micro 3 to just $52",
-      "excerpt": "Save $15 on the new StormBox Micro 3, now at an all-time low with punchy sound, IP68 durability, and bike-ready mounting.",
-      "body": "The Tribit StormBox Micro 3 is a tiny Bluetooth speaker built for getting out of the house, and it’s now down to an all-time low on Amazon. This new 2026 model is made for travel, biking, and outdoor use, with a rugged build that’s meant to handle rougher days than your average portable speaker. See the deal at Amazon",
-      "author": "Matt Horne",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.androidauthority.com/tribit-stormbox-micro-3-deal-amazon-3734010/",
-      "image": "/images/feed/feed-9dc2003f75db.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-a538adfde7e4",
-      "title": "Tesla Is Squeezing More Money Out Of The Cybertruck Before It Dies",
-      "excerpt": "Want one of the last Cybertrucks? You're stuck with just one trim. And it just got another price hike.",
-      "body": "Want one of the last Cybertrucks? You're stuck with just one trim. And it just got another price hike.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybertruck, Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cybertruck",
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://insideevs.com/news/815084/tesla-cybertruck-squeezing-pennies-death/",
-      "image": "/images/feed/feed-a538adfde7e4.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-ea3a8cab5c36",
-      "title": "Tekken Boss Katsuhiro Harada Says Developing For Xbox Series S ‘Feels Like Having To Do Extra Work For A Slightly Weaker Child’",
-      "excerpt": "'I wish hardware like the \"Xbox Series S\" wouldn't be released'",
-      "body": "'I wish hardware like the \"Xbox Series S\" wouldn't be released'\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Xbox. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Rebekah Valentine",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Xbox"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://kotaku.com/tekken-boss-katsuhiro-harada-says-developing-for-xbox-series-s-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child-2000755895",
-      "image": "/images/feed/feed-ea3a8cab5c36.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-dd2b3da3c44a",
-      "title": "'VisionQuest' Star Officially Comments Status in 'Avengers: Doomsday' and 'Secret Wars'",
-      "excerpt": "VisionQuest actor T'Nia Miller, who plays Jocasta, talks about the difficulties of the charcter and her \"Rhinestone Cowboy\" dance with James Spader",
-      "body": "Throughout VisionQuest , the character Jocasta has been full of surprises. Played by T’Nia Miller , Jocasta is dramatically different here than the version we've seen in Marvel Comics , but these changes were necessary given how much the Marvel Cinematic Universe changed Ultron’s story.",
-      "author": "Brian VanHooker",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/tnia-miller-visionquest-finale-interview-james-spader-rhinstone-cowboy/",
-      "image": "/images/feed/feed-dd2b3da3c44a.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-d3a6593ef6bb",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "body": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.\n\nThis report, published by Google AI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Google AI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Google AI Blog",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp",
-      "source": "Google AI Blog",
+      "xpReward": 48,
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "image": "/images/feed/feed-a59f63d021cc.jpg",
+      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -455,48 +913,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 40,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
       "image": "/images/feed/feed-c4b5386ac1b2.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-fd7c9361a612",
-      "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
-      "excerpt": "Tabletop isn’t anything to do with D&D or boardgames, but it does make it easier to coordinate with freinds, | Image: Google Google has cooked up a new experimental AI tool called Tabletop that genera…",
-      "body": "Tabletop isn’t anything to do with D&amp;D or boardgames, but it does make it easier to coordinate with freinds, | Image: Google Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends. The Tabletop platform shares some visual similarities with workplace management apps like Asana and Monday, but with a built-in AI feature that allows you to vibecode personalized interactive tools by describing them, such as savings trackers, chore charts, event plans, and more.",
-      "author": "Jess Weatherbed",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Tablet"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
-      "image": "/images/feed/feed-fd7c9361a612.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-83e2db783e87",
-      "title": "iPhone is the winner of new battery test, topping all Androids",
-      "excerpt": "Last week CNET published an extensive battery test and the iPhone came out on top. But it wasn’t just one iPhone model that performed well, as several iPhones topped CNET’s list. more…",
-      "body": "Last week CNET published an extensive battery test and the iPhone came out on top. But it wasn’t just one iPhone model that performed well, as several iPhones topped CNET’s list. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ryan Christoffel",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://9to5mac.com/2026/11/11/iphone-is-the-winner-of-new-battery-test-topping-all-androids/",
-      "image": "/images/feed/feed-83e2db783e87.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -517,442 +937,19 @@
       "image": "/images/feed/feed-8c37336ca290.png",
       "source": "SpaceNews",
       "isLive": true
-    },
-    {
-      "id": "feed-3decd765d4da",
-      "title": "Toyota and Subaru hit the ‘sweet spot’ with affordable electric SUVs",
-      "excerpt": "Toyota and Subaru’s new electric SUVs are catching on with buyers, offering various options and prices ranging from about $35,000 to $45,000, or the “sweet spot” of the US market. more…",
-      "body": "Toyota and Subaru’s new electric SUVs are catching on with buyers, offering various options and prices ranging from about $35,000 to $45,000, or the “sweet spot” of the US market. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://electrek.co/2026/11/11/toyota-subaru-hit-sweet-spot-affordable-electric-suvs/",
-      "image": "/images/feed/feed-3decd765d4da.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-774a98ab6191",
-      "title": "Patrick Stewart Made Anthony Mackie ‘Freak Out’ on Avengers: Doomsday Set",
-      "excerpt": "Avengers: Doomsday star Anthony Mackie (Captain America) says seeing Professor X and Magneto hug was a little too exciting",
-      "body": "Patrick Stewart died on Oct. 28, meaning that his performance as Professor Charles Xavier in Avengers: Doomsday will be the last of his long career. Stewart first played the telepathic mutant in Bryan Singer’s X-Men in 2000, leading the superhero team in the fight against Ian McKellen’s Magneto. The two actors had met decades before at the Royal Shakespeare Company, but they became close friends after working together on the X-Men films. The actors reunited for Avengers: Doomsday , and Anthony Mackie said he and his The Falcon and the Winter Soldier co-star Sebastian Stan were so excited about it that they embarrassed themselves.",
-      "author": "Sam Nelson",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.polygon.com/avengers-doomsday-anthony-mackie-patrick-stewart-interview/",
-      "image": "/images/feed/feed-774a98ab6191.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-1e5084b70448",
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "excerpt": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and…",
-      "body": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-      "image": "/images/feed/feed-1e5084b70448.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-2783b44b0c0a",
-      "title": "Avengers Endgame: Encore Officially Gets Disney Plus Streaming Date",
-      "excerpt": "Avengers Endgame: Encore just got a Disney Plus streaming date, letting viewers check out the film before Doomsday.",
-      "body": "With Avengers: Doomsday roughly a month away, Disney just delivered some good news for MCU fans who want to be fully caught up before Doctor Doom blows through the Marvel pantheon. Avengers Endgame: Encore is coming to Disney Plus very soon.",
-      "author": "Elijah Gonzalez",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.polygon.com/avengers-endgame-encore-streaming-date-disney-plus-november-2026/",
-      "image": "/images/feed/feed-2783b44b0c0a.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-f1718a16d22e",
-      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-      "excerpt": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
-      "body": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-      "image": "/images/feed/feed-f1718a16d22e.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-a3f6fb490321",
-      "title": "The Netherlands Has €231 Million for Cleaner Inland Ships. It Still Needs Electric Freight Corridors.",
-      "excerpt": "The Netherlands' new subsidy rewards cleaner vessel propulsion, but its principal cost denominator leaves out shared shore infrastructure that turns vessels into repeatable freight services. The post…",
-      "body": "The Netherlands' new subsidy rewards cleaner vessel propulsion, but its principal cost denominator leaves out shared shore infrastructure that turns vessels into repeatable freight services. The post The Netherlands Has €231 Million for Cleaner Inland Ships. It Still Needs Electric Freight Corridors. appeared first on CleanTechnica .",
-      "author": "Michael Barnard",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://cleantechnica.com/2026/11/11/dutch-electric-inland-shipping-subsidy-freight-corridors/",
-      "image": "/images/feed/feed-a3f6fb490321.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-3c25cf76a89c",
-      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
-      "excerpt": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, whe…",
-      "body": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
-      "author": "Sponsored by Flare",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
-      "image": "/images/feed/feed-3c25cf76a89c.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-781853302196",
-      "title": "Hubble Space Telescope reveals glittering stars with mysterious origins | Space photo of the day for Nov. 11, 2026",
-      "excerpt": "This dazzling collection of ancient stars could hold clues to the Milky Way's past.",
-      "body": "The Hubble Space Telescope has captured a breathtaking view of thousands of stars glittering like cosmic jewels in a dazzling display of blue, gold and orange. But this spectacular scene is far more than just a pretty picture. Some of these stars are almost as old as the universe itself and could hold clues to how our Milky Way formed. M30 is a globular star cluster located approximately 27,500 light-years from Earth. (Image credit: ESA/Hubble &amp; NASA, M. Libralato, G. Piotto, A. Sarajedini) What is it? The exquisite image released by ESA on Nov. 5 shows Messier 30 (M30), a densely packed collection of stars located approximately 27,500 light-years from Earth in the constellation Capricornus.",
-      "author": " Daisy Dobrijevic ",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Telescope",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.space.com/astronomy/hubble-space-telescope/hubble-space-telescope-reveals-glittering-stars-with-mysterious-origins-space-photo-of-the-day-for-nov-11-2026",
-      "image": "/images/feed/feed-781853302196.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-64306b4ad1c7",
-      "title": "Porsche CEO takes a shot at Tesla’s ‘flying’ Roadster stunt show",
-      "excerpt": "Tesla’s “flying” Roadster just took a hit from Porsche. Speaking at a conference in Berlin today, CEO Michael Leiters said Porsche wants “to completely steer clear from any kind of effects and shows,”…",
-      "body": "Tesla’s “flying” Roadster just took a hit from Porsche. Speaking at a conference in Berlin today, CEO Michael Leiters said Porsche wants “to completely steer clear from any kind of effects and shows,” according to Bloomberg . Both automakers revealed their next halo cars on the same day, October 15. Tesla made a Roadster flip in mid-air. Porsche showed the Mission S, and Leiters says the two cars aren’t even chasing the same customers. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://electrek.co/2026/11/11/porsche-ceo-tesla-flying-roadster-stunt/",
-      "image": "/images/feed/feed-64306b4ad1c7.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-918f8329ac15",
-      "title": "Genesis reveals GV90 prices start at $100K+ in Korea, but it will cost more for coach doors",
-      "excerpt": "Genesis opened orders for the ultra-luxury electric SUV in South Korea, with prices starting at over $100,000. If you want coach doors, however, it will cost you a bit more. more…",
-      "body": "Genesis opened orders for the ultra-luxury electric SUV in South Korea, with prices starting at over $100,000. If you want coach doors, however, it will cost you a bit more. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://electrek.co/2026/11/11/genesis-reveals-gv90-prices-start-at-100k-korea-cost-more-for-coach-doors/",
-      "image": "/images/feed/feed-918f8329ac15.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-0ba244cf0e37",
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "excerpt": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research team…",
-      "body": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Exploit",
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-      "image": "/images/feed/feed-0ba244cf0e37.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-43904c2d9a0e",
-      "title": "QuantumScape unveils Osprey all-solid-state cell: 1,000 cycles at 1 atm",
-      "excerpt": "QuantumScape (QS) is finally going all-solid-state. Its new Osprey platform swaps the liquid in its cathode for a sulfide solid electrolyte, and the company says the cells have hit 1,000 full cycles t…",
-      "body": "QuantumScape (QS) is finally going all-solid-state. Its new Osprey platform swaps the liquid in its cathode for a sulfide solid electrolyte, and the company says the cells have hit 1,000 full cycles to 80% capacity at just one atmosphere of pressure. That’s a big deal for the sulfide camp, which includes Toyota, Samsung SDI, BYD, and Factorial. Their cells typically need heavy clamping to work. But the white paper behind the announcement shows these are small, early lab cells, and some headline numbers come with important conditions. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://electrek.co/2026/11/11/quantumscape-osprey-all-solid-state-sulfide-battery/",
-      "image": "/images/feed/feed-43904c2d9a0e.png",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-b714f2e3252a",
-      "title": "Science For The People, Right On!",
-      "excerpt": "Today United for the Future launches at COP31 today with a plan to unite 100 million people in peaceful, non-partisan marches in cities worldwide. Their goal is to assemble the largest coordinated cli…",
-      "body": "Today United for the Future launches at COP31 today with a plan to unite 100 million people in peaceful, non-partisan marches in cities worldwide. Their goal is to assemble the largest coordinated climate demonstration in history in order to put climate action back at the top of the political agenda. ... [continued] The post Science For The People, Right On! appeared first on CleanTechnica .",
-      "author": "Carolyn Fortuna",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://cleantechnica.com/2026/11/11/science-for-the-people-right-on/",
-      "image": "/images/feed/feed-b714f2e3252a.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-eb49d7cf1d85",
-      "title": "NASA's new UVEX space telescope will peer deep into the universe's most violent events",
-      "excerpt": "NASA's new UVEX space telescope will study the universe in ultraviolet light to reveal the violent and turbulent events that bubble under what appears to be a cosmic sea of tranquility.",
-      "body": "A new NASA space telescope will study the universe in ultraviolet light to reveal the violent and turbulent events that bubble under what appears to be a cosmic sea of tranquility. The Ultraviolet Explorer (UVEX) mission, developed by NASA in conjunction with the California Institute of Technology (Caltech), will be the first mission to create deep all-sky maps in ultraviolet light. Thus, when it launches in 2031, UVEX will join new sky-mapping surveys like NASA's SPHEREx (Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer), which scans the cosmos in infrared, and the Vera C. Rubin Observatory, which does the same over the southern hemisphere in visible light, in creating deep-sky maps across a broad swathe of the electromagnetic spectrum.",
-      "author": " Robert Lea ",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa",
-        "Telescope",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.space.com/science/astrophysics/nasas-new-uvex-space-telescope-will-peer-deep-into-the-universes-most-violent-events",
-      "image": "/images/feed/feed-eb49d7cf1d85.png",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-931a44a5e56a",
-      "title": "Why I recommend the Seestar S30 Plus smart telescope for beginners — full review",
-      "excerpt": "I photographed galaxies, nebulas and star clusters from a city with the Seestar S30 Plus. Here’s why I think it’s the best affordable smart telescope for beginners.",
-      "body": "I’ve used several smart telescopes over the last few years, but I'd recommend the ZWO Seestar S30 Plus to almost anyone wanting to get started in astrophotography. At $499/€499, it’s a complete imaging system that can photograph galaxies, nebulae and star clusters automatically, even from a light-polluted city. Better still, it’s so small that it can live on a bookshelf. The Pleiades (M45), photographed in mosaic mode with the Seestar S30 Plus. (Image credit: Jamie Carter) Jamie Carter The Andromeda Galaxy (M31) photographed using the Seestar S30 Plus. (Image credit: Jamie Carter) Jamie Carter The Dumbbell Nebula (M27) photographed using the Seestar S30 Plus.",
-      "author": " Jamie Carter ",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Telescope"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.space.com/stargazing/skywatching-kit/why-i-recommend-the-seestar-s30-plus-smart-telescope-for-beginners-full-review",
-      "image": "/images/feed/feed-931a44a5e56a.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-356869b519bd",
-      "title": "Horizon Microtechnologies Targets Constellation-Scale Production As Esa Phi-Lab Selection Strengthens Industrialisation Push",
-      "excerpt": "(Karlsruhe, Germany, September 29th 2026) Horizon Microtechnologies is accelerating industrialisation of its metallised polymer micro-additive manufacturing platform through IP-MASS, a two-year scale-…",
-      "body": "(Karlsruhe, Germany, September 29th 2026) Horizon Microtechnologies is accelerating industrialisation of its metallised polymer micro-additive manufacturing platform through IP-MASS, a two-year scale-up project supported by €500,000 and reinforced by selection [&#8230;] The post Horizon Microtechnologies Targets Constellation-Scale Production As Esa Phi-Lab Selection Strengthens Industrialisation Push appeared first on SpaceNews .",
-      "author": "Horizon Microtechnologies",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://spacenews.com/horizon-microtechnologies-targets-constellation-scale-production-as-esa-phi-lab-selection-strengthens-industrialisation-push/",
-      "image": "/images/feed/feed-356869b519bd.png",
-      "source": "SpaceNews",
-      "isLive": true
-    },
-    {
-      "id": "feed-73ff5e5cc995",
-      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-      "excerpt": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerab…",
-      "body": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerab — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Zero-day, Security. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sergiu Gatlan",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Zero-day",
-        "Security"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-      "image": "/images/feed/feed-73ff5e5cc995.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-76db4888ae75",
-      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-      "excerpt": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the socia…",
-      "body": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-      "image": "/images/feed/feed-76db4888ae75.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-a7625bc6a39c",
-      "title": "Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nasa. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "eyvindn",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://pietromiotti.com/latest/maya-site/?maya",
-      "image": "/images/feed/feed-a7625bc6a39c.jpg",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-7b0c837fc2da",
-      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
-      "excerpt": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
-      "body": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Paresh Dave, Caroline Haskins",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
-      "image": "/images/feed/feed-7b0c837fc2da.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-651a0fccfdbb",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "excerpt": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
-      "body": "A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.\n\nThis report, published by Google AI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Google AI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Google AI Blog",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp",
-      "source": "Google AI Blog",
-      "isLive": true
-    },
-    {
-      "id": "feed-55a31f644627",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "excerpt": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "body": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Chatgpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "OpenAI Blog",
-      "date": "2026-11-11",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Chatgpt"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "image": "/images/topics/topic-ai-ml.png",
-      "source": "OpenAI Blog",
-      "isLive": true
     }
   ],
   "breakingNews": [
     "OPENAI BLOG: Gilbert + Tobin rethinks the business of law with AI",
-    "DEV.TO: DAC vs AOC vs Optic: Picking the Right Short Link in the Rack",
-    "DEV.TO: Aggregates στο DDD: πότε στα reads και πότε στα writes με C# και .NET",
-    "DEV.TO: Madrina: A Career Coach for Women Engineers 💛",
-    "DEV.TO: Proving AOS-8 remediation after CVE-2026-79868",
-    "DEV.TO: Erase unwanted objects from a photo for free: a 3-minute workflow (and where AI fails)",
-    "DEV.TO: I built a spam-check that reads your email like a tired filter would",
-    "DEV.TO: An SSH honeypot on my own server: 24,000 sessions in five days and one very stubborn bot",
-    "ANDROID AUTHORITY: Google Home bug leaves Nest camera notifications without video previews",
-    "ANDROID AUTHORITY: OpenAI is sunsetting ChatGPT Advanced and Standard voice next month"
+    "DEV.TO: How to get the full article text from an RSS feed (measured on 32 feeds: 13 need the web page)",
+    "DEV.TO: Nebula Lighthouse discovery: when the product count is mostly page-title noise",
+    "BLEEPINGCOMPUTER: Baker Tilly notifies clients of data breach at third-party provider",
+    "DEV.TO: How to Extract Emails From a Website List (Plus Phones and Socials)",
+    "KOTAKU: Hey, Nintendo, What’s Going On With Zelda: Ocarina Of Time’s Most Insufferable Couple?",
+    "DEV.TO: Your agent's regression test should fail on the old code",
+    "DEV.TO: 5 Cognitive Distortions That Hit When Debugging (And How to Break Them) — Part 2",
+    "DEV.TO: 🔐 EstadoSeguro: análisis automatizado de vulnerabilidades web con Nuclei, GitHub Actions y Render",
+    "DEV.TO: Security Is an Architectural Decision, Not a Finishing Touch"
   ],
   "sectionVideos": {}
 }
