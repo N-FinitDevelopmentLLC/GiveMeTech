@@ -1,32 +1,31 @@
 {
-  "fetchedAt": "2026-11-13T18:15:28.207Z",
+  "fetchedAt": "2026-11-14T00:00:25.671Z",
   "articles": [
     {
-      "id": "feed-39efdd1ca085",
-      "title": "Tesla stops selling every Cybertruck except the $109,990 Cyberbeast",
-      "excerpt": "Tesla is now only selling one version of the Cybertruck in the US: the tri-motor Cyberbeast, which just got another $7,500 price hike to $109,990. The Dual Motor and Premium AWD trims are still listed…",
-      "body": "Tesla is now only selling one version of the Cybertruck in the US: the tri-motor Cyberbeast, which just got another $7,500 price hike to $109,990. The Dual Motor and Premium AWD trims are still listed on Tesla’s configurator, but both are greyed out and can’t be selected. So the cheapest Cybertruck you can order today costs $109,990, up 57% from $69,990 in early August. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-13",
+      "id": "feed-fdff8d1e3858",
+      "title": "Reject a Stale In-Memory Update with a Revision Check Inside the Lock",
+      "excerpt": "Two editors read the same value and independently prepare replacements. Serializing only the final assignment prevents overlapping writes but still permits a stale editor to overwrite the newer result…",
+      "body": "Two editors read the same value and independently prepare replacements. Serializing only the final assignment prevents overlapping writes but still permits a stale editor to overwrite the newer result. The acceptance condition has to be checked together with the assignment. This example keeps an integer revision beside an immutable string payload. A replacement supplies the revision it read. Under one lock, the cell compares that expectation, either rejects the update or assigns the value, and advances the revision. Compare and replace in one critical section The Python lock reference describes primitive locking. The application-level revision rule here is additional policy.",
+      "author": "TokenPeak",
+      "date": "2026-11-14",
       "readTime": "2 min",
-      "section": "cars",
+      "section": "software",
       "tags": [
-        "Cybertruck",
-        "Tesla"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 31,
-      "url": "https://electrek.co/2026/11/13/tesla-only-sells-cybertruck-cyberbeast-109990/",
-      "image": "/images/feed/feed-39efdd1ca085.jpg",
-      "source": "Electrek",
+      "xpReward": 53,
+      "url": "https://dev.to/tokenpeakai/reject-a-stale-in-memory-update-with-a-revision-check-inside-the-lock-1741",
+      "image": "/images/feed/feed-fdff8d1e3858.webp",
+      "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-77d17748d9b6",
-      "title": "El job que audita tus dependencias tenía permiso de escritura",
-      "excerpt": "El número 49 hallazgos sobre 36 workflows leídos, en una sola pasada estática. De esos 36 workflows, 26 La cifra no viene de una corazonada ni de una captura de pantalla. Esa misma medición se corrió…",
-      "body": "El número 49 hallazgos sobre 36 workflows leídos, en una sola pasada estática. De esos 36 workflows, 26 tienen al menos un hallazgo: 1 crítico, 23 de severidad alta y 25 de severidad baja. La cifra no viene de una corazonada ni de una captura de pantalla. Esa misma medición se corrió antes sobre el commit eaa56e88 y volvió a correrse el 13 de noviembre sobre 7f1785ea : los dos sujetos dieron 49 hallazgos, 24 fallos y 25 revisiones. Cuando un instrumento repite el número sobre dos árboles distintos, el número deja de ser una opinión sobre ese commit y pasa a ser una propiedad de esa configuración. El caso que no es higiene .github/workflows/npm-audit-claude-remediation.yml , job remediate .",
-      "author": "Alexis Román",
+      "id": "feed-4505d6911153",
+      "title": "Sobrevendido não é sinal de compra: um dia inteiro parado no dólar (#13)",
+      "excerpt": "Sobrevendido não é sinal de compra: um dia inteiro parado no dólar (#13) Em 13 de novembro de 2026, uma sexta-feira, eu não fiz nenhuma operação. O caixa passou o dia inteiro em USDT, o dólar digital,…",
+      "body": "Sobrevendido não é sinal de compra: um dia inteiro parado no dólar (#13) Em 13 de novembro de 2026, uma sexta-feira, eu não fiz nenhuma operação. O caixa passou o dia inteiro em USDT, o dólar digital, enquanto o Bitcoin seguia caindo. E ficar parado também foi uma decisão. O que o mercado fez O Bitcoin perdeu os 70 mil dólares de madrugada e chegou a 67.568. Foram cerca de US$ 1,64 bilhão em liquidações, e o índice de medo e ganância marcou 20: medo extremo. Às 10h30 saiu um dado de inflação dos Estados Unidos (o índice de preços ao produtor). Houve um repique até perto de 70.214, mas ele falhou, e o preço voltou a fazer topos mais baixos. Depois das 13h, o Bitcoin ficou de lado entre cerca de 68,4 mil e 69,1 mil, com volume caindo. As bolsas americanas também caíram.",
+      "author": "Leonardo Branco",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "software",
@@ -34,75 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/alexisromtz7/el-job-que-audita-tus-dependencias-tenia-permiso-de-escritura-15p8",
-      "image": "/images/feed/feed-77d17748d9b6.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/leovbranco/sobrevendido-nao-e-sinal-de-compra-um-dia-inteiro-parado-no-dolar-13-4igp",
+      "image": "/images/feed/feed-4505d6911153.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-e6a040763edb",
-      "title": "Restaurant Menu Assistant: 4 Retrieval Metadata Filters for Fresh Citations",
-      "excerpt": "Short answer: use a versioned vector index for stable menu text, attach metadata that can be filtered at query time, and add a live source path for facts that change during service. The right design i…",
-      "body": "Short answer: use a versioned vector index for stable menu text, attach metadata that can be filtered at query time, and add a live source path for facts that change during service. The right design is a contract, not a vendor checkbox. I build tools for other developers, so my first test is boring: can I make the first correct call without a pile of configuration? For a restaurant menu assistant, “correct” means more than a plausible dish description. The answer needs a current location, meal period, dietary labels, and a source identifier that a reviewer can open. Freshness and citation quality are coupled; pretending they are separate creates a demo that lies. Start with a retrieval contract Write the answer shape before choosing a search engine.",
-      "author": "RhysFalconer159",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/rhysfalconer159/restaurant-menu-assistant-4-retrieval-metadata-filters-for-fresh-citations-5oh",
-      "image": "/images/feed/feed-e6a040763edb.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-699cb44a9aee",
-      "title": "Split a large CSV into smaller files and keep the header in each (Python, no dependencies)",
-      "excerpt": "Some tools (older import forms, email services, spreadsheet apps) choke on big CSV files. A common fix is to split the file into smaller parts, with the header row repeated in every part. Here is a sm…",
-      "body": "Some tools (older import forms, email services, spreadsheet apps) choke on big CSV files. A common fix is to split the file into smaller parts, with the header row repeated in every part. Here is a small script that does exactly that using only Python's standard library. Why not just split -l ? The Unix split command cuts by line count. That breaks in two ways: The header only ends up in the first file. A quoted field that contains a line break can be cut in half. Python's csv module reads whole records, so multi-line fields stay intact. The script import csv import sys from pathlib import Path def split_csv ( src , rows_per_file , out_dir = \".\" ) : src = Path ( src ) out_dir = Path ( out_dir ) out_dir . mkdir ( parents = True , exist_ok = True ) written = [ ] with src .",
-      "author": "BotHot",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Python"
-      ],
-      "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/steven_keil_cb87a560f87f0/split-a-large-csv-into-smaller-files-and-keep-the-header-in-each-python-no-dependencies-3gio",
-      "image": "/images/feed/feed-699cb44a9aee.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-512dd79f48a8",
-      "title": "From Prompt to Production: Why I Built Code Ghost for Instant Component Prototyping",
-      "excerpt": "html Introducing Code Ghost: Instant UI Prototyping /* Clean, Dev.to-inspired editorial typography & layout */ :root { --bg-page: #f8fafc; --bg-card: #ffffff; --text-primary: #0f172a; --text-body: #33…",
-      "body": "html &lt;!DOCTYPE html&gt; &lt;html lang = \"en\" &gt; &lt;head&gt; &lt;meta charset = \"UTF-8\" /&gt; &lt;meta name = \"viewport\" content = \"width=device-width, initial-scale=1.0\" /&gt; &lt;title&gt; Introducing Code Ghost: Instant UI Prototyping &lt;/title&gt; &lt;meta name = \"description\" content = \"Code Ghost is a mobile-first HTML, CSS, Tailwind CSS, and JavaScript component workbench engineered for rapid UI prototyping, visual token tuning, and zero-friction static export.\" /&gt; &lt;meta name = \"keywords\" content = \"Code Ghost, UI prototyping, frontend workbench, Tailwind CSS, HTML component builder, AI code generator, live preview, web development, Digital Ghost\" /&gt; &lt;meta name = \"author\" content = \"Digital Ghost\" /&gt; &lt;meta name = \"robots\" content = \"index, follow\" /&gt; &lt;l…",
-      "author": "Digital Ghost",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/digitalgh0st/from-prompt-to-production-why-i-built-code-ghost-for-instant-component-prototyping-4479",
-      "image": "/images/feed/feed-512dd79f48a8.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-be9d44b9ea59",
-      "title": "I built a finance engine that reconciles bank emails, SMS and PDF statements into one ledger",
-      "excerpt": "Every month I had the same problem: my money lives in three places — HBL, ABL and NayaPay — and no single app shows the whole picture. Transfers arrive as emails, card spends arrive as SMS, and the \"o…",
-      "body": "Every month I had the same problem: my money lives in three places — HBL , ABL and NayaPay — and no single app shows the whole picture. Transfers arrive as emails, card spends arrive as SMS, and the \"official\" record only shows up weeks later in a PDF statement. So I built FinSync : a personal finance engine that pulls transactions from every channel, collapses duplicates, reconciles them against bank statements, and turns it all into one clean ledger with analytics and a forecast. 👉 Live demo (no signup): https://finsync-green.vercel.app — click \"View live demo\" 👉 Source: https://github.com/danishzulfiqar/FinSync The problem: no bank APIs in Pakistan In the US or Europe, a budgeting app connects to your bank in two clicks through Plaid , TrueLayer or a PSD2 open-banking API.",
-      "author": "Danish Zulfiqar",
+      "id": "feed-132f13ca5ff7",
+      "title": "Transactional Email Explained — 3 Evidence Checks for Marketplace Receipts",
+      "excerpt": "The page should tell the marketplace on-call which settled orders lack receipt evidence, how old the oldest gap is, and whether the gap sits before or after the email provider handoff. Start with a se…",
+      "body": "The page should tell the marketplace on-call which settled orders lack receipt evidence, how old the oldest gap is, and whether the gap sits before or after the email provider handoff. Start with a settlement-to-receipt ledger and a transactional email API; that is the least complex design worth evaluating before adding channel orchestration. TL;DR: Choose a transactional email service by the evidence you can retain after payment settles. Check the order-to-request link, the provider handoff, and the age of missing delivery evidence. A low send charge cannot establish any of those. An accepted API request is a useful checkpoint, but it does not prove that a buyer received a receipt.",
+      "author": "knoxblackwood2375",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "software",
@@ -111,17 +53,74 @@
       ],
       "featured": true,
       "xpReward": 39,
-      "url": "https://dev.to/danishzulfiqar/i-built-a-finance-engine-that-reconciles-bank-emails-sms-and-pdf-statements-into-one-ledger-69",
-      "image": "/images/feed/feed-be9d44b9ea59.webp",
+      "url": "https://dev.to/knoxblackwood2375/transactional-email-explained-3-evidence-checks-for-marketplace-receipts-2bfk",
+      "image": "/images/feed/feed-132f13ca5ff7.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-205bdcebcfd0",
-      "title": "My weather model said 0%. The market said 90%. The market was right, because of rounding.",
-      "excerpt": "I run a small tool that prices Kalshi's daily temperature markets (\"Will the low in Atlanta tomorrow be 49° to 50°?\") against a weather forecast. For each bracket it computes a forecast probability an…",
-      "body": "I run a small tool that prices Kalshi's daily temperature markets (\"Will the low in Atlanta tomorrow be 49° to 50°?\") against a weather forecast. For each bracket it computes a forecast probability and puts it next to the market's price. Where the two disagree, that's the interesting row. On November 11 one row disagreed about as much as a row can: Atlanta, daily low, bracket 49° to 50° market: 90% my model: 0% observed low so far: 48.2°F The logic looked airtight. The low for the day had already reached 48.2°F. A low can only go down from there, so it can't end up between 49 and 50. Zero percent. The market was pricing 90% with real money behind it. When a model says \"impossible\" and the market says \"very likely,\" the model is usually the one that's wrong. Here it was.",
-      "author": "Ken-Mutisya",
+      "id": "feed-086b4f23094f",
+      "title": "Architecting Offline Geofencing Without Draining the Battery",
+      "excerpt": "It happened during a quiet afternoon at the mosque. The imam was midway through a profound point, the room was silent, and suddenly, my pocket erupted with an aggressive ringtone. Every head turned. M…",
+      "body": "It happened during a quiet afternoon at the mosque. The imam was midway through a profound point, the room was silent, and suddenly, my pocket erupted with an aggressive ringtone. Every head turned. My face burned, and for the rest of the prayer, I couldn't focus on anything other than the sheer embarrassment of having interrupted a space meant for peace. I reached into my pocket, fumbled with the volume rockers, and finally silenced it, but the damage was done. I knew there had to be a way to prevent this for everyone. That moment of friction isn't unique; it is a universal annoyance. We live in a world of constant digital interruption. We attend meetings, medical appointments, classes, and solemn events, yet we rely on our own flawed human memory to manually adjust our sound profiles.",
+      "author": "Haseeb",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 53,
+      "url": "https://dev.to/haseebthedev0/architecting-offline-geofencing-without-draining-the-battery-2da4",
+      "image": "/images/feed/feed-086b4f23094f.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-46933886960d",
+      "title": "You open a new card for the $200 welcome bonus while carrying the $4,100: the bonus costs $385.51",
+      "excerpt": "Same debt as the earlier examples: $4,100 on a card at 18.9% APR, no new charges. Paying a fixed $230 a month, on time, takes 22 months and $751 of interest, $4,850.59 total. This one adds a mailbox o…",
+      "body": "Same debt as the earlier examples: $4,100 on a card at 18.9% APR, no new charges. Paying a fixed $230 a month, on time, takes 22 months and $751 of interest, $4,850.59 total. This one adds a mailbox offer. A no-annual-fee cash-back card — the Chase Freedom Flex is the usual example — pays a $200 bonus after $500 in purchases in the first 3 months, with 0% intro APR for 15 months, then 18.49% to 27.99% variable. Those are the published terms, checked November 2026. Two hundred dollars for spending you were going to do anyway sounds like free money. The question is whether the spending was actually spending you were going to do anyway — and what happens to the $230 a month while the new card is open.",
+      "author": "alapha888",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 48,
+      "url": "https://dev.to/alapha888/you-open-a-new-card-for-the-200-welcome-bonus-while-carrying-the-4100-the-bonus-costs-38551-209j",
+      "image": "/images/feed/feed-46933886960d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-250665075df0",
+      "title": "Five Checks for Fintech Knowledge-Bot Retrieval Architecture and Audit Logs",
+      "excerpt": "Short answer: for a fintech engineering knowledge bot, use durable vector retrieval for controlled documentation, add live retrieval only for genuinely changing context, and make every chunk, decision…",
+      "body": "Short answer: for a fintech engineering knowledge bot, use durable vector retrieval for controlled documentation, add live retrieval only for genuinely changing context, and make every chunk, decision, and citation traceable in an audit log. The least complex design that survives an audit is a two-lane pipeline: an indexed lane for reviewed runbooks and a live lane for current operational notices. Route each question by its freshness contract. Do not let a live result silently replace a reviewed source.",
+      "author": "RadcliffBarrett4718",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 52,
+      "url": "https://dev.to/radcliffbarrett4718/five-checks-for-fintech-knowledge-bot-retrieval-architecture-and-audit-logs-3994",
+      "image": "/images/feed/feed-250665075df0.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-2439a4bf44ea",
+      "title": "Page tables in plain words",
+      "excerpt": "Page tables in plain words A program never touches real memory addresses. It uses virtual addresses, and the CPU translates each one to a physical address before the access happens. Page tables are th…",
+      "body": "Page tables in plain words A program never touches real memory addresses. It uses virtual addresses, and the CPU translates each one to a physical address before the access happens. Page tables are the data the CPU reads to do that translation. They are not code. They are tables in memory, written by the kernel, read by the hardware on every access. That split is the whole idea. The kernel decides which virtual pages map to which physical pages, and with what permissions. The CPU enforces the decision on every load and store. One address, two parts Translation works at page granularity. On x86-64 a normal page is 4096 bytes. The low 12 bits of a virtual address are the offset inside the page, and they pass through unchanged. The remaining bits are an index chain.",
+      "author": "Parsa Aftabi",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "software",
@@ -130,36 +129,36 @@
       ],
       "featured": false,
       "xpReward": 40,
-      "url": "https://dev.to/scrapemint/my-weather-model-said-0-the-market-said-90-the-market-was-right-because-of-rounding-5cdc",
-      "image": "/images/feed/feed-205bdcebcfd0.webp",
+      "url": "https://dev.to/parsaaftabi/page-tables-in-plain-words-2kn4",
+      "image": "/images/feed/feed-2439a4bf44ea.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-f1ac841f0837",
-      "title": "I ran a small fitness community for a month. The coaching hub was the part worth building.",
-      "excerpt": "I help run a small training group — a few dozen members, one other coach. We'd been doing it through a group chat and a shared spreadsheet, which broke down the moment someone missed a week and we cou…",
-      "body": "I help run a small training group — a few dozen members, one other coach. We'd been doing it through a group chat and a shared spreadsheet, which broke down the moment someone missed a week and we couldn't tell who was coasting versus who'd quietly quit. So I looked at a coaching hub built for exactly this: member programs, check-ins, a coach dashboard, a community feed, and progress tracking. This is a tool for organizers, not a fitness authority. It doesn't train anyone; it makes a trainer's admin work legible. What the hub actually replaces The spreadsheet was our source of truth and our bottleneck. Check-ins lived in chat, progress lived in screenshots, and the coach dashboard we wished we had was a dashboard we never built.",
-      "author": "LXSAIHUB",
+      "id": "feed-c62d0114d360",
+      "title": "Microsoft On FAA Ground Stop: It Wasn’t Me",
+      "excerpt": "The cause is still unknown",
+      "body": "The cause is still unknown\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
       "date": "2026-11-13",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gaming",
       "tags": [
-        "Software"
+        "Gaming"
       ],
       "featured": false,
-      "xpReward": 35,
-      "url": "https://dev.to/lixingliangsy/i-ran-a-small-fitness-community-for-a-month-the-coaching-hub-was-the-part-worth-building-2m76",
-      "image": "/images/feed/feed-f1ac841f0837.webp",
-      "source": "Dev.to",
+      "xpReward": 34,
+      "url": "https://kotaku.com/microsoft-on-faa-ground-stop-it-wasnt-me-2000756749",
+      "image": "/images/feed/feed-c62d0114d360.jpg",
+      "source": "Kotaku",
       "isLive": true
     },
     {
-      "id": "feed-77843c0df2f8",
-      "title": "Recompa simplifies Android handheld installs so you can spend more time playing",
-      "excerpt": "Recompa aims to make your life easier by simplifying Android handheld installs.",
-      "body": "Credit: Nathan Lohnes TL;DR Recompa is an app that finds and installs decompilations and native ports that work with Android devices and handhelds. The app provides a more seamless way to search for and install games and apps than looking through GitHub. While it’s designed for handhelds, it also works with phones and tablets. Now that all colors of the Retroid Pocket Duo are shipping , it’s time to start thinking about the games you’ll put on it. While GitHub has thousands of decompilations to choose from, finding and downloading the files you want can be a burdensome task. If you’re not all that familiar with using GitHub, there’s something you can use to make searching for and installing games on your Android handheld much easier.",
-      "author": "Ryan McNeal",
+      "id": "feed-f8a5d2e0f5a5",
+      "title": "Tested in the wild: Best survival tech!",
+      "excerpt": "Our team of intrepid adventurers went out into the Canadian wilderness to test some of the best outdoor tech you can buy.",
+      "body": "The whole point of camping is supposed to be getting away from technology. We did the opposite. We headed into the mountains with a bag full of outdoor tech to see which gadgets actually earn their place in a camping kit. We packed gear to keep us powered, online, fed, and hydrated, plus a few things to help out on the trail. Some of it is genuinely useful, some of it is delightfully over the top, and one phone can quite literally light your campfire. Here’s everything we brought and how it held up.",
+      "author": "Team AA",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "gadgets",
@@ -167,37 +166,57 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
-      "url": "https://www.androidauthority.com/recompa-android-app-for-handhelds-3735102/",
-      "image": "/images/feed/feed-77843c0df2f8.jpg",
+      "xpReward": 30,
+      "url": "https://www.androidauthority.com/tested-in-the-wild-best-survival-tech-3735211/",
+      "image": "/images/feed/feed-f8a5d2e0f5a5.jpg",
       "source": "Android Authority",
       "isLive": true
     },
     {
-      "id": "feed-86e7138c1909",
-      "title": "9to5Mac Daily: November 13, 2026 – New Apple TV 4K and HomeView now available",
-      "excerpt": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca…",
-      "body": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
-      "author": "Seth Kurkowski",
+      "id": "feed-531d5babca01",
+      "title": "SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)",
+      "excerpt": "SpaceX's Starship megarocket reached orbit today (Nov. 13) during its 15th test flight, but the company scrapped a plan to catch the vehicle's massive booster back at the launch site.",
+      "body": "STARBASE, Texas — SpaceX launched the 15th test flight of its massive Starship rocket today (Nov. 13) and is preparing the vehicle's upper stage for its first-ever return to the launch site in less than 24 hours. Flight 15 lifted off from SpaceX 's Starbase facility here in South Texas at 5:47 p.m. ET (2247 GMT; 4:47 p.m. local Texas time). The towering Super Heavy booster and Ship upper stage cleared the tower without incident and climbed into the skies under more than 18 million pounds of thrust from the booster's 33 Raptor 3 engines. The flight continued nominally through its initial ascent, with the successful execution of Super Heavy's main engine cutoff and Ship's subsequent hot-staging — firing its own Raptors during separation from the booster — about 2.5 minutes after launch.",
+      "author": " Josh Dinner ",
       "date": "2026-11-13",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "space",
       "tags": [
-        "Gadgets"
+        "Spacex",
+        "Starship"
       ],
       "featured": false,
-      "xpReward": 49,
-      "url": "https://9to5mac.com/2026/11/13/daily-november-13-2026/",
-      "image": "/images/feed/feed-86e7138c1909.jpg",
-      "source": "9to5Mac",
+      "xpReward": 42,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
+      "image": "/images/feed/feed-531d5babca01.jpg",
+      "source": "Space.com",
       "isLive": true
     },
     {
-      "id": "feed-3d58596f44d5",
-      "title": "All rupee wallet upgrade locations in Zelda Ocarina of Time",
-      "excerpt": "Learn where to find all the rupee wallet upgrades in The Legend of Zelda: Ocarina of Time remake and how to increase Link's rupee cap.",
-      "body": "Upgrading the r upee wallet allows you to hold five times the original amount of rupees in The Legend of Zelda: Ocarina of Time remake. As things have gotten a bit pricier Hyrule, you'll need a larger rupee wallet if you want to purchase everything you need, like the abilities given to you by the Great Fairies .",
-      "author": "Paulo Kawanishi",
+      "id": "feed-bee82eea851e",
+      "title": "Hydropower Generation in the Southwest Fell to Record Lows This Summer",
+      "excerpt": "Prolonged drought conditions affecting the Colorado River Basin led to record low hydropower generation this summer in the Southwestern electricity supply region, which includes Arizona, New Mexico, a…",
+      "body": "Prolonged drought conditions affecting the Colorado River Basin led to record low hydropower generation this summer in the Southwestern electricity supply region, which includes Arizona, New Mexico, and small parts of Nevada and California. Hydropower generation from April through August 2026 was 19% lower than during the same period last ... [continued] The post Hydropower Generation in the Southwest Fell to Record Lows This Summer appeared first on CleanTechnica .",
+      "author": "US Energy Information Administration",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://cleantechnica.com/2026/11/13/hydropower-generation-in-the-southwest-fell-to-record-lows-this-summer/",
+      "image": "/images/feed/feed-bee82eea851e.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-1c590d2f1ac6",
+      "title": "Blizzard Officially Responds to Disappointed Overwatch Fans Over Hero 55",
+      "excerpt": "Overwatch's next hero, Hudson, will be a Damage (DPS) character, not a support. Fans are disappointed by the switch and Blizzard is responding.",
+      "body": "Blizzard Entertainment is about to make good on the promise of delivering 10 new heroes to Overwatch in 2026, with the final addition arriving in December. The 10th new hero coming to Overwatch in 2026 is an Omnic detective named Hudson, and he'll arrive alongside the launch of season 6. Hudson was officially revealed on Thursday, but many Overwatch fans aren't pleased with a key aspect of his character.",
+      "author": "Michael McWhertor",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "gaming",
@@ -206,55 +225,36 @@
       ],
       "featured": false,
       "xpReward": 32,
-      "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-rupee-wallet-upgrade-locations/",
-      "image": "/images/feed/feed-3d58596f44d5.jpg",
+      "url": "https://www.polygon.com/overwatch-new-hero-55-hudson-damage-dps-blizzard/",
+      "image": "/images/feed/feed-1c590d2f1ac6.jpg",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-fed9ad4633c0",
-      "title": "Commercial Space Federation Welcomes CesiumAstro as a New Associate Member",
-      "excerpt": "November 13, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome CesiumAstro as its newest Associate Member. A global leader in advanced connectivity solutions for the s…",
-      "body": "November 13, 2026— Washington, D.C.—The Commercial Space Federation (CSF) is pleased to welcome CesiumAstro as its newest Associate Member. A global leader in advanced connectivity solutions for the space and [&#8230;] The post Commercial Space Federation Welcomes CesiumAstro as a New Associate Member appeared first on SpaceNews .",
-      "author": "Commercial Space Federation",
+      "id": "feed-78eabc35a429",
+      "title": "Your Holiday Gifts Don’t Have To Be Delivered By Diesel",
+      "excerpt": "The 2026 holiday shopping season is soon to be upon us, with gift buyers and bargain hunters perusing stores in person and online. Behind the scenes, the US freight system has been working hard to tra…",
+      "body": "The 2026 holiday shopping season is soon to be upon us, with gift buyers and bargain hunters perusing stores in person and online. Behind the scenes, the US freight system has been working hard to transport the goods and gifts, traveling mostly by truck as they make their way through ... [continued] The post Your Holiday Gifts Don’t Have To Be Delivered By Diesel appeared first on CleanTechnica .",
+      "author": "Guest Contributor",
       "date": "2026-11-13",
       "readTime": "2 min",
-      "section": "space",
+      "section": "cars",
       "tags": [
-        "Space"
+        "Cars"
       ],
       "featured": false,
-      "xpReward": 49,
-      "url": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
-      "image": "/images/feed/feed-fed9ad4633c0.jpg",
-      "source": "SpaceNews",
+      "xpReward": 50,
+      "url": "https://cleantechnica.com/2026/11/13/your-holiday-gifts-dont-have-to-be-delivered-by-diesel/",
+      "image": "/images/feed/feed-78eabc35a429.jpg",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
-      "id": "feed-469d6b54ab78",
-      "title": "'Martian Isolation' is an upcoming sci-fi survival horror game that looks like 'The Martian' and 'Event Horizon' had a horrific child",
-      "excerpt": "It looks like 'The Martian,' but due to international copyright laws, it's not.",
-      "body": "\"Martian Isolation\" is an upcoming single-player, first-person survival horror game that's just been revealed with a suitably creepy launch trailer. And yes, it does look an awful lot like \" The Martian ,\" doesn't it? There's a lot of survival gameplay on display here that mirrors Mark Watney's tale of survival on the Red Planet, as your stranded protagonist is forced to explore the Martian surface to acquire resources, grow plants, and repair their base. That comparison to Andy Weir's sci-fi masterpiece does fall away as you get further into the trailer, though, when the horror part of the game's description comes into play: Flickering lights, creepy figures stalking the halls of your Martian habitat, and blood dripping from the walls.",
-      "author": " Ian Stokes ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.space.com/entertainment/space-games/martian-isolation-is-an-upcoming-sci-fi-survival-horror-game-that-looks-like-the-martian-and-event-horizon-had-a-horrific-child",
-      "image": "/images/feed/feed-469d6b54ab78.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-2e726a35fdb9",
-      "title": "Pixel users report workplace and school Wi-Fi connectivity issues after November update",
-      "excerpt": "Google is looking into the complaints.",
-      "body": "TL;DR Google’s November 2026 Pixel update appears to be causing enterprise Wi-Fi connectivity issues for some users. Affected Pixel owners report being unable to connect to workplace Wi-Fi networks, with some seeing “Saved/Connection failure” errors. Google is investigating the complaints, but there’s no confirmed workaround or timeline for a fix yet. Google Pixel users are reporting a new bug that’s causing enterprise Wi-Fi connectivity issues, and I’m now officially running out of fingers on both hands to count all the bugs and glitches that have surfaced since Google’s November 2026 update. The update has seemingly broken wireless charging for some, cameras for others , and it’s even causing screensavers to stay unusually bright at night, among a slew of other issues.",
-      "author": "Karandeep Singh Oberoi",
+      "id": "feed-912e672b7d99",
+      "title": "Some international physical copies of GTA VI can allegedly be redeemed without opening the box",
+      "excerpt": "The box was already for decoration, and now maybe more so.",
+      "body": "The box was already for decoration, and now maybe more so.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Ian Carlos Campbell)",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "gadgets",
@@ -262,18 +262,56 @@
         "Gadgets"
       ],
       "featured": false,
+      "xpReward": 34,
+      "url": "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/",
+      "image": "/images/feed/feed-912e672b7d99.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-690a44c21f9e",
+      "title": "Claude Meetings",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "hmokiguess",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://claude.com/resources/articles/claude-meetings",
+      "image": "/images/feed/feed-690a44c21f9e.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-690adefa66cf",
+      "title": "Ask a Scientist: Who Has a Voice in Clean Air Protections?",
+      "excerpt": "If developers and planners decide to site an industrial chemical plant next door to your home, you’d want the chance to speak up about it. Soliciting input from the communities and individuals affecte…",
+      "body": "If developers and planners decide to site an industrial chemical plant next door to your home, you’d want the chance to speak up about it. Soliciting input from the communities and individuals affected by pollution is an essential part of how environmental and public health laws are enforced. Under the ... [continued] The post Ask a Scientist: Who Has a Voice in Clean Air Protections? appeared first on CleanTechnica .",
+      "author": "Guest Contributor",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
       "xpReward": 46,
-      "url": "https://www.androidauthority.com/google-pixel-november-update-enterprise-wifi-issues-3735105/",
-      "image": "/images/feed/feed-2e726a35fdb9.jpg",
-      "source": "Android Authority",
+      "url": "https://cleantechnica.com/2026/11/13/ask-a-scientist-who-has-a-voice-in-clean-air-protections/",
+      "image": "/images/feed/feed-690adefa66cf.jpg",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
-      "id": "feed-ad1dcdb4d3eb",
-      "title": "Dragon Age Modders Are Rushing to Save the Series’ Most Iconic Feature",
-      "excerpt": "Dragon Age fans have rushed to save the series’ save import feature, which was handled by the now-shuttered BioWare.",
-      "body": "One of the Dragon Age series' most well-known features is now safe, thanks to the efforts of a modder. After EA shut down BioWare a few weeks ago , many fans realized the studio’s closure probably meant it would soon become impossible to easily port save data between all the games.",
-      "author": "Elijah Gonzalez",
+      "id": "feed-2096b87dbc65",
+      "title": "The Hater’s Guide To Ocarina Of Time",
+      "excerpt": "Stay strong, fellow Ocarina antagonists, we will get through this",
+      "body": "Stay strong, fellow Ocarina antagonists, we will get through this\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ash Parrish",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "gaming",
@@ -281,36 +319,17 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 33,
-      "url": "https://www.polygon.com/dragon-age-modders-import-save-states/",
-      "image": "/images/feed/feed-ad1dcdb4d3eb.jpg",
-      "source": "Polygon",
+      "xpReward": 54,
+      "url": "https://kotaku.com/the-haters-guide-to-ocarina-of-time-2000756728",
+      "image": "/images/feed/feed-2096b87dbc65.jpg",
+      "source": "Kotaku",
       "isLive": true
     },
     {
-      "id": "feed-389a425c19b5",
-      "title": "Walmart's Black Friday Deals: 'Pokémon' 30th Anniversary and TCG Surprises",
-      "excerpt": "Walmart is stocking Pokémon 30th Anniversary TCG products and holding a drawing for UPCs at a great price compared to Target and GameStop",
-      "body": "Black Friday is coming early for Walmart shoppers who like to play or collect the Pokémon Trading Card Game. The retailer is stocking a few TCG products beginning on Thursday, Nov. 12, including the hard-to-find Pokémon 30th Anniversary set. The retailer will also continue the discounted festivities later in Nov. with an additional Pokémon TCG drop.",
-      "author": "Patricia Hernandez",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.polygon.com/walmart-black-friday-2026-pokemon-30th-anniversary-tcg-event-2-near-me/",
-      "image": "/images/feed/feed-389a425c19b5.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-2ace988cc4f2",
-      "title": "Hyundai is overhauling the Kona, and it looks like it may still be offered as an EV after all",
-      "excerpt": "Hyundai is skipping the typical mid-cycle refresh and plans to launch a completely redesigned Kona, with a sleek new style and an updated high-tech interior. more…",
-      "body": "Hyundai is skipping the typical mid-cycle refresh and plans to launch a completely redesigned Kona, with a sleek new style and an updated high-tech interior. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "id": "feed-7fc99964182c",
+      "title": "Volkswagen may have just hinted at the name of its next affordable EV",
+      "excerpt": "Volkswagen is getting ready to launch a new electric car starting at about €20,000 ($22,000) in 2027, and it looks like the entry-level EV may no longer be nameless. A newly filed trademark could have…",
+      "body": "Volkswagen is getting ready to launch a new electric car starting at about €20,000 ($22,000) in 2027, and it looks like the entry-level EV may no longer be nameless. A newly filed trademark could have — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "Peter Johnson",
       "date": "2026-11-13",
       "readTime": "2 min",
@@ -319,105 +338,394 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 54,
-      "url": "https://electrek.co/2026/11/13/hyundai-overhauling-kona-ev/",
-      "image": "/images/feed/feed-2ace988cc4f2.jpg",
+      "xpReward": 37,
+      "url": "https://electrek.co/2026/11/13/volkswagen-trademark-name-next-affordable-ev/",
+      "image": "/images/feed/feed-7fc99964182c.jpg",
       "source": "Electrek",
       "isLive": true
     },
     {
-      "id": "feed-1fe1a2809d51",
-      "title": "Garmin’s Vivoactive 6 fitness watch is $50 off on Amazon",
-      "excerpt": "Garmin's all-round AMOLED fitness watch, with 80+ sports modes and up to 11 days of battery, is down to $249.99.",
-      "body": "When we reviewed the Garmin Vivoactive 6, we called it the fitness tracker most amateur athletes should buy. It’s now $249.99 on Amazon , which is $50 (17%) off its $299.99 list price. See the deal at Amazon",
-      "author": "Matt Horne",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.androidauthority.com/garmin-vivoactive-6-deal-amazon-3735139/",
-      "image": "/images/feed/feed-1fe1a2809d51.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-7e255c229e90",
-      "title": "Do EVs Wear Tires Faster? Here's What The Studies Show",
-      "excerpt": "Extra weight and lots of instant power can shorten tire life. But the car, the rubber, and your right foot still matter.",
-      "body": "Extra weight and lots of instant power can shorten tire life. But the car, the rubber, and your right foot still matter.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://insideevs.com/features/815409/do-evs-wear-tires-quicker/",
-      "image": "/images/feed/feed-7e255c229e90.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-b388ae9b68e9",
-      "title": "Bose SoundLink Flex (2nd Gen) hits a record low with $60 off",
-      "excerpt": "Bose's rugged, floating Bluetooth speaker is down to $89 on Amazon in Blue Dusk, its lowest price yet.",
-      "body": "A small, tough Bluetooth speaker is one of the easiest gifts to get right, and Bose has just made one cheaper than ever. The Bose SoundLink Flex (2nd Gen) in Blue Dusk is $89 on Amazon , saving you $60 (40%) on its $149 list price. That’s a new record low, $10 below its previous best. See the deal at Amazon",
-      "author": "Matt Horne",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.androidauthority.com/bose-soundlink-flex-2nd-gen-deal-3735128/",
-      "image": "/images/feed/feed-b388ae9b68e9.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-3bb6a0ac84f3",
-      "title": "The VW ID. Buzz Is Getting A New Job As A Robotaxi",
-      "excerpt": "May Mobility plans to bring 10,000 driverless ID. Buzzes to a road near you.",
-      "body": "May Mobility plans to bring 10,000 driverless ID. Buzzes to a road near you.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://insideevs.com/news/815293/vw-volkswagen-id-buzz-robotaxi/",
-      "image": "/images/feed/feed-3bb6a0ac84f3.jpg",
-      "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-35cc5eee8fab",
-      "title": "Sony Officially Confirms New Platform for 2026 God of War Game",
-      "excerpt": "God of War Sons of Sparta is heading to PlayStation 4 as a huge update brings two new game modes to Kratos' prequel Metroidvania.",
-      "body": "God of War fans were treated to a surprise new game earlier this year. The retro-stylized Metroidvania God of War Sons of Sparta shadow-dropped during February's State of Play stream alongside the announcement that the original trilogy is getting remade . Sons of Sparta was released as a PlayStation 5 exclusive, but that will no longer be the case next week.",
-      "author": "Austin Manchester",
+      "id": "feed-2619883ba05e",
+      "title": "Some of These GTA 6 Clips Look So Good That I Don't Care If It's Running at 30 fps",
+      "excerpt": "Earlier this week, Rockstar confirmed that GTA 6 would be running at 30 fps on all of the consoles, including the PS5 Pro. And while I wasn't surprised, I've been watching some of the clips that have…",
+      "body": "This is an opinion piece by Jackie Thomas, IGN&#39;s Senior Tech Editor who has been writing about PC hardware for more than a decade. Earlier this week, Rockstar confirmed that GTA 6 would be running at 30 fps on all of the consoles , including the PS5 Pro. And while I wasn&#39;t surprised, I&#39;ve been watching some of the clips that have been trickling out this week, and I can&#39;t say I&#39;m not excited to play it, even at 30 fps. The one that really got my attention is this one from Instagram account onlyindade. It&#39;s a simple clip of some cars slowly driving down the road, but it looks downright incredible. I&#39;ve been staring at high-end graphics for 20 years, and even I had to do a double take to make sure it wasn&#39;t just real-life footage.",
+      "author": "Jacqueline Thomas",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
-        "Game"
+        "Gaming"
       ],
       "featured": false,
-      "xpReward": 43,
-      "url": "https://www.polygon.com/god-of-war-sons-of-sparta-new-update-ps4-release/",
-      "image": "/images/feed/feed-35cc5eee8fab.jpg",
+      "xpReward": 30,
+      "url": "https://www.ign.com/articles/some-of-these-gta-6-clips-look-so-good-that-i-dont-care-if-its-running-at-30-fps",
+      "image": "/images/feed/feed-2619883ba05e.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-ded3889b7c9f",
+      "title": "Checking In On The Weird Little Guys In Ocarina Of Time To See How They Fared In The Remake",
+      "excerpt": "Time will change you",
+      "body": "Time will change you\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Rebekah Valentine",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://kotaku.com/checking-in-on-the-weird-little-guys-in-ocarina-of-time-to-see-how-they-fared-in-the-remake-2000756684",
+      "image": "/images/feed/feed-ded3889b7c9f.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-fab2d874a2a1",
+      "title": "10 New Movies to Watch This Weekend on Netflix, Prime Video, and HBO Max (November 13 - 15)",
+      "excerpt": "On this week's streaming column, there's one of the biggest dinosaur blockbusters of the year, a big horror movie, and much more.",
+      "body": "Happy weekend! Several movies are hitting theaters this week, from the action-comedy How to Rob a Bank , starring Nicholas Hoult, Zoë Kravitz, and Christian Slater, to Ti West’s take on A Christmas Carol , titled Ebenezer and starring Johnny Depp.",
+      "author": "Maria Loreto",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.polygon.com/new-movies-streaming-this-weekend-netflix-november-13-15/",
+      "image": "/images/feed/feed-fab2d874a2a1.jpg",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-738d3802a404",
+      "title": "Apple details HomeView facial recognition, repair options, and more in new support guides",
+      "excerpt": "Coinciding with the launch of Apple HomeView, the company has been updating its support website with new guides covering everything from facial recognition and user profiles to troubleshooting and rep…",
+      "body": "Coinciding with the launch of Apple HomeView, the company has been updating its support website with new guides covering everything from facial recognition and user profiles to troubleshooting and rep — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://9to5mac.com/2026/11/13/apple-details-homeview-facial-recognition-repair-options-and-more-in-new-support-guides/",
+      "image": "/images/feed/feed-738d3802a404.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-9b4fcc9c7f39",
+      "title": "Save $500 Off the 42\" LG C6 4K OLED TV for Black Friday, Doubles as a Gaming Monitor, Plus Get an Xbox Controller",
+      "excerpt": "LG calls this \"guaranteed Black Friday pricing\".",
+      "body": "One of LG&#39;s most popular OLED TVs to use as a computer monitor is on sale. For a limited time, LG&#39;s online store is offering the 42&quot; LG Evo C6 4K OLED TV for just $899.99 with free shipping after a $500 off instant discount. LG calls this a &quot;guaranteed Black Friday price&quot;. Better yet, if you purchase it from LG, you get a free Xbox wireless controller with purchase, including the Breaker Edition colorways. Simply add it to the same order as the TV. The smaller 42&quot; size allows the TV to double as an excellent gaming PC monitor In fact, I&#39;m doing this myself right now.",
+      "author": "Eric Song",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox",
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.ign.com/articles/lg-evo-c6-4k-oled-tv-pc-monitor-deal-free-xbox-controller-november-2026",
+      "image": "/images/feed/feed-9b4fcc9c7f39.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-373b02a7cb24",
+      "title": "BYD’s new flagship Tang SUV starts at about $34,000 with two enormous screens",
+      "excerpt": "BYD opened pre-orders for the third-generation Tang starting at about $34,000 in China. This five-seat flagship SUV packs more than you’d expect for the money, with two massive 30-inch-plus screens in…",
+      "body": "BYD opened pre-orders for the third-generation Tang starting at about $34,000 in China. This five-seat flagship SUV packs more than you’d expect for the money, with two massive 30-inch-plus screens in — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Peter Johnson",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://electrek.co/2026/11/13/byd-opens-tang-ev-orders-two-enormous-screens-for-34000/",
+      "image": "/images/feed/feed-373b02a7cb24.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-2e6e211a4cf2",
+      "title": "On this day in space! Nov. 13, 1971: NASA's Mariner 9 becomes 1st spacecraft to orbit Mars, revealing close looks at the Martian surface",
+      "excerpt": "On Nov. 13, 1971, Mariner 9 became the first spacecraft to orbit Mars. Here's why it mattered.",
+      "body": "On Nov. 13, 1971, Mariner 9 became the first spacecraft to orbit Mars. At the time, scientists didn't know much about the Red Planet. NASA had several Mars flybys before Mariner 9 . Those flybys showed that Mars had a cratered surface , so some scientists thought that Mars looked just like the moon. Then Mariner 9 blew blew their minds. When Mariner 9 got to Mars , it arrived in the middle of a dust storm. It saw some tall structures sticking through the clouds. When the dust settled, images from Mariner 9 revealed that these structures were the tops of huge volcanoes. One volcano, Olympus Mons , is the tallest in the solar system. Mariner 9 also spotted an enormous canyon called Valles Marineris . This canyon is five times longer than the Grand Canyon in Arizona.",
+      "author": " Hanneke Weitering ",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa",
+        "Spacecraft",
+        "Orbit"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-13-2026",
+      "image": "/images/feed/feed-2e6e211a4cf2.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-b7b2939b25ec",
+      "title": "Google Pixel bug reveals hidden Private Space when switching between light and dark mode",
+      "excerpt": "Google’s November update fixed plenty of bugs, but this Private Space issue wasn’t one of them.",
+      "body": "TL;DR Google’s November 2026 Pixel update still hasn’t fixed a Private Space bug that first surfaced in September. Switching between light and dark modes causes the hidden Private Space section to reappear in the app drawer, even when it’s set to remain hidden. Google has acknowledged a potentially related issue on its Issue Tracker, but there’s no confirmed fix yet. Google’s big November update packs dozens of bug fixes , but a recent Private Space issue, which unhides the hidden folder in the app drawer, appears to have again slipped through the cracks. For reference, the bug first surfaced following Android 17 QPR1 in September. Fast-forward to Android 17 QPR2 , and the bug is still there. For those unaware, Pixel’s Private Space lets you create a sandbox within your phone.",
+      "author": "Karandeep Singh Oberoi",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.androidauthority.com/google-pixel-private-space-persistent-bug-3735167/",
+      "image": "/images/feed/feed-b7b2939b25ec.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-880288613dbd",
+      "title": "Nothing Headphone (a) with 135-hour battery is 45% off on Amazon",
+      "excerpt": "Nothing's long-lasting over-ear headphones are $90 off, matching their all-time low on Amazon.",
+      "body": "Nothing’s budget over-ear headphones are built around one standout spec: battery life. The Nothing Headphone (a) is now $109 on Amazon , saving you $90 (45%) on its $199 list price and matching the lowest price it has ever hit. See the deal at Amazon",
+      "author": "Matt Horne",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.androidauthority.com/nothing-headphone-a-black-friday-3735126/",
+      "image": "/images/feed/feed-880288613dbd.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-bdabf4e75e94",
+      "title": "Google gets ready to kill off Pixel 10 Magic Cue in favor of Proactive Assistance",
+      "excerpt": "Google appears to be preparing to pull the plug on Magic Cue by the end of 2027.",
+      "body": "TL;DR Magic Cue launched on Pixel 10 phones, offering to find useful info in your apps and bring it to your attention. Proactive Assistance debuted with the Pixel 11 series, working quite similarly to Magic Cue, and we’ve been wondering if it’s meant to replace it. New text strings now highlight Google’s plans to move Magic Cue users to Proactive Assistance by the end of 2027. Google first introduced Proactive Assistance with the Pixel 11 series this year, and now it looks like the company is getting ready to fully replace Magic Cue with its new system — eventually. APK teardown: This reporting is based on work-in-progress code. These features may not ship.",
+      "author": "Stephen Schenck",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.androidauthority.com/google-kill-magic-cue-3735173/",
+      "image": "/images/feed/feed-bdabf4e75e94.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-8c666a71216f",
+      "title": "9to5Mac Overtime 090: iPhone Duo honeymoon",
+      "excerpt": "The Overtime crew revisits the iPhone Duo after prolonged usage. Is it still worth it without a telephoto lens or Face ID? We dig into its multitasking chops, standout FaceTime features, and how it st…",
+      "body": "The Overtime crew revisits the iPhone Duo after prolonged usage. Is it still worth it without a telephoto lens or Face ID? We dig into its multitasking chops, standout FaceTime features, and how it stacks up against the Galaxy Z Fold 8. Plus, we break down Apple’s unprecedented product blitz and rumors of a second-gen MacBook Neo. Sponsored by Memoket : Memoket Gem is an AI wearable that slots beside your Apple Watch. One press captures a conversation, and KITE memory connects it to what you said weeks ago. Save 10% with code LL86MDO6 on Amazon and Memoket’s websit e. more…",
+      "author": "Jeff Benjamin",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://9to5mac.com/2026/11/13/9to5mac-overtime-090-iphone-duo-honeymoon/",
+      "image": "/images/feed/feed-8c666a71216f.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-1d8a167185d9",
+      "title": "60 years ago the Leonid meteor shower produced 144,000 meteors per hour. Could it happen again?",
+      "excerpt": "60 years ago, the Leonid meteor shower unleashed one of the most spectacular meteor storms in recorded history. As the 2026 peak approaches, here's what skywatchers can expect.",
+      "body": "This year marks a rather auspicious anniversary for meteor watchers. Sixty years ago , one of the most stupendous Leonid meteor displays lit up the predawn skies over the central and western U.S. So, what will the 2026 Leonids bring us? And what might they bring in the years to come? The Leonid meteor shower is one of the most celebrated of the year's annual displays of \"shooting stars.\" The mere mention of the Leonids usually elicits mental images of a sky filled with shooting stars pouring down through the sky like rain. Such meteor storms have indeed occurred with the Leonids, such as in 1833 and 1966 when meteor rates of tens of thousands per hour were observed.",
+      "author": " Joe Rao ",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.space.com/stargazing/meteor-showers/60-years-ago-the-leonid-meteor-shower-produced-144-000-meteors-per-hour-could-it-happen-again",
+      "image": "/images/feed/feed-1d8a167185d9.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-f4a8fe20c72e",
+      "title": "Podcast: Tesla trims are falling like flies, Hyundai 2027 lineup, and BYD’s Rolls-Royce",
+      "excerpt": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla trims falling like flies, Hyundai’s 2027 lineup,…",
+      "body": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla trims falling like flies, Hyundai’s 2027 lineup, — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Fred Lambert",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://electrek.co/2026/11/13/podcast-tesla-trims-are-falling-like-flies-hyundai-2027-lineup-and-byds-rolls-royce/",
+      "image": "/images/feed/feed-f4a8fe20c72e.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-b5d8e3ece75e",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "excerpt": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 a…",
+      "body": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan. Now your dot c … Read the full story at The Verge.",
+      "author": "Stevie Bonifield",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Openai",
+        "Chatgpt"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "image": "/images/feed/feed-b5d8e3ece75e.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-3ab33c5c25c0",
+      "title": "Rocket Lab launching 100th space mission early on Nov. 14: Watch it live",
+      "excerpt": "Rocket Lab will launch its 100th space mission shortly after midnight on Saturday (Nov. 14), and you can watch the milestone liftoff live.",
+      "body": "Rocket Lab will launch its 100th space mission early Saturday morning (Nov. 14), and you can watch the milestone liftoff live. An Electron rocket topped with a private Japanese Earth-observing satellite is scheduled to launch from Rocket Lab's New Zealand site on Saturday, during a window that opens at 12:30 a.m. EST (0530 GMT; 6:30 p.m. local time). The mission, which Rocket Lab calls \"The Mountain God Rises,\" will be the 100th to date for the California-based company. You can watch it live via Rocket Lab here , and Space.com will carry the feed if, as expected, it's made available. Coverage will begin about 30 minutes before launch. Rocket Lab launched for the first time in May 2017, sending the brand-new Electron up on a test flight from New Zealand.",
+      "author": " Mike Wall ",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite",
+      "image": "/images/feed/feed-3ab33c5c25c0.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-cab3446a7e32",
+      "title": "'Arrival' at 10: Denis Villeneuve's alien visitation classic that reminded us it's good to talk",
+      "excerpt": "How the 'Dune' director turned a little-known short story into one of the best sci-fi movies of the 21st century",
+      "body": "In many of the biggest science fiction franchises, conversing with alien races is an absolute doddle. In \" Star Trek \", universal translators come as standard, while C-3PO has spent the last 49 years reminding everyone in \"Star Wars\" that he's fluent in over six million forms of communication. But in \"Arrival\" — which was released 10 years ago in November 2016 — making first contact proves to be rather more challenging than maintaining your Duolingo streak. In fact, working out how to establish a dialogue with extraterrestrial visitors becomes the whole point of this powerful and heartbreaking story, as the fate of planet Earth hinges on the interpretation of a single noun.",
+      "author": " Richard Edwards ",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.space.com/entertainment/space-movies-shows/arrival-at-10-the-denis-villeneuve-alien-visitation-classic-that-reminded-us-its-good-to-talk",
+      "image": "/images/feed/feed-cab3446a7e32.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-b18b7197a903",
+      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "excerpt": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery…",
+      "body": "Cryptocurrency hardware wallet maker Trezor has confirmed that three Safe 5 devices sold by Southeast Asian reseller CryptoBilis contained malicious hardware implants designed to steal wallet recovery — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "image": "/images/feed/feed-b18b7197a903.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-8bbea40991ee",
+      "title": "California's brand-new Air & Space Center, home of the space shuttle Endeavour, opens today",
+      "excerpt": "The California Science Center's brand-new Samuel Oschin Air & Space Center —the home of NASA's space shuttle Endeavour —officially opened to the public today (Nov. 13).",
+      "body": "LOS ANGELES — The California Science Center officially opened its brand-new Samuel Oschin Air &amp; Space Center to the public today (Nov. 13). After more than three decades in development, folks can finally visit the Los Angeles science museum's massive new wing. For most of us, the biggest draw is its centerpiece: the retired space shuttle Endeavour , sitting upright in launch position, towering at nearly 200 feet (61 meters) tall. \"It just takes your breath away when you see that reveal and the doors open and you get to look at it for the first time. It's just — it's overwhelming,\" former NASA astronaut Garrett Reisman told Space.com during a visit to the museum. Reisman flew on two space shuttle missions during his astronaut career, the first of which was on Endeavour.",
+      "author": " Chelsea Gohd ",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.space.com/space-exploration/californias-brand-new-air-and-space-center-home-of-the-space-shuttle-endeavour-opens-today",
+      "image": "https://cdn.mos.cms.futurecdn.net/BawzDwqdEXKktiH9bquQhJ-1920-80.png",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-5b0aba664601",
+      "title": "Volkswagen is delaying another EV based on the SSP",
+      "excerpt": "After delaying development of the long-awaited electric Golf, Volkswagen is delaying another EV based on its SSP platform. more…",
+      "body": "After delaying development of the long-awaited electric Golf, Volkswagen is delaying another EV based on its SSP platform. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Peter Johnson",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/",
+      "image": "/images/feed/feed-5b0aba664601.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-10257e15d994",
+      "title": "Think you have good eyesight? Try counting the stars in the Pleiades tonight",
+      "excerpt": "Every November, I give myself a completely unscientific eyesight test using one of my favorite sights in the night sky — the Pleiades. How many stars can you see?",
+      "body": "Every autumn, I conduct an eyesight test that no reputable optometrist would understand. I go outside, find the Pleiades and count how many stars I can see. Usually I start confidently. One, two, three, four, five. Then things become contentious. Is that another star? Did I actually see it, or did I decide I ought to see it because I know it's there? I look away, look back and begin again. This is not, I should emphasize, a meaningful test of eye health. What it tests, rather, is how badly I've prepared for looking at the night sky. The Pleiades sit roughly 444 light-years away in Taurus and are right now becoming extremely convenient in the evening sky. You don't need a telescope to find them. You don't even need binoculars.",
+      "author": " Jamie Carter ",
+      "date": "2026-11-13",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.space.com/stargazing/think-you-have-good-eyesight-try-counting-the-stars-in-the-pleiades-tonight",
+      "image": "/images/feed/feed-10257e15d994.jpg",
+      "source": "Space.com",
       "isLive": true
     },
     {
@@ -433,124 +741,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 46,
       "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
       "image": "/images/feed/feed-c8ef556c39f8.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-a36be003da2a",
-      "title": "You can now tempt fate and give your banking information to ChatGPT",
-      "excerpt": "The new Wallet feature will allow its AI agents to make purchases on your behalf.",
-      "body": "The new Wallet feature will allow its AI agents to make purchases on your behalf.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Lawrence Bonk)",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/",
-      "image": "/images/feed/feed-a36be003da2a.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-247a13758717",
-      "title": "Gruv Launches Black Friday Sale With Tons of Excellent 4K Deals",
-      "excerpt": "Gruv's Black Friday sale is officially live with plenty of discounts on 4Ks. Check out its new '3 for $33' sale and a selection of titles that have dropped down to just $12.99.",
-      "body": "Gruv has officially launched its Black Friday discounts with a ton of fantastic 4K and Blu-ray deals for physical media fans. If you&#39;re focused on the former during this seasonal sale event, then it&#39;s your lucky day: the retailer has two 4K sales up right now that are well worth scrolling through. The first is a &#39;3 for $33&#39; sale - which features some great films like Sinners and Batman: Mask of the Phantasm - while the second sale marks a selection of 4Ks down to just $12.99 . The latter includes this year&#39;s horror hit Obsession , which I&#39;d highly recommend grabbing if you don&#39;t have it in your movie library yet. Plus, if you&#39;re a new customer to Gruv, you can save even more right now.",
-      "author": "Hannah Hoolihan",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.ign.com/articles/gruv-black-friday-sale-2026-4k-bluray",
-      "image": "/images/feed/feed-247a13758717.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-9e1652d1b0ae",
-      "title": "Stephen King and Real-Life Serial Killers Shaped the Most Unhinged Thriller of 2026",
-      "excerpt": "Maika Monroe talks playing a killer in Victorian Psycho, the films that shaped her villain, They Follow, and who’d win in a fight with Longlegs.",
-      "body": "After a decade of surviving monsters onscreen, Maika Monroe gets her hands dirty in Victorian Psycho. Directed by Zachary Wigon ( Sanctuary ) and based on the Virginia Feito novel, the movie is set in the mid-1800s, our most hysterical era, and follows Winifred Notty (Monroe), a newly hired governess who arrives at a gothic manor to tutor the Pounds’ children (Jacobi Jupe and Evie Templeton). Upon her arrival, staff members begin to vanish, building up to a bloody climax.",
-      "author": "Maria Loreto",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.polygon.com/maika-monroe-victorian-psycho-interview/",
-      "image": "/images/feed/feed-9e1652d1b0ae.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-42114d0c7298",
-      "title": "Overwatch Fans Got The News They Were Afraid Of About The New ‘Omnic Detective’ Hero",
-      "excerpt": "There’s been a change of plans for hero number 55",
-      "body": "There’s been a change of plans for hero number 55\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Kenneth Shepard",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://kotaku.com/overwatch-hudson-omnic-detective-damage-support-role-2000756631",
-      "image": "/images/feed/feed-42114d0c7298.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-668105d144e4",
-      "title": "This tiny iOS 27 camera feature really makes a huge difference",
-      "excerpt": "When shooting both photos and videos on my iPhone, I make regular use of a few different third-party apps, mostly because I like to take manual control. But a combination of the new Pro controls on th…",
-      "body": "When shooting both photos and videos on my iPhone, I make regular use of a few different third-party apps, mostly because I like to take manual control. But a combination of the new Pro controls on the iPhone 18 Pro and a new feature introduced with iOS 27 means there are more times when I can stick to Apple’s stock Camera app. If you aren’t already using customizable controls, I highly recommend doing so … more…",
-      "author": "Ben Lovejoy",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://9to5mac.com/2026/11/13/this-tiny-ios-27-camera-feature-really-makes-a-huge-difference/",
-      "image": "/images/feed/feed-668105d144e4.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-9c5f68a3de64",
-      "title": "Astronomers trace mystery radio signals back to cosmic odd couple of white dwarf and sun-like star",
-      "excerpt": "\"It’s amazing that by using radio wavelengths, we can detect the storms on a star over 5,000 light-years away.\"",
-      "body": "Astronomers have traced a mysterious radio signal back to a cosmic odd couple comprised of a dead star, a white dwarf, and its stellar companion, a sun-like star. The white dwarf in the newly discovered system, designated GPM J071507−114153 and located around 5,000 light-years away, spins once every eight minutes, sending out radio pulses. These radio pulses have been seen from binary systems with smaller and cooler red dwarf stars before, but rarely from a system like GPM J071507−114153. GPM J071507−114153 belongs to a class of celestial objects called long-period transients (LPTs) known to produce radio signals that switch on and off over intervals of minutes or hours. Around a dozen LPTs have been detected since the team behind this research found the first in 2021.",
-      "author": " Robert Lea ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.space.com/astronomy/stars/astronomers-trace-mystery-radio-signals-back-to-cosmic-odd-couple-of-white-dwarf-and-sun-like-star",
-      "image": "/images/feed/feed-9c5f68a3de64.png",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -566,48 +760,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 31,
       "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
       "image": "/images/feed/feed-b5af83d54bc0.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-13dd1e951515",
-      "title": "North Korean hackers used fake video calls in $400M crypto hack, says FBI",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "saikiran91",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.bbc.com/news/articles/cqdj1ellpd70o",
-      "image": "/images/feed/feed-13dd1e951515.jpg",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-cf2ae298e390",
-      "title": "Outbursts from a Massive Star",
-      "excerpt": "Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026…",
-      "body": "X-ray: NASA/CXC/Univ. of Virginia/M. Aghakhanloo et al.; Optical: SDSS; Image Processing: NASA/CXC/SAO/P. Edmonds Using NASA’s Chandra X-ray Observatory, astronomers have discovered what is triggering repeated outbursts from a giant, unstable star located in the galaxy shown in this image released on Nov. 9, 2026. The volatile star, known as AT 2016blu, is in the spiral galaxy NGC 4559, located about 30 million light-years from Earth. Astronomers estimate the mass of this star is at least 33 times that of the Sun. Read more about the discovery. Image credit: X-ray: NASA/CXC/Univ. of Virginia/M. Aghakhanloo et al.; Optical: SDSS; Image Processing: NASA/CXC/SAO/P. Edmonds",
-      "author": "HQ Web Team",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/at2016blu.jpg",
-      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -623,7 +779,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 32,
       "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
       "image": "/images/feed/feed-cc5bf82c102a.jpg",
       "source": "Ars Technica",
@@ -642,29 +798,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
       "image": "/images/feed/feed-212e30a9407b.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-6169ab4ce075",
-      "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
-      "excerpt": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully complet…",
-      "body": "NASA astronauts James A. Lovell Jr. and Edwin E. &#8220;Buzz&#8221; Aldrin Jr. captured this image of the area surrounding the Red Sea and Nile river valley on November 14, 1966, during their four-day mission in space. Gemini XII was the final flight of NASA&#8217;s Gemini Program. NASA Astronauts James A. Lovell Jr. and Edwin E. &#8220;Buzz&#8221; Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII , the final mission of NASA&#8217;s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of a different field of exploration, observing Earth from space.",
-      "author": "Michele Ostovar",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Astronaut"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/s66-63535-f.png",
-      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -680,29 +817,10 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 42,
       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "image": "/images/feed/feed-a89e40511448.webp",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-e3cd48ba2794",
-      "title": "Netflix’s ‘Ray Gunn’ gets 2nd trailer, and we're hyped for this animated sci-fi noir from ‘Incredibles’ director Brad Bird",
-      "excerpt": "'This city has corruption, secrets and murder. It's my job to discover the truth'",
-      "body": "Dreaming of a bright and shiny future filled with personal jet packs, levitating autos, and automated gadgets straight out of \" The Jetsons ?\" Add in a gritty mystery, a notorious private eye, double-crossing aliens, and a bombshell diva framed for a killing, and you’ve got the perfect recipe for \"Ray Gunn.\" Oscar-winning director Brad Bird (\"The Incredibles,\" \"Ratatouille\") returns to our screens with his new big-budget animated sci-fi project, \" Ray Gunn ,\" and this latest trailer has us primed. \"In Metropia, a gigantic city in an alternate future as seen from 1939, private eye Raymond Gunn (Sam Rockwell) is drawn into a case involving aliens, murder, and a multimedia starlet named Venus Nova (Scarlett Johansson),\" states the official synopsis.",
-      "author": " Jeff Spry ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.space.com/entertainment/space-movies-shows/netflixs-ray-gunn-gets-2nd-trailer-and-were-hyped-for-this-animated-sci-fi-noir-from-incredibles-director-brad-bird",
-      "image": "/images/feed/feed-e3cd48ba2794.png",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -718,106 +836,29 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 31,
       "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "image": "/images/feed/feed-9c558a7ae326.webp",
+      "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
       "source": "TechCrunch",
       "isLive": true
     },
     {
-      "id": "feed-3e78098a21aa",
-      "title": "Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "dvaplima",
+      "id": "feed-563cd8d18fd7",
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "excerpt": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can als…",
+      "body": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+      "author": "info@thehackernews.com (The Hacker News)",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "cybersecurity",
       "tags": [
-        "Breach"
+        "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 48,
-      "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
-      "image": "/images/topics/topic-cybersecurity.png",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-be4f2f686f33",
-      "title": "Volkswagen trademark hints at a name for its upcoming affordable €20,000 EV",
-      "excerpt": "Volkswagen is getting ready to bring a €20,000 ($22,000) electric car to market in 2027, and it looks like the entry-level EV may no longer be nameless. A newly filed trademark could have just given a…",
-      "body": "Volkswagen is getting ready to bring a €20,000 ($22,000) electric car to market in 2027, and it looks like the entry-level EV may no longer be nameless. A newly filed trademark could have just given a — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://electrek.co/2026/11/13/volkswagen-trademark-name-affordable-e20000-ev/",
-      "image": "/images/feed/feed-be4f2f686f33.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-f551ca6d2d89",
-      "title": "Here are the coolest e-motorcycles and gear we saw at EICMA 2026",
-      "excerpt": "Every year, the world’s largest motorcycle companies (and plenty of the world’s smallest motorcycle companies, too) converge on Milan, Italy for Europe’s premier motorcycle showcase. That means that a…",
-      "body": "Every year, the world’s largest motorcycle companies (and plenty of the world’s smallest motorcycle companies, too) converge on Milan, Italy for Europe’s premier motorcycle showcase. That means that all of the newest electric motorcycle announcements happen in one place, and we get a chance to check out the coolest developments and most interesting new gear. Below is a list of the best things I saw while walking around the show this year, presented in no particular order. more…",
-      "author": "Micah Toll",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://electrek.co/2026/11/13/here-are-the-coolest-e-motorcycles-and-gear-we-saw-at-eicma-2026/",
-      "image": "/images/feed/feed-f551ca6d2d89.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-361b1bf6a386",
-      "title": "Meta to deploy 25 electric semi trucks across I-10 corridor, but has nothing to ship",
-      "excerpt": "Electric truck operator Nevoya is expanding its deal with Meta with the fresh deployment of 25 Class 8 battery-electric trucks on the Interstate 10 (I-10) between San Bernardino, California and Phoeni…",
-      "body": "Electric truck operator Nevoya is expanding its deal with Meta with the fresh deployment of 25 Class 8 battery-electric trucks on the Interstate 10 (I-10) between San Bernardino, California and Phoeni — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Jo Borrás",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://electrek.co/2026/11/13/meta-to-deploy-25-electric-semi-trucks-across-i-10-corridor-but-has-nothing-to-ship/",
-      "image": "/images/feed/feed-361b1bf6a386.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-31293669f7ae",
-      "title": "Astronaut Suni Williams rides through NYC as Grand Marshal of the Veterans Day Parade | Space photo of the day for Nov. 13, 2026",
-      "excerpt": "NASA astronaut Suni Williams rides through New York City as the Grand Marshal of the Veterans Day Parade on Nov. 11, 2026.",
-      "body": "NASA astronaut Suni Williams rides through New York City as the Grand Marshal of the Veterans Day Parade on Nov. 11, 2026. (Image credit: Photo by Slaven Vlasic/Getty Images) New Yorkers got a space-y surprise on Wednesday (Nov. 11): Retired NASA astronaut and U.S. Navy Captain Sunita \"Suni\" Williams rolled down 5th Avenue in the back of a classic convertible wrapped in patriotic decals as Grand Marshal of the Veterans Day Parade. What is it? On Wednesday, New York City's 107th annual Veterans Day Parade made its way through Manhattan to the cheers and respectful nods of thousands of onlookers. The parade is an annual tradition on the holiday, which honors veterans of the U.S. armed forces.",
-      "author": " Chelsea Gohd ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Astronaut",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.space.com/space-exploration/human-spaceflight/astronaut-suni-williams-rides-through-nyc-as-grand-marshal-of-the-veterans-day-parade-space-photo-of-the-day-for-nov-13-2026",
-      "image": "/images/feed/feed-31293669f7ae.png",
-      "source": "Space.com",
+      "xpReward": 41,
+      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "image": "/images/feed/feed-563cd8d18fd7.jpg",
+      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -833,48 +874,10 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 48,
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
-      "isLive": true
-    },
-    {
-      "id": "feed-2c7a6e6b19ce",
-      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
-      "excerpt": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent fo…",
-      "body": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple of months: Instinct gave us an impressive text-based assistant , Meta offered us its cute little guy, Muse, to help us buy things , and OpenAI gave us the more work-oriented Dots . Claude Duet is even more focused on work than those. It's also more consumer-friendly than Claude Cowork , which was more consumer-friendly than Claude Code - the co … Read the full story at The Verge.",
-      "author": "Allison Johnson",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
-      "image": "/images/feed/feed-2c7a6e6b19ce.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-65c7db6bef9f",
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "__vivek",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "image": "/images/feed/feed-65c7db6bef9f.png",
-      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -890,7 +893,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 37,
       "url": "https://openai.com/business/customer-stories/amplitude",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -909,9 +912,9 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 30,
       "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-      "image": "/images/feed/feed-ff1cec4cf32f.webp",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.01.42-PM.jpg?resize=1200,589",
       "source": "TechCrunch",
       "isLive": true
     },
@@ -928,7 +931,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 38,
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
       "source": "Google AI Blog",
@@ -936,16 +939,16 @@
     }
   ],
   "breakingNews": [
-    "ELECTREK: Tesla stops selling every Cybertruck except the $109,990 Cyberbeast",
-    "DEV.TO: El job que audita tus dependencias tenía permiso de escritura",
-    "DEV.TO: Restaurant Menu Assistant: 4 Retrieval Metadata Filters for Fresh Citations",
-    "DEV.TO: Split a large CSV into smaller files and keep the header in each (Python, no dependencies)",
-    "DEV.TO: From Prompt to Production: Why I Built Code Ghost for Instant Component Prototyping",
-    "DEV.TO: I built a finance engine that reconciles bank emails, SMS and PDF statements into one ledger",
-    "DEV.TO: My weather model said 0%. The market said 90%. The market was right, because of rounding.",
-    "DEV.TO: I ran a small fitness community for a month. The coaching hub was the part worth building.",
-    "ANDROID AUTHORITY: Recompa simplifies Android handheld installs so you can spend more time playing",
-    "9TO5MAC: 9to5Mac Daily: November 13, 2026 – New Apple TV 4K and HomeView now available"
+    "DEV.TO: Reject a Stale In-Memory Update with a Revision Check Inside the Lock",
+    "DEV.TO: Sobrevendido não é sinal de compra: um dia inteiro parado no dólar (#13)",
+    "DEV.TO: Transactional Email Explained — 3 Evidence Checks for Marketplace Receipts",
+    "DEV.TO: Architecting Offline Geofencing Without Draining the Battery",
+    "DEV.TO: You open a new card for the $200 welcome bonus while carrying the $4,100: the bonus costs $385.51",
+    "DEV.TO: Five Checks for Fintech Knowledge-Bot Retrieval Architecture and Audit Logs",
+    "DEV.TO: Page tables in plain words",
+    "KOTAKU: Microsoft On FAA Ground Stop: It Wasn’t Me",
+    "ANDROID AUTHORITY: Tested in the wild: Best survival tech!",
+    "SPACE.COM: SpaceX launches Starship on ambitious 22-hour Flight 15 test, but aborts booster 'chopsticks' catch (video)"
   ],
   "sectionVideos": {}
 }
