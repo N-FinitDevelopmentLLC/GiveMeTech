@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-14T12:39:23.291Z",
+  "fetchedAt": "2026-11-14T18:34:42.940Z",
   "articles": [
     {
-      "id": "feed-aef89c36311a",
-      "title": "Claude Duet Messages You First. That Changes Who Is in Control.",
-      "excerpt": "On October 21, 2026, Anthropic opened a research preview of Claude Duet, an app where Claude works as a proactive agent: it watches your connected accounts, prepares work while you are away, and messa…",
-      "body": "On October 21, 2026, Anthropic opened a research preview of Claude Duet, an app where Claude works as a proactive agent: it watches your connected accounts, prepares work while you are away, and messages you when something needs you. The interesting part is not that Claude can now start the conversation. It is how Anthropic moved the most important controls outside the model, and what still depends on a human tapping \"approve.\" Here is how Duet works, what its safety design gets right, where the real risks are, and how I would use it today. Research and product status checked November 14, 2026. Twelve Approvals Before Lunch Imagine it is Monday, 7:40 a.m. Before you open your laptop, a message is waiting on your phone. Claude has already read your inbox and calendar.",
-      "author": "Suraj Khaitan",
+      "id": "feed-1bb73afde6ee",
+      "title": "Systems Blueprint: ReA-Bench: Benchmarking Responsible Agent Auditing",
+      "excerpt": "Systems Blueprint: ReA-Bench: Benchmarking Responsible Agent Auditing Executive Summary The continuous development of modern distributed AI infrastructure demands empirical evaluation of recent advanc…",
+      "body": "Systems Blueprint: ReA-Bench: Benchmarking Responsible Agent Auditing Executive Summary The continuous development of modern distributed AI infrastructure demands empirical evaluation of recent advancements in silicon architecture and systems software. In this dispatch regarding ReA-Bench: Benchmarking Responsible Agent Auditing, arXiv Researcher via arXiv AI addresses essential operational boundaries that directly intersect with our ongoing research in sovereign reasoning systems and edge hardware acceleration. Rather than treating these findings as abstract discussions, ShVaSa Lab codifies the core tenets into a verifiable technical roadmap. By analyzing the trade-offs between memory bandwidth, latency budgets, and execution safety, this analysis details a production blueprint.",
+      "author": "Sharath",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
@@ -14,18 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 33,
-      "url": "https://dev.to/suraj_khaitan_f893c243958/claude-duet-messages-you-first-that-changes-who-is-in-control-3n74",
-      "image": "/images/feed/feed-aef89c36311a.webp",
+      "xpReward": 53,
+      "url": "https://dev.to/sharathjapa/systems-blueprint-rea-bench-benchmarking-responsible-agent-auditing-19ol",
+      "image": "/images/feed/feed-1bb73afde6ee.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-a30d9d7c7f25",
-      "title": "The Invisible Brush: Generative Art and the Algorithms That Paint",
-      "excerpt": "A long-form exploration of Procedural Content Generation as a creative engine — with Clojure and Quil. There is a particular kind of wonder that comes from watching something grow on a screen that you…",
-      "body": "A long-form exploration of Procedural Content Generation as a creative engine — with Clojure and Quil. There is a particular kind of wonder that comes from watching something grow on a screen that you did not draw. A tree that branches unpredictably. A coastline that stretches further than any hand could trace. A galaxy of stars no astronomer catalogued. You wrote the rules, but the world surprised you anyway. This is the promise of Procedural Content Generation — and it sits quietly at the heart of generative art. This post is for developers who can read code but have never thought of algorithms as paintbrushes.",
-      "author": "Ganesh Rajendran",
+      "id": "feed-5a8491f82a8c",
+      "title": "5 Ways to Build Retrieval Architecture for Candidate Search (and Stop Duplication)",
+      "excerpt": "Short answer: use staged retrieval with explicit collections, bounded queries, and source context that survives every retry. For recruiting candidate search, deduplication is part of retrieval quality…",
+      "body": "Short answer: use staged retrieval with explicit collections, bounded queries, and source context that survives every retry. For recruiting candidate search, deduplication is part of retrieval quality, not a cleanup job after the model answers. Option Where it fits Operational trade-off Elasticsearch Teams already operating text search and filters Many knobs; vector and lexical tuning become your responsibility Pinecone A focused managed vector index Simple retrieval boundary, but surrounding metadata and ingestion workflows stay separate Weaviate A vector-first service with an application-facing schema Useful schema surface, with another service to operate and observe Infrai vector API A thin HTTP layer for a staged pipeline You still own chunk policy, tenant rules, and deduplication deci…",
+      "author": "EliBennett128",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +33,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/ganesh_rajendran_art/the-invisible-brush-generative-art-and-the-algorithms-that-paint-32ig",
-      "image": "/images/feed/feed-a30d9d7c7f25.webp",
+      "xpReward": 36,
+      "url": "https://dev.to/elibennett128/5-ways-to-build-retrieval-architecture-for-candidate-search-and-stop-duplication-4p6b",
+      "image": "/images/feed/feed-5a8491f82a8c.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-314b84e4e305",
-      "title": "Event ID 4673 flood: why the Security log is full and the PC is slow",
-      "excerpt": "Originally published at coinetic.io. Event 4673 is Windows saying \"A privileged service was called\". A few a day are normal. Dozens per second, from chrome.exe, msedgewebview2.exe or Code.exe, make th…",
-      "body": "Originally published at coinetic.io . Event 4673 is Windows saying \"A privileged service was called\" . A few a day are normal. Dozens per second, from chrome.exe , msedgewebview2.exe or Code.exe , make the Windows Event Log service eat whole processor cores – and the log falls minutes or hours behind. In short What it is: a program asked for a special Windows right (a privilege ), and an audit policy logs it. Typical flood: Audit Failure entries for SeProfileSingleProcessPrivilege from Chromium-based programs: Chrome, Edge, Edge WebView (used by Teams, Outlook, widgets) and VS Code. They ask for memory figures, Windows refuses, they ask again. The cause: almost always a Group Policy with Audit privilege use = Success, Failure . The fix: in that policy, untick Failure and keep Success .",
-      "author": "Coinetic AI Security",
+      "id": "feed-422f27ae3cd8",
+      "title": "Common reasons your PC's camera and microphone aren't working",
+      "excerpt": "There's nothing worse than having camera or mic problems right before a video call or meeting. Luckily, the fixes are usually pretty straightforward.",
+      "body": "There's nothing worse than having camera or mic problems right before a video call or meeting. Luckily, the fixes are usually pretty straightforward.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Roger Fingas)",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": true,
+      "xpReward": 39,
+      "url": "https://www.engadget.com/2311859/pc-camera-microphone-not-working-common-reasons/",
+      "image": "/images/feed/feed-422f27ae3cd8.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-8ad7935b1e73",
+      "title": "The git worktrees your coding agents leave behind, and how to clean them up",
+      "excerpt": "Claude Code, Cursor and Codex run in git worktrees so several agents can work at once. Each worktree is a full checkout with its own node_modules and build output, and they pile up quietly. One Claude…",
+      "body": "Claude Code, Cursor and Codex run in git worktrees so several agents can work at once. Each worktree is a full checkout with its own node_modules and build output, and they pile up quietly. One Claude Code user found 27 forgotten worktrees using 80 GB ( issue 63087 ). 61 Codex worktrees of a Rails app took about 100 GB ( issue 35383 ). Where they live Claude Code: .claude/worktrees/ inside each repository (older versions used ~/.claude-worktrees ) Cursor: ~/.cursor/worktrees/ Codex: ~/.codex/worktrees/ , on a detached HEAD rather than a branch See what they take git worktree list # inside a repository du -sh .claude/worktrees/* 2 &gt; /dev/null | sort -h # inside each repository du -sh ~/.cursor/worktrees/*/* ~/.codex/worktrees/* 2 &gt; /dev/null | sort -h Check before you remove one git -…",
+      "author": "Suman Maharjan",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
@@ -52,37 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/coinetic_ai_security/event-id-4673-flood-why-the-security-log-is-full-and-the-pc-is-slow-1c7e",
-      "image": "/images/feed/feed-314b84e4e305.webp",
+      "xpReward": 37,
+      "url": "https://dev.to/suman_maharjan_ee09fcd9b8/the-git-worktrees-your-coding-agents-leave-behind-and-how-to-clean-them-up-3pji",
+      "image": "/images/feed/feed-8ad7935b1e73.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-ca03eefbf2b7",
-      "title": "I deleted my extensions.gnome.org account. My extensions stayed online.",
-      "excerpt": "In December 2025 I deleted my account on extensions.gnome.org, the official store for GNOME Shell extensions. I expected my three extensions to go with it. They didn't. ClipFlow Pro, Comfort Control (…",
-      "body": "In December 2025 I deleted my account on extensions.gnome.org, the official store for GNOME Shell extensions. I expected my three extensions to go with it. They didn't. ClipFlow Pro , Comfort Control (EaseHub) and Numeric Date And Clock are still listed there, under a placeholder account called \"MaintainerWanted\", with old builds I no longer control, test or support. Nothing on the deletion page warned me this would happen, and with the account gone I have no way to switch them off myself. This post is the full timeline, where it stands today, and a warning for other extension authors. The timeline 18 October 2026. I asked GNOME to remove the three listings, on the extensions.gnome.org issue tracker (on GNOME's own GitLab) and by email to the GNOME Foundation. 3–10 November.",
-      "author": "Nick Otmazgin",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 43,
-      "url": "https://dev.to/nickotmazgin/i-deleted-my-extensionsgnomeorg-account-my-extensions-stayed-online-3ig4",
-      "image": "/images/feed/feed-ca03eefbf2b7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-5cc86738774c",
-      "title": "Keep Your IR Alive: Why the .ll File Matters for Honest Timing",
-      "excerpt": "When you run csperf run you get a JSON file that contains timing, machine metadata, and a reference to the generated LLVM IR. Many developers delete the .ll file after the run, thinking it’s just a te…",
-      "body": "Why this lesson exists When you run csperf run you get a JSON file that contains timing, machine metadata, and a reference to the generated LLVM IR. Many developers delete the .ll file after the run, thinking it’s just a temporary artifact. In reality, the IR is the explanation behind the numbers. Without it you lose the ability to trace why a particular optimization changed the timing. Recap — where we are in the series Ep 1 — Why a Single ./a.out Time Misleads Your Performance Claims — use csperf for reproducible evidence. Ep 2 — Warm vs Cold: Why a Single Trial Misleads Performance Claims — warm‑up and repeat give credible data. Ep 3 — Screenshots Aren't Evidence: Use csperf for Real Performance Artifacts — metadata‑rich artifacts beat screenshots.",
-      "author": "compilersutra",
+      "id": "feed-cef346574d77",
+      "title": "Auditing SPF and DMARC for a whole list of domains: p=none, ~all and the other ways a \"pass\" misleads you",
+      "excerpt": "Checking one domain's email authentication takes a minute in a terminal. Checking 300 customer, supplier or portfolio domains is where people script it, and where most scripts quietly report the wrong…",
+      "body": "Checking one domain's email authentication takes a minute in a terminal. Checking 300 customer, supplier or portfolio domains is where people script it, and where most scripts quietly report the wrong thing. Below are the checks that matter, with Node code using only the built-in dns module. Disclosure: SpellzCode, the brand behind this account, sells a tool that runs all of this in bulk (linked at the end), but the code below works on its own. 1. Read the records, not just \"does a record exist\" SPF lives in a TXT record on the domain itself; DMARC lives in a TXT record on _dmarc.&lt;domain&gt; : import { promises as dns } from 'node:dns' ; async function txt ( name ) { try { return ( await dns . resolveTxt ( name ) ) . map ( ( parts ) =&gt; parts .",
+      "author": "SpellzCode",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
@@ -91,17 +91,17 @@
       ],
       "featured": true,
       "xpReward": 31,
-      "url": "https://dev.to/aabhinavg/keep-your-ir-alive-why-the-ll-file-matters-for-honest-timing-1h1n",
-      "image": "/images/feed/feed-5cc86738774c.webp",
+      "url": "https://dev.to/spellzcode/auditing-spf-and-dmarc-for-a-whole-list-of-domains-pnone-all-and-the-other-ways-a-pass-lb9",
+      "image": "/images/feed/feed-cef346574d77.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-f9376736db1a",
-      "title": "Self-hosted Claude Managed Agents: what you run, what still leaves your network",
-      "excerpt": "Anthropic opened a private beta of self-hosted Claude Managed Agents on Nov 12. Access is by request through your Anthropic account team. Before this, you could self-host the sandbox where an agent's…",
-      "body": "Anthropic opened a private beta of self-hosted Claude Managed Agents on Nov 12. Access is by request through your Anthropic account team. Before this, you could self-host the sandbox where an agent's code runs, but Anthropic ran the rest, including credentials and the record of what each agent did. Now the whole service can sit in your cloud or on-prem. What you operate: the Managed Agents server its PostgreSQL database (session history lives here) the workers where agents run shell and file tools You build agents with the same core APIs as the hosted service. What still leaves your network is Claude itself. Model requests go where you point them: Anthropic, Amazon Bedrock, Google's Agent Platform, Microsoft Foundry, or your own gateway. Prompts out, completions back.",
-      "author": "Thirumalaivasan GJ",
+      "id": "feed-576bdd379897",
+      "title": "4.26 Hours of Rootless Debian 13 on Samsung DeX: Thermal, Battery & Compiler Telemetry",
+      "excerpt": "When Samsung discontinued the official Linux on DeX project years ago, running a real Linux desktop on Android mostly became an exercise in compromises: sluggish VNC sessions, software-rendered UIs, b…",
+      "body": "When Samsung discontinued the official Linux on DeX project years ago, running a real Linux desktop on Android mostly became an exercise in compromises: sluggish VNC sessions, software-rendered UIs, broken audio, or background processes silently killed by Android's memory management. I wanted to see how far modern flagship ARM64 hardware can push a completely rootless, user-space Debian 13 (Trixie) workstation —keeping Samsung Knox ( 0x0 ) intact while delivering hardware-accelerated graphics, native audio, and multi-hour desktop stability. Over the past few weeks, I built and open-sourced dex-linux-workstation , a modular 2-step installer that turns Termux, PRoot, and Termux:X11 into a low-latency XFCE4 desktop.",
+      "author": "thecbr600",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
@@ -109,37 +109,132 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 44,
-      "url": "https://dev.to/thirumalaivasangj3/self-hosted-claude-managed-agents-what-you-run-what-still-leaves-your-network-58kc",
-      "image": "/images/feed/feed-f9376736db1a.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/thecbr600/426-hours-of-rootless-debian-13-on-samsung-dex-thermal-battery-compiler-telemetry-m5c",
+      "image": "/images/feed/feed-576bdd379897.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-37ff19f8e8f9",
-      "title": "Building HarshitOS: A macOS-Inspired Developer Portfolio in React 19",
-      "excerpt": "Building HarshitOS: A macOS-Inspired Developer Portfolio in React 19 Most developer portfolios follow a standard recipe: a hero section, an \"About Me\" paragraph, a grid of project cards, and a contact…",
-      "body": "Building HarshitOS: A macOS-Inspired Developer Portfolio in React 19 Most developer portfolios follow a standard recipe: a hero section, an \"About Me\" paragraph, a grid of project cards, and a contact form. When redesigning my portfolio, I wanted to challenge that template. I wanted my portfolio to feel like real software —an interactive, browser-based operating system inspired by the precision and fluidity of macOS Sonoma and Tahoe . Here is how I built HarshitOS , the technical challenges I solved, and what I learned along the way.",
-      "author": "Harshit Tiwari",
+      "id": "feed-5b57f73e00fd",
+      "title": "How to verify a click in an AI-recorded website demo",
+      "excerpt": "A 13-second product demo came back from our recorder. The cursor moved, the page scrolled twice, and every frame decoded. It had missed the only step the viewer needed to see. The task was to open Cap…",
+      "body": "A 13-second product demo came back from our recorder. The cursor moved, the page scrolled twice, and every frame decoded. It had missed the only step the viewer needed to see. The task was to open Captions from Valmera’s public Getting Started guide and scroll the destination. We recorded three attempts with the same destination. The first two reported zero completed clicks. The third reached the Captions page. Here are the first recording and the successful recording . Both are silent browser captures from the Valmera team. Give the action a visible outcome “Click Captions” describes an input. “Show the heading AI Captions: Edit Text, Timing &amp; Styles in Valmera ” gives the person reviewing the recording something to look for. A cursor ring can appear before a navigation finishes.",
+      "author": "Valmera",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Developer"
+        "Software"
       ],
       "featured": false,
       "xpReward": 52,
-      "url": "https://dev.to/harshit_tiwari_df50f43d2a/building-harshitos-a-macos-inspired-developer-portfolio-in-react-19-1c1a",
-      "image": "/images/feed/feed-37ff19f8e8f9.webp",
+      "url": "https://dev.to/valmera/how-to-verify-a-click-in-an-ai-recorded-website-demo-i50",
+      "image": "/images/feed/feed-5b57f73e00fd.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-ca15dc675374",
-      "title": "Every GTA 6 Actor Rumored and Confirmed by Rockstar Ahead of Launch",
-      "excerpt": "Who will play Jason, Lucia, and other major characters in GTA 6? Rockstar hasn't made an official reveal yet, but the internet has plenty of ideas.",
-      "body": "It's been an excruciatingly long wait, but we're just days away from the launch of Grand Theft Auto 6 . Ahead of the game's launch for PlayStation 5 and Xbox Series X, Rockstar Games has yet to reveal any official details about the actors who will appear in GTA 6 , including the central couple, Jason Duval and Lucia Caminos.",
-      "author": "Jen Glennon",
+      "id": "feed-7ca48e27b3af",
+      "title": "Find the Salesforce fields, flows and validation rules only your senior can explain",
+      "excerpt": "Today I wrote on LinkedIn about something you never forget in your career: the person who knew far more than you and, instead of making you feel it, sat down to teach you. Good seniors do that. But in…",
+      "body": "Today I wrote on LinkedIn about something you never forget in your career: the person who knew far more than you and, instead of making you feel it, sat down to teach you. Good seniors do that. But in a Salesforce org, a lot of what they teach is never written anywhere. Why does this field exist? Who asked for this flow? What is this validation rule protecting? The answer lives in one or two heads, and the new admin depends on those people having time to explain. This post shows a quick way to find those gaps with three Tooling API and SOQL queries and a few lines of pandas. The output is a list of components without a description, grouped by the person who last touched them. That list is a good agenda for a senior and a new admin to sit down together. 1.",
+      "author": "Juan Manuel Garrido",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://dev.to/juanma_garrido_1974/find-the-salesforce-fields-flows-and-validation-rules-only-your-senior-can-explain-1ngg",
+      "image": "/images/feed/feed-7ca48e27b3af.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-969da142fe76",
+      "title": "Study Pinpoints States with Steepest Warming Trends Since 1980",
+      "excerpt": "The findings indicate where adaptive measures are needed most around the United States. Global warming, the observed increase in the Earth’s average global surface temperature since preindustrial (185…",
+      "body": "The findings indicate where adaptive measures are needed most around the United States. Global warming, the observed increase in the Earth’s average global surface temperature since preindustrial (1850-1900) times, currently stands at around 1.63 degrees Celsius. While this number is expected to continue to rise, local temperatures will not go ... [continued] The post Study Pinpoints States with Steepest Warming Trends Since 1980 appeared first on CleanTechnica .",
+      "author": "Guest Contributor",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://cleantechnica.com/2026/11/14/study-pinpoints-states-with-steepest-warming-trends-since-1980/",
+      "image": "/images/feed/feed-969da142fe76.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-4adf02104468",
+      "title": "How to check which iOS version your iPhone is running",
+      "excerpt": "Not every version of iOS is a home run, but keeping your iPhone up to date is generally a good idea anyway. Here's how to check whether yours is.",
+      "body": "Not every version of iOS is a home run, but keeping your iPhone up to date is generally a good idea anyway. Here's how to check whether yours is.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Adnan Ahmed)",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.engadget.com/2311762/how-to-check-iphone-ios-version/",
+      "image": "/images/feed/feed-4adf02104468.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-e2a01cf30f03",
+      "title": "DDG Apologizes On Behalf Of Kanye-Recreating Fan Who Crashed Streamer Awards",
+      "excerpt": "While the interrupted AriAtHome was a good sport about sharing the spotlight, the mystery intruder was deemed \"corny\" by the crowd",
+      "body": "While the interrupted AriAtHome was a good sport about sharing the spotlight, the mystery intruder was deemed \"corny\" by the crowd\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Kotzer",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://kotaku.com/ddg-apologizes-on-behalf-of-kanye-recreating-fan-who-crashed-streamer-awards-2000756857",
+      "image": "/images/feed/feed-e2a01cf30f03.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-7bc120434788",
+      "title": "Magic Is Bringing Back Its Most Controversial Creature Type",
+      "excerpt": "Magic: The Gathering's Aaron Forsythe tells Polygon he knows when more Sliver cards will come to the game",
+      "body": "Whether you love or hate Sliver decks in Magic: The Gathering , you should prepare for more Sliver cards to make their way to the game soon. Vice President of Design Aaron Forsythe revealed as much during an in-person interview with Polygon at MagicCon: Atlanta 2026.",
+      "author": "Tomas Franzese",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.polygon.com/magic-the-gathering-new-sliver-cards-tease/",
+      "image": "/images/feed/feed-7bc120434788.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-1baa97c2ffa0",
+      "title": "35 Years Later, Tim Burton’s Greatest Love Story Is Officially on Streaming",
+      "excerpt": "A lonely man, a pastel suburb, and a Gothic castle. Tim Burton’s 35-year-old fairy tale is still amazing.",
+      "body": "What makes a love story work? For it to transcend, a love story needs more than good-looking actors, chemistry, and romantic dialogue. There’s no set formula, but it must sweep you off your feet. A touch of sadness and wistfulness never hurts.",
+      "author": "Maria Loreto",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "gaming",
@@ -148,74 +243,227 @@
       ],
       "featured": false,
       "xpReward": 36,
-      "url": "https://www.polygon.com/gta-6-cast-rumors-speculation-confirmed-actors/",
-      "image": "/images/feed/feed-ca15dc675374.jpg",
+      "url": "https://www.polygon.com/tim-burton-edward-scissorhands-love-story/",
+      "image": "/images/feed/feed-1baa97c2ffa0.jpg",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-85c926197e35",
-      "title": "How I freed up 36GB on my Android phone without deleting a single photo",
-      "excerpt": "No SD card, no problem.",
-      "body": "Credit: Pankil Shah / Android Authority My Galaxy S26 only has 256GB of internal storage, and there’s no SD card slot to expand it. So yes, storage is a constant struggle for me, especially with a camera this good that I just can’t stop using. But I wasn’t about to sacrifice my precious photos to free up space, so I went looking for other ways to do it. I went through forgotten apps, bloated caches, offline downloads, and old files I didn’t need anymore. It helped free up 36GB of storage, and more importantly, it wasn’t anywhere near as tedious as I kept assuming it would be.",
-      "author": "Pankil Shah",
+      "id": "feed-ccf65484d7c5",
+      "title": "What does an NPU do and why do so many laptops have them?",
+      "excerpt": "Wondering what an NPU actually does and whether you even need it? We've got you covered.",
+      "body": "Wondering what an NPU actually does and whether you even need it? We've got you covered.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Laptop. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Luke James)",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
-        "Android Phone"
+        "Laptop"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.engadget.com/2311854/what-is-npu-why-many-laptops-have-them/",
+      "image": "/images/feed/feed-ccf65484d7c5.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-6741c7c310ea",
+      "title": "Got an iPhone Duo? These 9 settings make it easier to use",
+      "excerpt": "From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's foldable iPhone easier to use every day.",
+      "body": "From Touch ID shortcuts to smarter volume buttons and camera tricks, these tweaks make Apple's foldable iPhone easier to use every day.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Sarah Perez",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/10/Apple-iPhone-Duo-closed-and-open.jpg?resize=1200,675",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-d7ba0ebc3f3e",
+      "title": "James Gunn Speaks Out About Rumors Of Skydance Being Unhappy With Man of Tomorrow, Says They Haven’t Even Seen The Movie Yet",
+      "excerpt": "Reports have claimed execs at the new parent company are unhappy with the expensive blockbuster",
+      "body": "Reports have claimed execs at the new parent company are unhappy with the expensive blockbuster\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
       ],
       "featured": false,
       "xpReward": 41,
-      "url": "https://www.androidauthority.com/free-up-android-storage-tips-3734228/",
-      "image": "/images/feed/feed-85c926197e35.jpg",
-      "source": "Android Authority",
+      "url": "https://kotaku.com/james-gunn-speaks-out-about-rumors-of-skydance-being-unhappy-with-man-of-tomorrow-says-they-havent-even-seen-the-movie-yet-2000756855",
+      "image": "/images/feed/feed-d7ba0ebc3f3e.jpg",
+      "source": "Kotaku",
       "isLive": true
     },
     {
-      "id": "feed-ac6741631aa7",
-      "title": "Rings of Power Just Changed the Nazgul in 1 Terrifying Way: ‘They Still Have a Human Side’",
-      "excerpt": "Rings of Power season 3 shows how Sauron creates the Nazgûl. Showrunner Patrick McKay explains why the new Ring-servants haven't lost their humanity.",
-      "body": "The Lord of the Rings: The Rings of Power season 3 sees Sauron begin to recruit the nine lieutenants that will one day become the Nazgûl, or Ringraiths. While details in J.R.R. Tolkien’s lore are a bit scarce when it comes to the gradual transformation of the Ringwraiths, Rings of Power initially presents the rings as miraculous gifts that transform the Men who wear them into Nazgnagôl, or \"Ring-servants.” Rather than immediately enslaving their wearers, Sauron's rings heal their injuries, cure terrible afflictions, and grant them extraordinary power. The catch is that every gift brings its recipient closer to surrendering his freedom.",
-      "author": "Corey Plante",
+      "id": "feed-9a0b331b7502",
+      "title": "Checking your Apple Watch's battery health is easier than you think",
+      "excerpt": "The Apple Watch's battery life is undoubtedly impressive but you'll need to keep an eye on the health of the battery to keep it working at its best.",
+      "body": "The Apple Watch's battery life is undoubtedly impressive but you'll need to keep an eye on the health of the battery to keep it working at its best.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Apple Watch. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Yoni Yardeni)",
       "date": "2026-11-14",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "gadgets",
       "tags": [
-        "Gaming"
+        "Apple Watch"
       ],
       "featured": false,
-      "xpReward": 39,
-      "url": "https://www.polygon.com/rings-of-power-season-3-nazgnagol-vs-nazgul-explained/",
-      "image": "/images/feed/feed-ac6741631aa7.jpg",
-      "source": "Polygon",
+      "xpReward": 41,
+      "url": "https://www.engadget.com/2311851/how-to-check-apple-watch-battery-health/",
+      "image": "/images/feed/feed-9a0b331b7502.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-83b448e06941",
-      "title": "How to tell if a Black Friday deal is actually worth it",
-      "excerpt": "After years of hunting Black Friday deals, here's the key to separating the bargains from the bluster.",
-      "body": "Credit: Joe Maring / Android Authority I’ve spent the best part of a decade hunting down deals for Android Authority , and I learned very quickly that a big discount doesn’t necessarily mean you’re getting a bargain. Black Friday is a particularly good time to remember this, with retailers plastering huge percentage discounts over everything in sight. Contrary to the memes, some are genuinely excellent deals — I can assure you that some tech devices will hit their lowest price ever this month. But you’ll also see many ‘Black Friday deal’ labels on discounts at a price higher than three months ago. Thankfully, there’s a very easy way to tell the difference. The key to assessing a Black Friday deal is to use a price tracker.",
-      "author": "Matt Horne",
+      "id": "feed-321a65a1340a",
+      "title": "Zoox Launches Robotaxis in Atlanta",
+      "excerpt": "The year of the robotaxi rolls on. Just after writing about Zoox expanding its robotaxi service in Las Vegas, I see news that Zoox is entering Atlanta! “Our initial rollout will focus on the Northwest…",
+      "body": "The year of the robotaxi rolls on. Just after writing about Zoox expanding its robotaxi service in Las Vegas, I see news that Zoox is entering Atlanta! &#8220;Our initial rollout will focus on the Northwest region of Atlanta, near Atlantic Station, Woodward, and Home Park. We will expand throughout the ... [continued] The post Zoox Launches Robotaxis in Atlanta appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://cleantechnica.com/2026/11/14/zoox-launches-robotaxis-in-atlanta/",
+      "image": "/images/feed/feed-321a65a1340a.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-e67c66042966",
+      "title": "Here’s a HomeView feature that should come to every Apple device",
+      "excerpt": "This week, Apple started shipping the HomeView, its first display made for the smart home. On the HomeView, there’s one particularly nice feature that I’d love to see make its way to all Apple platfor…",
+      "body": "This week, Apple started shipping the HomeView, its first display made for the smart home. On the HomeView, there’s one particularly nice feature that I’d love to see make its way to all Apple platfor — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Device. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Michael Burkhardt",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Device"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://9to5mac.com/2026/11/14/homeview-ambient-dark-mode-should-come-to-all-devices/",
+      "image": "/images/feed/feed-e67c66042966.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-da89989bafe7",
+      "title": "Check your ego at the door: Stellantis’ new electric dolly turns ANY car into a tow rig",
+      "excerpt": "We all know the type: grizzled stubble, wraparound PitVipers, a MAGA hat quietly retired after last week’s deep-blue shellacking, and a pristine, polished pickup parked in the driveway that they “need…",
+      "body": "We all know the type: grizzled stubble, wraparound PitVipers, a MAGA hat quietly retired after last week’s deep-blue shellacking , and a pristine, polished pickup parked in the driveway that they “need for towing.” With Stellantis’ new patent for an AI-powered electric tow dolly that turns just about ANY vehicle into a capable tow rig, however, those might need a new to find a new excuse to keep that gas-guzzler. more…",
+      "author": "Jo Borrás",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://electrek.co/2026/11/14/check-your-ego-at-the-door-stellantis-new-electric-dolly-turns-any-car-into-a-tow-rig/",
+      "image": "/images/feed/feed-da89989bafe7.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-d64e91fc8ff6",
+      "title": "Samsung may be getting rid of another One UI feature",
+      "excerpt": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.",
+      "body": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Filipe Espósito)",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
         "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.engadget.com/2311763/samsung-one-ui-getting-rid-of-another-feature/",
+      "image": "/images/feed/feed-d64e91fc8ff6.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-17dd6d164624",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "excerpt": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "body": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lauren Forristal",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Ai"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-60f9b9b30062",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "excerpt": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Firework…",
+      "body": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Firework — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Breach, Security. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Breach",
+        "Security"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "image": "/images/feed/feed-60f9b9b30062.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-dc5568437051",
+      "title": "12 Classic Wii Games That Nintendo Should Add to Switch Online",
+      "excerpt": "Nintendo could really make our day by launching a Wii channel on Switch Online and including these 12 classic games.",
+      "body": "There’s no shortage of gems in the Wii library, and they didn’t all come from Nintendo itself. Thinking back on some of the games that people missed at the time, it’s easy to argue that Nintendo should add Wii to Switch Online sometime soon, if only so we have another chance to play classic games like the 12 on this list.",
+      "author": "Jason Venter",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo"
       ],
       "featured": false,
       "xpReward": 51,
-      "url": "https://www.androidauthority.com/how-to-tell-if-a-black-friday-deal-is-worth-it-3734185/",
-      "image": "/images/feed/feed-83b448e06941.jpg",
-      "source": "Android Authority",
+      "url": "https://www.polygon.com/switch-online-missing-wii-games/",
+      "image": "/images/feed/feed-dc5568437051.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-d13642579483",
-      "title": "GTA 6 Release Day: Everything To Know To Be Ready On Day One",
-      "excerpt": "What you need to know about GTA 6's release day, pre-order bonuses, preload sizes, updates, PS5 and Xbox differences and much more",
-      "body": "Grand Theft Auto 6 is less than a week away, which means there's not much time to prepare for the biggest gaming launch of 2026. Fortunately, we've got some tips on what to expect on day one and how to make sure you get the best experience possible from Rockstar's record-breaking open-world adventure.",
-      "author": "Patricia Hernandez",
+      "id": "feed-111be77cfa0f",
+      "title": "GTA 6 Will Do Something the Franchise Has Never Done Before: Encourage Empathy",
+      "excerpt": "Rockstar has confirmed GTA 6 features something the franchise has never had before: mechanisms that encourage empathy.",
+      "body": "Rockstar has confirmed GTA 6 features something the franchise has never had before: mechanisms that encourage empathy. Co-studio head Rob Nelson and head of publishing Jennifer Kolbe talked about how next week&#39;s Grand Theft Auto changes the formula the series is known for during an interview with The Guardian (via @GameRoll_ ). Jason and Lucia will surely be able to cause a fair amount of chaos when players take control in Vice City, but in a post- Red Dead Redemption 2 world, they&#39;ll have the freedom to be kind, too. &quot;Crime is a fundamental part of GTA – at least up until now, it has been,&quot; Nelson said.",
+      "author": "Michael Cripe",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "gaming",
@@ -223,67 +471,281 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 39,
-      "url": "https://www.polygon.com/gta-6-when-does-it-come-out-ps5-pro-crossplay-countdown-preorder-preload/",
-      "image": "/images/feed/feed-d13642579483.jpg",
-      "source": "Polygon",
+      "xpReward": 47,
+      "url": "https://www.ign.com/articles/gta-6-will-do-something-the-franchise-has-never-done-before-encourage-empathy",
+      "image": "/images/feed/feed-111be77cfa0f.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
-      "id": "feed-46f2f4d30a4f",
-      "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
-      "excerpt": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
-      "body": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Harry Rabinowitz",
+      "id": "feed-8142b4931650",
+      "title": "No One Hurt At Xbox Studio InXile Entertainment After A Gunman Allegedly Opened Fire On The Building",
+      "excerpt": "Police have since taken a suspect into custody",
+      "body": "Police have since taken a suspect into custody\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Xbox. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
       "date": "2026-11-14",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "gaming",
       "tags": [
-        "Gadgets"
+        "Xbox"
       ],
       "featured": false,
-      "xpReward": 42,
-      "url": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
-      "image": "/images/feed/feed-46f2f4d30a4f.jpg",
+      "xpReward": 34,
+      "url": "https://kotaku.com/not-one-hurt-at-xbox-studio-inxile-entertainment-after-a-gunman-allegedly-opened-fire-on-the-building-2000756851",
+      "image": "/images/feed/feed-8142b4931650.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-83a4e4887d17",
+      "title": "Huawei set to challenge Tesla Powerwall with new, 20 kW home battery",
+      "excerpt": "This high-tech Huawei home battery pack hopes to hold back Tesla’s latest Powerwall with silicon carbide technology, AI-powered energy management baked in, and enough modular storage to keep even larg…",
+      "body": "This high-tech Huawei home battery pack hopes to hold back Tesla’s latest Powerwall with silicon carbide technology, AI-powered energy management baked in, and enough modular storage to keep even larg — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jo Borrás",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://electrek.co/2026/11/14/huawei-set-to-challenge-tesla-powerwall-with-new-20-kw-home-battery/",
+      "image": "/images/feed/feed-83a4e4887d17.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-adb1e9dc3f6d",
+      "title": "The US Is Auctioning Seabed Near American Samoa. A $3 Million Bid Will Not Build a Mine.",
+      "excerpt": "American Samoa’s seabed auction advances mineral leasing. The technical and economic case for a profitable mining industry remains highly unfavorable. The post The US Is Auctioning Seabed Near America…",
+      "body": "American Samoa’s seabed auction advances mineral leasing. The technical and economic case for a profitable mining industry remains highly unfavorable. The post The US Is Auctioning Seabed Near American Samoa. A $3 Million Bid Will Not Build a Mine. appeared first on CleanTechnica .",
+      "author": "Michael Barnard",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://cleantechnica.com/2026/11/14/seabed-mining-lease-critical-minerals-business-case/",
+      "image": "/images/feed/feed-adb1e9dc3f6d.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-ff9b6b2164bc",
+      "title": "This Week In Space podcast: Episode 236 — Alienspotting",
+      "excerpt": "On Episode 236 of This Week In Space, Tariq Malik and Rod Pyle are joined by Mikhail Tikhonov to talk about how life can take more unusual forms, ones we might not even recognize.",
+      "body": "On Episode 236 of This Week In Space , Tariq Malik and Rod Pyle are joined by Mikhail Tikhonov to talk about how life can take more unusual forms, ones we might not even recognize. When we think of extraterrestrials, our minds generally go from the latex-suited bipedal aliens seen in Star Trek and Star Wars to more exotic critters in sci-fi movies. Scientists think in terms of carbon-based microbial life and other lower life forms. But some researchers, such as Tikhonov from Washington University, suggest that life can take more unusual forms, ones we might not even recognize. He further suggests a new definition of life: something that takes in and transforms energy and replicates. His ideas radically expand our notions of alien life and how it might be recognized.",
+      "author": " Space.com Staff ",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-236-alienspotting",
+      "image": "/images/feed/feed-ff9b6b2164bc.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-f828612ff6ba",
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "excerpt": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
+      "body": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Bill Toulas",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "image": "/images/feed/feed-f828612ff6ba.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-e4dd1d13f3de",
+      "title": "'Alien: Fireteam Elite 2' is a good old-fashioned bug hunt, ironically plagued by bugs",
+      "excerpt": "We're scared of the Xenomorphs again, but Aliens: Fireteam Elite 2 knows old-fashioned bug hunts shouldn't be a thing of the past.",
+      "body": "The first Aliens: Fireteam Elite was among my favorite Alien video games , and there were a lot of reasons to be excited for a sequel. At Summer Game Fest 2026 , we learned of many smart changes and improvements to the formula, and I was eager to go bug-hunting again. A new campaign, fully reworked classes, and four-player co-op. What could go wrong? Months later, Aliens: Fireteam Elite 2's debut has been difficult, mostly due to glaring tech issues. Despite this, it's still a welcome jolt of action for a franchise that's been focusing on making the Xenomorphs scary again in recent years.",
+      "author": " Fran Ruiz ",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.space.com/entertainment/space-games/alien-fireteam-elite-2-is-a-good-old-fashioned-bug-hunt-ironically-plagued-by-bugs",
+      "image": "/images/feed/feed-e4dd1d13f3de.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-e906ce588cf4",
+      "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+      "excerpt": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Hele…",
+      "body": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam Altman . That incident, now sometimes referred to as “the blip,” ended with Sam coming back as CEO, Helen resigning, and a new board of directors. OpenAI has since restructured entirely .",
+      "author": "Nilay Patel",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Openai"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "image": "/images/feed/feed-e906ce588cf4.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-f54c2f6c5e67",
+      "title": "Why did Starship Flight 15 booster abort 'chopsticks' landing catch? SpaceX still investigating (video)",
+      "excerpt": "SpaceX is looking into why its latest Starship megarocket test flight missed the first of two planned landings on Friday (Nov. 13) during the Starship Flight 15 test.",
+      "body": "SpaceX is looking into why its latest Starship megarocket test flight missed the first of two planned landings on Friday (Nov. 13), triggering an automatic abort that destroyed the booster. The giant Starship rocket , a massive two-stage vehicle that's the largest launcher on Earth, soared into orbit from SpaceX's Starbase in South Texas on Friday on the company's ambitious Flight 15 test flight. The goal: To land both the Super Heavy first stage and the Ship upper stage, for the first full Starship recovery — and the first complete recovery of an orbital launch system in history. The Super Heavy stage, called Booster 22, came back to Earth mere minutes after liftoff as planned.",
+      "author": " Tariq Malik ",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Starship"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video",
+      "image": "/images/feed/feed-f54c2f6c5e67.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-d0917e46d690",
+      "title": "On this day in space! Nov. 14, 1969: NASA's Apollo 12 astronauts launch to the moon on a 'pinpoint landing' lunar mission",
+      "excerpt": "On Nov. 14, 1969, the Apollo 12 astronauts launched to the moon. Here's why it mattered.",
+      "body": "On Nov. 14, 1969, the Apollo 12 mission launched to the moon. This was the second moon landing of the Apollo program. The two astronauts on board were Pete Conrad , commander, and Alan Bean , the lunar module pilot. Astronaut Richard Gordon , the command module pilot, stayed in the command module and orbited the moon while his crewmates went to the surface. The astronauts made a pinpoint landing in a lunar mare called the Ocean of Storms. The previous moon mission, Apollo 11 , drifted far from the planned landing zone. But Apollo 12 landed close to a scientific target. That target was a robotic lander called Surveyor 3 . Scientists wanted to look at Surveyor 3 to see how well the spacecraft lasted on the moon since it landed there more than two years earlier.",
+      "author": " Hanneke Weitering ",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa",
+        "Astronaut",
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-14-2026",
+      "image": "/images/feed/feed-d0917e46d690.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-d856d78d8607",
+      "title": "Tesla Cybercab’s autonomy agreement is insane: $299/mo or it doesn’t move",
+      "excerpt": "Tesla has posted the agreement that comes with its $29,990 Cybercab, and it’s even worse than the order page suggested. The two-seater can’t move without a $299 monthly “Autonomy Subscription” that Te…",
+      "body": "Tesla has posted the agreement that comes with its $29,990 Cybercab, and it’s even worse than the order page suggested. The two-seater can’t move without a $299 monthly “Autonomy Subscription” that Tesla can reprice with a month’s notice, suspend for a week, or cut off entirely. And Tesla wants consumers to sign it while still refusing to give unsupervised self-driving to the Model Y owners it has been selling “Full Self-Driving” to for nearly a decade. more…",
+      "author": "Fred Lambert",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/",
+      "image": "/images/feed/feed-d856d78d8607.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-1cfd40f11d57",
+      "title": "Watch SpaceX will attempt its 1st-ever 'chopsticks' Starship landing catch of a rocket from orbit today (livestream)",
+      "excerpt": "SpaceX plans to catch the upper stage of its Starship megarocket at the launch pad today (Nov. 14), and you can watch the unprecedented action live.",
+      "body": "SpaceX plans to catch the upper stage of its Starship megarocket for the first time ever today (Nov. 14), and you can watch the action live. Starship launched on its 15th test flight on Friday evening (Nov. 13), rising into the sky from SpaceX's Starbase site in South Texas. The mission plan called for bringing both of the vehicle's stages back to Starbase and catching them with the launch tower's \"chopstick\" arms — an unprecedented total recovery of an orbital rocket . That didn't happen, however; SpaceX diverted Starship's Super Heavy booster to a controlled splashdown in the Gulf of Mexico 6.5 minutes after launch. (SpaceX said later that a guidance and navigaton issue during its descent triggered and automatic abort .",
+      "author": " Mike Wall ",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Starship",
+        "Orbit"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+      "image": "/images/feed/feed-1cfd40f11d57.png",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-daae8022327d",
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "excerpt": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.",
+      "body": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ransomware. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Matt Burgess, Lily Hay Newman",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Ransomware"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "image": "/images/feed/feed-daae8022327d.png",
       "source": "Wired",
       "isLive": true
     },
     {
-      "id": "feed-bb9cd7e1b4fb",
-      "title": "I tested Meta Muse and ChatGPT Dots, and here’s the one I’m sticking with",
-      "excerpt": "AI agent are here to stay.",
-      "body": "I’m the first to admit I was late to the game when it came to integrating AI into my life. AI tools on my smartphone felt (and still feel) useless and left a sour taste in my mouth. Large language models I used on my desktop, such as ChatGPT and Claude, showed significantly more promise, but they didn’t feel like something casual users would adopt easily. That’s changed over the last couple of months. I’ve ramped up my Codex usage, and I’ve become interested in chat agents designed to bring powerful AI features and functionality to users who aren’t necessarily up to date on the latest from Anthropic and OpenAI. These new agents are easier to use, look friendlier, and promise to be more proactive.",
-      "author": "Stephen Radochia",
+      "id": "feed-975ddc00f54e",
+      "title": "Diesel Prices Are Surging. This Electric Trucking Company Is Seeing More Interest",
+      "excerpt": "The CEO of Einride, an electric freight company, says he's seeing more customer interest in electric trucking due to high fuel prices.",
+      "body": "The CEO of Einride, an electric freight company, says he's seeing more customer interest in electric trucking due to high fuel prices.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
       "date": "2026-11-14",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "cars",
       "tags": [
-        "Gadgets"
+        "Cars"
       ],
       "featured": false,
-      "xpReward": 50,
-      "url": "https://www.androidauthority.com/i-used-meta-muse-and-chatgpt-dots-3733591/",
-      "image": "/images/feed/feed-bb9cd7e1b4fb.jpg",
-      "source": "Android Authority",
+      "xpReward": 30,
+      "url": "https://insideevs.com/news/815472/diesel-prices-electric-trucks-einride/",
+      "image": "/images/feed/feed-975ddc00f54e.jpg",
+      "source": "InsideEVs",
       "isLive": true
     },
     {
-      "id": "feed-5c39356a6225",
-      "title": "This 3D Pet SIM You Never Played Has Over 12,000 ‘Overwhelmingly Positive’ Reviews",
-      "excerpt": "Wobbledogs launched in 2022 and despite receiving almost universal acclaim, flew under the radar for a lot of people.",
-      "body": "Have you ever wanted to raise your own genetically mutated pup? Well, there's a Steam game focused on exactly that, and it probably deserves more success than it's managed in the four years since it launched. Wobbledogs , from developer Animal Uprising, is described on Steam as \"a 3D pet simulation where you raise your own hive of mutating dogs.\"",
-      "author": "Ford James",
+      "id": "feed-d6bc4ec6947c",
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Explo…",
+      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+      "author": "info@thehackernews.com (The Hacker News)",
       "date": "2026-11-14",
       "readTime": "2 min",
-      "section": "gaming",
+      "section": "cybersecurity",
       "tags": [
-        "Gaming"
+        "Exploit"
       ],
       "featured": false,
-      "xpReward": 34,
-      "url": "https://www.polygon.com/wobbledogs-3d-pet-sim-steam-overwhelmingly-positive/",
-      "image": "/images/feed/feed-5c39356a6225.jpg",
-      "source": "Polygon",
+      "xpReward": 52,
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "image": "/images/feed/feed-d6bc4ec6947c.jpg",
+      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -299,258 +761,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 34,
       "url": "https://www.space.com/stargazing/see-jupiter-and-mars-make-a-spectacular-close-approach-overnight-nov-15-16",
       "image": "/images/feed/feed-4b199ba3a9a5.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-6cd8f8900f86",
-      "title": "Vela Maps is the closest thing to Google Maps without Google — here’s how to install it",
-      "excerpt": "This open-source app looks, feels, and acts like Google Maps, but it's more than just a copy.",
-      "body": "I’d argue that there are at least two apps on Android for every available niche; you just need to find them. This is true for most products, but the one that I’ve found most difficult to replace is Google Maps . My favorite Google app by far, Maps is useful for commuters, explorers, tourists, and restaurateurs. It includes info beyond mere navigation and community input that adds further richness to the experience. It’s a hugely capable and unique app that provides an almost unrivaled experience. “Almost” is the key word here.",
-      "author": "Andy Walker",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.androidauthority.com/vela-maps-vs-google-maps-android-3733791/",
-      "image": "/images/feed/feed-6cd8f8900f86.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-6eb374171865",
-      "title": "Breaking Down Theo's Shock Moment in The Lord of the Rings: The Rings of Power Season 3 and the Mystery of His Father With Actor Tyroe Muhafidin",
-      "excerpt": "A spoiler-filled The Lord of the Rings: The Rings of Power Season 3 interview with Theo actor Tyroe Muhafidin.",
-      "body": "Warning! Spoilers for The Lord of the Rings: The Rings of Power Season 3 Episodes 1-4 follow. If you’re caught up with The Lord of the Rings: The Rings of Power , you’ll have watched Season 3, Episode 4 and were probably left reeling by a shock character death that leaves the elves in a spot of bother going into the final stretch. During the first four episodes of Season 3, we see Theo, played by Tyroe Muhafidin, tempted by Sauron into becoming a Nazgnagôl. Nazgnagôl are men who wear one of Sauron’s Rings of Power, but still retain something of their humanity. That is, they are not fully Nazgûl, or Ringwraiths, as we know of the beings in the Third Age of J. R. R. Tolkien&#39;s Middle-earth. They are, at this stage, Ring Servants.",
-      "author": "Wesley Yin-Poole",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.ign.com/articles/breaking-down-theos-shock-moment-in-the-lord-of-the-rings-the-rings-of-power-season-3-and-the-mystery-of-his-father-with-actor-tyroe-muhafidin",
-      "image": "/images/feed/feed-6eb374171865.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-8fe92030037a",
-      "title": "5 apps you can use instead of Google Messages",
-      "excerpt": "These apps might not have RCS, but they stand out in other ways.",
-      "body": "Credit: Joe Maring / Android Authority Google Messages is easily one of the best messaging apps for Android, and RCS support is a large part of the reason. While Samsung used to support RCS directly, these days the only true RCS solution for Android is Google’s official app. As much as RCS has improved Android messaging, I understand that not everyone has bought into the standard. If you’re not concerned about RCS support, there are plenty of other great messaging apps out there as well. Let’s take a look at a few of the best messaging apps out there. To keep things interesting, we’ll take a look at both SMS-based apps and those that use proprietary formats via the web.",
-      "author": "Andrew Grush",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.androidauthority.com/google-messages-alternative-messaging-apps-3733535/",
-      "image": "/images/feed/feed-8fe92030037a.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-6769a439ff98",
-      "title": "Apple's Sci-Fi Thriller Masterpiece Has One of the Best Seasons in TV History",
-      "excerpt": "Dan Erickson and Ben Stiller changed how we see Apple TV forever with the sci-fi powerhouse series 'Severance.'",
-      "body": "In 2022, Apple was three years into its streaming experiment and still trying to find its footing. Aside from Ted Lasso , the tech giant hadn't released any breakout hits. And while a few sci-fi shows like For All Mankind and Foundation had fans, they weren't exactly mainstream success stories. Then everything changed when Apple took a bet on an unknown showrunner (with backing from an A-list actor) to create something revolutionary.",
-      "author": "Aimee Hart",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.polygon.com/apple-sci-fi-thriller-masterpiece-severance-one-of-the-best-seasons-in-tv-history/",
-      "image": "/images/feed/feed-6769a439ff98.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-7173febae6da",
-      "title": "20 Years Ago, the Best Sci-Fi Show of the Century Delivered the Most Epic Space Battle in TV History",
-      "excerpt": "Twenty years ago, Battlestar Galactica topped the Adama Maneuver by transforming the Pegasus into an enormous battering ram.",
-      "body": "Two decades later, this spectacle from Battlestar Galactica season 3’s “Exodus, Part 2” remains unforgettable sci-fi TV. It’s dazzling and horrifying, and still one of the coolest things ever broadcast on science-fiction television. From a tactical standpoint, the “Adama Maneuver” is absolutely bonkers and one of the riskiest spaceship tactics, perhaps ever (sorry, Vice-Admiral Holdo). What if the ship had gotten torn apart from ripping through the atmosphere? What if the FTL drive malfunctioned or didn’t activate in time? Somehow, it’s also not even the most visually impressive sequence in the episode.",
-      "author": "Corey Plante",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.polygon.com/battlestar-galactica-season-3-exodus-20-year-anniversary-adama-maneuver/",
-      "image": "/images/feed/feed-7173febae6da.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-2801958c65cb",
-      "title": "Outage at HR platform Workday locks millions of employees out of their account",
-      "excerpt": "Workday outage leaves employees of thousands of businesses unable to access workplace tasks.",
-      "body": "Workday outage leaves employees of thousands of businesses unable to access workplace tasks.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Mariella Moon)",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
-      "image": "/images/feed/feed-2801958c65cb.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-e92c36e0a798",
-      "title": "Tesla Starts Selling Cybercab — $30,000*",
-      "excerpt": "Well, it’s a big day in Tesla World. The company has officially launched Cybercab sales. You can now order a Cybercab for the starting price of $30,000 (technically, $29,900). That said, there is an a…",
-      "body": "Well, it&#8217;s a big day in Tesla World. The company has officially launched Cybercab sales. You can now order a Cybercab for the starting price of $30,000 (technically, $29,900). That said, there is an asterisk here — actually, there are two asterisks here. First of all, only people who have ... [continued] The post Tesla Starts Selling Cybercab — $30,000* appeared first on CleanTechnica .",
-      "author": "Z. S.",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://cleantechnica.com/2026/11/13/tesla-starts-selling-cybercab-30000/",
-      "image": "/images/feed/feed-e92c36e0a798.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-505629fb27e2",
-      "title": "Who Can Weather the Health Storm?",
-      "excerpt": "States facing the greatest health damage from climate change are the least equipped to protect their residents. Across the United States, climate change is intensifying extreme weather events, resulti…",
-      "body": "States facing the greatest health damage from climate change are the least equipped to protect their residents. Across the United States, climate change is intensifying extreme weather events, resulting in escalating public health harms and severe economic damage. For example, devastating inland flooding in Texas in 2025 killed 134 people ... [continued] The post Who Can Weather the Health Storm? appeared first on CleanTechnica .",
-      "author": "NRDC",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://cleantechnica.com/2026/11/13/who-can-weather-the-health-storm/",
-      "image": "/images/feed/feed-505629fb27e2.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-b21ceb0e9b95",
-      "title": "Comparative Cost Analysis for Residential Curbside Organics Collection Programs",
-      "excerpt": "This analysis of eight residential programs shows that, if properly implemented, cities can use a new organics collection program to build a more efficient, resilient, and sustainable solid waste syst…",
-      "body": "This analysis of eight residential programs shows that, if properly implemented, cities can use a new organics collection program to build a more efficient, resilient, and sustainable solid waste system. Coauthored with Raftelis Residential curbside organics collection is expanding across the United States as states and local governments seek to ... [continued] The post Comparative Cost Analysis for Residential Curbside Organics Collection Programs appeared first on CleanTechnica .",
-      "author": "NRDC",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://cleantechnica.com/2026/11/13/comparative-cost-analysis-for-residential-curbside-organics-collection-programs/",
-      "image": "/images/feed/feed-b21ceb0e9b95.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-2bf520b82cf0",
-      "title": "Tesla Cybercab orders open at $29,990 + $299/mo, only in Robotaxi zones",
-      "excerpt": "Tesla is now inviting “select customers” to buy a Cybercab for personal use at $29,990, but the car won’t move unless you also pay $299 a month for an “Autonomy Subscription.” And it only works inside…",
-      "body": "Tesla is now inviting “select customers” to buy a Cybercab for personal use at $29,990, but the car won’t move unless you also pay $299 a month for an “Autonomy Subscription.” And it only works inside Tesla’s Robotaxi service areas in Texas and Florida, the same geofences that have turned out to be significantly smaller than what Tesla advertises. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://electrek.co/2026/11/13/tesla-cybercab-personal-use-orders-299-subscription-geofence/",
-      "image": "/images/feed/feed-2bf520b82cf0.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-71d5344e2b1a",
-      "title": "10 Reasons for the Big Blue Wave",
-      "excerpt": "I wrote the other day about a top reason US voters said they voted for Democrats in such large numbers — corruption in the Trump household, Trump administration, and Republican Party. It was surprisin…",
-      "body": "I wrote the other day about a top reason US voters said they voted for Democrats in such large numbers — corruption in the Trump household, Trump administration, and Republican Party. It was surprising to me that this showed up as the biggest factor for so many people &#8230; even ... [continued] The post 10 Reasons for the Big Blue Wave appeared first on CleanTechnica .",
-      "author": "Z. S.",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://cleantechnica.com/2026/11/13/10-reasons-for-the-big-blue-wave/",
-      "image": "/images/feed/feed-71d5344e2b1a.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-e83c78c02cea",
-      "title": "Rinnai’s new heat pump water heaters get smarter – and easier to install",
-      "excerpt": "Rinnai has launched a new lineup of electric heat pump water heaters that adds wifi controls and more installation options to an appliance that can cut the energy needed for hot showers. more…",
-      "body": "Rinnai has launched a new lineup of electric heat pump water heaters that adds wifi controls and more installation options to an appliance that can cut the energy needed for hot showers. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michelle Lewis",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://electrek.co/2026/11/13/rinnai-new-heat-pump-water-heaters-get-smarter-and-easier-to-install/",
-      "image": "/images/feed/feed-e83c78c02cea.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-535a79835606",
-      "title": "Tesla Opens Self-Driving Cybercab Orders To 'Select Customers' At $29,990",
-      "excerpt": "The Cybercab will be Tesla's cheapest vehicle, but there's a catch: autonomous driving will cost you $299 per month.",
-      "body": "The Cybercab will be Tesla's cheapest vehicle, but there's a catch: autonomous driving will cost you $299 per month.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Self-driving, Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Self-driving",
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
-      "image": "/images/feed/feed-535a79835606.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -567,49 +781,9 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 32,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
       "image": "/images/feed/feed-531d5babca01.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-2e6e211a4cf2",
-      "title": "On this day in space! Nov. 13, 1971: NASA's Mariner 9 becomes 1st spacecraft to orbit Mars, revealing close looks at the Martian surface",
-      "excerpt": "On Nov. 13, 1971, Mariner 9 became the first spacecraft to orbit Mars. Here's why it mattered.",
-      "body": "On Nov. 13, 1971, Mariner 9 became the first spacecraft to orbit Mars. At the time, scientists didn't know much about the Red Planet. NASA had several Mars flybys before Mariner 9 . Those flybys showed that Mars had a cratered surface , so some scientists thought that Mars looked just like the moon. Then Mariner 9 blew blew their minds. When Mariner 9 got to Mars , it arrived in the middle of a dust storm. It saw some tall structures sticking through the clouds. When the dust settled, images from Mariner 9 revealed that these structures were the tops of huge volcanoes. One volcano, Olympus Mons , is the tallest in the solar system. Mariner 9 also spotted an enormous canyon called Valles Marineris . This canyon is five times longer than the Grand Canyon in Arizona.",
-      "author": " Hanneke Weitering ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa",
-        "Spacecraft",
-        "Orbit"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-13-2026",
-      "image": "/images/feed/feed-2e6e211a4cf2.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-1d8a167185d9",
-      "title": "60 years ago the Leonid meteor shower produced 144,000 meteors per hour. Could it happen again?",
-      "excerpt": "60 years ago, the Leonid meteor shower unleashed one of the most spectacular meteor storms in recorded history. As the 2026 peak approaches, here's what skywatchers can expect.",
-      "body": "This year marks a rather auspicious anniversary for meteor watchers. Sixty years ago , one of the most stupendous Leonid meteor displays lit up the predawn skies over the central and western U.S. So, what will the 2026 Leonids bring us? And what might they bring in the years to come? The Leonid meteor shower is one of the most celebrated of the year's annual displays of \"shooting stars.\" The mere mention of the Leonids usually elicits mental images of a sky filled with shooting stars pouring down through the sky like rain. Such meteor storms have indeed occurred with the Leonids, such as in 1833 and 1966 when meteor rates of tens of thousands per hour were observed.",
-      "author": " Joe Rao ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.space.com/stargazing/meteor-showers/60-years-ago-the-leonid-meteor-shower-produced-144-000-meteors-per-hour-could-it-happen-again",
-      "image": "/images/feed/feed-1d8a167185d9.jpg",
       "source": "Space.com",
       "isLive": true
     },
@@ -627,49 +801,10 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 50,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
       "image": "/images/feed/feed-b5d8e3ece75e.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-3ab33c5c25c0",
-      "title": "100 launches! Rocket Lab sends Earth-observing satellite to orbit on milestone mission (photos)",
-      "excerpt": "Rocket Lab launched its 100th space mission shortly after midnight on Saturday (Nov. 14), sending a private Japanese Earth-observing satellite to orbit.",
-      "body": "Rocket Lab just hit the century mark. An Electron rocket topped with a private Japanese Earth-observing satellite lifted off from Rocket Lab's New Zealand site on Saturday (Nov. 14) at 12:30 a.m. EST (0530 GMT; 6:30 p.m. local New Zealand time). The mission, which Rocket Lab called \"The Mountain God Rises,\" was a big one: It marked the 100th launch to date for the California-based company. The first stage of Rocket Lab's Electron rocket falls back to Earth during \"The Mountain God Rises\" mission on Nov. 14, 2026. (Image credit: Rocket Lab) Rocket Lab launched for the first time in May 2017, sending the brand-new Electron up on a test flight from New Zealand.",
-      "author": " Mike Wall ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Satellite",
-        "Orbit"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite",
-      "image": "/images/feed/feed-3ab33c5c25c0.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-cab3446a7e32",
-      "title": "'Arrival' at 10: Denis Villeneuve's alien visitation classic that reminded us it's good to talk",
-      "excerpt": "How the 'Dune' director turned a little-known short story into one of the best sci-fi movies of the 21st century",
-      "body": "In many of the biggest science fiction franchises, conversing with alien races is an absolute doddle. In \" Star Trek \", universal translators come as standard, while C-3PO has spent the last 49 years reminding everyone in \"Star Wars\" that he's fluent in over six million forms of communication. But in \"Arrival\" — which was released 10 years ago in November 2016 — making first contact proves to be rather more challenging than maintaining your Duolingo streak. In fact, working out how to establish a dialogue with extraterrestrial visitors becomes the whole point of this powerful and heartbreaking story, as the fate of planet Earth hinges on the interpretation of a single noun.",
-      "author": " Richard Edwards ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.space.com/entertainment/space-movies-shows/arrival-at-10-the-denis-villeneuve-alien-visitation-classic-that-reminded-us-its-good-to-talk",
-      "image": "/images/feed/feed-cab3446a7e32.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -685,29 +820,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 35,
       "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
       "image": "/images/feed/feed-b18b7197a903.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-8bbea40991ee",
-      "title": "California's brand-new Air & Space Center, home of the space shuttle Endeavour, opens today",
-      "excerpt": "The California Science Center's brand-new Samuel Oschin Air & Space Center —the home of NASA's space shuttle Endeavour —officially opened to the public today (Nov. 13).",
-      "body": "LOS ANGELES — The California Science Center officially opened its brand-new Samuel Oschin Air &amp; Space Center to the public today (Nov. 13). After more than three decades in development, folks can finally visit the Los Angeles science museum's massive new wing. For most of us, the biggest draw is its centerpiece: the retired space shuttle Endeavour , sitting upright in launch position, towering at nearly 200 feet (61 meters) tall. \"It just takes your breath away when you see that reveal and the doors open and you get to look at it for the first time. It's just — it's overwhelming,\" former NASA astronaut Garrett Reisman told Space.com during a visit to the museum. Reisman flew on two space shuttle missions during his astronaut career, the first of which was on Endeavour.",
-      "author": " Chelsea Gohd ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.space.com/space-exploration/californias-brand-new-air-and-space-center-home-of-the-space-shuttle-endeavour-opens-today",
-      "image": "https://cdn.mos.cms.futurecdn.net/BawzDwqdEXKktiH9bquQhJ-1920-80.png",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -723,7 +839,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 36,
       "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
       "image": "/images/feed/feed-c8ef556c39f8.jpg",
       "source": "BleepingComputer",
@@ -742,48 +858,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 53,
       "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
       "image": "/images/feed/feed-b5af83d54bc0.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-cc5bf82c102a",
-      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
-      "excerpt": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
-      "body": "Nightmare Eclipse, the pseudonym of a researcher with an ongoing, very public beef with Microsoft, has dropped yet another Windows zero-day. On Tuesday, Nightmare Eclipse disclosed SignDrop, a vulnerability that gives local users full System rights on some versions of Windows. The vulnerability resides in the Common Log File System , which Microsoft describes as a “general-purpose logging service used by software clients running in user-mode or kernel-mode.” By forcing a privileged process such as Windows Defender to open a crafted CLFS container, an attacker with ordinary user rights can abuse the privileged file creation to elevate privileges to System. Turning a Windows defense against itself The attack exploits the interaction of CLFS, Windows Defender, and Windows file permissions.",
-      "author": "\n                    Dan Goodin\n                ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-      "image": "/images/feed/feed-cc5bf82c102a.jpg",
-      "source": "Ars Technica",
-      "isLive": true
-    },
-    {
-      "id": "feed-212e30a9407b",
-      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
-      "excerpt": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]",
-      "body": "Vulnerable Check Point Security Gateway instances have been targeted in PHP2Shell attacks that deployed data-wiping malware on VMware ESXi hosts. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
-      "image": "/images/feed/feed-212e30a9407b.jpg",
-      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -799,48 +877,10 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 41,
       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-9c558a7ae326",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "excerpt": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "body": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Amanda Silberling",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-563cd8d18fd7",
-      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-      "excerpt": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can als…",
-      "body": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out. One of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-      "image": "/images/feed/feed-563cd8d18fd7.jpg",
-      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -856,7 +896,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 42,
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -875,7 +915,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 40,
       "url": "https://openai.com/business/customer-stories/shield",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -894,62 +934,24 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 30,
       "url": "https://openai.com/business/customer-stories/amplitude",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
       "isLive": true
-    },
-    {
-      "id": "feed-ff1cec4cf32f",
-      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
-      "excerpt": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
-      "body": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sarah Perez",
-      "date": "2026-11-12",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.01.42-PM.jpg?resize=1200,589",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-3987a8727774",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "excerpt": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "body": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.\n\nThis report, published by Google AI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Google AI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Google AI Blog",
-      "date": "2026-11-12",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gemini"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
-      "source": "Google AI Blog",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Claude Duet Messages You First. That Changes Who Is in Control.",
-    "DEV.TO: The Invisible Brush: Generative Art and the Algorithms That Paint",
-    "DEV.TO: Event ID 4673 flood: why the Security log is full and the PC is slow",
-    "DEV.TO: I deleted my extensions.gnome.org account. My extensions stayed online.",
-    "DEV.TO: Keep Your IR Alive: Why the .ll File Matters for Honest Timing",
-    "DEV.TO: Self-hosted Claude Managed Agents: what you run, what still leaves your network",
-    "DEV.TO: Building HarshitOS: A macOS-Inspired Developer Portfolio in React 19",
-    "POLYGON: Every GTA 6 Actor Rumored and Confirmed by Rockstar Ahead of Launch",
-    "ANDROID AUTHORITY: How I freed up 36GB on my Android phone without deleting a single photo",
-    "POLYGON: Rings of Power Just Changed the Nazgul in 1 Terrifying Way: ‘They Still Have a Human Side’"
+    "DEV.TO: Systems Blueprint: ReA-Bench: Benchmarking Responsible Agent Auditing",
+    "DEV.TO: 5 Ways to Build Retrieval Architecture for Candidate Search (and Stop Duplication)",
+    "ENGADGET: Common reasons your PC's camera and microphone aren't working",
+    "DEV.TO: The git worktrees your coding agents leave behind, and how to clean them up",
+    "DEV.TO: Auditing SPF and DMARC for a whole list of domains: p=none, ~all and the other ways a \"pass\" misleads you",
+    "DEV.TO: 4.26 Hours of Rootless Debian 13 on Samsung DeX: Thermal, Battery & Compiler Telemetry",
+    "DEV.TO: How to verify a click in an AI-recorded website demo",
+    "DEV.TO: Find the Salesforce fields, flows and validation rules only your senior can explain",
+    "CLEANTECHNICA: Study Pinpoints States with Steepest Warming Trends Since 1980",
+    "ENGADGET: How to check which iOS version your iPhone is running"
   ],
   "sectionVideos": {}
 }
