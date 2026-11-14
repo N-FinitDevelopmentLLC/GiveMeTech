@@ -1,31 +1,88 @@
 {
-  "fetchedAt": "2026-11-14T05:12:17.587Z",
+  "fetchedAt": "2026-11-14T12:39:23.291Z",
   "articles": [
     {
-      "id": "feed-ea747769f128",
-      "title": "How to reduce LLM API costs in production by routing",
-      "excerpt": "The fastest way to reduce LLM API costs in production is to stop paying frontier rates for requests a cheaper model can handle: route each request to the cheapest model that can handle it. If your LLM…",
-      "body": "The fastest way to reduce LLM API costs in production is to stop paying frontier rates for requests a cheaper model can handle: route each request to the cheapest model that can handle it. If your LLM application is past the pilot stage, your model bill moves in a straight line with usage. Every new user, every agent step and every retry adds tokens, and you pay frontier rates whether the request needed frontier reasoning or not. Routing is the one lever that moves the bill structurally. Here is the reference architecture: three routing patterns, cost figures you can check against AWS's published rates, a decision framework for where to start, and the failure mode that quietly undoes naive cost cutting.",
-      "author": "Azrty",
+      "id": "feed-aef89c36311a",
+      "title": "Claude Duet Messages You First. That Changes Who Is in Control.",
+      "excerpt": "On October 21, 2026, Anthropic opened a research preview of Claude Duet, an app where Claude works as a proactive agent: it watches your connected accounts, prepares work while you are away, and messa…",
+      "body": "On October 21, 2026, Anthropic opened a research preview of Claude Duet, an app where Claude works as a proactive agent: it watches your connected accounts, prepares work while you are away, and messages you when something needs you. The interesting part is not that Claude can now start the conversation. It is how Anthropic moved the most important controls outside the model, and what still depends on a human tapping \"approve.\" Here is how Duet works, what its safety design gets right, where the real risks are, and how I would use it today. Research and product status checked November 14, 2026. Twelve Approvals Before Lunch Imagine it is Monday, 7:40 a.m. Before you open your laptop, a message is waiting on your phone. Claude has already read your inbox and calendar.",
+      "author": "Suraj Khaitan",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Api"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/azrty/how-to-reduce-llm-api-costs-in-production-by-routing-6jg",
-      "image": "/images/feed/feed-ea747769f128.webp",
+      "xpReward": 33,
+      "url": "https://dev.to/suraj_khaitan_f893c243958/claude-duet-messages-you-first-that-changes-who-is-in-control-3n74",
+      "image": "/images/feed/feed-aef89c36311a.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-27216bcbdede",
-      "title": "AI readiness checklist: five gates to pass before you commit build budget",
-      "excerpt": "Your board has said \"do AI\". The first money is usually spent on a model, a pilot team or a proof of concept, and that is the wrong order. Before any code, run five readiness gates: data accessibility…",
-      "body": "Your board has said \"do AI\". The first money is usually spent on a model, a pilot team or a proof of concept, and that is the wrong order. Before any code, run five readiness gates: data accessibility, integration surface, infrastructure fit, governance ownership and executive alignment. Each has a pass or fail test you can apply in an afternoon. This is the checklist we run with clients in the UAE before anyone commits build budget, and it will tell you exactly what you are walking into. Why readiness comes before use cases The GCC has an adoption surplus and a value deficit. McKinsey's November 2025 survey of 139 senior executives and board directors across all six GCC countries found that 84% of organisations now use AI in at least one business function, up from 62% in 2023.",
-      "author": "Azrty",
+      "id": "feed-a30d9d7c7f25",
+      "title": "The Invisible Brush: Generative Art and the Algorithms That Paint",
+      "excerpt": "A long-form exploration of Procedural Content Generation as a creative engine — with Clojure and Quil. There is a particular kind of wonder that comes from watching something grow on a screen that you…",
+      "body": "A long-form exploration of Procedural Content Generation as a creative engine — with Clojure and Quil. There is a particular kind of wonder that comes from watching something grow on a screen that you did not draw. A tree that branches unpredictably. A coastline that stretches further than any hand could trace. A galaxy of stars no astronomer catalogued. You wrote the rules, but the world surprised you anyway. This is the promise of Procedural Content Generation — and it sits quietly at the heart of generative art. This post is for developers who can read code but have never thought of algorithms as paintbrushes.",
+      "author": "Ganesh Rajendran",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 48,
+      "url": "https://dev.to/ganesh_rajendran_art/the-invisible-brush-generative-art-and-the-algorithms-that-paint-32ig",
+      "image": "/images/feed/feed-a30d9d7c7f25.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-314b84e4e305",
+      "title": "Event ID 4673 flood: why the Security log is full and the PC is slow",
+      "excerpt": "Originally published at coinetic.io. Event 4673 is Windows saying \"A privileged service was called\". A few a day are normal. Dozens per second, from chrome.exe, msedgewebview2.exe or Code.exe, make th…",
+      "body": "Originally published at coinetic.io . Event 4673 is Windows saying \"A privileged service was called\" . A few a day are normal. Dozens per second, from chrome.exe , msedgewebview2.exe or Code.exe , make the Windows Event Log service eat whole processor cores – and the log falls minutes or hours behind. In short What it is: a program asked for a special Windows right (a privilege ), and an audit policy logs it. Typical flood: Audit Failure entries for SeProfileSingleProcessPrivilege from Chromium-based programs: Chrome, Edge, Edge WebView (used by Teams, Outlook, widgets) and VS Code. They ask for memory figures, Windows refuses, they ask again. The cause: almost always a Group Policy with Audit privilege use = Success, Failure . The fix: in that policy, untick Failure and keep Success .",
+      "author": "Coinetic AI Security",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 40,
+      "url": "https://dev.to/coinetic_ai_security/event-id-4673-flood-why-the-security-log-is-full-and-the-pc-is-slow-1c7e",
+      "image": "/images/feed/feed-314b84e4e305.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-ca03eefbf2b7",
+      "title": "I deleted my extensions.gnome.org account. My extensions stayed online.",
+      "excerpt": "In December 2025 I deleted my account on extensions.gnome.org, the official store for GNOME Shell extensions. I expected my three extensions to go with it. They didn't. ClipFlow Pro, Comfort Control (…",
+      "body": "In December 2025 I deleted my account on extensions.gnome.org, the official store for GNOME Shell extensions. I expected my three extensions to go with it. They didn't. ClipFlow Pro , Comfort Control (EaseHub) and Numeric Date And Clock are still listed there, under a placeholder account called \"MaintainerWanted\", with old builds I no longer control, test or support. Nothing on the deletion page warned me this would happen, and with the account gone I have no way to switch them off myself. This post is the full timeline, where it stands today, and a warning for other extension authors. The timeline 18 October 2026. I asked GNOME to remove the three listings, on the extensions.gnome.org issue tracker (on GNOME's own GitLab) and by email to the GNOME Foundation. 3–10 November.",
+      "author": "Nick Otmazgin",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 43,
+      "url": "https://dev.to/nickotmazgin/i-deleted-my-extensionsgnomeorg-account-my-extensions-stayed-online-3ig4",
+      "image": "/images/feed/feed-ca03eefbf2b7.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-5cc86738774c",
+      "title": "Keep Your IR Alive: Why the .ll File Matters for Honest Timing",
+      "excerpt": "When you run csperf run you get a JSON file that contains timing, machine metadata, and a reference to the generated LLVM IR. Many developers delete the .ll file after the run, thinking it’s just a te…",
+      "body": "Why this lesson exists When you run csperf run you get a JSON file that contains timing, machine metadata, and a reference to the generated LLVM IR. Many developers delete the .ll file after the run, thinking it’s just a temporary artifact. In reality, the IR is the explanation behind the numbers. Without it you lose the ability to trace why a particular optimization changed the timing. Recap — where we are in the series Ep 1 — Why a Single ./a.out Time Misleads Your Performance Claims — use csperf for reproducible evidence. Ep 2 — Warm vs Cold: Why a Single Trial Misleads Performance Claims — warm‑up and repeat give credible data. Ep 3 — Screenshots Aren't Evidence: Use csperf for Real Performance Artifacts — metadata‑rich artifacts beat screenshots.",
+      "author": "compilersutra",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
@@ -34,17 +91,17 @@
       ],
       "featured": true,
       "xpReward": 31,
-      "url": "https://dev.to/azrty/ai-readiness-checklist-five-gates-to-pass-before-you-commit-build-budget-2p75",
-      "image": "/images/feed/feed-27216bcbdede.webp",
+      "url": "https://dev.to/aabhinavg/keep-your-ir-alive-why-the-ll-file-matters-for-honest-timing-1h1n",
+      "image": "/images/feed/feed-5cc86738774c.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-5dec726c30cc",
-      "title": "Monitoring Jenkins with Prometheus: queue, executors, build duration, and five PromQL alerts",
-      "excerpt": "Jenkins problems usually surface as complaints: \"my build is stuck\", \"no agents available\", \"everything was green yesterday\". The Jenkins UI shows the current state, but not how the queue grew or when…",
-      "body": "Jenkins problems usually surface as complaints: \"my build is stuck\", \"no agents available\", \"everything was green yesterday\". The Jenkins UI shows the current state, but not how the queue grew or when the free executors ran out. This post covers the metrics that answer those questions and five alert rules in PromQL. The examples use a free Grafana dashboard, Jenkins Lite: https://grafana.com/grafana/dashboards/26040/ . Every metric name below comes from the dashboard JSON. Expose the metrics Install the Prometheus metrics plugin in Jenkins. It serves metrics at /prometheus , with the default prefix default_jenkins_ . If you changed the prefix in the plugin settings, the dashboard queries need the same change.",
-      "author": "DevKit",
+      "id": "feed-f9376736db1a",
+      "title": "Self-hosted Claude Managed Agents: what you run, what still leaves your network",
+      "excerpt": "Anthropic opened a private beta of self-hosted Claude Managed Agents on Nov 12. Access is by request through your Anthropic account team. Before this, you could self-host the sandbox where an agent's…",
+      "body": "Anthropic opened a private beta of self-hosted Claude Managed Agents on Nov 12. Access is by request through your Anthropic account team. Before this, you could self-host the sandbox where an agent's code runs, but Anthropic ran the rest, including credentials and the record of what each agent did. Now the whole service can sit in your cloud or on-prem. What you operate: the Managed Agents server its PostgreSQL database (session history lives here) the workers where agents run shell and file tools You build agents with the same core APIs as the hosted service. What still leaves your network is Claude itself. Model requests go where you point them: Anthropic, Amazon Bedrock, Google's Agent Platform, Microsoft Foundry, or your own gateway. Prompts out, completions back.",
+      "author": "Thirumalaivasan GJ",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
@@ -52,93 +109,264 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/devkit_shop/monitoring-jenkins-with-prometheus-queue-executors-build-duration-and-five-promql-alerts-4j6j",
-      "image": "/images/feed/feed-5dec726c30cc.jpg",
+      "xpReward": 44,
+      "url": "https://dev.to/thirumalaivasangj3/self-hosted-claude-managed-agents-what-you-run-what-still-leaves-your-network-58kc",
+      "image": "/images/feed/feed-f9376736db1a.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-372478ee8093",
-      "title": "Reading the IL View and Navigating Metadata Tokens in Glass",
-      "excerpt": "The C# that a decompiler shows you is a reconstruction. It is usually faithful, but it is an interpretation of something more precise: the Intermediate Language (IL) the compiler actually emitted, plu…",
-      "body": "The C# that a decompiler shows you is a reconstruction. It is usually faithful, but it is an interpretation of something more precise: the Intermediate Language (IL) the compiler actually emitted, plus the metadata tables that give every name, type and signature its meaning. When the reconstruction is clean you never need to look underneath it. When it is ambiguous — an overload you cannot pin down, a boxing conversion that vanished, a loop whose shape does not match the source you expected — the IL view is the ground truth, and metadata tokens are how you navigate it. This article is a tour of the IL view in Glass.NET , the free .NET decompiler.",
-      "author": "Zero Heartbeat",
+      "id": "feed-37ff19f8e8f9",
+      "title": "Building HarshitOS: A macOS-Inspired Developer Portfolio in React 19",
+      "excerpt": "Building HarshitOS: A macOS-Inspired Developer Portfolio in React 19 Most developer portfolios follow a standard recipe: a hero section, an \"About Me\" paragraph, a grid of project cards, and a contact…",
+      "body": "Building HarshitOS: A macOS-Inspired Developer Portfolio in React 19 Most developer portfolios follow a standard recipe: a hero section, an \"About Me\" paragraph, a grid of project cards, and a contact form. When redesigning my portfolio, I wanted to challenge that template. I wanted my portfolio to feel like real software —an interactive, browser-based operating system inspired by the precision and fluidity of macOS Sonoma and Tahoe . Here is how I built HarshitOS , the technical challenges I solved, and what I learned along the way.",
+      "author": "Harshit Tiwari",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Software"
+        "Developer"
       ],
-      "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/zero_heartbeat_06a3625d7a/reading-the-il-view-and-navigating-metadata-tokens-in-glass-2988",
-      "image": "/images/feed/feed-372478ee8093.jpg",
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://dev.to/harshit_tiwari_df50f43d2a/building-harshitos-a-macos-inspired-developer-portfolio-in-react-19-1c1a",
+      "image": "/images/feed/feed-37ff19f8e8f9.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-552aff75c14e",
-      "title": "Build 'Find My Photos' for Event Galleries with Amazon Rekognition and Node.js",
-      "excerpt": "After a wedding, a conference or a marathon, the photographer uploads three thousand photos and every guest asks the same question: which ones am I in? Scrolling through a gallery that size is miserab…",
-      "body": "After a wedding, a conference or a marathon, the photographer uploads three thousand photos and every guest asks the same question: which ones am I in? Scrolling through a gallery that size is miserable. Uploading one selfie and getting back only your photos is a feature people actually remember. This tutorial builds that feature with Amazon Rekognition's face collections, S3 and a small Node.js service. By the end you will have three pieces: indexing every face in a gallery, searching that index with a selfie, and the cost and privacy decisions you need to make before shipping it. You will need an AWS account, Node.js 18 or later, and the AWS SDK for JavaScript v3.",
-      "author": "Toshita Pandey",
+      "id": "feed-ca15dc675374",
+      "title": "Every GTA 6 Actor Rumored and Confirmed by Rockstar Ahead of Launch",
+      "excerpt": "Who will play Jason, Lucia, and other major characters in GTA 6? Rockstar hasn't made an official reveal yet, but the internet has plenty of ideas.",
+      "body": "It's been an excruciatingly long wait, but we're just days away from the launch of Grand Theft Auto 6 . Ahead of the game's launch for PlayStation 5 and Xbox Series X, Rockstar Games has yet to reveal any official details about the actors who will appear in GTA 6 , including the central couple, Jason Duval and Lucia Caminos.",
+      "author": "Jen Glennon",
       "date": "2026-11-14",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gaming",
       "tags": [
-        "Software"
+        "Gaming"
       ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/toshitapandey/build-find-my-photos-for-event-galleries-with-amazon-rekognition-and-nodejs-264",
-      "image": "/images/feed/feed-552aff75c14e.jpg",
-      "source": "Dev.to",
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.polygon.com/gta-6-cast-rumors-speculation-confirmed-actors/",
+      "image": "/images/feed/feed-ca15dc675374.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-377f2fc6ec76",
-      "title": "Finding and Killing N+1 Queries in a Rails API Before Your Users Notice",
-      "excerpt": "A dashboard that loads in 300 ms on your laptop and 9 seconds in production usually has the same cause: an N+1 query. With ten rows of seed data it is invisible. With two thousand orders, each pulling…",
-      "body": "A dashboard that loads in 300 ms on your laptop and 9 seconds in production usually has the same cause: an N+1 query. With ten rows of seed data it is invisible. With two thousand orders, each pulling its customer, its address and its line items, one request quietly becomes six thousand database round trips. This tutorial walks through how to spot N+1 queries in a Rails API, the three loading strategies Active Record gives you and when each one is right, and how to stop new N+1s from reaching production at all. You will need a Rails 7 app and PostgreSQL. The examples use a small order-dispatch domain, but the patterns apply to any app.",
-      "author": "Toshita Pandey",
+      "id": "feed-85c926197e35",
+      "title": "How I freed up 36GB on my Android phone without deleting a single photo",
+      "excerpt": "No SD card, no problem.",
+      "body": "Credit: Pankil Shah / Android Authority My Galaxy S26 only has 256GB of internal storage, and there’s no SD card slot to expand it. So yes, storage is a constant struggle for me, especially with a camera this good that I just can’t stop using. But I wasn’t about to sacrifice my precious photos to free up space, so I went looking for other ways to do it. I went through forgotten apps, bloated caches, offline downloads, and old files I didn’t need anymore. It helped free up 36GB of storage, and more importantly, it wasn’t anywhere near as tedious as I kept assuming it would be.",
+      "author": "Pankil Shah",
       "date": "2026-11-14",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gadgets",
       "tags": [
-        "Api"
+        "Android Phone"
       ],
-      "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/toshitapandey/finding-and-killing-n1-queries-in-a-rails-api-before-your-users-notice-2577",
-      "image": "/images/feed/feed-377f2fc6ec76.jpg",
-      "source": "Dev.to",
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.androidauthority.com/free-up-android-storage-tips-3734228/",
+      "image": "/images/feed/feed-85c926197e35.jpg",
+      "source": "Android Authority",
       "isLive": true
     },
     {
-      "id": "feed-195175329d37",
-      "title": "A Screen-Privacy Tool Should Not Upload the Page It Protects",
-      "excerpt": "A browser privacy tool needs to inspect what is on a page before it can hide sensitive information. That creates an important question: where does the inspection happen? If the page contains an API ke…",
-      "body": "A browser privacy tool needs to inspect what is on a page before it can hide sensitive information. That creates an important question: where does the inspection happen? If the page contains an API key, customer email, account number, internal URL, or private message, sending that content to a remote service creates another copy of the data the tool is meant to protect. For screen sharing and browser demos, privacy should begin with data minimization. The safest page content is the content that never leaves the device. Detection has a data path “Automatic detection” can sound like a single feature, but it is really a chain of decisions. The extension reads visible page content. It decides which text resembles sensitive information. It applies a visual mask.",
-      "author": "Meera Sen",
+      "id": "feed-ac6741631aa7",
+      "title": "Rings of Power Just Changed the Nazgul in 1 Terrifying Way: ‘They Still Have a Human Side’",
+      "excerpt": "Rings of Power season 3 shows how Sauron creates the Nazgûl. Showrunner Patrick McKay explains why the new Ring-servants haven't lost their humanity.",
+      "body": "The Lord of the Rings: The Rings of Power season 3 sees Sauron begin to recruit the nine lieutenants that will one day become the Nazgûl, or Ringraiths. While details in J.R.R. Tolkien’s lore are a bit scarce when it comes to the gradual transformation of the Ringwraiths, Rings of Power initially presents the rings as miraculous gifts that transform the Men who wear them into Nazgnagôl, or \"Ring-servants.” Rather than immediately enslaving their wearers, Sauron's rings heal their injuries, cure terrible afflictions, and grant them extraordinary power. The catch is that every gift brings its recipient closer to surrendering his freedom.",
+      "author": "Corey Plante",
       "date": "2026-11-14",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gaming",
       "tags": [
-        "Software"
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.polygon.com/rings-of-power-season-3-nazgnagol-vs-nazgul-explained/",
+      "image": "/images/feed/feed-ac6741631aa7.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-83b448e06941",
+      "title": "How to tell if a Black Friday deal is actually worth it",
+      "excerpt": "After years of hunting Black Friday deals, here's the key to separating the bargains from the bluster.",
+      "body": "Credit: Joe Maring / Android Authority I’ve spent the best part of a decade hunting down deals for Android Authority , and I learned very quickly that a big discount doesn’t necessarily mean you’re getting a bargain. Black Friday is a particularly good time to remember this, with retailers plastering huge percentage discounts over everything in sight. Contrary to the memes, some are genuinely excellent deals — I can assure you that some tech devices will hit their lowest price ever this month. But you’ll also see many ‘Black Friday deal’ labels on discounts at a price higher than three months ago. Thankfully, there’s a very easy way to tell the difference. The key to assessing a Black Friday deal is to use a price tracker.",
+      "author": "Matt Horne",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.androidauthority.com/how-to-tell-if-a-black-friday-deal-is-worth-it-3734185/",
+      "image": "/images/feed/feed-83b448e06941.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-d13642579483",
+      "title": "GTA 6 Release Day: Everything To Know To Be Ready On Day One",
+      "excerpt": "What you need to know about GTA 6's release day, pre-order bonuses, preload sizes, updates, PS5 and Xbox differences and much more",
+      "body": "Grand Theft Auto 6 is less than a week away, which means there's not much time to prepare for the biggest gaming launch of 2026. Fortunately, we've got some tips on what to expect on day one and how to make sure you get the best experience possible from Rockstar's record-breaking open-world adventure.",
+      "author": "Patricia Hernandez",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.polygon.com/gta-6-when-does-it-come-out-ps5-pro-crossplay-countdown-preorder-preload/",
+      "image": "/images/feed/feed-d13642579483.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-46f2f4d30a4f",
+      "title": "10 Best Early Black Friday Headphone Deals (2026): Up to 50% Off",
+      "excerpt": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
+      "body": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Harry Rabinowitz",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
+      "image": "/images/feed/feed-46f2f4d30a4f.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-bb9cd7e1b4fb",
+      "title": "I tested Meta Muse and ChatGPT Dots, and here’s the one I’m sticking with",
+      "excerpt": "AI agent are here to stay.",
+      "body": "I’m the first to admit I was late to the game when it came to integrating AI into my life. AI tools on my smartphone felt (and still feel) useless and left a sour taste in my mouth. Large language models I used on my desktop, such as ChatGPT and Claude, showed significantly more promise, but they didn’t feel like something casual users would adopt easily. That’s changed over the last couple of months. I’ve ramped up my Codex usage, and I’ve become interested in chat agents designed to bring powerful AI features and functionality to users who aren’t necessarily up to date on the latest from Anthropic and OpenAI. These new agents are easier to use, look friendlier, and promise to be more proactive.",
+      "author": "Stephen Radochia",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.androidauthority.com/i-used-meta-muse-and-chatgpt-dots-3733591/",
+      "image": "/images/feed/feed-bb9cd7e1b4fb.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-5c39356a6225",
+      "title": "This 3D Pet SIM You Never Played Has Over 12,000 ‘Overwhelmingly Positive’ Reviews",
+      "excerpt": "Wobbledogs launched in 2022 and despite receiving almost universal acclaim, flew under the radar for a lot of people.",
+      "body": "Have you ever wanted to raise your own genetically mutated pup? Well, there's a Steam game focused on exactly that, and it probably deserves more success than it's managed in the four years since it launched. Wobbledogs , from developer Animal Uprising, is described on Steam as \"a 3D pet simulation where you raise your own hive of mutating dogs.\"",
+      "author": "Ford James",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
       ],
       "featured": false,
       "xpReward": 34,
-      "url": "https://dev.to/meerasenwrites/a-screen-privacy-tool-should-not-upload-the-page-it-protects-4jih",
-      "image": "/images/feed/feed-195175329d37.jpg",
-      "source": "Dev.to",
+      "url": "https://www.polygon.com/wobbledogs-3d-pet-sim-steam-overwhelmingly-positive/",
+      "image": "/images/feed/feed-5c39356a6225.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-f5131af3c854",
-      "title": "25 Years Later, Frodo’s Best Lord of the Ring Quote Proves He's the Ultimate Fantasy Hero",
-      "excerpt": "The Lord of the Rings is full of profound quotes, but Frodo's best one shows why he’s fantasy's greatest hero.",
-      "body": "An inherent tragedy follows every character in The Lord of the Rings , which isn’t surprising, given that Peter Jackson’s epic fantasy trilogy is adapted from the works of J.R.R. Tolkien. The author has never been shy about exploring grim topics, and in a 1968 interview with the BBC , Tolkien said that all stories are about one thing: death.",
+      "id": "feed-4b199ba3a9a5",
+      "title": "See Jupiter and Mars make a spectacular close approach overnight Nov. 15-16",
+      "excerpt": "The red planet Mars will shine a little over 1 degree from Jupiter on the night of Nov. 15-16.",
+      "body": "Heads up stargazers! Mars meets Jupiter for a spectacular rendezvous in the heart of the constellation Leo on the night of Nov. 15-16, and they won't be this close again until July 2029. Jupiter and Mars will appear a little over 1 degree from each other as they rise over the eastern horizon around midnight for viewers in the U.S., as the blue-white light of the main-sequence star Regulus glows below, according to In-The-Sky . It's all a trick of perspective, but spectacular nonetheless. In reality Mars and Jupiter are separated by a gulf of over 368 million miles (592 million kilometers), while the light from Regulus has travelled for some 79 light-years before reaching Earth .",
+      "author": " Anthony Wood ",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.space.com/stargazing/see-jupiter-and-mars-make-a-spectacular-close-approach-overnight-nov-15-16",
+      "image": "/images/feed/feed-4b199ba3a9a5.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-6cd8f8900f86",
+      "title": "Vela Maps is the closest thing to Google Maps without Google — here’s how to install it",
+      "excerpt": "This open-source app looks, feels, and acts like Google Maps, but it's more than just a copy.",
+      "body": "I’d argue that there are at least two apps on Android for every available niche; you just need to find them. This is true for most products, but the one that I’ve found most difficult to replace is Google Maps . My favorite Google app by far, Maps is useful for commuters, explorers, tourists, and restaurateurs. It includes info beyond mere navigation and community input that adds further richness to the experience. It’s a hugely capable and unique app that provides an almost unrivaled experience. “Almost” is the key word here.",
+      "author": "Andy Walker",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.androidauthority.com/vela-maps-vs-google-maps-android-3733791/",
+      "image": "/images/feed/feed-6cd8f8900f86.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-6eb374171865",
+      "title": "Breaking Down Theo's Shock Moment in The Lord of the Rings: The Rings of Power Season 3 and the Mystery of His Father With Actor Tyroe Muhafidin",
+      "excerpt": "A spoiler-filled The Lord of the Rings: The Rings of Power Season 3 interview with Theo actor Tyroe Muhafidin.",
+      "body": "Warning! Spoilers for The Lord of the Rings: The Rings of Power Season 3 Episodes 1-4 follow. If you’re caught up with The Lord of the Rings: The Rings of Power , you’ll have watched Season 3, Episode 4 and were probably left reeling by a shock character death that leaves the elves in a spot of bother going into the final stretch. During the first four episodes of Season 3, we see Theo, played by Tyroe Muhafidin, tempted by Sauron into becoming a Nazgnagôl. Nazgnagôl are men who wear one of Sauron’s Rings of Power, but still retain something of their humanity. That is, they are not fully Nazgûl, or Ringwraiths, as we know of the beings in the Third Age of J. R. R. Tolkien&#39;s Middle-earth. They are, at this stage, Ring Servants.",
+      "author": "Wesley Yin-Poole",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.ign.com/articles/breaking-down-theos-shock-moment-in-the-lord-of-the-rings-the-rings-of-power-season-3-and-the-mystery-of-his-father-with-actor-tyroe-muhafidin",
+      "image": "/images/feed/feed-6eb374171865.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-8fe92030037a",
+      "title": "5 apps you can use instead of Google Messages",
+      "excerpt": "These apps might not have RCS, but they stand out in other ways.",
+      "body": "Credit: Joe Maring / Android Authority Google Messages is easily one of the best messaging apps for Android, and RCS support is a large part of the reason. While Samsung used to support RCS directly, these days the only true RCS solution for Android is Google’s official app. As much as RCS has improved Android messaging, I understand that not everyone has bought into the standard. If you’re not concerned about RCS support, there are plenty of other great messaging apps out there as well. Let’s take a look at a few of the best messaging apps out there. To keep things interesting, we’ll take a look at both SMS-based apps and those that use proprietary formats via the web.",
+      "author": "Andrew Grush",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.androidauthority.com/google-messages-alternative-messaging-apps-3733535/",
+      "image": "/images/feed/feed-8fe92030037a.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-6769a439ff98",
+      "title": "Apple's Sci-Fi Thriller Masterpiece Has One of the Best Seasons in TV History",
+      "excerpt": "Dan Erickson and Ben Stiller changed how we see Apple TV forever with the sci-fi powerhouse series 'Severance.'",
+      "body": "In 2022, Apple was three years into its streaming experiment and still trying to find its footing. Aside from Ted Lasso , the tech giant hadn't released any breakout hits. And while a few sci-fi shows like For All Mankind and Foundation had fans, they weren't exactly mainstream success stories. Then everything changed when Apple took a bet on an unknown showrunner (with backing from an A-list actor) to create something revolutionary.",
       "author": "Aimee Hart",
       "date": "2026-11-14",
       "readTime": "2 min",
@@ -147,10 +375,67 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 52,
-      "url": "https://www.polygon.com/frodo-best-quote-lord-of-the-rings/",
-      "image": "/images/feed/feed-f5131af3c854.jpg",
+      "xpReward": 32,
+      "url": "https://www.polygon.com/apple-sci-fi-thriller-masterpiece-severance-one-of-the-best-seasons-in-tv-history/",
+      "image": "/images/feed/feed-6769a439ff98.png",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-7173febae6da",
+      "title": "20 Years Ago, the Best Sci-Fi Show of the Century Delivered the Most Epic Space Battle in TV History",
+      "excerpt": "Twenty years ago, Battlestar Galactica topped the Adama Maneuver by transforming the Pegasus into an enormous battering ram.",
+      "body": "Two decades later, this spectacle from Battlestar Galactica season 3’s “Exodus, Part 2” remains unforgettable sci-fi TV. It’s dazzling and horrifying, and still one of the coolest things ever broadcast on science-fiction television. From a tactical standpoint, the “Adama Maneuver” is absolutely bonkers and one of the riskiest spaceship tactics, perhaps ever (sorry, Vice-Admiral Holdo). What if the ship had gotten torn apart from ripping through the atmosphere? What if the FTL drive malfunctioned or didn’t activate in time? Somehow, it’s also not even the most visually impressive sequence in the episode.",
+      "author": "Corey Plante",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.polygon.com/battlestar-galactica-season-3-exodus-20-year-anniversary-adama-maneuver/",
+      "image": "/images/feed/feed-7173febae6da.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2801958c65cb",
+      "title": "Outage at HR platform Workday locks millions of employees out of their account",
+      "excerpt": "Workday outage leaves employees of thousands of businesses unable to access workplace tasks.",
+      "body": "Workday outage leaves employees of thousands of businesses unable to access workplace tasks.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Mariella Moon)",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
+      "image": "/images/feed/feed-2801958c65cb.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-e92c36e0a798",
+      "title": "Tesla Starts Selling Cybercab — $30,000*",
+      "excerpt": "Well, it’s a big day in Tesla World. The company has officially launched Cybercab sales. You can now order a Cybercab for the starting price of $30,000 (technically, $29,900). That said, there is an a…",
+      "body": "Well, it&#8217;s a big day in Tesla World. The company has officially launched Cybercab sales. You can now order a Cybercab for the starting price of $30,000 (technically, $29,900). That said, there is an asterisk here — actually, there are two asterisks here. First of all, only people who have ... [continued] The post Tesla Starts Selling Cybercab — $30,000* appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://cleantechnica.com/2026/11/13/tesla-starts-selling-cybercab-30000/",
+      "image": "/images/feed/feed-e92c36e0a798.jpg",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -166,7 +451,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 41,
       "url": "https://cleantechnica.com/2026/11/13/who-can-weather-the-health-storm/",
       "image": "/images/feed/feed-505629fb27e2.jpg",
       "source": "CleanTechnica",
@@ -185,49 +470,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 34,
       "url": "https://cleantechnica.com/2026/11/13/comparative-cost-analysis-for-residential-curbside-organics-collection-programs/",
       "image": "/images/feed/feed-b21ceb0e9b95.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-9419d70ca856",
-      "title": "James Gunn Shuts Down Rumors That Skydance Is Meddling With Man of Tomorrow",
-      "excerpt": "James Gunn has shut down rumors that the new DC overseers at Skydance have meddled with his cut of Man of Tomorrow following his shocking DC Studios exit.",
-      "body": "James Gunn has shut down rumors that the new DC overseers at Skydance have meddled with his cut of Man of Tomorrow following his shocking DC Studios exit . The internet has filled with gossip in the wake of Gunn and Peter Safran&#39;s departure as co-chairmen of the comic book entertainment wing earlier this week. As an ocean of rumors rises, some of the more worrying claims have seen some suggest Skydance has already taken control of the Superman director&#39;s sequel, which could result in major characters like Supergirl and Blue Beetle being cut entirely. These are just some of the accusations that Gunn sought to dispel in a Threads post tonight. In what is essentially his first public statement since leaving DC Studios, the filmmaker took aim at the gossip that has DCU fans concerned.",
-      "author": "Michael Cripe",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.ign.com/articles/james-gunn-shuts-down-rumors-that-skydance-is-meddling-with-man-of-tomorrow",
-      "image": "/images/feed/feed-9419d70ca856.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-ce47dcd3e965",
-      "title": "20 Years Later, A Classic Nintendo DS Puzzle Game Officially Returns",
-      "excerpt": "Level-5 is remaking the classic Nintendo DS puzzle game Professor Layton and the Curious Village and it's due out in 2027",
-      "body": "Level-5 is remaking the classic Nintendo DS puzzle game Professor Layton and the Curious Village and it's due out in 2027\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nintendo, Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Willa Rowe",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Nintendo",
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.polygon.com/professor-layton-nintendo-ds-remake-release-date-2027/",
-      "image": "/images/feed/feed-ce47dcd3e965.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -243,29 +489,10 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 30,
       "url": "https://electrek.co/2026/11/13/tesla-cybercab-personal-use-orders-299-subscription-geofence/",
       "image": "/images/feed/feed-2bf520b82cf0.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-bb8f938d2d55",
-      "title": "Sunrise on the Reaping Is Getting Multiple Black Friday Deals Before Its Theatrical Release",
-      "excerpt": "Sunrise on the Reaping Is Getting Multiple Black Friday Deals Before Its Theatrical Release",
-      "body": "The Hunger Games franchise has enjoyed prolonged success thanks to Suzanne Collins&#39; wonderful prequel novels. With Sunrise on the Reaping arriving in theaters next week, there&#39;s still time to read or listen to the story before the movie adaptation ruins it for you forever. And Amazon is currently running multiple Black Friday deals that can help you get the book for pretty cheap. If you prefer to listen to books, Amazon is currently running a great Black Friday Audible deal that can get new and returning subscribers Sunrise on the Reaping for $1. Or if you&#39;d prefer to read the physical version, there&#39;s also a &#39;3 for 2&#39; book sale going on that includes both the paperback and deluxe hardcover edition.",
-      "author": "Jacob Kienlen",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.ign.com/articles/sunrise-on-the-reaping-book-and-audiobook-black-friday-deal-2026",
-      "image": "/images/feed/feed-bb8f938d2d55.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -281,29 +508,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 41,
       "url": "https://cleantechnica.com/2026/11/13/10-reasons-for-the-big-blue-wave/",
       "image": "/images/feed/feed-71d5344e2b1a.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-ac813cd0bacc",
-      "title": "After Another Year of Price Hikes, What Streaming Deals Will We Get for Black Friday 2026?",
-      "excerpt": "After Another Year of Price Hikes, What Streaming Deals Will We Get for Black Friday 2026?",
-      "body": "We’re officially in the thick of deals season, and if there’s one thing I personally spend way too much money on, it’s streaming subscriptions. It doesn&#39;t help that everyone keeps hiking prices, and deals are rarer than ever. Thankfully, there’s one time of year where you can often get a decent amount of those very subscriptions for much cheaper than usual: Black Friday . Almost every service is likely to drop some type of deal, though the majority will be on ad-supported plans. If you’ve been intrigued by any particular service, or want to strategize some free trials and cancellations, here’s what streaming deals I expect we’ll see for Black Friday this year.",
-      "author": "Blythe Dujardin",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.ign.com/articles/black-friday-streaming-deal-predictions-2026",
-      "image": "/images/feed/feed-ac813cd0bacc.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -319,48 +527,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 49,
       "url": "https://electrek.co/2026/11/13/rinnai-new-heat-pump-water-heaters-get-smarter-and-easier-to-install/",
       "image": "/images/feed/feed-e83c78c02cea.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-8b0b3b93e44f",
-      "title": "HBO’s 5-Part Crime Drama Has One of the Best Seasons in TV History",
-      "excerpt": "The Wire’s fourth season provided a far deeper look at Baltimore’s problems",
-      "body": "At the turn of the 21st century, HBO was the place for prestige crime drama. The launch of The Sopranos in 1999 paved the way for the 2002 premiere of The Wire , which focused on drug dealers in Baltimore and the police officers trying to disrupt their operations. The series is still one of the best shows of all time, and provided breakout roles for huge stars like Idris Elba and Michael B. Jordan . But while it was compelling from the beginning, The Wire truly achieved perfection in season 4 when the scope expanded beyond the drug trade to examine the cycle of institutional failure.",
-      "author": "Sam Nelson",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.polygon.com/the-wire-season-4-recommendation/",
-      "image": "/images/feed/feed-8b0b3b93e44f.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-3b5ab53e0e34",
-      "title": "Fallout 5 and Fallout Remasters Officially Announced",
-      "excerpt": "Bethesda Softworks updates fans on the future of Fallout, which includes new Fallout 3 and New Vegas releases and Fallout 5.",
-      "body": "Xbox wants more Fallout, and after a yearslong drought of new games, Bethesda Softworks is making it happen. Bethesda plans to release remasters of both Fallout 3 and Fallout: New Vegas for modern platforms, the company said in July in a massive roadmap of the developer's future. Those remasters are part of a larger plan to reinvest in Fallout games — including Fallout 5 , which is currently in pre-production — and a new untitled project at Obsidian Entertainment.",
-      "author": "Michael McWhertor",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.polygon.com/fallout-5-fo3-remaster-new-games-bethesda-softworks/",
-      "image": "/images/feed/feed-3b5ab53e0e34.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -377,29 +547,10 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 39,
       "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/",
       "image": "/images/feed/feed-535a79835606.jpg",
       "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-f8a5d2e0f5a5",
-      "title": "Tested in the wild: Best survival tech!",
-      "excerpt": "Our team of intrepid adventurers went out into the Canadian wilderness to test some of the best outdoor tech you can buy.",
-      "body": "The whole point of camping is supposed to be getting away from technology. We did the opposite. We headed into the mountains with a bag full of outdoor tech to see which gadgets actually earn their place in a camping kit. We packed gear to keep us powered, online, fed, and hydrated, plus a few things to help out on the trail. Some of it is genuinely useful, some of it is delightfully over the top, and one phone can quite literally light your campfire. Here’s everything we brought and how it held up.",
-      "author": "Team AA",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.androidauthority.com/tested-in-the-wild-best-survival-tech-3735211/",
-      "image": "/images/feed/feed-f8a5d2e0f5a5.jpg",
-      "source": "Android Authority",
       "isLive": true
     },
     {
@@ -416,67 +567,10 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 44,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
       "image": "/images/feed/feed-531d5babca01.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-bee82eea851e",
-      "title": "Hydropower Generation in the Southwest Fell to Record Lows This Summer",
-      "excerpt": "Prolonged drought conditions affecting the Colorado River Basin led to record low hydropower generation this summer in the Southwestern electricity supply region, which includes Arizona, New Mexico, a…",
-      "body": "Prolonged drought conditions affecting the Colorado River Basin led to record low hydropower generation this summer in the Southwestern electricity supply region, which includes Arizona, New Mexico, and small parts of Nevada and California. Hydropower generation from April through August 2026 was 19% lower than during the same period last ... [continued] The post Hydropower Generation in the Southwest Fell to Record Lows This Summer appeared first on CleanTechnica .",
-      "author": "US Energy Information Administration",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://cleantechnica.com/2026/11/13/hydropower-generation-in-the-southwest-fell-to-record-lows-this-summer/",
-      "image": "/images/feed/feed-bee82eea851e.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-912e672b7d99",
-      "title": "Some international physical copies of GTA VI can allegedly be redeemed without opening the box",
-      "excerpt": "The box was already for decoration, and now maybe more so.",
-      "body": "The box was already for decoration, and now maybe more so.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Ian Carlos Campbell)",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/",
-      "image": "/images/feed/feed-912e672b7d99.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-738d3802a404",
-      "title": "Apple details HomeView facial recognition, repair options, and more in new support guides",
-      "excerpt": "Coinciding with the launch of Apple HomeView, the company has been updating its support website with new guides covering everything from facial recognition and user profiles to troubleshooting and rep…",
-      "body": "Coinciding with the launch of Apple HomeView, the company has been updating its support website with new guides covering everything from facial recognition and user profiles to troubleshooting and rep — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://9to5mac.com/2026/11/13/apple-details-homeview-facial-recognition-repair-options-and-more-in-new-support-guides/",
-      "image": "/images/feed/feed-738d3802a404.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -494,86 +588,10 @@
         "Orbit"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 41,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-13-2026",
       "image": "/images/feed/feed-2e6e211a4cf2.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-b7b2939b25ec",
-      "title": "Google Pixel bug reveals hidden Private Space when switching between light and dark mode",
-      "excerpt": "Google’s November update fixed plenty of bugs, but this Private Space issue wasn’t one of them.",
-      "body": "TL;DR Google’s November 2026 Pixel update still hasn’t fixed a Private Space bug that first surfaced in September. Switching between light and dark modes causes the hidden Private Space section to reappear in the app drawer, even when it’s set to remain hidden. Google has acknowledged a potentially related issue on its Issue Tracker, but there’s no confirmed fix yet. Google’s big November update packs dozens of bug fixes , but a recent Private Space issue, which unhides the hidden folder in the app drawer, appears to have again slipped through the cracks. For reference, the bug first surfaced following Android 17 QPR1 in September. Fast-forward to Android 17 QPR2 , and the bug is still there. For those unaware, Pixel’s Private Space lets you create a sandbox within your phone.",
-      "author": "Karandeep Singh Oberoi",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.androidauthority.com/google-pixel-private-space-persistent-bug-3735167/",
-      "image": "/images/feed/feed-b7b2939b25ec.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-880288613dbd",
-      "title": "Nothing Headphone (a) with 135-hour battery is 45% off on Amazon",
-      "excerpt": "Nothing's long-lasting over-ear headphones are $90 off, matching their all-time low on Amazon.",
-      "body": "Nothing’s budget over-ear headphones are built around one standout spec: battery life. The Nothing Headphone (a) is now $109 on Amazon , saving you $90 (45%) on its $199 list price and matching the lowest price it has ever hit. See the deal at Amazon",
-      "author": "Matt Horne",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.androidauthority.com/nothing-headphone-a-black-friday-3735126/",
-      "image": "/images/feed/feed-880288613dbd.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-bdabf4e75e94",
-      "title": "Google gets ready to kill off Pixel 10 Magic Cue in favor of Proactive Assistance",
-      "excerpt": "Google appears to be preparing to pull the plug on Magic Cue by the end of 2027.",
-      "body": "TL;DR Magic Cue launched on Pixel 10 phones, offering to find useful info in your apps and bring it to your attention. Proactive Assistance debuted with the Pixel 11 series, working quite similarly to Magic Cue, and we’ve been wondering if it’s meant to replace it. New text strings now highlight Google’s plans to move Magic Cue users to Proactive Assistance by the end of 2027. Google first introduced Proactive Assistance with the Pixel 11 series this year, and now it looks like the company is getting ready to fully replace Magic Cue with its new system — eventually. APK teardown: This reporting is based on work-in-progress code. These features may not ship.",
-      "author": "Stephen Schenck",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.androidauthority.com/google-kill-magic-cue-3735173/",
-      "image": "/images/feed/feed-bdabf4e75e94.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-8c666a71216f",
-      "title": "9to5Mac Overtime 090: iPhone Duo honeymoon",
-      "excerpt": "The Overtime crew revisits the iPhone Duo after prolonged usage. Is it still worth it without a telephoto lens or Face ID? We dig into its multitasking chops, standout FaceTime features, and how it st…",
-      "body": "The Overtime crew revisits the iPhone Duo after prolonged usage. Is it still worth it without a telephoto lens or Face ID? We dig into its multitasking chops, standout FaceTime features, and how it stacks up against the Galaxy Z Fold 8. Plus, we break down Apple’s unprecedented product blitz and rumors of a second-gen MacBook Neo. Sponsored by Memoket : Memoket Gem is an AI wearable that slots beside your Apple Watch. One press captures a conversation, and KITE memory connects it to what you said weeks ago. Save 10% with code LL86MDO6 on Amazon and Memoket’s websit e. more…",
-      "author": "Jeff Benjamin",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://9to5mac.com/2026/11/13/9to5mac-overtime-090-iphone-duo-honeymoon/",
-      "image": "/images/feed/feed-8c666a71216f.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -609,7 +627,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 47,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
       "image": "/images/feed/feed-b5d8e3ece75e.jpg",
       "source": "The Verge",
@@ -617,18 +635,19 @@
     },
     {
       "id": "feed-3ab33c5c25c0",
-      "title": "Rocket Lab launching 100th space mission early on Nov. 14: Watch it live",
-      "excerpt": "Rocket Lab will launch its 100th space mission shortly after midnight on Saturday (Nov. 14), and you can watch the milestone liftoff live.",
-      "body": "Rocket Lab will launch its 100th space mission early Saturday morning (Nov. 14), and you can watch the milestone liftoff live. An Electron rocket topped with a private Japanese Earth-observing satellite is scheduled to launch from Rocket Lab's New Zealand site on Saturday, during a window that opens at 12:30 a.m. EST (0530 GMT; 6:30 p.m. local time). The mission, which Rocket Lab calls \"The Mountain God Rises,\" will be the 100th to date for the California-based company. You can watch it live via Rocket Lab, or directly via the company . Coverage will begin about 30 minutes before launch. The Electron rocket that will fly Rocket Lab's 100th mission sports some special livery.",
+      "title": "100 launches! Rocket Lab sends Earth-observing satellite to orbit on milestone mission (photos)",
+      "excerpt": "Rocket Lab launched its 100th space mission shortly after midnight on Saturday (Nov. 14), sending a private Japanese Earth-observing satellite to orbit.",
+      "body": "Rocket Lab just hit the century mark. An Electron rocket topped with a private Japanese Earth-observing satellite lifted off from Rocket Lab's New Zealand site on Saturday (Nov. 14) at 12:30 a.m. EST (0530 GMT; 6:30 p.m. local New Zealand time). The mission, which Rocket Lab called \"The Mountain God Rises,\" was a big one: It marked the 100th launch to date for the California-based company. The first stage of Rocket Lab's Electron rocket falls back to Earth during \"The Mountain God Rises\" mission on Nov. 14, 2026. (Image credit: Rocket Lab) Rocket Lab launched for the first time in May 2017, sending the brand-new Electron up on a test flight from New Zealand.",
       "author": " Mike Wall ",
       "date": "2026-11-13",
       "readTime": "2 min",
       "section": "space",
       "tags": [
-        "Space"
+        "Satellite",
+        "Orbit"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 41,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite",
       "image": "/images/feed/feed-3ab33c5c25c0.jpg",
       "source": "Space.com",
@@ -647,7 +666,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 43,
       "url": "https://www.space.com/entertainment/space-movies-shows/arrival-at-10-the-denis-villeneuve-alien-visitation-classic-that-reminded-us-its-good-to-talk",
       "image": "/images/feed/feed-cab3446a7e32.jpg",
       "source": "Space.com",
@@ -666,7 +685,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 42,
       "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
       "image": "/images/feed/feed-b18b7197a903.jpg",
       "source": "BleepingComputer",
@@ -685,28 +704,9 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 35,
       "url": "https://www.space.com/space-exploration/californias-brand-new-air-and-space-center-home-of-the-space-shuttle-endeavour-opens-today",
       "image": "https://cdn.mos.cms.futurecdn.net/BawzDwqdEXKktiH9bquQhJ-1920-80.png",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-10257e15d994",
-      "title": "Think you have good eyesight? Try counting the stars in the Pleiades tonight",
-      "excerpt": "Every November, I give myself a completely unscientific eyesight test using one of my favorite sights in the night sky — the Pleiades. How many stars can you see?",
-      "body": "Every autumn, I conduct an eyesight test that no reputable optometrist would understand. I go outside, find the Pleiades and count how many stars I can see. Usually I start confidently. One, two, three, four, five. Then things become contentious. Is that another star? Did I actually see it, or did I decide I ought to see it because I know it's there? I look away, look back and begin again. This is not, I should emphasize, a meaningful test of eye health. What it tests, rather, is how badly I've prepared for looking at the night sky. The Pleiades sit roughly 444 light-years away in Taurus and are right now becoming extremely convenient in the evening sky. You don't need a telescope to find them. You don't even need binoculars.",
-      "author": " Jamie Carter ",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.space.com/stargazing/think-you-have-good-eyesight-try-counting-the-stars-in-the-pleiades-tonight",
-      "image": "/images/feed/feed-10257e15d994.jpg",
       "source": "Space.com",
       "isLive": true
     },
@@ -723,7 +723,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 34,
       "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
       "image": "/images/feed/feed-c8ef556c39f8.jpg",
       "source": "BleepingComputer",
@@ -742,7 +742,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 54,
       "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
       "image": "/images/feed/feed-b5af83d54bc0.jpg",
       "source": "The Hacker News",
@@ -761,7 +761,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 38,
       "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
       "image": "/images/feed/feed-cc5bf82c102a.jpg",
       "source": "Ars Technica",
@@ -780,7 +780,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
       "image": "/images/feed/feed-212e30a9407b.jpg",
       "source": "BleepingComputer",
@@ -799,7 +799,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 35,
       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
       "source": "TechCrunch",
@@ -818,7 +818,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 43,
       "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
       "image": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205754389.jpg?w=1024",
       "source": "TechCrunch",
@@ -837,7 +837,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 43,
       "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
       "image": "/images/feed/feed-563cd8d18fd7.jpg",
       "source": "The Hacker News",
@@ -856,7 +856,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 36,
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -875,7 +875,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 35,
       "url": "https://openai.com/business/customer-stories/shield",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -894,7 +894,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 31,
       "url": "https://openai.com/business/customer-stories/amplitude",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -913,7 +913,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 43,
       "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/hydrogen-at-2.01.42-PM.jpg?resize=1200,589",
       "source": "TechCrunch",
@@ -932,7 +932,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 34,
       "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
       "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
       "source": "Google AI Blog",
@@ -940,16 +940,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: How to reduce LLM API costs in production by routing",
-    "DEV.TO: AI readiness checklist: five gates to pass before you commit build budget",
-    "DEV.TO: Monitoring Jenkins with Prometheus: queue, executors, build duration, and five PromQL alerts",
-    "DEV.TO: Reading the IL View and Navigating Metadata Tokens in Glass",
-    "DEV.TO: Build 'Find My Photos' for Event Galleries with Amazon Rekognition and Node.js",
-    "DEV.TO: Finding and Killing N+1 Queries in a Rails API Before Your Users Notice",
-    "DEV.TO: A Screen-Privacy Tool Should Not Upload the Page It Protects",
-    "POLYGON: 25 Years Later, Frodo’s Best Lord of the Ring Quote Proves He's the Ultimate Fantasy Hero",
-    "CLEANTECHNICA: Who Can Weather the Health Storm?",
-    "CLEANTECHNICA: Comparative Cost Analysis for Residential Curbside Organics Collection Programs"
+    "DEV.TO: Claude Duet Messages You First. That Changes Who Is in Control.",
+    "DEV.TO: The Invisible Brush: Generative Art and the Algorithms That Paint",
+    "DEV.TO: Event ID 4673 flood: why the Security log is full and the PC is slow",
+    "DEV.TO: I deleted my extensions.gnome.org account. My extensions stayed online.",
+    "DEV.TO: Keep Your IR Alive: Why the .ll File Matters for Honest Timing",
+    "DEV.TO: Self-hosted Claude Managed Agents: what you run, what still leaves your network",
+    "DEV.TO: Building HarshitOS: A macOS-Inspired Developer Portfolio in React 19",
+    "POLYGON: Every GTA 6 Actor Rumored and Confirmed by Rockstar Ahead of Launch",
+    "ANDROID AUTHORITY: How I freed up 36GB on my Android phone without deleting a single photo",
+    "POLYGON: Rings of Power Just Changed the Nazgul in 1 Terrifying Way: ‘They Still Have a Human Side’"
   ],
   "sectionVideos": {}
 }
