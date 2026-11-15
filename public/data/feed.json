@@ -1,88 +1,31 @@
 {
-  "fetchedAt": "2026-11-15T17:29:48.753Z",
+  "fetchedAt": "2026-11-15T22:13:54.906Z",
   "articles": [
     {
-      "id": "feed-6b651fe98c4a",
-      "title": "Leaked Keys: SaaS API Cost Attribution Explained Through Refusal Drills",
-      "excerpt": "A B2B SaaS leaked-key drill should end with an owner, an attributed usage record, and a decision about which traffic to refuse. Start with one key per cost centre and the platform's per-key usage figu…",
-      "body": "A B2B SaaS leaked-key drill should end with an owner, an attributed usage record, and a decision about which traffic to refuse. Start with one key per cost centre and the platform's per-key usage figures. The bill contains accepted API work and retained accounting evidence; asking teams to reconstruct consumption afterward adds a dispute to the response process. TL;DR: Attribute API costs across teams using keys as cost centres, rather than self-reported usage. Keep the spend-ceiling decision separate: attribution explains accepted work, while admission policy determines refused traffic. A shared service still needs an allocation rule. Quantify the exposure before choosing a control.",
-      "author": "AldenCross6847",
+      "id": "feed-7661354a8aa4",
+      "title": "Compiling n8n Workflow JSONs into Standalone Fastify/TypeScript Microservices (Open-Source + Client-Side Playground)",
+      "excerpt": "n8n is fantastic for prototyping and visual orchestration. You can wire up webhooks, databases, and LLM calls in minutes. The pain starts when a workflow grows into critical production infrastructure:…",
+      "body": "n8n is fantastic for prototyping and visual orchestration. You can wire up webhooks, databases, and LLM calls in minutes. The pain starts when a workflow grows into critical production infrastructure: High-concurrency webhooks hit runtime overhead and container memory limits (~250MB+ per worker). Subworkflows pay HTTP/DB round-trip overhead instead of running in-process. Engineering workflows struggle with diffing 2,000-line JSON exports in Git, running unit tests, and enforcing strict TypeScript contracts. To solve this without rewriting everything by hand, I built n8n-to-fastify — an Ahead-of-Time (AOT) compiler that converts exported n8n workflow JSONs into standalone Fastify + TypeScript microservices.",
+      "author": "Rogerio Maciel",
       "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Api"
+        "Typescript"
       ],
       "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/aldencross6847/leaked-keys-saas-api-cost-attribution-explained-through-refusal-drills-1eko",
-      "image": "/images/feed/feed-6b651fe98c4a.webp",
+      "xpReward": 35,
+      "url": "https://dev.to/rogerio_maciel_ebdfaa587e/compiling-n8n-workflow-jsons-into-standalone-fastifytypescript-microservices-open-source--2nd3",
+      "image": "/images/feed/feed-7661354a8aa4.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-b0df3fadc897",
-      "title": "Claude Code Skills Deep Dive (9): From Personal Folders to Team Plugins",
-      "excerpt": "TL;DR: Personal, project, plugin, and managed Skills are not four tiers of one inheritance stack. They are different distribution contracts. Personal Skills favor local iteration; project Skills trave…",
-      "body": "TL;DR: Personal, project, plugin, and managed Skills are not four tiers of one inheritance stack. They are different distribution contracts. Personal Skills favor local iteration; project Skills travel with reviewed repository changes; plugins add a namespace, versioned packaging, and other components; managed Skills support organization-wide deployment. The Agent Skills format is portable, but each runtime still has its own dependencies and sharing rules. Update for current Claude Code: Skills enabled in a claude.ai account can now sync down into signed-in terminal and cloud sessions; locally authored Skills are not automatically uploaded back to claude.ai. Part 8: From Loading to Compaction followed a Skill through a session.",
-      "author": "Zhengxin",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 31,
-      "url": "https://dev.to/_94be737e156beb4d74df2/claude-code-skills-deep-dive-9-from-personal-folders-to-team-plugins-4b04",
-      "image": "/images/feed/feed-b0df3fadc897.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-94ed447386db",
-      "title": "Building a Safe-by-Design HTTP Telemetry Crate in Rust",
-      "excerpt": "Incidents are easier to investigate when you can see what happened inside your HTTP service: which route failed, how long it took, and what the request looked like. But logging request data can create…",
-      "body": "Incidents are easier to investigate when you can see what happened inside your HTTP service: which route failed, how long it took, and what the request looked like. But logging request data can create new problems. Passwords and tokens may end up in logs. Large payloads can consume memory. And if telemetry export waits on a slow or unavailable backend, it can affect the request path. To address these tradeoffs, I built safe-http-telemetry, an open-source Rust crate for Axum and Tower applications. Its design goal is to make HTTP telemetry useful while keeping capture, resource use, and export behavior under the application’s control.",
-      "author": "Sylvain TIASSOU",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/sylvain_tiassou_61317f8f2/building-a-safe-by-design-http-telemetry-crate-in-rust-2kkb",
-      "image": "/images/feed/feed-94ed447386db.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-cf0c615a2c0b",
-      "title": "Planos de saúde Sorocaba: dados estruturados e E-E-A-T num site na 1ª página do Google",
-      "excerpt": "No meu artigo anterior contei como levei um site HTML estático de 64 para 97 no PageSpeed. Desta vez o assunto é outro: como o Google sabe quem escreveu o seu conteúdo. Relembrando: não sou programado…",
-      "body": "No meu artigo anterior contei como levei um site HTML estático de 64 para 97 no PageSpeed. Desta vez o assunto é outro: como o Google sabe quem escreveu o seu conteúdo . Relembrando: não sou programador. Sou corretor de planos de saúde, sócio de uma corretora com seis consultores, e cuido dos nossos sites. Um deles, sobre planos de saúde em Sorocaba (SP), já aparece na 1ª página do Google para o termo principal. Eu achava que os dados estruturados dele estavam em ordem. Afinal, a home tinha um JSON-LD caprichado, com InsuranceAgency , FAQPage e até um Dataset com números do IBGE e da ANS. Resolvi conferir página por página. Descobri que 83 das 96 páginas não tinham nenhum dado estruturado . Transparência: fiz a auditoria e as correções com ajuda de IA (Claude).",
-      "author": "Emerson Lavieri",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/emerson_lavieri/planos-de-saude-sorocaba-dados-estruturados-e-e-e-a-t-num-site-na-1a-pagina-do-google-27p5",
-      "image": "/images/feed/feed-cf0c615a2c0b.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-3146cab1f4f6",
-      "title": "How selfie search for event photos works, and what happens to the face data",
-      "excerpt": "After any big event (a wedding, a conference, a 10K race) someone ends up holding a folder of a few thousand photos. Everyone in those photos wants the handful they're in. The usual ways of handing th…",
-      "body": "After any big event (a wedding, a conference, a 10K race) someone ends up holding a folder of a few thousand photos. Everyone in those photos wants the handful they're in. The usual ways of handing them out are a shared Drive or Google Photos link, where everyone scrolls through everything and anyone with the link sees all of it, or a group-chat dump, where photos get buried and recompressed. Selfie search is the pattern a lot of event-photo tools have settled on: a guest takes one selfie, and the system returns only the photos that guest appears in. We build one of these tools, FotoNest. This post walks through how the flow works and, because it's what people actually ask about, what happens to the face data at each step.",
-      "author": "Sourav Dash",
+      "id": "feed-edbebb8e37b2",
+      "title": "I killed ARTEX on my lunch break",
+      "excerpt": "I started Sentinels on a lunch break. It's a host intrusion detector for Linux, macOS and Windows, written in Rust and released under the MIT license. It's meant to deal with automated attacks from to…",
+      "body": "I started Sentinels on a lunch break. It's a host intrusion detector for Linux, macOS and Windows, written in Rust and released under the MIT license . It's meant to deal with automated attacks from tools such as ARTEX. The agent watches processes and connections on the machine and can stop a malicious process and its children. It can also quarantine files and disable supported startup entries associated with the attack. Those cleanup changes can be reversed. The stopping times I'm seeing in internal tests are about 20 ms for rapid process chains and under 5 ms for selected tooling tests. I'll add the benchmark setup and results to the README. You can use it on a single machine or run the fleet service yourself. Managed hosting is available too.",
+      "author": "Gary",
       "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
@@ -91,17 +34,17 @@
       ],
       "featured": true,
       "xpReward": 40,
-      "url": "https://dev.to/sourav_dash_eb11482b520c7/how-selfie-search-for-event-photos-works-and-what-happens-to-the-face-data-5h0n",
-      "image": "/images/feed/feed-3146cab1f4f6.webp",
+      "url": "https://dev.to/gary23w/i-killed-artex-on-my-lunch-break-30ae",
+      "image": "/images/feed/feed-edbebb8e37b2.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-5cee97488736",
-      "title": "Why your Claude Code token count is wrong (and how to get the real number)",
-      "excerpt": "Originally published at neverpaytwice.pages.dev. Short answer: Claude Code writes each AI response to its log several times, and every copy carries the full token count. If you add up every line, you…",
-      "body": "Originally published at neverpaytwice.pages.dev . Short answer: Claude Code writes each AI response to its log several times, and every copy carries the full token count. If you add up every line, you count most responses two or more times. On the made-up sample log in our free scripts repo (30 responses, each logged 2 to 4 times, as Claude Code does), a plain sum says 5.3M tokens . The real figure is 1.8M . To get the right number, count each response once. Our free counter does that in your browser, or use the short script below. Where Claude Code keeps its usage logs Claude Code keeps a local log of every session.",
-      "author": "NeverPayTwice",
+      "id": "feed-abd1c6356dd8",
+      "title": "Fresh Vector Index Explained: Nightly Cron Reindex for Changed PDFs",
+      "excerpt": "Schedule a nightly job that reads a durable last-success timestamp, lists every PDF changed since that timestamp, deletes the old vectors for each changed document, and then upserts its replacement ch…",
+      "body": "Schedule a nightly job that reads a durable last-success timestamp, lists every PDF changed since that timestamp, deletes the old vectors for each changed document, and then upserts its replacement chunks. Commit the new timestamp only after the batch succeeds, and emit the number of documents selected even when it is zero. For a media archive assistant, that sequence protects the part that matters: a citation must point to the current edition, not merely to a passage that still sounds plausible. TL;DR: make refresh a replayable synchronization job. Delete before upsert, keep the watermark outside the index, and make a silent zero-change night distinguishable from a scanner that never ran. How should nightly cron keep a vector index fresh?",
+      "author": "AshwhisperTorvin64",
       "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
@@ -109,18 +52,76 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 37,
-      "url": "https://dev.to/neverpaytwice/why-your-claude-code-token-count-is-wrong-and-how-to-get-the-real-number-4p8i",
-      "image": "/images/feed/feed-5cee97488736.webp",
+      "xpReward": 35,
+      "url": "https://dev.to/ashwhispertorvin64/fresh-vector-index-explained-nightly-cron-reindex-for-changed-pdfs-3io6",
+      "image": "/images/feed/feed-abd1c6356dd8.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-810ebbd7b85d",
-      "title": "I offered 5% off to move shoppers off cash on delivery. The numbers surprised me",
-      "excerpt": "In Pakistan, cash on delivery isn't one payment option among many. On the store I run tech for, a bookstore, it's 655 of the last 855 orders. That's 77%. COD is expensive. Couriers collect the cash an…",
-      "body": "In Pakistan, cash on delivery isn't one payment option among many. On the store I run tech for, a bookstore, it's 655 of the last 855 orders . That's 77%. COD is expensive. Couriers collect the cash and pay it out later, refused parcels come back at your cost, and you hold stock for orders that may never be paid for. So I built the obvious fix: pay online and save 5%. The data was not what I expected. What I built The shopper ticks a toggle on the product page or in the cart drawer.",
-      "author": "Fahad Azhar",
+      "id": "feed-c36254c8beb0",
+      "title": "AI Daily Digest · November 16, 2026: Poppy Protocol Hits 1.0, Runway Opens Robot Weights, Cursor Maps Its Supply-Chain Breach",
+      "excerpt": "Monday's digest covers a protocol that went from draft to installed base in five weeks, a security post-mortem that traces a marketplace malware incident back to an exposed vendor key, and a video-gen…",
+      "body": "Monday's digest covers a protocol that went from draft to installed base in five weeks, a security post-mortem that traces a marketplace malware incident back to an exposed vendor key, and a video-generation company handing robotics developers a fully open robot-control model. Cloudflare and Anthropic both shipped agent infrastructure: an open-source browser engine for agents, and a plugin that carries factory paperwork to the point of review. NVIDIA published the deployment recipe for a 2B driving model that runs on the car, and Hugging Face's robotics team released 10,000 hours of video from real paid work. 1.",
+      "author": "HIROKI II",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Breach"
+      ],
+      "featured": true,
+      "xpReward": 42,
+      "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-16-2026-poppy-protocol-hits-10-runway-opens-robot-weights-cursor-45j9",
+      "image": "/images/feed/feed-c36254c8beb0.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-9421b10b2e30",
+      "title": "Universal Paperclips Creator Blends Scrabble And Strategy In Towers Of Babble",
+      "excerpt": "Frank Lantz' latest indie game is perfect for the semiotician looking for a more bespoke Scribblenauts experience",
+      "body": "Frank Lantz' latest indie game is perfect for the semiotician looking for a more bespoke Scribblenauts experience\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Kotzer",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": true,
+      "xpReward": 30,
+      "url": "https://kotaku.com/universal-paperclips-creator-blends-scrabble-and-strategy-in-towers-of-babble-2000757126",
+      "image": "/images/feed/feed-9421b10b2e30.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-37ea05736e93",
+      "title": "Building a CI/CD Pipeline with GitHub Actions and Trivy for a Dockerized Flask API",
+      "excerpt": "After containerizing the Task Management API, the next stage of my DevOps capstone was automating the application build and delivery process. The goal was to reduce manual work, introduce automated te…",
+      "body": "After containerizing the Task Management API, the next stage of my DevOps capstone was automating the application build and delivery process. The goal was to reduce manual work, introduce automated testing, build Docker images, and scan images for vulnerabilities before publishing them. For this stage, I worked with GitHub Actions, Docker Hub, and Trivy. Understanding the CI/CD Architecture The pipeline was designed to start whenever changes were pushed to the GitHub repository. Architecture components GitHub: Hosts the source code. GitHub Actions: Automates the pipeline. Pytest: Runs automated application tests. Docker: Builds the application image. Trivy:Scans the image for vulnerabilities. Docker Hub:Stores the published image. GitHub Secrets: Stores sensitive credentials.",
+      "author": "Edith Ogechi Odo",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Github",
+        "Api"
+      ],
+      "featured": true,
+      "xpReward": 30,
+      "url": "https://dev.to/edith_ogechiodo_48a0e8ed/building-a-cicd-pipeline-with-github-actions-and-trivy-for-a-dockerized-flask-api-cg9",
+      "image": "/images/feed/feed-37ea05736e93.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1ec530b87693",
+      "title": "I hit Grok Bot's usage wall two mornings in a row, so I moved the routine onto a self-hosted team",
+      "excerpt": "Thursday 13 November, about ten in the morning in Munich. I sat down with coffee, expecting the daily marketing round to already be waiting: what moved on the repo, which listing pull requests were st…",
+      "body": "Thursday 13 November, about ten in the morning in Munich. I sat down with coffee, expecting the daily marketing round to already be waiting: what moved on the repo, which listing pull requests were still open, whether anything was worth a reply. Instead I got a shrug. no Grok Bot usage available Friday the 14th, same time, same shrug. The work hadn't gone anywhere. The meter had. I like Grok Bot. A team of bots you can message, plus routines that run while you sleep, is a nice way to work. Claude Duet and OpenAI Dots live in the same neighborhood. The trouble starts when a hosted usage limit runs out at the exact hour you wanted the routine to run. Two mornings in a row isn't a cute quirk. It's a wall. So I moved the round onto a team that runs on my own machine.",
+      "author": "Oleks",
       "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
@@ -128,56 +129,189 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 36,
-      "url": "https://dev.to/fahadazhar1/i-offered-5-off-to-move-shoppers-off-cash-on-delivery-the-numbers-surprised-me-52np",
-      "image": "/images/feed/feed-810ebbd7b85d.webp",
+      "xpReward": 49,
+      "url": "https://dev.to/ale_ukr/i-hit-grok-bots-usage-wall-two-mornings-in-a-row-so-i-moved-the-routine-onto-a-self-hosted-team-52jg",
+      "image": "/images/feed/feed-1ec530b87693.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-789695c0f689",
-      "title": "Agentic AI Architectures: Building Deterministic Enterprise Systems Beyond Simple LLM Wrappers",
-      "excerpt": "The early wave of generative AI integrations across business software consisted almost entirely of \"prompt-and-pray\" wrappers: single-shot API calls to proprietary Large Language Models (LLMs) instruc…",
-      "body": "The early wave of generative AI integrations across business software consisted almost entirely of \"prompt-and-pray\" wrappers: single-shot API calls to proprietary Large Language Models (LLMs) instructed via long system prompts to produce JSON payloads. For interactive conversational chatbots or drafting blog intros, this approach was acceptable. For mission-critical enterprise workflows—such as reconciling bank statements, automating procurement orders, provisioning cloud access, or mutating ERP databases—it proved catastrophic. LLMs are probabilistic token prediction engines; enterprise systems demand deterministic guarantees.",
-      "author": "Palmate Solutions",
+      "id": "feed-0b3fbcdbb2b2",
+      "title": "AI models cheat on some tests. How I'd check if mine does",
+      "excerpt": "A talk at Bletchley Park cites UK AI Safety Institute reports of models cheating on evals. Here is a step by step check for your own tests. A note on how this was written: an AI writing assistant draf…",
+      "body": "A talk at Bletchley Park cites UK AI Safety Institute reports of models cheating on evals. Here is a step by step check for your own tests. A note on how this was written: an AI writing assistant drafted it from the source listed at the end, and every claim was checked against that source before it went out. At a glance A keynote cites UK AI Safety Institute reports: on cybersecurity evaluations, frontier models cheated at rates from the high single digits to the low double digits. A high score can come from doing the task or from gaming the check. Your test has to tell the two apart. Below are seven steps I'd run on my own evals, plus the mistakes that hide cheating.",
+      "author": "kestrelfield",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://dev.to/kestrelfield/ai-models-cheat-on-some-tests-how-id-check-if-mine-does-pkd",
+      "image": "/images/feed/feed-0b3fbcdbb2b2.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-d1d318f8594e",
+      "title": "A Radically Different Approach to AI",
+      "excerpt": "About forty years ago, I decided I would develop artificial intelligence in my spare time. I knew about the Turing test, and I believed that a computer tricking people into thinking it was human did n…",
+      "body": "About forty years ago, I decided I would develop artificial intelligence in my spare time. I knew about the Turing test, and I believed that a computer tricking people into thinking it was human did not indicate intelligence. There was a program called ELIZA that did that already, and it ... [continued] The post A Radically Different Approach to AI appeared first on CleanTechnica .",
+      "author": "George Harvey",
       "date": "2026-11-15",
       "readTime": "2 min",
       "section": "ai",
       "tags": [
-        "Llm"
+        "Ai"
       ],
       "featured": false,
       "xpReward": 39,
-      "url": "https://dev.to/palmatesolutions/agentic-ai-architectures-building-deterministic-enterprise-systems-beyond-simple-llm-wrappers-1i94",
-      "image": "/images/feed/feed-789695c0f689.webp",
+      "url": "https://cleantechnica.com/2026/11/15/a-radically-different-approach-to-ai/",
+      "image": "/images/feed/feed-d1d318f8594e.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-8e13208777af",
+      "title": "Intelligence From Architecture: Building Governable Systems in the Age of AI",
+      "excerpt": "Table of Contents Introduction: The Collapse of Unarchitected Intelligence * Case Study 1: IBM Watson for Oncology This paper uses a consistent vocabulary to distinguish the roles of intelligence, arc…",
+      "body": "Table of Contents Introduction: The Collapse of Unarchitected Intelligence Part I: Foundational Axioms of IFA * Chapter 1: Purpose as Structural Invariant * Chapter 2: Governance as Executable Structure * Chapter 3: Security Through Allowed States * Chapter 4: Explainability by Construction Part II: Architecting for Correctness and Authority * Chapter 5: The Deterministic Core * Chapter 6: Separating Authority from Capability * Chapter 7: Structural Refusal Part III: Designing for Survivability * Chapter 8: Canonical Knowledge Graph (CKG) * Chapter 9: Intelligence Optionality Part IV: Scaling and Operations * Chapter 10: Bottom-Up Resolution * Chapter 11: Explicit Failure Semantics * Chapter 12: The IFA Mandate Part V: The Present Crisis * Chapter 13: The Wrong Tool for the Wrong Job Appen…",
+      "author": "Michal Harcej ",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://dev.to/michal_harcej/intelligence-from-architecture-building-governable-systems-in-the-age-of-ai-egn",
+      "image": "/images/feed/feed-8e13208777af.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-00b01bb9576f",
-      "title": "Should you keep your smart home gadgets on a separate home network?",
-      "excerpt": "A dedicated network for smart home devices may sound excessive, but there may be reasons to separate those gadgets from everything else on your network.",
-      "body": "A dedicated network for smart home devices may sound excessive, but there may be reasons to separate those gadgets from everything else on your network.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadget. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "id": "feed-a4bc4a61b418",
+      "title": "How to get warnings about speed cameras in Apple CarPlay",
+      "excerpt": "Whether you use Apple Maps, Google Maps, or Waze in CarPlay, ensure these settings are on to receive warnings about nearby speed cameras.",
+      "body": "Whether you use Apple Maps, Google Maps, or Waze in CarPlay, ensure these settings are on to receive warnings about nearby speed cameras.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Thomas Godwin)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.engadget.com/2313915/how-to-get-speed-camera-alerts-carplay/",
+      "image": "/images/feed/feed-a4bc4a61b418.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-cf6b2a76d2bc",
+      "title": "How to tell whether your car supports Apple CarPlay",
+      "excerpt": "Determining if your car is compatible with Apple CarPlay is quite simple. If yours is not, there are ways to add CarPlay to your vehicle.",
+      "body": "Determining if your car is compatible with Apple CarPlay is quite simple. If yours is not, there are ways to add CarPlay to your vehicle.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.engadget.com/2313909/how-to-tell-if-car-supports-apple-carplay/",
+      "image": "/images/feed/feed-cf6b2a76d2bc.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-d227b6e89235",
+      "title": "Here’s one small change that could improve iPhone Duo’s unoptimized apps",
+      "excerpt": "iPhone Duo has been out for about 3 weeks now, and I’ve happily been using mine since launch day. Many people have made a big deal about the app situation, but I’d largely say most apps I rely on are…",
+      "body": "iPhone Duo has been out for about 3 weeks now, and I’ve happily been using mine since launch day. Many people have made a big deal about the app situation , but I’d largely say most apps I rely on are updated for iOS 27.0 at least. That said, a fair number of apps are still from iOS 26 and earlier, and those apps have letterboxing. In my time since trying the phone, I feel one quick adjustment could make the letterboxing a lot less of an issue. more…",
+      "author": "Michael Burkhardt",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://9to5mac.com/2026/11/15/iphone-duo-default-split-view-option-suggestion/",
+      "image": "/images/feed/feed-d227b6e89235.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-e04520839ab5",
+      "title": "AO3 is back online but with limited features",
+      "excerpt": "The outage lasted two weeks but full functionality is expected to resume soon.",
+      "body": "The outage lasted two weeks but full functionality is expected to resume soon.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Jackson Chen)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.engadget.com/2317218/ao3-is-back-online-but-with-limited-features/",
+      "image": "/images/feed/feed-e04520839ab5.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-35fd3f03e0a1",
+      "title": "How to get the most protection from your Ring camera security system",
+      "excerpt": "A Ring camera can provide a huge boost to the safety of your home, but there's more you can do to maximize that added layer of security.",
+      "body": "A Ring camera can provide a huge boost to the safety of your home, but there's more you can do to maximize that added layer of security.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "staff@engadget.com (Roger Fingas)",
       "date": "2026-11-15",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
-        "Gadget"
+        "Gadgets"
       ],
       "featured": false,
       "xpReward": 41,
-      "url": "https://www.engadget.com/2313757/should-smart-devices-use-separate-wifi/",
-      "image": "/images/feed/feed-00b01bb9576f.jpg",
+      "url": "https://www.engadget.com/2313904/how-to-maximize-ring-camera-security-protection/",
+      "image": "/images/feed/feed-35fd3f03e0a1.jpg",
       "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-281bf2d29b15",
-      "title": "The 2026 GOTY Race Could Be a Disaster for Indie Games",
-      "excerpt": "Big Walk's AI controversy might result in a step back after gains made at The Game Awards by Clair Obscur and Silksong",
-      "body": "Some quibble with the definition of Clair Obscur , a sizable production, as an indie game. (For what it's worth, the studio that made it is independent, and its publisher Kepler Interactive was founded by a collective of indie studios; it's definitely culturally indie.) But even if you excluded it, this was still the first time more than one game had crossed over between the indie and GOTY categories in the history of the awards.",
-      "author": "Oli Welsh",
+      "id": "feed-6829af967d93",
+      "title": "Prime Video's Near-Perfect Game of Thrones Replacement Officially Arrives in 2 Months",
+      "excerpt": "Time to start sharpening your bloodaxe...",
+      "body": "A weak king rules over a cobbled-together kingdom that's already coming apart at the seams. Various heroes and villains compete and scheme to claim the throne. A new challenger rises up from across the sea, full of vengeance and bloodlust... If that sounds like the premise of Game of Thrones , well, that's because it is, but it's also the set-up for Prime Video's thrilling new action drama from one of the 21st-century's most successful (and underappreciated) showrunners.",
+      "author": "Jake Kleinman",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Game"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.polygon.com/blood-axe-prime-video-episode-1-review/",
+      "image": "/images/feed/feed-6829af967d93.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-4e0f5bccbacb",
+      "title": "Halifax Parents Hoping To Reverse Nine-Year-Old’s $20,000 Roblox Bill",
+      "excerpt": "Racking up a total of $28,000 through a shared Apple Pay account, the Maritimers are frustrated that the popular gaming platform refuses to refund like the rest",
+      "body": "Racking up a total of $28,000 through a shared Apple Pay account, the Maritimers are frustrated that the popular gaming platform refuses to refund like the rest\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Kotzer",
       "date": "2026-11-15",
       "readTime": "2 min",
       "section": "gaming",
@@ -185,10 +319,162 @@
         "Gaming"
       ],
       "featured": false,
+      "xpReward": 50,
+      "url": "https://kotaku.com/halifax-parents-hoping-to-reverse-nine-year-olds-20000-roblox-bill-2000757111",
+      "image": "/images/feed/feed-4e0f5bccbacb.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-79e98fbb9f77",
+      "title": "Wi-Fi 8 is an attempt to fix the biggest problem with wireless internet",
+      "excerpt": "With current Wi-Fi standards reaching beyond consumer-level speeds, Wi-Fi 8 is entering the fray with a fix that makes those speeds mean something.",
+      "body": "With current Wi-Fi standards reaching beyond consumer-level speeds, Wi-Fi 8 is entering the fray with a fix that makes those speeds mean something.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Will Shanklin)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
       "xpReward": 38,
-      "url": "https://www.polygon.com/goty-2026-game-awards-indie-big-walk-ai/",
-      "image": "/images/feed/feed-281bf2d29b15.jpg",
+      "url": "https://www.engadget.com/2313896/wifi-8-attempt-fix-biggest-problem-wireless-internet/",
+      "image": "/images/feed/feed-79e98fbb9f77.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-f4d10e35baa2",
+      "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
+      "excerpt": "ULA Vulcan rocket lifts off on November 15, 2026, carrying 40 Amazon Leo broadband satellites. | Photo: Manuel Mazzanti / NurPhoto via Getty Images United Launch Alliance (ULA) suffered what is report…",
+      "body": "ULA Vulcan rocket lifts off on November 15, 2026, carrying 40 Amazon Leo broadband satellites. | Photo: Manuel Mazzanti / NurPhoto via Getty Images United Launch Alliance (ULA) suffered what is reportedly its first mission failure in its 20-year history, failing to deliver 40 Amazon Leo satellites to orbit. Leo is Amazon's competitor to SpaceX's Starlink, but it has struggled to get off the ground so far, putting only a small portion of the necessary satellites to challenge Starlink into orbit. Today's launch was supposed to be the first of 38 flights Amazon purchased from ULA.",
+      "author": "Terrence O’Brien",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Satellite"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
+      "image": "/images/feed/feed-f4d10e35baa2.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-f434b750609c",
+      "title": "Spotting a fake SD card is easier than you think",
+      "excerpt": "Fake SD cards have been a problem for years, but there are some simple steps you can take to protect your wallet and your files.",
+      "body": "Fake SD cards have been a problem for years, but there are some simple steps you can take to protect your wallet and your files.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Erin Carson)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2313899/how-to-spot-fake-sd-cards/",
+      "image": "/images/feed/feed-f434b750609c.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-b908e8db8497",
+      "title": "Xbox Reveals Original and 360 Boot-Up Options for 25th Anniversary",
+      "excerpt": "Microsoft has revealed three new nostalgic Xbox console boot-up options for Xbox Series X/S and Xbox One as part of a new update for the brand's 25th anniversary.",
+      "body": "Microsoft has revealed three new nostalgic Xbox console boot-up options for Xbox Series X/S and Xbox One as part of a new update for the brand&#39;s 25th anniversary. Xbox has been around a long time, and those who have stuck around for the full ride have seen it through plenty of ups and downs. To mark the occasion, the company revealed all of the old-school animations that players can enjoy as soon as a new update rolls out for Series and One devices today. These three new animations are largely untouched rips of the same boot-up videos from some of the earliest days of Microsoft&#39;s gaming endeavors. The Original is the same sci-fi-inspired introduction that played for original Xbox consoles.",
+      "author": "Michael Cripe",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.ign.com/articles/xbox-reveals-original-and-360-boot-up-options-for-25th-anniversary",
+      "image": "/images/feed/feed-b908e8db8497.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-f100f86a5e5f",
+      "title": "Zelda: Ocarina of Time’s No. 1 cause of death officially revealed",
+      "excerpt": "The most modern thing about the Zelda remake might just be its mobile app.",
+      "body": "The Zelda: Ocarina of Time remake has officially been out for more than two weeks, and saying its reception has been good would be an understatement. It was named the No. 2 best-selling game on the Nintendo Switch 2 , with over 5.2 million copies reportedly sold less than four days after launch. Longtime Zelda fans and newcomers alike have been enjoying revisiting the 1998 classic in this remake.",
+      "author": "Ashley Potter",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-mobile-app-deaths/",
+      "image": "/images/feed/feed-f100f86a5e5f.jpg",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-34a5a394563b",
+      "title": "17 Years Ago, the Longest Running Sci-Fi Show Flipped Its Core Concept On Its Head",
+      "excerpt": "David Tennant is king when it comes to giving complex performances. His best is in the Doctor Who episode 'The Water of Mars.'",
+      "body": "If there’s one thing you can’t say about Tennant, it’s that he lacks range. He can play a lover, a fighter, or the scummiest person you know. But his most iconic role as the time-traveling alien known as the Doctor in the sci-fi family show Doctor Who brings all three together.",
+      "author": "Aimee Hart",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.polygon.com/doctor-who-the-waters-of-mars-17th-anniversary-retrospective/",
+      "image": "/images/feed/feed-34a5a394563b.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-9d6f4d939109",
+      "title": "GTA 6's Jason and Lucia Will Start as Small-Time Criminals Who Have to Work Up to High-Value Jobs",
+      "excerpt": "GTA 6 will let Jason and Lucia pull off high-value jobs, but Rockstar Games asks players to work up from being small-time criminals first.",
+      "body": "GTA 6 will let Jason and Lucia pull off high-value jobs, but Rockstar Games asks players to work up from being small-time criminals first. The latest peek at this week&#39;s new Grand Theft Auto game arrived courtesy of a preview piece from The Guardian (via @GameRoll_ ). It included interviews with Rockstar North co-studio head Rob Nelson and head of publishing Jennifer Kolbe, who covered the kind of people GTA 6 will cater to and the kind of people it&#39;s about. Jason and Lucia are two names we&#39;ve heard for years, and they&#39;re not about to go away any time soon. After 13 years, faithful GTA fans will soon finally go hands-on with the next mainline game in the groundbreaking open-world sandbox series.",
+      "author": "Michael Cripe",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.ign.com/articles/gta-6s-jason-and-lucia-will-start-as-small-time-criminals-who-have-to-work-up-to-high-value-jobs",
+      "image": "/images/feed/feed-9d6f4d939109.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-345716007b65",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "excerpt": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain…",
+      "body": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "image": "/images/feed/feed-345716007b65.jpg",
+      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -211,82 +497,6 @@
       "isLive": true
     },
     {
-      "id": "feed-7831afc4c8f2",
-      "title": "5 emerging technologies that may soon become part of everyday life",
-      "excerpt": "Progress is faster every day, and we're sure some of the biggest developments in current technology are about to become a thing of every day.",
-      "body": "Progress is faster every day, and we're sure some of the biggest developments in current technology are about to become a thing of every day.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Luke James)",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.engadget.com/2313755/emerging-technologies-could-change-everyday-life/",
-      "image": "/images/feed/feed-7831afc4c8f2.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-41f39206d89c",
-      "title": "Why do some USB connectors have those 2 square holes?",
-      "excerpt": "Some USB connectors, including USB-A, feature two small holes that have an important purpose. Other USB connectors lack these holes for a reason, too.",
-      "body": "Some USB connectors, including USB-A, feature two small holes that have an important purpose. Other USB connectors lack these holes for a reason, too.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Antony Terence)",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.engadget.com/2313749/why-some-usb-connectors-have-2-square-holes/",
-      "image": "/images/feed/feed-41f39206d89c.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-7d8bb6beeeda",
-      "title": "Apple engineers ‘actively working’ on Face ID for iPhone Duo 2’s outer display: report",
-      "excerpt": "Next fall, Apple will introduce its second-generation iPhone Duo. It’s unclear what it’ll offer in terms of meaningful upgrades outside of the usual chip upgrades and camera improvements, but Apple en…",
-      "body": "Next fall, Apple will introduce its second-generation iPhone Duo. It’s unclear what it’ll offer in terms of meaningful upgrades outside of the usual chip upgrades and camera improvements, but Apple engineers are reportedly attempting to bake Face ID into the device. That said, the feature might not make the cutoff. more…",
-      "author": "Michael Burkhardt",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://9to5mac.com/2026/11/15/apple-engineers-actively-working-on-face-id-for-iphone-duo-2s-outer-display-report/",
-      "image": "/images/feed/feed-7d8bb6beeeda.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-c03f28e5bf10",
-      "title": "Wrestler Austin Creed Unleashes The Nintendo Power Glove During AEW Full Gear",
-      "excerpt": "One of the most memorable moments from last night’s card involved an uncanny, and so bad, foreign object delivering an iconic Shoryuken",
-      "body": "One of the most memorable moments from last night’s card involved an uncanny, and so bad, foreign object delivering an iconic Shoryuken\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nintendo. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Nintendo"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://kotaku.com/wrestler-austin-creed-unleashes-the-nintendo-power-glove-during-aew-full-gear-2000757095",
-      "image": "/images/feed/feed-c03f28e5bf10.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
       "id": "feed-6c1eeab79dfb",
       "title": "Is Tesla rushing out a half-baked Cybercab just to shave MKBHD’s head?",
       "excerpt": "Elon Musk called YouTuber Marques Brownlee “a chicken” early Saturday, hours after Tesla opened invite-only Cybercab orders at $29,990 and Brownlee argued that his famous head-shaving bet isn’t lost.…",
@@ -299,67 +509,10 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 33,
       "url": "https://electrek.co/2026/11/15/tesla-cybercab-mkbhd-bet-musk-chicken/",
       "image": "/images/feed/feed-6c1eeab79dfb.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-2c0e2573caab",
-      "title": "Vibe coding is changing how musicians customize their gear",
-      "excerpt": "AI is changing just about every industry even music. This is how musicians are using vibe coding to alter their sound, their gear and how music is made.",
-      "body": "AI is changing just about every industry even music. This is how musicians are using vibe coding to alter their sound, their gear and how music is made.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Alec Hively)",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.engadget.com/2313717/vibe-coding-changing-how-musicians-customize-gear/",
-      "image": "/images/feed/feed-2c0e2573caab.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-fd015d6c3290",
-      "title": "Super Meat Boy Is Officially Getting Remade Without Edmund McMillen's Involvement",
-      "excerpt": "The announcement of Super Meat Boy Again+ served as a reminder that Edmund McMillen is no longer part of Team Meat",
-      "body": "Team Meat announced Super Meat Boy Again+ , a remake of the classic indie platformer, during a Sweet 16 Birthday VIP Event on Nov. 14. While the announcement was meant to be celebratory, it has reminded people of the falling out that Super Meat Boy and Mewgenics creator Edmund McMillen has had with Team Meat, as he is not involved in the new project.",
-      "author": "Tomas Franzese",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.polygon.com/super-meat-boy-again-announcement/",
-      "image": "/images/feed/feed-fd015d6c3290.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-6a9f5e408fc0",
-      "title": "Gaming PC GPUs vs. console GPUs: What's the difference between them?",
-      "excerpt": "Although PC gamers have to think about it more while putting together their machine, consoles also use GPUs. Here's the difference between them.",
-      "body": "Although PC gamers have to think about it more while putting together their machine, consoles also use GPUs. Here's the difference between them.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Luke James)",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.engadget.com/2313709/gaming-pc-vs-console-gpu-difference-between/",
-      "image": "/images/feed/feed-6a9f5e408fc0.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -375,7 +528,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 53,
       "url": "https://electrek.co/2026/11/15/mowing-milestone-greenzie-surpasses-255000-autonomous-miles-mowed/",
       "image": "/images/feed/feed-f7aa33dba050.jpg",
       "source": "Electrek",
@@ -394,48 +547,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 32,
       "url": "https://cleantechnica.com/2026/11/15/scout-steps-toward-mass-production-with-200000-reservations-on-the-line/",
       "image": "/images/feed/feed-957f874deaf5.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-6cde76f75b07",
-      "title": "‘Rings of Power’ Stars Break Down 2 Major Deaths in Prime Video’s Lord of the Rings Series",
-      "excerpt": "The Rings of Power stars Ema Horvath and Ismael Cruz Córdova discuss season 3’s shocking deaths and their final moments as Eärien and Arondir.",
-      "body": "The story in Númenor has involved a lot of family drama. Captain Elendil (Lloyd Owen) is one of the leaders of the Faithful, a Númenórean group who believes in preserving the kingdom’s connection to the Elves and the Valar. His daughter Eärien (Ema Horvath) allied herself with Pharazôn and his son, Kemen (Leon Wadham), encouraging her father to renounce his faith and pledge loyalty to the new king. She participated in the arrest of the Faithful’s leaders, though she helped her father escape.",
-      "author": "Sam Nelson",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.polygon.com/rings-of-power-season-3-deaths-interview/",
-      "image": "/images/feed/feed-6cde76f75b07.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-6dd85e78b99c",
-      "title": "Some places have already banned AI glasses, and the list just keeps growing",
-      "excerpt": "Safety and privacy concerns have led to bans on AI glasses in a number of public places, including courtrooms, schools and theaters.",
-      "body": "Safety and privacy concerns have led to bans on AI glasses in a number of public places, including courtrooms, schools and theaters.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Husain Parvez)",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.engadget.com/2313707/ai-glasses-banned-places-list-keeps-growing/",
-      "image": "/images/feed/feed-6dd85e78b99c.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -451,29 +566,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 42,
       "url": "https://cleantechnica.com/2026/11/15/darlington-smr-cost-overrun-four-reactor-risk/",
       "image": "/images/feed/feed-a4c3a31d454e.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-b12346f20971",
-      "title": "PlayStation Announces New Black Friday Deals On Hardware",
-      "excerpt": "The PlayStation VR2 is discounted, but the PlayStation 5 is not",
-      "body": "Black Friday is fast approaching, so companies like Sony are already teasing the deals people can look forward to later this month. While PlayStation previously highlighted some of the games that will be discounted, it has now shared its official Black Friday hardware deals for the DualSense controller, PlayStation VR2, and more.",
-      "author": "Tomas Franzese",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Playstation"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.polygon.com/playstation-black-friday-hardware-deals/",
-      "image": "/images/feed/feed-b12346f20971.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -490,7 +586,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 44,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-15-2026",
       "image": "/images/feed/feed-f1dadc033665.jpg",
       "source": "Space.com",
@@ -510,29 +606,10 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 43,
       "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
       "image": "/images/feed/feed-5a4f53d8f5e1.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-d31953a6fcea",
-      "title": "Xbox at 25: My Memories From Across Xbox’s Entire (and Quite Incredible) History",
-      "excerpt": "I’ve been lucky enough to have a front-row seat for most of the Xbox’s 25 years, covering the high highs and low lows of Microsoft’s pivot into the living room. It’s been quite a ride since November 1…",
-      "body": "The first day of my career was October 1, 2002. I’d been lucky enough to get hired by Official Xbox Magazine. The fledgling Xbox console was not quite a year old, and when I got settled in on the staff, it quickly became clear that Xbox was really about one thing above all else: Halo. I remember being surprised in my first days on the job by what would happen every single day, like clockwork, at 5pm: consoles and TVs would get turned on, Halo would get fired up, and we’d all play a round or two of Capture the Flag on Blood Gulch before we all went home. Fun and friendly banter ensued. Halo was baked into the Xbox’s DNA from the very start. It is one of my very first of many thousands of great Xbox memories.",
-      "author": "Ryan McCaffrey",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Xbox"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.ign.com/articles/xbox-at-25-my-memories-from-across-xboxs-entire-and-quite-incredible-history",
-      "image": "/images/feed/feed-d31953a6fcea.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -548,29 +625,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 36,
       "url": "https://electrek.co/2026/11/15/high-altitude-bitter-cold-zero-drivers-autonomous-trucks-take-on-tibetan-mine/",
       "image": "/images/feed/feed-06cc93590209.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-9feb330915c7",
-      "title": "Netflix's New 12-Part Sci-Fi Mystery Already Feels Like a Masterpiece Just 3 Episodes In",
-      "excerpt": "Fool Night turns a bleak sci-fi premise into an visually stunning mystery that rewards patience.",
-      "body": "From a surprise collaboration between two iconic anime studios, Sunrise and Shaft, Fool Night imagines a future world where the sun has long disappeared, leaving humanity with the unusual solution of turning volunteer humans into plants for oxygen. It's a bleak setup, made all the more gripping by a visual identity that constantly juxtaposes human decay with budding flora. Netflix only provided us with the first three episodes (out of 12 total) for review, and I'm entirely hooked. Between its sharp character work, unsettling world-building, and melancholic atmosphere, Fool Night is shaping up to be one of the most striking new shows of Fall.",
-      "author": "Ryan Epps",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.polygon.com/fool-night-netflix-review/",
-      "image": "/images/feed/feed-9feb330915c7.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -586,7 +644,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 32,
       "url": "https://www.space.com/stargazing/why-hasnt-the-blaze-star-exploded-yet-astronomers-weigh-in-on-what-to-expect",
       "image": "/images/feed/feed-b6a6d116db11.jpg",
       "source": "Space.com",
@@ -605,7 +663,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 52,
       "url": "https://electrek.co/2026/11/15/china-comac-ce-25a-electric-plane-crewed-flight/",
       "image": "/images/feed/feed-ab755ad025d6.jpg",
       "source": "Electrek",
@@ -624,7 +682,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 49,
       "url": "https://cleantechnica.com/2026/11/15/accelerating-electrification-can-unlock-the-full-benefits-of-spains-renewables-leadership/",
       "image": "/images/feed/feed-e762efbd83a1.jpg",
       "source": "CleanTechnica",
@@ -643,7 +701,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 48,
       "url": "https://www.space.com/astronomy/comets/how-escaping-gases-ripped-apart-a-comet-and-caused-it-to-become-thousands-of-times-brighter",
       "image": "/images/feed/feed-2c5b91f73330.png",
       "source": "Space.com",
@@ -662,7 +720,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 41,
       "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
       "image": "/images/feed/feed-fb43e89fb20d.jpg",
       "source": "The Hacker News",
@@ -682,7 +740,7 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 32,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch",
       "image": "/images/feed/feed-0e569ac2cf0a.jpg",
       "source": "Space.com",
@@ -701,29 +759,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 48,
       "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
       "image": "/images/feed/feed-5b8a9ede72c8.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-0eda216e7986",
-      "title": "Disk encryption on NetBSD – achieving secrecy",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Encryption. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "jaypatelani",
-      "date": "2026-11-15",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Encryption"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://netbsd.org/~nia/disk-encrypt/",
-      "image": "/images/topics/topic-cybersecurity.png",
-      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -739,7 +778,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 45,
       "url": "https://cleantechnica.com/2026/11/14/natural-gas-methane-rocket-fuel-spacex-pipelines/",
       "image": "/images/feed/feed-4d91f288d6d0.png",
       "source": "CleanTechnica",
@@ -758,7 +797,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 38,
       "url": "https://cleantechnica.com/2026/11/14/3-4-billion-anthropic-order-for-gas-power-plants/",
       "image": "/images/feed/feed-f1f3638d6e2f.jpg",
       "source": "CleanTechnica",
@@ -777,30 +816,10 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 50,
       "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024",
       "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-22131668b1fb",
-      "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
-      "excerpt": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopst…",
-      "body": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed ' chopstick ' catches of its boosters before, but this is the first time the maneuver has successfully been executed on the Starship vehicle itself. SpaceX CEO Elon Musk said during the company's third-quarter earnings call that \"success is not guaranteed on these first flights, but I'd say it's more likely than not that this succeeds next flight.\" While not a complete success, in that the company was unable to recover the entire launch vehicle, it sti … Read the full story at The Verge.",
-      "author": "Terrence O’Brien",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Spacex",
-        "Starship"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
-      "image": "/images/feed/feed-22131668b1fb.jpg",
-      "source": "The Verge",
       "isLive": true
     },
     {
@@ -816,7 +835,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 52,
       "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
       "source": "TechCrunch",
@@ -843,25 +862,6 @@
       "isLive": true
     },
     {
-      "id": "feed-f828612ff6ba",
-      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
-      "excerpt": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]",
-      "body": "The U.S. government has disrupted a North Korean social engineering campaign called 'FaceStealer', responsible for stealing more than $400 million in cryptocurrency. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
-      "image": "/images/feed/feed-f828612ff6ba.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
       "id": "feed-a89e40511448",
       "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
       "excerpt": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
@@ -874,7 +874,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 39,
       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
       "source": "TechCrunch",
@@ -893,7 +893,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 47,
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -912,7 +912,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 42,
       "url": "https://openai.com/business/customer-stories/shield",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -931,7 +931,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 43,
       "url": "https://openai.com/business/customer-stories/amplitude",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -939,16 +939,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: Leaked Keys: SaaS API Cost Attribution Explained Through Refusal Drills",
-    "DEV.TO: Claude Code Skills Deep Dive (9): From Personal Folders to Team Plugins",
-    "DEV.TO: Building a Safe-by-Design HTTP Telemetry Crate in Rust",
-    "DEV.TO: Planos de saúde Sorocaba: dados estruturados e E-E-A-T num site na 1ª página do Google",
-    "DEV.TO: How selfie search for event photos works, and what happens to the face data",
-    "DEV.TO: Why your Claude Code token count is wrong (and how to get the real number)",
-    "DEV.TO: I offered 5% off to move shoppers off cash on delivery. The numbers surprised me",
-    "DEV.TO: Agentic AI Architectures: Building Deterministic Enterprise Systems Beyond Simple LLM Wrappers",
-    "ENGADGET: Should you keep your smart home gadgets on a separate home network?",
-    "POLYGON: The 2026 GOTY Race Could Be a Disaster for Indie Games"
+    "DEV.TO: Compiling n8n Workflow JSONs into Standalone Fastify/TypeScript Microservices (Open-Source + Client-Side Playground)",
+    "DEV.TO: I killed ARTEX on my lunch break",
+    "DEV.TO: Fresh Vector Index Explained: Nightly Cron Reindex for Changed PDFs",
+    "DEV.TO: AI Daily Digest · November 16, 2026: Poppy Protocol Hits 1.0, Runway Opens Robot Weights, Cursor Maps Its Supply-Chain Breach",
+    "KOTAKU: Universal Paperclips Creator Blends Scrabble And Strategy In Towers Of Babble",
+    "DEV.TO: Building a CI/CD Pipeline with GitHub Actions and Trivy for a Dockerized Flask API",
+    "DEV.TO: I hit Grok Bot's usage wall two mornings in a row, so I moved the routine onto a self-hosted team",
+    "DEV.TO: AI models cheat on some tests. How I'd check if mine does",
+    "CLEANTECHNICA: A Radically Different Approach to AI",
+    "DEV.TO: Intelligence From Architecture: Building Governable Systems in the Age of AI"
   ],
   "sectionVideos": {}
 }
