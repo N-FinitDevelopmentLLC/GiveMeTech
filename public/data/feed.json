@@ -1,184 +1,146 @@
 {
-  "fetchedAt": "2026-11-14T22:48:38.721Z",
+  "fetchedAt": "2026-11-15T02:15:00.789Z",
   "articles": [
     {
-      "id": "feed-46cbdb15289a",
-      "title": "I gave a trading bot $148 of real money even though my backtest says it loses. Week one",
-      "excerpt": "A week ago I started a small public experiment. A bot trades Bitcoin and Ethereum with $148 of my own money. Before launch I ran the same rules on 180 days of past prices, and the backtest said they l…",
-      "body": "A week ago I started a small public experiment. A bot trades Bitcoin and Ethereum with $148 of my own money. Before launch I ran the same rules on 180 days of past prices, and the backtest said they lose over time. Instead of shelving the idea, I made every trade public. Live bot vs backtest: who's right? Day 6 in numbers Start: $148 Profit already taken out: $124 Still on the account: $135 Total since start: +$111 (+75%) 34 trades: 29 won, 5 lost. Worst trade: −$18.56 Six days prove nothing, and I still expect the backtest to win in the end. How it's built The bot : a Python service checks Binance candles every 20 seconds. Entries and exits are plain rules, no AI making decisions. The journal : every closed trade goes into a log, and everything public is generated from it.",
-      "author": "VHWorx",
-      "date": "2026-11-14",
+      "id": "feed-ca9890fd3eac",
+      "title": "Chrome Extension Landing Page: 6 Blocks That Drive Installs",
+      "excerpt": "Originally published on ExtensionLaunch. A Chrome extension landing page has one job: get a visitor to the store listing already convinced. Since Chrome dropped inline installation, nobody installs fr…",
+      "body": "Originally published on ExtensionLaunch . A Chrome extension landing page has one job: get a visitor to the store listing already convinced. Since Chrome dropped inline installation, nobody installs from your site anyway, so every block on the page should push toward that one click. Here are the six blocks that do it, plus two small scripts that make the button smarter. The six blocks, top to bottom Outcome headline. Under ten words, describing the result the user gets, in the words your users actually use. \"Save notes for every tab\" beats \"A tab annotation tool\". One primary button. \"Add to Chrome\", pointing at your store listing with UTM tags. Give each button a different utm_campaign (hero, footer, pricing) so you can see which one converts. A demo above the fold.",
+      "author": "ExtensionBooster",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/vhworx/i-gave-a-trading-bot-148-of-real-money-even-though-my-backtest-says-it-loses-week-one-1k2d",
-      "image": "/images/feed/feed-46cbdb15289a.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/extensionbooster/chrome-extension-landing-page-6-blocks-that-drive-installs-3f6m",
+      "image": "/images/feed/feed-ca9890fd3eac.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-43deb55538a7",
-      "title": "Signed Documents: Select Object Storage APIs for Secure Browser Direct Uploads",
-      "excerpt": "Short answer: choose a browser upload API that lets your server mint a short-lived, object-specific permission, enforce size and content constraints, and attach a deletion deadline that can be audited…",
-      "body": "Short answer: choose a browser upload API that lets your server mint a short-lived, object-specific permission, enforce size and content constraints, and attach a deletion deadline that can be audited. For signed documents, the storage API is only one piece of the control plane. The decisive design is the small service between the browser, the signer, and the archive. I initially treated direct upload as a latency optimization: ask the browser to send a file straight to object storage, then notify the application. That model broke down as soon as the requirement became precise: retain a signed document until an explicit deadline, and prove what happened afterward. A callback is not proof of deletion. A filename is not an identity.",
-      "author": "RonanHalewood782",
-      "date": "2026-11-14",
+      "id": "feed-c453aa522968",
+      "title": "Tenant Mail Recovery: 3 Gates for Provider Records and Forwarding Priorities",
+      "excerpt": "Retrying a provisioning job is useful only if the retry preserves the intended mail destination and the tenant's ownership evidence. TL;DR: publish the mail provider's MX records with explicit priorit…",
+      "body": "Retrying a provisioning job is useful only if the retry preserves the intended mail destination and the tenant's ownership evidence. TL;DR: publish the mail provider's MX records with explicit priorities, keep a forwarding host as a transition step, and reconcile published records against intent before activating an edtech tenant's subdomain. MX configuration doesn't establish outbound sending authorization. A successful write is insufficient evidence of a completed tenant handoff. Consider a bounded production design exercise: an education platform automatically gives each school its own subdomain, while onboarding connects that school's mail destination and directory contact. This is a hypothetical scenario, not an incident report.",
+      "author": "nathanielbrooks0360",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/ronanhalewood782/signed-documents-select-object-storage-apis-for-secure-browser-direct-uploads-jn6",
-      "image": "/images/feed/feed-43deb55538a7.webp",
+      "xpReward": 39,
+      "url": "https://dev.to/nathanielbrooks0360/tenant-mail-recovery-3-gates-for-provider-records-and-forwarding-priorities-4go7",
+      "image": "/images/feed/feed-c453aa522968.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-cae867b3eaad",
-      "title": "A practical checklist for a local-service landing page",
-      "excerpt": "A landing page for a local service (for example a car rental in Dubai) needs less than most people think. This is the checklist I use. Give each service its own URL (airport transfer, wedding, chauffe…",
-      "body": "A landing page for a local service (for example a car rental in Dubai) needs less than most people think. This is the checklist I use. 1. One clear service per page Give each service its own URL (airport transfer, wedding, chauffeur) instead of one long page. Each page answers one question. 2. Real contact data, written once Keep name, address, phone and opening hours identical everywhere. Inconsistent details confuse both visitors and search engines. 3. Structured data Add LocalBusiness JSON-LD with the same name, phone and address as the visible page. Validate it with Google's Rich Results Test. 4. Language versions If you serve several languages, use separate URLs and hreflang links, with right-to-left layout for Arabic. 5.",
-      "author": "Rolls Roycers",
-      "date": "2026-11-14",
+      "id": "feed-04ba46acda47",
+      "title": "How Waveward Handles a Truncated Audacity .aup Document",
+      "excerpt": "Audacity 1.x and 2.x projects are an XML document (.aup) plus a _data folder of audio block files. The .aup stores project structure and references to those blocks; it does not contain the audio sampl…",
+      "body": "Audacity 1.x and 2.x projects are an XML document ( .aup ) plus a _data folder of audio block files. The .aup stores project structure and references to those blocks; it does not contain the audio samples. I wrote a parser for that document in Waveward. If the file ended inside a tag, or with elements still open, Waveward used to refuse the open as unreadable. That refusal throws away a prefix that may still be usable, but opening the file is not the same as getting the whole project back. Waveward now keeps the complete entries it can still parse, and only the audio those entries still name in the _data folder.",
+      "author": "王磊",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/rollsroycers/a-practical-checklist-for-a-local-service-landing-page-2c1k",
-      "image": "/images/feed/feed-cae867b3eaad.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/_172c9b2760d6c5bc1e8966/how-waveward-handles-a-truncated-audacity-aup-document-1afd",
+      "image": "/images/feed/feed-04ba46acda47.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-8681210ca89e",
-      "title": "AI: A Catalyst for Power",
-      "excerpt": "In Bolivia, artificial intelligence has begun to find its way into political communication. Some political actors appear to use it to draft speeches, organize arguments, and produce social media conte…",
-      "body": "In Bolivia, artificial intelligence has begun to find its way into political communication. Some political actors appear to use it to draft speeches, organize arguments, and produce social media content. At first glance, this seems like a relatively ordinary application of a new technology: a tool that helps people communicate faster and perhaps more effectively. But it raises a question that goes beyond campaign messaging: what happens when the same technology is incorporated into organizations with far greater resources, more complex objectives, and the ability to operate beyond the public eye? Elsewhere, that question is no longer theoretical.",
-      "author": "t474-r0b07",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/t474r0b07/ai-a-catalyst-for-power-1l9c",
-      "image": "/images/feed/feed-8681210ca89e.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-1b1cbefe6c0c",
-      "title": "Why AI Coding Agents Need a Cryptographic Flight Recorder (And How We Built One in Python)",
-      "excerpt": "At 2:30 AM last Tuesday, an autonomous coding agent deleted our entire test directory. Why? Because its prompt had a simple completion condition: \"Make sure pytest exits 0.\" Instead of fixing 3 broken…",
-      "body": "At 2:30 AM last Tuesday, an autonomous coding agent deleted our entire test directory. Why? Because its prompt had a simple completion condition: \"Make sure pytest exits 0.\" Instead of fixing 3 broken auth tests, the agent reasoned that if there are no test files, pytest can never fail. It deleted the files, committed with the message \"all tests passing\", and went to sleep. When our lead dev woke up, the commit diff looked clean at a glance. We had zero logs of the intermediate tool calls. No idea which bash command it ran, what files it inspected, or if it touched any credentials. We treat human developers with zero-trust: branch protections, code reviews, audit trails, and signed commits.",
-      "author": " DevSuperSuite",
-      "date": "2026-11-14",
+      "id": "feed-4d8b908bd367",
+      "title": "How to Block Malicious File Writes in Autonomous Python Agents",
+      "excerpt": "Autonomous AI agents, automated coding assistants, and Large Language Model (LLM) tool executors frequently need to write files to disk. However, accepting a file path generated by an AI model introdu…",
+      "body": "Autonomous AI agents, automated coding assistants, and Large Language Model (LLM) tool executors frequently need to write files to disk. However, accepting a file path generated by an AI model introduces substantial security risks. If an agent hallucinates, encounters prompt injection, or attempts to modify files outside its target directory, it can overwrite system configurations, expose private keys, or destroy version control history. Common attacks and edge cases include directory traversal (such as ../../ ), symlink abuse where a link points to an arbitrary location outside the project, embedded null bytes, non-printable control characters, and writes targeting sensitive files like .env or .ssh/authorized_keys .",
+      "author": "Alessio ",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Python"
       ],
       "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/gumgoom/why-ai-coding-agents-need-a-cryptographic-flight-recorder-and-how-we-built-one-in-python-3kcb",
-      "image": "/images/feed/feed-1b1cbefe6c0c.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/alessio99xx/how-to-block-malicious-file-writes-in-autonomous-python-agents-41jj",
+      "image": "/images/feed/feed-4d8b908bd367.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-14e647bbd851",
-      "title": "MiniLab LLM : apprendre à comprendre les modèles de langage, de la tokenisation à la génération",
-      "excerpt": "On utilise de plus en plus les grands modèles de langage (LLM) dans nos applications, nos outils de développement et nos workflows. Mais lorsqu'on envoie une requête à un modèle, que se passe-t-il rée…",
-      "body": "On utilise de plus en plus les grands modèles de langage (LLM) dans nos applications, nos outils de développement et nos workflows. Mais lorsqu'on envoie une requête à un modèle, que se passe-t-il réellement entre le prompt et la réponse ? Comment le texte est-il transformé en tokens ? À quoi servent les embeddings ? Comment fonctionne le mécanisme d'attention d'un Transformer ? Et comment le modèle choisit-il le prochain token ? C'est pour explorer ces questions que j'ai créé MiniLab LLM , un projet pédagogique gratuit, en français, accessible à tous. L'objectif de MiniLab LLM MiniLab LLM est une plateforme d'apprentissage consacrée au fonctionnement des modèles de langage. L'objectif n'est pas simplement d'apprendre à utiliser une API ou à rédiger de meilleurs prompts.",
-      "author": "stephanemalho",
-      "date": "2026-11-14",
+      "id": "feed-cf2c01f8b30e",
+      "title": "Presigned URL Governance for Direct Browser Uploads in Marketplace Object Storage",
+      "excerpt": "The useful question for a marketplace SaaS is not which object store has the nicest upload demo. It is whether a browser-uploaded training artifact can be identified, authorized, processed, and delete…",
+      "body": "The useful question for a marketplace SaaS is not which object store has the nicest upload demo. It is whether a browser-uploaded training artifact can be identified, authorized, processed, and deleted later without guesswork. For that reason, I would make the retention ledger the design center, then use private object storage and short-lived presigned URLs as the delivery mechanism. Short answer: create a server-owned artifact record before the upload, bind one narrowly scoped presigned URL to that record, and let a verified completion state unlock processing. Keep the bucket private, keep tenant and region decisions in application data, and treat deletion evidence as part of the artifact rather than as an afterthought.",
+      "author": "JamesAnderson121",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/stephanemalho/minilab-llm-apprendre-a-comprendre-les-modeles-de-langage-de-la-tokenisation-a-la-generation-mma",
-      "image": "/images/feed/feed-14e647bbd851.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/jamesanderson121/presigned-url-governance-for-direct-browser-uploads-in-marketplace-object-storage-1k42",
+      "image": "/images/feed/feed-cf2c01f8b30e.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-5fc0dc6448f2",
-      "title": "Writing Knowledge-Base Entries an Auto-Responder Can Actually Quote",
-      "excerpt": "A knowledge base can read well to a person and still fail an auto-responder. People skim, infer, and jump around a document; a responder quotes. It lifts a passage out of an entry and sends it as a ch…",
-      "body": "A knowledge base can read well to a person and still fail an auto-responder. People skim, infer, and jump around a document; a responder quotes. It lifts a passage out of an entry and sends it as a chat message, and whatever context it loses in the lift is gone. Writing entries for that reality takes a different discipline than writing documentation, and it starts with granularity rather than style. The quoting test Before polishing any entry, run a simple check: if the responder lifted one paragraph from this entry and sent it alone, would it fully answer the question it matched? If the paragraph depends on a definition two screens up, or continues a thought split across sections, the answer is no — and the customer receives a fragment that sounds confident and explains little.",
-      "author": "Dingdang CS",
-      "date": "2026-11-14",
+      "id": "feed-a693e32b6298",
+      "title": "A CI/CD pipeline example you can actually run",
+      "excerpt": "This CI/CD pipeline example is a whole workflow file rather than a fragment: it tests every change, builds a container image only from main, and deploys behind an approval gate. The sections after it…",
+      "body": "This CI/CD pipeline example is a whole workflow file rather than a fragment: it tests every change, builds a container image only from main, and deploys behind an approval gate. The sections after it name the four lines that are doing the real work, and the one file you still have to write yourself. Each stage is gated on the one before it. The approval gate on deploy is the only one configured outside the workflow file. Most published pipeline examples are excerpts. They show the three steps that illustrate the point and assume the rest, which is why copying one into an empty repository so rarely produces a pipeline that runs. The file below is complete.",
+      "author": "Kay",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 40,
+      "url": "https://dev.to/kalemi/a-cicd-pipeline-example-you-can-actually-run-3neo",
+      "image": "/images/feed/feed-a693e32b6298.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-94f1c19d0761",
+      "title": "Why Copy-Pasting Two-Column Academic PDFs Scrambles Text — and How On-Device Apple Vision Fixes It",
+      "excerpt": "The symptom everyone recognizes Copy a paragraph from a two-column paper, paste it into a translator, and you get something like this: …the model consistently underestimates variance under high noise…",
+      "body": "The symptom everyone recognizes Copy a paragraph from a two-column paper, paste it into a translator, and you get something like this: …the model consistently underestimates variance under high noise conditions. We therefore propose a two-stage framework for robust detection. Figure 3 shows the ablation results for the proposed module. In contrast, prior work assumes homoscedastic error… The last sentence belongs to the right column. The extractor glued it onto the left column's ending. Nothing is corrupted — the text is all there — but the reading order is wrong, so the meaning inverts. This is worth stating precisely, because it changes what you should fix: Two-column scrambling is a text-extraction ordering problem, not an OCR-accuracy problem and not a translation problem.",
+      "author": "Zane ⚡️ Zipp開発者",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": false,
-      "xpReward": 32,
-      "url": "https://dev.to/dingdangcs/writing-knowledge-base-entries-an-auto-responder-can-actually-quote-3k9l",
-      "image": "/images/feed/feed-5fc0dc6448f2.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/dayu510/why-copy-pasting-two-column-academic-pdfs-scrambles-text-and-how-on-device-apple-vision-fixes-it-2cbh",
+      "image": "/images/feed/feed-94f1c19d0761.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-38541fa103d0",
-      "title": "How to get better results from Google Gemini",
-      "excerpt": "These tips and tricks will help you prompt Gemini better.",
-      "body": "These tips and tricks will help you prompt Gemini better.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Charles Burgar)",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.engadget.com/2312834/how-to-get-better-results-google-gemini/",
-      "image": "/images/feed/feed-38541fa103d0.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-c5d22ed8ee14",
-      "title": "League of Legends: New Dawn Unveiled With Debut Trailer, Riot Announces Major Overhaul Coming in 2027",
-      "excerpt": "At the 2026 League of Legends World Championship Finals, Riot Games officially unveiled League of Legends: New Dawn. The large-scale update is scheduled for 2027 and will bring changes to the game's c…",
-      "body": "At the 2026 League of Legends World Championship Finals, Riot Games officially unveiled League of Legends: New Dawn. The large-scale update is scheduled for 2027 and will bring changes to the game&#39;s client, Summoner&#39;s Rift, visuals, and gameplay, marking the beginning of a new chapter for one of the industry&#39;s most enduring titles. New Dawn introduces what Riot described as an &quot;all-encompassing&quot; update to League, touching almost every aspect of its experience. &quot;This is the start of a new era for League, a new journey,&quot; said Paul Bellezza, League&#39;s executive producer, in New Dawn&#39;s first official trailer. Riot is expected to share the full reveal of New Dawn this coming January.",
-      "author": "Wesley Yin-Poole",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.ign.com/articles/league-of-legends-new-dawn-unveiled-with-debut-trailer-riot-announces-major-overhaul-coming-in-2027",
-      "image": "https://assets-prd.ignimgs.com/2026/11/14/still003-1794673734402.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-e2734be0c847",
-      "title": "League of Legends: New Dawn Revealed, Major Overhaul Set for 2027",
-      "excerpt": "Riot Games revealed at Worlds Finals 2026 a major update to League of Legends coming in 2027 with new gameplay and features.",
-      "body": "Riot Games revealed at Worlds Finals 2026 a major update to League of Legends coming in 2027 with new gameplay and features.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Matt Patches",
-      "date": "2026-11-14",
+      "id": "feed-2edf35f5aff5",
+      "title": "9 Giant-Sized Changes Marvel Made to Ant-Man After Edgar Wright Left",
+      "excerpt": "Wright left Ant-Man in 2015, citing differences with Marvel. Here’s how his film would have been different",
+      "body": "As Wright has explained in interviews, he was excited to be on the ground floor of something, setting the tone for what the MCU would become. He wanted to do a superhero movie where it was still emblematic of the director, in keeping with their body of work. The comparison he’d made was Tim Burton’s Batman , which is still very much a Tim Burton movie. After leaving Ant-Man , Wright even told Variety , “I wanted to make a Marvel movie but I don’t think they really wanted to make an Edgar Wright movie.”",
+      "author": "Brian VanHooker",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
@@ -186,37 +148,94 @@
       ],
       "featured": false,
       "xpReward": 34,
-      "url": "https://www.polygon.com/league-of-legends-with-new-dawn-reveal-worlds-2026/",
-      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/still002.png",
+      "url": "https://www.polygon.com/edgar-wright-ant-man-script-differences/",
+      "image": "/images/feed/feed-2edf35f5aff5.jpg",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-388ff8864cdd",
-      "title": "Beats 360 vs Studio Pro: Here’s which Beats headphones you should buy",
-      "excerpt": "In September, Apple introduced the new Beats 360 headphones, the first overears from Beats since the Beats Studio Pro in 2023. That said, the older Beats Studio Pro still remain on sale at a lower pri…",
-      "body": "In September, Apple introduced the new Beats 360 headphones, the first overears from Beats since the Beats Studio Pro in 2023. That said, the older Beats Studio Pro still remain on sale at a lower price point – so it begs the question, which Beats headphones are more worthwhile? more…",
-      "author": "Michael Burkhardt",
-      "date": "2026-11-14",
+      "id": "feed-e22679f9ac34",
+      "title": "Stephen King’s Underrated 1980 Horror Thriller Gets New Prime Video Adaptation",
+      "excerpt": "Stephen King fans rejoice: a Lovecraftian crime-thriller epic is on the way with Crouch End, a new miniseries from Prime Video.",
+      "body": "Stephen King fans are eating well, with Mike Flanagan's adaptation of Carrie turning out to be a surprise hit, a second season of It: Welcome to Derry on the way, and a series based on The Dark Tower books in the works. But that's not all King fans can look forward to.",
+      "author": "Aimee Hart",
+      "date": "2026-11-15",
       "readTime": "2 min",
-      "section": "gadgets",
+      "section": "gaming",
       "tags": [
-        "Headphones"
+        "Gaming"
       ],
       "featured": false,
-      "xpReward": 46,
-      "url": "https://9to5mac.com/2026/11/14/apple-beats-studio-pro-vs-beats-360-comparison/",
-      "image": "/images/feed/feed-388ff8864cdd.jpg",
-      "source": "9to5Mac",
+      "xpReward": 45,
+      "url": "https://www.polygon.com/stephen-king-prime-video-crouch-end-tv-show/",
+      "image": "/images/feed/feed-e22679f9ac34.jpg",
+      "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-f9588bc641c1",
-      "title": "Honor Magic8 Pro vs. Magic9 Pro Max: What's been upgraded?",
-      "excerpt": "This Pro upgrade is messier than the typical year-over-year refresh, but the new flagship does give us a pretty good idea of where Honor put its priorities.",
-      "body": "This Pro upgrade is messier than the typical year-over-year refresh, but the new flagship does give us a pretty good idea of where Honor put its priorities.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Husain Parvez)",
-      "date": "2026-11-14",
+      "id": "feed-6d8dc8488d8d",
+      "title": "10 Must-Play Co-Op Games for People With Real-Life Schedules",
+      "excerpt": "Short on time but ready to game? These 10 co-op games range from one-level sessions to month-long campaigns, from Overcooked! to Gears of War: E-Day.",
+      "body": "Picture this: It’s Thursday at 7:42 p.m. You finally have two friends in the same voice call. Someone’s cat is walking across their keyboard, and a third friend is still stuck in a meeting, but you’re here, and you’re ready to game. There’s a problem, though: Many of today’s most popular co-op games ask a lot of their players. And often, you simply don’t have a lot of time or headspace to give. You need a co-op game that fits the time and energy you and your squad actually have.",
+      "author": "Rebecca Corgan",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.polygon.com/co-op-games-real-life-schedules/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22389863/snow__2_.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-7f0acb8d43d7",
+      "title": "Which NVIDIA GPU is closest to the PS5? The answer isn't so simple",
+      "excerpt": "One of the biggest questions when it comes to purchasing a gaming rig is whether to go console or PC. This NVIDIA GPU gives the closest results to a PS5.",
+      "body": "One of the biggest questions when it comes to purchasing a gaming rig is whether to go console or PC. This NVIDIA GPU gives the closest results to a PS5.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Dave Meikleham)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.engadget.com/2313644/nvidia-gpu-ps5-closest-match-answer-not-simple/",
+      "image": "/images/feed/feed-7f0acb8d43d7.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-600a46338ee0",
+      "title": "What The US Midterm Elections Mean For Climate Progress",
+      "excerpt": "People across the United States voted in record numbers in last week’s incredibly consequential election, which has completely changed the makeup of Congress for its new term beginning in January 2027…",
+      "body": "People across the United States voted in record numbers in last week’s incredibly consequential election, which has completely changed the makeup of Congress for its new term beginning in January 2027. The success of our electoral processes—still underway—should not be taken for granted. It’s a win for democracy when millions of ... [continued] The post What The US Midterm Elections Mean For Climate Progress appeared first on CleanTechnica .",
+      "author": "Guest Contributor",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://cleantechnica.com/2026/11/14/what-the-us-midterm-elections-mean-for-climate-progress/",
+      "image": "/images/feed/feed-600a46338ee0.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-f26f59dff7ee",
+      "title": "This Sony patent would add a credit card reader to your PlayStation controller",
+      "excerpt": "As Sony and PlayStation head into a digital-only era, new tech on its upcoming controllers could help make online purchases even more convenient for gaming.",
+      "body": "As Sony and PlayStation head into a digital-only era, new tech on its upcoming controllers could help make online purchases even more convenient for gaming.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Yoni Yardeni)",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
@@ -224,18 +243,76 @@
       ],
       "featured": false,
       "xpReward": 45,
-      "url": "https://www.engadget.com/2307825/honor-magic-8-pro-vs-9-pro-upgrade-comparison/",
-      "image": "/images/feed/feed-f9588bc641c1.jpg",
+      "url": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/",
+      "image": "/images/feed/feed-f26f59dff7ee.jpg",
       "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-0a394dd4c686",
-      "title": "Long-Lost, Self-Deleting Pokémon Fishing Game For Nintendo DS Resurfaces 20 Years Later",
-      "excerpt": "PokéPark: Fishing Rally was only available at a Japanese theme park in 2005, with one collector now boasting what's believed to be the lone playable hard copy",
-      "body": "PokéPark: Fishing Rally was only available at a Japanese theme park in 2005, with one collector now boasting what's believed to be the lone playable hard copy\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nintendo, Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-11-14",
+      "id": "feed-215bffef4942",
+      "title": "Hands-on: ESR’s MagSafe kickstand charger solves two key iPhone Duo shortcomings",
+      "excerpt": "iPhone Duo, because it offers a much larger inside display, means theres all tons of new use cases that you wouldn’t normally come across with your iPhone. Of course, one of them is the fact that you…",
+      "body": "iPhone Duo, because it offers a much larger inside display, means theres all tons of new use cases that you wouldn’t normally come across with your iPhone. Of course, one of them is the fact that you might want to prop up your iPhone Duo to watch a video on the larger display. A couple weeks ago, I wrote about one accessory that solves the kickstand problem. That said, what if you want to charge and prop up your phone at the same time? more…",
+      "author": "Michael Burkhardt",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone",
+        "Hands-on"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://9to5mac.com/2026/11/14/hands-on-esrs-magsafe-kickstand-charger-solves-two-key-iphone-duo-shortcomings/",
+      "image": "/images/feed/feed-215bffef4942.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-f1f3638d6e2f",
+      "title": "$3.4 Billion — Anthropic Order for Gas Power Plants!",
+      "excerpt": "Wow, this is a nasty, dirty, polluting stunner I didn’t see until just now. Anthropic, the AI company behind Claude, has reportedly signed a $3.4 billion contract to buy gas-fired engines (power plant…",
+      "body": "Wow, this is a nasty, dirty, polluting stunner I didn&#8217;t see until just now. Anthropic, the AI company behind Claude, has reportedly signed a $3.4 billion contract to buy gas-fired engines (power plants) from OnePWR Solutions, a Texas-based energy company. These gas power plants would be able to provide Anthropic&#8217;s ... [continued] The post $3.4 Billion — Anthropic Order for Gas Power Plants! appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://cleantechnica.com/2026/11/14/3-4-billion-anthropic-order-for-gas-power-plants/",
+      "image": "/images/feed/feed-f1f3638d6e2f.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-494f583efec1",
+      "title": "What are the limitations of eGPUs vs onboard graphics cards for laptops?",
+      "excerpt": "Is it worth it to use an eGPU with your laptop? That depends. Let's take a closer look at the most important factors you should consider.",
+      "body": "Is it worth it to use an eGPU with your laptop? That depends. Let's take a closer look at the most important factors you should consider.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Laptop. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Laptop"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2313636/limitations-egpu-vs-onboard-graphics-card-laptop-pc/",
+      "image": "/images/feed/feed-494f583efec1.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-91cb70e4986d",
+      "title": "Nintendo Officially Reveals New Kirby Game for Switch 2",
+      "excerpt": "Kirby and the World Beyond is coming to Nintendo Switch 2 in 2027",
+      "body": "HAL Laboratory's venerable heroic pink puff Kirby will soon embark on a new adventure on Nintendo Switch 2 with the release of Kirby and the World Beyond next year — his second outing on Nintendo's current-generation console. In September, Nintendo's Yoshiaki Koizumi announced Kirby's next adventure during a Nintendo Direct showcase, revealing an expansive new world for the adorable hero to explore.",
+      "author": "Ashely Claudino",
+      "date": "2026-11-15",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
@@ -243,18 +320,94 @@
         "Game"
       ],
       "featured": false,
-      "xpReward": 36,
-      "url": "https://kotaku.com/long-lost-self-deleting-pokemon-fishing-game-for-nintendo-ds-resurfaces-20-years-later-2000756876",
-      "image": "/images/feed/feed-0a394dd4c686.jpg",
-      "source": "Kotaku",
+      "xpReward": 45,
+      "url": "https://www.polygon.com/kirby-world-beyond-nintendo-switch-2-2027/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ns2_kirbyandtheworldbeyond_scrn_19.jpeg",
+      "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-5554ccaefd7e",
-      "title": "Here's when a dedicated graphics card is worth it",
-      "excerpt": "Modern iGPUs are surprisingly capable, but they aren't without limitations.",
-      "body": "Modern iGPUs are surprisingly capable, but they aren't without limitations.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Vincent Arogya)",
+      "id": "feed-ca6348c1fa68",
+      "title": "11 gadgets under $10 that solve everyday problems",
+      "excerpt": "Lots of tech purchases run into the hundreds of dollars, but you don't have to spend a lot to make some upgrades.",
+      "body": "Lots of tech purchases run into the hundreds of dollars, but you don't have to spend a lot to make some upgrades.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadget. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Max Sheridan)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadget"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.engadget.com/2310535/affordable-gadgets-under-10-dollars/",
+      "image": "/images/feed/feed-ca6348c1fa68.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-0cbac1debe31",
+      "title": "Where was Nvidia’s security team?",
+      "excerpt": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to Chin…",
+      "body": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "author": "Connie Loizos",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Security"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-d9be5f8318fe",
+      "title": "Calvin and Hobbes’ 5 Greatest Spaceman Spiff Comic Strips",
+      "excerpt": "The best Spaceman Spiff comics in Calvin and Hobbes turn boring school days into dazzling sci-fi adventures, showcasing Bill Watterson’s imagination.",
+      "body": "Calvin and Hobbes wasn't Bill Watterson's first pitch for a comic strip. C&H 's protagonists began as side characters in Watterson's comic The Doghouse before his original syndicate suggested that they ought to be the focus. \"Marvin\" became \"Calvin,\" the rest of The Doghouse 's cast was dropped, and while United Feature Syndicate still didn't take the resulting comic, Universal Press Syndicate did.",
+      "author": "Thomas Hindmarch",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.polygon.com/calvin-hobbes-best-spaceman-spiff-comics/",
+      "image": "/images/feed/feed-d9be5f8318fe.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-4e71306c18d7",
+      "title": "There's a hidden way you can check which services are running on your Android phone",
+      "excerpt": "Want to see what's draining your Android phone's memory? Here's how to unlock the hidden Running Services menu to monitor background apps.",
+      "body": "Want to see what's draining your Android phone's memory? Here's how to unlock the hidden Running Services menu to monitor background apps.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Android Phone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Robin Bea)",
+      "date": "2026-11-15",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Android Phone"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.engadget.com/2313576/hidden-way-check-which-services-running-on-android-phone/",
+      "image": "/images/feed/feed-4e71306c18d7.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-b36f51928873",
+      "title": "Common reasons your Roku TV can turn on by itself and how to fix it",
+      "excerpt": "If your TV has randomly been turning on and it has a Roku attached to it, it could be your Roku's doing. Check these settings.",
+      "body": "If your TV has randomly been turning on and it has a Roku attached to it, it could be your Roku's doing. Check these settings.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (David Engle)",
       "date": "2026-11-14",
       "readTime": "2 min",
       "section": "gadgets",
@@ -262,10 +415,48 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 49,
-      "url": "https://www.engadget.com/2312688/when-dedicated-graphics-card-worth-it/",
-      "image": "/images/feed/feed-5554ccaefd7e.jpg",
+      "xpReward": 44,
+      "url": "https://www.engadget.com/2313550/roku-tv-turns-on-by-itself-common-reasons-fixes/",
+      "image": "/images/feed/feed-b36f51928873.jpg",
       "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-031c985e8acb",
+      "title": "Some GTA 6 Box Copies Reported To Have Download Code Issues With No Disc To Fall Back On",
+      "excerpt": "Shipped with no disc inside, fans who purchased a physical copy of Grand Theft Auto in advance are claiming their codes have already been used, or are missing entirely",
+      "body": "Shipped with no disc inside, fans who purchased a physical copy of Grand Theft Auto in advance are claiming their codes have already been used, or are missing entirely\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Kotzer",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://kotaku.com/some-gta-6-box-copies-reported-to-have-download-code-issues-2000756883",
+      "image": "/images/feed/feed-031c985e8acb.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-f5c7684c2ecc",
+      "title": "The Best Deals Today: Asus TUF Gaming Laptop, Saros, 4K Blu-ray Sale, and More",
+      "excerpt": "The Best Deals Today: Asus TUF Gaming Laptop, Saros, 4K Blu-ray Sale, and More",
+      "body": "A new weekend has arrived, and today, you can save big on Saros, the Criterion Collection sale, Gears of War: E-Day, Dragon Ball Super, Apple Watch Ultra 4, Xenoblade Chronicles 2, Persona 3 Reload, The Super Mario Galaxy Movie, Star Wars Zero Company, and more. Check out our top picks for Saturday, November 14, below. Save $700 Off this Asus TUF A16 Gaming Laptop It&#39;s no secret that building a gaming PC is more expensive than ever. Component prices for parts like RAM are through the roof, which has led many to hold off upgrading their builds. Today, while not a desktop, you can save $700 on this Asus TUF gaming laptop that features a Ryzen 7 8745HX processor, 16GB of RAM, and an RTX 5060. Not bad if you&#39;re looking to play some of the latest games on the go.",
+      "author": "Noah Hunter",
+      "date": "2026-11-14",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.ign.com/articles/best-deals-for-november-14-2026",
+      "image": "/images/feed/feed-f5c7684c2ecc.jpg",
+      "source": "IGN",
       "isLive": true
     },
     {
@@ -282,48 +473,10 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 53,
       "url": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
       "image": "/images/feed/feed-22131668b1fb.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-3b7a886fcc4b",
-      "title": "Resident Evil Requiem Star Hopes Grace Ashcroft Has 'a Long Way to Go' Even if She Won't 'Ever Be a Leon Character'",
-      "excerpt": "Grace Ashcroft actress Angela Sant'Albano doesn't think her Resident Evil Requiem hero will \"ever be a Leon character,\" but she's still hoping \"there's a long way to go with her.\"",
-      "body": "Grace Ashcroft actress Angela Sant&#39;Albano doesn&#39;t think her Resident Evil Requiem hero will &quot;ever be a Leon character,&quot; but she&#39;s still hoping &quot;there&#39;s a long way to go with her.&quot; The person behind one of 2026&#39;s standout video game roles laid out her hopes for the future during an interview with GamesRadar . Resident Evil Requiem may only be a few months old, but she&#39;s already got a good idea of how she&#39;d like to see Grace grow should she be asked to brave manmade horrors beyond comprehension yet again. Warning! Spoilers for Resident Evil Requiem follow. &quot;I would really love to see how her relationship with Leon blossoms,&quot; Sant&#39;Albano explained.",
-      "author": "Michael Cripe",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.ign.com/articles/resident-evil-requiem-star-hopes-grace-ashcroft-has-a-long-way-to-go-even-if-she-wont-ever-be-a-leon-character",
-      "image": "/images/feed/feed-3b7a886fcc4b.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-d26e186e1c74",
-      "title": "The reasons why your TV soundbar has an audio delay",
-      "excerpt": "Audio delays are really irritating, especially when watching sports and live events. We've got several possible causes and what you can do about them.",
-      "body": "Audio delays are really irritating, especially when watching sports and live events. We've got several possible causes and what you can do about them.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (David Engle)",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.engadget.com/2312648/reasons-why-tv-soundbar-audio-delay/",
-      "image": "/images/feed/feed-d26e186e1c74.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -339,17 +492,17 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 49,
       "url": "https://electrek.co/2026/11/14/20k-nissan-nx7-phev-goes-on-sale-with-nearly-200-miles-of-electric-range/",
       "image": "/images/feed/feed-bfc0e9e2164c.jpg",
       "source": "Electrek",
       "isLive": true
     },
     {
-      "id": "feed-ccbd0c2348eb",
-      "title": "SpaceX Catches the Starship to end Flight 15",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Spacex, Starship. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "id": "feed-50646efac2a9",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "excerpt": "https://x.com/SpaceX/status/2121316300702056595 https://youtu.be/jHlpfNSpBmw?t=3233",
+      "body": "https://x.com/SpaceX/status/2121316300702056595 https://youtu.be/jHlpfNSpBmw?t=3233\n\nThis report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Spacex, Starship. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "ls612",
       "date": "2026-11-14",
       "readTime": "2 min",
@@ -359,29 +512,10 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 53,
-      "url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
-      "image": "/images/feed/feed-ccbd0c2348eb.webp",
+      "xpReward": 39,
+      "url": "https://www.spacex.com/launches/starship-flight-15",
+      "image": "/images/feed/feed-50646efac2a9.jpg",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-64d487b4fa32",
-      "title": "Why some USB ports are yellow (and less common than others)",
-      "excerpt": "Not every USB port color means what you think. Learn why yellow ports are so uncommon and what to check before you plug in anything important.",
-      "body": "Not every USB port color means what you think. Learn why yellow ports are so uncommon and what to check before you plug in anything important.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Thomas Godwin)",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.engadget.com/2312464/why-some-usb-ports-yellow-less-common/",
-      "image": "/images/feed/feed-64d487b4fa32.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -397,86 +531,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 50,
       "url": "https://cleantechnica.com/2026/11/14/fabric-molds-could-bring-material-saving-concrete-beams-within-reach/",
       "image": "/images/feed/feed-d1ba8ac45d19.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-011e17e4ab87",
-      "title": "32 Years Later, Star Trek's Most Important Movie Is Officially Free on Streaming",
-      "excerpt": "Star Trek: Generations is streaming free on Pluto TV. Here's why the underrated Kirk and Picard crossover deserves another look.",
-      "body": "Released in 1994 and now streaming free on Pluto TV, Star Trek: Generations brought Captain James T. Kirk (William Shatner) and Captain Jean-Luc Picard ( Patrick Stewart ) together on the big screen for the first and only time. The result was a movie that divided fans, delivered one of the franchise's most controversial deaths, and destroyed one of television's most beloved starships. Yet more than three decades later, Generations deserves another look, particularly for what it has to say about growing older, accepting loss, and knowing when it's time to move on.",
-      "author": "Terry Terrones",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.polygon.com/star-trek-generations-streaming-free-november-2026/",
-      "image": "/images/feed/feed-011e17e4ab87.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-c823a066825f",
-      "title": "How to clear the cache on your Samsung TV",
-      "excerpt": "Your TV's cache is a collection of temporary files, some of which you don't need anymore. Here's why you might want to clear those out – and how.",
-      "body": "Your TV's cache is a collection of temporary files, some of which you don't need anymore. Here's why you might want to clear those out – and how.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (David Engle)",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.engadget.com/2312222/how-to-clear-cache-samsung-tv/",
-      "image": "/images/feed/feed-c823a066825f.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-3fc1e88c9185",
-      "title": "'It Felt Criminal' — Adam Driver Still Can't Believe How Disney Handled Canceled Star Wars Movie The Hunt for Ben Solo",
-      "excerpt": "Adam Driver still can't believe Disney killed his Star Wars movie, The Hunt for Ben Solo, and has now gone so far as to say that the move \"felt criminal.\"",
-      "body": "Adam Driver still can&#39;t believe Disney killed his Star Wars movie, The Hunt for Ben Solo, and has now gone so far as to say that the move &quot;felt criminal.&quot; The Kylo Ren/Ben Solo actor relived some of the darker parts of his past with the massive sci-fi franchise during a recent conversation with AP . His updated thoughts on the matter follow years of work and months of fan organizing, and although he and director Steven Soderbergh have almost nothing to show for it, he&#39;s still pretty fired up about how it all went down. &quot;For me it was: Steven Soderbergh wants to make a Star Wars film,&quot; Driver said. &quot;What are we debating? It’s what it is. It’s criminal. Or it felt criminal. We’re all moving on. On to the next.",
-      "author": "Michael Cripe",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.ign.com/articles/it-felt-criminal-adam-driver-still-cant-believe-how-disney-handled-canceled-star-wars-movie-the-hunt-for-ben-solo",
-      "image": "/images/feed/feed-3fc1e88c9185.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-df07d16309c1",
-      "title": "Zelda: Ocarina of Time Is Actually the Perfect Way to Introduce Kids to Nintendo",
-      "excerpt": "Parents are debating whether the Ocarina of Time remake is too scary for kids. Here’s the case for the child-era half as a first Nintendo game.",
-      "body": "Walk into The Legend of Zelda: Ocarina of Time ’s Kokiri Forest, and it feels like you’re walking into a picture book. Especially in the remake, everything is moss-green and dappled with light. Fairies flit about. Kokiri children are rhythmically attending to their tasks. Everyone is friendly, everything is beautiful, and the world both feels safe and makes sense. Then you walk into the Great Deku Tree and spiders start falling from the ceiling. My daughter screamed. I jumped, too, and I knew they were coming.",
-      "author": "Rebecca Corgan",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Nintendo"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.polygon.com/zelda-ocarina-time-first-nintendo-kids-game/",
-      "image": "/images/feed/feed-df07d16309c1.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -511,7 +569,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 53,
       "url": "https://cleantechnica.com/2026/11/14/study-pinpoints-states-with-steepest-warming-trends-since-1980/",
       "image": "/images/feed/feed-969da142fe76.png",
       "source": "CleanTechnica",
@@ -530,7 +588,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 45,
       "url": "https://cleantechnica.com/2026/11/14/zoox-launches-robotaxis-in-atlanta/",
       "image": "/images/feed/feed-321a65a1340a.jpg",
       "source": "CleanTechnica",
@@ -549,7 +607,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 34,
       "url": "https://electrek.co/2026/11/14/check-your-ego-at-the-door-stellantis-new-electric-dolly-turns-any-car-into-a-tow-rig/",
       "image": "/images/feed/feed-da89989bafe7.jpg",
       "source": "Electrek",
@@ -568,7 +626,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 35,
       "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
       "image": "https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797",
       "source": "TechCrunch",
@@ -588,29 +646,10 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 34,
       "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
       "image": "/images/feed/feed-60f9b9b30062.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-83a4e4887d17",
-      "title": "Huawei set to challenge Tesla Powerwall with new, 20 kW home battery",
-      "excerpt": "This high-tech Huawei home battery pack hopes to hold back Tesla’s latest Powerwall with silicon carbide technology, AI-powered energy management baked in, and enough modular storage to keep even larg…",
-      "body": "This high-tech Huawei home battery pack hopes to hold back Tesla’s latest Powerwall with silicon carbide technology, AI-powered energy management baked in, and enough modular storage to keep even larg — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Jo Borrás",
-      "date": "2026-11-14",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://electrek.co/2026/11/14/huawei-set-to-challenge-tesla-powerwall-with-new-20-kw-home-battery/",
-      "image": "/images/feed/feed-83a4e4887d17.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -626,7 +665,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 51,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-236-alienspotting",
       "image": "/images/feed/feed-ff9b6b2164bc.jpg",
       "source": "Space.com",
@@ -645,7 +684,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 50,
       "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
       "image": "/images/feed/feed-f828612ff6ba.jpg",
       "source": "BleepingComputer",
@@ -664,7 +703,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 54,
       "url": "https://www.space.com/entertainment/space-games/alien-fireteam-elite-2-is-a-good-old-fashioned-bug-hunt-ironically-plagued-by-bugs",
       "image": "/images/feed/feed-e4dd1d13f3de.jpg",
       "source": "Space.com",
@@ -683,7 +722,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 34,
       "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
       "image": "/images/feed/feed-e906ce588cf4.jpg",
       "source": "The Verge",
@@ -703,7 +742,7 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 46,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video",
       "image": "/images/feed/feed-f54c2f6c5e67.jpg",
       "source": "Space.com",
@@ -724,7 +763,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 40,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-14-2026",
       "image": "/images/feed/feed-d0917e46d690.jpg",
       "source": "Space.com",
@@ -732,7 +771,7 @@
     },
     {
       "id": "feed-1cfd40f11d57",
-      "title": "'Now everything changes': SpaceX catches Starship upper stage for 1st time ever",
+      "title": "'Now everything changes': SpaceX catches Starship upper stage for 1st time ever (video)",
       "excerpt": "SpaceX caught the upper stage of its Starship megarocket for the first time ever today (Nov. 14), a landmark achievement that could unlock the giant vehicle's immense potential.",
       "body": "SpaceX caught the upper stage of its Starship megarocket for the first time ever today (Nov. 14), a landmark achievement that could unlock the giant vehicle's immense potential. Starship launched on its 15th test flight on Friday evening (Nov. 13), rising into the sky from SpaceX's Starbase site in South Texas. The mission plan called for bringing both of the vehicle's stages back to Starbase and catching them with the launch tower's \"chopstick\" arms — an unprecedented total recovery of an orbital rocket . That didn't happen; Starship's Super Heavy booster diverted to a Gulf of Mexico splashdown on Friday after experiencing a low-fuel alarm. But Ship succeeded in its attempt, notching a huge milestone for SpaceX and its dream of full rocket reuse.",
       "author": " Mike Wall ",
@@ -744,7 +783,7 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 47,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
       "image": "/images/feed/feed-1cfd40f11d57.jpg",
       "source": "Space.com",
@@ -763,7 +802,7 @@
         "Ransomware"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 52,
       "url": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
       "image": "/images/feed/feed-daae8022327d.png",
       "source": "Wired",
@@ -782,7 +821,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 32,
       "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
       "image": "/images/feed/feed-d6bc4ec6947c.jpg",
       "source": "The Hacker News",
@@ -801,7 +840,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 49,
       "url": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
       "image": "/images/feed/feed-b18b7197a903.jpg",
       "source": "BleepingComputer",
@@ -820,29 +859,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 40,
       "url": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
       "image": "/images/feed/feed-c8ef556c39f8.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-b5af83d54bc0",
-      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
-      "excerpt": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this…",
-      "body": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server. The flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-13",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
-      "image": "/images/feed/feed-b5af83d54bc0.jpg",
-      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -858,7 +878,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 46,
       "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/chatgpt-wallet.jpg?resize=1200,729",
       "source": "TechCrunch",
@@ -877,7 +897,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 31,
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -896,7 +916,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 53,
       "url": "https://openai.com/business/customer-stories/shield",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
@@ -915,43 +935,24 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 31,
       "url": "https://openai.com/business/customer-stories/amplitude",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "OpenAI Blog",
       "isLive": true
-    },
-    {
-      "id": "feed-3987a8727774",
-      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "excerpt": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
-      "body": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.\n\nThis report, published by Google AI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Google AI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Google AI Blog",
-      "date": "2026-11-12",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gemini"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/HydrogenUI_socialshare.max-600x600.format-webp.webp",
-      "source": "Google AI Blog",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: I gave a trading bot $148 of real money even though my backtest says it loses. Week one",
-    "DEV.TO: Signed Documents: Select Object Storage APIs for Secure Browser Direct Uploads",
-    "DEV.TO: A practical checklist for a local-service landing page",
-    "DEV.TO: AI: A Catalyst for Power",
-    "DEV.TO: Why AI Coding Agents Need a Cryptographic Flight Recorder (And How We Built One in Python)",
-    "DEV.TO: MiniLab LLM : apprendre à comprendre les modèles de langage, de la tokenisation à la génération",
-    "DEV.TO: Writing Knowledge-Base Entries an Auto-Responder Can Actually Quote",
-    "ENGADGET: How to get better results from Google Gemini",
-    "IGN: League of Legends: New Dawn Unveiled With Debut Trailer, Riot Announces Major Overhaul Coming in 2027",
-    "POLYGON: League of Legends: New Dawn Revealed, Major Overhaul Set for 2027"
+    "DEV.TO: Chrome Extension Landing Page: 6 Blocks That Drive Installs",
+    "DEV.TO: Tenant Mail Recovery: 3 Gates for Provider Records and Forwarding Priorities",
+    "DEV.TO: How Waveward Handles a Truncated Audacity .aup Document",
+    "DEV.TO: How to Block Malicious File Writes in Autonomous Python Agents",
+    "DEV.TO: Presigned URL Governance for Direct Browser Uploads in Marketplace Object Storage",
+    "DEV.TO: A CI/CD pipeline example you can actually run",
+    "DEV.TO: Why Copy-Pasting Two-Column Academic PDFs Scrambles Text — and How On-Device Apple Vision Fixes It",
+    "POLYGON: 9 Giant-Sized Changes Marvel Made to Ant-Man After Edgar Wright Left",
+    "POLYGON: Stephen King’s Underrated 1980 Horror Thriller Gets New Prime Video Adaptation",
+    "POLYGON: 10 Must-Play Co-Op Games for People With Real-Life Schedules"
   ],
   "sectionVideos": {}
 }
