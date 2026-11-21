@@ -1,13 +1,13 @@
 {
-  "fetchedAt": "2026-11-20T18:06:08.768Z",
+  "fetchedAt": "2026-11-21T00:26:43.496Z",
   "articles": [
     {
-      "id": "feed-f2e24568e6e2",
-      "title": "Vietnam AI & LLM Daily Briefing (Nov 21, 2026)",
-      "excerpt": "Vietnam AI & LLM Daily Briefing (Nov 21, 2026) A curated briefing on the VinFuture 2026 symposium on AI applications in precision healthcare, IOTek being honoured among the Top 10 Vietnam Digital Tech…",
-      "body": "Vietnam AI &amp; LLM Daily Briefing (Nov 21, 2026) A curated briefing on the VinFuture 2026 symposium on AI applications in precision healthcare, IOTek being honoured among the Top 10 Vietnam Digital Technology Enterprises 2026 for AIoT and Edge AI, Ho Chi Minh City advancing the translation of AI from research laboratories into municipal governance, green energy solutions resolving data centre power bottlenecks, agentic coding transformations with Anthropic Claude Code, and semiconductor leadership movements over the past 24 hours (November 21, 2026): 1.",
-      "author": "Vu Hung Nguyen (Hưng)",
-      "date": "2026-11-20",
+      "id": "feed-6e74295fa675",
+      "title": "Node.js PNG Retention: Verifying AI Image Buffers in S3-Compatible Tenant Storage",
+      "excerpt": "The operational constraint is tenant isolation: a valid PNG in the wrong tenant prefix is a security incident, not a successful upload. Short answer: keep the generated image as a Node.js Buffer, writ…",
+      "body": "The operational constraint is tenant isolation: a valid PNG in the wrong tenant prefix is a security incident, not a successful upload. Short answer: keep the generated image as a Node.js Buffer , write it once under a deterministic tenant-and-job key, confirm its length and media type with HEAD, and save the database record only after that check passes. Deliver the object through a presigned link rather than a permanent public URL. For a gaming service retaining PNG renders of signed player documents, the deletion deadline belongs in the application database beside the tenant ID and object key. Object storage holds the bytes. It should not become the authority for who owns them, when they expire, or whether a regeneration may overwrite them.",
+      "author": "nilsberg2187",
+      "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
       "tags": [
@@ -15,150 +15,207 @@
       ],
       "featured": true,
       "xpReward": 47,
-      "url": "https://dev.to/vuhung16au/vietnam-ai-llm-daily-briefing-nov-21-2026-2oc9",
-      "image": "/images/feed/feed-f2e24568e6e2.webp",
+      "url": "https://dev.to/nilsberg2187/nodejs-png-retention-verifying-ai-image-buffers-in-s3-compatible-tenant-storage-2gip",
+      "image": "/images/feed/feed-6e74295fa675.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-4271cab9ec8c",
-      "title": "I Build Custom WordPress Plugins With AI Every Day. Here’s What I Still Don’t Let It Decide.",
-      "excerpt": "In September 2026, AI agents opened more than 40% of all pull requests on GitHub. Back in March, it was 17% (GitHub Octoverse 2026). Honestly? Not surprised. I'm part of that number. I'm a WordPress a…",
-      "body": "In September 2026, AI agents opened more than 40% of all pull requests on GitHub. Back in March, it was 17% ( GitHub Octoverse 2026 ). Honestly? Not surprised. I'm part of that number. I'm a WordPress and frontend developer, and I run Sylvado , a studio that builds websites and custom business systems: custom plugins, CRMs, WooCommerce stores. These days, a lot of my code starts as a conversation with an AI agent. This isn't a \"AI is magic\" post. It's not a \"AI is ruining everything\" post either. After building real client systems this way, I've ended up with a pretty clear line between what I hand over to AI and what I keep for myself. And this year, that line started mattering a lot more. Everyone's using agents. Almost nobody trusts them with production.",
-      "author": "Areesha Hanif",
-      "date": "2026-11-20",
+      "id": "feed-66d7ae4dc3c1",
+      "title": "Invoice Template Ownership With Uploaded Scan OCR and Extracted Text Validation",
+      "excerpt": "A healthtech invoice service has two distinct inputs: order data that should determine the invoice, and uploaded scans that may help reconcile it. Template ownership decides where those inputs meet. I…",
+      "body": "A healthtech invoice service has two distinct inputs: order data that should determine the invoice, and uploaded scans that may help reconcile it. Template ownership decides where those inputs meet. If a recognition result can silently change a billing template, an OCR confidence problem becomes a rendering problem. The separation needs to be explicit. Short answer: Accept and validate the upload, retain the original scan, queue OCR, and store extracted text against the document ID. Validate candidate billing values before admitting them into order data. Generate the invoice PDF through an explicitly owned template. Keep operational telemetry small enough to explain this sequence without copying the medical document into the logs.",
+      "author": "WindwhisperBoren33",
+      "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/areesha_hanif/i-build-custom-wordpress-plugins-with-ai-every-day-heres-what-i-still-dont-let-it-decide-57ik",
-      "image": "/images/feed/feed-4271cab9ec8c.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/windwhisperboren33/invoice-template-ownership-with-uploaded-scan-ocr-and-extracted-text-validation-1i8m",
+      "image": "/images/feed/feed-66d7ae4dc3c1.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-8593497d8ebd",
-      "title": "How to Analyze GPTBot, ChatGPT-User, and ClaudeBot Requests in Server Logs",
-      "excerpt": "Answer First: How Do You Analyze AI Crawler Logs? To analyze AI crawler activity, export your web server or CDN request logs, filter requests by known AI-related user-agent strings, verify that the re…",
-      "body": "Answer First: How Do You Analyze AI Crawler Logs? To analyze AI crawler activity, export your web server or CDN request logs, filter requests by known AI-related user-agent strings, verify that the requests genuinely came from the claimed operators, and group the verified hits by bot, URL, status code, timestamp, and response size. GPTBot , ChatGPT-User , and ClaudeBot should be analyzed separately because they do not necessarily perform the same function. A crawler request is evidence of an HTTP fetch—not proof that a page was indexed, used for training, cited in an answer, or recommended to a user. Start with a seven- to thirty-day sample.",
-      "author": "Nazmul Haque Nahid",
-      "date": "2026-11-20",
+      "id": "feed-a124320ab199",
+      "title": "Schema-First Practices for Debugging Malformed JSON Responses in Notification Failure Workflows",
+      "excerpt": "Schema-First Practices for Debugging Malformed JSON Responses in Notification Failure Workflows Treat malformed JSON as a delivery event with a quarantine path, not as an alerting problem to hide insi…",
+      "body": "Schema-First Practices for Debugging Malformed JSON Responses in Notification Failure Workflows Treat malformed JSON as a delivery event with a quarantine path, not as an alerting problem to hide inside a retry loop. Validate the response against a strict schema before recording delivery cost, preserve the request and trace context, and make every retry idempotent. That gives a notification service two useful answers: what failed, and which delivery attempt should own the cost. For this workflow, I would use structured logs plus error capture as the evidence layer, then build polling around it if an alert is required.",
+      "author": "JerichoRhodes5847",
+      "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 50,
-      "url": "https://dev.to/answerenginee/how-to-analyze-gptbot-chatgpt-user-and-claudebot-requests-in-server-logs-a7g",
-      "image": "/images/feed/feed-8593497d8ebd.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/jerichorhodes5847/schema-first-practices-for-debugging-malformed-json-responses-in-notification-failure-workflows-59d6",
+      "image": "/images/feed/feed-a124320ab199.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-3f738fe4e7f2",
-      "title": "Designing a city game for people who will only give it three minutes",
-      "excerpt": "A lot of people will try a city scavenger hunt for about three minutes. Not because they hate it - because they are standing in a street with a coffee in one hand, a phone in the other, and somewhere…",
-      "body": "A lot of people will try a city scavenger hunt for about three minutes. Not because they hate it - because they are standing in a street with a coffee in one hand, a phone in the other, and somewhere else to be. Design for those three minutes and the rest follows. Here is what we have learned about them. The first glance is doing most of the work When somebody opens the app, they are not reading. They are glancing at a phone screen while walking, in poor light, possibly with a backpack in the way. That means the very first thing on the screen has to say what is happening. Not a slogan, not a logo animation - the actual instruction for the first stop. If the first thing they see is an explanation, they will read it later, and later never comes.",
-      "author": "Sam Ellis",
-      "date": "2026-11-20",
+      "id": "feed-4bb36e0d1635",
+      "title": "4 Intense Product Manager Interview Questions and how to ace them.",
+      "excerpt": "Even the most experienced product managers think interviews are an edgy exercise. You are suddenly asked a question and your mind blanks out. I see this happens often and again. It’s tough and you do…",
+      "body": "Even the most experienced product managers think interviews are an edgy exercise. You are suddenly asked a question and your mind blanks out. I see this happens often and again. It’s tough and you do not get the job. So it is important to cultivate the efficient habit of question-and-answer interview prepping. Ensure you are never caught off guard by an unexpected question and i want to help some PMs out here. I have condensed in this slide, all 4 questions and a high level simplistic approach to help you shine through. What matters most is how you structure your answers, demonstrate your problem solving skills and influence. Good Luck! 1. How will you manage a new product launch? How to Answer Articulate your GTM strategy.",
+      "author": "Salem Evbogbai",
+      "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 30,
-      "url": "https://dev.to/samellis/designing-a-city-game-for-people-who-will-only-give-it-three-minutes-1oi8",
-      "image": "/images/feed/feed-3f738fe4e7f2.webp",
+      "xpReward": 42,
+      "url": "https://dev.to/salemevb/4-intense-product-manager-interview-questions-and-how-to-ace-them-3kd0",
+      "image": "/images/feed/feed-4bb36e0d1635.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-877b5fdbd2b7",
-      "title": "How to Prepare a Website Development Brief in 2027: A Practical Guide for Business Owners",
-      "excerpt": "A business owner wants a website and sends a developer several links to competitors. The message says, 'I want something like this. How much will it cost?' One developer assumes the project involves f…",
-      "body": "A business owner wants a website and sends a developer several links to competitors. The message says, 'I want something like this. How much will it cost?' One developer assumes the project involves five pages and a contact form. Another assumes it requires a product catalogue, filters, customer accounts and online payments. Both estimates can be honest and still differ considerably because they describe different projects. Obtaining a realistic quote and a result that meets expectations does not require the client to know how to code or specify the complete technical architecture. It does require a clear understanding of business objectives, customer needs, desired functionality and the boundaries of the first phase.",
-      "author": "Dmytro",
-      "date": "2026-11-20",
+      "id": "feed-a8125cd3a28a",
+      "title": "Thoughts on “Bias Towards Action”",
+      "excerpt": "As long as one can remember and especially in tech spaces, the term “Bias for action” has become the default setting in a lot of modern settings. Speed matters. Markets move. Customers don’t wait. But…",
+      "body": "As long as one can remember and especially in tech spaces, the term “Bias for action” has become the default setting in a lot of modern settings. Speed matters. Markets move. Customers don’t wait. But when everything becomes “go, go, go,” that bias can quietly create a few unhealthy patterns: 1. Solutions Looking for Problems When we move too fast, we jump to answers before we fully understand the question. It’s human nature: the more experience we have, the more likely we are to reach for familiar playbooks — a new process, a favorite framework, another tool. The risk: we spend cycles polishing solutions that were never pointed at the real problem. 2. Motion Without Direction In action-heavy cultures, “What are the next steps?” becomes the default ending to every meeting.",
+      "author": "Salem Evbogbai",
+      "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/dmytro_cian/how-to-prepare-a-website-development-brief-in-2027-a-practical-guide-for-business-owners-177",
-      "image": "/images/feed/feed-877b5fdbd2b7.webp",
+      "xpReward": 34,
+      "url": "https://dev.to/salemevb/thoughts-on-bias-towards-action-192g",
+      "image": "/images/feed/feed-a8125cd3a28a.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-25eea0db46a5",
-      "title": "நாள் 10: Python While Loop – முழு output-ஐ யோசிக்காதே, அடுத்த step-ஐ மட்டும் யோசி",
-      "excerpt": "வணக்கம் 👋 நான் முத்து சார் அவர்களிடம் online-ல் Python கற்றுக்கொண்டு இருக்கிறேன். இன்று நாள் 10. Topic: Looping. தினமும் blog எழுதச் சொன்னார், அதனால் சார் சொல்லிக்கொடுத்த அதே வரிசையில் இங்கே எழுதுகிற…",
-      "body": "வணக்கம் 👋 நான் முத்து சார் அவர்களிடம் online-ல் Python கற்றுக்கொண்டு இருக்கிறேன். இன்று நாள் 10 . Topic: Looping . தினமும் blog எழுதச் சொன்னார், அதனால் சார் சொல்லிக்கொடுத்த அதே வரிசையில் இங்கே எழுதுகிறேன். (English version: Day 10: Python While Loop ) 1. பிரச்சனை: 300 தடவையா? சார் இப்படி ஆரம்பித்தார்: print ( 1 ) print ( 1 ) print ( 1 ) சுலபம். மூன்று வரி, மூன்று output. அப்புறம் சார் கேட்டார்: \" 1 -ஐ 300 தடவை print பண்ணணும்னா?\" 🤔 300 தடவை print(1) type பண்ணுவோமா? இல்லை! Looping என்பது என்ன செய்கிறோம் என்பது இல்லை . ஒரு வேலையை எத்தனை தடவை செய்கிறோம் என்பதுதான் Looping. 2. Code-க்கு முன்னால்: மனநிலை Looping ஒரு choice. பழகிவிட்டால் நிறைய கதவுகள் திறக்கும்: DSA → Looping Product-based companies → Looping Genius / Brilliant → Looping நடப்பது, cycle ஓட்டுவது, வரைவது, நீச்சல் மாதிரி.",
-      "author": "PremPrema",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Python"
-      ],
-      "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/premdev/naall-10-python-while-loop-mulllu-output-ai-yoocikkaatee-attutt-step-ai-mttttum-yooci-2cfk",
-      "image": "/images/feed/feed-25eea0db46a5.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-960917651def",
-      "title": "nyXflash",
-      "excerpt": "hey everyone, how's it going? I wanted to introduce nyXflash, a program that turns your PC into a network drive accessible via Wi-Fi. You simply open the program, scan the QR code with your phone, and…",
-      "body": "hey everyone, how's it going? I wanted to introduce nyXflash, a program that turns your PC into a network drive accessible via Wi-Fi. You simply open the program, scan the QR code with your phone, and you can immediately upload or download files using your browser. You can create folders, search, rename, delete, and even download entire folders as ZIP files allll directly over your local network.It’s a simple project. bye https://github.com/nicezinks/nyXflash.git",
-      "author": "Temg Developer",
-      "date": "2026-11-20",
+      "id": "feed-1b44968f0779",
+      "title": "Stop Returning Bare Linter Error Codes to Coding Agents: Opaque Error Codes vs. Actionable Fix-Hint Linters (-69.6% Input Tokens)",
+      "excerpt": "💡 AI Labo Benchmark Series — Experiment E17 (Feedback Sensors & Self-Correction) This post is part of our empirical benchmark series testing AI coding agent harness patterns inside network-isolated P…",
+      "body": "💡 AI Labo Benchmark Series — Experiment E17 (Feedback Sensors &amp; Self-Correction) This post is part of our empirical benchmark series testing AI coding agent harness patterns inside network-isolated Proxmox VMs against a hidden 20-case grading suite. 🚀 View All 41 Benchmark Results &amp; Master Ranking 🛡️ Read How Our Proxmox &amp; systemd Anti-Cheating Sandbox Works Metadata &amp; Experiment Identity Experiment ID: E17 (Backlog Candidate C013 ) Run ID: e17-vm221-20261028-01-03 Sandbox Environment: Proxmox Isolated VM VM221 ( ai-e17-221 , 0 NICs, PrivateNetwork=yes , ProtectSystem=strict , UID split labexp17 / labjudge17 ) Model: gemini-3.8-flash Pattern Under Test: \"Human-Oriented vs.",
+      "author": "tappers",
+      "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
+      ],
+      "featured": true,
+      "xpReward": 39,
+      "url": "https://dev.to/tappers_/stop-returning-bare-linter-error-codes-to-coding-agents-opaque-error-codes-vs-actionable-fix-hint-1h2b",
+      "image": "/images/feed/feed-1b44968f0779.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-2f170b490250",
+      "title": "Incorporating a startup from Codex: connecting Corply's MCP server",
+      "excerpt": "Codex can incorporate a Delaware C-corp once it's connected to a formation service. Codex has no formation tools built in, so you add one through MCP. This post walks through Corply, the service we bu…",
+      "body": "Codex can incorporate a Delaware C-corp once it's connected to a formation service. Codex has no formation tools built in, so you add one through MCP. This post walks through Corply, the service we build. One setup command connects it and installs a Corply skill, so Codex knows how to run the formation. Is there a Codex plugin? You don't need one. Corply connects to Codex as a standard MCP server at https://corply.dev/mcp . The setup script adds that connection and a skill that tells Codex how to use it. The cross-agent plugin source, including a Codex manifest, is on GitHub . 1. Connect macOS or Linux, with Node.js 18+ and the Codex CLI: curl -fsSL https://corply.dev/setup/codex.sh | sh Windows PowerShell: download https://corply.dev/setup/codex-setup.mjs and run: node codex - setup .",
+      "author": "Corply",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Startup"
       ],
       "featured": false,
-      "xpReward": 40,
-      "url": "https://dev.to/temg_developer_dac8e49b06/nyxflash-23f5",
-      "image": "/images/feed/feed-960917651def.webp",
+      "xpReward": 52,
+      "url": "https://dev.to/corply/incorporating-a-startup-from-codex-connecting-corplys-mcp-server-59fc",
+      "image": "/images/feed/feed-2f170b490250.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-8544a6694d5e",
-      "title": "Someone Discovered How To Glitch Into First-Person Mode In GTA 6",
-      "excerpt": "There's no official first-person option yet, but one could be added in a future update",
-      "body": "There's no official first-person option yet, but one could be added in a future update\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ethan Gach",
-      "date": "2026-11-20",
+      "id": "feed-0c2b60286d41",
+      "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
+      "excerpt": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
+      "body": "It really comes down to how many extra shirts, tattoo designs, and car options you want\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Zwiezen",
+      "date": "2026-11-21",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 51,
-      "url": "https://kotaku.com/someone-discovered-how-to-glitch-into-first-person-mode-in-gta-6-2000758931",
-      "image": "/images/feed/feed-8544a6694d5e.jpg",
+      "xpReward": 47,
+      "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
+      "image": "/images/feed/feed-0c2b60286d41.jpg",
       "source": "Kotaku",
       "isLive": true
     },
     {
-      "id": "feed-d15d89904c73",
-      "title": "OpenAI brings its collaborative Space hubs to Plus users",
-      "excerpt": "You can upload documents, files and more to the hubs for easy sharing.",
-      "body": "You can upload documents, files and more to the hubs for easy sharing.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Igor Bonifacic)",
+      "id": "feed-053a2a6d532d",
+      "title": "Everything We Know About GTA 7",
+      "excerpt": "GTA 7 is not much more than a hypothetical at this point, with GTA 6 having just been released, but there are some hints about GTA's future.",
+      "body": "Grand Theft Auto 6 has only just been released, so it might seem a bit early to start thinking about Grand Theft Auto 7 . I swear I’m not just writing an “Everything we know about GTA 7” article just so I can stuff a post with the “Everything we know about GTA 7” keyword and have Polygon own “Everything we know about GTA 7” search queries. That would be quite a gambit.",
+      "author": "Ari Notis",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.polygon.com/gta-7-release-setting/",
+      "image": "/images/feed/feed-053a2a6d532d.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-588cbcb588ed",
+      "title": "8 Near-Perfect Fantasy Miniseries That Hook You in the First Episode",
+      "excerpt": "From gothic castles to hidden London underworlds, these essential fantasy miniseries cast an instant spell on viewers from episode one.",
+      "body": "Fantasy television has given us some of the most imaginative stories ever told, transporting viewers to magical kingdoms, mysterious alternate realities, and worlds filled with creatures that shouldn't exist. Shows like Game of Thrones and Rings of Power dominate the conversation, pushing some of the genre's best storytelling to the forefront, but there’s something to be said of the smaller productions and shorter stories.",
+      "author": "Ryan Epps",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.polygon.com/8-near-perfect-fantasy-miniseries-that-hook-you-in-the-first-episode/",
+      "image": "/images/feed/feed-588cbcb588ed.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2cfaf4ce76bb",
+      "title": "'Steps' Ending Explained: Director Reveals the True Meaning Behind Cinderella Adaptation",
+      "excerpt": "The inclusive ending of Netflix's hottest animated hit 'Steps' is perfectly explained by its directors.",
+      "body": "Netflix’s newest animated sensation, directed by Alyce Tzue ( Soar ) and John Ripa ( Raya and the Last Dragon ), dares to ask: what if Cinderella’s ugly stepsisters weren’t so ugly and bad after all, but were instead besieged by a Western world that reacted to their East Asian heritage with distrust and unease?",
+      "author": "Aimee Hart",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.polygon.com/netflix-steps-ending-explained/",
+      "image": "/images/feed/feed-2cfaf4ce76bb.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-c0c7dca693dc",
+      "title": "Why you shouldn't depend on GTA 6 to auto-save",
+      "excerpt": "We explain how GTA 6's auto-save system works, so you don't accidentally lose progress in the massive game.",
+      "body": "We explain how GTA 6's auto-save system works, so you don't accidentally lose progress in the massive game.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Maddie Fisher)",
       "date": "2026-11-20",
       "readTime": "2 min",
       "section": "gadgets",
@@ -166,94 +223,132 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 54,
-      "url": "https://www.engadget.com/2323016/openai-brings-its-collaborative-space-hubs-to-plus-users/",
-      "image": "/images/feed/feed-d15d89904c73.jpg",
+      "xpReward": 33,
+      "url": "https://www.engadget.com/2323929/why-you-shouldnt-rely-on-gta-6-auto-save/",
+      "image": "/images/feed/feed-c0c7dca693dc.jpg",
       "source": "Engadget",
       "isLive": true
     },
     {
-      "id": "feed-1d4ba969e208",
-      "title": "Could an ancient solar eclipse rewrite Egyptian history?",
-      "excerpt": "A biblical mystery, an ancient Egyptian inscription and a \"ring of fire\" solar eclipse 3,200 years ago hold clues to when Ramesses the Great ruled.",
-      "body": "The solar system is a clock that can be run in both directions. On Aug. 2, 2027, that clock will bring the moon's dark central shadow — a path of totality — back to Egypt. A t otal solar eclipse will sweep across the country , passing directly over Luxor and plunging some of ancient Egypt's greatest surviving monuments into darkness. Totality will begin in Luxor at approximately 1:02 p.m. EEST and last 6 minutes 22 seconds, according to Time and Date . We know when it will happen because we can calculate the motions of Earth and the moon centuries in advance. But run the same celestial clock backward and eclipses become one of nature's most precise timestamps. Astronomers can reconstruct where the moon's shadow fell thousands of years ago, even when nobody left a record of it.",
-      "author": " Jamie Carter ",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.space.com/stargazing/solar-eclipses/could-an-ancient-solar-eclipse-rewrite-egyptian-history",
-      "image": "/images/feed/feed-1d4ba969e208.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-8939b8289e80",
-      "title": "Don’t Miss Out on GTA 6 Launch Week: Here’s How to Take Rockstar’s New Game Anywhere",
-      "excerpt": "Whether you’re on a work trip, vacationing or otherwise indisposed, there are a few good options to scratch your Grand Theft Auto itch on the go.",
-      "body": "Whether you’re on a work trip, vacationing or otherwise indisposed, there are a few good options to scratch your Grand Theft Auto itch on the go.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Game. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Tyler Graham",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.cnet.com/tech/how-to-take-gta-6-anywhere/",
-      "image": "/images/feed/feed-8939b8289e80.jpg",
-      "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-099aaf54b313",
-      "title": "Fortune and Cursed treasure hours schedule in the Fortnite Chapter 7 mini season",
-      "excerpt": "Here's what time you can expect the next batch of Fortnite treasure hours, as well as what bonuses are coming with them.",
-      "body": "Fortnite is continuing the tradition of special Saturday hourly events during the Chapter 7 mini season , though this time they're treasure hours , centered around the pirate-themed \"Treasure Hunters\" season. During these hours, certain sprites will get increased drop rates, and you'll drop into the game with special items.",
-      "author": "Julia Lee",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Fortnite"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.polygon.com/fornite-treasure-hours-chapter-7-mini-season-c7ms/",
-      "image": "/images/feed/feed-099aaf54b313.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-3119d60b4430",
-      "title": "SoundPEATS Q40 HD neckband earbuds get 35% off price drop",
-      "excerpt": "Prime members can save $18 on SoundPEATS' LDAC sports neckband in Blue ahead of Black Friday.",
-      "body": "Prime members can grab a pair of workout-ready earbuds for less than we’ve seen before. The SoundPEATS Q40 HD in Blue are down to $32.29 on Amazon for Prime members, which is $18 (35%) off the $49.99 list price and below the $33.99 they’ve dropped to a few times this fall. See the deal at Amazon",
-      "author": "Matt Horne",
+      "id": "feed-4bb0c619ef8c",
+      "title": "9to5Mac Daily: November 20, 2026 – Siri AI limits, HomeView update",
+      "excerpt": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca…",
+      "body": "Listen to a recap of the top stories of the day from 9to5Mac . 9to5Mac Daily is available on iTunes and Apple’s Podcasts app , Stitcher , TuneIn , Google Play , or through our dedicated RSS feed for Overcast and other podcast players. Sponsored by Backblaze : Backup you can rely on. Save 20% with code 9to5daily . more…",
+      "author": "Seth Kurkowski",
       "date": "2026-11-20",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
-        "Earbuds"
+        "Gadgets"
       ],
       "featured": false,
-      "xpReward": 51,
-      "url": "https://www.androidauthority.com/soundpeats-q40-hd-deal-3737825/",
-      "image": "/images/feed/feed-3119d60b4430.jpg",
-      "source": "Android Authority",
+      "xpReward": 33,
+      "url": "https://9to5mac.com/2026/11/20/daily-november-20-2026/",
+      "image": "/images/feed/feed-4bb0c619ef8c.jpg",
+      "source": "9to5Mac",
       "isLive": true
     },
     {
-      "id": "feed-cc04f916f5cb",
-      "title": "Chips can survive the space environment. Can their financing?",
-      "excerpt": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
-      "body": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Space. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Tim Fernholz",
+      "id": "feed-5aed955b7d17",
+      "title": "YouTube could pay $3 billion to settle social media addiction lawsuits with school districts",
+      "excerpt": "YouTube is facing a growing number of lawsuits alleging that its platform is designed to be addictive and that it has harmed teens.",
+      "body": "YouTube is facing a growing number of lawsuits alleging that its platform is designed to be addictive and that it has harmed teens.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Ian Carlos Campbell)",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.engadget.com/2323927/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts/",
+      "image": "/images/feed/feed-5aed955b7d17.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-240dec25350f",
+      "title": "How To Solve All Main Puzzles In GTA 6′s Tenebrae Lux",
+      "excerpt": "Hope you like sea shanties!",
+      "body": "Hope you like sea shanties!\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Rebekah Valentine",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940",
+      "image": "/images/feed/feed-240dec25350f.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-8685c65c5c02",
+      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+      "excerpt": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
+      "body": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Miles Klee",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
+      "image": "/images/feed/feed-8685c65c5c02.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-62a67ac5387d",
+      "title": "iOS 27 lets you use two iPhones with the same phone number",
+      "excerpt": "9to5Mac is brought to you by Tello Mobile. Switching to Tello Mobile can bring the cost of your plan down to as little as $5 a month, or an unlimited plan for just $25 a month, all on America’s larges…",
+      "body": "9to5Mac is brought to you by Tello Mobile. Switching to Tello Mobile can bring the cost of your plan down to as little as $5 a month, or an unlimited plan for just $25 a month, all on America’s largest 5G network. See all of the available plans at tello.com . Among iOS 27’s many new features is a great change for anyone with multiple iPhones: you can now keep the same phone number on two iPhones via iPhone Handoff. more…",
+      "author": "Ryan Christoffel",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://9to5mac.com/2026/11/20/ios-27-lets-you-use-two-iphones-with-the-same-phone-number/",
+      "image": "/images/feed/feed-62a67ac5387d.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-705d1e05f248",
+      "title": "8 Amazing Indie Games We Think You Should Go Play",
+      "excerpt": "Spare a thought for the indie games that have recently come out",
+      "body": "Spare a thought for the indie games that have recently come out\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ash Parrish",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://kotaku.com/8-amazing-indie-games-we-think-you-should-go-play-2000758862",
+      "image": "/images/feed/feed-705d1e05f248.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-9c4d73493b67",
+      "title": "Curiosity Spots Drifting Twilight Clouds",
+      "excerpt": "Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset c…",
+      "body": "1 Min Read Curiosity Spots Drifting Twilight Clouds PIA26805 Credits: NASA/JPL-Caltech Photojournal Navigation Science Photojournal Curiosity Spots Drifting… Photojournal Home Photojournal Search Latest Content Galleries Feedback RSS About Downloads Curiosity Spots Drifting Twilight Clouds GIF (2.59 MB) Description NASA’s Curiosity Mars rover captured these drifting clouds on Oct. 31, 2026, the 5,061st Martian day, or sol, of the mission. The rover uses its navigation cameras to capture post-sunset clouds, called twilight clouds, which appear for only a short time each fall over Gale Crater, which it has been exploring for more than 14 years. Curiosity was built by NASA’s Jet Propulsion Laboratory, which is managed by Caltech in Pasadena, California.",
+      "author": "NASA Breaking News",
       "date": "2026-11-20",
       "readTime": "2 min",
       "section": "space",
@@ -261,10 +356,355 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 30,
-      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/06/SpaceXAIsatrender.jpg?resize=1200,639",
+      "xpReward": 53,
+      "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
+      "image": "/images/feed/feed-9c4d73493b67.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-bba7fd0562f4",
+      "title": "The Internet Archive's workers are unionizing",
+      "excerpt": "None of their asks are radical: better pay, additional benefits that apply to everyone and paths for career development and promotion.",
+      "body": "None of their asks are radical: better pay, additional benefits that apply to everyone and paths for career development and promotion.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Will Shanklin)",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.engadget.com/2323828/the-internet-archives-workers-are-unionizing/",
+      "image": "/images/feed/feed-bba7fd0562f4.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-e80eb9179d6d",
+      "title": "Titan 2 Elite keyboard phone is getting a fresh color, and fans already have guesses",
+      "excerpt": "The Titan 2 Elite will get a new shade later this month.",
+      "body": "Credit: Stephen Radochia / Android Authority TL;DR Unihertz is teasing a new colorway for the Titan 2 Elite. The new colorway will be revealed later this month. This new color will become the third available option. If you’ve been dying for a return to QWERTY phones, this was the year for you. Not only did we get an announcement for the Clicks Communicator at the beginning of the year, but Unihertz also released the Titan 2 Elite and Elite Pro. Now Unihertz is teasing a new version of its compact keyboard phone. On X, Unihertz shared a teaser featuring the shadow of a hand holding on to the shadow of a Titan 2 Elite. Included in that image are the words “Coming Soon” and the date November 2026. Along with the teaser image is a message that reads “New color. Who dis?”",
+      "author": "Ryan McNeal",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.androidauthority.com/unihertz-teases-new-titan-2-elite-colorway-3737949/",
+      "image": "/images/feed/feed-e80eb9179d6d.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-e3e9bf9a9be6",
+      "title": "9to5Mac Overtime 091: Kicking the tires and seeing what works",
+      "excerpt": "Fernando and Jeff are back to talk about the iPhone Duo after a month of use, including the new face unlock and close-to-lock toggle in iOS 27.3 beta 2. They also dig into Siri AI’s Health app access…",
+      "body": "Fernando and Jeff are back to talk about the iPhone Duo after a month of use, including the new face unlock and close-to-lock toggle in iOS 27.3 beta 2. They also dig into Siri AI’s Health app access and its quirks, the HomePod mini stereo pair on Mac, the M6 Mac mini, the new iPad mini, and Apple’s upsell-heavy configurations. 9to5Mac Overtime is a weekly video-first podcast exploring fun and interesting observations in the Apple ecosystem, featuring 9to5Mac’s Fernando Silva &amp; Jeff Benjamin. Subscribe to Overtime via Apple Podcasts and our YouTube channel for more. more…",
+      "author": "Jeff Benjamin",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://9to5mac.com/2026/11/20/9to5mac-overtime-091-kicking-the-tires-and-seeing-what-works/",
+      "image": "/images/feed/feed-e3e9bf9a9be6.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-86e467d759ee",
+      "title": "BYD offers a first look at its new flagship people mover",
+      "excerpt": "BYD is preparing to launch a new flagship MPV soon after previewing the large people mover for the first time. more…",
+      "body": "BYD is preparing to launch a new flagship MPV soon after previewing the large people mover for the first time. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Peter Johnson",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://electrek.co/2026/11/20/byd-first-look-new-flagship-people-mover/",
+      "image": "/images/feed/feed-86e467d759ee.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-dc3e81286a95",
+      "title": "On this day in space! Nov. 20, 1998:  Russia launches 1st module of International Space Station as construction begins on the largest human-built structure in orbit",
+      "excerpt": "On Nov. 20, 1998, the first piece of the International Space Station launched into orbit. It was just one piece, but the foundation of something much larger.",
+      "body": "On Nov. 20, 1998, the first piece of the International Space Station launched into orbit. The 42,000-pound module is called Zarya, and it's about the size of a tour bus. Zarya launched on board a Russian Proton rocket . Two weeks later, NASA's STS-88 shuttle mission aboard Endeavour brought the Unity module into space. The STS-88 astronauts connected the two modules in orbit. Zarya was built by the Russians, but it was paid for by the United States. NASA contracted a Russian company to build it for half the price of what the American company Lockheed Martin would have charged. These days, Zarya is mainly used for storage and for external fuel tanks. The module also has docking ports for Russian Progress cargo ships and Soyuz spacecraft that carry crews to and from the space station.",
+      "author": " Hanneke Weitering ",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space Station",
+        "Orbit",
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-20-2026",
+      "image": "/images/feed/feed-dc3e81286a95.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-76f910d04920",
+      "title": "This 500 kWh energy storage system runs on retired EV batteries",
+      "excerpt": "A retired EV battery can still have years of use left in it when it’s taken off the road. Moment Energy’s new Nova battery storage system puts those packs to work on commercial sites. And when a pack…",
+      "body": "A retired EV battery can still have years of use left in it when it’s taken off the road. Moment Energy’s new Nova battery storage system puts those packs to work on commercial sites. And when a pack — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Michelle Lewis",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://electrek.co/2026/11/20/this-500-kwh-energy-storage-system-runs-on-retired-ev-batteries/",
+      "image": "/images/feed/feed-76f910d04920.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-c5141f616571",
+      "title": "Don't turn the moon into the Wild West, scientists warn",
+      "excerpt": "Researchers are calling for a moratorium on industrial exploitation of the moon, fearing the lunar environment may suffer irreversible damage if things move too fast.",
+      "body": "Researchers are calling for a moratorium on industrial exploitation of the moon, fearing that rapid development could cause irreversible environmental damage and destroy invaluable scientific material. Both China and the U.S. are pushing forward with plans to establish permanent human settlements on the moon by the end of the next decade. Commercial players want to build businesses supporting these future explorers by mining for resources such as water , construction materials, industrial metals and rare earth minerals. However, some scientists argue that a temporary ban on lunar industrialization is necessary to allow regulations to catch up and limit what can be allowed in order to prevent a moon rush from destroying the pristine lunar environment.",
+      "author": " Tereza Pultarova ",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.space.com/astronomy/moon/dont-turn-the-moon-into-the-wild-west-scientists-warn",
+      "image": "/images/feed/feed-c5141f616571.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-e7c0769fe527",
+      "title": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
+      "excerpt": "Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That's the vulnerability that honey pots exploit.",
+      "body": "Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That's the vulnerability that honey pots exploit.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Dominic-Madori Davis",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/Moor-Studio.jpg?resize=1200,705",
       "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-4d5a0be027ca",
+      "title": "New NASA Seed Funding Primes Small Businesses for Innovation",
+      "excerpt": "Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Busine…",
+      "body": "Illustration of a future lunar vehicle that could potentially be powered by NASA-funded research, now under way, to develop an ultra-cold-tolerant battery module. Elementium Materials Inc. Awards to small businesses around the country are addressing some of NASA’s most crucial technology needs for exploration of the Moon and Mars while fueling the U.S. space economy. NASA’s Small Business Innovation Research/Small Business Technology Transfer (SBIR/STTR) program recently selected 302 innovative projects, for a total investment of up to $171 million in seed funding. This early-stage research and development work will tackle an array of topics, including those related to Artemis and the establishment of a U.S. Moon Base .",
+      "author": "Abby Tabor",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
+      "image": "/images/feed/feed-4d5a0be027ca.png",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-45fd14814727",
+      "title": "Are We There Yet? NASA’s Escapade Is Officially Heading to Mars",
+      "excerpt": "No space agency has ever staged spacecraft in orbit for a year before sending them on to Mars.",
+      "body": "No space agency has ever staged spacecraft in orbit for a year before sending them on to Mars.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nasa. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Joe Hindy",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.cnet.com/science/space/nasa-escapade-mars-gravity-assist/",
+      "image": "/images/feed/feed-45fd14814727.jpg",
+      "source": "CNET",
+      "isLive": true
+    },
+    {
+      "id": "feed-d7dec6f54ae2",
+      "title": "GTA hasn't gone to space (yet), but these sci-fi games can offer you a life of crime among the stars",
+      "excerpt": "Grand Theft Auto 6 is finally out, but if you're a sci-fi aficionado looking for similar experiences set in outer space, there are several alternatives.",
+      "body": "GTA 6 has only just come out, and it's already taken the world by storm and positioned itself as one of the greatest games of all time . Great news for gamers, but what about sci-fi fans? To this day, Rockstar Games sadly hasn't embraced sci-fi with any of its open-world games (save for those UFO Easter eggs). It doesn't seem likely they'll journey to the stars anytime soon — you can't really do cutting societal satire about space — but that doesn't mean there aren't GTA-adjacent sci-fi adventures set in outer space. The frustrating thing is that no one has exactly cracked that pitch yet. Non-linear games set in outer space tend to be either too ambitious, like No Man's Sky, or too focused on specific experiences like space combat, like Star Wars: Squadrons.",
+      "author": " Fran Ruiz ",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.space.com/entertainment/space-games/gta-hasnt-gone-to-space-yet-but-these-sci-fi-games-can-offer-you-a-life-of-crime-among-the-stars",
+      "image": "/images/feed/feed-d7dec6f54ae2.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-3895243c8029",
+      "title": "Podcast: Tesla’s ‘personal’ Cybercab, Ford’s LFP for Fathom, Aptera delivers, and more",
+      "excerpt": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla launching the ‘personal’ Cybercab, Ford’s LFP fo…",
+      "body": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla launching the ‘personal’ Cybercab, Ford’s LFP fo — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Fred Lambert",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://electrek.co/2026/11/20/podcast-teslas-personal-cybercab-fords-lfp-for-fathom-aptera-delivers-and-more/",
+      "image": "/images/feed/feed-3895243c8029.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-bd6d0f73487e",
+      "title": "Trouble at Mars: NASA's Perseverance rover, Odyssey orbiter halt science work due to glitches",
+      "excerpt": "Perseverance has been sidelined by an antenna issue, and the venerable Odyssey orbiter is dealing with a balky reaction wheel. NASA hopes both can get back to work by the end of November.",
+      "body": "Two of NASA's Mars explorers are sidelined by glitches at the moment. The Perseverance rover and Mars Odyssey orbiter have stood down from science work due to technical problems, NASA announced on Thursday (Nov. 19). Perseverance has been sidelined by an antenna issue, and the venerable Odyssey is dealing with a balky reaction wheel. NASA hopes both can get back to work at Mars by the end of November. Communication issues for Perseverance Perseverance landed inside Mars' Jezero Crater in February 2021, tasked with assessing the area's potential to support past life and with collecting dozens of samples for future return to Earth. It has done all this and more. The Perseverance team has determined that Jezero hosted a potentially habitable lake billions of years ago.",
+      "author": " Mike Wall ",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Nasa",
+        "Orbit"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.space.com/astronomy/mars/trouble-at-mars-nasas-perseverance-rover-odyssey-orbiter-halt-science-work-due-to-glitches",
+      "image": "/images/feed/feed-bd6d0f73487e.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-3e186dfc3598",
+      "title": "Signal Is Blocking Screenshots to Protect Your Messages from AI Agents",
+      "excerpt": "Encryption can’t protect your messages from an AI agent peeking over your shoulder.",
+      "body": "Encryption can’t protect your messages from an AI agent peeking over your shoulder.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Dashia Milden",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.cnet.com/tech/services-and-software/signal-text-message-screenshots/",
+      "image": "/images/feed/feed-3e186dfc3598.jpg",
+      "source": "CNET",
+      "isLive": true
+    },
+    {
+      "id": "feed-c23ef5c11676",
+      "title": "AI Privacy Check: Claude Settings You Should Consider Changing",
+      "excerpt": "These settings will keep your data safer than the default settings.",
+      "body": "These settings will keep your data safer than the default settings.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Blake Stimac",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Claude"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/",
+      "image": "/images/feed/feed-c23ef5c11676.jpg",
+      "source": "CNET",
+      "isLive": true
+    },
+    {
+      "id": "feed-d1a6b3df647e",
+      "title": "Anker S5000 5kWh power station back at $2,375 exclusive low ($1,225 off), Segway Max G3 Plus e-scooter new $1,000 low, more",
+      "excerpt": "If you weren’t aware, Amazon’s full Black Friday event is in motion, and deals are flying from across countless brands, with Anker and Segway being our two headliners today. First up, the expanded Ank…",
+      "body": "If you weren’t aware, Amazon’s full Black Friday event is in motion, and deals are flying from across countless brands, with Anker and Segway being our two headliners today. First up, the expanded Anker SOLIX Black Friday Sale has dropped the new S5000 5,024Wh Power Station back to an exclusive $2,375 low with increased savings. There’s also the increased Anker eufy security savings, too, like the 16GB or 1TB eufyCam S4 Solar Security 4-Cam Kits at lows from $950 , among many other options. Segway has also dropped its Max G3 Plus Electric Scooter to a new $1,000 low , while the Navimow i215 LiDAR Robot Mower is at a $1,329 low , with more waiting below.",
+      "author": "Reinette LeJeune",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://electrek.co/2026/11/20/anker-s5000-5kwh-power-station-segway-max-g3-plus-e-scooter-more/",
+      "image": "/images/feed/feed-d1a6b3df647e.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-247a71d62489",
+      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+      "excerpt": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision…",
+      "body": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Hacker"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+      "image": "/images/feed/feed-247a71d62489.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-58eefaa33e7e",
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "excerpt": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracke…",
+      "body": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4. The issue could",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-20",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Security"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "image": "/images/feed/feed-58eefaa33e7e.jpg",
+      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -280,67 +720,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 48,
       "url": "https://electrek.co/2026/11/20/renault-undercuts-byd-new-ev-costs-less-than-20000/",
       "image": "/images/feed/feed-3edcb9d95080.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-8d5b1418e608",
-      "title": "Here are the Apple deals actually worth picking up ahead of Black Friday",
-      "excerpt": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices…",
-      "body": "A new pair of AirPods or the latest Apple Watch can make a great holiday gift, but they can also take a pretty big dent out of your budget. That’s especially true this year, as rising hardware prices have made MacBooks and other Apple devices even more expensive. Fortunately, Black Friday offers a chance to save, especially since great deals are already available on a wide range of Apple devices. Some discounts even extend to recent releases like the Apple Watch Series 12 and touchscreen MacBook Pro , which have dropped to new lows. Most of the discounts below are promoted as Black Friday deals, but we’ve also included a few that aren’t technically part of the shopping event but have “coincidentally” dropped in price in the last week or so.",
-      "author": "Sheena Vasani",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.theverge.com/gadgets/1035460/best-early-black-friday-apple-deals-2026",
-      "image": "/images/feed/feed-8d5b1418e608.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-e44ec5d9ebbf",
-      "title": "Nothing's AI device debuts December 8, and it looks like two vapes stuck together",
-      "excerpt": "Thanks, Swedish House Mafia. I guess.",
-      "body": "Thanks, Swedish House Mafia. I guess.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Device. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Igor Bonifacic)",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Device"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.engadget.com/2323187/nothings-ai-device-debuts-december-8-and-it-looks-like-two-vapes-stuck-together/",
-      "image": "/images/feed/feed-e44ec5d9ebbf.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-3751503822a9",
-      "title": "There’s An Infinite Money Glitch In GTA 6, But Many Players Are Refusing To Use It And It Might Be A Waste Of Time Anyway",
-      "excerpt": "Getting your money for nothing and your chicks for free does not make for great game design",
-      "body": "Getting your money for nothing and your chicks for free does not make for great game design\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Imran Khan",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://kotaku.com/gta-6-infinite-money-glitch-how-to-rockstar-games-ps5-2000758907",
-      "image": "/images/feed/feed-3751503822a9.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -357,7 +740,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 50,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
       "image": "/images/feed/feed-bbf2c3f2ae6a.jpg",
       "source": "BleepingComputer",
@@ -376,143 +759,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 46,
       "url": "https://cleantechnica.com/2026/11/20/electric-vans-are-they-the-final-ev-frontier-kia-pv5/",
       "image": "/images/feed/feed-b8c37326a6de.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-390f817a79ae",
-      "title": "Your Android device could soon become your PC’s second screen via Link to Windows",
-      "excerpt": "Need extra screen space? Your Android tablet or phone could soon become your second PC monitor.",
-      "body": "Credit: Tushar Mehta / Android Authority TL;DR Strings of code in the Link to Windows app reveal a second screen experience called “Extend display.” This feature would turn your Android phone or tablet into a second screen for your PC. The experience will stop if your PC locks, the connection is lost, or if the phone’s display receiver fails. When you’ve grown accustomed to a dual-screen setup, it’s hard to go back to using a single screen. If you don’t have an extra monitor handy, you could turn your old tablet into a second screen with spacedesk . Samsung also offers a Second Screen feature on select Galaxy tablets. However, if you want a more convenient option than these, Microsoft is building a solution.",
-      "author": "Ryan McNeal",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Device"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.androidauthority.com/link-to-windows-extend-display-3737779/",
-      "image": "/images/feed/feed-390f817a79ae.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-0c21cd536917",
-      "title": "GTA 6's Autosave Is Ruining The Game, But Not For The Reason You Think",
-      "excerpt": "GTA 6 fans say they're losing many hours of progress during their adventures with Jason and Lucia, but the issue is deeper than lost time",
-      "body": "Rockstar's Grand Theft Auto 6 might be the best-rated game of all time , but that doesn't mean players love every single thing about the open-world shooter. Some drawbacks, like the game's wonky controls, can be adjusted. Others, players are simply stuck with. One of the biggest complaints is that GTA 6 's autosave feature simply isn't good enough.",
-      "author": "Patricia Hernandez",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.polygon.com/gta-6-auto-save-does-it-why-cant-i-mission-checkpoint-gameplay/",
-      "image": "/images/feed/feed-0c21cd536917.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-53b50b1c8115",
-      "title": "You can reveal the full GTA 6 map in minutes using this simple plane trick",
-      "excerpt": "Clear up that fog in no time at all, but be careful.",
-      "body": "Clear up that fog in no time at all, but be careful.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Lawrence Bonk)",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.engadget.com/2323145/full-gta-6-map-reveal-plane-trick/",
-      "image": "/images/feed/feed-53b50b1c8115.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-172e91648cdd",
-      "title": "PostgreSQL 19: A hands-on tour with runnable browser examples",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Hands-on. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "petrpravda",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Hands-on"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://certuvia.com/blog/postgres-19",
-      "image": "/images/feed/feed-172e91648cdd.png",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-2b809fd5c852",
-      "title": "GTA 6 Players Have Already Discovered an Infinite Money Glitch",
-      "excerpt": "Grand Theft Auto 6 players have found several ways to make money quick, but not everyone is partaking.",
-      "body": "Many players have a habit of optimizing the fun out of video games, and that tendency has unsurprisingly found its way into Grand Theft Auto 6 . Apparently, the game has many ways to “get rich quick,” and these exploitive strategies are going viral online.",
-      "author": "Elijah Gonzalez",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.polygon.com/gta-6-infinite-money-glitch/",
-      "image": "/images/feed/feed-2b809fd5c852.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-703b449908ee",
-      "title": "The One Thing About GTA 6's Ending to Know Before You Get Too Far In",
-      "excerpt": "Grand Theft Auto 6 features multiple endings, and some unexpected choices will shape which one you get.",
-      "body": "While playing through Grand Theft Auto 6 , you might notice that there are a lot of systems that can alter your experience. There’s the relationship system, your criminal profile, fitness routines that change your physique, and plenty more that gives you a lot of control over Jason and Lucia. In the moment-to-moment gameplay, it can be a little hard to figure out how much of that actually has an impact on the game.",
-      "author": "Giovanni Colantonio",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.polygon.com/gta-6-ending-explained-rob-nelson/",
-      "image": "/images/feed/feed-703b449908ee.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-7046aeea296f",
-      "title": "Russia is developing a nuclear space weapon, US intelligence report finds",
-      "excerpt": "A new report by the the U.S. Defense Intelligence Agency discusses the threats posed by the nation's adversaries in space — including Russia, which is developing a nuke-carrying satellite.",
-      "body": "Last month, the U.S. Defense Intelligence Agency (DIA) released a chilling and info-packed report judging the scope and breadth of threats posed by the nation's adversaries in space. The new report focuses on China , Russia and the emerging space powers of Iran and North Korea. It looks at what's happening in Earth orbit and beyond, including cislunar space, the region between our planet and the moon . The report — the 2026 edition of \"Challenges to Security in Space\" — is the third iteration of the DIA's unclassified intelligence assessment on space-related challenges and threats to U.S. national security, as well as the extent to which space is treated internationally as a warfighting domain . Information within the report, which you can read here , is current as of July 2026.",
-      "author": " Leonard David ",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.space.com/space-exploration/satellites/russia-is-developing-a-nuclear-space-weapon-us-intelligence-report-finds",
-      "image": "/images/feed/feed-7046aeea296f.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -528,7 +778,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 45,
       "url": "https://www.cnet.com/tech/services-and-software/google-gemini-clears-firefighter-radio-static/",
       "image": "/images/feed/feed-37112e0686e5.jpg",
       "source": "CNET",
@@ -547,7 +797,7 @@
         "Malware"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 51,
       "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
       "image": "/images/feed/feed-9ab8a41daf1f.jpg",
       "source": "The Hacker News",
@@ -567,30 +817,10 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 45,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "image": "/images/feed/feed-e7bc21e40b78.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-b949165037a0",
-      "title": "NASA Honor Awards Ceremony Recognizes Employees at Stennis Space Center",
-      "excerpt": "Employees contributing to NASA’s mission at the agency’s Stennis Space Center near Bay St. Louis, Mississippi, were recognized during the center’s Honor Awards ceremony on Nov. 18. Presenting the awar…",
-      "body": "3 min read Preparations for Next Moonwalk Simulations Underway (and Underwater) Stephen Rawls, second from right with guest, receives the Center Director’s Excellence Award during the Honor Awards ceremony on Nov. 18 at NASA’s Stennis Space Center. Presenting the awards were Jeremy Parsons, NASA’s Artemis program manager, left, and Christine Powell, NASA Stennis center director, right. NASA/Danny Nowlin Bradley Tyree, center, receives the Engineering Excellence Award during the Honor Awards ceremony on Nov. 18 at NASA’s Stennis Space Center. Presenting the awards were Jeremy Parsons, NASA’s Artemis program manager, left, and Christine Powell, NASA Stennis center director, right.",
-      "author": "LaToya Dean",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.nasa.gov/centers-and-facilities/stennis/honor-awards-ceremony-at-stennis/",
-      "image": "/images/feed/feed-b949165037a0.jpg",
-      "source": "NASA Breaking News",
       "isLive": true
     },
     {
@@ -606,48 +836,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 30,
       "url": "https://cleantechnica.com/2026/11/20/the-metals-company-has-a-seabed-mining-production-gap-that-its-pilot-has-not-closed/",
       "image": "/images/feed/feed-4dad05c1729e.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-c60f51c5593a",
-      "title": "Is AI A Public Or A Private Asset?",
-      "excerpt": "Isabelle Ferreras is a professor and research director at the University of Louvain, an Accelerator fellow at the Institute for Ethics in AI at the University of Oxford, and a senior research associat…",
-      "body": "Isabelle Ferreras is a professor and research director at the University of Louvain, an Accelerator fellow at the Institute for Ethics in AI at the University of Oxford, and a senior research associate at the Center for Labor and a Just Economy at Harvard University. It safe to say she ... [continued] The post Is AI A Public Or A Private Asset? appeared first on CleanTechnica .",
-      "author": "Steve Hanley",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://cleantechnica.com/2026/11/20/is-ai-a-public-or-a-private-asset/",
-      "image": "/images/feed/feed-c60f51c5593a.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-07c63899a303",
-      "title": "What We Both Thought After Driving The Rivian R2",
-      "excerpt": "Tim and I both got to try the R2 for a week. Here are our major takeaways.",
-      "body": "Tim and I both got to try the R2 for a week. Here are our major takeaways.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Rivian. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Rivian"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://insideevs.com/features/816273/rivian-r2-ievs-podcast/",
-      "image": "/images/feed/feed-07c63899a303.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -664,202 +856,29 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 40,
       "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
       "image": "/images/feed/feed-eab77a63bf1e.jpg",
       "source": "BleepingComputer",
       "isLive": true
     },
     {
-      "id": "feed-6ec1623071db",
-      "title": "NASA’s Curiosity Mars Rover Collects Samples",
-      "excerpt": "This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, loc…",
-      "body": "NASA/JPL-Caltech/MSSS This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. Learn more about Curiosity. Image credit: NASA/JPL-Caltech/MSSS",
-      "author": "HQ Web Team",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/",
-      "image": "https://www.nasa.gov/wp-content/uploads/2026/11/pia26804.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-ca0fdf5220d1",
-      "title": "Tesla FSD approved in Italy, the first big EU market to say yes",
-      "excerpt": "Italy’s transport ministry has granted provisional approval to Tesla Assisted Driving, the name Tesla now uses for “Full Self-Driving (Supervised)” in Europe. Italy becomes the 12th European country t…",
-      "body": "Italy’s transport ministry has granted provisional approval to Tesla Assisted Driving, the name Tesla now uses for “Full Self-Driving (Supervised)” in Europe. Italy becomes the 12th European country to allow the system, and the first of the EU’s big markets. It also didn’t wait for Brussels. The EU committee that decides on bloc-wide recognition isn’t expected to vote until December at the earliest. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/",
-      "image": "/images/feed/feed-ca0fdf5220d1.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-0bd1819066b6",
-      "title": "A transcription firm used by police, prosecutors, and tech giants exposed customer data online",
-      "excerpt": "Exclusive: A simple security lapse exposed transcriptions of police interviews and bodycam footage on a cloud server without a password.",
-      "body": "Exclusive: A simple security lapse exposed transcriptions of police interviews and bodycam footage on a cloud server without a password.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Whittaker",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/",
-      "image": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2150052525.jpg?resize=1200,800",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-b91dae8335ad",
-      "title": "Volkswagen’s new ID. Polo GTI Clubsport is the electric hot hatch we want, but can’t have",
-      "excerpt": "Volkswagen revealed the ID. Polo GTI Clubsport Concept, an electric pocket rocket with a massive rear wing and 362 horsepower. more…",
-      "body": "Volkswagen revealed the ID. Polo GTI Clubsport Concept, an electric pocket rocket with a massive rear wing and 362 horsepower. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://electrek.co/2026/11/20/vws-new-id-polo-gti-clubsport-ev-hot-hatch/",
-      "image": "/images/feed/feed-b91dae8335ad.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-0aee25c02bfa",
-      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
-      "excerpt": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized…",
-      "body": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]",
-      "author": "Sponsored by NordPass Business",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-      "image": "/images/feed/feed-0aee25c02bfa.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-a6079c719d54",
-      "title": "ISS astronauts look down on the snow-capped Himalayas | Space photo of the day for Nov. 20, 2026",
-      "excerpt": "The Himalayas tower below the clouds, capped in icy snow in new snapshots captured from aboard the International Space Station.",
-      "body": "A snapshot of the Himalayas captured from aboard the ISS. (Image credit: CSA/Joshua Kutryk) The Himalayas tower below the clouds, capped in icy snow in new snapshots captured from aboard the International Space Station . What is it? Canadian Space Agency astronaut Joshua Kutryk was looking out one of the windows aboard the space station when the most incredible view came into focus — and thankfully he had a camera handy and was able to capture these striking scenes of the Himalayas from space. Above the mountain range, fluffy clouds hang in the atmosphere. Below, the expansive Himalayas are covered in bright snow and ice, which looks somehow both white and blue at the same time as the bright sunlight streaks across the breathtaking expanse.",
-      "author": " Chelsea Gohd ",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Astronaut",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.space.com/astronomy/earth/iss-astronauts-look-down-on-the-snow-capped-himalayas-space-photo-of-the-day-for-nov-20-2026",
-      "image": "/images/feed/feed-a6079c719d54.png",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-9d1da816f058",
-      "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "iamronaldo",
+      "id": "feed-7121ba7c9173",
+      "title": "Combatting adversarial distillation",
+      "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "body": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.\n\nThis report, published by OpenAI Blog, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to OpenAI Blog using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "OpenAI Blog",
       "date": "2026-11-20",
       "readTime": "2 min",
       "section": "ai",
       "tags": [
-        "Anthropic"
+        "Ai"
       ],
       "featured": false,
-      "xpReward": 38,
-      "url": "https://alpo.ge/remark.pdf",
-      "image": "/images/topics/topic-ai-ml.png",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-46c642528abf",
-      "title": "Everything Is Falling Apart, and AI’s Fingerprints Are All Over It",
-      "excerpt": "AI is rewriting the web in its own imperfect image, making software flaws easier to find and easier to exploit, while introducing plenty of its own imperfections.",
-      "body": "AI is rewriting the web in its own imperfect image, making software flaws easier to find and easier to exploit, while introducing plenty of its own imperfections.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Jon Reed",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.cnet.com/tech/services-and-software/outages-and-cyberattacks-everything-is-breaking-is-it-ai/",
-      "image": "/images/feed/feed-46c642528abf.jpg",
-      "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-ced8fb9dc519",
-      "title": "N-able says recent security breach led to major service outage",
-      "excerpt": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
-      "body": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Breach, Security. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sergiu Gatlan",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Breach",
-        "Security"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-      "image": "/images/feed/feed-ced8fb9dc519.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-3fcd619ffc83",
-      "title": "I got to tour SpaceX's Starfactory facility in Starbase, Texas, and what I saw blew my mind",
-      "excerpt": "SpaceX invited media on an unprecedented behind-the-scenes tour of its Starfactory facility, where it manufactures and assembles both stages of its massive Starship rocket.",
-      "body": "STARBASE, Texas — I just finished covering the Starship Flight 15 mission, and SpaceXs incredible launch tower catch of the returned Ship 42 spacecraft isn't the only thing over the weekend that left me speechless. The morning of the launch (Nov. 13), SpaceX invited media on a tour of Starbase's Starfactory facility, where it manufactures and assembles both stages of its massive Starship rocket - an unprecedented behind-the-scenes look at the production and scale of SpaceX's operations, and a glimpse of things to come as Starship notches more and more milestones the more it flies.",
-      "author": " Josh Dinner ",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Spacex"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.space.com/space-exploration/private-spaceflight/i-got-to-tour-spacexs-starfactory-facility-in-starbase-texas-and-what-i-saw-blew-my-mind",
-      "image": "/images/feed/feed-3fcd619ffc83.jpg",
-      "source": "Space.com",
+      "xpReward": 34,
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "image": "/images/feed/feed-7121ba7c9173.png",
+      "source": "OpenAI Blog",
       "isLive": true
     },
     {
@@ -875,7 +894,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 49,
       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -894,7 +913,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 38,
       "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
       "source": "TechCrunch",
@@ -913,43 +932,24 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 32,
       "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Chenyu-Zhao.jpg?resize=1200,800",
       "source": "TechCrunch",
       "isLive": true
-    },
-    {
-      "id": "feed-59959673c5cf",
-      "title": "What’s With All These Outages?",
-      "excerpt": "This week on “Uncanny Valley,” we discuss the outages that have swept digital life over the past week, where new money from Anthropic’s IPO is going, and the AI chip world post-Jensen Huang.",
-      "body": "This week on “Uncanny Valley,” we discuss the outages that have swept digital life over the past week, where new money from Anthropic’s IPO is going, and the AI chip world post-Jensen Huang.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ai. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Brian Barrett, Leah Feiger, Sophie Kleeman",
-      "date": "2026-11-19",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Ai"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
-      "image": "/images/feed/feed-59959673c5cf.jpg",
-      "source": "Wired",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Vietnam AI & LLM Daily Briefing (Nov 21, 2026)",
-    "DEV.TO: I Build Custom WordPress Plugins With AI Every Day. Here’s What I Still Don’t Let It Decide.",
-    "DEV.TO: How to Analyze GPTBot, ChatGPT-User, and ClaudeBot Requests in Server Logs",
-    "DEV.TO: Designing a city game for people who will only give it three minutes",
-    "DEV.TO: How to Prepare a Website Development Brief in 2027: A Practical Guide for Business Owners",
-    "DEV.TO: நாள் 10: Python While Loop – முழு output-ஐ யோசிக்காதே, அடுத்த step-ஐ மட்டும் யோசி",
-    "DEV.TO: nyXflash",
-    "KOTAKU: Someone Discovered How To Glitch Into First-Person Mode In GTA 6",
-    "ENGADGET: OpenAI brings its collaborative Space hubs to Plus users",
-    "SPACE.COM: Could an ancient solar eclipse rewrite Egyptian history?"
+    "DEV.TO: Node.js PNG Retention: Verifying AI Image Buffers in S3-Compatible Tenant Storage",
+    "DEV.TO: Invoice Template Ownership With Uploaded Scan OCR and Extracted Text Validation",
+    "DEV.TO: Schema-First Practices for Debugging Malformed JSON Responses in Notification Failure Workflows",
+    "DEV.TO: 4 Intense Product Manager Interview Questions and how to ace them.",
+    "DEV.TO: Thoughts on “Bias Towards Action”",
+    "DEV.TO: Stop Returning Bare Linter Error Codes to Coding Agents: Opaque Error Codes vs. Actionable Fix-Hint Linters (-69.6% Input Tokens)",
+    "DEV.TO: Incorporating a startup from Codex: connecting Corply's MCP server",
+    "KOTAKU: So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
+    "POLYGON: Everything We Know About GTA 7",
+    "POLYGON: 8 Near-Perfect Fantasy Miniseries That Hook You in the First Episode"
   ],
   "sectionVideos": {}
 }
