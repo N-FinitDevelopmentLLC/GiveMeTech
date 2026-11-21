@@ -1,31 +1,12 @@
 {
-  "fetchedAt": "2026-11-21T00:26:43.496Z",
+  "fetchedAt": "2026-11-21T07:49:16.063Z",
   "articles": [
     {
-      "id": "feed-6e74295fa675",
-      "title": "Node.js PNG Retention: Verifying AI Image Buffers in S3-Compatible Tenant Storage",
-      "excerpt": "The operational constraint is tenant isolation: a valid PNG in the wrong tenant prefix is a security incident, not a successful upload. Short answer: keep the generated image as a Node.js Buffer, writ…",
-      "body": "The operational constraint is tenant isolation: a valid PNG in the wrong tenant prefix is a security incident, not a successful upload. Short answer: keep the generated image as a Node.js Buffer , write it once under a deterministic tenant-and-job key, confirm its length and media type with HEAD, and save the database record only after that check passes. Deliver the object through a presigned link rather than a permanent public URL. For a gaming service retaining PNG renders of signed player documents, the deletion deadline belongs in the application database beside the tenant ID and object key. Object storage holds the bytes. It should not become the authority for who owns them, when they expire, or whether a regeneration may overwrite them.",
-      "author": "nilsberg2187",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/nilsberg2187/nodejs-png-retention-verifying-ai-image-buffers-in-s3-compatible-tenant-storage-2gip",
-      "image": "/images/feed/feed-6e74295fa675.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-66d7ae4dc3c1",
-      "title": "Invoice Template Ownership With Uploaded Scan OCR and Extracted Text Validation",
-      "excerpt": "A healthtech invoice service has two distinct inputs: order data that should determine the invoice, and uploaded scans that may help reconcile it. Template ownership decides where those inputs meet. I…",
-      "body": "A healthtech invoice service has two distinct inputs: order data that should determine the invoice, and uploaded scans that may help reconcile it. Template ownership decides where those inputs meet. If a recognition result can silently change a billing template, an OCR confidence problem becomes a rendering problem. The separation needs to be explicit. Short answer: Accept and validate the upload, retain the original scan, queue OCR, and store extracted text against the document ID. Validate candidate billing values before admitting them into order data. Generate the invoice PDF through an explicitly owned template. Keep operational telemetry small enough to explain this sequence without copying the medical document into the logs.",
-      "author": "WindwhisperBoren33",
+      "id": "feed-7e260be9f52e",
+      "title": "Building an offline-first Flutter ledger for shops: what \"no internet\" really costs",
+      "excerpt": "I built Bazaar Ledger, a shop bookkeeping app for Android with a Windows companion, and I want to share what offline-first did to the design. The rule. Every bill, payment and stock movement is writte…",
+      "body": "I built Bazaar Ledger, a shop bookkeeping app for Android with a Windows companion, and I want to share what offline-first did to the design. The rule. Every bill, payment and stock movement is written to the phone first. The network is optional, so there is no loading spinner between a customer and a receipt. The ledger underneath. Billing screens are friendly, but every sale, payment, purchase and expense posts to double-entry accounts. That is why the 100+ reports agree with each other: they are different views of one ledger. A server that cannot read. If a shop turns on the optional cloud, the books are sealed on the phone before upload, with keys the server never receives.",
+      "author": "Bazaar Ledger",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -34,17 +15,17 @@
       ],
       "featured": true,
       "xpReward": 44,
-      "url": "https://dev.to/windwhisperboren33/invoice-template-ownership-with-uploaded-scan-ocr-and-extracted-text-validation-1i8m",
-      "image": "/images/feed/feed-66d7ae4dc3c1.webp",
+      "url": "https://dev.to/bazaarledger/building-an-offline-first-flutter-ledger-for-shops-what-no-internet-really-costs-3epo",
+      "image": "/images/feed/feed-7e260be9f52e.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-a124320ab199",
-      "title": "Schema-First Practices for Debugging Malformed JSON Responses in Notification Failure Workflows",
-      "excerpt": "Schema-First Practices for Debugging Malformed JSON Responses in Notification Failure Workflows Treat malformed JSON as a delivery event with a quarantine path, not as an alerting problem to hide insi…",
-      "body": "Schema-First Practices for Debugging Malformed JSON Responses in Notification Failure Workflows Treat malformed JSON as a delivery event with a quarantine path, not as an alerting problem to hide inside a retry loop. Validate the response against a strict schema before recording delivery cost, preserve the request and trace context, and make every retry idempotent. That gives a notification service two useful answers: what failed, and which delivery attempt should own the cost. For this workflow, I would use structured logs plus error capture as the evidence layer, then build polling around it if an alert is required.",
-      "author": "JerichoRhodes5847",
+      "id": "feed-91f8aa8c5a28",
+      "title": "Stop Calling Every Chatbot an Agent: The Goal Plan Act Loop That Actually Earns the Name",
+      "excerpt": "Stop Calling Every Chatbot an Agent: The Goal → Plan → Act Loop That Actually Earns the Name Short answer: a chatbot takes a prompt and returns an answer. An agent takes a goal, breaks it into steps,…",
+      "body": "Stop Calling Every Chatbot an Agent: The Goal → Plan → Act Loop That Actually Earns the Name Short answer: a chatbot takes a prompt and returns an answer. An agent takes a goal, breaks it into steps, calls tools, checks its own results, and keeps going until the goal is done — or stops. That loop is Goal → Plan → Act → Evaluate → Iterate, and if your system does not have it, it is not an agent, no matter what the marketing page says. According to SmashingApps.com, generative AI creates content — text, images, audio — from prompts. Agentic AI goes further: it sets goals, plans multi-step actions, uses tools, and takes semi-autonomous actions to achieve outcomes. The difference is not the model. It is the loop around the model.",
+      "author": "SmashingApps.com",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 43,
-      "url": "https://dev.to/jerichorhodes5847/schema-first-practices-for-debugging-malformed-json-responses-in-notification-failure-workflows-59d6",
-      "image": "/images/feed/feed-a124320ab199.webp",
+      "xpReward": 46,
+      "url": "https://dev.to/smashingapps/stop-calling-every-chatbot-an-agent-the-goal-plan-act-loop-that-actually-earns-the-name-105g",
+      "image": "/images/feed/feed-91f8aa8c5a28.jpg",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-4bb36e0d1635",
-      "title": "4 Intense Product Manager Interview Questions and how to ace them.",
-      "excerpt": "Even the most experienced product managers think interviews are an edgy exercise. You are suddenly asked a question and your mind blanks out. I see this happens often and again. It’s tough and you do…",
-      "body": "Even the most experienced product managers think interviews are an edgy exercise. You are suddenly asked a question and your mind blanks out. I see this happens often and again. It’s tough and you do not get the job. So it is important to cultivate the efficient habit of question-and-answer interview prepping. Ensure you are never caught off guard by an unexpected question and i want to help some PMs out here. I have condensed in this slide, all 4 questions and a high level simplistic approach to help you shine through. What matters most is how you structure your answers, demonstrate your problem solving skills and influence. Good Luck! 1. How will you manage a new product launch? How to Answer Articulate your GTM strategy.",
-      "author": "Salem Evbogbai",
+      "id": "feed-6d0f8784c838",
+      "title": "OAuth mix-up defense needs the RFC 9207 issuer response check",
+      "excerpt": "OAuth mix-up defense needs the RFC 9207 issuer response check An OAuth client that supports more than one authorization server has a routing problem that ordinary state validation does not solve. A ma…",
+      "body": "OAuth mix-up defense needs the RFC 9207 issuer response check An OAuth client that supports more than one authorization server has a routing problem that ordinary state validation does not solve. A malicious authorization server can return an authorization response that the client mistakes for one from a trusted server. RFC 9207 addresses this class of mix-up attacks by adding an iss parameter to the authorization response. The value identifies the authorization server that created the response, including error responses. The client then compares it with the issuer value it trusts for that authorization transaction. The check is small, but its placement matters. It belongs before the client exchanges an authorization code.",
+      "author": "Ioneyrezende",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -72,17 +53,17 @@
       ],
       "featured": true,
       "xpReward": 42,
-      "url": "https://dev.to/salemevb/4-intense-product-manager-interview-questions-and-how-to-ace-them-3kd0",
-      "image": "/images/feed/feed-4bb36e0d1635.webp",
+      "url": "https://dev.to/ioneyrezende/oauth-mix-up-defense-needs-the-rfc-9207-issuer-response-check-3175",
+      "image": "/images/feed/feed-6d0f8784c838.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-a8125cd3a28a",
-      "title": "Thoughts on “Bias Towards Action”",
-      "excerpt": "As long as one can remember and especially in tech spaces, the term “Bias for action” has become the default setting in a lot of modern settings. Speed matters. Markets move. Customers don’t wait. But…",
-      "body": "As long as one can remember and especially in tech spaces, the term “Bias for action” has become the default setting in a lot of modern settings. Speed matters. Markets move. Customers don’t wait. But when everything becomes “go, go, go,” that bias can quietly create a few unhealthy patterns: 1. Solutions Looking for Problems When we move too fast, we jump to answers before we fully understand the question. It’s human nature: the more experience we have, the more likely we are to reach for familiar playbooks — a new process, a favorite framework, another tool. The risk: we spend cycles polishing solutions that were never pointed at the real problem. 2. Motion Without Direction In action-heavy cultures, “What are the next steps?” becomes the default ending to every meeting.",
-      "author": "Salem Evbogbai",
+      "id": "feed-b00977024532",
+      "title": "Train a 64M LLM in 2 Hours (MiniMind) + 4 Official Card-Free AI Dev Grants in 2026",
+      "excerpt": "jingyaogong/minimind (+847 stars today on GitHub Trending) shows how small teams and indie builders can train a working 64M LLM from scratch in 2 hours. Yet many developers stop before running git clo…",
+      "body": "jingyaogong/minimind (+847 stars today on GitHub Trending) shows how small teams and indie builders can train a working 64M LLM from scratch in 2 hours. Yet many developers stop before running git clone because they think they need expensive GPUs, a $20/mo Cursor plan, or paid cloud APIs. Here are 4 legitimate, card-free ( requireCc: false ) official developer channels still active in 2026: 1. Kaggle GPU — 30 Hours/Week Dual-T4 (16GB VRAM) Requirement: One-time SMS phone verification (no credit card). Why it pairs with MiniMind: Pre-loaded PyTorch + CUDA notebooks with up to 12 hours per continuous run let you train and evaluate small LMs cleanly at $0. Claim URL: https://www.kaggle.com 2.",
+      "author": "tomTOP",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -90,18 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 34,
-      "url": "https://dev.to/salemevb/thoughts-on-bias-towards-action-192g",
-      "image": "/images/feed/feed-a8125cd3a28a.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/tomtoptomtop/train-a-64m-llm-in-2-hours-minimind-4-official-card-free-ai-dev-grants-in-2026-55ne",
+      "image": "/images/feed/feed-b00977024532.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-1b44968f0779",
-      "title": "Stop Returning Bare Linter Error Codes to Coding Agents: Opaque Error Codes vs. Actionable Fix-Hint Linters (-69.6% Input Tokens)",
-      "excerpt": "💡 AI Labo Benchmark Series — Experiment E17 (Feedback Sensors & Self-Correction) This post is part of our empirical benchmark series testing AI coding agent harness patterns inside network-isolated P…",
-      "body": "💡 AI Labo Benchmark Series — Experiment E17 (Feedback Sensors &amp; Self-Correction) This post is part of our empirical benchmark series testing AI coding agent harness patterns inside network-isolated Proxmox VMs against a hidden 20-case grading suite. 🚀 View All 41 Benchmark Results &amp; Master Ranking 🛡️ Read How Our Proxmox &amp; systemd Anti-Cheating Sandbox Works Metadata &amp; Experiment Identity Experiment ID: E17 (Backlog Candidate C013 ) Run ID: e17-vm221-20261028-01-03 Sandbox Environment: Proxmox Isolated VM VM221 ( ai-e17-221 , 0 NICs, PrivateNetwork=yes , ProtectSystem=strict , UID split labexp17 / labjudge17 ) Model: gemini-3.8-flash Pattern Under Test: \"Human-Oriented vs.",
-      "author": "tappers",
+      "id": "feed-4361f192c777",
+      "title": "The Tasks of Mathematicians and Software Engineers Are Converging in the Age of AI",
+      "excerpt": "With the emergence of AI, the work of software engineers and mathematicians is beginning to converge in a surprising way: both increasingly write prompts to generate code. The difference lies mainly i…",
+      "body": "With the emergence of AI, the work of software engineers and mathematicians is beginning to converge in a surprising way: both increasingly write prompts to generate code. The difference lies mainly in what kind of code they want. A software engineer might ask, “Write a Rust function to sort a list of numbers,” or “Write a Python script to analyze this dataset.” A mathematician might ask, “Write a Lean proof that the sum of two even numbers is even.” In each case, the human expresses an idea in natural language, and AI translates it into a formal language: Rust or Python for software, Lean for mathematics. The generated code may still need correction, but the underlying workflow is becoming remarkably similar.",
+      "author": "Khaled Hosseini",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -109,36 +90,399 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/tappers_/stop-returning-bare-linter-error-codes-to-coding-agents-opaque-error-codes-vs-actionable-fix-hint-1h2b",
-      "image": "/images/feed/feed-1b44968f0779.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/khaledhosseini/the-tasks-of-mathematicians-and-software-engineers-are-converging-in-the-age-of-ai-5718",
+      "image": "/images/feed/feed-4361f192c777.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-2f170b490250",
-      "title": "Incorporating a startup from Codex: connecting Corply's MCP server",
-      "excerpt": "Codex can incorporate a Delaware C-corp once it's connected to a formation service. Codex has no formation tools built in, so you add one through MCP. This post walks through Corply, the service we bu…",
-      "body": "Codex can incorporate a Delaware C-corp once it's connected to a formation service. Codex has no formation tools built in, so you add one through MCP. This post walks through Corply, the service we build. One setup command connects it and installs a Corply skill, so Codex knows how to run the formation. Is there a Codex plugin? You don't need one. Corply connects to Codex as a standard MCP server at https://corply.dev/mcp . The setup script adds that connection and a skill that tells Codex how to use it. The cross-agent plugin source, including a Codex manifest, is on GitHub . 1. Connect macOS or Linux, with Node.js 18+ and the Codex CLI: curl -fsSL https://corply.dev/setup/codex.sh | sh Windows PowerShell: download https://corply.dev/setup/codex-setup.mjs and run: node codex - setup .",
-      "author": "Corply",
+      "id": "feed-267f0b6d8bb7",
+      "title": "Indexing 206M+ Podcast Subtitle Lines and Pairing Them with PubMed & Wikipedia Citations",
+      "excerpt": "When I research a topic through long-form podcasts or university lectures (say, sleep architecture, creatine for cognition, or semiconductor supply chains), I keep hitting two annoying walls: Searchin…",
+      "body": "When I research a topic through long-form podcasts or university lectures (say, sleep architecture, creatine for cognition, or semiconductor supply chains), I keep hitting two annoying walls: Searching YouTube drops you into three-hour episodes full of sponsor reads and detours. Dropping a link into an LLM summarizer strips away the speaker's actual tone, caveats, and source provenance. Over the past few weeks I built PastNoise to scratch that exact itch. Instead of generating another text summary, it searches across 206M+ timestamped spoken subtitle lines and stitches 5 to 6 non-duplicate primary speakers into a single continuous screening room, paired with side-by-side Wikipedia, PubMed, Crossref, and OpenAlex citations.",
+      "author": "nonacosa",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Startup"
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 49,
+      "url": "https://dev.to/_cda735563962186822ba/indexing-206m-podcast-subtitle-lines-and-pairing-them-with-pubmed-wikipedia-citations-2ikk",
+      "image": "/images/feed/feed-267f0b6d8bb7.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-b1aeaa7ee549",
+      "title": "The note should be in the language you read, not the one you spoke",
+      "excerpt": "A meeting in Oulu rarely stays in one language. Two people start in Finnish, someone joins from Berlin and switches to English, and one sentence goes to Turkish because that is the word that fits. Eve…",
+      "body": "A meeting in Oulu rarely stays in one language. Two people start in Finnish, someone joins from Berlin and switches to English, and one sentence goes to Turkish because that is the word that fits. Everyone in the room understands. The recording is fine. The note is where it falls apart: if the note keeps the language it was spoken in, the person reading it at 21:00 reads three languages in one document. The decision Gistsmith separates two things that usually travel together: what was spoken, and what you read. The note language is yours to pick. It does not follow the first speaker, the loudest person, or the system language. You set it once, and the note comes out in that language, whatever the room did.",
+      "author": "Senol Dogan",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
       ],
       "featured": false,
-      "xpReward": 52,
-      "url": "https://dev.to/corply/incorporating-a-startup-from-codex-connecting-corplys-mcp-server-59fc",
-      "image": "/images/feed/feed-2f170b490250.webp",
+      "xpReward": 37,
+      "url": "https://dev.to/senoldogan/the-note-should-be-in-the-language-you-read-not-the-one-you-spoke-3j9o",
+      "image": "/images/feed/feed-b1aeaa7ee549.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-0c2b60286d41",
-      "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
-      "excerpt": "It really comes down to how many extra shirts, tattoo designs, and car options you want",
-      "body": "It really comes down to how many extra shirts, tattoo designs, and car options you want\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "id": "feed-9ef1726bbe83",
+      "title": "The Nitro Deck 2 for the Nintendo Switch 2 Is Getting a Black Friday Discount at Amazon",
+      "excerpt": "The Nitro Deck 2 for the Nintendo Switch 2 Is Getting a Black Friday Discount at Amazon",
+      "body": "After a series of delays, the Nitro Deck 2 finally launched for the Nintendo Switch 2 this year. Just like its predecessor, it&#39;s proving to be one of the Switch 2&#39;s hottest accessories for anyone looking to elevate their gaming experience while maintaining comfort over extended periods of time. And with Amazon&#39;s Black Friday sale on now, this new and improved hardware from CRKD has dropped to a new low price of $79.99. For those who already owned this product for the Switch 1, it&#39;s worth getting excited about its suite of upgrades over the new version has compared to the original Nitro Deck . The Nitro Deck 2 is a step up in essentially every meaningful way, providing a far more premium experience over the original.",
+      "author": "Jacob Kienlen",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.ign.com/articles/nitro-deck-2-controller-deal-black-friday-2026",
+      "image": "/images/feed/feed-9ef1726bbe83.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-28a412622300",
+      "title": "How a $6 Beer in GTA 6 Sent Me Into a Spiral of Crime and Anxiety",
+      "excerpt": "How a $6 Beer in GTA 6 Sent Me Into a Spiral of Crime and Anxiety",
+      "body": "I&#39;m relationship-maxxing GTA 6. Forget the money, the cars, or building a criminal empire. My main aim is to make Jason and Lucia so disgustingly loved up that NPCs violently vomit as we walk past being all cute together. I want them to be the perfect couple. I want romance. I want devotion. I want the sort of relationship that makes everyone else in Vice City feel deeply inadequate. Unfortunately, the nuanced way GTA 6 tracks even the smallest actions has turned me into a paranoid lunatic, constantly worrying that one wrong move will destroy my carefully cultivated romance. Case in point: a $6 beer that sent me into a cascade of disasters, petty crime, and emotional turmoil, eventually ending with me restarting an entire mission because I was worried I&#39;d blown it. And honestly?",
+      "author": "Rachel Weber",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.ign.com/articles/how-a-6-beer-in-gta-6-sent-me-into-a-spiral-of-crime-and-anxiety",
+      "image": "/images/feed/feed-28a412622300.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-2836011e46c0",
+      "title": "Motorola Coupon Code for November 2026",
+      "excerpt": "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts.",
+      "body": "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Les Shu",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.wired.com/story/motorola-coupon-code/",
+      "image": "/images/feed/feed-2836011e46c0.png",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-3196ac30931c",
+      "title": "SpaceX launches classified mission for US Space Force from California",
+      "excerpt": "SpaceX launched a classified mission for the U.S. Space Force tonight (Nov. 20), sending a mystery payload to orbit from California's central coast.",
+      "body": "SpaceX launched a classified mission for the U.S. Space Force tonight (Nov. 20), sending a mystery payload to orbit from California's central coast. A Falcon 9 rocket lifted off from Vandenberg Space Force Base tonight at 11:20 p.m. EST (8:20 p.m. local California time; 0420 GMT on Nov. 21), on a Space Force mission called USSF-317. The Falcon 9's first stage came back to Earth about 8.5 minutes later, touching down in the Pacific Ocean atop the SpaceX drone ship \"Of Course I Still Love You.\" It was the 11th launch and landing for this booster, which is designated B1100. The Falcon 9's first stage rests on the deck of a drone ship after launching the USSF-317 mission.",
+      "author": " Mike Wall ",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex",
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317",
+      "image": "/images/feed/feed-3196ac30931c.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-6e511ebfbce4",
+      "title": "Waymo Pulls Robotaxis from Highways",
+      "excerpt": "Waymo has apparently run into some issues with its robotaxis on highways in California, and it has pulled its robotaxis off of highways across the United States as a result. The main issue is that Way…",
+      "body": "Waymo has apparently run into some issues with its robotaxis on highways in California, and it has pulled its robotaxis off of highways across the United States as a result. The main issue is that Waymo robotaxis have entered active construction zones. (Yikes!) Earlier this week, in response to the ... [continued] The post Waymo Pulls Robotaxis from Highways appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://cleantechnica.com/2026/11/21/waymo-pulls-robotaxis-from-highways/",
+      "image": "/images/feed/feed-6e511ebfbce4.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-ee9938af9354",
+      "title": "APOD: 2026 November 21 – Voyager’s Neptune",
+      "excerpt": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differe…",
+      "body": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager&#8217;s Neptune Explanation: Cruising through the outer solar system, the Voyager 2 spacecraft made its closest approach to Neptune on August 25, 1989, the only spacecraft to visit the most distant ice giant planet . Based on the images recorded during its close encounter and in the following days, this inspired composited scene covers the dim outer planet, largest moon Triton , and faint system of rings.",
+      "author": "NASA Breaking News",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
+      "image": "/images/feed/feed-ee9938af9354.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-4b620b0e22cb",
+      "title": "9 Calvin and Hobbes Comics from the 1990s that Prove Bill Watterson is a Genius",
+      "excerpt": "Calvin and Hobbes creator Bill Watterson is a genius. Here are nine comics which prove it.",
+      "body": "Calvin and Hobbes creator Bill Watterson is a genius . Over the course of ten years spanning more than 3,000 comic strips , he developed two truly irresistible characters that are still beloved by millions. There was a lot behind the success of Calvin and Hobbes , but I think part of the reason why Watterson is still so widely respected is that he was an incredibly versatile artist who managed to do a lot of different things in an artform that can sometimes be limiting.",
+      "author": "Brian VanHooker",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.polygon.com/9-perfect-calvin-and-hobbes-1990s-comics/",
+      "image": "/images/feed/feed-4b620b0e22cb.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-248a38360d43",
+      "title": "NIO Launches Special Edition Firefly “Pianke Liujin”",
+      "excerpt": "Initially, I was like, “Wow, I love this car, I have to write about it!” Then I realized there were only going to be 333 units of the model built, so it really isn’t going to make a difference to any…",
+      "body": "Initially, I was like, &#8220;Wow, I love this car, I have to write about it!&#8221; Then I realized there were only going to be 333 units of the model built, so it really isn&#8217;t going to make a difference to any significant degree at all&#8230;. But I love the car ... [continued] The post NIO Launches Special Edition Firefly &#8220;Pianke Liujin&#8221; appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://cleantechnica.com/2026/11/20/nio-launches-special-edition-firefly-pianke-liujin/",
+      "image": "/images/feed/feed-248a38360d43.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-e262e9837ef1",
+      "title": "Startup sues Apple in India over tap-to-share contacts feature",
+      "excerpt": "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India.",
+      "body": "A U.S. startup is seeking $162 million in damages and an injunction to impact iPhone and Apple Watch imports to India.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jagmeet Singh",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://techcrunch.com/2026/11/20/startup-sues-apple-in-india-over-tap-to-share-contacts-feature/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/apple-namedrop.jpg?resize=1200,800",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-cef9bd15687f",
+      "title": "JA Energy Storage Launches an Internal Battery Passport Platform to Facilitate Compliance with EU Standards",
+      "excerpt": "JJA ESS has launched its own battery passport data platform to support lifecycle information management and help companies prepare for upcoming EU regulations. The platform is hosted in the company’s…",
+      "body": "JJA ESS has launched its own battery passport data platform to support lifecycle information management and help companies prepare for upcoming EU regulations. The platform is hosted in the company&#8217;s own cloud environment, giving the team direct responsibility for data policies, access permissions, and future updates. According to the EU ... [continued] The post JA Energy Storage Launches an Internal Battery Passport Platform to Facilitate Compliance with EU Standards appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://cleantechnica.com/2026/11/20/ja-energy-storage-launches-an-internal-battery-passport-platform-to-facilitate-compliance-with-eu-standards/",
+      "image": "/images/feed/feed-cef9bd15687f.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-28b6926a6da1",
+      "title": "energyRe Agreed to Sell 100% of a Portfolio of Utility-Scale Solar Projects in South Carolina to Enel Green Power North America, Totaling 317 MWdc",
+      "excerpt": "energyRe Will Continue as Construction Manager Through Commercial Operation; Sale Reflects Strength of the Company’s South Carolina Development Platform; Transaction Expected to Close in First Quarter…",
+      "body": "energyRe Will Continue as Construction Manager Through Commercial Operation; Sale Reflects Strength of the Company&#8217;s South Carolina Development Platform; Transaction Expected to Close in First Quarter of 2027 energyRe today announced that it has agreed to sell 100% of a portfolio of utility-scale solar projects in South Carolina to Enel ... [continued] The post energyRe Agreed to Sell 100% of a Portfolio of Utility-Scale Solar Projects in South Carolina to Enel Green Power North America, Totaling 317 MWdc appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://cleantechnica.com/2026/11/20/energyre-agreed-to-sell-100-of-a-portfolio-of-utility-scale-solar-projects-in-south-carolina-to-enel-green-power-north-america-totaling-317-mwdc/",
+      "image": "/images/feed/feed-28b6926a6da1.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-b701f13152f7",
+      "title": "New ID. Polo GTI Clubsport Concept: This Electric GTI Is Ready For The Racetrack",
+      "excerpt": "100% electric, 100% GTI Clubsport — the new ID. Polo GTI Clubsport Concept transfers the Clubsport concept designed for maximum performance to the world of electric mobility for the first time Clubspo…",
+      "body": "100% electric, 100% GTI Clubsport — the new ID. Polo GTI Clubsport Concept transfers the Clubsport concept designed for maximum performance to the world of electric mobility for the first time Clubsport is motorsport — with 270 kW (367 PS), 4.7 seconds for the 0-100 km/h sprint, a top speed ... [continued] The post New ID. Polo GTI Clubsport Concept: This Electric GTI Is Ready For The Racetrack appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://cleantechnica.com/2026/11/20/new-id-polo-gti-clubsport-concept-this-electric-gti-is-ready-for-the-racetrack/",
+      "image": "/images/feed/feed-b701f13152f7.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-0456a17c4701",
+      "title": "Pokémon's 24-Part $399 Collection Officially Launches Next Week",
+      "excerpt": "All 24 Pokémon animated movies are coming in one Blu-ray collection, thanks to Viz Media and Amazon.com.",
+      "body": "Viz Media is releasing an Amazon-exclusive, limited-edition set of all 24 Pokémon p http://polygon.com/movies on Blu-ray. It's a beautiful collection that will catch the attention of any fan, but its eye-watering price tag might be the reason potential buyers end up skipping this purchase.",
+      "author": "Ashely Claudino",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/pokemon-movie-collection-amazon-blu-ray-november-2026/",
+      "image": "/images/feed/feed-0456a17c4701.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-5a4db3128c68",
+      "title": "Pokémon Go Pawniard Community Day event guide",
+      "excerpt": "Here's all you need to know for Pokémon Go's Pawniard Community Day event, including how to find a shiny Pawniard and evolve Bisharp into Kingambit.",
+      "body": "Pokémon Go is having a Pawniard Community Day event on Saturday, Nov. 21 from 2-5 p.m. in your local time. This event is indeed running alongside the \"Dynamax Trails\" event , and it begins right when Eternatus' stint in the morning ends.",
+      "author": "Julia Lee",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.polygon.com/pokemon-go-pawniward-community-day-shiny-bisharp-moveset/",
+      "image": "/images/feed/feed-5a4db3128c68.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-bab243a7886b",
+      "title": "How Can Energy Improve Lives? Why Counting Connections Isn’t Enough",
+      "excerpt": "Global tracking of energy access should expand beyond connections to include affordability, reliability, adequacy, and development outcomes. Access to energy is a cornerstone of development—it can imp…",
+      "body": "Global tracking of energy access should expand beyond connections to include affordability, reliability, adequacy, and development outcomes. Access to energy is a cornerstone of development—it can improve health, education, incomes, and overall quality of life. But access is only the first step. A health clinic can’t perform surgery if frequent ... [continued] The post How Can Energy Improve Lives? Why Counting Connections Isn’t Enough appeared first on CleanTechnica .",
+      "author": "World Resources Institute",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://cleantechnica.com/2026/11/20/how-can-energy-improve-lives-why-counting-connections-isnt-enough/",
+      "image": "/images/feed/feed-bab243a7886b.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-e575e9def61a",
+      "title": "The Witcher 4 Gets Official Update on Physical Release",
+      "excerpt": "CD Projekt Red is planning a The Witcher 4 physical release, even though it admits it has \"no influence\" over PS5 and Xbox disc production",
+      "body": "CD Projekt has confirmed that a physical version of The Witcher 4 will be released, even though the RPG is slated to launch after Sony Interactive Entertainment plans to stops producing physical games for PlayStation 5. Whether The Witcher 4 will be released on a physical disc is another matter entirely.",
+      "author": "Tomas Franzese",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/the-witcher-4-physical-release-cd-projekt-red-ps5/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/ciri-witcher-4.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-77b4c98b00a5",
+      "title": "Yozma IN 11 Review — Offroad Dirt Biking with 4800W Peak Power",
+      "excerpt": "As a teen, I loved riding — anything, my skateboard, my bike, whatever had wheels and I could get moving on, I was there for it. Then I spent a few years racing mountain bikes in the NORBA circuit whe…",
+      "body": "As a teen, I loved riding — anything, my skateboard, my bike, whatever had wheels and I could get moving on, I was there for it. Then I spent a few years racing mountain bikes in the NORBA circuit when I was in my mid-20&#8217;s. I was never very good ... [continued] The post Yozma IN 11 Review — Offroad Dirt Biking with 4800W Peak Power appeared first on CleanTechnica .",
+      "author": "Industry Sponsor",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://cleantechnica.com/2026/11/20/yozma-in-11-review-offroad-dirt-biking-with-4800w-peak-power/",
+      "image": "/images/feed/feed-77b4c98b00a5.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-5e6da20d451a",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "excerpt": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been cha…",
+      "body": "The chief technology officer and co-founder of ransomwarehelp.com , a six year old Florida business that claimed to use &#8220;advanced cryptographic tools&#8221; to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work that was never performed. A portion of the now-defunct website ransomwarehelp.com. The website RansomwareHelp urged victims &#8220;Do not pay the ransom!,&#8221; claiming its advanced cryptographic tools could restore 100 percent of data, servers, and systems to their original format, and that there was no need to give in to extortion demands.",
+      "author": "BrianKrebs",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Ransomware"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "image": "/images/topics/topic-cybersecurity.png",
+      "source": "Krebs on Security",
+      "isLive": true
+    },
+    {
+      "id": "feed-fb3e19924910",
+      "title": "Here Are Some Super Useful Control Shortcuts GTA 6 Doesn’t Tell You About",
+      "excerpt": "Did you know you can turn your radio on and off without using a submenu?",
+      "body": "Did you know you can turn your radio on and off without using a submenu?\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "Zack Zwiezen",
       "date": "2026-11-21",
       "readTime": "2 min",
@@ -147,67 +491,10 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 47,
-      "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
-      "image": "/images/feed/feed-0c2b60286d41.jpg",
+      "xpReward": 39,
+      "url": "https://kotaku.com/here-are-some-super-useful-control-shortcuts-gta-6-doesnt-tell-you-about-2000759100",
+      "image": "/images/feed/feed-fb3e19924910.jpg",
       "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-053a2a6d532d",
-      "title": "Everything We Know About GTA 7",
-      "excerpt": "GTA 7 is not much more than a hypothetical at this point, with GTA 6 having just been released, but there are some hints about GTA's future.",
-      "body": "Grand Theft Auto 6 has only just been released, so it might seem a bit early to start thinking about Grand Theft Auto 7 . I swear I’m not just writing an “Everything we know about GTA 7” article just so I can stuff a post with the “Everything we know about GTA 7” keyword and have Polygon own “Everything we know about GTA 7” search queries. That would be quite a gambit.",
-      "author": "Ari Notis",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.polygon.com/gta-7-release-setting/",
-      "image": "/images/feed/feed-053a2a6d532d.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-588cbcb588ed",
-      "title": "8 Near-Perfect Fantasy Miniseries That Hook You in the First Episode",
-      "excerpt": "From gothic castles to hidden London underworlds, these essential fantasy miniseries cast an instant spell on viewers from episode one.",
-      "body": "Fantasy television has given us some of the most imaginative stories ever told, transporting viewers to magical kingdoms, mysterious alternate realities, and worlds filled with creatures that shouldn't exist. Shows like Game of Thrones and Rings of Power dominate the conversation, pushing some of the genre's best storytelling to the forefront, but there’s something to be said of the smaller productions and shorter stories.",
-      "author": "Ryan Epps",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.polygon.com/8-near-perfect-fantasy-miniseries-that-hook-you-in-the-first-episode/",
-      "image": "/images/feed/feed-588cbcb588ed.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-2cfaf4ce76bb",
-      "title": "'Steps' Ending Explained: Director Reveals the True Meaning Behind Cinderella Adaptation",
-      "excerpt": "The inclusive ending of Netflix's hottest animated hit 'Steps' is perfectly explained by its directors.",
-      "body": "Netflix’s newest animated sensation, directed by Alyce Tzue ( Soar ) and John Ripa ( Raya and the Last Dragon ), dares to ask: what if Cinderella’s ugly stepsisters weren’t so ugly and bad after all, but were instead besieged by a Western world that reacted to their East Asian heritage with distrust and unease?",
-      "author": "Aimee Hart",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.polygon.com/netflix-steps-ending-explained/",
-      "image": "/images/feed/feed-2cfaf4ce76bb.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -223,7 +510,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 42,
       "url": "https://www.engadget.com/2323929/why-you-shouldnt-rely-on-gta-6-auto-save/",
       "image": "/images/feed/feed-c0c7dca693dc.jpg",
       "source": "Engadget",
@@ -242,7 +529,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 53,
       "url": "https://9to5mac.com/2026/11/20/daily-november-20-2026/",
       "image": "/images/feed/feed-4bb0c619ef8c.jpg",
       "source": "9to5Mac",
@@ -261,48 +548,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 49,
       "url": "https://www.engadget.com/2323927/youtube-could-pay-3-billion-to-settle-social-media-addiction-lawsuits-with-school-districts/",
       "image": "/images/feed/feed-5aed955b7d17.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-240dec25350f",
-      "title": "How To Solve All Main Puzzles In GTA 6′s Tenebrae Lux",
-      "excerpt": "Hope you like sea shanties!",
-      "body": "Hope you like sea shanties!\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Rebekah Valentine",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://kotaku.com/how-to-solve-all-main-puzzles-in-gta-6s-tenebrae-lux-2000758940",
-      "image": "/images/feed/feed-240dec25350f.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-8685c65c5c02",
-      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
-      "excerpt": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.",
-      "body": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Miles Klee",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
-      "image": "/images/feed/feed-8685c65c5c02.jpg",
-      "source": "Wired",
       "isLive": true
     },
     {
@@ -318,29 +567,10 @@
         "Iphone"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 37,
       "url": "https://9to5mac.com/2026/11/20/ios-27-lets-you-use-two-iphones-with-the-same-phone-number/",
       "image": "/images/feed/feed-62a67ac5387d.jpg",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-705d1e05f248",
-      "title": "8 Amazing Indie Games We Think You Should Go Play",
-      "excerpt": "Spare a thought for the indie games that have recently come out",
-      "body": "Spare a thought for the indie games that have recently come out\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ash Parrish",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://kotaku.com/8-amazing-indie-games-we-think-you-should-go-play-2000758862",
-      "image": "/images/feed/feed-705d1e05f248.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -356,7 +586,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 35,
       "url": "https://science.nasa.gov/photojournal/curiosity-spots-drifting-twilight-clouds/",
       "image": "/images/feed/feed-9c4d73493b67.jpg",
       "source": "NASA Breaking News",
@@ -375,67 +605,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 47,
       "url": "https://www.engadget.com/2323828/the-internet-archives-workers-are-unionizing/",
       "image": "/images/feed/feed-bba7fd0562f4.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-e80eb9179d6d",
-      "title": "Titan 2 Elite keyboard phone is getting a fresh color, and fans already have guesses",
-      "excerpt": "The Titan 2 Elite will get a new shade later this month.",
-      "body": "Credit: Stephen Radochia / Android Authority TL;DR Unihertz is teasing a new colorway for the Titan 2 Elite. The new colorway will be revealed later this month. This new color will become the third available option. If you’ve been dying for a return to QWERTY phones, this was the year for you. Not only did we get an announcement for the Clicks Communicator at the beginning of the year, but Unihertz also released the Titan 2 Elite and Elite Pro. Now Unihertz is teasing a new version of its compact keyboard phone. On X, Unihertz shared a teaser featuring the shadow of a hand holding on to the shadow of a Titan 2 Elite. Included in that image are the words “Coming Soon” and the date November 2026. Along with the teaser image is a message that reads “New color. Who dis?”",
-      "author": "Ryan McNeal",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.androidauthority.com/unihertz-teases-new-titan-2-elite-colorway-3737949/",
-      "image": "/images/feed/feed-e80eb9179d6d.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-e3e9bf9a9be6",
-      "title": "9to5Mac Overtime 091: Kicking the tires and seeing what works",
-      "excerpt": "Fernando and Jeff are back to talk about the iPhone Duo after a month of use, including the new face unlock and close-to-lock toggle in iOS 27.3 beta 2. They also dig into Siri AI’s Health app access…",
-      "body": "Fernando and Jeff are back to talk about the iPhone Duo after a month of use, including the new face unlock and close-to-lock toggle in iOS 27.3 beta 2. They also dig into Siri AI’s Health app access and its quirks, the HomePod mini stereo pair on Mac, the M6 Mac mini, the new iPad mini, and Apple’s upsell-heavy configurations. 9to5Mac Overtime is a weekly video-first podcast exploring fun and interesting observations in the Apple ecosystem, featuring 9to5Mac’s Fernando Silva &amp; Jeff Benjamin. Subscribe to Overtime via Apple Podcasts and our YouTube channel for more. more…",
-      "author": "Jeff Benjamin",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://9to5mac.com/2026/11/20/9to5mac-overtime-091-kicking-the-tires-and-seeing-what-works/",
-      "image": "/images/feed/feed-e3e9bf9a9be6.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-86e467d759ee",
-      "title": "BYD offers a first look at its new flagship people mover",
-      "excerpt": "BYD is preparing to launch a new flagship MPV soon after previewing the large people mover for the first time. more…",
-      "body": "BYD is preparing to launch a new flagship MPV soon after previewing the large people mover for the first time. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://electrek.co/2026/11/20/byd-first-look-new-flagship-people-mover/",
-      "image": "/images/feed/feed-86e467d759ee.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -453,29 +626,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 31,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-20-2026",
       "image": "/images/feed/feed-dc3e81286a95.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-76f910d04920",
-      "title": "This 500 kWh energy storage system runs on retired EV batteries",
-      "excerpt": "A retired EV battery can still have years of use left in it when it’s taken off the road. Moment Energy’s new Nova battery storage system puts those packs to work on commercial sites. And when a pack…",
-      "body": "A retired EV battery can still have years of use left in it when it’s taken off the road. Moment Energy’s new Nova battery storage system puts those packs to work on commercial sites. And when a pack — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michelle Lewis",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://electrek.co/2026/11/20/this-500-kwh-energy-storage-system-runs-on-retired-ev-batteries/",
-      "image": "/images/feed/feed-76f910d04920.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -491,7 +645,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 47,
       "url": "https://www.space.com/astronomy/moon/dont-turn-the-moon-into-the-wild-west-scientists-warn",
       "image": "/images/feed/feed-c5141f616571.jpg",
       "source": "Space.com",
@@ -510,7 +664,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 37,
       "url": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Moor-Studio.jpg?resize=1200,705",
       "source": "TechCrunch",
@@ -529,7 +683,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 34,
       "url": "https://www.nasa.gov/directorates/rtmd/new-nasa-seed-funding-primes-small-businesses-for-innovation/",
       "image": "/images/feed/feed-4d5a0be027ca.png",
       "source": "NASA Breaking News",
@@ -548,68 +702,10 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 35,
       "url": "https://www.cnet.com/science/space/nasa-escapade-mars-gravity-assist/",
       "image": "/images/feed/feed-45fd14814727.jpg",
       "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-d7dec6f54ae2",
-      "title": "GTA hasn't gone to space (yet), but these sci-fi games can offer you a life of crime among the stars",
-      "excerpt": "Grand Theft Auto 6 is finally out, but if you're a sci-fi aficionado looking for similar experiences set in outer space, there are several alternatives.",
-      "body": "GTA 6 has only just come out, and it's already taken the world by storm and positioned itself as one of the greatest games of all time . Great news for gamers, but what about sci-fi fans? To this day, Rockstar Games sadly hasn't embraced sci-fi with any of its open-world games (save for those UFO Easter eggs). It doesn't seem likely they'll journey to the stars anytime soon — you can't really do cutting societal satire about space — but that doesn't mean there aren't GTA-adjacent sci-fi adventures set in outer space. The frustrating thing is that no one has exactly cracked that pitch yet. Non-linear games set in outer space tend to be either too ambitious, like No Man's Sky, or too focused on specific experiences like space combat, like Star Wars: Squadrons.",
-      "author": " Fran Ruiz ",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.space.com/entertainment/space-games/gta-hasnt-gone-to-space-yet-but-these-sci-fi-games-can-offer-you-a-life-of-crime-among-the-stars",
-      "image": "/images/feed/feed-d7dec6f54ae2.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-3895243c8029",
-      "title": "Podcast: Tesla’s ‘personal’ Cybercab, Ford’s LFP for Fathom, Aptera delivers, and more",
-      "excerpt": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla launching the ‘personal’ Cybercab, Ford’s LFP fo…",
-      "body": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla launching the ‘personal’ Cybercab, Ford’s LFP fo — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Fred Lambert",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://electrek.co/2026/11/20/podcast-teslas-personal-cybercab-fords-lfp-for-fathom-aptera-delivers-and-more/",
-      "image": "/images/feed/feed-3895243c8029.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-bd6d0f73487e",
-      "title": "Trouble at Mars: NASA's Perseverance rover, Odyssey orbiter halt science work due to glitches",
-      "excerpt": "Perseverance has been sidelined by an antenna issue, and the venerable Odyssey orbiter is dealing with a balky reaction wheel. NASA hopes both can get back to work by the end of November.",
-      "body": "Two of NASA's Mars explorers are sidelined by glitches at the moment. The Perseverance rover and Mars Odyssey orbiter have stood down from science work due to technical problems, NASA announced on Thursday (Nov. 19). Perseverance has been sidelined by an antenna issue, and the venerable Odyssey is dealing with a balky reaction wheel. NASA hopes both can get back to work at Mars by the end of November. Communication issues for Perseverance Perseverance landed inside Mars' Jezero Crater in February 2021, tasked with assessing the area's potential to support past life and with collecting dozens of samples for future return to Earth. It has done all this and more. The Perseverance team has determined that Jezero hosted a potentially habitable lake billions of years ago.",
-      "author": " Mike Wall ",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa",
-        "Orbit"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.space.com/astronomy/mars/trouble-at-mars-nasas-perseverance-rover-odyssey-orbiter-halt-science-work-due-to-glitches",
-      "image": "/images/feed/feed-bd6d0f73487e.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -625,7 +721,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 42,
       "url": "https://www.cnet.com/tech/services-and-software/signal-text-message-screenshots/",
       "image": "/images/feed/feed-3e186dfc3598.jpg",
       "source": "CNET",
@@ -644,29 +740,10 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 41,
       "url": "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/",
       "image": "/images/feed/feed-c23ef5c11676.jpg",
       "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-d1a6b3df647e",
-      "title": "Anker S5000 5kWh power station back at $2,375 exclusive low ($1,225 off), Segway Max G3 Plus e-scooter new $1,000 low, more",
-      "excerpt": "If you weren’t aware, Amazon’s full Black Friday event is in motion, and deals are flying from across countless brands, with Anker and Segway being our two headliners today. First up, the expanded Ank…",
-      "body": "If you weren’t aware, Amazon’s full Black Friday event is in motion, and deals are flying from across countless brands, with Anker and Segway being our two headliners today. First up, the expanded Anker SOLIX Black Friday Sale has dropped the new S5000 5,024Wh Power Station back to an exclusive $2,375 low with increased savings. There’s also the increased Anker eufy security savings, too, like the 16GB or 1TB eufyCam S4 Solar Security 4-Cam Kits at lows from $950 , among many other options. Segway has also dropped its Max G3 Plus Electric Scooter to a new $1,000 low , while the Navimow i215 LiDAR Robot Mower is at a $1,329 low , with more waiting below.",
-      "author": "Reinette LeJeune",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://electrek.co/2026/11/20/anker-s5000-5kwh-power-station-segway-max-g3-plus-e-scooter-more/",
-      "image": "/images/feed/feed-d1a6b3df647e.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -682,7 +759,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 51,
       "url": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
       "image": "/images/feed/feed-247a71d62489.jpg",
       "source": "BleepingComputer",
@@ -701,29 +778,10 @@
         "Security"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 52,
       "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
       "image": "/images/feed/feed-58eefaa33e7e.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-3edcb9d95080",
-      "title": "Renault undercuts BYD with a new EV that costs less than $20,000",
-      "excerpt": "The new Renault Twingo E-Tech is among the most affordable vehicles, electric or gas-powered, starting at just £14,745 in the UK, or under $20,000. more…",
-      "body": "The new Renault Twingo E-Tech is among the most affordable vehicles, electric or gas-powered, starting at just £14,745 in the UK, or under $20,000. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://electrek.co/2026/11/20/renault-undercuts-byd-new-ev-costs-less-than-20000/",
-      "image": "/images/feed/feed-3edcb9d95080.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -740,29 +798,10 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 53,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
       "image": "/images/feed/feed-bbf2c3f2ae6a.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-b8c37326a6de",
-      "title": "Electric Vans — Are They The Final EV Frontier? Kia PV5.",
-      "excerpt": "We took a trip to see the Kia PV5 electric van. Our brief takeaway: “Kool like a Kia.” Should keep the bean counters happy. Inspired by a comment in the Electric Vehicle Council report about electric…",
-      "body": "We took a trip to see the Kia PV5 electric van. Our brief takeaway: “Kool like a Kia.” Should keep the bean counters happy. Inspired by a comment in the Electric Vehicle Council report about electric vans, Majella and I decided to have a short visit to a group of ... [continued] The post Electric Vans — Are They The Final EV Frontier? Kia PV5. appeared first on CleanTechnica .",
-      "author": "David Waterworth",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://cleantechnica.com/2026/11/20/electric-vans-are-they-the-final-ev-frontier-kia-pv5/",
-      "image": "/images/feed/feed-b8c37326a6de.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -778,7 +817,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 48,
       "url": "https://www.cnet.com/tech/services-and-software/google-gemini-clears-firefighter-radio-static/",
       "image": "/images/feed/feed-37112e0686e5.jpg",
       "source": "CNET",
@@ -797,7 +836,7 @@
         "Malware"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 47,
       "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
       "image": "/images/feed/feed-9ab8a41daf1f.jpg",
       "source": "The Hacker News",
@@ -817,49 +856,10 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 41,
       "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "image": "/images/feed/feed-e7bc21e40b78.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-4dad05c1729e",
-      "title": "The Metals Company Has a Seabed Mining Production Gap That Its Pilot Has Not Closed",
-      "excerpt": "TMC’s seabed-mining pilot demonstrated collection, but the commercial case still depends on unproven annual output, uptime and operating costs. The post The Metals Company Has a Seabed Mining Producti…",
-      "body": "TMC’s seabed-mining pilot demonstrated collection, but the commercial case still depends on unproven annual output, uptime and operating costs. The post The Metals Company Has a Seabed Mining Producti — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by CleanTechnica, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CleanTechnica using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Michael Barnard",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://cleantechnica.com/2026/11/20/the-metals-company-has-a-seabed-mining-production-gap-that-its-pilot-has-not-closed/",
-      "image": "/images/feed/feed-4dad05c1729e.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-eab77a63bf1e",
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "excerpt": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
-      "body": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Data Breach, Breach. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-11-20",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Data Breach",
-        "Breach"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "image": "/images/feed/feed-eab77a63bf1e.jpg",
-      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -875,7 +875,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 40,
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "image": "/images/feed/feed-7121ba7c9173.png",
       "source": "OpenAI Blog",
@@ -894,7 +894,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 32,
       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -913,7 +913,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 53,
       "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
       "source": "TechCrunch",
@@ -932,7 +932,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 33,
       "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Chenyu-Zhao.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -940,16 +940,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: Node.js PNG Retention: Verifying AI Image Buffers in S3-Compatible Tenant Storage",
-    "DEV.TO: Invoice Template Ownership With Uploaded Scan OCR and Extracted Text Validation",
-    "DEV.TO: Schema-First Practices for Debugging Malformed JSON Responses in Notification Failure Workflows",
-    "DEV.TO: 4 Intense Product Manager Interview Questions and how to ace them.",
-    "DEV.TO: Thoughts on “Bias Towards Action”",
-    "DEV.TO: Stop Returning Bare Linter Error Codes to Coding Agents: Opaque Error Codes vs. Actionable Fix-Hint Linters (-69.6% Input Tokens)",
-    "DEV.TO: Incorporating a startup from Codex: connecting Corply's MCP server",
-    "KOTAKU: So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
-    "POLYGON: Everything We Know About GTA 7",
-    "POLYGON: 8 Near-Perfect Fantasy Miniseries That Hook You in the First Episode"
+    "DEV.TO: Building an offline-first Flutter ledger for shops: what \"no internet\" really costs",
+    "DEV.TO: Stop Calling Every Chatbot an Agent: The Goal Plan Act Loop That Actually Earns the Name",
+    "DEV.TO: OAuth mix-up defense needs the RFC 9207 issuer response check",
+    "DEV.TO: Train a 64M LLM in 2 Hours (MiniMind) + 4 Official Card-Free AI Dev Grants in 2026",
+    "DEV.TO: The Tasks of Mathematicians and Software Engineers Are Converging in the Age of AI",
+    "DEV.TO: Indexing 206M+ Podcast Subtitle Lines and Pairing Them with PubMed & Wikipedia Citations",
+    "DEV.TO: The note should be in the language you read, not the one you spoke",
+    "IGN: The Nitro Deck 2 for the Nintendo Switch 2 Is Getting a Black Friday Discount at Amazon",
+    "IGN: How a $6 Beer in GTA 6 Sent Me Into a Spiral of Crime and Anxiety",
+    "WIRED: Motorola Coupon Code for November 2026"
   ],
   "sectionVideos": {}
 }
