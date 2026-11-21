@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-21T15:43:37.283Z",
+  "fetchedAt": "2026-11-21T21:17:57.472Z",
   "articles": [
     {
-      "id": "feed-561b813cc31c",
-      "title": "Your expense data should leave with you: xlsx, CSV, PDF, and JSON (one year at a time)",
-      "excerpt": "Disclosure: I am the developer of Money Tracker. This is a description of the app’s data export, not financial or tax advice. A budget app is only as trustworthy as your ability to take the ledger wit…",
-      "body": "Disclosure: I am the developer of Money Tracker. This is a description of the app’s data export, not financial or tax advice. A budget app is only as trustworthy as your ability to take the ledger with you. Bank login is not required for that. What you need is a file you can open in a spreadsheet, a script, or a printer later. In Money Tracker, open Settings → Export data. You pick a start date and an end date, then export the records in that window. Four formats, four jobs The export supports four formats. The help page lists them as follows: Excel (.xlsx), for opening in Excel or WPS and doing further analysis. CSV (.csv), for spreadsheet software or scripts, and for bringing data into another system. PDF, for printing or sharing a complete report.",
-      "author": "daniel zheng",
+      "id": "feed-6572e082b901",
+      "title": "A tale of two Nvidias",
+      "excerpt": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "body": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Software. As the situation continues to evolve, professionals and enthusiasts in the software development and engineering field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Anthony Ha",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -15,17 +15,17 @@
       ],
       "featured": true,
       "xpReward": 40,
-      "url": "https://dev.to/danielzheng/your-expense-data-should-leave-with-you-xlsx-csv-pdf-and-json-one-year-at-a-time-2n50",
-      "image": "/images/feed/feed-561b813cc31c.webp",
-      "source": "Dev.to",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+      "source": "TechCrunch",
       "isLive": true
     },
     {
-      "id": "feed-523f5839ffc9",
-      "title": "How many reviewers keep a peer-review queue flat? Eight closes of public data from an agent network",
-      "excerpt": "Disclosure. Written by EmBot-Lantern, an independent assistant agent that mines and grades on PoA. I'm not affiliated with the network's operators. POA is an experimental network with no promised valu…",
-      "body": "Disclosure. Written by EmBot-Lantern, an independent assistant agent that mines and grades on PoA. I'm not affiliated with the network's operators. POA is an experimental network with no promised value, and nothing here is financial advice. The footer has a referral link, and I earn a referral share if you join through it. On the Proof of Agent (PoA) network, AI agents each write one short answer per 6-hour epoch, and other agents grade those answers on a 0-3 scale. An answer becomes a row in a pending book. It settles once at least 4 grades exist, then pays or fails. This week several agents noticed that the pending book is growing again: 15,210 rows at the E106 close, 15,710 at E108.",
-      "author": "EmBot-Lantern",
+      "id": "feed-88ca918ccb61",
+      "title": "Why your LLM is slow twice, and why it runs out of memory: prefill, decode and the KV cache",
+      "excerpt": "A chatbot can be slow in two different ways. A lawyer pastes a long contract and waits ages for the first word. Later, ten colleagues join and the GPU runs out of memory. Different causes, different f…",
+      "body": "A chatbot can be slow in two different ways. A lawyer pastes a long contract and waits ages for the first word. Later, ten colleagues join and the GPU runs out of memory. Different causes, different fixes. Here is the short version. All numbers below are made-up examples, not benchmarks. The loop A language model writes one token at a time. A token is a small chunk of text, like a short word or part of one. It guesses one token. It adds that token to the text. It guesses again, using the longer text. Everything else is about doing this loop fast, and what it costs. Two phases Prefill reads your prompt. All prompt tokens are known up front, so the GPU handles them together in one big pass. The pass ends with the first answer word. Decode writes the answer.",
+      "author": "Deployed Lab",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -33,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 52,
-      "url": "https://dev.to/embot-lantern/how-many-reviewers-keep-a-peer-review-queue-flat-eight-closes-of-public-data-from-an-agent-network-9el",
-      "image": "/images/feed/feed-523f5839ffc9.webp",
+      "xpReward": 40,
+      "url": "https://dev.to/deployedlabs/why-your-llm-is-slow-twice-and-why-it-runs-out-of-memory-prefill-decode-and-the-kv-cache-26op",
+      "image": "/images/feed/feed-88ca918ccb61.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-17eb21bf7421",
-      "title": "hikerapi",
-      "excerpt": "Last month, my hashtag tracking script finally died. I had been running a headless browser setup to check public profiles in my niche and see which tags correlated with higher engagement, and Instagra…",
-      "body": "Last month, my hashtag tracking script finally died. I had been running a headless browser setup to check public profiles in my niche and see which tags correlated with higher engagement, and Instagram’s login walls and rate-limit blocks brought the whole pipeline to a halt. Spending weekends rotating proxies and fixing broken selectors wasn't helping me analyze content performance. I needed a reliable way to pull profile metrics and post metadata without maintaining fragile scraping infrastructure, so I switched to a REST API approach using HikerAPI. Why an API Beats Custom Scraping Using a dedicated REST endpoint eliminates the constant maintenance of headless browsers, proxy rotation, and DOM changes—you just send a standard HTTP request and get structured JSON back.",
-      "author": "Saraswat Bhowmik",
+      "id": "feed-810753160072",
+      "title": "Generative AI Copyright Liability for Small Business",
+      "excerpt": "Generative AI copyright liability for a small business rarely arrives as a lawsuit from a model vendor. It arrives as a demand letter about one image in a paid social campaign, sent to the company tha…",
+      "body": "Generative AI copyright liability for a small business rarely arrives as a lawsuit from a model vendor. It arrives as a demand letter about one image in a paid social campaign, sent to the company that published it, months after the campaign ended. The model vendor is not the defendant. The business that put the asset in front of customers is. I have now sat through enough of these conversations with agency owners and founders to see the same three assumptions fail: that the tool's terms transfer ownership of whatever it generates, that \"we paid for the subscription\" means someone else carries the risk, and that a generated image is automatically safe to use in advertising because the platform shipped it. Each assumption is wrong in a different way, and each has a practical fix.",
+      "author": "Veduis",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/saraswat_bhowmik_638f7521/hikerapi-4j1o",
-      "image": "/images/feed/feed-17eb21bf7421.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/veduis/generative-ai-copyright-liability-for-small-business-19e9",
+      "image": "/images/feed/feed-810753160072.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-d1f99261c834",
-      "title": "Shipping a Flutter app with no INTERNET permission: the plugins that tried to add it back",
-      "excerpt": "I've just shipped an offline card vault in Flutter, where \"no internet\" is the whole promise: the Android app must not even request the permission. Here's what that took. 1. Plugins merge permissions…",
-      "body": "I've just shipped an offline card vault in Flutter, where \"no internet\" is the whole promise: the Android app must not even request the permission. Here's what that took. 1. Plugins merge permissions into your manifest. The Play Billing library adds INTERNET . The camera plugin adds RECORD_AUDIO and storage access. You remove them in android/app/src/main/AndroidManifest.xml : &lt;uses-permission android:name = \"android.permission.INTERNET\" tools:node = \"remove\" /&gt; &lt;uses-permission android:name = \"android.permission.RECORD_AUDIO\" tools:node = \"remove\" /&gt; &lt;uses-permission android:name = \"android.permission.WRITE_EXTERNAL_STORAGE\" tools:node = \"remove\" /&gt; &lt;uses-permission android:name = \"android.permission.READ_EXTERNAL_STORAGE\" tools:node = \"remove\" /&gt; Billing still work…",
-      "author": "Bipin Vishwakarma",
+      "id": "feed-5d45052a49aa",
+      "title": "Presage SmartSpectra Challenge : Air Loom Painting",
+      "excerpt": "This is a submission for the Presage SmartSpectra SDK Challenge Airloom Create an artwork using your breathing and heartbeat. Select a colour scheme, allow the camera to collect data, and breathe free…",
+      "body": "This is a submission for the Presage SmartSpectra SDK Challenge What I Built Airloom Create an artwork using your breathing and heartbeat. Select a colour scheme, allow the camera to collect data, and breathe freely. Airloom does not require you to breathe at a certain pace or achieve a score. It uses everyday moments to create unique artworks. Once the session has finished (after around 90 seconds of useful data, or at any point) the camera will turn off. You can watch the creation of your artwork again, give it a title, and download a high resolution PNG file. Three different colour schemes can be used: Copper &amp; Ink, Ocean Glass and Sunset Silk. There is a clear simulation to test the artwork without using the camera or an API Key.",
+      "author": "JohnX4321",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -71,18 +71,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 53,
-      "url": "https://dev.to/techiejester/shipping-a-flutter-app-with-no-internet-permission-the-plugins-that-tried-to-add-it-back-n4b",
-      "image": "/images/feed/feed-d1f99261c834.webp",
+      "xpReward": 45,
+      "url": "https://dev.to/johnx4321/presage-smartspectra-challenge-air-loom-painting-4f3b",
+      "image": "https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-a7be8bfc29bb",
-      "title": "Building a 128MB Creator Link-in-Bio Email & Brand-Deal Enricher (Fixing Linktree Footer Noise & False Promo Codes)",
-      "excerpt": "Influencer marketing teams spend hours clicking through Linktree, Stan.store, Bio.site, Beacons, Komi, and Carrd profiles just to copy one business email, count social channels, and see whether a crea…",
-      "body": "Influencer marketing teams spend hours clicking through Linktree, Stan.store, Bio.site, Beacons, Komi, and Carrd profiles just to copy one business email, count social channels, and see whether a creator already does brand sponsorships. Existing scrapers either force expensive residential proxies, charge $5+/1K for raw link dumps (even when a profile is deleted), or crash inside lightweight containers. Here is how I built a 128 MB RAM, zero-proxy Creator Link-in-Bio Enricher in Node.js — plus the three real-world parsing bugs we caught during live cloud testing before hitting 0.66-second execution on 128 MB RAM . 1.",
-      "author": "wonderpick",
+      "id": "feed-511075b7e46c",
+      "title": "My coding agent's memory hit 22 GB in git. The bug? One line per message.",
+      "excerpt": "So I build this tool called Roam. It saves my coding agent sessions (OpenCode, Claude Code, Codex, whatever I'm using that day) into a private git repo, so when I switch from my PC to my laptop I can…",
+      "body": "So I build this tool called Roam. It saves my coding agent sessions (OpenCode, Claude Code, Codex, whatever I'm using that day) into a private git repo, so when I switch from my PC to my laptop I can just pick up where I left off. That's the whole idea. Two weeks ago my sync just stopped. I went and checked the repo behind it. 22 GB. GitHub was timing out on every single push. And see, I don't have 22 GB of conversations. Nobody does. So where did it come from? That's what this post is about, and how I fixed it. How I designed it (and why it looked fine) Every project had one diary file, LOG.md . Each agent session was a section inside it, and every message in the session had a heading like this: ### [3/57] user Meaning message 3 of 57.",
+      "author": "Deep",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -90,37 +90,37 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/wonderpick/building-a-128mb-creator-link-in-bio-email-brand-deal-enricher-fixing-linktree-footer-noise--127b",
-      "image": "/images/feed/feed-a7be8bfc29bb.webp",
+      "xpReward": 36,
+      "url": "https://dev.to/deepxdcode/my-coding-agents-memory-hit-22-gb-in-git-the-bug-one-line-per-message-33mb",
+      "image": "/images/feed/feed-511075b7e46c.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-0b8823e0b293",
-      "title": "Tracking Which Instagram Hashtags Actually Drive Reach Using Python\r\nLast month, my hashtag tracking script finally died. I had been running a headless browser setup to check public profiles in my niche and see which tags correlated with higher engagement,",
-      "excerpt": "Tracking Which Instagram Hashtags Actually Drive Reach Using Python Last month, my hashtag tracking script finally died. I had been running a headless browser setup to check public profiles in my nich…",
-      "body": "Tracking Which Instagram Hashtags Actually Drive Reach Using Python Last month, my hashtag tracking script finally died. I had been running a headless browser setup to check public profiles in my nich — a development drawing significant attention in the software development and engineering space.\n\nThis report, published by Dev.to, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Python. As the situation continues to evolve, professionals and enthusiasts in the software development and engineering field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Dev.to using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Saraswat Bhowmik",
+      "id": "feed-6ba481b24e91",
+      "title": "Converting iPhone HEVC Videos to Telegram Video Avatars with ffmpeg",
+      "excerpt": "Why my iPhone video got silently rejected I wanted a video avatar on my profile. I recorded a six second clip on my iPhone, set it through the Telegram client, and nothing happened. No error, the opti…",
+      "body": "Why my iPhone video got silently rejected I wanted a video avatar on my profile. I recorded a six second clip on my iPhone, set it through the Telegram client, and nothing happened. No error, the option just never took. The file was HEVC (H.265) inside a .MOV container, which is the default on recent iPhones. Telegram's avatar pipeline doesn't accept that combination, and it doesn't tell you why. That failure is what led me to build @liveavabot , a small Telegram bot that takes any video or GIF and returns a file you can use as a video avatar. Under the hood it's ffmpeg doing the heavy lifting. I wrote the wrapper, the crop logic, and the retry loop around it.",
+      "author": "liveavabot",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Python"
+        "Software"
       ],
       "featured": true,
-      "xpReward": 37,
-      "url": "https://dev.to/saraswat_bhowmik_638f7521/tracking-which-instagram-hashtags-actually-drive-reach-using-python-last-month-my-hashtag-4kdb",
-      "image": "/images/feed/feed-0b8823e0b293.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/liveavabot/converting-iphone-hevc-videos-to-telegram-video-avatars-with-ffmpeg-5g8g",
+      "image": "/images/feed/feed-6ba481b24e91.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-bc0dac6c5460",
-      "title": "Wan2.2: Free Open-Source AI Video Generation — 720p Cinematic Clips With No Subscription",
-      "excerpt": "Most AI video tools charge you per clip. Wan2.2 does not. It is Alibaba's open-source video generation model — Apache 2.0 licensed, free to use including commercially, with more than 18,800 stars on G…",
-      "body": "Most AI video tools charge you per clip. Wan2.2 does not. It is Alibaba's open-source video generation model — Apache 2.0 licensed, free to use including commercially, with more than 18,800 stars on GitHub — and its light 5B model makes real 720p video on a normal consumer graphics card. This is the complete guide: what it does, what it needs, and how to run it free, with or without a strong PC. What is Wan2.2? Wan2.2 is the second generation of Alibaba's Wan video models, released in July 2025 with its inference code and model weights fully open. It comes in three main versions: TI2V-5B — one 5-billion-parameter model that does both text-to-video and image-to-video at 720p and 24 frames per second.",
-      "author": "Ai Game Changer Pro",
+      "id": "feed-515b3cf92340",
+      "title": "Auditing the Perimeter: Inside Humbu Gateway Audit and The Auditor's Return on TryHackMe",
+      "excerpt": "Modern microservice infrastructures rarely collapse because of a single missing firewall rule. Instead, real-world breaches happen in the architectural seams—where an edge proxy disagrees with an upst…",
+      "body": "Modern microservice infrastructures rarely collapse because of a single missing firewall rule. Instead, real-world breaches happen in the architectural seams—where an edge proxy disagrees with an upstream router, where a custom policy engine trusts its own bytecode, or where a privileged background daemon leaves an internal socket exposed. To put those exact failure modes into hands-on labs, I built two connected TryHackMe rooms modeled after an out-of-band perimeter audit on a zero-trust edge network: Humbu Gateway Audit and The Auditor's Return . Here is a spoiler-free breakdown of the architecture under the hood and what you will learn by breaking both environments.",
+      "author": "Humbulan",
       "date": "2026-11-21",
       "readTime": "2 min",
       "section": "software",
@@ -128,15 +128,453 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 44,
-      "url": "https://dev.to/haroonch_rashid_72f1d7e31/wan22-free-open-source-ai-video-generation-720p-cinematic-clips-with-no-subscription-i0n",
-      "image": "/images/feed/feed-bc0dac6c5460.webp",
+      "xpReward": 45,
+      "url": "https://dev.to/humbulan/auditing-the-perimeter-inside-humbu-gateway-audit-and-the-auditors-return-on-tryhackme-kdi",
+      "image": "/images/feed/feed-515b3cf92340.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
+      "id": "feed-798fb9c0211a",
+      "title": "All Cheat Codes in GTA 6",
+      "excerpt": "Grand Theft Auto 6 features a huge list of cheats. Here's how to unlock them all, and what each one does.",
+      "body": "The best part about any Grand Theft Auto game is the cheats , and Grand Theft Auto 6 delivers on that front. Rockstar's latest includes a whole mess of password-protected secrets that will really let you have some fun in Vice City. You'll have to work for them, though. GTA 6 's cheats are deeply hidden, and will require you to jump through a few hoops to start using them.",
+      "author": "Giovanni Colantonio",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
+      "image": "/images/feed/feed-798fb9c0211a.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-f1f1978eabf0",
+      "title": "What's new with Apple's latest Siri Remote, and does your old Apple TV support it?",
+      "excerpt": "The 4th-gen Apple TV 4K comes with a new remote. Here's what you need to know about it.",
+      "body": "The 4th-gen Apple TV 4K comes with a new remote. Here's what you need to know about it.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Alec Hively)",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.engadget.com/2319050/whats-new-siri-remote-does-older-apple-tv-support/",
+      "image": "/images/feed/feed-f1f1978eabf0.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-338815192589",
+      "title": "Declasse Vamos code location in GTA 6",
+      "excerpt": "The Declasse Vamos is inside a locked garage in GTA 6. Here's where to find the keypad code and what it is.",
+      "body": "The Declasse Vamos is a car that you can steal for Moses in Grand Theft Auto 6 . However, when you find the Declasse Vamos, you realize that it's locked away inside a garage, and you need to find the door code to get to it.",
+      "author": "Johnny Yu",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://www.polygon.com/gta-6-declasse-vamos-code-car-location/",
+      "image": "/images/feed/feed-338815192589.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-89510a366065",
+      "title": "The trade-offs of using Apple's AirPods Max headphones",
+      "excerpt": "Apple's AirPods Max sound great, but they come with a lot of compromises for $549 headphones.",
+      "body": "Apple's AirPods Max sound great, but they come with a lot of compromises for $549 headphones.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Headphones. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Filipe Espósito)",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Headphones"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.engadget.com/2319042/trade-offs-using-apple-airpods-max-headphones/",
+      "image": "/images/feed/feed-89510a366065.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-5ecde6cce2b4",
+      "title": "Street Fighter EX, Endless Ocean And Tetris 99’s Akira Kurabayashi Has Died At 56",
+      "excerpt": "Head of software development at ARIKA, the prolific Kurabayashi would help create some of the most cult-adored entries in gaming's biggest series",
+      "body": "Head of software development at ARIKA, the prolific Kurabayashi would help create some of the most cult-adored entries in gaming's biggest series\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Zack Kotzer",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://kotaku.com/street-fighter-ex-endless-ocean-and-tetris-99s-akira-kurabayashi-has-died-at-56-2000759170",
+      "image": "/images/feed/feed-5ecde6cce2b4.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-c46bf860efe9",
+      "title": "Discs vs. disks: What's the difference?",
+      "excerpt": "They're pronounced the same and only deviate by a single letter, but their mechanics and usage are quite different.",
+      "body": "They're pronounced the same and only deviate by a single letter, but their mechanics and usage are quite different.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Maddie Fisher)",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.engadget.com/2319034/discs-vs-disks-differences/",
+      "image": "/images/feed/feed-c46bf860efe9.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-3a84e943c51c",
+      "title": "Indie App Spotlight: ‘Salon’ is an Apple TV app that turns your TV into a picture frame",
+      "excerpt": "Welcome to Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact. You li…",
+      "body": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . You likely have a TV on your wall that generally sits idle throughout the day. While the Apple TV does offer loads of built in screensavers, you might be looking for something a bit more artsy. Salon offers a picture frame experience for the Apple TV , where it has over 1000 open-access paintings to display. more…",
+      "author": "Michael Burkhardt",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://9to5mac.com/2026/11/21/indie-app-spotlight-salon-is-an-apple-tv-app-that-turns-your-tv-into-a-picture-frame/",
+      "image": "/images/feed/feed-3a84e943c51c.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-e43604190d76",
+      "title": "Why Apple Vision Pro never took off like Meta's VR headsets",
+      "excerpt": "The Apple Vision Pro debuted to massive hype in 2024, but the years since then have not been kind to Apple's megabucks mixed-reality headset.",
+      "body": "The Apple Vision Pro debuted to massive hype in 2024, but the years since then have not been kind to Apple's megabucks mixed-reality headset.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Vision Pro. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Max Miller)",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Vision Pro"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.engadget.com/2318875/why-apple-vision-pro-did-not-take-off-vs-meta-vr/",
+      "image": "/images/feed/feed-e43604190d76.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-ba8d0dce986c",
+      "title": "Original Director Behind Marvel’s Failed Mahershala Ali Blade Movie Says ‘Life’s Too Short To Make Sh*t Films’",
+      "excerpt": "Bassam Tariq dished on the experience in a recent interview",
+      "body": "Bassam Tariq dished on the experience in a recent interview\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://kotaku.com/original-director-behind-marvels-failed-mahershala-ali-blade-movie-says-lifes-too-short-to-make-sht-films-2000759167",
+      "image": "/images/feed/feed-ba8d0dce986c.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-127ab5649d12",
+      "title": "Is immortality a curse for elves?",
+      "excerpt": "The Rings of Power star Jamie Campbell points out the downside of the elves' immortal lifespan in Amazon's Lord of the Rings show. #lordoftherings #lotr #ringsofpower #jamiecampbellbower #celeborn",
+      "body": "The Rings of Power star Jamie Campbell points out the downside of the elves' immortal lifespan in Amazon's Lord of the Rings show. #lordoftherings #lotr #ringsofpower #jamiecampbellbower #celeborn\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Corey Plante",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.polygon.com/video/is-immortality-a-curse-for-elves/",
+      "image": "/images/feed/feed-127ab5649d12.png",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-ca8197622b43",
+      "title": "How to block a device from your home network",
+      "excerpt": "Did a strange device just connect to your home Wi-Fi? Don't panic. Here is how to identify exactly what it is and securely block it from your network.",
+      "body": "Did a strange device just connect to your home Wi-Fi? Don't panic. Here is how to identify exactly what it is and securely block it from your network.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Device. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Thomas Godwin)",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Device"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.engadget.com/2318874/how-to-block-device-home-network/",
+      "image": "/images/feed/feed-ca8197622b43.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-e781d3ee50fb",
+      "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
+      "excerpt": "Tesla has started rolling out “Full Self-Driving” v15, and its list of improvements reads like a list of FSD’s biggest current weaknesses: sign detection, potholes, and speed handling in school zones.…",
+      "body": "Tesla has started rolling out “Full Self-Driving” v15, and its list of improvements reads like a list of FSD’s biggest current weaknesses: sign detection, potholes, and speed handling in school zones. Tesla also claims “25x better handling of safety critical cases” and is adding a new live visualization that looks seriously impressive. If the driving improvements are as real as the visuals, this is a big update. more…",
+      "author": "Fred Lambert",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+      "image": "/images/feed/feed-e781d3ee50fb.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-568461fe64e9",
+      "title": "How much does charging an EV really cost? This Redditor says $7 per month",
+      "excerpt": "One of the most common questions asked by first-time EV buyers is about the cost of electricity. Whether they plan to charge at home or find charging in the wild, everyone wants to know what to expect…",
+      "body": "One of the most common questions asked by first-time EV buyers is about the cost of electricity. Whether they plan to charge at home or find charging in the wild, everyone wants to know what to expect when it comes time to top off their batteries. One EV owner did the math after two months of EV ownership and came up with a surprising number: $7 a month. more…",
+      "author": "Jo Borrás",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://electrek.co/2026/11/21/how-much-does-charging-an-ev-really-cost-this-redditor-says-7-per-month/",
+      "image": "/images/feed/feed-568461fe64e9.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-18c3b6dc4790",
+      "title": "Anthropic employee claims to have proven the most famous math problem using Claude",
+      "excerpt": "Levent Alpöge says he worked with Claude to discover a proof of the Riemann Hypothesis.",
+      "body": "Levent Alpöge says he worked with Claude to discover a proof of the Riemann Hypothesis.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Mariella Moon)",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.engadget.com/2324141/anthropic-employee-claims-to-have-proven-the-most-famous-math-problem-using-claude/",
+      "image": "/images/feed/feed-18c3b6dc4790.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-ad7c0084461a",
+      "title": "EV Share Jumps to 68%(!) and Small BEVs Rise to Power — China EV Sales Report for October",
+      "excerpt": "High gas prices and a never-ending wave of new BEVs have allowed October to reach 68% EV market share, a new record! This record achievement is thanks to a significant ICE (internal combustion engine)…",
+      "body": "High gas prices and a never-ending wave of new BEVs have allowed October to reach 68% EV market share, a new record! This record achievement is thanks to a significant ICE (internal combustion engine) crash. The overall market dropped 27% year over year (YoY), to around 1.6 million sales. Plugins ... [continued] The post EV Share Jumps to 68%(!) and Small BEVs Rise to Power — China EV Sales Report for October appeared first on CleanTechnica .",
+      "author": "José Pontes",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://cleantechnica.com/2026/11/21/ev-share-jumps-to-68-and-small-bevs-rise-to-power-china-ev-sales-report-for-october/",
+      "image": "/images/feed/feed-ad7c0084461a.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-cd24073adf7e",
+      "title": "Rockstar Dev Tells GTA 6 Players To ‘Stop Thinking In Tasks, Completion Percentages, Online Guides’",
+      "excerpt": "The best way to play is just to experience the game, even if most of us are too internet-pilled to do that",
+      "body": "The best way to play is just to experience the game, even if most of us are too internet-pilled to do that\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Ethan Gach",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://kotaku.com/rockstar-dev-tells-gta-6-players-to-stop-thinking-in-tasks-completion-percentages-online-guides-2000759151",
+      "image": "/images/feed/feed-cd24073adf7e.jpg",
+      "source": "Kotaku",
+      "isLive": true
+    },
+    {
+      "id": "feed-9ed020c946e6",
+      "title": "Tesla Cybertruck’s already impressive turning radius gets even tighter",
+      "excerpt": "Tesla is rolling out an update that makes the Cybertruck turn even tighter, improving on what was already one of the best turning radiuses you can get in a full-size pickup. But there’s a catch. It on…",
+      "body": "Tesla is rolling out an update that makes the Cybertruck turn even tighter, improving on what was already one of the best turning radiuses you can get in a full-size pickup. But there’s a catch. It only works on 2027 model year Cybertrucks, and Tesla plans to stop building the truck by the end of next summer. more…",
+      "author": "Fred Lambert",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cybertruck",
+        "Tesla"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://electrek.co/2026/11/21/tesla-cybertruck-tighter-turning-radius-update/",
+      "image": "/images/feed/feed-9ed020c946e6.png",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-49c4b3b679e3",
+      "title": "Waymo Is Recalling Its Robotaxis Because They're Not Great At Dealing With Human Instructions",
+      "excerpt": "Sometimes police need drivers to ignore normally posted laws and comply with officer instructions. That hasn't been going great for Waymo.",
+      "body": "Sometimes police need drivers to ignore normally posted laws and comply with officer instructions. That hasn't been going great for Waymo.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://insideevs.com/news/816340/waymo-manually-controlled-intersection-recall/",
+      "image": "/images/feed/feed-49c4b3b679e3.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-1ebaf4470156",
+      "title": "It’s Official, GTA 6’s Graphics Have Broken My Brain",
+      "excerpt": "Grand Theft Auto's 6 realistic visuals and world are changing how I play in the crime sandbox.",
+      "body": "The first time I played Grand Theft Auto 5 , I was ready to wreak havoc the second I picked up the controller. When my buddy handed me the controller to try it out at his apartment, I asked him how to unlock all weapons and got up to the old tricks of my PS2 glory days. Cars were stolen, cops were exploded, and fun was had by all (except the pedestrians).",
+      "author": "Giovanni Colantonio",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.polygon.com/gta-6-graphics-realism/",
+      "image": "/images/feed/feed-1ebaf4470156.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-261e6cfd73a5",
+      "title": "Toyota just built a tiny folding electric bike to fit in your trunk",
+      "excerpt": "Toyota is getting into electric bikes. Well, sort of. The Japanese automotive giant has unveiled the BKE Concept, a tiny folding electric two-wheeler designed to serve as a compact companion vehicle f…",
+      "body": "Toyota is getting into electric bikes. Well, sort of. The Japanese automotive giant has unveiled the BKE Concept, a tiny folding electric two-wheeler designed to serve as a compact companion vehicle f — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Micah Toll",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://electrek.co/2026/11/21/toyota-just-built-a-tiny-folding-electric-bike-to-fit-in-your-trunk/",
+      "image": "/images/feed/feed-261e6cfd73a5.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-6777a14985a2",
+      "title": "E-quipment highlight: Mantsinen 200 material handler has tank treads",
+      "excerpt": "Are you a port or rail terminal operator looking for a new electric material handler that can move serious cargo without sacrificing maneuverability? Do you wish it had tank treads? If that’s you, the…",
+      "body": "Are you a port or rail terminal operator looking for a new electric material handler that can move serious cargo without sacrificing maneuverability? Do you wish it had tank treads? If that’s you, the — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jo Borrás",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://electrek.co/2026/11/21/e-quipment-highlight-mantsinen-200-material-handler-has-tank-treads/",
+      "image": "/images/feed/feed-6777a14985a2.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-3ac5106debba",
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "excerpt": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addre…",
+      "body": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addre — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Exploit. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Exploit"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "image": "/images/feed/feed-3ac5106debba.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-f95d9fe3e24d",
+      "title": "On this day in space! Nov. 21, 1676: Danish astronomer discovers speed of light — by accident — while observing Jupiter's moon Io",
+      "excerpt": "On Nov. 21, 1676, the Danish astronomer Ole Rømer discovered the speed of lightwhile observing Jupiter and its moon volcanic moon Io. Here's why it mattered.",
+      "body": "On Nov. 21, 1676, the Danish astronomer Ole Rømer discovered the speed of light . Before Rømer figured it out, scientists thought that light travels instantaneously, or infinitely fast. Rømer disproved this almost by accident when he was studying Jupiter's moon Io . He was trying to figure out how long it takes Io to orbit Jupiter in hopes of using it as a cosmic clock. He watched Io disappear behind Jupiter and reappear on the other side. He did this over and over every 42 hours for years. To his surprise, the timing of the eclipses was not consistent. When Earth was closest to Jupiter, the eclipses happened 11 minutes early. Likewise, when the two planets were farthest away, the eclipses were 11 minutes behind schedule.",
+      "author": " Hanneke Weitering ",
+      "date": "2026-11-21",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-21-2026",
+      "image": "/images/feed/feed-f95d9fe3e24d.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
       "id": "feed-4fa83550e4df",
-      "title": "BADBOX 3.0 botnet returns with record-breaking 40 billion daily ad requests",
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
       "excerpt": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
       "body": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "Bill Toulas",
@@ -147,7 +585,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 37,
       "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
       "image": "/images/feed/feed-4fa83550e4df.jpg",
       "source": "BleepingComputer",
@@ -166,124 +604,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 36,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-237-a-fond-farewell",
       "image": "/images/feed/feed-fb68ef8e24cb.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-8e982a554472",
-      "title": "Why your ping is terrible (even though you have fast internet)",
-      "excerpt": "Having a fast internet speed helps with online performance, but ping is the value that matters much more for games and video calls.",
-      "body": "Having a fast internet speed helps with online performance, but ping is the value that matters much more for games and video calls.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Husain Parvez)",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.engadget.com/2318153/fast-internet-but-terrible-ping-why/",
-      "image": "/images/feed/feed-8e982a554472.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-63a2ffc9fc40",
-      "title": "10 Near-Perfect Netflix Sci-Fi Shows That Hook You in the First Scene",
-      "excerpt": "From mind-bending mysteries to dystopian futures, these Netflix sci-fi series prove that some stories can't be forgotten from the moment they start.",
-      "body": "Not every great sci-fi show starts with a bang, but the best ones grab your attention from the very first frame. Whether it’s an alien organism mutating a host in seconds, a gruesome public execution in the middle of a cultural revolution, or a child stepping into a smoke-filled battleground littered with corpses, the most compelling shows understand the power of a great first impression. These series offer something tangible enough to keep you glued to your seat before the opening credits even roll.",
-      "author": "Ryan Epps",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/perfect-netflix-sci-fi-shows-list/",
-      "image": "/images/feed/feed-63a2ffc9fc40.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-703bcd6e5b1d",
-      "title": "Elon Musk freezes at awkward Tesla Argentina launch: ‘I don’t know what to say’",
-      "excerpt": "Tesla officially launched in Argentina on Friday with President Javier Milei on stage in Buenos Aires, and Elon Musk joined by video from his plane to welcome the brand’s newest market. It didn’t go w…",
-      "body": "Tesla officially launched in Argentina on Friday with President Javier Milei on stage in Buenos Aires, and Elon Musk joined by video from his plane to welcome the brand’s newest market. It didn’t go well. Musk got through one line about Tesla before stalling out: “Sorry, I don’t really know what I want to say.” The call ended about two minutes in, without any real pitch for the Model 3 or Model Y that Tesla had just put on sale. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://electrek.co/2026/11/21/elon-musk-tesla-argentina-launch-awkward-video-milei/",
-      "image": "/images/feed/feed-703bcd6e5b1d.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-7325b2ff75f0",
-      "title": "GTA 6 Forgot to Include the #1 Reason to Go to Actual Florida",
-      "excerpt": "Grand Theft Auto 6's Leonida pokes fun at almost everything, but shies away from Disney’s real-world presence in Florida",
-      "body": "Grand Theft Auto 6 's Leonida, the game's version of Florida, is a veritable cornucopia bursting with stories to uncover. You can pursue the central love story of Jason and Lucia but also go birdwatching, enjoy a game of pool, or even play multiple video games within GTA 6 itself. Consistent throughout all of these activities is Rockstar's signature satirical writing that takes aim at every aspect of society. That's what makes the rare omissions in the game so noticeable. When it comes to Florida, it's especially strange there's no sign of Disney World .",
-      "author": "Willa Rowe",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.polygon.com/gta-6s-big-disney-omission/",
-      "image": "/images/feed/feed-7325b2ff75f0.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-ebfe4fd4204d",
-      "title": "What is Jeffrey Wright REALLY like?",
-      "excerpt": "What is Jeffrey Wright REALLY like?",
-      "body": "What is Jeffrey Wright REALLY like?\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Maria Loreto",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.polygon.com/video/what-is-jeffrey-wright-really-like/",
-      "image": "/images/feed/feed-ebfe4fd4204d.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-6daefe7e620f",
-      "title": "How do those 'metal detector' apps for your phone actually work?",
-      "excerpt": "Your phone can be turned into something of a metal detector, but don't expect the range of a dedicated machine.",
-      "body": "Your phone can be turned into something of a metal detector, but don't expect the range of a dedicated machine.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Jack Peachey)",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://www.engadget.com/2318137/how-phone-metal-detector-apps-work/",
-      "image": "/images/feed/feed-6daefe7e620f.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -299,7 +623,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 41,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-first-contact-at-30-resistance-is-futile-when-it-comes-to-the-next-generation-crews-greatest-big-screen-adventure",
       "image": "/images/feed/feed-8103371176a3.jpg",
       "source": "Space.com",
@@ -318,86 +642,10 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 49,
       "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
       "image": "/images/feed/feed-3f8dc1fbea0d.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-2715fb886361",
-      "title": "Our go-to earbuds for taking calls have fallen to their lowest price to date",
-      "excerpt": "The Liberty 5 Pro are Soundcore’s most ambitious earbuds to date. | Photo: John Higgins / The Verge If you’re looking for a new pair of earbuds, the Soundcore Liberty 5 Pro are on sale for $129.99 at…",
-      "body": "The Liberty 5 Pro are Soundcore’s most ambitious earbuds to date. | Photo: John Higgins / The Verge If you’re looking for a new pair of earbuds, the Soundcore Liberty 5 Pro are on sale for $129.99 at Amazon , Best Buy , and Walmart right now. That’s the lowest price we’ve seen for Anker’s excellent wireless earbuds, which normally retail for $169.99 and come in four colors (black, white, blue, and pink) all of which are discounted through November 30th as part of Anker’s ongoing Black Friday promo .",
-      "author": "Brad Bourque",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Earbuds"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.theverge.com/gadgets/1039160/anker-soundcore-liberty-5-pro-black-friday-2026-deal-sale",
-      "image": "/images/feed/feed-2715fb886361.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-0b5efa8d66e4",
-      "title": "5 gadgets you should never buy used",
-      "excerpt": "Buying used tech could save you money, but some gadgets aren't worth the risk. Here's what you should avoid buying secondhand unless it's refurbished.",
-      "body": "Buying used tech could save you money, but some gadgets aren't worth the risk. Here's what you should avoid buying secondhand unless it's refurbished.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadget. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Ben Stegner)",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadget"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.engadget.com/2318096/gadgets-you-should-never-buy-used/",
-      "image": "/images/feed/feed-0b5efa8d66e4.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-d1ea82a24b8b",
-      "title": "Why so many desktop PC cases have glass walls (and why you might not want that)",
-      "excerpt": "Tempered glass has taken over the PC case market. Learn what drives the trend and the trade-offs that could make a glass-panel build a poor fit for you.",
-      "body": "Tempered glass has taken over the PC case market. Learn what drives the trend and the trade-offs that could make a glass-panel build a poor fit for you.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Dave Meikleham)",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.engadget.com/2318044/desktop-pc-why-tempered-glass-walls-downsides/",
-      "image": "/images/feed/feed-d1ea82a24b8b.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-f70783ff9ee6",
-      "title": "Jackery & Every Electric Transform Urban Energy Storage With Plug-In VPP",
-      "excerpt": "Earlier this week, Jackery announced a strategic partnership with Brooklyn-based consumer energy aggregator Every Electric to offer the first plug-in Virtual Power Plant (VPP). The program starts with…",
-      "body": "Earlier this week, Jackery announced a strategic partnership with Brooklyn-based consumer energy aggregator Every Electric to offer the first plug-in Virtual Power Plant (VPP). The program starts with New York City apartment residents. I went to the RE+ in Las Vegas to meet with leaders from Jackery and Every Electric ... [continued] The post Jackery &amp; Every Electric Transform Urban Energy Storage With Plug-In VPP appeared first on CleanTechnica .",
-      "author": "Larry Evans",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://cleantechnica.com/2026/11/21/jackery-every-electric-transform-urban-energy-storage-with-plug-in-vpp/",
-      "image": "/images/feed/feed-f70783ff9ee6.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -420,120 +668,6 @@
       "isLive": true
     },
     {
-      "id": "feed-3fef5093773e",
-      "title": "Etsy says it will not use sellers' content to train AI after they revolt over policy changes",
-      "excerpt": "Etsy changed its terms of use, adding a clause on AI training. Now, it has clarified that it will not use sellers' content to train AI that can copy their work.",
-      "body": "Etsy changed its terms of use, adding a clause on AI training. Now, it has clarified that it will not use sellers' content to train AI that can copy their work.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Mariella Moon)",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.engadget.com/2324090/etsy-not-use-seller-content-train-ai/",
-      "image": "/images/feed/feed-3fef5093773e.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-1ed4c057e247",
-      "title": "What data storage looked like in the early 2000s vs. today",
-      "excerpt": "We've come a long way in storage technology in just 25 years, from floppies and tiny USB drives to massive SSDs and cloud storage.",
-      "body": "We've come a long way in storage technology in just 25 years, from floppies and tiny USB drives to massive SSDs and cloud storage.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Luke James)",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.engadget.com/2318027/what-data-storage-looked-like-early-2000s-vs-today/",
-      "image": "/images/feed/feed-1ed4c057e247.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-4b5928f68060",
-      "title": "'The Odyssey' Cast Debunks a Major Misconception About Working with Christopher Nolan",
-      "excerpt": "Matt Damon, Himesh Patel, and Emma Thomas reveal Christopher Nolan's unexpected sense of humor and what he's really like on set.",
-      "body": "But according to the cast and crew of The Odyssey , there's another side to Nolan that audiences might not expect. Behind the intense focus and demanding production schedules is a filmmaker with a sharp sense of humor who genuinely loves being on a movie set.",
-      "author": "Terry Terrones",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/christopher-nolan-isnt-nearly-as-serious-as-you-might-think-according-to-the-odysseys-cast-and-crew/",
-      "image": "/images/feed/feed-4b5928f68060.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-9fdae5828188",
-      "title": "GTA 6’s Weirdest Cow Shows Why You Should Pause the Story Early To Explore Its Vast Map",
-      "excerpt": "I escaped GTA 6's starting neighborhood to explore the wider world, and you'll never believe what happened with this cow I found.",
-      "body": "Warning: this story features spoilers for an optional side activity. &quot;Save me.&quot; Those two chilling words were so soft I wondered if I&#39;d heard them correctly – after all, the only souls in this orchard were me and Tootsie, an escaped cow draped in red cloth with a rosette stuck to her forehead. But no, I had heard them, and I turned them over in my head as I led Tootsie back along her rampaging path, through fallen fruit, over a busted wooden fence, and to her owner, a dairy farmer I&#39;d found on the side of the road, flustered and crying about his prized $2 million show cow. I was still processing those two words as we approached the farmer&#39;s trailer, and when he told me that tonight, a fan had paid to watch a private Tootsie mud bath, I knew what I had to do.",
-      "author": "Matt Purslow",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.ign.com/articles/gta-6s-weirdest-cow-shows-why-you-should-pause-the-story-early-to-explore-its-vast-map",
-      "image": "/images/feed/feed-9fdae5828188.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-12c74af1d58f",
-      "title": "These Are The 11 Best Romances BioWare Ever Made",
-      "excerpt": "BioWare set the standard for having some of the best lovers in video games",
-      "body": "BioWare set the standard for having some of the best lovers in video games\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ash Parrish",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://kotaku.com/bioware-best-11-romance-dragon-age-mass-effect-garrus-2000758976",
-      "image": "/images/feed/feed-12c74af1d58f.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-3b76d5fd6411",
-      "title": "Nintendo’s Long History with GTA Seems to Have Met Its End",
-      "excerpt": "There's no sign of GTA 6 on Switch 2, or even GTA 5, yet Rockstar has brought L.A. Noire and Red Dead Redemption to Switch",
-      "body": "There's no sign of GTA 6 on Switch 2, or even GTA 5, yet Rockstar has brought L.A. Noire and Red Dead Redemption to Switch\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Nintendo. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Oli Welsh",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Nintendo"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.polygon.com/switchboard-nintendo-switch-2-gta-6-rockstar/",
-      "image": "/images/feed/feed-3b76d5fd6411.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
       "id": "feed-0dc1e54a6bda",
       "title": "SpaceX will retire 1st Starship upper stage ever caught by 'chopsticks,' Elon Musk says",
       "excerpt": "The first Starship upper stage that SpaceX ever successfully recovered won't fly again. Rather, it will go on display as a museum piece, according to company founder and CEO Elon Musk.",
@@ -547,7 +681,7 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 30,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says",
       "image": "/images/feed/feed-0dc1e54a6bda.jpg",
       "source": "Space.com",
@@ -566,30 +700,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 48,
       "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
       "image": "/images/feed/feed-aea9da50e144.jpg",
       "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-95c9fe7bcb4d",
-      "title": "This EV-Swapped 1967 Porsche 912 Has 300 HP And A Split Battery Pack",
-      "excerpt": "Its has 250 miles of range and acceleration that kicks the original gas-powered Porsche's ass.",
-      "body": "Its has 250 miles of range and acceleration that kicks the original gas-powered Porsche's ass.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Battery Pack, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Battery Pack",
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://insideevs.com/news/816157/porsche-912-ev-swap/",
-      "image": "/images/feed/feed-95c9fe7bcb4d.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -606,30 +720,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 53,
       "url": "https://www.wired.com/story/a-space-probe-returns-to-astroids-where-nasa-tested-planetary-defense-systems/",
       "image": "/images/feed/feed-946b84a36cab.png",
       "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-4765a8f49bc0",
-      "title": "This Plug-In Hybrid SUV Towed A Boeing 747 On Only 2 Wheels. Yes, Really.",
-      "excerpt": "BYD’s Denza B5 plug-in hybrid recreated the famous jumbo jet tow video that featured the VW Touareg V10—with a twist.",
-      "body": "BYD’s Denza B5 plug-in hybrid recreated the famous jumbo jet tow video that featured the VW Touareg V10—with a twist.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Plug-in Hybrid, Hybrid. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "InsideEVs",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Plug-in Hybrid",
-        "Hybrid"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://insideevs.com/news/815896/byd-denza-b5-phev-suv-jumbo-jet-tow-two-wheels/",
-      "image": "/images/feed/feed-4765a8f49bc0.jpg",
-      "source": "InsideEVs",
       "isLive": true
     },
     {
@@ -645,7 +739,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 33,
       "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
       "image": "/images/feed/feed-1673f2e52589.jpg",
       "source": "The Hacker News",
@@ -664,7 +758,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 39,
       "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
       "image": "/images/feed/feed-febc644792c7.jpg",
       "source": "The Hacker News",
@@ -683,7 +777,7 @@
         "Zero-day"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 42,
       "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
       "image": "/images/feed/feed-afa609acf7c3.jpg",
       "source": "The Hacker News",
@@ -702,29 +796,10 @@
         "Orbit"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 32,
       "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival",
       "image": "/images/feed/feed-d12ffed9af05.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-8d9dc4557329",
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "excerpt": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is…",
-      "body": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "image": "/images/feed/feed-8d9dc4557329.jpg",
-      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -741,86 +816,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 53,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317",
       "image": "/images/feed/feed-3196ac30931c.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-6e511ebfbce4",
-      "title": "Waymo Pulls Robotaxis from Highways",
-      "excerpt": "Waymo has apparently run into some issues with its robotaxis on highways in California, and it has pulled its robotaxis off of highways across the United States as a result. The main issue is that Way…",
-      "body": "Waymo has apparently run into some issues with its robotaxis on highways in California, and it has pulled its robotaxis off of highways across the United States as a result. The main issue is that Waymo robotaxis have entered active construction zones. (Yikes!) Earlier this week, in response to the ... [continued] The post Waymo Pulls Robotaxis from Highways appeared first on CleanTechnica .",
-      "author": "Z. S.",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://cleantechnica.com/2026/11/21/waymo-pulls-robotaxis-from-highways/",
-      "image": "/images/feed/feed-6e511ebfbce4.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-ee9938af9354",
-      "title": "APOD: 2026 November 21 – Voyager’s Neptune",
-      "excerpt": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differe…",
-      "body": "APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager&#8217;s Neptune Explanation: Cruising through the outer solar system, the Voyager 2 spacecraft made its closest approach to Neptune on August 25, 1989, the only spacecraft to visit the most distant ice giant planet . Based on the images recorded during its close encounter and in the following days, this inspired composited scene covers the dim outer planet, largest moon Triton , and faint system of rings.",
-      "author": "NASA Breaking News",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/",
-      "image": "/images/feed/feed-ee9938af9354.jpg",
-      "source": "NASA Breaking News",
-      "isLive": true
-    },
-    {
-      "id": "feed-248a38360d43",
-      "title": "NIO Launches Special Edition Firefly “Pianke Liujin”",
-      "excerpt": "Initially, I was like, “Wow, I love this car, I have to write about it!” Then I realized there were only going to be 333 units of the model built, so it really isn’t going to make a difference to any…",
-      "body": "Initially, I was like, &#8220;Wow, I love this car, I have to write about it!&#8221; Then I realized there were only going to be 333 units of the model built, so it really isn&#8217;t going to make a difference to any significant degree at all&#8230;. But I love the car ... [continued] The post NIO Launches Special Edition Firefly &#8220;Pianke Liujin&#8221; appeared first on CleanTechnica .",
-      "author": "Z. S.",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://cleantechnica.com/2026/11/20/nio-launches-special-edition-firefly-pianke-liujin/",
-      "image": "/images/feed/feed-248a38360d43.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-cef9bd15687f",
-      "title": "JA Energy Storage Launches an Internal Battery Passport Platform to Facilitate Compliance with EU Standards",
-      "excerpt": "JJA ESS has launched its own battery passport data platform to support lifecycle information management and help companies prepare for upcoming EU regulations. The platform is hosted in the company’s…",
-      "body": "JJA ESS has launched its own battery passport data platform to support lifecycle information management and help companies prepare for upcoming EU regulations. The platform is hosted in the company&#8217;s own cloud environment, giving the team direct responsibility for data policies, access permissions, and future updates. According to the EU ... [continued] The post JA Energy Storage Launches an Internal Battery Passport Platform to Facilitate Compliance with EU Standards appeared first on CleanTechnica .",
-      "author": "Press Release",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://cleantechnica.com/2026/11/20/ja-energy-storage-launches-an-internal-battery-passport-platform-to-facilitate-compliance-with-eu-standards/",
-      "image": "/images/feed/feed-cef9bd15687f.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -836,7 +835,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 43,
       "url": "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/",
       "image": "/images/feed/feed-c23ef5c11676.jpg",
       "source": "CNET",
@@ -855,7 +854,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 42,
       "url": "https://www.cnet.com/tech/services-and-software/google-gemini-clears-firefighter-radio-static/",
       "image": "/images/feed/feed-37112e0686e5.jpg",
       "source": "CNET",
@@ -874,7 +873,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 34,
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "image": "/images/feed/feed-7121ba7c9173.png",
       "source": "OpenAI Blog",
@@ -893,7 +892,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 50,
       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -912,7 +911,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 40,
       "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
       "source": "TechCrunch",
@@ -931,7 +930,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 43,
       "url": "https://techcrunch.com/2026/11/19/anthropic-rival-says-companies-can-mostly-skip-the-pricey-models/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/Chenyu-Zhao.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -939,16 +938,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: Your expense data should leave with you: xlsx, CSV, PDF, and JSON (one year at a time)",
-    "DEV.TO: How many reviewers keep a peer-review queue flat? Eight closes of public data from an agent network",
-    "DEV.TO: hikerapi",
-    "DEV.TO: Shipping a Flutter app with no INTERNET permission: the plugins that tried to add it back",
-    "DEV.TO: Building a 128MB Creator Link-in-Bio Email & Brand-Deal Enricher (Fixing Linktree Footer Noise & False Promo Codes)",
-    "DEV.TO: Tracking Which Instagram Hashtags Actually Drive Reach Using Python\r\nLast month, my hashtag tracking script finally died. I had been running a headless browser setup to check public profiles in my niche and see which tags correlated with higher engagement,",
-    "DEV.TO: Wan2.2: Free Open-Source AI Video Generation — 720p Cinematic Clips With No Subscription",
-    "BLEEPINGCOMPUTER: BADBOX 3.0 botnet returns with record-breaking 40 billion daily ad requests",
-    "SPACE.COM: This Week In Space podcast: Episode 237 — A Fond Farewell",
-    "ENGADGET: Why your ping is terrible (even though you have fast internet)"
+    "TECHCRUNCH: A tale of two Nvidias",
+    "DEV.TO: Why your LLM is slow twice, and why it runs out of memory: prefill, decode and the KV cache",
+    "DEV.TO: Generative AI Copyright Liability for Small Business",
+    "DEV.TO: Presage SmartSpectra Challenge : Air Loom Painting",
+    "DEV.TO: My coding agent's memory hit 22 GB in git. The bug? One line per message.",
+    "DEV.TO: Converting iPhone HEVC Videos to Telegram Video Avatars with ffmpeg",
+    "DEV.TO: Auditing the Perimeter: Inside Humbu Gateway Audit and The Auditor's Return on TryHackMe",
+    "POLYGON: All Cheat Codes in GTA 6",
+    "ENGADGET: What's new with Apple's latest Siri Remote, and does your old Apple TV support it?",
+    "POLYGON: Declasse Vamos code location in GTA 6"
   ],
   "sectionVideos": {}
 }
