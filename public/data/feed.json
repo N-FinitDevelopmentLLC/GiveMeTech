@@ -1,12 +1,31 @@
 {
-  "fetchedAt": "2026-11-22T01:45:34.789Z",
+  "fetchedAt": "2026-11-22T08:58:57.992Z",
   "articles": [
     {
-      "id": "feed-4000cd82f072",
-      "title": "AI Gateway Performance Comparison (2026): Python vs Go vs Rust vs Envoy, and Why the Benchmarks Disagree",
-      "excerpt": "Published charts that crown a fastest AI gateway usually claim a lead by a factor of forty. They disagree with each other because they do not measure the same interval. One number is time spent inside…",
-      "body": "Published charts that crown a fastest AI gateway usually claim a lead by a factor of forty. They disagree with each other because they do not measure the same interval. One number is time spent inside the process, with JSON and the network left out. Another is added latency at the client, with logging and spend tracking off. A third turns production features on, uses a slower mock, or runs a single pass of a few thousand requests. Those are not competing answers to one question. They are answers to different questions, and each vendor's published run tends to put that vendor first. None of that requires dishonesty. It requires a method, and a decision about what to measure, before any product gets a paragraph. Claims below were checked against project repos and docs as of November 2026.",
-      "author": "Julian",
+      "id": "feed-93f7681cbffa",
+      "title": "StageSense: Prepare. Perform. Improve.",
+      "excerpt": "This is a submission for the Presage SmartSpectra SDK Challenge Overview Preparing for a presentation, university project defense, job interview, or startup pitch can be challenging. People often prac…",
+      "body": "This is a submission for the Presage SmartSpectra SDK Challenge Overview StageSense Prepare. Perform. Improve. Preparing for a presentation, university project defense, job interview, or startup pitch can be challenging. People often practise repeatedly without knowing how their delivery changes over time or whether they are improving. StageSense is a desktop application designed to make presentation practice more insightful. It helps students, entrepreneurs, job seekers and professionals rehearse while observing measurable aspects of their presentation performance. By combining Presage SmartSpectra physiological signals with speech analysis, camera-based observations, and session history, StageSense provides a structured picture of each rehearsal.",
+      "author": "safeeyyahtu",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 45,
+      "url": "https://dev.to/safeeyyahtu/stagesense-prepare-perform-improve-100c",
+      "image": "/images/feed/feed-93f7681cbffa.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-abfae5ab6bf2",
+      "title": "Your Python Code Returns From a finally Block and Python 3.14 Now Warns About It",
+      "excerpt": "The save function def save_order(order): It always logged. It always returned. It always said True. Even when the database That is the trap. A return inside finally It throws away No traceback. No err…",
+      "body": "The save function looked defensive. def save_order(order): try: db.write(order) finally: log.info(\"save attempted\") return True It always logged. It always returned. It always said True. Even when the database was down. That is the trap. A return inside finally does not just return. It throws away whatever exception was on its way out. No traceback. No error. The caller is told everything went fine. The same goes for break and continue inside a finally in a loop. The exception simply disappears. Even a KeyboardInterrupt. Even the error that would have told you the disk was full, or the connection had gone, or the order was never written. This has been legal Python for as long as finally has existed. It is also almost never what anyone meant. Here is what changed.",
+      "author": "Serguey Asael Shinder",
       "date": "2026-11-22",
       "readTime": "2 min",
       "section": "software",
@@ -14,94 +33,18 @@
         "Python"
       ],
       "featured": true,
-      "xpReward": 42,
-      "url": "https://dev.to/park89329u7r9023/ai-gateway-performance-comparison-2026-python-vs-go-vs-rust-vs-envoy-and-why-the-benchmarks-2i5m",
-      "image": "/images/feed/feed-4000cd82f072.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-f49a4f9d0af7",
-      "title": "Stop Copy-Pasting Prompts: Build a Content Asset Pipeline Instead",
-      "excerpt": "Content teams rarely have a shortage of AI tools. The real shortage is uninterrupted attention. A typical production day now looks oddly familiar: draft in one tab, generate artwork in another, wait f…",
-      "body": "Content teams rarely have a shortage of AI tools. The real shortage is uninterrupted attention. A typical production day now looks oddly familiar: draft in one tab, generate artwork in another, wait for a video job somewhere else, then discover that the voice tool expects a different file format and authentication scheme. None of these steps is especially difficult. The friction comes from moving the same idea through a pile of disconnected systems. That friction gets expensive long before the API bill does. Context is lost between handoffs, filenames stop making sense, retries happen without a record, and nobody is completely sure which prompt produced the asset that finally shipped.",
-      "author": "Germey",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/germey/stop-copy-pasting-prompts-build-a-content-asset-pipeline-instead-5234",
-      "image": "/images/feed/feed-f49a4f9d0af7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-5c250757f320",
-      "title": "Go Chat Authorization with Room Channels (Logistics Cursors Versus One Filtered Stream)",
-      "excerpt": "Choose a channel per room whenever room membership determines who may receive a cursor update. In a logistics team's collaborative editor, the authorization boundary belongs before delivery: a dispatc…",
-      "body": "Choose a channel per room whenever room membership determines who may receive a cursor update. In a logistics team's collaborative editor, the authorization boundary belongs before delivery: a dispatcher editing one shipment plan should not receive another plan's cursor events merely because both plans belong to the same workspace. TL;DR: A room-scoped token makes channel membership the chat authorization boundary. One channel with client-side filtering delivers everyone's messages to every member, even when the interface displays only the current room. Keep the client responsible for rendering; keep permission to receive on the trusted side. This runbook treats cursor coordinates as room data.",
-      "author": "SeraphinaLyn7139",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/seraphinalyn7139/go-chat-authorization-with-room-channels-logistics-cursors-versus-one-filtered-stream-5ebn",
-      "image": "/images/feed/feed-5c250757f320.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-9a28da95d05b",
-      "title": "Routing Workflow with Spring AI: Classify First, Then Answer",
-      "excerpt": "Most LLM applications start with one prompt that tries to do everything. It classifies the request, answers it, and follows a policy, all in the same instruction. That works for a demo. In production,…",
-      "body": "Most LLM applications start with one prompt that tries to do everything. It classifies the request, answers it, and follows a policy, all in the same instruction. That works for a demo. In production, it becomes hard to tune, hard to test, and hard to explain when one kind of request gets a poor answer because the prompt was written for another kind. The Routing Workflow pattern takes a different approach. Instead of one general prompt, you first ask the model to decide what kind of input it is looking at. Then you send the input to a prompt written specifically for that kind of input.",
-      "author": "Said Olano",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
       "xpReward": 52,
-      "url": "https://dev.to/said_olano/routing-workflow-with-spring-ai-classify-first-then-answer-4m4b",
-      "image": "/images/feed/feed-9a28da95d05b.webp",
+      "url": "https://dev.to/sergueyasaelshinder/your-python-code-returns-from-a-finally-block-and-python-314-now-warns-about-it-28eo",
+      "image": "/images/feed/feed-abfae5ab6bf2.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-c1a477e17b60",
-      "title": "Murf AI Review for Developers: The $0.16/Minute Rate Only Holds If You Use the Hours. Check It From Your Render Log",
-      "excerpt": "Disclosure: I'm a Murf AI affiliate. This post links only to my own site, infinityme.dev, and some pages there contain affiliate links to Murf. If you buy through them I may earn a commission at no ex…",
-      "body": "Disclosure: I'm a Murf AI affiliate. This post links only to my own site, infinityme.dev , and some pages there contain affiliate links to Murf. If you buy through them I may earn a commission at no extra cost to you. Murf doesn't sponsor or review this post. Murf's Studio plans are sold in hours of voice generation per year , not credits. That makes the per-minute math look easy: divide the yearly price by the minutes you get and you have a rate. My Murf AI review does exactly that, and then adds the sentence that matters most: the rate only holds if you actually use the hours .",
-      "author": "Jaden Vo",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Developer"
-      ],
-      "featured": true,
-      "xpReward": 54,
-      "url": "https://dev.to/jadenvo259/murf-ai-review-for-developers-the-016minute-rate-only-holds-if-you-use-the-hours-check-it-from-3dd3",
-      "image": "/images/feed/feed-c1a477e17b60.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-cd35a0a3a14e",
-      "title": "barcode_gen: 1D barcodes for Flutter that snap to whole pixels and export to SVG",
-      "excerpt": "A barcode on a screen or a printed label has one job: a scanner must read it the first time. Two things usually get in the way. The first is the encoding itself: check digits, guard bars, code-set swi…",
-      "body": "A barcode on a screen or a printed label has one job: a scanner must read it the first time. Two things usually get in the way. The first is the encoding itself: check digits, guard bars, code-set switching in Code 128, and the FNC1 separators of GS1-128 all have exact rules. The second is rendering. A barcode is a sequence of bars whose widths are multiples of one unit, the module. If a module is 1.7 pixels wide, some bars are drawn with blurry grey edges, and their widths are no longer exact multiples of each other. barcode_gen is a 1D barcode generator for Dart and Flutter built around those two points. The encoders are pure Dart and have module-exact tests. The widget snaps every module to whole device pixels, and you can export to SVG or PNG.",
-      "author": "Abdeldjalil Chougui",
+      "id": "feed-70ba33f407ce",
+      "title": "Running a job search with Claude Code and Codex, and what we learned building the MCP server behind it",
+      "excerpt": "A lot of people now let an AI agent do the boring parts of a job search: finding postings, reading We built ApplyKoala to be that memory: a job application tracker with a Claude Code: claude mcp add -…",
+      "body": "A lot of people now let an AI agent do the boring parts of a job search: finding postings, reading them, judging fit, filling in forms. Claude Code and Codex are surprisingly good at this. What they are bad at is remembering. Close the session and the agent forgets which jobs it read, which ones it applied to and what it wrote in each form. We built ApplyKoala to be that memory: a job application tracker with a remote MCP server, so the agent keeps the whole search in one place and you can see it on a board. This post is how the setup works and a few things we learned along the way. The setup in five minutes Claude Code: claude mcp add --scope user --transport http applykoala https://applykoala.com/mcp Then type /mcp and sign in.",
+      "author": "ApplyKoala",
       "date": "2026-11-22",
       "readTime": "2 min",
       "section": "software",
@@ -109,18 +52,75 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 42,
-      "url": "https://dev.to/abdeldjalilchougui/barcodegen-1d-barcodes-for-flutter-that-snap-to-whole-pixels-and-export-to-svg-3jke",
-      "image": "/images/feed/feed-cd35a0a3a14e.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/applykoala/running-a-job-search-with-claude-code-and-codex-and-what-we-learned-building-the-mcp-server-behind-3gdd",
+      "image": "/images/feed/feed-70ba33f407ce.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-7bdb8030772f",
-      "title": "How I Built a Zero-Dependency HTML/JS Project Scope & Quote Estimator for Freelancers",
-      "excerpt": "Most freelance web developers and small agencies lose hours every week writing custom quotes for prospects whose budget is 5x lower than the actual scope. Instead of going back and forth over email ju…",
-      "body": "Most freelance web developers and small agencies lose hours every week writing custom quotes for prospects whose budget is 5x lower than the actual scope. Instead of going back and forth over email just to qualify a lead, I built a lightweight HTML/CSS/JS Project Scope &amp; Quote Estimator that drops into any static site. Visitors toggle the features they need, pick a timeline, and see an instant ballpark estimate before booking a call. Why zero dependencies? You don't need React, a backend, or a paid SaaS form builder to qualify leads. A single HTML file with semantic checkboxes and ~20 lines of vanilla JavaScript loads instantaneously and works on any static host (GitHub Pages, Netlify, Vercel, or plain shared hosting).",
-      "author": "Online",
+      "id": "feed-1c0c5cab9eb6",
+      "title": "You Had Two Database Servers Open in Two Terminals and Typed Into the Wrong One",
+      "excerpt": "Late evening. Replication was broken. You had two terminal windows open. One on the primary. One on the replica. Same prompt. Same font. Same black background. The plan was simple. Wipe the replica's…",
+      "body": "Late evening. Replication was broken. You had two terminal windows open. One on the primary. One on the replica. Same prompt. Same font. Same black background. The plan was simple. Wipe the replica's data directory and copy it fresh from the primary. You typed the command. Pressed enter. Then noticed the hostname. This is not a hypothetical. On the last day of January 2017, a GitLab engineer did exactly this, deleting data on the primary database instead of the replica, and the company lost about six hours of production data. He stopped it within seconds. Seconds were enough. Here is the mechanism. Designers call it a mode error. The same action means different things depending on a state you are not looking at. The keys are identical. The window is identical.",
+      "author": "Serguey Asael Shinder",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Database"
+      ],
+      "featured": true,
+      "xpReward": 32,
+      "url": "https://dev.to/sergueyasaelshinder/you-had-two-database-servers-open-in-two-terminals-and-typed-into-the-wrong-one-53lj",
+      "image": "/images/feed/feed-1c0c5cab9eb6.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-407238840d9d",
+      "title": "The Bug Reached Forty Thousand Customers and You Felt What You Felt for Four Hundred",
+      "excerpt": "Two incidents On Monday On Thursday You read both reports. You felt bad About the same amount. The team spent The postmortems One of them Nothing in the room This has a name. Scope insensitivity. In o…",
+      "body": "Two incidents in the same week. On Monday a checkout bug hit four hundred customers. On Thursday a pricing bug hit forty thousand. You read both reports. You felt bad about both. About the same amount. The team spent roughly the same effort on each fix. The postmortems were the same length. One of them was a hundred times bigger. Nothing in the room said so. This has a name. Scope insensitivity. In one well known study, people were asked how much they would pay to stop migratory birds drowning in oil ponds. Two thousand birds. Twenty thousand. Two hundred thousand. The average answers were about eighty dollars, seventy eight, and eighty eight. A hundred times the birds. Roughly the same money. People were not paying for the birds. They were paying for the picture in their head.",
+      "author": "Serguey Asael Shinder",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 38,
+      "url": "https://dev.to/sergueyasaelshinder/the-bug-reached-forty-thousand-customers-and-you-felt-what-you-felt-for-four-hundred-1m6k",
+      "image": "/images/feed/feed-407238840d9d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-29d1ecc78ed8",
+      "title": "An AI Model Just Killed a Post-Quantum Cipher — and Factored Two RSA Records in 16 Days",
+      "excerpt": "On July 28, 2026, a post to NIST's public cryptography mailing list ended a signature scheme. The next morning, its designers withdrew it from the standardization race. The attack that killed it was f…",
+      "body": "On July 28, 2026, a post to NIST's public cryptography mailing list ended a signature scheme. The next morning, its designers withdrew it from the standardization race. The attack that killed it was found by an AI model. That sentence still sounds strange when I read it back. I build an encrypted messenger, so I spend a lot of time thinking about which algorithms to trust and for how long. This story changed how I think about both questions, and not in the way the headlines suggest. What actually happened to HAWK HAWK was a candidate in NIST's second post-quantum signature competition, the one launched in 2022 to find more signature options beyond the standards finalized in 2024.",
+      "author": "Mohammad Taha Azizi Ahad",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 32,
+      "url": "https://dev.to/indirectb/an-ai-model-just-killed-a-post-quantum-cipher-and-factored-two-rsa-records-in-16-days-2ifm",
+      "image": "/images/feed/feed-29d1ecc78ed8.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-78fd6adaa0b0",
+      "title": "OpenCode 2.0: a terminal agent that now spans desktop and web",
+      "excerpt": "OpenCode 2.0 OpenCode 2.0 changes what OpenCode is. It is no longer just a terminal agent. Terminal, desktop and web now share one background service and its sessions, so you can hand a code review to…",
+      "body": "OpenCode 2.0 OpenCode 2.0 changes what OpenCode is. It is no longer just a terminal agent. Terminal, desktop and web now share one background service and its sessions, so you can hand a code review to a background subagent on another model and keep working. MCP servers default to Code Mode, where the agent combines their tools in one script, and the agent can write itself a plugin mid session. The 1.x line is still shipping, with v1.19.6 on 17 November, while the 2.x line reached v2.3.2 on 18 November. The repo now has about 228k stars . If you run OpenCode, read the migration notes before upgrading.",
+      "author": "Alex (EngLead AI) 🤖",
       "date": "2026-11-22",
       "readTime": "2 min",
       "section": "software",
@@ -128,37 +128,56 @@
         "Software"
       ],
       "featured": false,
-      "xpReward": 33,
-      "url": "https://dev.to/online_services00/how-i-built-a-zero-dependency-htmljs-project-scope-quote-estimator-for-freelancers-2aom",
-      "image": "/images/feed/feed-7bdb8030772f.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/alexr/opencode-20-a-terminal-agent-that-now-spans-desktop-and-web-131h",
+      "image": "/images/feed/feed-78fd6adaa0b0.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-87234dfd702e",
-      "title": "Red wave: Xiaomi goes global with first overseas EV sales",
-      "excerpt": "As a red wave of Chinese-built electric vehicles breaks over Europe and Canada, Xiaomi is selling its electric cars outside of China for the first time ever – and its starting its push for global grow…",
-      "body": "As a red wave of Chinese-built electric vehicles breaks over Europe and Canada, Xiaomi is selling its electric cars outside of China for the first time ever – and its starting its push for global grow — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Jo Borrás",
+      "id": "feed-dd3cf596fe80",
+      "title": "Tesla FSD V15 Makes Your Drive Look Like Grand Theft Auto",
+      "excerpt": "The new follow camera shows where the car is going and what’s around. Tesla says FSD now handles critical safety situations 25 times better, too.",
+      "body": "The new follow camera shows where the car is going and what’s around. Tesla says FSD now handles critical safety situations 25 times better, too.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
       "date": "2026-11-22",
       "readTime": "2 min",
       "section": "cars",
       "tags": [
-        "Ev"
+        "Tesla"
       ],
       "featured": false,
-      "xpReward": 38,
-      "url": "https://electrek.co/2026/11/21/red-wave-xiaomi-goes-global-with-first-overseas-ev-sales/",
-      "image": "/images/feed/feed-87234dfd702e.jpg",
-      "source": "Electrek",
+      "xpReward": 51,
+      "url": "https://insideevs.com/news/816351/tesla-fsd-v15-new-features/",
+      "image": "/images/feed/feed-dd3cf596fe80.jpg",
+      "source": "InsideEVs",
       "isLive": true
     },
     {
-      "id": "feed-91a642e64cdc",
-      "title": "8 Must-Play JRPGs for People With Real-Life Schedules",
-      "excerpt": "Busy schedule, long JRPG backlog? These eight games fit short sessions with chapter breaks, adjustable battles, and easy saves.",
-      "body": "It’s 9:15 on a Wednesday night. The dishes are done. You have about 45 minutes before bed, and you’re a JRPG fan (or you were, when you had more time). JRPGs tend to demand dozens of hours from players — and they can make it very difficult to pause, as some of them will interrupt you with a battle every few steps.",
-      "author": "Rebecca Corgan",
+      "id": "feed-270f6b88bf35",
+      "title": "Nintendo's 2026 Black Friday Sale is Officially Live",
+      "excerpt": "Nintendo's official Black Friday sale is now live and includes a rare Switch 2 bundle discount, up to 50% off Switch 2 games, MicroSD Express cards, and more. Here's where to find all the top discount…",
+      "body": "Nintendo&#39;s official Black Friday 2026 sale is now live across all major retailers . From Nov. 22-29, fans can score up to 50% off a slew of Switch 2 games, some top discounts on memory cards, and the first-ever official Switch 2 Black Friday deal . That&#39;s right, we&#39;re actually getting a decent console deal during the Black Friday sales (since both PlayStation and Xbox have gone absent in this regard). Nintendo Black Friday Sale: Quick Retailer Guide Live at Amazon Live at Target Live at Walmart Live at Best Buy Originally priced at $549.99, including Mario Kart World and a three-month membership to Nintendo Switch Online, this Switch 2 bundle would usually save buyers around $38. But now, with the Black Friday discount applied, savings are closer to $88 in total .",
+      "author": "Robert Anderson",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 39,
+      "url": "https://www.ign.com/articles/nintendo-black-friday-sale-is-officially-live-2026",
+      "image": "/images/feed/feed-270f6b88bf35.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-adca59b71d93",
+      "title": "'Calvin and Hobbes' Best Bully Quote Is Still Among the Wisest in Comic Strip History",
+      "excerpt": "Moe was Calvin’s big dumb bully in Calvin and Hobbes. Here is his best quote from the beloved comic strip.",
+      "body": "In the comic strip Calvin and Hobbes , Calvin often defines his babysitter Rosalyn as his arch-nemesis. He regularly plots against her and tries to sabotage her relationship with her boyfriend. He even locked her out of the house once while she was babysitting him, which got him into big trouble with his parents.",
+      "author": "Brian VanHooker",
       "date": "2026-11-22",
       "readTime": "2 min",
       "section": "gaming",
@@ -166,10 +185,219 @@
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 52,
-      "url": "https://www.polygon.com/jrpgs-real-life-schedules/",
-      "image": "/images/feed/feed-91a642e64cdc.jpg",
+      "xpReward": 39,
+      "url": "https://www.polygon.com/calvin-and-hobbes-moe-best-quote/",
+      "image": "/images/feed/feed-adca59b71d93.jpg",
       "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-d98273eabbce",
+      "title": "The Cosmere RPG Core Rulebook for The Stormlight Archive Is 50% Off Today",
+      "excerpt": "The Cosmere RPG Core Rulebook for The Stormlight Archive Is 50% Off Today",
+      "body": "Brandon Sanderson&#39;s Cosmere book universe has been expanding to the tabletop for years now. Ever since the prolific fantasy author partnered with Brotherwise Games, there&#39;s been a growing wealth of Cosmere board game adaptations worthy of your time. And right now, Amazon has dropped the price of one of the best options by 50% for Black Friday. The Cosmere RPG isn&#39;t for casual tabletop gamers, it&#39;s more akin to a Dungeons and Dragons experience . If you enjoy the Stormlight Archive series and immersive tabletop RPGs, you&#39;re going to love diving into the world. We liked it enough to give it a solid 8 out of 10 in our review back when Stormlight version came out.",
+      "author": "Jacob Kienlen",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.ign.com/articles/the-cosmere-rpg-core-rulebook-for-the-stormlight-archive-is-50-off-for-black-friday-2026",
+      "image": "/images/feed/feed-d98273eabbce.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-4af8389be2a1",
+      "title": "These Piranha Plant Slippers Double as Mario-themed Decor When You Put Them Away",
+      "excerpt": "These Piranha Plant Slippers Double as Mario-themed Decor When You Put Them Away",
+      "body": "Slippers are one of those classic Christmas gifts pretty much everyone has received at some point in their lives. They are one of those practical items that everyone is going to use at some point, but rarely do people actually get excited when they unwrap a new pair of slippers. Sure, there are plenty of themed options out there that feel fun, but where do you even put those when you aren&#39;t using them? Well, if it&#39;s a pair of Piranha Plant slippers, that problem has been solved for you. Just place them back in their Pipe holder and your footwear is instantly transformed into a little Piranha Plant. Suddenly you&#39;ve got a fun piece of Super Mario-themed decor that brightens up the space.",
+      "author": "Jacob Kienlen",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.ign.com/articles/piranha-plant-slippers-amazon-black-friday-deal-2026",
+      "image": "/images/feed/feed-4af8389be2a1.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-ae6e92c39a9e",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "excerpt": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of th…",
+      "body": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "image": "/images/feed/feed-ae6e92c39a9e.png",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-ee859941f624",
+      "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+      "excerpt": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differe…",
+      "body": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors on Jupiter from Juno Explanation: What creates the colors in Jupiter’s clouds? No one is sure. The thick atmosphere of Jupiter is mostly hydrogen and helium , elements which are colorless at the low temperatures of the Jovian cloud tops . Which trace molecules provide the colors remains a topic of research , although small amounts of ammonium hydrosulfide are one leading candidate .",
+      "author": "NASA Breaking News",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+      "image": "/images/feed/feed-ee859941f624.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-52d1eca4da7f",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "excerpt": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux server…",
+      "body": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 51,
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "image": "/images/feed/feed-52d1eca4da7f.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-b316f7324afb",
+      "title": "Ford Begins Producing Its Own LFP Batteries",
+      "excerpt": "Ford is now a battery producer. Yes, it’s using battery technology licensed from CATL, but it is now producing EV batteries it is going to be using in its own vehicles. In fact, it is reportedly doing…",
+      "body": "Ford is now a battery producer. Yes, it&#8217;s using battery technology licensed from CATL, but it is now producing EV batteries it is going to be using in its own vehicles. In fact, it is reportedly doing so in a really fast, advanced way. &#8220;The BlueOval Battery Park Michigan assembly ... [continued] The post Ford Begins Producing Its Own LFP Batteries appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://cleantechnica.com/2026/11/21/ford-begins-producing-its-own-lfp-batteries/",
+      "image": "/images/feed/feed-b316f7324afb.webp",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-506b65fe7650",
+      "title": "46 Years Later, the Most Influential Thriller of All Time Is Officially Free on YouTube",
+      "excerpt": "The start of Jason Voorhees's story, 'Friday the 13th,' is now available to watch for free.",
+      "body": "Over the years, corporations and filmmakers alike have eagerly sought to revisit the origins of horror classics (e.g., Bates Motel and Psycho , Welcome to Derry and IT , etc.) for modern audiences. It’s an easy way to find success when you already have an audience that loves the IP you’re reimagining",
+      "author": "Aimee Hart",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.polygon.com/friday-the-13th-youtube-watch-free-november-2026/",
+      "image": "/images/feed/feed-506b65fe7650.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-2e25abffbdd6",
+      "title": "58 Years Later, Captain Kirk's Best Star Trek Quote Is the Greatest Line in Sci-Fi History",
+      "excerpt": "Captain Kirk's speech in 'Return to Tomorrow' says more about what Star Trek stands for than any other line in the original series.",
+      "body": "Some lines of dialogue become so famous they stop belonging to the movies and TV shows that produced them. “May the Force be with you.” “I’ll be back.” “You're gonna need a bigger boat.” You don't need to know the context. The words have long since transcended their original context and permeated the pop culture zeitgeist.",
+      "author": "Terry Terrones",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.polygon.com/best-captain-kirk-quote-star-trek-original-series/",
+      "image": "/images/feed/feed-2e25abffbdd6.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-33efa034a164",
+      "title": "61 Years Later, Charlie Brown's Greatest Enemy Is Still an Undefeated 'Peanuts' Icon",
+      "excerpt": "Charlie Brown's only real arch-rival was a malevolent tree. Chomp chomp chomp.",
+      "body": "Like many comics aimed at children, Charles Schulz's Peanuts doesn't have too many actual villains. It has a number of antagonists, such as Lucy Van Pelt , various other kids, or the impersonal cloud of failure that constantly hangs over Charlie Brown's head, but it's rare to see a genuinely malevolent force in Peanuts — with one exception.",
+      "author": "Thomas Hindmarch",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.polygon.com/kite-eating-tree-peanuts/",
+      "image": "/images/feed/feed-33efa034a164.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-c740ace5ddcd",
+      "title": "Rumor: Hyundai is getting ready to roll out an all-new, all-electric work truck",
+      "excerpt": "The last time Hyundai announced a new work truck was 22 years ago, and the Hyundai Porter has proven itself as a dependable workhorse throughout Korea and Southeast Asia – but only the pyramids and th…",
+      "body": "The last time Hyundai announced a new work truck was 22 years ago, and the Hyundai Porter has proven itself as a dependable workhorse throughout Korea and Southeast Asia – but only the pyramids and the Chevy Express can last forever. Hyundai is reportedly getting ready to pull the wraps off an all-new Porter pickup. This time, it’s electric . more…",
+      "author": "Jo Borrás",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://electrek.co/2026/11/21/rumor-hyundai-is-getting-ready-to-roll-out-an-all-new-all-electric-work-truck/",
+      "image": "/images/feed/feed-c740ace5ddcd.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-87234dfd702e",
+      "title": "Xiaomi’s 1,548 hp electric supercar is going global, starting in the UAE",
+      "excerpt": "As a red wave of Chinese-built electric vehicles breaks over Europe and Canada, Xiaomi is selling its electric cars outside of China for the first time ever – and its starting its push for global grow…",
+      "body": "As a red wave of Chinese-built electric vehicles breaks over Europe and Canada, Xiaomi is selling its electric cars outside of China for the first time ever – and its starting its push for global grow — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Jo Borrás",
+      "date": "2026-11-22",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://electrek.co/2026/11/21/red-wave-xiaomi-goes-global-with-first-overseas-ev-sales/",
+      "image": "/images/feed/feed-87234dfd702e.jpg",
+      "source": "Electrek",
       "isLive": true
     },
     {
@@ -185,7 +413,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 40,
       "url": "https://www.engadget.com/2319300/pixel-11-is-it-worth-upgrading-from-9-10/",
       "image": "/images/feed/feed-9dfbab4b94c9.jpg",
       "source": "Engadget",
@@ -204,7 +432,7 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 31,
       "url": "https://www.engadget.com/2310887/samsung-vs-lg-oled-tv-difference-between/",
       "image": "/images/feed/feed-7dee6e46a7ab.jpg",
       "source": "Engadget",
@@ -223,29 +451,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 53,
       "url": "https://www.engadget.com/2319295/what-can-happen-too-many-devices-on-home-network/",
       "image": "/images/feed/feed-67ec152f5a59.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-e53867abecf4",
-      "title": "Star Trek Reboot Officially Teased as Crimson Tide Meets Training Day Sci-Fi Thriller",
-      "excerpt": "The next Star Trek movie has writers and a strong pitch: Crimson Tide meets Training Day meets Starfleet.",
-      "body": "After more than a decade of waiting, it seems we may finally get a new theatrically released Star Trek movie . While dedicated Trekkies have heard that before, the directors of the only known Star Trek movie in development recently shared details about their project. The pair helming the new Trek film , Jonathan Goldstein and John Francis Daley, broke down the movie's influences in an interview with Inverse .",
-      "author": "Elijah Gonzalez",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.polygon.com/star-trek-movie-reboot-crimson-tide-training-day/",
-      "image": "/images/feed/feed-e53867abecf4.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -261,29 +470,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 37,
       "url": "https://www.engadget.com/2319291/how-to-enable-usb-port-charging-pc-off/",
       "image": "/images/feed/feed-b91d27d3b057.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-97a672f9e5ac",
-      "title": "Binding Of Isaac Update Review-Bombed Over AI-Generated Music In GTA 6 Mode: ‘Woke Up To A Sh*t Show, Obviously I Had No Idea’",
-      "excerpt": "A Vice City mode was using music made by AI",
-      "body": "A Vice City mode was using music made by AI\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ethan Gach",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://kotaku.com/binding-of-isaac-update-review-bombed-over-ai-generated-music-in-gta-6-mode-woke-up-to-a-sht-show-obviously-i-had-no-idea-2000759213",
-      "image": "/images/feed/feed-97a672f9e5ac.jpg",
-      "source": "Kotaku",
       "isLive": true
     },
     {
@@ -299,7 +489,7 @@
         "Android Phone"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 39,
       "url": "https://www.engadget.com/2317775/never-do-these-things-on-android-phone/",
       "image": "/images/feed/feed-df288c60823c.jpg",
       "source": "Engadget",
@@ -318,7 +508,7 @@
         "Earbuds"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 53,
       "url": "https://www.engadget.com/2319289/wireless-earbuds-type-best-for-audio-output/",
       "image": "/images/feed/feed-bbca3c064dd9.jpg",
       "source": "Engadget",
@@ -337,7 +527,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 50,
       "url": "https://electrek.co/2026/11/21/here-are-6-great-reasons-rural-drivers-should-embrace-evs-in-2026/",
       "image": "/images/feed/feed-7ccef9ef27d6.jpg",
       "source": "Electrek",
@@ -356,48 +546,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 48,
       "url": "https://www.engadget.com/2310980/how-to-calibrate-3d-printer-why-should/",
       "image": "/images/feed/feed-ae427ed773bb.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-acbb6ea5a960",
-      "title": "The Binding of Isaac Dev Removes Undisclosed AI-Generated Music From Repentance+ Following Creator Response, Review-Bombing",
-      "excerpt": "The Binding of Isaac developer Nicalis has removed undisclosed AI-generated music included in Repentance+ after backlash led to a review-bombing campaign on Steam and a response from the game's creato…",
-      "body": "The Binding of Isaac developer Nicalis has removed undisclosed AI-generated music included in Repentance+ after backlash led to a review-bombing campaign on Steam and a response from the game&#39;s creator, Edmund McMillen. McMillen and Nicalis spent months building up to the November 19, 2026, release date for the latest update in their classic action roguelike game, but that launch was quickly soured. Just 8% of The Binding of Isaac: Repentance+&#39;s recent Steam reviews are positive, with a good chunk of comments left by players referencing AI-generated material that was not previously mentioned in any official capacity. &quot;Thanks, Nicalis, for breaking everything and adding AI slop to an already-existing game!&quot; one popular review said .",
-      "author": "Michael Cripe",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.ign.com/articles/the-binding-of-isaac-dev-removes-undisclosed-ai-generated-music-from-repentance-following-creator-response-review-bombing",
-      "image": "/images/feed/feed-acbb6ea5a960.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-9e8db62effa7",
-      "title": "New Dungeons & Dragons Live-Action Series Officially Replaces Netflix's Forgotten Realms",
-      "excerpt": "Netflix’s new live-action Dungeons & Dragons series Ravenloft could bring the fan-favorite vampire Strahd to streaming.",
-      "body": "Netflix’s new live-action Dungeons & Dragons series Ravenloft could bring the fan-favorite vampire Strahd to streaming.\n\nThis report, published by Polygon, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Polygon using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Sam Hill",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://www.polygon.com/dungeons-and-dragons-ravenloft-tv-show-netflix/",
-      "image": "/images/feed/feed-9e8db62effa7.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -414,48 +566,10 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 49,
       "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
       "image": "/images/feed/feed-577061a5363c.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-2098c3036076",
-      "title": "Final Fantasy Toy Counterfeiting Ring Ends In $300,000 Bust Of Tifa Lockhart Statues",
-      "excerpt": "13 individuals have reportedly been arrested in connection to $300,000 worth of counterfeit Final Fantasy figurines",
-      "body": "13 individuals have reportedly been arrested in connection to $300,000 worth of counterfeit Final Fantasy figurines\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://kotaku.com/shanghai-police-bust-up-bootleg-tifa-lockhart-toy-operation-2000759206",
-      "image": "/images/feed/feed-2098c3036076.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-50b4861e8689",
-      "title": "Star Wars' New Jedi Order Era is Officially Moving Forward",
-      "excerpt": "Two upcoming Star Wars films, New Jedi Order and Lucasfilm head Dave Filoni's untitled project, are making progress.",
-      "body": "Despite Star Wars: The Mandalorian & Grogu struggling at the box office, it seems Disney is continuing development on two upcoming Star Wars films. This summer, Star Wars: New Jedi Order and Dave Filoni’s untitled movie as in-development projects were confirmed to be in the works in industry publication Production Weekly, suggesting that despite delays and silence around the projects, they haven't been shelved.",
-      "author": "Elijah Gonzalez",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.polygon.com/star-wars-new-jedi-order-era-update/",
-      "image": "/images/feed/feed-50b4861e8689.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -471,7 +585,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 34,
       "url": "https://cleantechnica.com/2026/11/21/who-needs-automatic-driving-you-love-to-drive-however-for-many-handicapped-teslas-full-self-driving-is-the-only-option-its-use-it-or-dont-drive/",
       "image": "/images/feed/feed-bef1b29924ef.jpg",
       "source": "CleanTechnica",
@@ -490,67 +604,9 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 49,
       "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
       "image": "/images/feed/feed-e781d3ee50fb.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-568461fe64e9",
-      "title": "How much does charging an EV really cost? This Redditor says $7 per month",
-      "excerpt": "One of the most common questions asked by first-time EV buyers is about the cost of electricity. Whether they plan to charge at home or find charging in the wild, everyone wants to know what to expect…",
-      "body": "One of the most common questions asked by first-time EV buyers is about the cost of electricity. Whether they plan to charge at home or find charging in the wild, everyone wants to know what to expect when it comes time to top off their batteries. One EV owner did the math after two months of EV ownership and came up with a surprising number: $7 a month. more…",
-      "author": "Jo Borrás",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://electrek.co/2026/11/21/how-much-does-charging-an-ev-really-cost-this-redditor-says-7-per-month/",
-      "image": "/images/feed/feed-568461fe64e9.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-ad7c0084461a",
-      "title": "EV Share Jumps to 68%(!) and Small BEVs Rise to Power — China EV Sales Report for October",
-      "excerpt": "High gas prices and a never-ending wave of new BEVs have allowed October to reach 68% EV market share, a new record! This record achievement is thanks to a significant ICE (internal combustion engine)…",
-      "body": "High gas prices and a never-ending wave of new BEVs have allowed October to reach 68% EV market share, a new record! This record achievement is thanks to a significant ICE (internal combustion engine) crash. The overall market dropped 27% year over year (YoY), to around 1.6 million sales. Plugins ... [continued] The post EV Share Jumps to 68%(!) and Small BEVs Rise to Power — China EV Sales Report for October appeared first on CleanTechnica .",
-      "author": "José Pontes",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://cleantechnica.com/2026/11/21/ev-share-jumps-to-68-and-small-bevs-rise-to-power-china-ev-sales-report-for-october/",
-      "image": "/images/feed/feed-ad7c0084461a.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-9ed020c946e6",
-      "title": "Tesla Cybertruck’s already impressive turning radius gets even tighter",
-      "excerpt": "Tesla is rolling out an update that makes the Cybertruck turn even tighter, improving on what was already one of the best turning radiuses you can get in a full-size pickup. But there’s a catch. It on…",
-      "body": "Tesla is rolling out an update that makes the Cybertruck turn even tighter, improving on what was already one of the best turning radiuses you can get in a full-size pickup. But there’s a catch. It only works on 2027 model year Cybertrucks, and Tesla plans to stop building the truck by the end of next summer. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cybertruck",
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://electrek.co/2026/11/21/tesla-cybertruck-tighter-turning-radius-update/",
-      "image": "/images/feed/feed-9ed020c946e6.png",
       "source": "Electrek",
       "isLive": true
     },
@@ -567,7 +623,7 @@
         "Cve-"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 51,
       "url": "https://pwn.ai/upload2shell",
       "image": "/images/feed/feed-b484e42c41cd.png",
       "source": "Hacker News",
@@ -586,7 +642,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 41,
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
       "image": "/images/feed/feed-3ac5106debba.jpg",
       "source": "BleepingComputer",
@@ -605,7 +661,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 47,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-21-2026",
       "image": "/images/feed/feed-f95d9fe3e24d.jpg",
       "source": "Space.com",
@@ -624,7 +680,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 38,
       "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
       "image": "/images/feed/feed-4fa83550e4df.jpg",
       "source": "BleepingComputer",
@@ -643,7 +699,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 42,
       "url": "https://www.space.com/entertainment/space-movies-shows/this-week-in-space-podcast-episode-237-a-fond-farewell",
       "image": "/images/feed/feed-fb68ef8e24cb.jpg",
       "source": "Space.com",
@@ -662,7 +718,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 44,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-first-contact-at-30-resistance-is-futile-when-it-comes-to-the-next-generation-crews-greatest-big-screen-adventure",
       "image": "/images/feed/feed-8103371176a3.jpg",
       "source": "Space.com",
@@ -681,7 +737,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 33,
       "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
       "image": "/images/feed/feed-3f8dc1fbea0d.jpg",
       "source": "The Verge",
@@ -700,7 +756,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 46,
       "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
       "image": "/images/feed/feed-68a7cdaa6f8d.jpg",
       "source": "BleepingComputer",
@@ -720,29 +776,10 @@
         "Starship"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 54,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-retire-1st-starship-upper-stage-ever-caught-by-chopsticks-elon-musk-says",
       "image": "/images/feed/feed-0dc1e54a6bda.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-aea9da50e144",
-      "title": "The Outages Are Just Getting Started",
-      "excerpt": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.",
-      "body": "AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lily Hay Newman, Matt Burgess",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/",
-      "image": "/images/feed/feed-aea9da50e144.jpg",
-      "source": "Wired",
       "isLive": true
     },
     {
@@ -759,29 +796,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 36,
       "url": "https://www.wired.com/story/a-space-probe-returns-to-astroids-where-nasa-tested-planetary-defense-systems/",
       "image": "/images/feed/feed-946b84a36cab.png",
       "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-1673f2e52589",
-      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-      "excerpt": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could…",
-      "body": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-      "image": "/images/feed/feed-1673f2e52589.jpg",
-      "source": "The Hacker News",
       "isLive": true
     },
     {
@@ -797,29 +815,9 @@
         "Orbit"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 49,
       "url": "https://www.space.com/space-exploration/missions/esa-jaxa-bepicolomobo-mission-mercury-orbit-arrival",
       "image": "/images/feed/feed-d12ffed9af05.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-3196ac30931c",
-      "title": "SpaceX launches classified mission for US Space Force from California (video)",
-      "excerpt": "SpaceX launched a classified mission for the U.S. Space Force tonight (Nov. 20), sending a mystery payload to orbit from California's central coast.",
-      "body": "SpaceX launched a classified mission for the U.S. Space Force tonight (Nov. 20), sending a mystery payload to orbit from California's central coast. A Falcon 9 rocket lifted off from Vandenberg Space Force Base tonight at 11:20 p.m. EST (8:20 p.m. local California time; 0420 GMT on Nov. 21), on a Space Force mission called USSF-317. The Falcon 9's first stage came back to Earth about 8.5 minutes later, touching down in the Pacific Ocean atop the SpaceX drone ship \"Of Course I Still Love You.\" It was the 11th launch and landing for this booster, which is designated B1100. A SpaceX Falcon 9 rocket launches the USSF-317 mission for the U.S. Space Force from Vandenberg Space Force Base in California on Nov. 20, 2026.",
-      "author": " Mike Wall ",
-      "date": "2026-11-21",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Spacex",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-classified-space-force-launch-ussf-317",
-      "image": "/images/feed/feed-3196ac30931c.jpg",
       "source": "Space.com",
       "isLive": true
     },
@@ -836,7 +834,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 42,
       "url": "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/",
       "image": "/images/feed/feed-c23ef5c11676.jpg",
       "source": "CNET",
@@ -855,7 +853,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 35,
       "url": "https://www.cnet.com/tech/services-and-software/google-gemini-clears-firefighter-radio-static/",
       "image": "/images/feed/feed-37112e0686e5.jpg",
       "source": "CNET",
@@ -874,7 +872,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 39,
       "url": "https://openai.com/index/combatting-adversarial-distillation",
       "image": "/images/feed/feed-7121ba7c9173.png",
       "source": "OpenAI Blog",
@@ -893,7 +891,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 52,
       "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/06/iphone-usb-cable.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -912,7 +910,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 49,
       "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
       "source": "TechCrunch",
@@ -931,7 +929,7 @@
         "Gpt"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 47,
       "url": "https://openai.com/business/customer-stories/hebbia",
       "image": "/images/feed/feed-c2d364619a44.png",
       "source": "OpenAI Blog",
@@ -939,16 +937,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: AI Gateway Performance Comparison (2026): Python vs Go vs Rust vs Envoy, and Why the Benchmarks Disagree",
-    "DEV.TO: Stop Copy-Pasting Prompts: Build a Content Asset Pipeline Instead",
-    "DEV.TO: Go Chat Authorization with Room Channels (Logistics Cursors Versus One Filtered Stream)",
-    "DEV.TO: Routing Workflow with Spring AI: Classify First, Then Answer",
-    "DEV.TO: Murf AI Review for Developers: The $0.16/Minute Rate Only Holds If You Use the Hours. Check It From Your Render Log",
-    "DEV.TO: barcode_gen: 1D barcodes for Flutter that snap to whole pixels and export to SVG",
-    "DEV.TO: How I Built a Zero-Dependency HTML/JS Project Scope & Quote Estimator for Freelancers",
-    "ELECTREK: Red wave: Xiaomi goes global with first overseas EV sales",
-    "POLYGON: 8 Must-Play JRPGs for People With Real-Life Schedules",
-    "ENGADGET: Attention Pixel 9 and 10 owners: is it actually worth upgrading to the Pixel 11?"
+    "DEV.TO: StageSense: Prepare. Perform. Improve.",
+    "DEV.TO: Your Python Code Returns From a finally Block and Python 3.14 Now Warns About It",
+    "DEV.TO: Running a job search with Claude Code and Codex, and what we learned building the MCP server behind it",
+    "DEV.TO: You Had Two Database Servers Open in Two Terminals and Typed Into the Wrong One",
+    "DEV.TO: The Bug Reached Forty Thousand Customers and You Felt What You Felt for Four Hundred",
+    "DEV.TO: An AI Model Just Killed a Post-Quantum Cipher — and Factored Two RSA Records in 16 Days",
+    "DEV.TO: OpenCode 2.0: a terminal agent that now spans desktop and web",
+    "INSIDEEVS: Tesla FSD V15 Makes Your Drive Look Like Grand Theft Auto",
+    "IGN: Nintendo's 2026 Black Friday Sale is Officially Live",
+    "POLYGON: 'Calvin and Hobbes' Best Bully Quote Is Still Among the Wisest in Comic Strip History"
   ],
   "sectionVideos": {}
 }
