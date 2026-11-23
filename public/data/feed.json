@@ -1,146 +1,127 @@
 {
-  "fetchedAt": "2026-11-22T22:12:50.722Z",
+  "fetchedAt": "2026-11-23T03:20:18.388Z",
   "articles": [
     {
-      "id": "feed-c362ee43b686",
-      "title": "AI Daily Digest November 23, 2026: Agents Find a Zero-Day on Their Own, METR Moves the Horizon, Hyundai Owns Boston Dynamics",
-      "excerpt": "Seven stories for your Monday, and this edition keeps circling one uncomfortable idea: autonomous agents are now doing real work against real systems, sometimes faster than any human can react. Amazon…",
-      "body": "Seven stories for your Monday, and this edition keeps circling one uncomfortable idea: autonomous agents are now doing real work against real systems, sometimes faster than any human can react. Amazon's threat team watched attacker-operated agents find and exploit a medical imaging zero-day in eleven minutes, METR published a fresh measurement of how long agents can work without a human, 1Password shipped a platform that lets personal agents log in without ever seeing a password, and Hyundai quietly closed out the last share of Boston Dynamics. Here is what happened and what to take from it.",
-      "author": "HIROKI II",
-      "date": "2026-11-22",
+      "id": "feed-e3e54977c469",
+      "title": "Fixing \"unable to get local issuer certificate\" in Claude Code, Cursor, Git & npm on a Work Mac",
+      "excerpt": "You set up Claude Code or open Cursor on your company MacBook, send your first prompt—or run npm install or git push—and immediately hit a wall: unable to get local issuer certificate UNABLE_TO_GET_IS…",
+      "body": "You set up Claude Code or open Cursor on your company MacBook, send your first prompt—or run npm install or git push —and immediately hit a wall: unable to get local issuer certificate UNABLE_TO_GET_ISSUER_CERT_LOCALLY self-signed certificate in certificate chain SSL: CERTIFICATE_VERIFY_FAILED Meanwhile, Safari and Chrome open api.anthropic.com , github.com , and registry.npmjs.org without a single warning. That discrepancy is almost always caused by corporate HTTPS break-and-inspect from a Secure Web Gateway (SWG) such as Zscaler, Netskope, Cloudflare Zero Trust, or Palo Alto GlobalProtect. Here is why your browser succeeds while your AI coding tools and CLIs break, and how to fix it cleanly on macOS without reaching for insecure shortcuts like NODE_TLS_REJECT_UNAUTHORIZED=0 .",
+      "author": "SWG bar",
+      "date": "2026-11-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
+      ],
+      "featured": true,
+      "xpReward": 51,
+      "url": "https://dev.to/swgbar/fixing-unable-to-get-local-issuer-certificate-in-claude-code-cursor-git-npm-on-a-work-mac-270j",
+      "image": "/images/feed/feed-e3e54977c469.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-a96728e41afb",
+      "title": "Why Cloud Screenshot Loops are Broken: Sub-10s Windows Desktop Automation with 28MB RAM",
+      "excerpt": "When the big AI labs introduced \"computer use\", the industry assumed desktop automation had finally arrived. Then developers actually tried it: It streams 2MB PNG screenshots across the internet every…",
+      "body": "When the big AI labs introduced \"computer use\", the industry assumed desktop automation had finally arrived. Then developers actually tried it: It streams 2MB PNG screenshots across the internet every 3 seconds. It seizes your active foreground mouse cursor, moving it like a slow ghost. It eats 800MB–1.2GB of host RAM. A single elementary button click takes 35 to 60+ seconds. It costs $200/month or burns $0.15 per screenshot step. We asked a simple question: Why are we treating an operating system as a dumb raster image when Windows already has a programmatic accessibility state machine? Here is how we architected LuxurAI Cowork v1.1 to execute multi-step OS workflows in under 10 seconds with an idle footprint of just 28.4MB RAM . The Latency Math: Raster Vision vs.",
+      "author": "Achyut Srivastava",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 33,
+      "url": "https://dev.to/achyut_srivastava_2a77b5d/why-cloud-screenshot-loops-are-broken-sub-10s-windows-desktop-automation-with-28mb-ram-5ccc",
+      "image": "/images/feed/feed-a96728e41afb.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-6425496fa7ce",
+      "title": "11 Git tricks for reviewing what Claude Code and Codex changed on your Mac (2026)",
+      "excerpt": "Your coding agent says \"Done!\" and the working tree now has changes in files you never mentioned. Reading that diff is the part of AI coding nobody automates for you. These are the Git tricks and Mac…",
+      "body": "Your coding agent says \"Done!\" and the working tree now has changes in files you never mentioned. Reading that diff is the part of AI coding nobody automates for you. These are the Git tricks and Mac tools I'd use to review what Claude Code or Codex actually changed, keep the good parts, and throw out the rest. Before the agent touches anything 1. Commit a checkpoint first Run git add -A &amp;&amp; git commit -m \"checkpoint before agent\" before you hand over a task. Now git diff HEAD shows exactly what the agent did, and undoing all of it is git reset --hard HEAD plus git clean -fd for any new files. Reading the diff 2. Start with git diff --stat Before reading a single line, see which files changed and how much.",
+      "author": "E Daugherty",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 42,
+      "url": "https://dev.to/jeff_feldman_7ab3898/11-git-tricks-for-reviewing-what-claude-code-and-codex-changed-on-your-mac-2026-fhi",
+      "image": "/images/feed/feed-6425496fa7ce.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-f9dee250df72",
+      "title": "Replit DataCat คืออะไร?",
+      "excerpt": "Replit DataCat: แพลตฟอร์ม observability แบบ self-hosted ที่รับ OpenTelemetry เข้า เก็บลง Postgres หรือ ClickHouse Replit DataCat เป็นแพลตฟอร์ม observability แบบ open-source และ self-hosted ที่ Replit…",
+      "body": "Replit DataCat: แพลตฟอร์ม observability แบบ self-hosted ที่รับ OpenTelemetry เข้า เก็บลง Postgres หรือ ClickHouse Replit DataCat เป็นแพลตฟอร์ม observability แบบ open-source และ self-hosted ที่ Replit เปิดตัวบน GitHub เมื่อเดือนพฤศจิกายน 2026 ซึ่งรวบรวม metrics, logs และ distributed traces ผ่าน OpenTelemetry (OTLP/HTTP) หรือ Datadog Agent intake API จัดเก็บลง PostgreSQL หรือ ClickHouse พร้อมให้ dashboard, trace waterfall แบบ APM และ monitor สำหรับแจ้งเตือน โดยใช้สัญญาอนุญาต Apache-2.0 และไม่ต้องมีบัญชี hosted ใดๆ ลองใช้ Apidog วันนี้ หากคุณดูแล API อยู่ Replit DataCat ช่วยให้คุณดูทุก request เป็น trace ได้ฟรี ๆ บนฮาร์ดแวร์ที่คุณควบคุมเอง บทความนี้จะพาไปรู้จักว่ามันคืออะไร วิธีรัน การเลือก storage และวิธีใช้ร่วมกับการทดสอบ API Replit DataCat คืออะไร?",
+      "author": "Thanawat Wongchai",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 46,
+      "url": "https://dev.to/thanawat_wonchai/replit-datacat-khuueaair-159f",
+      "image": "/images/feed/feed-f9dee250df72.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-2202b79caf62",
+      "title": "Air Velocity in Python: Twice the Speed Means Four Times the Fitting Loss",
+      "excerpt": "Air velocity in a duct is the easiest number in HVAC to calculate: V (fpm) = Q (CFM) / A (ft2) 200 CFM through an 8-inch round duct is about 573 fpm. Squeeze the same air into a 6-inch duct and it's a…",
+      "body": "Air velocity in a duct is the easiest number in HVAC to calculate: V (fpm) = Q (CFM) / A (ft2) 200 CFM through an 8-inch round duct is about 573 fpm. Squeeze the same air into a 6-inch duct and it's about 1,019 fpm. That part is linear in area and nobody gets it wrong. What people underestimate is what happens next. Every elbow, takeoff, boot and grille charges a toll, and that toll isn't proportional to velocity. It's proportional to velocity pressure , which goes with the square of velocity. Here's a short script that makes the effect visible. Velocity pressure in one line For standard air (0.075 lb/ft³), ASHRAE's duct design chapter gives: Pv = ( V / 4005 ) ** 2 # in. w.c., V in fpm The 4005 isn't magic.",
+      "author": "Evgenii Konkin",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Python"
       ],
       "featured": true,
       "xpReward": 30,
-      "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-23-2026-agents-find-a-zero-day-on-their-own-metr-moves-the-horizon-mi4",
-      "image": "/images/feed/feed-c362ee43b686.webp",
+      "url": "https://dev.to/evgeniikonkin/air-velocity-in-python-twice-the-speed-means-four-times-the-fitting-loss-bl7",
+      "image": "/images/feed/feed-2202b79caf62.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-7810bf578a5e",
-      "title": "Physicist’s Long-Lost 1977 Fantasy Text Adventure Discovered On Hard Drive",
-      "excerpt": "Described as a 'missing link' between early computer games like Hunt the Wumpus and Zork, John Trenholme took the time to assemble Magic Cave when he wasn't establishing laser technologies",
-      "body": "Described as a 'missing link' between early computer games like Hunt the Wumpus and Zork, John Trenholme took the time to assemble Magic Cave when he wasn't establishing laser technologies\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Kotzer",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": true,
-      "xpReward": 40,
-      "url": "https://kotaku.com/physicists-long-lost-1977-fantasy-text-adventure-discovered-on-hard-drive-2000759290",
-      "image": "/images/feed/feed-7810bf578a5e.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-1c7adb8990cd",
-      "title": "Property Domain Onboarding: Idempotent SPF, DKIM, DMARC TXT Publication Before Cutover",
-      "excerpt": "Gate property-manager onboarding on a recorded sending-domain verification result after an idempotent TXT publication job. Keep propagation waiting outside the cutover decision: the time at which a DN…",
-      "body": "Gate property-manager onboarding on a recorded sending-domain verification result after an idempotent TXT publication job. Keep propagation waiting outside the cutover decision: the time at which a DNS write is accepted is a poor substitute for evidence that the sending service recognizes the domain. TL;DR: Publish the configured SPF, DKIM, and DMARC TXT records in one job keyed by domain, safely repeat the upserts after partial completion, then request sending-domain verification and retain its result. Complete onboarding only when that result satisfies the application's explicit readiness policy. A property management platform needs this distinction when a manager connects a domain for resident correspondence. “The request succeeded” is an integration observation.",
-      "author": "GriffinHayes3461",
-      "date": "2026-11-22",
+      "id": "feed-cc65ee8e37d9",
+      "title": "Retired AI models don't always fail loudly: luna-check now covers DeepSeek, xAI, Mistral, Cohere and Groq",
+      "excerpt": "Most people expect a retired model to return an error. Sometimes it does. Sometimes it quietly keeps working, just not the way you think. I just released luna-check v0.5.0, a small open-source CLI and…",
+      "body": "Most people expect a retired model to return an error. Sometimes it does. Sometimes it quietly keeps working, just not the way you think. I just released luna-check v0.5.0, a small open-source CLI and GitHub Action that scans your code for AI model names that are retired or about to be. It now covers 11 platforms and 429 model entries, including five new providers: Mistral AI, DeepSeek, xAI, Cohere and Groq. While adding them, I found that \"retired\" means very different things depending on the provider. Two kinds of retirement The request fails. DeepSeek's legacy names deepseek-chat and deepseek-reasoner stopped working on July 24, 2026 (15:59 UTC). Groq shut down llama-3.3-70b-versatile and llama-3.1-8b-instant on August 16, 2026. Mistral retires models on dated schedules too.",
+      "author": "Randika prasad",
+      "date": "2026-11-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/griffinhayes3461/property-domain-onboarding-idempotent-spf-dkim-dmarc-txt-publication-before-cutover-2oeh",
-      "image": "/images/feed/feed-1c7adb8990cd.webp",
+      "xpReward": 53,
+      "url": "https://dev.to/prasadrandika/retired-ai-models-dont-always-fail-loudly-luna-check-now-covers-deepseek-xai-mistral-cohere-1cin",
+      "image": "/images/feed/feed-cc65ee8e37d9.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-a90bb6e917d8",
-      "title": "6 Object Storage Services for Browser File Uploads: Node.js Presigned URL Retention",
-      "excerpt": "Property managers usually need two different things from one upload: a browser should deliver a training artifact without proxying the bytes through the app, and the organization should be able to exp…",
-      "body": "Property managers usually need two different things from one upload: a browser should deliver a training artifact without proxying the bytes through the app, and the organization should be able to explain how long that artifact remains. Those goals pull in different directions. The practical choice is a private object store with presigned delivery and a retention policy owned by your application, not a public bucket with a clever URL. Short URLs do not fix retention. Suppose a regional manager uploads a revised fire-safety recording for property 204.",
-      "author": "CorneliusHayes8579",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/corneliushayes8579/6-object-storage-services-for-browser-file-uploads-nodejs-presigned-url-retention-3l21",
-      "image": "/images/feed/feed-a90bb6e917d8.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-490e03fa375e",
-      "title": "Jest, Vitest, or node:test? Fixing \"Cannot use import statement outside a module\" by Choosing the Right Runner",
-      "excerpt": "If Jest just failed with SyntaxError: Cannot use import statement outside a module, your project is ESM and Jest is still running your files through a CommonJS pipeline. For a new TypeScript/ESM proje…",
-      "body": "If Jest just failed with SyntaxError: Cannot use import statement outside a module , your project is ESM and Jest is still running your files through a CommonJS pipeline. For a new TypeScript/ESM project, Vitest is the lowest-friction fix; node:test is enough if you have no browser code and few mocks; keep Jest if you have a large existing suite that already works. Below is why the error happens, the dead ends, and a decision table. Why does Jest say \"Cannot use import statement outside a module\"? The full symptom usually looks like this: SyntaxError: Cannot use import statement outside a module 1 | import { slugify } from \"./slugify.js\"; | ^^^^^^ Jest runs each test file inside a sandboxed VM and, by default, expects CommonJS.",
-      "author": "Libme",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/libme/jest-vitest-or-nodetest-fixing-cannot-use-import-statement-outside-a-module-by-choosing-the-213g",
-      "image": "/images/feed/feed-490e03fa375e.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-bf0132f01b41",
-      "title": "Best Static ISP Proxy Providers in 2026: Price per IP, Countries and Limits Compared",
-      "excerpt": "Disclosure: I work on BirdProxies, one of the providers in this comparison. I have tried to keep it fair. Every competitor price below comes from that provider's official pricing page, checked on 22 N…",
-      "body": "Disclosure: I work on BirdProxies, one of the providers in this comparison. I have tried to keep it fair. Every competitor price below comes from that provider's official pricing page, checked on 22 November 2026. Where I could not confirm a number, I left it out. Prices change often, so check them again before you buy. What a static ISP proxy is, and what to compare A static ISP proxy (also sold as \"static residential\") is an IP registered to a consumer internet provider but hosted on server hardware. The address does not change between sessions, which makes ISP proxies the usual choice for checkout bots, long-lived logins and multi-account work. The price per IP is only one line. These matter just as much: Shared or dedicated. A shared ISP IP is also used by other customers.",
-      "author": "Luis",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 44,
-      "url": "https://dev.to/luis_94c58f2f7a0cd17258af/best-static-isp-proxy-providers-in-2026-price-per-ip-countries-and-limits-compared-2nkl",
-      "image": "/images/feed/feed-bf0132f01b41.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-a9ce089b42e4",
-      "title": "Best Mobile 4G/5G Proxy Providers in 2026: Per-GB and Dedicated Prices Compared",
-      "excerpt": "Disclosure: I work on BirdProxies, one of the providers in this comparison. Competitor numbers come from each provider's official pricing page, checked on 22 November 2026. If a page did not show a nu…",
-      "body": "Disclosure: I work on BirdProxies, one of the providers in this comparison. Competitor numbers come from each provider's official pricing page, checked on 22 November 2026. If a page did not show a number clearly, I left it out instead of guessing. Our own prices come from our live shop. Two ways to buy mobile proxies Mobile proxies route your traffic through phone carrier networks. Carriers put many subscribers behind a small number of public IPs (carrier-grade NAT), so platforms are careful about blocking a mobile IP: they would block real users with it. That is why mobile IPs are popular for account creation and social media work. There are two buying models, and mixing them up is the most common mistake: Shared pool, billed per GB.",
-      "author": "Luis",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://dev.to/luis_94c58f2f7a0cd17258af/best-mobile-4g5g-proxy-providers-in-2026-per-gb-and-dedicated-prices-compared-2fce",
-      "image": "/images/feed/feed-a9ce089b42e4.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-8aa9ef4301e2",
-      "title": "3Draft : Game Engine Targetting System",
-      "excerpt": "Spider Paint capability not limited to serve my VR program, fare beyond that it is capable functional as a browser based 3D engine which can creat, handle and explore a larger scene also. I cannot tel…",
-      "body": "Spider Paint capability not limited to serve my VR program, fare beyond that it is capable functional as a browser based 3D engine which can creat, handle and explore a larger scene also. I cannot tell the secret when I told this is also completly fine for any interactive 3D game development also, build and play in one program. Welcome to Wyoming, a space station in my Five Percent universe, with the Seventh Quadrant spacecraft docked alongside it. What you're looking at is not a rendered movie. It's a live scene running inside my own browser-based 3D engine, 3Draft. The station and the ship were assembled in a surprisingly simple way: almost like LEGO. Using MCP, I built the environment from modular, low-poly pieces.",
-      "author": "Peter Vivo",
-      "date": "2026-11-22",
+      "id": "feed-7c70425b0e89",
+      "title": "Shot Lists, Last Frames and Idempotency Keys: Engineering a Short-Clip AI Video Pipeline",
+      "excerpt": "Disclosure: Written by the minimax3 team. We run an independent third-party MiniMax H3 (Hailuo 3) video generator and are not affiliated with, endorsed by, or operated by MiniMax or Hailuo. The first…",
+      "body": "Disclosure: Written by the minimax3 team. We run an independent third-party MiniMax H3 (Hailuo 3) video generator and are not affiliated with, endorsed by, or operated by MiniMax or Hailuo. The first time you build anything around a text-to-video model, it's tempting to treat it like a text API: send a prompt, get a result, done. That works for a demo. It falls apart the moment someone asks for \"a 45-second product video,\" a retry fires twice, or a job fails at 2 a.m. Short-clip video models behave more like a render farm than a chat endpoint. Jobs are slow, they cost money, they have hard limits, and the output is a file you still have to inspect. This post is about the engineering around the prompt: planning shots as data, chaining clips through a last frame, and scripting jobs safely.",
+      "author": "Muse Image AI",
+      "date": "2026-11-23",
       "readTime": "2 min",
       "section": "software",
       "tags": [
@@ -148,17 +129,303 @@
       ],
       "featured": false,
       "xpReward": 32,
-      "url": "https://dev.to/pengeszikra/3draft-game-engine-targetting-system-4gfp",
-      "image": "/images/feed/feed-8aa9ef4301e2.webp",
+      "url": "https://dev.to/museimageai/shot-lists-last-frames-and-idempotency-keys-engineering-a-short-clip-ai-video-pipeline-511p",
+      "image": "/images/feed/feed-7c70425b0e89.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-04d94fb563b8",
-      "title": "iOS 27 has a clever fix for unreliable Wi-Fi connections",
-      "excerpt": "9to5Mac is brought to you by Tello Mobile. Switching to Tello Mobile can bring the cost of your plan down to as little as $5 a month, or an unlimited plan for just $25 a month, all on America’s larges…",
-      "body": "9to5Mac is brought to you by Tello Mobile. Switching to Tello Mobile can bring the cost of your plan down to as little as $5 a month, or an unlimited plan for just $25 a month, all on America’s largest 5G network. See all of the available plans at tello.com . iOS 27 includes a really clever new feature that aims to solve the awkward middle ground between cellular and Wi-Fi connectivity. Here’s how it works and how you can turn it on. more…",
-      "author": "Chance Miller",
+      "id": "feed-0ecf3bea7e71",
+      "title": "Robert Pattinson's Forgotten Dark Fantasy Thriller Proves He's a Perfect James Bond",
+      "excerpt": "The Lighthouse, which is available on HBO Max, is the perfect film for the Robert Pattinson skeptic",
+      "body": "Not everybody is convinced Robert Pattinson is the right choice to be the next James Bond. Some are complaining Bond should be played by someone less famous , like he has in the past. Others feel he’s not masculine enough , or good-looking enough, or charismatic enough . Most of all, though, it seems many people don't love the idea that “the Twilight guy” is playing Bond.",
+      "author": "Brian VanHooker",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.polygon.com/the-lighthouse-robert-pattinson-james-bond/",
+      "image": "/images/feed/feed-0ecf3bea7e71.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-f874f8c6826d",
+      "title": "34 Years Later, the Best 'Far Side' Quote Will Still Leave You Speechless",
+      "excerpt": "Gary Larson's comic strip The Far Side was known for its visual humor, but this is the best-ever quote from the series",
+      "body": "Larson didn’t do deep and inspirational. Many of his cartoons required you to think, but not because they were thoughtful . Larson’s work was brilliant, and it sometimes took a few minutes to figure out what the punchline was. Take, this comic strip where an artist is painting a woman as a half-fly creature, for example. You likely see the woman or the painting first, and you wonder why the artist is painting her that way. Only after inspecting the comic more closely do you see the dead fly stuck to his glasses.",
+      "author": "Brian VanHooker",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.polygon.com/best-far-side-quote/",
+      "image": "/images/feed/feed-f874f8c6826d.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-712954cb4825",
+      "title": "Star Wars Is Getting an Official IMAX 70mm Release for the First Time",
+      "excerpt": "In 2027, the original untouched Star Wars will return to movie theaters — and in IMAX 70mm screenings for the first time, Lucasfilm confirms.",
+      "body": "Han will shoot first in 70 mm IMAX when the original Star Wars returns to movie theaters next year. Lucasfilm and IMAX have confirmed that the 50th anniversary rerelease of Star Wars will be on the biggest screens possible next February, giving fans a strong reason to return to theaters.",
+      "author": "Michael McWhertor",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.polygon.com/star-wars-50th-anniversary-imax-release-2027/",
+      "image": "/images/feed/feed-712954cb4825.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b24aa7117204",
+      "title": "Here's how much Starlink cost in 2020 vs. 2026",
+      "excerpt": "Throw in discounts and fluctuating rates, and two customers could end up paying vastly different bills for the same Starlink satellite service.",
+      "body": "Throw in discounts and fluctuating rates, and two customers could end up paying vastly different bills for the same Starlink satellite service.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.engadget.com/2319572/how-much-starlink-cost-2020-vs-2026/",
+      "image": "/images/feed/feed-b24aa7117204.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-2525bb74da2f",
+      "title": "Stellantis CEO More Bullish on EVs than Stellantis CEOs of Old, But Sings Same Boring Song",
+      "excerpt": "Stellantis has never been a bastion of EV enthusiasm and progress. Back in the day (about 10 years ago), Sergio Marchionne was a very openly, blatantly anti-EV CEO. He actually asked customers to not…",
+      "body": "Stellantis has never been a bastion of EV enthusiasm and progress. Back in the day (about 10 years ago), Sergio Marchionne was a very openly, blatantly anti-EV CEO. He actually asked customers to not buy their first electric car, the Fiat 500e. Stellantis is still dragging its feet on EVs ... [continued] The post Stellantis CEO More Bullish on EVs than Stellantis CEOs of Old, But Sings Same Boring Song appeared first on CleanTechnica .",
+      "author": "Z. S.",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://cleantechnica.com/2026/11/22/stellantis-ceo-more-bullish-on-evs-than-stellantis-ceos-of-old-but-sings-same-boring-song/",
+      "image": "/images/feed/feed-2525bb74da2f.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-ca5d392ce76c",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "excerpt": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+      "body": "Three significant backers share what gave them conviction to bet billions on Anthropic.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marina Temkin",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Anthropic"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "image": "https://techcrunch.com/wp-content/uploads/2026/11/antrhopic-openingday-getty.jpg?resize=1200,801",
+      "source": "TechCrunch",
+      "isLive": true
+    },
+    {
+      "id": "feed-03e3a80c1c24",
+      "title": "How to clear your cache on Google TV",
+      "excerpt": "Clearing your Google TV's cache isn't a one-size-fits-all solution, but it's a useful first step if you're having performance issues or glitches.",
+      "body": "Clearing your Google TV's cache isn't a one-size-fits-all solution, but it's a useful first step if you're having performance issues or glitches.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Max Miller)",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.engadget.com/2319567/how-to-clear-cache-google-tv/",
+      "image": "/images/feed/feed-03e3a80c1c24.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-a10822c87c63",
+      "title": "GTA 6 Is Getting Review Bombed in Zelda vs. GTA Troll War",
+      "excerpt": "Grand Theft Auto 6 and The Legend of Zelda: Ocarina of Time fans are fighting over Metacritic scores as part of a larger anti-woke culture war.",
+      "body": "Grand Theft Auto 6 may be the highest-rated game of all time on Metacritic , and may have earned a record-breaking $3.79 billion on launch day , but that doesn't mean Rockstar Games' new blockbuster can't have its haters. Multiple groups have descended on GTA 6 's Metacritic page to attack the game for its perceived shortcomings, much of that criticism is based on culture war nonsense.",
+      "author": "Michael McWhertor",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/gta-6-review-bombed-legend-of-zelda/",
+      "image": "/images/feed/feed-a10822c87c63.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-3e6340c12861",
+      "title": "Samsung Nintendo Switch 2 MicroSD Express Memory Cards Are on Sale for Black Friday",
+      "excerpt": "Tested and vetted at IGN.",
+      "body": "Several Black Friday deals on Nintendo Switch 2 accessories and video games are already under way. One of the most welcome deals is on Switch 2 memory. Ahead of November 27, Amazon has dropped the price of the highly rated Samsung P9 256GB Micro SDXC Express Card to $44.99 with free shipping. This is a slight $3 price drop from earlier this month and the lowest price I&#39;ve seen in a while. The 512GB model is also on sale for $99.99. Are these the lowest prices ever ? No. Are there cheaper memory cards out there? Yes . But if you&#39;re looking for a memory card that we&#39;ve personally tested and recommend , you won&#39;t find a better deal right now.",
+      "author": "Eric Song",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.ign.com/articles/samsung-nintendo-switch-2-memory-cards-are-on-sale-for-black-friday",
+      "image": "/images/feed/feed-3e6340c12861.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-3c3316dc1c8b",
+      "title": "The PlayStation 5 Pro Console Is Going In and Out of Stock at Amazon",
+      "excerpt": "You'll need a combination of perseverance and luck to score one.",
+      "body": "The PlayStation 5 Pro will certainly not be discounted on Black Friday. In fact, you&#39;d be lucky just to find one for retail price. Fortunately, Amazon appears to be restocking PlayStation 5 Pro consoles on a very sporadic basis. You can&#39;t just buy the console alone, you&#39;ll need to select a bundle. The least expensive bundle is the PS5 Pro with charging station for $928.99 with free shipping. Don&#39;t be surprised if you click on the link and the console is out of stock again. Keep checking back and your perserverance (and luck) might eventually pay off. PlayStation 5 Pro Going In and Out of Stock at Amazon The PlayStation 5 Pro console was released on November of 2024. This is a more powerful version of the standard PS5 console.",
+      "author": "Eric Song",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Playstation"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.ign.com/articles/the-playstation-5-pro-console-is-going-in-and-out-of-stock-at-amazon",
+      "image": "/images/feed/feed-3c3316dc1c8b.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-ff897c4016b4",
+      "title": "Alienware's OLED Gaming Monitors Drop to New Price Lows for Black Friday, Starting From Just $280",
+      "excerpt": "What good is a powerful gaming PC without a monitor capable of showcasing its glory?",
+      "body": "Dell makes some of the best gaming monitors around under the Alienware brand. Its OLED monitors are no different. They source the same panels used in the highest end LG and Samsung OLED monitors and add on a 3 year warranty that covers OLED burn-in. For Black Friday, most of Dell&#39;s newest 2026 and 2025 monitors have dropped to new price lows . These include smaller sizes like the 27&quot; Alienware AWAW2726DM to bigger sizes like the recently released 39&quot; Alienware AW3926QW. Check out all the Black Friday deals below. During this Black Friday season, get an additional 3X back in Dell rewards with every monitor purchase. You will need to sign up for a Dell Rewards membership, which is free to join.",
+      "author": "Eric Song",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://www.ign.com/articles/alienware-black-friday-sale-gaming-monitor-deals-2026",
+      "image": "/images/feed/feed-ff897c4016b4.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-df83033e5fc6",
+      "title": "This free 'Swiss Army Knife' for macOS can replace your utility apps",
+      "excerpt": "Vorssaint is a powerful, modular utility suite, provided permissions are carefully managed.",
+      "body": "Vorssaint is a powerful, modular utility suite, provided permissions are carefully managed.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Vincent Arogya)",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.engadget.com/2319565/vorssaint-free-swiss-army-knife-macos-replace-utility-apps/",
+      "image": "/images/feed/feed-df83033e5fc6.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-7d83496ba503",
+      "title": "Should you go with a headphone DAC/amp combo or a stack?",
+      "excerpt": "If your computer's headphone jack isn't cutting it anymore, it's time to get a DAC and headphone amp. But do you go for a combo DAC/amp or a stack?",
+      "body": "If your computer's headphone jack isn't cutting it anymore, it's time to get a DAC and headphone amp. But do you go for a combo DAC/amp or a stack?\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Husain Parvez)",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.engadget.com/2311788/headphone-dac-amp-combo-vs-stack/",
+      "image": "/images/feed/feed-7d83496ba503.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-6d25f55d291b",
+      "title": "8 Windows apps you should probably remove from your PC",
+      "excerpt": "From pre-installed junk to popular apps that have better alternatives, these are the apps you should clean off your PC if they're present.",
+      "body": "From pre-installed junk to popular apps that have better alternatives, these are the apps you should clean off your PC if they're present.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Jaime Carrillo)",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.engadget.com/2317781/windows-apps-remove-from-pc/",
+      "image": "/images/feed/feed-6d25f55d291b.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-1491a8c01d06",
+      "title": "Public vs. private IP addresses: what's the difference?",
+      "excerpt": "One identifies your network, the other identifies the devices using your network.",
+      "body": "One identifies your network, the other identifies the devices using your network.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Vincent Arogya)",
+      "date": "2026-11-23",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.engadget.com/2310692/public-vs-private-ip-addresses-differences/",
+      "image": "/images/feed/feed-1491a8c01d06.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-aa19aa123313",
+      "title": "What is the best way to secure your PlayStation 5 for a flight?",
+      "excerpt": "You don't have to leave your precious PS5 behind when flying, but you will need to take some precautions or opt for a long-distance streaming relationship.",
+      "body": "You don't have to leave your precious PS5 behind when flying, but you will need to take some precautions or opt for a long-distance streaming relationship.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Nimrod Aldea)",
       "date": "2026-11-22",
       "readTime": "2 min",
       "section": "gadgets",
@@ -166,10 +433,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 33,
-      "url": "https://9to5mac.com/2026/11/22/ios-27-has-a-clever-fix-for-unreliable-wi-fi-connections/",
-      "image": "/images/feed/feed-04d94fb563b8.jpg",
-      "source": "9to5Mac",
+      "xpReward": 52,
+      "url": "https://www.engadget.com/2319558/best-way-secure-playstation-5-for-flight-travel/",
+      "image": "/images/feed/feed-aa19aa123313.jpg",
+      "source": "Engadget",
       "isLive": true
     },
     {
@@ -185,86 +452,10 @@
         "Satellite"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 32,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/arianespace-ariane-6-amazon-leo-internet-satellite-launch",
       "image": "/images/feed/feed-98a1c3193181.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-3eb7effffcb6",
-      "title": "How to safely clean your PC's GPU to avoid damaging it in the process",
-      "excerpt": "Removing and cleaning a GPU can be intimidating, but it's actually pretty simple.",
-      "body": "Removing and cleaning a GPU can be intimidating, but it's actually pretty simple.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Igor Bonifacic)",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.engadget.com/2319541/safely-clean-pc-gpu-avoid-damage/",
-      "image": "/images/feed/feed-3eb7effffcb6.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-27d0a7b2c8c7",
-      "title": "Why your monitor flickers when you turn it on and can it be fixed?",
-      "excerpt": "A flickering computer monitor can be a symptom of several different issues. Let's explore some common ones.",
-      "body": "A flickering computer monitor can be a symptom of several different issues. Let's explore some common ones.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Maddie Fisher)",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.engadget.com/2319538/monitor-flickering-when-turned-on-how-to-fix/",
-      "image": "/images/feed/feed-27d0a7b2c8c7.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-f8ca33daafe1",
-      "title": "The cool phone camera trick that can test your remote control's battery",
-      "excerpt": "Trying to figure out whether a remote control needs new batteries? Your phone camera can tell you if it's time to replace them. Here's how.",
-      "body": "Trying to figure out whether a remote control needs new batteries? Your phone camera can tell you if it's time to replace them. Here's how.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Adnan Ahmed)",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.engadget.com/2319533/how-to-use-phone-test-remote-control-battery/",
-      "image": "/images/feed/feed-f8ca33daafe1.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-5d1c0f3378b6",
-      "title": "Which solar panel type is best for your home?",
-      "excerpt": "Find out how monocrystalline, polycrystalline and thin-film solar panels compare on efficiency, cost and roof space, and which type suits your home and budget.",
-      "body": "Find out how monocrystalline, polycrystalline and thin-film solar panels compare on efficiency, cost and roof space, and which type suits your home and budget.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Husain Parvez)",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.engadget.com/2319531/solar-panel-types-best-home-use/",
-      "image": "/images/feed/feed-5d1c0f3378b6.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -280,7 +471,7 @@
         "Openai"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 47,
       "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798",
       "source": "TechCrunch",
@@ -299,143 +490,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 50,
       "url": "https://cleantechnica.com/2026/11/22/rmis-hydrogen-research-is-getting-better-its-investment-advice-still-falls-short/",
       "image": "/images/feed/feed-bd095eb7aff0.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-2200e8ad01e1",
-      "title": "Sorry, Vice City, but You’re the Most Boring Part of GTA 6",
-      "excerpt": "Grand Theft Auto 6's map is so well-designed that Vice City just might be the least exciting thing about Leonida.",
-      "body": "When Grand Theft Auto 6 was first announced, fans were thrilled at the prospect of returning to Vice City. The Miami-inspired location has always been one of the series’ most memorable locations, its neon-lit streets standing in contrast to the grittiness of Liberty City. While I was as excited as anyone to go clubbing and spend some time on the beach, after 70 hours, GTA 6 has struck me with one surprise thought: Vice City is the least interesting part of Leonida.",
-      "author": "Giovanni Colantonio",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/gta-6-vice-city-boring/",
-      "image": "/images/feed/feed-2200e8ad01e1.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-8a5cc40a3f70",
-      "title": "How Secure Is Your Password? Here's How To Test It",
-      "excerpt": "Find out which common password habits leave your accounts exposed, from keyboard patterns to reused logins, and what a truly secure password needs to include.",
-      "body": "Find out which common password habits leave your accounts exposed, from keyboard patterns to reused logins, and what a truly secure password needs to include.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Christine Persaud)",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.engadget.com/2319522/how-secure-is-password/",
-      "image": "/images/feed/feed-8a5cc40a3f70.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-32a674f866e6",
-      "title": "These iOS settings will help you control your mobile data use",
-      "excerpt": "Keeping your mobile data usage under control is generally a good idea, doubly so if you're on a restrictive plan, and iOS offers a few ways to do so.",
-      "body": "Keeping your mobile data usage under control is generally a good idea, doubly so if you're on a restrictive plan, and iOS offers a few ways to do so.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Adnan Ahmed)",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.engadget.com/2319519/ios-settings-help-control-mobile-data-use/",
-      "image": "/images/feed/feed-32a674f866e6.jpg",
-      "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-c52aa4b8dfb8",
-      "title": "Rockstar Says Darts Were Cut From GTA 6 Because It Didn't Have 'Unlimited Money or Time' to Make It 'Feel Proper'",
-      "excerpt": "Rockstar Games crammed a lot of content into GTA 6, but fan-favorite mini-games like darts and bowling didn't make the cut because the team didn't have \"unlimited money or unlimited time\" to do those…",
-      "body": "Rockstar Games crammed a lot of content into GTA 6 , but fan-favorite mini-games like darts and bowling didn&#39;t make the cut because the team didn&#39;t have &quot;unlimited money or unlimited time&quot; to do those activities justice. Rockstar North co-studio head Rob Nelson explained why the studio chose to focus on some aspects of development and not others during an interview with VGC . As noted by the site, picking up a game of darts has proven to be a good pastime in games like GTA 5 and GTA Online, but in GTA 6, the standards were a bit higher. From NPCs to the feel of motorized scooters, Leonida is Rockstar&#39;s most realistic playground yet.",
-      "author": "Michael Cripe",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.ign.com/articles/rockstar-says-darts-were-cut-from-gta-6-because-it-didnt-have-unlimited-money-or-time-to-make-it-feel-proper",
-      "image": "/images/feed/feed-c52aa4b8dfb8.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-1be206127441",
-      "title": "Amazon and Target Launch '3 for 2' Sales on Books, Box Sets, and Vinyl for Black Friday",
-      "excerpt": "Amazon and Target Launch '3 for 2' Sales on Books, Box Sets, and Vinyl for Black Friday",
-      "body": "Target has officially launched its main Black Friday sale, which means Amazon is now matching all of the best deals in its own sale . This is especially good news for anyone looking to pad their book or vinyl collections this year thanks to the popular &#39;3 for 2&#39; sale returning at both major retailers ahead of Thanksgiving. This is actually the second time the two retailers have had this type of sale in November, but this time around there seems to be a lot more included here. That&#39;s especially true if you&#39;re looking to grab multiple box sets at a discount. This sale is arguably the best time to buy books at a discount if you&#39;re willing to spend a bit more to get the extra savings.",
-      "author": "Jacob Kienlen",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.ign.com/articles/black-friday-buy-2-get-1-free-deal-on-books-and-music-2026",
-      "image": "/images/feed/feed-1be206127441.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-65a8e9efadf0",
-      "title": "GTA 6's T-shirts Are True Works of Art",
-      "excerpt": "Fashion can help you evade police in GTA 6, and Rockstar's design team has crafted some seriously covetable threads for the game.",
-      "body": "We've known for some time that fashion would be a big deal in Grand Theft Auto 6 . In Rockstar's official promotional materials for the game, both Jason and Lucia were prominently featured wearing stylish clothing, from Lucia's body-hugging gold dress to Jason's slick Miami Vice -inspired aqua sport coat. Even supporting characters like Brian wear Tommy Bahama-inspired aloha shirts yanked straight from the closet of a dapper middle-aged stoner. GTA 6 has drawn praise from all quarters for its scrupulous attention to detail in every aspect of the game, and there's one area the developer went far, far harder than it needed to: the vast and immaculate selection of T-shirts.",
-      "author": "Jen Glennon",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.polygon.com/gta-6-t-shirts/",
-      "image": "/images/feed/feed-65a8e9efadf0.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-ab269f4e4950",
-      "title": "How to steal the BF Bandito in GTA 6",
-      "excerpt": "Here's what you need to do to steal the BF Bandito in GTA 6 and complete one of Moses's requests",
-      "body": "You need to find a way to steal the BF Bandito in Grand Theft Auto 6 to help out Moses. After completing the first batch of requests, Moses will contact you about other cars he wants you to retrieve for him. Among them is this off-road beast. Unlike the Declasse Vamos , you won't need to figure out how to move the BF Bandito out of a garage. The challenge this time is to actually make the target stop.",
-      "author": "Paulo Kawanishi",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://www.polygon.com/gta-6-bf-bandito-steal-how-to-moses-grand-theft-auto/",
-      "image": "/images/feed/feed-ab269f4e4950.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -451,29 +509,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 40,
       "url": "https://electrek.co/2026/11/22/this-boomer-rep-mocked-a-child-about-the-4-trillion-debt-she-saddled-him-with/",
       "image": "/images/feed/feed-a7473b20d96e.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-7919d9c90715",
-      "title": "'GTA 6' Bombshell: Husband Melts Down After Wife Hid Her Role In Game For Years",
-      "excerpt": "A long-kept GTA 6 secret low-key almost destroyed comedian Amber Wallin's marriage.",
-      "body": "The gaming industry is notoriously secretive, and that's doubly true for anything related to Grand Theft Auto 6 . Rockstar Games kept much of the game tightly under wraps, including one of the title's biggest secrets — a remarkable feat when you consider how much of the game leaked prior to launch . All of this might be true, but it didn't take the sting out of one husband's recent discovery about his wife's work on the record-breaking open-world title .",
-      "author": "Patricia Hernandez",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Game"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.polygon.com/gta-6-amber-wallin-comedian-instagram-npc-voice-actor-husband-secret/",
-      "image": "/images/feed/feed-7919d9c90715.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -489,7 +528,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 48,
       "url": "https://www.nasa.gov/centers-and-facilities/johnson/65-years-of-human-spaceflight-at-nasa-johnson/",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e426920.jpg",
       "source": "NASA Breaking News",
@@ -509,7 +548,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 51,
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
       "image": "/images/feed/feed-0c7ba107785c.jpg",
       "source": "BleepingComputer",
@@ -528,7 +567,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 35,
       "url": "https://cleantechnica.com/2026/11/22/the-insurance-affordability-crisis-risks-resilience-and-solutions/",
       "image": "/images/feed/feed-b6603ff923cd.jpg",
       "source": "CleanTechnica",
@@ -549,7 +588,7 @@
         "Orbit"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 46,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
       "image": "/images/feed/feed-8bc97f1f0ce2.jpg",
       "source": "Space.com",
@@ -570,7 +609,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
       "image": "/images/feed/feed-07ce35c33a8d.jpg",
       "source": "BleepingComputer",
@@ -589,7 +628,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 51,
       "url": "https://cleantechnica.com/2026/11/22/elon-musk-ukraine-spacex-starshield-democrats-government-contracts-risk/",
       "image": "/images/feed/feed-1e3d2610f01a.jpg",
       "source": "CleanTechnica",
@@ -608,7 +647,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 47,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
       "image": "/images/feed/feed-592626ee88c9.jpg",
       "source": "BleepingComputer",
@@ -627,7 +666,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 41,
       "url": "https://www.space.com/stargazing/skywatching-kit/this-viral-star-projector-has-been-hyped-to-mars-and-back-but-we-hunted-down-the-best-version-you-can-buy",
       "image": "/images/feed/feed-77e8118d57fa.jpg",
       "source": "Space.com",
@@ -646,7 +685,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 46,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-first-contact-at-30-director-jonathan-frakes-reflects-on-his-triumphant-time-travel-blockbuster-interview",
       "image": "/images/feed/feed-e2e0e73953b2.jpg",
       "source": "Space.com",
@@ -665,7 +704,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 53,
       "url": "https://electrek.co/2026/11/22/briggs-stratton-keeps-the-lights-on-longer-with-bigger-16-kwh-lfp-battery/",
       "image": "/images/feed/feed-b6415e4652ed.png",
       "source": "Electrek",
@@ -685,7 +724,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 33,
       "url": "https://www.space.com/on-this-day-in-space-november-22-2026",
       "image": "/images/feed/feed-dcdbe0991c0d.jpg",
       "source": "Space.com",
@@ -704,7 +743,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 31,
       "url": "https://electrek.co/2026/11/22/from-equipment-to-ferries-to-locomotives-illinois-ports-are-getting-a-zev-makeover/",
       "image": "/images/feed/feed-c5bb66d8214c.jpg",
       "source": "Electrek",
@@ -723,7 +762,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 34,
       "url": "https://www.cnet.com/culture/entertainment/andrew-garfield-becoming-sam-altman-artificial/",
       "image": "https://www.cnet.com/wp-content/uploads/sites/2/IMG_3638.png",
       "source": "CNET",
@@ -742,48 +781,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 37,
       "url": "https://insideevs.com/news/816281/mercedes-chinese-ownership-us-sales/",
       "image": "/images/feed/feed-20418f4631d4.jpg",
       "source": "InsideEVs",
-      "isLive": true
-    },
-    {
-      "id": "feed-d0f747d57b2c",
-      "title": "E-quipment highlight: Tadano rolls out 35-ton V320RC electric crane",
-      "excerpt": "Developed by Japanese material handling giant Tadano, the 35-ton V320RC wheeled electric pick & carry crane has spent the last few months proving itself at NMG Italia’s job sites, where it’s been hand…",
-      "body": "Developed by Japanese material handling giant Tadano, the 35-ton V320RC wheeled electric pick &amp; carry crane has spent the last few months proving itself at NMG Italia’s job sites, where it’s been handling heavy loads in tight industrial spaces and improving efficiency by 50%. And now, you can buy one. more…",
-      "author": "Jo Borrás",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://electrek.co/2026/11/22/e-quipment-highlight-tadano-rolls-out-35-ton-v320rc-electric-crane/",
-      "image": "/images/feed/feed-d0f747d57b2c.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-86d5f034b271",
-      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Anthropic. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "happosai",
-      "date": "2026-11-22",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Anthropic"
-      ],
-      "featured": false,
-      "xpReward": 49,
-      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-      "image": "/images/feed/feed-86d5f034b271.png",
-      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -799,7 +800,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 46,
       "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
       "image": "/images/feed/feed-ae6e92c39a9e.png",
       "source": "The Hacker News",
@@ -818,7 +819,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 35,
       "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
       "image": "/images/feed/feed-52d1eca4da7f.jpg",
       "source": "The Hacker News",
@@ -837,7 +838,7 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 54,
       "url": "https://openai.com/index/perplexity-and-intelligence",
       "image": "/images/feed/feed-d2fc1e262b4c.png",
       "source": "OpenAI Blog",
@@ -876,7 +877,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 47,
       "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
       "image": "/images/feed/feed-3ac5106debba.jpg",
       "source": "BleepingComputer",
@@ -895,7 +896,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 35,
       "url": "https://www.cnet.com/tech/claude-ai-privacy-settings-guide/",
       "image": "/images/feed/feed-c23ef5c11676.jpg",
       "source": "CNET",
@@ -914,7 +915,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 51,
       "url": "https://www.cnet.com/tech/services-and-software/google-gemini-clears-firefighter-radio-static/",
       "image": "/images/feed/feed-37112e0686e5.jpg",
       "source": "CNET",
@@ -941,16 +942,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: AI Daily Digest November 23, 2026: Agents Find a Zero-Day on Their Own, METR Moves the Horizon, Hyundai Owns Boston Dynamics",
-    "KOTAKU: Physicist’s Long-Lost 1977 Fantasy Text Adventure Discovered On Hard Drive",
-    "DEV.TO: Property Domain Onboarding: Idempotent SPF, DKIM, DMARC TXT Publication Before Cutover",
-    "DEV.TO: 6 Object Storage Services for Browser File Uploads: Node.js Presigned URL Retention",
-    "DEV.TO: Jest, Vitest, or node:test? Fixing \"Cannot use import statement outside a module\" by Choosing the Right Runner",
-    "DEV.TO: Best Static ISP Proxy Providers in 2026: Price per IP, Countries and Limits Compared",
-    "DEV.TO: Best Mobile 4G/5G Proxy Providers in 2026: Per-GB and Dedicated Prices Compared",
-    "DEV.TO: 3Draft : Game Engine Targetting System",
-    "9TO5MAC: iOS 27 has a clever fix for unreliable Wi-Fi connections",
-    "SPACE.COM: Watch live on Nov. 23: Amazon launching 1st batch of internet satellites since Vulcan Centaur failure"
+    "DEV.TO: Fixing \"unable to get local issuer certificate\" in Claude Code, Cursor, Git & npm on a Work Mac",
+    "DEV.TO: Why Cloud Screenshot Loops are Broken: Sub-10s Windows Desktop Automation with 28MB RAM",
+    "DEV.TO: 11 Git tricks for reviewing what Claude Code and Codex changed on your Mac (2026)",
+    "DEV.TO: Replit DataCat คืออะไร?",
+    "DEV.TO: Air Velocity in Python: Twice the Speed Means Four Times the Fitting Loss",
+    "DEV.TO: Retired AI models don't always fail loudly: luna-check now covers DeepSeek, xAI, Mistral, Cohere and Groq",
+    "DEV.TO: Shot Lists, Last Frames and Idempotency Keys: Engineering a Short-Clip AI Video Pipeline",
+    "POLYGON: Robert Pattinson's Forgotten Dark Fantasy Thriller Proves He's a Perfect James Bond",
+    "POLYGON: 34 Years Later, the Best 'Far Side' Quote Will Still Leave You Speechless",
+    "POLYGON: Star Wars Is Getting an Official IMAX 70mm Release for the First Time"
   ],
   "sectionVideos": {}
 }
