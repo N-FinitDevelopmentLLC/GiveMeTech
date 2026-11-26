@@ -1,23 +1,463 @@
 {
-  "fetchedAt": "2026-11-25T23:51:49.465Z",
+  "fetchedAt": "2026-11-26T05:46:14.956Z",
   "articles": [
     {
-      "id": "feed-63016408a119",
-      "title": "GPU Cluster Troubleshooting Guide for 2027: Isolating Originating Ranks in NCCL Timeouts and NVIDIA Xid Faults",
-      "excerpt": "Quick Answer: Never restart a crashed multi-node GPU job solely from a rank 0 NCCL watchdog timeout traceback. In synchronous distributed training, healthy victim ranks emit collective timeouts becaus…",
-      "body": "Quick Answer: Never restart a crashed multi-node GPU job solely from a rank 0 NCCL watchdog timeout traceback. In synchronous distributed training, healthy victim ranks emit collective timeouts because they blocked waiting on one silent failing peer. Always screen all allocated hosts for kernel NVRM: Xid events and cgroup OOM kills first, isolate the originating rank via collective sequence timestamps, and drain faulty hardware before rescheduling.",
-      "author": "Denpex Engineering",
-      "date": "2026-11-25",
+      "id": "feed-6a8b4e74e010",
+      "title": "Choosing a Plane state group for work that is waiting for verification",
+      "excerpt": "Before adding a state called \"Ready for verification\" in Plane, decide whether the work is complete. If verification belongs to its acceptance criteria, changing the display name should still leave it…",
+      "body": "Before adding a state called \"Ready for verification\" in Plane, decide whether the work is complete. If verification belongs to its acceptance criteria, changing the display name should still leave it in an unfinished group. The state configurations of three personal projects covering a game, a concert, and an app were compared by name and group. No record of a past incident caused by uniform states was found in this research, so the article uses the retrieved configuration to examine how a verification state could be classified. The three projects currently have the same configuration The States lists for DRG, RECITAL, and SQN in the personal workspace were retrieved on September 11, 2026. Each response indicated that there was no next page.",
+      "author": "hiro@",
+      "date": "2026-11-26",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 48,
-      "url": "https://dev.to/denpex_engineering/gpu-cluster-troubleshooting-guide-for-2027-isolating-originating-ranks-in-nccl-timeouts-and-nvidia-56ab",
-      "image": "/images/feed/feed-63016408a119.webp",
+      "xpReward": 37,
+      "url": "https://dev.to/hirodeath/choosing-a-plane-state-group-for-work-that-is-waiting-for-verification-3563",
+      "image": "/images/feed/feed-6a8b4e74e010.webp",
       "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1aa1e552d8ef",
+      "title": "Price per credit is the wrong way to compare AI app builders",
+      "excerpt": "I spent the last few weeks reading pricing pages of AI app builders. Partly because I'm building one myself (builddu), partly because I kept getting confused. On paper it looks easy. Lovable Pro is $2…",
+      "body": "I spent the last few weeks reading pricing pages of AI app builders. Partly because I'm building one myself (builddu), partly because I kept getting confused. On paper it looks easy. Lovable Pro is $25 for 100 credits. Base44 Starter is $20 for 100 message credits. My own Starter plan is $20 for 100 credits. So they all cost about the same, right? Not really, because a credit means something different on every platform. Four ways to bill the same thing Lovable has one credit balance, plus some free grants for cloud and AI that get used first. Base44 splits it into two balances: message credits for building, and integration credits for what the finished app does. Bolt bills in tokens, so the cost depends on how much code and conversation the AI has to read each time.",
+      "author": "Durim",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 36,
+      "url": "https://dev.to/durim255/price-per-credit-is-the-wrong-way-to-compare-ai-app-builders-2ga4",
+      "image": "/images/feed/feed-1aa1e552d8ef.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-58a6fd443b27",
+      "title": "Integration tests for agent tools that run code: fixtures, cleanup, labels and budgets",
+      "excerpt": "Your agent's run_code tool is probably tested with a mock: call the tool, assert the mock was called with the right command, return a canned result. That test proves your code calls a function. It doe…",
+      "body": "Your agent's run_code tool is probably tested with a mock: call the tool, assert the mock was called with the right command, return a canned result. That test proves your code calls a function. It does not prove that pytest exists in the template, that a 200 KB output is truncated the way you think, that a timed-out command is reported as a timeout, or that the sandbox really cannot reach the internet. Those are the bugs that show up in production, as confused model behaviour that nobody can reproduce. A small integration suite against real sandboxes catches them. This post shows how to structure one with Vitest and the Sandscale TypeScript SDK; the approach carries over to any provider and test runner.",
+      "author": "Sandscale",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 37,
+      "url": "https://dev.to/sandscale/integration-tests-for-agent-tools-that-run-code-fixtures-cleanup-labels-and-budgets-538k",
+      "image": "/images/feed/feed-58a6fd443b27.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-a3344fac40f0",
+      "title": "Why Omega=9/4 Matters More Than Riemann for AI",
+      "excerpt": "Everyone wants to talk about the Riemann Hypothesis this week. But the OpenAI preprint that dropped on November 24, 2026 — proving the matrix multiplication exponent omega is exactly 9/4 — may be the…",
+      "body": "Everyone wants to talk about the Riemann Hypothesis this week. But the OpenAI preprint that dropped on November 24, 2026 — proving the matrix multiplication exponent omega is exactly 9/4 — may be the result that actually changes what you pay for inference. Matrix multiplication is not some academic curiosity for AI practitioners. It accounts for 80-90% of every inference call . Every forward pass through every transformer, every attention computation, every token you generate: it is matmul all the way down. 📖 Read the full version with charts and embedded sources on ComputeLeap → The Hacker News thread hit 1,034 points and 583 comments in a day.",
+      "author": "Max Quimby",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 35,
+      "url": "https://dev.to/max_quimby/why-omega94-matters-more-than-riemann-for-ai-3534",
+      "image": "/images/feed/feed-a3344fac40f0.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-feb6fc4a961a",
+      "title": "European Accessibility Act in 2027: An Accessibility Guide for WooCommerce Stores",
+      "excerpt": "An online shopper should not have to abandon an order because the checkout cannot be operated with a keyboard, the error message is announced only by colour, or a payment window is inaccessible to a s…",
+      "body": "An online shopper should not have to abandon an order because the checkout cannot be operated with a keyboard, the error message is announced only by colour, or a payment window is inaccessible to a screen reader. This is a practical problem for ecommerce businesses and, for certain services, a legal one. The European Accessibility Act (EAA) started applying on 28 June 2025. In 2027 the question is no longer when the deadline will arrive, but which obligations apply and whether the complete customer journey actually works. This guide covers WordPress and WooCommerce stores, consumer sales into the EU, keyboard and screen-reader testing, payment integrations, exceptions and actionable remediation. It is technical and commercial guidance, not jurisdiction-specific legal advice.",
+      "author": "Dmytro",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 46,
+      "url": "https://dev.to/dmytro_cian/european-accessibility-act-in-2027-an-accessibility-guide-for-woocommerce-stores-322o",
+      "image": "/images/feed/feed-feb6fc4a961a.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-9dc3d88d3fa3",
+      "title": "Your App Needs a Night Guard, Not Another Dashboard",
+      "excerpt": "After launch, nobody walks through your Android app anymore. Here's why a daily patrol on a different phone catches what monitoring tools miss. During your closed test, a dozen people walked through y…",
+      "body": "After launch, nobody walks through your Android app anymore. Here's why a daily patrol on a different phone catches what monitoring tools miss. During your closed test, a dozen people walked through your app on a dozen different phones. They tapped things, got lost, hit the bugs and told you about them. Then you launched, the testers left, and nobody walks through your app anymore. Your server monitor says everything is green. Your crash dashboard is quiet. And somewhere, on one particular phone, your app opens to a blank screen. You'll find out from a one-star review. Dashboards wait. Guards walk. Most monitoring tools sit and wait for something to go wrong: a crash report, a server timeout, an error spike.",
+      "author": "Hangar",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 43,
+      "url": "https://dev.to/hangar/your-app-needs-a-night-guard-not-another-dashboard-2k5e",
+      "image": "/images/feed/feed-9dc3d88d3fa3.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-fc46441e137d",
+      "title": "WooCommerce Fake Orders, Payment Fraud and Chargebacks in 2027: A Practical Prevention Guide",
+      "excerpt": "A paid WooCommerce order arrives, the warehouse packs the parcel, and the carrier collects it. Days later the store receives a payment dispute from someone who says they never authorised the purchase.…",
+      "body": "A paid WooCommerce order arrives, the warehouse packs the parcel, and the carrier collects it. Days later the store receives a payment dispute from someone who says they never authorised the purchase. Another store wakes up to hundreds of failed payments for a low-cost product. A third pays return-shipping costs for cash-on-delivery parcels nobody collects. These are different incidents, but each can consume profit before the merchant knows what went wrong. WooCommerce fraud prevention is not a single plugin or a CAPTCHA checkbox. A workable system combines checkout abuse controls, payment-provider risk decisions, order review, delivery evidence, dispute handling and monitoring for genuine customers blocked by mistake.",
+      "author": "Dmytro",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://dev.to/dmytro_cian/woocommerce-fake-orders-payment-fraud-and-chargebacks-in-2027-a-practical-prevention-guide-1aim",
+      "image": "/images/feed/feed-fc46441e137d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-4a69e784d583",
+      "title": "1Password confirms hackers stole customer data, but not their passwords",
+      "excerpt": "Watch out for unexpected recovery emails and invitations.",
+      "body": "TL;DR 1Password has confirmed a security breach that exposed some customers’ personal information, including names and email addresses. The company says no customer passwords were exposed and that users don’t need to change their account or saved passwords. 1Password recommends watching out for unexpected account recovery emails and invitations following the breach. Trust is everything when you’re in the business of keeping people’s passwords safe. It’s a responsibility that has only grown for 1Password in recent months, with the company enabling Claude and, more recently, other AI agents to sign into websites without exposing users’ credentials.",
+      "author": "Hillary Keverenge",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.androidauthority.com/1password-data-breach-3739555/",
+      "image": "/images/feed/feed-4a69e784d583.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-359f8963f54e",
+      "title": "10 Classic Books Worth Reading Over and Over",
+      "excerpt": "From Russian masterpieces to modern dystopias, these are the books that never get old.",
+      "body": "Most of us treat classic literature like a checklist to conquer in high school or college and then never touch those books again. You power through the plot, underline a few quotes for a term paper, and move on to whatever else is new. The catch is that great books rarely reveal their most fascinating tricks on the first pass. When you already know the ending, your brain stops racing for answers and begins to notice the machinery holding all those mysteries and themes together. Suddenly, an unreliable narrator's sleight of hand becomes obvious, or a throwaway line in chapter two hits like a freight train in light of later developments .",
+      "author": "Ryan Epps",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.polygon.com/10-classic-books-worth-reading-over-and-over/",
+      "image": "/images/feed/feed-359f8963f54e.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-eb0df944d5d4",
+      "title": "6 Fantasy Books Better Than Harry Potter",
+      "excerpt": "Great fantasy books like Darker by Four, Impossible Creatures, and Six of Crows are arguably even better than Harry Potter.",
+      "body": "There's no denying that Harry Potter continues to be a phenomenon. After seven bestsellers translated into multiple languages, years of extravagant midnight release parties, eight big-budget films, a stage play, and theme parks, there's still enormous hype for both the upcoming HBO television show and an all-star re-recording of the audiobooks. Clearly, there is something about the boy who lived and his world that draws people in and keeps them captivated. All of this begs one very important question, however: how good are the Harry Potter books, really?",
+      "author": "S.W. Sondheimer",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://www.polygon.com/fantasy-books-better-than-harry-potter/",
+      "image": "/images/feed/feed-eb0df944d5d4.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-a37df458e204",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "excerpt": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized…",
+      "body": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed. \"While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Breach"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "image": "/images/feed/feed-a37df458e204.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-661925b8f8d6",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "excerpt": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose…",
+      "body": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher Kush Pandya said in a technical write-up. \"In the versions we analyzed, building or running a",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Malware"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "image": "/images/feed/feed-661925b8f8d6.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-8c08a0ee02a1",
+      "title": "Qualcomm's Oryon 3 Reaches the Top",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Qualcomm. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "wmf",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Qualcomm"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://chipsandcheese.com/p/qualcomms-oryon-3-reaches-the-top",
+      "image": "/images/feed/feed-8c08a0ee02a1.jpg",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-95ac717c0fcd",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Openai, Gpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Herrera",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Openai",
+        "Gpt"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "image": "/images/feed/feed-95ac717c0fcd.jpg",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-52f6d8862b94",
+      "title": "Save Big on Viture’s XR Glasses for Black Friday",
+      "excerpt": "One of the best extended reality glasses out there.",
+      "body": "Searching for a new display to take your gaming to the next level? XR glasses have a lot of potential, packing what looks like a massive display into a compact pair of glasses you can take with you almost anywhere. For Black Friday , Viture has some of its lowest prices ever with discounts on its Luma series of glasses and even its new flagship Viture Beast glasses, which earned a “Great” rating in our review. Black Friday Deals on Viture XR Glasses The Viture Beast landed this year at $549, but they’re on sale for $489 through Cyber Monday.",
+      "author": "Chris Reed",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.ign.com/articles/big-savings-on-vitures-xr-glasses-for-black-friday",
+      "image": "/images/feed/feed-52f6d8862b94.webp",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-5200f2393f96",
+      "title": "Save 25% on the Trending Meta Ray-Ban AI 2nd Generation Glasses During Amazon's Black Friday Sale",
+      "excerpt": "The #1 selling AI glasses are now on sale.",
+      "body": "Meta has discounted the entire lineup of Meta AI glasses , offering up to 25% off all models, as part of its Black Friday sale. The 2nd generation Meta Ray-Ban Wayfarer AI Glasses, the &quot;#1 selling AI glasses&quot; based on IDC historical sales data, are included in the sale as well. If you&#39;re interested and want to get your hands on a pair sooner, Amazon also appears to be matching the sale with 25% off all second-generation Meta Ray-Ban Wayfarer glasses. There are plenty of different color configurations to choose from, so check out all the options below for more details.",
+      "author": "Matthew Adler",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://www.ign.com/articles/save-25-on-meta-ray-ban-ai-glasses-for-black-friday",
+      "image": "https://assets-prd.ignimgs.com/2026/11/26/0rw4012-601-71-p21-shad-qt-1795660667826.avif",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-18c0a9d31394",
+      "title": "reMarkable’s Super Digital Reader Bundle Lets You Get More Than Double the Savings",
+      "excerpt": "Grab two bundles and get even more savings.",
+      "body": "Editor&#39;s Note: This article is sponsored by reMarkable. If you’re looking for a convenient way to take notes or read and mark up documents, reMarkable has been making some of the best options on the market. It makes one of our favorite e-ink tablets with reMarkable Paper Pro, which is good enough to stand in as a competent replacement for paper itself. For Black Friday, reMarkable has something special in store: In addition to discounts on bundles, it’s offering its first-ever “Super Bundle.” This can let you get even more out of your investment by combining the capable e-ink tablets with extra accessories that protect and extend their capabilities.",
+      "author": "Eric Song",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 41,
+      "url": "https://www.ign.com/articles/remarkables-super-digital-reader-bundle-lets-you-get-more-than-double-the-savings",
+      "image": "/images/feed/feed-18c0a9d31394.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-be8d7d4d2630",
+      "title": "Nex Playground Hits Lowest Price This Year for Black Friday",
+      "excerpt": "Get kids moving with this family-friendly motion-controlled gaming system",
+      "body": "Black Friday deals are already here, and if you’re looking for an exciting, interactive gift for kids and families, grab the Nex Playground . It’s down to just $209 from $299, which is the biggest price drop this year. Unlike a typical console that uses a controller, this one gets you up and moving for a far more active playtime. Save $90 on the Nex Playground Interactive Console Get it at Best Buy Get it at Target Get it at Walmart The Nex Playground connects seamlessly to your TV via an HDMI and is an ultra-compact cube, measuring under 3 inches on all sides. A built-in wide-angle camera and AI tech then track movements, essentially turning your entire body into a controller, with nothing else needed.",
+      "author": "Danielle Abraham",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 32,
+      "url": "https://www.ign.com/articles/nex-playground-deal-black-friday-2026",
+      "image": "/images/feed/feed-be8d7d4d2630.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-04295a05f446",
+      "title": "Apple pulls popular Chinese AI chatbot from the App Store amid child safety concerns",
+      "excerpt": "Following reports that its characters sent inappropriate messages to minors, Apple has removed the popular Chinese AI companion app Talkie from the App Store. Here are the details. more…",
+      "body": "Following reports that its characters sent inappropriate messages to minors, Apple has removed the popular Chinese AI companion app Talkie from the App Store. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://9to5mac.com/2026/11/25/apple-pulls-popular-chinese-ai-chatbot-from-the-app-store-amid-child-safety-concerns/",
+      "image": "/images/feed/feed-04295a05f446.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-f3e00021437d",
+      "title": "The Best Gift Ideas at Men's Wearhouse This Holiday Season",
+      "excerpt": "A great way to refresh the closet.",
+      "body": "Editor&#39;s Note: This article is sponsored by Men&#39;s Wearhouse. Black Friday is almost here, and with it come some of the biggest savings of the year. While there are numerous deals to be found on video games , Blu-rays , and tech , there are also many great deals on clothing available. One of our favorite sales is at Men&#39;s Wearhouse, where you can save on suits, dress shirts, shoes, pants, and much more. This is one of the best times of the year to save money on dressier clothes that usually aren&#39;t cheap, making these deals a perfect choice for a gift. Below, we&#39;ve compiled a list of our favorite gifts from Men&#39;s Wearhouse this holiday season.",
+      "author": "Noah Hunter",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.ign.com/articles/mens-wearhouse-holiday-gift-ideas-2026",
+      "image": "/images/feed/feed-f3e00021437d.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-2717ab437210",
+      "title": "Hybrids Are a Waypoint, Not the Destination",
+      "excerpt": "An earlier version of this article appeared in The Driven on 15 October 2026. This version has been revised and updated with the most recent registration data. By Ray Wills, Raphael Wellmann, and Pete…",
+      "body": "An earlier version of this article appeared in The Driven on 15 October 2026. This version has been revised and updated with the most recent registration data. By Ray Wills, Raphael Wellmann, and Peter Newman In January 2024, Toyota chairman Akio Toyoda said battery EVs would reach at most 30% ... [continued] The post Hybrids Are a Waypoint, Not the Destination appeared first on CleanTechnica .",
+      "author": "Guest Contributor",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Hybrid"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://cleantechnica.com/2026/11/25/hybrids-are-a-waypoint-not-the-destination/",
+      "image": "/images/feed/feed-2717ab437210.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-1c1635f6033d",
+      "title": "Wispr Flow improves dictation accuracy with new Canto-2 speech-to-text model",
+      "excerpt": "Popular AI dictation app Wispr Flow is rolling out a new speech-to-text model for Mac, iPhone, and other platforms, promising fewer transcription errors and better recognition of names and technical t…",
+      "body": "Popular AI dictation app Wispr Flow is rolling out a new speech-to-text model for Mac, iPhone, and other platforms, promising fewer transcription errors and better recognition of names and technical t — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://9to5mac.com/2026/11/25/wispr-flow-improves-dictation-accuracy-with-new-canto-2-speech-to-text-model/",
+      "image": "/images/feed/feed-1c1635f6033d.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-dc3666a139fb",
+      "title": "T-Mobile Is Offering $1,200 Off Discount on the Apple iPhone Duo Foldable Smartphone for Black Friday",
+      "excerpt": "Apple's biggest iPhone update in years.",
+      "body": "Apple&#39;s first foldable smartphone - the iPhone Duo - has officially been released and T-Mobile is offering a tempting deal for anyone who doesn&#39;t want to pay $2,000 outright for one of these coveted phones. T-Mobile has kicked off its iPhone Duo Black Friday promotion , which gives you 60%, or $1,200 off the newly released iPhone Duo foldable phone when you sign up for a new line on a T-Mobile T-Mix Loaded plan and either port in your number from another carrier or trade in an eligible phone. The discount is applied as bill credits over a 36 month period for a total of $1,200 in credit. Note that there is a one-time $35 connection charge.",
+      "author": "Eric Song",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Smartphone",
+        "Iphone",
+        "Foldable"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.ign.com/articles/t-mobiles-apple-iphone-duo-black-friday-deal",
+      "image": "/images/feed/feed-dc3666a139fb.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-4aafab8ff6e3",
+      "title": "DTE Energy Advances New Michigan Solar Projects to Create Jobs & Save Customers Money on Fuel Costs",
+      "excerpt": "The company launches a competitive bidding process for up to 150 megawatts of new Michigan solar energy. DTE Energy has announced plans to add up to 150 megawatts of new solar energy in Michigan, crea…",
+      "body": "The company launches a competitive bidding process for up to 150 megawatts of new Michigan solar energy. DTE Energy has announced plans to add up to 150 megawatts of new solar energy in Michigan, creating construction jobs, supporting local communities, and saving customers money on fuel costs. Because solar generation ... [continued] The post DTE Energy Advances New Michigan Solar Projects to Create Jobs &#038; Save Customers Money on Fuel Costs appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://cleantechnica.com/2026/11/25/dte-energy-advances-new-michigan-solar-projects-to-create-jobs-save-customers-money-on-fuel-costs/",
+      "image": "/images/feed/feed-4aafab8ff6e3.jpg",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -32,125 +472,11 @@
       "tags": [
         "Gadgets"
       ],
-      "featured": true,
-      "xpReward": 46,
+      "featured": false,
+      "xpReward": 44,
       "url": "https://9to5mac.com/2026/11/25/daily-november-25-2026/",
       "image": "/images/feed/feed-d4a9eb38618d.jpg",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-293021ab2433",
-      "title": "How to Make Images More Likely to Surface in ChatGPT and Google AI Answers",
-      "excerpt": "A page can rank well in conventional search and still have none of its visuals appear in an AI-generated response. That distinction is becoming more important as people use ChatGPT and Google's AI exp…",
-      "body": "A page can rank well in conventional search and still have none of its visuals appear in an AI-generated response. That distinction is becoming more important as people use ChatGPT and Google's AI experiences to research products, interpret visual information and ask questions that benefit from images. The issue is not simply whether an image is indexed. AI systems need to find the asset, understand what it depicts, connect it to the surrounding topic and decide it is suitable to show in a generated answer. For publishers, ecommerce sites and brands, image SEO is therefore expanding from visibility in image results to surfaceability in multimodal AI answers .",
-      "author": "Ali Farhat",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 31,
-      "url": "https://dev.to/alifar/how-to-make-images-more-likely-to-surface-in-chatgpt-and-google-ai-answers-10p9",
-      "image": "/images/feed/feed-293021ab2433.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-7496fb71e99c",
-      "title": "Why your friend can't open localhost:8000 (and the 4 things an AI-built app actually needs before sharing)",
-      "excerpt": "You asked an AI coding agent for an app and it works. The terminal prints http://localhost:8000, the page looks right, so you paste the link to a friend. They get \"This site can't be reached.\" Nothing…",
-      "body": "You asked an AI coding agent for an app and it works. The terminal prints http://localhost:8000 , the page looks right, so you paste the link to a friend. They get \"This site can't be reached.\" Nothing is broken. localhost is not a place on the internet. It is a name for whichever computer is asking. The short answer localhost:8000 means \"port 8000 on this computer\". On your laptop that is your dev server. On your friend's laptop it is their own machine, where nothing is listening. (If something is listening there, they will see their own app instead of yours.) To share the app, it has to run somewhere other people can reach: on your machine behind a tunnel, or on a host. A public address is the easy half.",
-      "author": "Mike",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/mike_tofu/why-your-friend-cant-open-localhost8000-and-the-4-things-an-ai-built-app-actually-needs-before-2phe",
-      "image": "/images/feed/feed-7496fb71e99c.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-46b17d4cef8f",
-      "title": "Password Recovery Links Versus One Time Codes Across 2 Devices",
-      "excerpt": "Imagine the page: password recovery completion has fallen below the media site's SLO, while the on-call dashboard still shows recovery requests being accepted. A reader starts on a laptop, opens the e…",
-      "body": "Imagine the page: password recovery completion has fallen below the media site's SLO, while the on-call dashboard still shows recovery requests being accepted. A reader starts on a laptop, opens the email on a phone, and cannot finish the session-bound link flow. This is a hypothetical alert, but it exposes the decision that matters when adding Google and GitHub social sign-in alongside password accounts: which recovery path can the reader actually complete? Short answer: a reset link takes fewer steps; a one-time code works across devices but adds typing. Both can be safe when the credential is short-lived and single-use. For this media site, choose the default around the reader's device transition, then verify expiry and single use independently of the delivery format.",
-      "author": "GarrisonSterling2693",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 44,
-      "url": "https://dev.to/garrisonsterling2693/password-recovery-links-versus-one-time-codes-across-2-devices-16nc",
-      "image": "/images/feed/feed-46b17d4cef8f.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-74fd77fb41d7",
-      "title": "Three people connected our app from Claude's connector directory, and none of them shipped an app: what we fixed",
-      "excerpt": "We make Tofu, a service that puts apps and websites online from a chat. Tofu has a connector that people can add to Claude, and it was listed in Claude's connector directory from 4 October 2026 as a C…",
-      "body": "We make Tofu, a service that puts apps and websites online from a chat. Tofu has a connector that people can add to Claude, and it was listed in Claude's connector directory from 4 October 2026 as a Community connector. Between 5 and 21 October, three accounts added it inside Claude, approved the connection on our own page and created an account as part of that approval. When we looked on 23 October, none of them had a project. No app, no deploy, and no later visit that made anything. This post covers what the records showed, what went wrong, what we changed, and what we have not tested yet. The short version Three accounts: one on 5 October, one on 19 October and one on 21 October. Each connected and signed up within the same minute, then stopped. The product worked as built.",
-      "author": "Mike",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/mike_tofu/three-people-connected-our-app-from-claudes-connector-directory-and-none-of-them-shipped-an-app-220d",
-      "image": "/images/feed/feed-74fd77fb41d7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-0ee9b05350b6",
-      "title": "Is FFMI a Misleading Number? Build an FFMI Calculator in JavaScript That Shows Its Error Bars",
-      "excerpt": "\"I am 32, 5' 7\", 218, BMI 34. I put this into multiple FFMI calculators and get 23-25ish which it says is 'excellent' or 'fitness model' or 'stronger than 95%' so on and so forth. I don't think this c…",
-      "body": "\"I am 32, 5' 7\", 218, BMI 34. I put this into multiple FFMI calculators and get 23-25ish which it says is 'excellent' or 'fitness model' or 'stronger than 95%' so on and so forth. I don't think this could possibly be correct for me.\" That was a post on r/workout in July 2026, titled \"Can anyone help me understand my FFMI?\" Two months later someone on r/loseit asked the same thing more bluntly in a thread titled \"Is FFMI a misleading number?\" (the author has since deleted the post body, but the question in the title is the one people keep asking).",
-      "author": "Charlotte Nelson",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Javascript"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://dev.to/charlotte_nelson_9aadde70/is-ffmi-a-misleading-number-build-an-ffmi-calculator-in-javascript-that-shows-its-error-bars-e1j",
-      "image": "/images/feed/feed-0ee9b05350b6.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-657ff4a06393",
-      "title": "When do two Korean filenames in a ZIP become one after NFC normalization?",
-      "excerpt": "A ZIP from a supplier contains two files with names that look identical. Before deleting one or normalizing both names, check whether their full archive paths would match after normalization. Two entr…",
-      "body": "A ZIP from a supplier contains two files with names that look identical. Before deleting one or normalizing both names, check whether their full archive paths would match after normalization . Two entries in the same folder converged on one name in our test. The same pair in different folders did not. 01 · Why does one name take 19 bytes or 37 bytes? The Korean part of 거래명세서.txt can be represented as precomposed Hangul syllables or as sequences of individual jamo. Unicode normalization gives canonically equivalent text a consistent representation. In this example, NFC uses precomposed syllables and NFD uses decomposed jamo. A renderer can display both forms alike even when software compares different strings.",
-      "author": "UULab",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://dev.to/uulab/when-do-two-korean-filenames-in-a-zip-become-one-after-nfc-normalization-24eo",
-      "image": "/images/feed/feed-657ff4a06393.webp",
-      "source": "Dev.to",
       "isLive": true
     },
     {
@@ -166,29 +492,10 @@
         "Gadget"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 44,
       "url": "https://www.engadget.com/2328876/black-friday-2026-deals-on-reviewed-gadgets/",
       "image": "/images/feed/feed-345fbbf44ae8.jpg",
       "source": "Engadget",
-      "isLive": true
-    },
-    {
-      "id": "feed-901e905fb248",
-      "title": "1Password confirms security incident, here’s what you need to know",
-      "excerpt": "Password management platform 1Password today disclosed a security incident in which an attacker gained access to internal systems and stole select customer account information. Here are the details. m…",
-      "body": "Password management platform 1Password today disclosed a security incident in which an attacker gained access to internal systems and stole select customer account information. Here are the details. m — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://9to5mac.com/2026/11/25/1password-confirms-security-incident-heres-what-you-need-to-know/",
-      "image": "/images/feed/feed-901e905fb248.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -196,7 +503,7 @@
       "title": "SC Solar Showcases at RE+ 2026 Garner Global Attention",
       "excerpt": "Covering TOPCon, XBC, HJT, and Perovskite-Silicon Tandem Technologies; Over 1,000 Automated Module Lines Delivered Globally, More Than 40 in North America RE+ 2026 was held at the Las Vegas Convention…",
       "body": "Covering TOPCon, XBC, HJT, and Perovskite-Silicon Tandem Technologies; Over 1,000 Automated Module Lines Delivered Globally, More Than 40 in North America RE+ 2026 was held at the Las Vegas Convention Center from November 17 to 19. Driven by the U.S. IRA policy that fuels domestic PV capacity expansion amid diversified ... [continued] The post SC Solar Showcases at RE+ 2026 Garner Global Attention appeared first on CleanTechnica .",
-      "author": "Guest Contributor",
+      "author": "Press Release",
       "date": "2026-11-25",
       "readTime": "2 min",
       "section": "cars",
@@ -204,29 +511,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 45,
       "url": "https://cleantechnica.com/2026/11/25/sc-solar-showcases-at-re-2026-garner-global-attention/",
       "image": "/images/feed/feed-671f3a81729c.webp",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-04083519d9d5",
-      "title": "Spotify Reveals Massive Spike in Streams for Music Featured in GTA 6",
-      "excerpt": "Spotify has released new data that shows huge spikes in streams for music featured in GTA 6, including a Carly Rae Jepsen song from over a decade ago.",
-      "body": "Spotify has released new data that shows huge spikes in streams for music featured in GTA 6 , including a Carly Rae Jepsen song from over a decade ago. In an email sent to IGN, Spotify revealed that the GTA 6 hype is inspiring listeners to add tons of music from the game to their playlists. In addition to hype for the original music created specifically for the game, such as Justice&#39;s Flower in a Hurricane, Carly Rae Jepsen&#39;s 2015 song Run Away With Me saw a 940% increase in streams following the game&#39;s release. The song plays during a pivotal moment in GTA 6&#39;s first chapter and is arguably one of the best sections in the game. Additionally, fans are listening to the official GTA 6 playlist en masse and are actively searching for things related to the game.",
-      "author": "Cade Onder",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.ign.com/articles/spotify-reveals-massive-spike-in-streams-for-music-featured-in-gta-6",
-      "image": "https://assets-prd.ignimgs.com/2026/11/25/eb1fd55d-3234-4275-bf63-9d4b3c91e9d7-1795648223400.png",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -242,105 +530,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 51,
       "url": "https://cleantechnica.com/2026/11/25/the-mayor-of-the-east-midlands-is-backing-a-47-55-million-investment-to-bring-189-battery-electric-buses/",
       "image": "/images/feed/feed-98f75e08231b.jpg",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-77d83944e368",
-      "title": "How to get adrenaline in GTA 6",
-      "excerpt": "You can get more adrenaline in GTA 6 by looking in specific places at robbery locations or in ambulances. Here's how to get adrenaline in GTA 6",
-      "body": "Adrenaline acts as an emergency boost to all your stats in Grand Theft Auto 6 , as it temporarily negates health, stamina, and focus loss. It's meant to get you out of an emergency situation safely or help you burst into a tense situation and mop it up fast. Unlike Zombix and other restoratives, though, you can't buy adrenaline — not from anywhere we've found so far, at least — nor can you expect to find it in abundance throughout Leonida. There is, however, a small set of locations you can reliably get adrenaline from.",
-      "author": "Josh Broadwell",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.polygon.com/gta-6-adrenaline-how-to-get/",
-      "image": "/images/feed/feed-77d83944e368.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-b2b9c095b68e",
-      "title": "Mike Tomlin Lives His Best Life In Minecraft While The Steelers Implode",
-      "excerpt": "The ex-NFL coach is enjoying his retirement as fans debate if he'd ever come back",
-      "body": "The ex-NFL coach is enjoying his retirement as fans debate if he'd ever come back\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ethan Gach",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://kotaku.com/mike-tomlin-lives-his-best-life-in-minecraft-while-the-steelers-implode-2001000512",
-      "image": "/images/feed/feed-b2b9c095b68e.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-f5aaf14c9508",
-      "title": "With Grand Theft Auto 6, The Series Has Outgrown Some Of Its Joke Brand Names",
-      "excerpt": "The mature storytelling is at odds with dumb product names like Zombix",
-      "body": "The mature storytelling is at odds with dumb product names like Zombix\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Imran Khan",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://kotaku.com/with-grand-theft-auto-6-the-series-has-outgrown-some-of-its-joke-brand-names-2001000507",
-      "image": "/images/feed/feed-f5aaf14c9508.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-80b31cdb67e1",
-      "title": "Google Home is sorting out issues with speakers, cameras, lights, and more",
-      "excerpt": "Your smart home sounds like it's about to get a little bit smarter.",
-      "body": "TL;DR Google Home is getting some new features and fixes for speakers, cameras, lights, and thermostats. Home Premium users will no longer have to configure all their cameras separately. Google’s smoothing out issues with transferring music playback to a new speaker or display. Big changes are on the way for your Google-powered smart home, with Assistant finally scheduled to go away for good next summer — that’s still months off, though, and in the meantime we’ve got a fresh batch of Google Home updates to check out. Today Google’s sharing its latest set of new features and bugfixes coming to Home , and it looks like there are quite a few in here that are worth paying attention to.",
-      "author": "Stephen Schenck",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.androidauthority.com/google-home-updates-2-3739543/",
-      "image": "/images/feed/feed-80b31cdb67e1.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-2794e11976a3",
-      "title": "The Lord of the Rings Illustrated Editions Are on Sale for Black Friday",
-      "excerpt": "The Lord of the Rings Illustrated Editions Are on Sale for Black Friday",
-      "body": "Amazon&#39;s popular &#39;3 for 2&#39; deal on books , vinyl, and more is back for Black Friday , with some great inclusions to pick from. In the books section, you can save on both versions of The Lord of the Rings illustrated edition, two versions of The Hobbit illustrated edition, as well as The Illustrated World of Tolkien: The Second Age. These printings of J.R.R. Tolkien&#39;s fantasy epics are rather large compared to other books, but make for beautiful display pieces or good gifts for any Lord of the Rings fan . Buy 2, Get 1 Free Lord of the Rings Books The illustrated versions of the Lord of the Rings and The Hobbit are no stranger to getting the Black Friday treatment (or any other sale), but they&#39;re always one of the most popular items for a reason.",
-      "author": "Myles Obenza",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.ign.com/articles/lord-of-the-rings-illustrated-books-deal-black-friday-2026",
-      "image": "/images/feed/feed-2794e11976a3.png",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -356,7 +549,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 51,
       "url": "https://cleantechnica.com/2026/11/25/new-trump-tariffs-nice/",
       "image": "/images/feed/feed-c70d9d5882ed.png",
       "source": "CleanTechnica",
@@ -375,106 +568,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 40,
       "url": "https://electrek.co/2026/11/25/chargepoint-and-pistenbully-have-a-charging-plan-for-ski-resorts/",
       "image": "/images/feed/feed-6aae07553eeb.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-2604f3a61590",
-      "title": "Capcom Is Officially Killing Its 'Jurassic World Meets Overwatch' Shooter",
-      "excerpt": "Exoprimal, the not-Dino Crisis multiplayer shooter, is officially shutting down in 2027, four years after is PlayStation, Xbox, and PC launch.",
-      "body": "Four years after the game's launch , Capcom is officially shutting down Exoprimal , the company's 5v5 action game about a futuristic dinosaur crisis. Capcom announced Tuesday that service for Exoprimal will be discontinued in September 2027 — meaning that Exoprimal will no longer be playable — and that the game will no longer be sold starting in March 2027.",
-      "author": "Michael McWhertor",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.polygon.com/exoprimal-capcom-shutting-down-2027/",
-      "image": "/images/feed/feed-2604f3a61590.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-d2b17889d686",
-      "title": "All Peewees Billboard locations in GTA 6",
-      "excerpt": "Peewees Billboards will lead you to a grand prize in GTA 6. Here's where you can find them all, how to solve the puzzle, and how to claim the reward.",
-      "body": "Peewees Billboards are one of the many scannable WAiNK collectibles in Grand Theft Auto 6 , but they're also part of the Mr. Enigma X Peewees scavenger hunt. Mr. Enigma, a play on Dr. Pepper, and the Peewees, a play on Popeyes, have teamed up to create a challenge where you must find four Peewees billboards, and you'll earn a valuable reward.",
-      "author": "Johnny Yu",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.polygon.com/gta-6-peewees-billboard-location-challenge-waink/",
-      "image": "/images/feed/feed-d2b17889d686.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-31579fe69337",
-      "title": "Major developers, legal experts, and 32 states back Epic in Apple’s SCOTUS appeal",
-      "excerpt": "In a significant development in Apple’s Supreme Court appeal of a civil contempt ruling, Epic Games has received backing from 32 states and the District of Columbia, along with major developers, legal…",
-      "body": "In a significant development in Apple’s Supreme Court appeal of a civil contempt ruling, Epic Games has received backing from 32 states and the District of Columbia, along with major developers, legal — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://9to5mac.com/2026/11/25/major-developers-legal-experts-and-32-states-back-epic-in-apples-scotus-appeal/",
-      "image": "/images/feed/feed-31579fe69337.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-45745e7f3a43",
-      "title": "Screens can now turn iPhone Duo into a tiny MacBook",
-      "excerpt": "Screens 5.10 delivered two highly-requested desktop features to users earlier this month. Now the app is back with a fun update for iPhone Duo users: tiny laptop mode. more…",
-      "body": "Screens 5.10 delivered two highly-requested desktop features to users earlier this month. Now the app is back with a fun update for iPhone Duo users: tiny laptop mode. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone, Macbook. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zac Hall",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone",
-        "Macbook"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://9to5mac.com/2026/11/25/screens-can-now-turn-iphone-duo-into-a-tiny-macbook/",
-      "image": "/images/feed/feed-45745e7f3a43.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-36d62f454f40",
-      "title": "Can you play GTA 6 from an external hard drive on PS5 or Xbox Series X/S?",
-      "excerpt": "With a hefty install size, GTA 6 will take up a significant chunk of your PS5 or Xbox Series X/S storage space.",
-      "body": "With a hefty install size, GTA 6 will take up a significant chunk of your PS5 or Xbox Series X/S storage space.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Kris Holt)",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.engadget.com/2328792/can-you-play-gta-6-from-external-hard-drive/",
-      "image": "/images/feed/feed-36d62f454f40.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -490,7 +587,7 @@
         "Exploit"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 33,
       "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
       "image": "/images/feed/feed-e0760c490f11.jpg",
       "source": "BleepingComputer",
@@ -509,7 +606,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 43,
       "url": "https://www.space.com/stargazing/december-full-moon-2026-when-where-and-how-to-see-the-cold-moon",
       "image": "/images/feed/feed-1327c8ce8207.jpg",
       "source": "Space.com",
@@ -528,7 +625,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 49,
       "url": "https://github.com/lsernau/grh-lean",
       "image": "/images/feed/feed-4fd97aa767ea.png",
       "source": "Hacker News",
@@ -547,7 +644,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 40,
       "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
       "image": "/images/feed/feed-1a181b314ff3.jpg",
       "source": "BleepingComputer",
@@ -567,7 +664,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 51,
+      "xpReward": 34,
       "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-25-2026",
       "image": "/images/feed/feed-c0fb68ed1712.jpg",
       "source": "Space.com",
@@ -586,7 +683,7 @@
         "Tesla"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 33,
       "url": "https://electrek.co/2026/11/25/tesla-emag-germany-machining-company-optimus/",
       "image": "/images/feed/feed-fe36c4ac7099.jpg",
       "source": "Electrek",
@@ -606,7 +703,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 31,
       "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801",
       "source": "TechCrunch",
@@ -627,48 +724,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 33,
+      "xpReward": 54,
       "url": "https://www.cnet.com/science/space/the-fcc-approved-a-million-spacex-satellites-for-data-centers-in-space/",
       "image": "/images/feed/feed-e8ecce4c2873.jpg",
       "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-c4034edbf04d",
-      "title": "Joint Letter on the Revision of the CO₂ Emission Standards for Cars & Vans",
-      "excerpt": "Counting combustion vehicles as clean would blur the market signal and bring back the very uncertainty that carmakers, suppliers, and investors cannot afford. Manufacturers could meet their targets wi…",
-      "body": "Counting combustion vehicles as clean would blur the market signal and bring back the very uncertainty that carmakers, suppliers, and investors cannot afford. Manufacturers could meet their targets without selling a single electric car. Dear Climate and Environment Ministers of the European Union, We, a broad coalition representing non-governmental organizations, ... [continued] The post Joint Letter on the Revision of the CO₂ Emission Standards for Cars &#038; Vans appeared first on CleanTechnica .",
-      "author": "Transport &#38; Environment (T&#38;E)",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://cleantechnica.com/2026/11/25/joint-letter-on-the-revision-of-the-co%e2%82%82-emission-standards-for-cars-vans/",
-      "image": "/images/feed/feed-c4034edbf04d.jpg",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-598178920ab7",
-      "title": "Toyota is about to unveil its first extended-range EV, and it looks like the Highlander",
-      "excerpt": "Toyota is set to reveal its first extended-range electric vehicle (EREV) on November 27, and from the first look, it could be based on its flagship Highlander SUV. more…",
-      "body": "Toyota is set to reveal its first extended-range electric vehicle (EREV) on November 27, and from the first look, it could be based on its flagship Highlander SUV. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Ev"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://electrek.co/2026/11/25/toyota-reveal-first-erev-looks-like-highlander/",
-      "image": "/images/feed/feed-598178920ab7.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -685,7 +744,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 53,
       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -723,7 +782,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 41,
       "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
       "image": "/images/feed/feed-a305910d0968.jpg",
       "source": "BleepingComputer",
@@ -742,7 +801,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 47,
       "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
       "image": "/images/feed/feed-56b007961750.jpg",
       "source": "The Verge",
@@ -761,7 +820,7 @@
         "Nasa"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 51,
       "url": "https://www.nasa.gov/organizations/osbp/nasa-enhances-supplier-program-announces-mentor-protege-agreement/",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/11/lrs00622.jpg",
       "source": "NASA Breaking News",
@@ -782,7 +841,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 46,
       "url": "https://www.space.com/entertainment/spacex-starship-debris-becomes-art-in-ashley-zelinskies-the-weight-of-space-video-photos",
       "image": "/images/feed/feed-6e06c6f27db2.jpg",
       "source": "Space.com",
@@ -801,7 +860,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 47,
       "url": "https://www.zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows/",
       "image": "/images/feed/feed-ef26a9acb704.jpg",
       "source": "ZDNet",
@@ -840,7 +899,7 @@
         "Satellite"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 32,
       "url": "https://www.space.com/space-exploration/launches-spacecraft/green-light-for-starmind-spacex-gets-approval-to-deploy-1-million-ai-satellites",
       "image": "/images/feed/feed-d44346d28c0d.jpg",
       "source": "Space.com",
@@ -859,49 +918,10 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 49,
       "url": "https://www.cnet.com/tech/services-and-software/meta-muse-and-chatgpt-dots-ai-agents-save-groceries/",
       "image": "/images/feed/feed-d7dba48375d6.png",
       "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-3dd7b93a9dfb",
-      "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
-      "excerpt": "U.S. prosecutors accused the former executive of defrauding victims of ransomware by paying the hackers, charging victims more, and pocketing the difference.",
-      "body": "U.S. prosecutors accused the former executive of defrauding victims of ransomware by paying the hackers, charging victims more, and pocketing the difference.\n\nThis report, published by TechCrunch, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ransomware, Hacker. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to TechCrunch using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zack Whittaker",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Ransomware",
-        "Hacker"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
-      "image": "https://techcrunch.com/wp-content/uploads/2026/11/ransomware-screen-1186403530.jpg?resize=1200,749",
-      "source": "TechCrunch",
-      "isLive": true
-    },
-    {
-      "id": "feed-2063573f90b5",
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "excerpt": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refriger…",
-      "body": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refriger — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-11-25",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "image": "/images/feed/feed-2063573f90b5.jpg",
-      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -917,43 +937,24 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 44,
       "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
       "image": "/images/feed/feed-c5eb6e0ca7f1.jpg",
       "source": "Wired",
       "isLive": true
-    },
-    {
-      "id": "feed-3d6e23b2e727",
-      "title": "New Gemini setting lets you keep chat history, but turn off AI training [U]",
-      "excerpt": "Google is rolling out new privacy settings for the Gemini app that will let you “keep your history while independently controlling generative AI model training.” more…",
-      "body": "Google is rolling out new privacy settings for the Gemini app that will let you “keep your history while independently controlling generative AI model training.” more — a development drawing significant attention in the artificial intelligence and machine learning space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "9to5Google",
-      "date": "2026-11-24",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gemini"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://9to5google.com/2026/11/24/gemini-history-ai-training/",
-      "image": "/images/feed/feed-3d6e23b2e727.jpg",
-      "source": "9to5Mac",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: GPU Cluster Troubleshooting Guide for 2027: Isolating Originating Ranks in NCCL Timeouts and NVIDIA Xid Faults",
-    "9TO5MAC: 9to5Mac Daily: November 25, 2026 – CarPlay Ultra update, iPad rumors",
-    "DEV.TO: How to Make Images More Likely to Surface in ChatGPT and Google AI Answers",
-    "DEV.TO: Why your friend can't open localhost:8000 (and the 4 things an AI-built app actually needs before sharing)",
-    "DEV.TO: Password Recovery Links Versus One Time Codes Across 2 Devices",
-    "DEV.TO: Three people connected our app from Claude's connector directory, and none of them shipped an app: what we fixed",
-    "DEV.TO: Is FFMI a Misleading Number? Build an FFMI Calculator in JavaScript That Shows Its Error Bars",
-    "DEV.TO: When do two Korean filenames in a ZIP become one after NFC normalization?",
-    "ENGADGET: We reviewed these 10 gadgets, and they're now on sale for Black Friday",
-    "9TO5MAC: 1Password confirms security incident, here’s what you need to know"
+    "DEV.TO: Choosing a Plane state group for work that is waiting for verification",
+    "DEV.TO: Price per credit is the wrong way to compare AI app builders",
+    "DEV.TO: Integration tests for agent tools that run code: fixtures, cleanup, labels and budgets",
+    "DEV.TO: Why Omega=9/4 Matters More Than Riemann for AI",
+    "DEV.TO: European Accessibility Act in 2027: An Accessibility Guide for WooCommerce Stores",
+    "DEV.TO: Your App Needs a Night Guard, Not Another Dashboard",
+    "DEV.TO: WooCommerce Fake Orders, Payment Fraud and Chargebacks in 2027: A Practical Prevention Guide",
+    "ANDROID AUTHORITY: 1Password confirms hackers stole customer data, but not their passwords",
+    "POLYGON: 10 Classic Books Worth Reading Over and Over",
+    "POLYGON: 6 Fantasy Books Better Than Harry Potter"
   ],
   "sectionVideos": {}
 }
