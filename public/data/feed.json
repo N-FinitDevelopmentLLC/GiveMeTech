@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-11-27T00:11:54.761Z",
+  "fetchedAt": "2026-11-27T09:14:12.203Z",
   "articles": [
     {
-      "id": "feed-62917efeb8c7",
-      "title": "Three public files that leak your app secrets: .env, .git and source maps (2-minute check)",
-      "excerpt": "Three files decide whether a stranger can read your secrets without touching your code: .env, the .git folder, and JavaScript source maps. AI app builders and quick deploys leave them public more ofte…",
-      "body": "Three files decide whether a stranger can read your secrets without touching your code: .env , the .git folder, and JavaScript source maps. AI app builders and quick deploys leave them public more often than people expect. You can test all three from a browser in two minutes, with no login. 1. A readable .env Open https://yourapp.com/.env and https://yourapp.com/.env.local . You should get a 404 or a normal app page. If you get text with KEY=value lines, every value is exposed. Rotate each one, then fix the deploy so the file is never served. 2. A public .git folder Open https://yourapp.com/.git/HEAD . A real response such as ref: refs/heads/main means the repository metadata is public. Attackers can rebuild source and history, including old commits with secrets you deleted later.",
-      "author": "ProofForge",
+      "id": "feed-56ee60cfed07",
+      "title": "From Map Box to White Model: A Five-Tool Massing Pipeline",
+      "excerpt": "I run the same massing pass on small infill sites a few times a year, and the shape of it rarely changes. This time the site was a closed lumber yard behind Main Street: six point four acres, a three-…",
+      "body": "I run the same massing pass on small infill sites a few times a year, and the shape of it rarely changes. This time the site was a closed lumber yard behind Main Street: six point four acres, a three-story height limit, a riverbank at the back, and a room full of neighbors who wanted numbers instead of pictures. Five tools, one afternoon of setup, three options by the end of the week. Here is the actual pipeline, including the parts that broke. Step 1: CADMapper for the base Input: an address and a bounding box. Output: a DXF or SketchUp file with street centerlines, parcel lines, building footprints, and contours. I draw the box one block wider than the site on every side, because half the questions in a massing study are about the neighbors.",
+      "author": "GenAnywhere",
       "date": "2026-11-27",
       "readTime": "2 min",
       "section": "software",
@@ -14,37 +14,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 41,
-      "url": "https://dev.to/proofforge_live/three-public-files-that-leak-your-app-secrets-env-git-and-source-maps-2-minute-check-3h2b",
-      "image": "/images/feed/feed-62917efeb8c7.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/genanywhere/from-map-box-to-white-model-a-five-tool-massing-pipeline-1jc1",
+      "image": "/images/feed/feed-56ee60cfed07.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-97a5011b3ef7",
-      "title": "What a search API returns when the answer is a table, not a list",
-      "excerpt": "Most of what you read about parsing search results assumes the answer arrives as a list of links. Quite often it does not. Ask for a flight route and the page carries a fare table; ask about a company…",
-      "body": "Most of what you read about parsing search results assumes the answer arrives as a list of links. Quite often it does not. Ask for a flight route and the page carries a fare table; ask about a company and a quote card comes back; ask about a fixture and there is a scoreboard. Those modules are still JSON, but they are not a list of links, and a parser written for links will either drop them or mangle them. This is about reading the tabular modules: where they sit, what they carry, which of their fields disappear depending on how you asked, and why the numbers inside them are strings. Position is not rank The two ordering fields do different jobs, and conflating them is the first mistake with table modules. rank numbers an item within its own block: the third organic link carries rank 3.",
-      "author": "Jehad Bartolo",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Api"
-      ],
-      "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/jehadbartolo/what-a-search-api-returns-when-the-answer-is-a-table-not-a-list-2gh6",
-      "image": "/images/feed/feed-97a5011b3ef7.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-be5800397a9a",
-      "title": "BeeMind AI: Building an IoT prototype for smarter beehive monitoring in Saudi Arabia",
-      "excerpt": "Beekeeping is a practical field problem as much as a technology problem. A beekeeper needs reliable observations, especially when colonies are spread across different locations. At Moktalef Model Apia…",
-      "body": "Beekeeping is a practical field problem as much as a technology problem. A beekeeper needs reliable observations, especially when colonies are spread across different locations. At Moktalef Model Apiaries in Al Bahah, Saudi Arabia, I am developing BeeMind AI / BeeGuard as a prototype for monitoring a single hive before scaling the idea. Start with a reliable data pipeline The prototype uses an ESP32-S3 board with a 4G modem and GNSS. The first milestone was establishing cellular connectivity and transmitting telemetry to a cloud database at approximately five-minute intervals. That milestone is separate from validating any biological interpretation of sensor readings.",
-      "author": "Naif Alghamdi | نايف الغامدي",
+      "id": "feed-52e64bd02ec4",
+      "title": "PULSE BREAKER DX: Free BRICK Browser Game Built with Gemini & Canvas2D",
+      "excerpt": "PULSE BREAKER DX: Neon Arkanoid with Explosive Twists Creator: @VibePilot Genre: Brick Breaker Tech: Gemini, Canvas2D, Physics2D Play: https://synthplay.games/games/pulse-breaker-dx PULSE BREAKER DX r…",
+      "body": "PULSE BREAKER DX: Neon Arkanoid with Explosive Twists Creator: @VibePilot Genre: Brick Breaker Tech: Gemini, Canvas2D, Physics2D Play: https://synthplay.games/games/pulse-breaker-dx PULSE BREAKER DX reinvents the classic brick-breaker with a neon-drenched cyber aesthetic and adrenaline-pumping mechanics. Built with Gemini for AI-driven level design, Canvas2D for buttery-smooth rendering, and Physics2D for precise ball dynamics, this free browser game delivers explosive arcade action. Key Features 3X Multiball Drops: Break special bricks to unleash triple the balls, turning the screen into a chaotic light show. Wide Laser Paddles: Power-ups expand your paddle and equip it with lasers to shred through waves of bricks.",
+      "author": "SYNTHPLAY",
       "date": "2026-11-27",
       "readTime": "2 min",
       "section": "software",
@@ -52,18 +33,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/maktlf1439/beemind-ai-building-an-iot-prototype-for-smarter-beehive-monitoring-in-saudi-arabia-4b3h",
-      "image": "/images/feed/feed-be5800397a9a.webp",
+      "xpReward": 52,
+      "url": "https://dev.to/synthplaygames/pulse-breaker-dx-free-brick-browser-game-built-with-gemini-canvas2d-2fn4",
+      "image": "/images/feed/feed-52e64bd02ec4.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-dc8bfe1ef796",
-      "title": "Runtime's Sandboxed Agent Infrastructure: Multi-Tenant Deployment Without Engineering Gatekeepers",
-      "excerpt": "Runtime (YC P26) addresses a specific organizational bottleneck: engineering teams can't babysit every Claude Code session when product managers, ops teams, and support staff want to ship agent-genera…",
-      "body": "Runtime (YC P26) addresses a specific organizational bottleneck: engineering teams can't babysit every Claude Code session when product managers, ops teams, and support staff want to ship agent-generated code. The founder shipped four full-stack products in three months post-acquisition using agents, then built infrastructure to let entire teams do the same without creating a review queue disaster. The core problem is not technical capability. It's permission boundaries and blast radius. A payments ops person needs to deploy a dispute-handling workflow. A support engineer needs to ship a refund automation. Both want to use agents. Neither should be able to accidentally DROP TABLE or push to production without guardrails.",
-      "author": "mech.app",
+      "id": "feed-943a54df5b2d",
+      "title": "How to Scrape Twitter (X) with Go: Advanced Search Operators, Account Timelines, and a Cron Watcher (2026)",
+      "excerpt": "\"Twitter advanced search\" gets about 18,100 US searches a month, and another 1,900 people a month search for how to \"search twitter without account\". Both groups want the same thing: type from:golang…",
+      "body": "\"Twitter advanced search\" gets about 18,100 US searches a month, and another 1,900 people a month search for how to \"search twitter without account\". Both groups want the same thing: type from:golang released min_faves:500 -filter:retweets and get a clean list of posts back, ideally in a script that can run every hour. In 2026 that is harder than it looks. The search page needs a login, the official API bills per post returned, and none of the logged-out tricks that used to work are left. This post builds xsearch , a small Go tool (standard library only) that does it the other way around: it fetches candidate posts as JSON and then applies X's advanced-search operators locally , in about 800 lines of Go you can read and test.",
+      "author": "Viktor",
       "date": "2026-11-27",
       "readTime": "2 min",
       "section": "software",
@@ -71,18 +52,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 36,
-      "url": "https://dev.to/mech_app_ai/runtimes-sandboxed-agent-infrastructure-multi-tenant-deployment-without-engineering-gatekeepers-ilf",
-      "image": "/images/feed/feed-dc8bfe1ef796.webp",
+      "xpReward": 49,
+      "url": "https://dev.to/viktorhendelmann/how-to-scrape-twitter-x-with-go-advanced-search-operators-account-timelines-and-a-cron-watcher-5h10",
+      "image": "/images/feed/feed-943a54df5b2d.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-c878e8058e89",
-      "title": "Delta Residue Attribution: Tracing Every Unneeded Edit in Agent-Generated Code Patches",
-      "excerpt": "Agent-generated patches are larger than human patches. That much is known. What has not been known is whether the extra lines are necessary, what they do, or which tool calls produced them. Delta Resi…",
-      "body": "Agent-generated patches are larger than human patches. That much is known. What has not been known is whether the extra lines are necessary, what they do, or which tool calls produced them. Delta Residue Attribution (DRA) answers those questions by replaying agent trajectories, tracing every block of the final patch to the step that wrote it, reverting each unit, and rerunning task tests to determine if the unit was needed. The technique was applied to 7,660 resolved GitHub Copilot CLI trajectories across 18 frontier models on SWE-bench Verified (6,728 tasks) and DeepSWE (932 tasks). The results expose the plumbing behind agent over-editing: where unnecessary mutations come from, which models produce them, and whether pruning strategies can remove them without breaking patches.",
-      "author": "mech.app",
+      "id": "feed-c579c16ee40c",
+      "title": "How I Built a 93 KB Client-Side GIF89a & WebCodecs Studio Without COOP/COEP Headers",
+      "excerpt": "Most browser-based GIF editors take one of two trade-offs: they either upload every frame to a remote processing server, or they ship a ~30 MB WebAssembly FFmpeg bundle that requires strict Cross-Orig…",
+      "body": "Most browser-based GIF editors take one of two trade-offs: they either upload every frame to a remote processing server, or they ship a ~30 MB WebAssembly FFmpeg bundle that requires strict Cross-Origin-Opener-Policy and Cross-Origin-Embedder-Policy headers. While building Offline GIF Editor , I wanted a zero-upload studio that opens instantly under a strict 95 KB raw core JS budget , runs 100% locally in the browser with zero COOP/COEP headers , and still handles real-world edge cases like animated transparency disposal, chat file-size caps, and multi-format video exports. Here are the four engineering decisions that made the biggest difference: 1. Keep an Immutable baseDelay Per Frame to Eliminate Speed Drift GIF frame delays are quantized to centiseconds (10 ms ticks).",
+      "author": "yang rocky",
       "date": "2026-11-27",
       "readTime": "2 min",
       "section": "software",
@@ -90,143 +71,564 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 32,
-      "url": "https://dev.to/mech_app_ai/delta-residue-attribution-tracing-every-unneeded-edit-in-agent-generated-code-patches-2pf",
-      "image": "/images/feed/feed-c878e8058e89.webp",
+      "xpReward": 54,
+      "url": "https://dev.to/yang_rocky_2ac2041abd9a8c/how-i-built-a-93-kb-client-side-gif89a-webcodecs-studio-without-coopcoep-headers-57gn",
+      "image": "/images/feed/feed-c579c16ee40c.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-b3b98937cfba",
-      "title": "A Practical Pre-Day-1 Provisioning Routine for Remote Developers",
-      "excerpt": "A Practical Pre-Day-1 Provisioning Routine for Remote Developers When a remote engineer starts on Monday, the first morning often disappears into waiting: waiting for a laptop, waiting for a repositor…",
-      "body": "A Practical Pre-Day-1 Provisioning Routine for Remote Developers When a remote engineer starts on Monday, the first morning often disappears into waiting: waiting for a laptop, waiting for a repository invite, waiting for someone to add them to Slack. The fix is not heroics on Day 1. It is a short, ordered routine that finishes before the new hire logs in. This article walks through one technique you can use today: a pre-Day-1 provisioning pass with three parts. First, assign clear owners. Second, provision hardware, accounts, and permissions from a decision tree rather than memory. Third, verify connectivity and security with a short test list. Each part is designed to be completed in well under an hour once the owners are ready.",
-      "author": "Mr ThankYou",
+      "id": "feed-3f44a1c5f3e6",
+      "title": "We tested Samsung’s private Galaxy AI cloud on One UI 9.5 beta, and it made AI select smarter",
+      "excerpt": "Running AI select through Samsung SPAC on a Galaxy S26 Ultra produced an accurate calendar entry that didn't need edits.",
+      "body": "Credit: Stephen Radochia / Android Authority TL;DR We got Samsung’s private AI cloud, referred to as “SPAC” in the code, working with AI select on a Galaxy S26 Ultra running One UI 9.5 Beta 1, producing more accurate calendar event extraction than its standard processing. Code references show SPAC supports Google’s Gemma 4 and Alibaba’s Qwen 3.6 (used in our test) and appears to route encrypted requests through a third-party relay to hide user identity. In our test, SPAC only pulled one event out of the five listed, but Samsung’s code indicates multi-event support. It also suggests photo editing, live translation, and writing tools could adopt SPAC next. Yesterday, we reported that Samsung is building a private cloud for Galaxy AI .",
+      "author": "Aamir Siddiqui",
       "date": "2026-11-27",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gadgets",
       "tags": [
-        "Developer"
+        "Gadgets"
       ],
       "featured": true,
-      "xpReward": 40,
-      "url": "https://dev.to/mr_thankyou_58b14997d0c77/a-practical-pre-day-1-provisioning-routine-for-remote-developers-130m",
-      "image": "/images/feed/feed-b3b98937cfba.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-8b4c0c37781d",
-      "title": "A GitHub Account Was the Deploy Key: Reading the 1Password Backend Breach",
-      "excerpt": "This is the English adaptation of the original Korean analysis at dohyeontech.github.io. On 19 November 2026, 1Password started an investigation after seeing indications that an attacker had gained ac…",
-      "body": "This is the English adaptation of the original Korean analysis at dohyeontech.github.io . On 19 November 2026, 1Password started an investigation after seeing indications that an attacker had gained access to an employee's corporate GitHub account. The disclosure that followed six days later is four paragraphs long, and one of them carries the whole weight: the actor used that account to reach source code and push malicious code to backend services , and that code downloaded administrative data about customers. For a password manager, the sentence has a specific shape. No product vulnerability was exploited. One person's repository write permission became the company's production execution path, and that execution path could reach customer records.",
-      "author": "Kim Dohyeon",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Github"
-      ],
-      "featured": false,
       "xpReward": 50,
-      "url": "https://dev.to/dohyeontech/a-github-account-was-the-deploy-key-reading-the-1password-backend-breach-10ck",
-      "image": "/images/feed/feed-8b4c0c37781d.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-c3ac851cbd5e",
-      "title": "South Korea proceeds with case over allegedly misleading Apple Intelligence ads",
-      "excerpt": "South Korea’s Fair Trade Commission (KFTC) announced today that it has opened formal proceedings against Apple over its advertising of Apple Intelligence features for the iPhone 16 lineup. Here are th…",
-      "body": "South Korea’s Fair Trade Commission (KFTC) announced today that it has opened formal proceedings against Apple over its advertising of Apple Intelligence features for the iPhone 16 lineup. Here are th — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://9to5mac.com/2026/11/26/south-korea-proceeds-with-case-over-allegedly-misleading-apple-intelligence-ads/",
-      "image": "/images/feed/feed-c3ac851cbd5e.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-2292587363aa",
-      "title": "OnePlus reveals ColorOS 17 plans for native apps, paid AI features, and more",
-      "excerpt": "More native apps are coming, but some AI features will cost you.",
-      "body": "TL;DR OnePlus is exploring wider availability of its native Phone app and plans to bring OPPO’s Calendar app to its devices. ColorOS 17 users can pay for additional AI usage or wait for their free allowance to reset. OnePlus plans to add AI Photo Agent in a future update but has confirmed the removal of its iconic Calculator Easter egg. The transition from OxygenOS to ColorOS has brought plenty of changes to OnePlus phones. And while many of our readers have warmed up to the new software , not everything has been well received by fans. From missing features to the future of native OnePlus apps, the company has now addressed some of the biggest questions surrounding ColorOS 17, revealing what users can expect from future updates and what’s already gone for good.",
-      "author": "Hillary Keverenge",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.androidauthority.com/oneplus-coloros-17-ama-native-apps-ai-features-3740647/",
-      "image": "/images/feed/feed-2292587363aa.jpg",
+      "url": "https://www.androidauthority.com/samsung-spac-galaxy-ai-select-demo-apk-teardown-3740749/",
+      "image": "/images/feed/feed-3f44a1c5f3e6.jpg",
       "source": "Android Authority",
       "isLive": true
     },
     {
-      "id": "feed-86d487faf061",
-      "title": "Star Trek: Voyager Officially Revisits the Series' Best Two-Parter in a Brand-New Way",
-      "excerpt": "Star Trek: Voyager - Across the Unknown strategy game officially reveals Year of Hell DLC",
-      "body": "One of the best two-episode arcs in Star Trek: Voyager , if not the entire Star Trek franchise, is the \"Year of Hell\" duology. The story from the show's fourth season pitted the crew of Voyager against a unique threat that tested their perseverance more than any previous enemy had.",
-      "author": "Willa Rowe",
-      "date": "2026-11-26",
+      "id": "feed-ad3839abca56",
+      "title": "Cloudflare MoQ CDN: Scale Sub-Second Live Streams in 10 Minutes",
+      "excerpt": "You have MoQ running on Ant Media Server, and now you need to serve more viewers than one server can handle. Right now every viewer connects to the relay on your server, and that relay is limited by t…",
+      "body": "You have MoQ running on Ant Media Server, and now you need to serve more viewers than one server can handle. Right now every viewer connects to the relay on your server, and that relay is limited by the server’s network bandwidth. A Cloudflare MoQ CDN takes that load off your server. HLS solved the same problem years ago with a CDN. One origin server produces the stream, and the CDN caches it near the viewers and serves it from there. MoQ follows the same pattern, so a Media over QUIC CDN is a network of relays instead of caches. Cloudflare runs MoQ relays all around the world, and the Ant Media Server MoQ plugin can push to them with one setting change.",
+      "author": "Amar Thodupunoori",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": true,
+      "xpReward": 49,
+      "url": "https://dev.to/antmedia_io/cloudflare-moq-cdn-scale-sub-second-live-streams-in-10-minutes-38ni",
+      "image": "/images/feed/feed-ad3839abca56.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-581e5115a86d",
+      "title": "From Monitoring Alerts to IT Actions: A Practical Guide to Closing the Loop",
+      "excerpt": "A monitoring alert is only useful if it changes what someone does next. A dashboard can show a full fleet's CPU, disk, and security events and still leave an operator with the same question: \"What sho…",
+      "body": "A monitoring alert is only useful if it changes what someone does next. A dashboard can show a full fleet's CPU, disk, and security events and still leave an operator with the same question: \"What should I do about this?\" The gap isn't a lack of data. It's the missing path from signal to decision. We think monitoring should be designed around that path. In this article, we'll turn a few common signals into practical, testable actions - and show how to avoid building an alert system that creates more work than it removes. Start with the decision, not the metric A metric is not actionable just because it crosses a threshold. \"Disk usage is 85%\" is a fact. It doesn't say whether the disk is filling steadily, whether a temporary job caused the spike, or who should respond.",
+      "author": "LynxTrac Team",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://dev.to/lynxtrac_team_b01b03e00a4/from-monitoring-alerts-to-it-actions-a-practical-guide-to-closing-the-loop-3n04",
+      "image": "/images/feed/feed-581e5115a86d.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-ce3008ff6ac0",
+      "title": "NFS2ROOT on CentOS 7: the stock kernel is affected and gets no fix",
+      "excerpt": "NFS2ROOT (CVE-2026-99362) is a pre-authentication heap overflow in the Linux kernel's NFS server. A client that can reach TCP 2049 shrinks its NFSv4.1 session reply cache to zero bytes, pads a SEQUENC…",
+      "body": "NFS2ROOT (CVE-2026-99362) is a pre-authentication heap overflow in the Linux kernel's NFS server. A client that can reach TCP 2049 shrinks its NFSv4.1 session reply cache to zero bytes, pads a SEQUENCE request, and nfsd copies the whole reply into the empty slot buffer. No account or export access is needed. The kernel.org CNA rates it CVSS 9.8, Red Hat rates it Critical. On CentOS 7 it reaches every NFS server running the defaults: Stock 3.10: affected, per Red Hat, and the CentOS 7 source carries the same unbounded copy. nfsd serves +4.1 +4.2 out of the box, and having no exports does not help: the overflow happens during session setup. CentOS 7 gets no kernel updates.",
+      "author": "Danila Vershinin",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://dev.to/getpagespeed/nfs2root-on-centos-7-the-stock-kernel-is-affected-and-gets-no-fix-1cej",
+      "image": "/images/feed/feed-ce3008ff6ac0.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-a91706a5c108",
+      "title": "10 Best Black Friday 2026 Book Deals For Sci-Fi and Fantasy Fans",
+      "excerpt": "Give the gift of a genre classic or a brand new novel",
+      "body": "Books make a perfect gift. They offer the chance to introduce a friend or family member to a story or world you love and adventures you can share together. You can even use a book as a seed for future gift ideas by getting someone hooked on a series. Black Friday sales offer plenty of bargains on fantasy and sci-fi classics and recent genre standouts for anyone looking to get an early start on holiday shopping. Even if you’re just looking for some reading material for your vacation, you should check out the 10 best Black Friday book deals.",
+      "author": "Sam Nelson",
+      "date": "2026-11-27",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
         "Gaming"
       ],
       "featured": false,
-      "xpReward": 46,
-      "url": "https://www.polygon.com/star-trek-voyager-across-the-unknown-year-of-hell-dlc-announced/",
-      "image": "/images/feed/feed-86d487faf061.jpg",
+      "xpReward": 50,
+      "url": "https://www.polygon.com/black-friday-2026-book-deals/",
+      "image": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19545078/TheWitcher_101_Unit_08529_RT.pkej748hf.jpg",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-d699cda41c12",
-      "title": "Backloggd urges users to change their passwords after a breach",
-      "excerpt": "If you use Backloggd, you might need to log in again and reset your password.",
-      "body": "If you use Backloggd, you might need to log in again and reset your password.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Kris Holt)",
-      "date": "2026-11-26",
+      "id": "feed-18a70ccd20d2",
+      "title": "Got a MediaTek, Exynos, or Pixel device? Here are 11 tips for emulation",
+      "excerpt": "From specific settings to alternative emulators, here's what you can try on your non-Snapdragon device.",
+      "body": "Credit: Nick Fernandez / Android Authority There’s no shortage of emulators on Android , letting you play everything from Atari 2600 and NES games to PC and Nintendo Switch titles. We’ve even seen Xbox 360, PlayStation 3, and Switch 2 emulators in recent times. It’s fair to say, though, that devices with Qualcomm Snapdragon chips are generally the best for emulation. Phones and handhelds with MediaTek, Google Tensor, or Samsung Exynos silicon often suffer from worse performance and compatibility with new emulators as a result. Thankfully, there are plenty of tips you can try if you’re struggling with emulation on your MediaTek-powered device, Exynos-toting Galaxy phone, or Google Pixel.",
+      "author": "Hadlee Simons",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Device"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.androidauthority.com/tips-emulation-mediatek-exynos-pixel-3685858/",
+      "image": "/images/feed/feed-18a70ccd20d2.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-dc606b213ddb",
+      "title": "Morphe v2.4.0 beats Google to bringing YouTube videos to your Android Auto screen",
+      "excerpt": "It only shows up when your vehicle is parked.",
+      "body": "Credit: Hadlee Simons / Android Authority TL;DR Morphe v2.4.0 is out, and it adds support for playing YouTube videos on Android Auto and other in-car entertainment platforms. YouTube shows up in the Android Auto launcher when the car is parked. Along with this, Morphe’s version of YouTube and YouTube Music also get a host of playability improvements. Morphe is a popular open-source tool for modding popular Android apps to add features and remove ads from YouTube, YouTube Music, and other media streaming apps. In the last major update, it added 4K video downloads , surpassing download-quality limits even on the official YouTube app. Now, it’s out with another update that brings a host of changes to patched versions of Reddit, YouTube, and YouTube Music.",
+      "author": "Tushar Mehta",
+      "date": "2026-11-27",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 48,
-      "url": "https://www.engadget.com/2329256/backloggd-breach-november-2026-password-reset/",
-      "image": "/images/feed/feed-d699cda41c12.jpg",
-      "source": "Engadget",
+      "xpReward": 45,
+      "url": "https://www.androidauthority.com/youtube-video-android-auto-morphe-3740722/",
+      "image": "/images/feed/feed-dc606b213ddb.jpg",
+      "source": "Android Authority",
       "isLive": true
     },
     {
-      "id": "feed-4d47bdac9b2a",
-      "title": "Report: Apple accounted for 57% of US smartphone shipments in Q3",
-      "excerpt": "Apple’s share of US smartphone shipments jumped from 50% to 57% year over year last quarter, with the company being the only major smartphone maker to buck the broader trend of declining shipments. He…",
-      "body": "Apple’s share of US smartphone shipments jumped from 50% to 57% year over year last quarter, with the company being the only major smartphone maker to buck the broader trend of declining shipments. He — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Smartphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-26",
+      "id": "feed-cd30931e3cc2",
+      "title": "Rivian's Winter Sale Is Live: Save on Chargers, Accessories, And More",
+      "excerpt": "The startup’s home chargers are $120 off, while the external travel kitchen can be had for $210 less than usual.",
+      "body": "The startup’s home chargers are $120 off, while the external travel kitchen can be had for $210 less than usual.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Rivian. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Rivian"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://insideevs.com/news/816974/rivian-winter-sale-2026-discounts-chargers-accessories-apparel/",
+      "image": "/images/feed/feed-cd30931e3cc2.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-715038b00d88",
+      "title": "Here’s how much OnePlus could charge you for using ColorOS 17’s AI features",
+      "excerpt": "Would you be willing to pay to use AI features built into your phone?",
+      "body": "TL;DR OPPO has introduced three monthly AI subscription tiers for ColorOS 17 in India. The plans range from around $3 to $10 and will offer up to 100,000 credits per month. Only Live Translation, AI Photo Agent, and Transcription features will use credits, while other AI features remain free. OnePlus recently confirmed that it will start imposing usage limits on some AI features in ColorOS 17 . Users will have a free usage allowance, after which they can either pay for more usage or wait for their allowance to reset. However, the company hadn’t confirmed price details just yet. Well, we’re getting a clearer idea of its plans now. According to a post on X by user Ashok Mor, OPPO has started offering subscription-based AI plans for ColorOS 17.",
+      "author": "Akshay Gangwar",
+      "date": "2026-11-27",
       "readTime": "2 min",
       "section": "gadgets",
       "tags": [
-        "Smartphone"
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.androidauthority.com/coloros-17-ai-features-subscription-plans-3740729/",
+      "image": "/images/feed/feed-715038b00d88.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-6c336c088381",
+      "title": "Oura is dropping Android 11 support in December, and users risk losing health data",
+      "excerpt": "Upgrading after the deadline won't bring back your health history.",
+      "body": "TL;DR Oura will officially drop support for Android 11 on December 8, 2026. Users who don’t upgrade to Android 12 or newer by the deadline risk losing their historical health data. Those who remain on Android 11 may retain access to some limited historical app features. One of the biggest benefits of wearing an Oura Ring is that the longer you use it, the more you learn about your health. From personalized annual health recaps to long-term blood pressure trends, many of Oura’s features become more useful as you build up months or even years of health data. However, some Android users could soon lose access to that history simply because of the phone they use.",
+      "author": "Hillary Keverenge",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
       ],
       "featured": false,
       "xpReward": 43,
-      "url": "https://9to5mac.com/2026/11/26/report-apple-accounted-for-57-of-us-smartphone-shipments-in-q3/",
-      "image": "/images/feed/feed-4d47bdac9b2a.jpg",
+      "url": "https://www.androidauthority.com/oura-android-11-support-end-3740718/",
+      "image": "/images/feed/feed-6c336c088381.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-cfe0112f7935",
+      "title": "The Alan Lee Lord of the Rings Illustrated Editions Are at Their Lowest Price Ever for Black Friday",
+      "excerpt": "The Alan Lee Lord of the Rings Illustrated Editions Are at Their Lowest Price Ever for Black Friday",
+      "body": "With Black Friday around the corner, some deals have gone live ahead of the biggest shopping day in the US. Amazon is getting in on the fun early, offering a wide variety of sales and deals on all kinds of categories. If you&#39;re a big reader or Tolkien fan in general, one of the best book deals right now is the Hobbit and Lord of the Rings illustrated edition collections, which are down to $61.83 from its $150 sticker price. This is currently its lowest price ever, and a great deal if you&#39;re on the hunt for a good Lord of the Rings gift for that Middle-Earth fan in your life this year. Each of the four hardcover volumes is illustrated by longtime Tolkien artist Alan Lee, who also provided the concept art for Peter Jackson&#39;s The Lord of the Rings film trilogy .",
+      "author": "Myles Obenza",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.ign.com/articles/the-alan-lee-lord-of-the-rings-illustrated-editions-sale-amazon-black-friday-2026",
+      "image": "/images/feed/feed-cfe0112f7935.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-d26ac14d05e1",
+      "title": "Samsung phones can soon nudge you when you miss your usual charging window",
+      "excerpt": "This charging reminder feature could even refer to your calendar entries for more personalized alerts.",
+      "body": "Credit: Ryan Haines / Android Authority TL;DR Samsung’s One UI 9.5 beta can apparently tell you when you’ve missed your usual charging time. This alert will show up in the Settings menu and will also show how many hours of battery life you have left. This feature could be very useful if you’re forgetful or busy. Samsung recently launched the One UI 9.5 beta program , allowing Galaxy S26 owners to get their hands on the latest software before the stable release. We’ve already uncovered plenty of features, but it looks like the company has a convenient charging-related feature up its sleeve. APK teardown: This reporting is based on work-in-progress code. These features may not ship.",
+      "author": "Hadlee Simons",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.androidauthority.com/samsung-missed-charging-window-3740683/",
+      "image": "/images/feed/feed-d26ac14d05e1.jpg",
+      "source": "Android Authority",
+      "isLive": true
+    },
+    {
+      "id": "feed-d667198e22ae",
+      "title": "Apple launches Black Friday Shopping Event: Is it worth it?",
+      "excerpt": "Apple has officially kicked off its Black Friday Shopping Event in the United States and other countries. You can score an Apple gift card of up to $300 with an eligible product. Apple’s offer comes a…",
+      "body": "Apple has officially kicked off its Black Friday Shopping Event in the United States and other countries. You can score an Apple gift card of up to $300 with an eligible product. Apple’s offer comes as Black Friday deals at Amazon continue, with more lucrative cash savings than Apple’s gift card offer. You can score $100 off AirPods Pro 3 , $100 off MacBook Neo , up to $400 off MacBook Air , and much more. Here are a few highlights, thanks to our friends over at 9to5Toys . AirPods Pro 3 $ 149 (Reg. $249) Apple Studio Display $1,399 (Reg. $1,599) Apple Watch Series 12 from $299 (Reg. $399) Single AirTag 2 $18 (Reg. $29) M5 MacBook Air Up to $400 off Apple Studio Display $1,399 (Reg. $1,599) more…",
+      "author": "Chance Miller",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://9to5mac.com/2026/11/27/apple-black-friday-shopping-event-deals/",
+      "image": "/images/feed/feed-d667198e22ae.jpg",
       "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-39455e230783",
+      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+      "excerpt": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]",
+      "body": "​A 12-year-old critical vulnerability in the Linux kernel's Network File System (NFS) server, tracked as CVE-2026-99362, allows remote attackers to gain root privileges. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Sergiu Gatlan",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+      "image": "/images/feed/feed-39455e230783.jpg",
+      "source": "BleepingComputer",
+      "isLive": true
+    },
+    {
+      "id": "feed-f8d7d3f0481f",
+      "title": "Amazon main event Black Friday sale now live! Apple, Google, Anker, LEGO, TVs, more",
+      "excerpt": "The official main event Amazon Black Friday sale is now live! Millions of deals, all-new discounts in the Today’s Big Deals section, and a fresh collection of Doorbusters now up for grabs. The wild di…",
+      "body": "The official main event Amazon Black Friday sale is now live! Millions of deals, all-new discounts in the Today’s Big Deals section , and a fresh collection of Doorbusters now up for grabs. The wild discounts on AirPods Pro 3 at an insane $100 off , the crazy M5 MacBook Air deals at $400 off, and MacBook Neo models at $100 off starting at $599 are all still live, alongside the even lower prices on Anker’s popular charging gear from $16 , and a whole lot more are now at the ready in the official Amazon Black Friday main event. more…",
+      "author": "9to5Toys",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 46,
+      "url": "https://9to5toys.com/2026/11/27/amazon-official-black-friday-sale-live-2026/",
+      "image": "/images/feed/feed-f8d7d3f0481f.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-8f3b3a33fcfd",
+      "title": "Percy Jackson and the Olympians Season 3, Episodes 3 & 4 Recap and Review",
+      "excerpt": "Percy Jackson and the Olympians Season 3, Episodes 3 & 4 Recap and Review",
+      "body": "Warning: This review contains full spoilers for Episodes 3 and 4 of Percy Jackson and the Olympians Season 3. After a great season premiere to set up the show&#39;s new quest, Percy Jackson Season 3 dives straight into the action with Episodes 3 and 4. The Oracle&#39;s prophecy looms and death is in the air. The Greek mythology of it all is on full display as our heroes set out to save Annabeth, encountering ancient monsters and gods along the way. With four episodes down, the series is now firing on all cylinders. Episode 3 kicks off right where Episode 2 left off. The Oracle has given the prophecy, the quest-goers have been chosen, and the mood is pretty somber.",
+      "author": "Jacob Kienlen",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.ign.com/articles/percy-jackson-and-the-olympians-season-3-episodes-3-4-recap-and-review",
+      "image": "/images/feed/feed-8f3b3a33fcfd.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-31543ff5e5cd",
+      "title": "The LEGO Beauty and the Beast Castle Is on Sale for the First Time Ever",
+      "excerpt": "The LEGO Beauty and the Beast Castle Is on Sale for the First Time Ever",
+      "body": "The LEGO Store Black Friday sale has officially kicked off, which means Amazon is dropping some of its best LEGO deals today too. Of the new discounts, The LEGO Beauty and the Beast Castle is the most likely to sell out quickly. Unlike many of the other LEGO Disney sets we&#39;ve seen over the years, this set is very specifically targeted more at adults than kids. The massive LEGO Beauty and the Beast Castle is a whopping 2,916 pieces of pure Disney magic filled with little scenes from the classic film. The LEGO Store has already sold out of this set and it&#39;s currently up for retirement at the end of the year. This isn&#39;t the first adult LEGO set from Disney, but it certainly is a break from the norm when it comes to LEGO castles .",
+      "author": "Jacob Kienlen",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.ign.com/articles/the-lego-beauty-and-the-beast-castle-is-on-sale-for-the-first-time-black-friday-2026",
+      "image": "/images/feed/feed-31543ff5e5cd.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-8b67585cd569",
+      "title": "The Best Pokémon TCG Black Friday Deals: Amazon Restocks, 10% Cashback at TCGplayer, and More",
+      "excerpt": "We've found the best Pokémon TCG Black Friday deals for 2026, including restocked 30th Celebration sets at Amazon, 10% cashback at TCGplayer, and Elite Trainer Boxes.",
+      "body": "Black Friday is finally here, and there&#39;s more than enough Pokémon TCG deals to check out during the biggest sale period of the year. Highlights in the sale so far include a few notable restocked and discounted sealed sets at Amazon, alongside 10% cashback at TCGplayer on all purchases, and even a few select deals from third-party sellers at Walmart. Here&#39;s what I&#39;ve been able to find so far. Amazon (Sold and Shipped) If you&#39;re shopping at Amazon for Pokémon TCG, I often recommend considering the &quot;sold and shipped by Amazon.com&quot; options first before diverting to third-party sellers. While a lot of third parties are fine as they are, I know most buyers feel a lot more confident in their purchase if it&#39;s coming directly from an Amazon warehouse.",
+      "author": "Robert Anderson",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://www.ign.com/articles/pokemon-tcg-black-friday-deals-2026",
+      "image": "/images/feed/feed-8b67585cd569.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-c79c5a7aafcb",
+      "title": "I Drove Volvo’s Long-Range Plug-In Hybrid XC60. It’s A Great Stepping Stone To An EV.",
+      "excerpt": "The 2028 Volvo XC60 plug-in hybrid has 78 miles of electric range, more than any other PHEV sold in the U.S.",
+      "body": "The 2028 Volvo XC60 plug-in hybrid has 78 miles of electric range, more than any other PHEV sold in the U.S.\n\nThis report, published by InsideEVs, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Plug-in Hybrid, Hybrid, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to InsideEVs using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "InsideEVs",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Plug-in Hybrid",
+        "Hybrid",
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://insideevs.com/reviews/816942/2028-volvo-xc60-plug-in-hybrid-review/",
+      "image": "/images/feed/feed-c79c5a7aafcb.jpg",
+      "source": "InsideEVs",
+      "isLive": true
+    },
+    {
+      "id": "feed-b749ba496e6e",
+      "title": "The Alienware 18 Area-51 RTX 5070 Gaming Laptop with 32GB of RAM Drops to $2,260 for Black Friday",
+      "excerpt": "Configuring it at Dell would cost you over $4,000.",
+      "body": "Woot, which is owned by Amazon, is offering the best Alienware gaming laptop deal I&#39;ve seen for Black Friday . While supplies last, you can pick up the ultra-premium Alienware 18 Area-51 RTX 5070 gaming laptop for $2,259.99 after you apply $40 off coupon code &quot; BIGFRIDAY &quot;. Amazon Prime members get free shipping otherwise add $5 for delivery. The system comes with a 1 year Dell warranty . This would cost you over $4,000 if you were to configure it at Dell . Black Friday Deal: Alienware 18 Area-51 RTX 5070 Gaming Laptop Brand new with 1 year Dell warranty This configuration is well-equipped with a 18&quot; 2560x1600 300Hz G-Sync display, Intel Core Ultra 9 275HX CPU, RTX 5070 8GB GPU, 32GB of DDR5-6400MHz memory, and a 1TB SSD.",
+      "author": "Eric Song",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.ign.com/articles/alienware-18-area-51-rtx-5070-gaming-laptop-deal-black-friday-sale-2026",
+      "image": "/images/feed/feed-b749ba496e6e.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-2eb4d105dc19",
+      "title": "Woot Has a Grade A Refurbished Nintendo Switch 2 Console for $409.99 During Black Friday",
+      "excerpt": "First time Woot customers can get it for even less.",
+      "body": "Woot (which is owned by Amazon) is offering a rare discount on a Switch 2 for Black Friday . While supplies last, you can pick up a grade A refurbished Nintendo Switch 2 console for just $409 after $40 off coupon code &quot; BIGFRIDAY &quot;. First time new customers can get it for $389 after $60 off discount using the same code. Amazon Prime members get free delivery, otherwise add $5 shipping. This system comes with a 90-day Woot warranty. Save $90 to $110 Off the Nintendo Switch 2 Console Grade A refurbished According to Woot: Hey, you there! This item has been inspected and guaranteed to have minimal cosmetic damage &amp; has successfully passed a full diagnostic test which ensures like-new functionality &amp; removal of any prior-user&#39;s personal information.",
+      "author": "Eric Song",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.ign.com/articles/refurb-nintendo-switch-2-console-deal-black-friday-sale-2026",
+      "image": "/images/feed/feed-2eb4d105dc19.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-0a6f3c178aec",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "excerpt": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yeste…",
+      "body": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday. Three of the attacks targeted critical infrastructure operators, and two of those succeeded, with no major disruptions reported. The victims have not been named, and it is not known who is",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Breach"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "image": "/images/feed/feed-0a6f3c178aec.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-2c58dff3b663",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "excerpt": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit,…",
+      "body": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT. \"I found a path from a fresh, unauthenticated HTTP session to command execution as the Cacti server",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Zero-day"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "image": "/images/feed/feed-2c58dff3b663.png",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-7639603dd3f5",
+      "title": "APOD: 2026 November 27 – The Moon Watchers",
+      "excerpt": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differe…",
+      "body": "APOD Science APOD APOD: 2026 November 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. The Moon Watchers Explanation: On November 24 , all denizens of our fair planet could watch the Moon rise opposite the setting Sun. Easy to spot in twilight skies above fields, fences, backyards, and even stone walls, the Moon was big and bright, and at its full phase . Known to some as a Beaver Moon, November’s Full Moon was also near perigee, the closest point in its elliptical orbit around planet Earth.",
+      "author": "NASA Breaking News",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-27-the-moon-watchers/",
+      "image": "/images/feed/feed-7639603dd3f5.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-0d4c44fc559c",
+      "title": "Shivelyuch Socked In",
+      "excerpt": "A cloud layer encircled the flanks of the volcano on the Kamchatka Peninsula but left its restless summit caldera in view.",
+      "body": "Earth Observatory Science Earth Observatory Shivelyuch Socked In Earth Earth Observatory Image of the Day EO Explorer Topics All Topics Atmosphere Land Heat &#038; Radiation Life on Earth Human Dimensions Natural Events Oceans Remote Sensing Technology Snow &#038; Ice Water More Content Collections Global Maps World of Change Articles Earth Matters Blog Blue Marble: Next Generation EO Kids Mission: Biomes About About Us Subscribe 🛜 RSS Contact Us Search In the same way that Shivelyuch (also called Shiveluch) frequently displays volcanic activity, it is also chronically obscured by clouds. When the OLI (Operational Land Imager) on Landsat 9 captured this image on November 8, 2026, clouds encroached on the snowy mountain on Russia’s Kamchatka Peninsula .",
+      "author": "NASA Breaking News",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://science.nasa.gov/earth/earth-observatory/shivelyuch-socked-in/",
+      "image": "/images/feed/feed-0d4c44fc559c.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-05d853e2bed8",
+      "title": "The European Parliament Brings the EU One Step Closer to a Sound Investment Policy",
+      "excerpt": "Being locked-in a race for technological leadership with China and the US, the EU lacks focus, coordination and financial firepower to transform its industry, ensure long-term prosperity while reachin…",
+      "body": "Being locked-in a race for technological leadership with China and the US, the EU lacks focus, coordination and financial firepower to transform its industry, ensure long-term prosperity while reaching its climate objectives. This could soon change thanks to the forthcoming European Competitiveness Fund that will become active from 2028. Yesterday, ... [continued] The post The European Parliament Brings the EU One Step Closer to a Sound Investment Policy appeared first on CleanTechnica .",
+      "author": "Transport &#38; Environment (T&#38;E)",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://cleantechnica.com/2026/11/26/the-european-parliament-brings-the-eu-one-step-closer-to-a-sound-investment-policy/",
+      "image": "/images/feed/feed-05d853e2bed8.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-9ef714496fdf",
+      "title": "High-Flying Influencers",
+      "excerpt": "How do airlines push environmentally damaging flying behavior in digital advertising and via travel influencers? This briefing is based on the T3 Transportation Think Tank study commissioned by T&E. T…",
+      "body": "How do airlines push environmentally damaging flying behavior in digital advertising and via travel influencers? This briefing is based on the T3 Transportation Think Tank study commissioned by T&#38;E. This study examines the environmental footprint of travel influencers, and the role they and social media play in the advertising strategy ... [continued] The post High-Flying Influencers appeared first on CleanTechnica .",
+      "author": "Transport &#38; Environment (T&#38;E)",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://cleantechnica.com/2026/11/26/high-flying-influencers/",
+      "image": "/images/feed/feed-9ef714496fdf.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-d05d257dc536",
+      "title": "Over 70,000 km by Plane a Year: Travel Influencers Are Blowing Their Carbon Budgets and encouraging Europeans to Do the Same",
+      "excerpt": "Influencers flew mostly long-haul flights (49%) and an average of 72,244 km each, roughly equivalent to circumnavigating the globe twice. EasyJet, Air France, Aer Lingus are among the airlines that sp…",
+      "body": "Influencers flew mostly long-haul flights (49%) and an average of 72,244 km each, roughly equivalent to circumnavigating the globe twice. EasyJet, Air France, Aer Lingus are among the airlines that spend the most on social media, including via influencers. Travel influencers have a disproportionate climate footprint, generating an average of ... [continued] The post Over 70,000 km by Plane a Year: Travel Influencers Are Blowing Their Carbon Budgets and encouraging Europeans to Do the Same appeared first on CleanTechnica .",
+      "author": "Transport &#38; Environment (T&#38;E)",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://cleantechnica.com/2026/11/26/over-70000-km-by-plane-a-year-travel-influencers-are-blowing-their-carbon-budgets-and-encouraging-europeans-to-do-the-same/",
+      "image": "/images/feed/feed-d05d257dc536.jpg",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-4d17f3f96be5",
+      "title": "Celebrating Cultures And Equity On Thanksgiving Day",
+      "excerpt": "There is an important subtext to this Thanksgiving Day in the United States. A “blue tsunami” has occurred, so, come January, the Democratic party will control the House of Representatives and the Sen…",
+      "body": "There is an important subtext to this Thanksgiving Day in the United States. A &#8220;blue tsunami&#8221; has occurred, so, come January, the Democratic party will control the House of Representatives and the Senate. While there are many important elements to this upheaval, one thread connects them all: Democrats can reimagine ... [continued] The post Celebrating Cultures And Equity On Thanksgiving Day appeared first on CleanTechnica .",
+      "author": "Carolyn Fortuna",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://cleantechnica.com/2026/11/26/celebrating-cultures-and-equity-on-thanksgiving-day/",
+      "image": "/images/feed/feed-4d17f3f96be5.jpg",
+      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -242,7 +644,7 @@
         "Telescope"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 34,
       "url": "https://www.space.com/stargazing/skywatching-kit/every-smart-telescope-weve-reviewed-and-highly-rate-that-is-cheaper-for-black-friday-full-list",
       "image": "/images/feed/feed-9cc9e0230cf3.jpg",
       "source": "Space.com",
@@ -261,200 +663,10 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 38,
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
       "image": "/images/feed/feed-0420f6f07434.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-49ca901bde64",
-      "title": "Lucia Actress Manni L. Perez Issues First Statement Since GTA 6 Launch",
-      "excerpt": "Manni L. Perez, the actress who plays Lucia in GTA 6, has issued her first statement since the game came out.",
-      "body": "Manni L. Perez, the actress who plays Lucia in GTA 6 , has issued her first statement since the game came out. Perez’s role as Lucia Caminos was confirmed when she was nominated in the Best Performance category for this year’s The Game Awards , a day before GTA 6 launched on November 19. She’s now considered the favorite following the game’s critically acclaimed, record-breaking launch. Now, a week later, Perez took to social media to thank fans for the reception to GTA 6. “Life has been such a whirlwind these past couple of days and I just want to take a moment to say thank you,” an Instagram Stories post began. “Thank you to all the new followers, to all the beautiful messages, and the positive reception the game and my character have received.",
-      "author": "Wesley Yin-Poole",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.ign.com/articles/lucia-actress-manni-l-perez-issues-first-statement-since-gta-6-launch",
-      "image": "/images/feed/feed-49ca901bde64.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-5e38e3b6d18d",
-      "title": "GTA: Boston Would Go Wicked Hard, Kid",
-      "excerpt": "Grand Theft Auto 6 is a perfect Florida satire, and now I'm dying to see Rockstar's take on Massachusetts.",
-      "body": "Considering that Grand Theft Auto 6 just launched after a 13-year wait, it’s safe to say that we won’t be getting another one any time soon. That’s fine, because Leonida is so enormous that I know I’ll still be finding secrets in it years from now. And yet, I can’t help myself. I’m already wondering where the series could possibly go next. Allow me to offer one unsolicited idea: Massachusetts.",
-      "author": "Giovanni Colantonio",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.polygon.com/gta-6-boston-massachussetts/",
-      "image": "/images/feed/feed-5e38e3b6d18d.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-a0e0f1f9d298",
-      "title": "The Sims 4 Officially Makes 13 DLCs Free for a Limited Time",
-      "excerpt": "The Sims 4 is hosting a holiday giveaway that allows players to claim up to 13 free Maker Packs throughout the next eight weeks.",
-      "body": "The Sims 4 has received a steady stream of content since it launched 12 years ago. However, 2026 has been particularly dry. The last major expansion, Royalty & Legacy , was released in February, and aside from kits, the game hasn't received much content this year. This may be because of the team's focus on Project Renee (which may be on hold) or because of internal matters related to Electronic Arts' private-equity buyout .",
-      "author": "Ashely Claudino",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.polygon.com/the-sims-4-free-maker-pack-holiday-giveaway-2026/",
-      "image": "/images/feed/feed-a0e0f1f9d298.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-fa969e3fe4dc",
-      "title": "Samsung is bringing Galaxy Watch 9 health features to older Galaxy Watches",
-      "excerpt": "Even Galaxy Watch 4 owners aren't being left behind.",
-      "body": "TL;DR Samsung is bringing six Galaxy Watch 9 health and fitness features to the Galaxy Watch 8 series. The upgrades include Heart Health Score, Vitals, Daily Cardio Load, Fitness Index, improved Sleep Coaching, and enhanced sleep apnea detection. Select features also support older models, with improved Sleep Coaching extending back to the Galaxy Watch 4. Samsung could break its tradition of launching a new Galaxy Watch every year as early as 2027, reportedly shifting its focus to software updates and new health features for existing smartwatches. We’re already seeing what that approach could mean for Galaxy Watch owners, as Samsung has confirmed that several health and fitness features from the Galaxy Watch 9 are making their way to last year’s models.",
-      "author": "Hillary Keverenge",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.androidauthority.com/galaxy-watch-9-health-features-older-watches-3740608/",
-      "image": "/images/feed/feed-fa969e3fe4dc.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-91bb4fb8eb6c",
-      "title": "Readdle’s Documents app adds voice recording with transcripts, summaries, more",
-      "excerpt": "Readdle updated its Documents app for iPhone and iPad this week with Voice Notes, a new AI-powered feature that lets users record conversations and automatically generate transcripts, summaries, and f…",
-      "body": "Readdle updated its Documents app for iPhone and iPad this week with Voice Notes, a new AI-powered feature that lets users record conversations and automatically generate transcripts, summaries, and f — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://9to5mac.com/2026/11/26/readdles-documents-app-adds-voice-recording-with-transcripts-summaries-more/",
-      "image": "/images/feed/feed-91bb4fb8eb6c.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-e047c341d944",
-      "title": "PSA: AirPods Pro 3 are in stock, still $149 ($100 off)",
-      "excerpt": "Update November 26, 2026: AirPods Pro 3 are still in stock after selling out. They’ve dropped down to their new all-time low price of $149. Happy Thanksgiving! Apple’s AirPods Pro 3 have now dropped e…",
-      "body": "Update November 26, 2026 : AirPods Pro 3 are still in stock after selling out. They’ve dropped down to their new all-time low price of $149 . Happy Thanksgiving! Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with an incredible $100 discount to $149 shipped – their best price ever. We’re also tracking deals on Apple’s brand new OLED iPad mini , the 2026 AirPods Max 2 down again at $130 off , even deeper discounts on the current-generation Apple Watch SE 3 from $179 , up to $400 off MacBook Air, and now, an even lower price on the world’s greatest buds. The best Black Friday Apple deals live right now: AirPods Pro 3 $149 (Reg. $249) – Now even lower Apple Watch Series 12 from $299 (Reg.",
-      "author": "Justin Kahn",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://9to5mac.com/2026/11/26/airpods-pro-3-best-black-friday-price/",
-      "image": "/images/feed/feed-e047c341d944.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-651c5fea8d6f",
-      "title": "GTA 6 Fashion in the IGN Community",
-      "excerpt": "GTA 6 Fashion in the IGN Community",
-      "body": "It’s hard to believe it’s only been seven days since the launch of Grand Theft Auto 6 . Still, with the staggering number of screenshots, videos, and everything else filling up social media feeds, anyone out of the loop would never know. I think much of this is due to just how many types of games Rockstar managed to cram into GTA 6. Everything from fixing up Jason’s house in the prologue to racing, billiards, birdwatching , and, of course, all the other gameplay we expect in GTA has created an almost Sims-like experience that is getting more people than ever to try the series. Seriously, though, the early sales numbers are bonkers.",
-      "author": "Jada Griffin",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.ign.com/articles/gta-6-fashion-in-the-ign-community",
-      "image": "/images/feed/feed-651c5fea8d6f.jpg",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-4500e848dcc9",
-      "title": "The 12 Best Gifts For RPG Lovers In 2026",
-      "excerpt": "From games to goofs, we're here to inspire you",
-      "body": "From games to goofs, we're here to inspire you\n\nThis report, published by Kotaku, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Kotaku using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Rebekah Valentine",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://kotaku.com/12-best-gifts-for-rpg-fans-2001000412",
-      "image": "/images/feed/feed-4500e848dcc9.jpg",
-      "source": "Kotaku",
-      "isLive": true
-    },
-    {
-      "id": "feed-8514402cda2c",
-      "title": "32 Years Later, Disney's Most Notorious Cash-Grab Sequel Is Better Than You Remember",
-      "excerpt": "The Aladdin sequel The Return of Jafar is often derided as a bad, cheap sequel which started Disney's direct-to-video sequel trend, but I love it",
-      "body": "Ever since former Disney CEO Bob Chapek released his autobiography last September, a rather unexpected Disney movie has been a topic for discussion: the direct-to-VHS sequel to Aladdin titled The Return of Jafar . Released in 1994, The Return of Jafar was the first in a long line of direct-to-VHS (and later direct-to-DVD) sequels to theatrical Disney films. Besides Aladdin , Disney made sequels to The Lion King , The Little Mermaid , Pocahontas , Mulan , and several other then-modern Disney animated features, as well as some much older classics like Cinderella and Bambi . These movies used cheaper animation produced by Disney’s TV division and were developed in far less time than Disney spends developing animated feature films .",
-      "author": "Brian VanHooker",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.polygon.com/in-defense-of-the-return-of-jafar/",
-      "image": "/images/feed/feed-8514402cda2c.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-3ef70e1d7167",
-      "title": "Happy Thanksgiving From Guangzhou, Visiting XPENG",
-      "excerpt": "While many in the US are celebrating Thanksgiving, I am seeing some of the most advanced technology and most impressive EVs in the world. XPENG offered to bring me to see AI day and Auto Guangzhou. I…",
-      "body": "While many in the US are celebrating Thanksgiving, I am seeing some of the most advanced technology and most impressive EVs in the world. XPENG offered to bring me to see AI day and Auto Guangzhou. I am thankful for the opportunity. Expect to hear more in depth in the ... [continued] The post Happy Thanksgiving From Guangzhou, Visiting XPENG appeared first on CleanTechnica .",
-      "author": "Larry Evans",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 54,
-      "url": "https://cleantechnica.com/2026/11/26/happy-thanksgiving-from-guangzhou-visiting-xpeng/",
-      "image": "/images/feed/feed-3ef70e1d7167.jpg",
-      "source": "CleanTechnica",
       "isLive": true
     },
     {
@@ -470,10 +682,29 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 44,
       "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
       "image": "/images/feed/feed-e19728160505.jpg",
       "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-01fd99a3e292",
+      "title": "An introduction to uncertainty in machine learning",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Machine Learning. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "chrhenning",
+      "date": "2026-11-26",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Machine Learning"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty/",
+      "image": "/images/feed/feed-01fd99a3e292.jpg",
+      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -489,29 +720,10 @@
         "Telescope"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 40,
       "url": "https://www.space.com/stargazing/skywatching-kit/dwarflab-dwarf-mini-smart-telescope-80-dollars-off-black-friday-deal-2026",
       "image": "/images/feed/feed-885d1be9e0de.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-8b654653a16e",
-      "title": "Roborock RockMow robot mowers up to $2,249 off at best prices, Yozma IN 10 Pro e-dirt bike exclusive new $1,519 low, more",
-      "excerpt": "The Amazon Black Friday Sale is still going for a while longer, and we’ve got a mix of new appearances with longer-running Green Deals, while the massive majority of savings you can jump on being in o…",
-      "body": "The Amazon Black Friday Sale is still going for a while longer, and we’ve got a mix of new appearances with longer-running Green Deals, while the massive majority of savings you can jump on being in our Thanksgiving Green Deals hub . First up, we spotted roborock’s latest RockMow Robot Lawn Mowers at up to $2,249 savings for their best prices to date. We also spotted the popular Yozma IN 10 Pro Electric Dirt Bike hitting an exclusively new $1,519 low with increased savings, as well as EGO’s 21-inch Cordless Select Cut and Touch Drive Mower Kit at $580 , the Govee Matter Outdoor Lamp Post at a new $125 low , and more down below. Head below for other New Green Deals we’ve found today and, of course, Electrek ’s best EV buying and leasing deals .",
-      "author": "Reinette LeJeune",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://electrek.co/2026/11/26/roborock-rockmow-robot-mowers-yozma-in-10-pro-electric-dirt-bike-more/",
-      "image": "/images/feed/feed-8b654653a16e.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -527,7 +739,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 45,
       "url": "https://www.space.com/entertainment/space-movies-shows/star-trek-iv-the-voyage-home-at-40-trek-has-never-been-as-joyous-or-fun-as-in-the-one-with-the-whales",
       "image": "/images/feed/feed-9ef0f637a825.jpg",
       "source": "Space.com",
@@ -546,7 +758,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 42,
+      "xpReward": 35,
       "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
       "image": "/images/feed/feed-b2ba7762f4f2.jpg",
       "source": "BleepingComputer",
@@ -565,7 +777,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 32,
       "url": "https://spacenews.com/the-bare-knuckled-future-of-life-in-space-with-tim-marshall/",
       "image": "/images/feed/feed-fb1846e56ad8.jpg",
       "source": "SpaceNews",
@@ -573,7 +785,7 @@
     },
     {
       "id": "feed-5e6da20d451a",
-      "title": "CTO of 'RansomwareHelp' Indicted for Wire Fraud",
+      "title": "CTO of 'RansomwareHelp' indicted for wire fraud",
       "excerpt": "",
       "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ransomware. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
       "author": "Bender",
@@ -584,29 +796,10 @@
         "Ransomware"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 32,
       "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
       "image": "/images/topics/topic-cybersecurity.png",
       "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-4a9826ac88a9",
-      "title": "Tesla deploys 29 mobile Supercharger stalls for Thanksgiving travel rush",
-      "excerpt": "Tesla has parked a fleet of mobile Supercharger stalls at some of its busiest stations in California and Arizona to handle the Thanksgiving travel crush. The company says 29 temporary stalls are live,…",
-      "body": "Tesla has parked a fleet of mobile Supercharger stalls at some of its busiest stations in California and Arizona to handle the Thanksgiving travel crush. The company says 29 temporary stalls are live, on top of 1,027 permanent stalls it opened in the US over the last 56 days. It’s the most organized holiday push we’ve seen from Tesla’s charging team. And it comes with on-site attendants to manage lines and a virtual waitlist now running at 300 sites. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://electrek.co/2026/11/26/tesla-deploys-mobile-superchargers-thanksgiving-travel/",
-      "image": "/images/feed/feed-4a9826ac88a9.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -629,178 +822,6 @@
       "isLive": true
     },
     {
-      "id": "feed-286bf29719f4",
-      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
-      "excerpt": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid…",
-      "body": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Lawrence Abrams",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 45,
-      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
-      "image": "/images/feed/feed-286bf29719f4.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-62bfe4c1e895",
-      "title": "Venus shines at its brightest in the predawn sky this week. Here's where to look",
-      "excerpt": "Venus reaches peak brightness in the predawn sky this week, here's how to find it.",
-      "body": "Venus is at its most dazzling in the predawn sky this week as it shines close to the bright star Spica in the southeast. Here's what you need to know. As an inner planet, Venus never strays far from the horizon, at least compared to outer planets like Jupiter and Mars which can be visible all night long during opposition, when they shine opposite the sun in Earth's sky. Instead, Venus alternates between morning and evening appearances. All the while, its shifting moon-like phases and ever-changing proximity to Earth causes its brightness to wax and wane. When is Venus at its most dazzling? Venus will reach peak brightness during its current morning apparition at 1:37 p.m. EST (1837 GMT) on Nov. 27 according to the astronomy website In-The-Sky . Stargazers in the U.S.",
-      "author": " Anthony Wood ",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://www.space.com/stargazing/venus-shines-at-its-brightest-in-the-predawn-sky-this-week-heres-where-to-look-nov-27-2026",
-      "image": "/images/feed/feed-62bfe4c1e895.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-ee25be781120",
-      "title": "Seabed Mining Has a Refinery Problem Worth Billions",
-      "excerpt": "The Metals Company wants to recover polymetallic nodules from the seabed and sell the nickel, copper, cobalt and manganese they contain. That business needs an industrial processing system before its…",
-      "body": "The Metals Company wants to recover polymetallic nodules from the seabed and sell the nickel, copper, cobalt and manganese they contain. That business needs an industrial processing system before its revenue projections become sales. TMC&#8217;s November 2026 update exposed the timing problem. Its proposed refinery complex in Brownsville, Texas, may ... [continued] The post Seabed Mining Has a Refinery Problem Worth Billions appeared first on CleanTechnica .",
-      "author": "Michael Barnard",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://cleantechnica.com/2026/11/26/seabed-mining-refinery-problem-billions/",
-      "image": "/images/feed/feed-ee25be781120.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-10c5e2adc2cb",
-      "title": "On this day in space! Nov. 26, 2011: NASA's 2-ton nuclear-powered Curiosity rover launches to Mars",
-      "excerpt": "On November 26, 2011, the NASA Curiosity rover launched to Mars. Here's why it mattered.",
-      "body": "On November 26, 2011, the NASA Curiosity rover launched to Mars. The Mars rover Curiosity was the biggest and most powerful rover anyone had ever sent to the Red Planet. The 2-ton science laboratory is about the size of a small SUV. The mission's goal was to search for habitable environments on Mars , or evidence that the planet could have been habitable in the past. It launched on an Atlas V rocket from Cape Canaveral Air Force Station in Florida. About nine months later, Curiosity made a challenging landing on Mars. It successfully used a new landing technology called a sky crane to gently lower it to the surface. NASA's Curiosity rover lifts off atop a United Launch Alliance Atlas V rocket on Nov. 26, 2011 from Florida's Cape Canaveral Air Force Station.",
-      "author": " Hanneke Weitering ",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Nasa",
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-26-2026",
-      "image": "/images/feed/feed-10c5e2adc2cb.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-532849264f0f",
-      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-      "excerpt": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]",
-      "body": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Malware. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Bill Toulas",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Malware"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
-      "image": "/images/feed/feed-532849264f0f.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-30a2f68c277b",
-      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-      "excerpt": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025…",
-      "body": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025. \"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Malware"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
-      "image": "/images/feed/feed-30a2f68c277b.jpg",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-9d678c2c0be6",
-      "title": "Plug-in Solar UL Certification for US Safety Regs — What UL 3700 Does & Doesn’t Say",
-      "excerpt": "Millions of renters, apartment residents, and condo owners can’t put solar on a roof they don’t control. Plug-in solar, also called balcony solar or plug-in PV, offers a workaround: one or more panels…",
-      "body": "Millions of renters, apartment residents, and condo owners can’t put solar on a roof they don’t control. Plug-in solar, also called balcony solar or plug-in PV, offers a workaround: one or more panels connected through a microinverter to an ordinary wall outlet, with no roof work and, in a growing ... [continued] The post Plug-in Solar UL Certification for US Safety Regs — What UL 3700 Does &#038; Doesn&#8217;t Say appeared first on CleanTechnica .",
-      "author": "Industry Sponsor",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://cleantechnica.com/2026/11/26/plug-in-solar-ul-certification-for-us-safety-regs-what-ul-3700-does-doesnt-say/",
-      "image": "/images/feed/feed-9d678c2c0be6.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-b5d00c1ca70d",
-      "title": "Denver man traps Waymo robotaxis with cones, eggs them at least 30 times",
-      "excerpt": "A man in Denver has found a cheap way to beat Waymo’s self-driving system: a few orange traffic cones and a carton of eggs. Waymo says it has counted at least 30 egg attacks on its robotaxis in Denver…",
-      "body": "A man in Denver has found a cheap way to beat Waymo’s self-driving system: a few orange traffic cones and a carton of eggs. Waymo says it has counted at least 30 egg attacks on its robotaxis in Denver, all believed to be the same man. And the Denver District Attorney’s Office has declined to file charges, calling it a civil matter, according to The New York Times . more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://electrek.co/2026/11/26/denver-man-cones-eggs-waymo-robotaxis/",
-      "image": "/images/feed/feed-b5d00c1ca70d.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-760b6595566f",
-      "title": "Thanksgiving 2026 Green Deals Hub: EVs, e-bikes, power stations, tools, appliances, more",
-      "excerpt": "Happy Thanksgiving everyone! As Amazon’s full-swing Black Friday Sale event continues, you can find a ton of amazing Green Deals during the holiday. We’re seeing a bunch of the best prices of the year…",
-      "body": "Happy Thanksgiving everyone! As Amazon’s full-swing Black Friday Sale event continues, you can find a ton of amazing Green Deals during the holiday. We’re seeing a bunch of the best prices of the year across EVs, e-bikes, power stations and whole-home backup systems, electric tools, and more. It’s the opportune time to cross items off your Christmas shopping list, with everything rounded up together in one place, which will continue through the upcoming Cyber Monday event in a few days. Head below to browse the lineup. more…",
-      "author": "Reinette LeJeune",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 46,
-      "url": "https://electrek.co/2026/11/26/thanksgiving-2026-green-deals-hub-evs-e-bikes-power-stations-tools-appliances-more/",
-      "image": "/images/feed/feed-760b6595566f.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
       "id": "feed-294694671f88",
       "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
       "excerpt": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way.",
@@ -813,7 +834,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 34,
       "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
       "image": "/images/feed/feed-294694671f88.jpg",
       "source": "Wired",
@@ -833,7 +854,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 34,
       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -852,7 +873,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 43,
       "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
       "source": "TechCrunch",
@@ -871,7 +892,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 53,
+      "xpReward": 36,
       "url": "https://www.zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows/",
       "image": "/images/feed/feed-ef26a9acb704.jpg",
       "source": "ZDNet",
@@ -890,7 +911,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 37,
       "url": "https://www.cnet.com/tech/services-and-software/meta-muse-and-chatgpt-dots-ai-agents-save-groceries/",
       "image": "/images/feed/feed-d7dba48375d6.png",
       "source": "CNET",
@@ -909,43 +930,24 @@
         "Ai"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 38,
       "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
       "image": "/images/feed/feed-c5eb6e0ca7f1.jpg",
       "source": "Wired",
       "isLive": true
-    },
-    {
-      "id": "feed-3d6e23b2e727",
-      "title": "New Gemini setting lets you keep chat history, but turn off AI training [U]",
-      "excerpt": "Google is rolling out new privacy settings for the Gemini app that will let you “keep your history while independently controlling generative AI model training.” more…",
-      "body": "Google is rolling out new privacy settings for the Gemini app that will let you “keep your history while independently controlling generative AI model training.” more — a development drawing significant attention in the artificial intelligence and machine learning space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "9to5Google",
-      "date": "2026-11-24",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gemini"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://9to5google.com/2026/11/24/gemini-history-ai-training/",
-      "image": "/images/feed/feed-3d6e23b2e727.jpg",
-      "source": "9to5Mac",
-      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Three public files that leak your app secrets: .env, .git and source maps (2-minute check)",
-    "DEV.TO: What a search API returns when the answer is a table, not a list",
-    "DEV.TO: BeeMind AI: Building an IoT prototype for smarter beehive monitoring in Saudi Arabia",
-    "DEV.TO: Runtime's Sandboxed Agent Infrastructure: Multi-Tenant Deployment Without Engineering Gatekeepers",
-    "DEV.TO: Delta Residue Attribution: Tracing Every Unneeded Edit in Agent-Generated Code Patches",
-    "DEV.TO: A Practical Pre-Day-1 Provisioning Routine for Remote Developers",
-    "DEV.TO: A GitHub Account Was the Deploy Key: Reading the 1Password Backend Breach",
-    "9TO5MAC: South Korea proceeds with case over allegedly misleading Apple Intelligence ads",
-    "ANDROID AUTHORITY: OnePlus reveals ColorOS 17 plans for native apps, paid AI features, and more",
-    "POLYGON: Star Trek: Voyager Officially Revisits the Series' Best Two-Parter in a Brand-New Way"
+    "DEV.TO: From Map Box to White Model: A Five-Tool Massing Pipeline",
+    "DEV.TO: PULSE BREAKER DX: Free BRICK Browser Game Built with Gemini & Canvas2D",
+    "DEV.TO: How to Scrape Twitter (X) with Go: Advanced Search Operators, Account Timelines, and a Cron Watcher (2026)",
+    "DEV.TO: How I Built a 93 KB Client-Side GIF89a & WebCodecs Studio Without COOP/COEP Headers",
+    "ANDROID AUTHORITY: We tested Samsung’s private Galaxy AI cloud on One UI 9.5 beta, and it made AI select smarter",
+    "DEV.TO: Cloudflare MoQ CDN: Scale Sub-Second Live Streams in 10 Minutes",
+    "DEV.TO: From Monitoring Alerts to IT Actions: A Practical Guide to Closing the Loop",
+    "DEV.TO: NFS2ROOT on CentOS 7: the stock kernel is affected and gets no fix",
+    "POLYGON: 10 Best Black Friday 2026 Book Deals For Sci-Fi and Fantasy Fans",
+    "ANDROID AUTHORITY: Got a MediaTek, Exynos, or Pixel device? Here are 11 tips for emulation"
   ],
   "sectionVideos": {}
 }
