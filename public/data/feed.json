@@ -1,50 +1,12 @@
 {
-  "fetchedAt": "2026-11-28T02:19:54.475Z",
+  "fetchedAt": "2026-11-28T11:02:13.562Z",
   "articles": [
     {
-      "id": "feed-cfd54b3813db",
-      "title": "Stripping the AI of Auto TP/SL: Designing 'Iron Laws' as Guardrails in Complex Trading Systems",
-      "excerpt": "Stripping the AI of Auto TP/SL: Designing 'Iron Laws' as Guardrails in Complex Trading Systems It was 1:00 AM during a routine log audit when a specific entry caught my eye. Amidst the usual stream of…",
-      "body": "Stripping the AI of Auto TP/SL: Designing 'Iron Laws' as Guardrails in Complex Trading Systems It was 1:00 AM during a routine log audit when a specific entry caught my eye. Amidst the usual stream of market data updates and scoring engine adjustments, a single line stood out: \"error\": \"Manual position (known manual) - skipped auto TP/SL per F-160 iron law\" At first glance, it was just another informational warning. But in the context of our automated trading infrastructure, this log entry represented a silent but crucial interception. It was the exact moment our system’s deterministic guardrails successfully overrode a probabilistic AI model, preventing what could have been a catastrophic systemic failure.",
-      "author": "Kestrel Quant",
-      "date": "2026-11-28",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Software"
-      ],
-      "featured": true,
-      "xpReward": 38,
-      "url": "https://dev.to/kestrelquant/stripping-the-ai-of-auto-tpsl-designing-iron-laws-as-guardrails-in-complex-trading-systems-35a7",
-      "image": "/images/feed/feed-cfd54b3813db.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-5ffe3bf7f122",
-      "title": "Anthropic Messages API Rust Rewrite Cuts CPU 70% — Dual-Track WASAPI Still Owns the Overlay Floor",
-      "excerpt": "On 25 November 2026 Anthropic published the engineering post on migrating the Messages API from Python to Rust. Traffic had grown roughly 1,800× since early 2024. Claude wrote a first version of the c…",
-      "body": "On 25 November 2026 Anthropic published the engineering post on migrating the Messages API from Python to Rust. Traffic had grown roughly 1,800× since early 2024. Claude wrote a first version of the core request path in about a week. The hard part was verification: shadowing live production traffic against the Python service, fixing divergences, and shipping without downtime. Result: ~70% less CPU per request, &gt;80% less memory, and ~20% lower median time-to-first-token on Claude Code requests. That is a clean infrastructure win. Lower CPU and memory per request means denser packing and less headroom pressure on the API tier. The TTFT improvement is real for agents that wait on a full model turn.",
-      "author": "devs",
-      "date": "2026-11-28",
-      "readTime": "2 min",
-      "section": "software",
-      "tags": [
-        "Api"
-      ],
-      "featured": true,
-      "xpReward": 52,
-      "url": "https://dev.to/madnessbrains_i/anthropic-messages-api-rust-rewrite-cuts-cpu-70-dual-track-wasapi-still-owns-the-overlay-floor-25p2",
-      "image": "/images/feed/feed-5ffe3bf7f122.webp",
-      "source": "Dev.to",
-      "isLive": true
-    },
-    {
-      "id": "feed-45bf6dc42dfd",
-      "title": "Convert PDF Formats for Downstream Processing with a Production Validation Checklist",
-      "excerpt": "Convert each PDF with an explicit target format, validate the resulting bytes, and only then release the derivative to downstream processing. Keep the PDF as the source of truth. For a media pipeline…",
-      "body": "Convert each PDF with an explicit target format, validate the resulting bytes, and only then release the derivative to downstream processing. Keep the PDF as the source of truth. For a media pipeline that merges press kits and splits them into channel-specific bundles, template ownership is the deciding constraint: conversion should derive assets, not quietly become the authority for editorial layout. TL;DR: choose the service boundary before the vendor. The conversion request must contain both the file and target format because there is no default. Reject a zero-byte result before it reaches extraction, indexing, or publication.",
-      "author": "EchoF76",
+      "id": "feed-a1e3ad4ac456",
+      "title": "CloudWatch OTel Enrichment: PromQL on AWS Metrics, and the Paid Default",
+      "excerpt": "If you have ever wanted to query EC2 or RDS metrics in PromQL without running your own Prometheus, this is the setting you need. It is free at the basic level. It is also very easy to switch on the wr…",
+      "body": "If you have ever wanted to query EC2 or RDS metrics in PromQL without running your own Prometheus, this is the setting you need. It is free at the basic level. It is also very easy to switch on the wrong level by accident, because the paid one is the default in the API. Everything below comes from the 27 November announcement and the CloudWatch user guide. I haven't run the commands. What enrichment does AWS services publish classic metrics to CloudWatch. Enrichment turns those into OpenTelemetry data points you can query with PromQL. It applies to metrics that carry a resource identifier dimension, for example EC2 CPUUtilization with an InstanceId .",
+      "author": "Damien Gallagher",
       "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
@@ -53,17 +15,17 @@
       ],
       "featured": true,
       "xpReward": 40,
-      "url": "https://dev.to/echof76/convert-pdf-formats-for-downstream-processing-with-a-production-validation-checklist-1123",
-      "image": "/images/feed/feed-45bf6dc42dfd.webp",
+      "url": "https://dev.to/damogallagher/cloudwatch-otel-enrichment-promql-on-aws-metrics-and-the-paid-default-3m09",
+      "image": "/images/feed/feed-a1e3ad4ac456.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-718ca13fc3e2",
-      "title": "Driving Android Phones Over ADB Without Screenshot Loops or Raw XML Dumps (turbo-android-mcp)",
-      "excerpt": "Running an AI agent against an Android phone over adb usually hits two bottlenecks on the first screen. A full 1080x2400 PNG capture via adb exec-out screencap -p takes around 1.5 seconds over USB and…",
-      "body": "Running an AI agent against an Android phone over adb usually hits two bottlenecks on the first screen. A full 1080x2400 PNG capture via adb exec-out screencap -p takes around 1.5 seconds over USB and costs roughly 1,800 vision tokens per step. Dumping the raw accessibility hierarchy via uiautomator dump avoids vision tokens, but a single Settings or messaging screen produces 35 KB to 80 KB of raw XML ( 10,000+ tokens) filled with layout wrappers, system bars, and decorative views. I published turbo-android-mcp v0.1.0 to npm ( npx -y turbo-android-mcp ), a zero-dependency Node.js MCP server that drives Android phones, tablets, and emulators over standard adb without device root.",
-      "author": "Trung Thanh Tran",
+      "id": "feed-392bd13386c6",
+      "title": "Neptune Graph Sessions: A Graph Per Agent That Scales to Zero",
+      "excerpt": "Most agent demos I see share one quiet assumption: the agent has a knowledge graph, and there is one of them. In practice you often want a graph per conversation, per user or per task. That is where a…",
+      "body": "Most agent demos I see share one quiet assumption: the agent has a knowledge graph, and there is one of them. In practice you often want a graph per conversation, per user or per task. That is where a provisioned graph gets expensive, because you pay for a minimum even when nothing is running. On 27 November AWS launched Neptune Graph Sessions, which is aimed squarely at that problem. This is based on the launch post and the Neptune pricing page. I haven't created one yet. What it is Graph Sessions is a compute mode for Neptune Analytics. Per the announcement, it scales memory and CPU automatically and scales to zero when idle. You pick a starting size of 4 or 8 s-NCU (sessions Neptune capacity units) when you create the graph. Two details matter: Headroom.",
+      "author": "Damien Gallagher",
       "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
@@ -71,18 +33,56 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 43,
-      "url": "https://dev.to/tthanh2k6/driving-android-phones-over-adb-without-screenshot-loops-or-raw-xml-dumps-turbo-android-mcp-3ap5",
-      "image": "/images/feed/feed-718ca13fc3e2.webp",
+      "xpReward": 37,
+      "url": "https://dev.to/damogallagher/neptune-graph-sessions-a-graph-per-agent-that-scales-to-zero-599g",
+      "image": "/images/feed/feed-392bd13386c6.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-b03d39eb5dfb",
-      "title": "HireSense is now on Up For Grabs — good first issues open",
-      "excerpt": "I built HireSense, a small AI recruitment helper: upload a resume, get AI feedback on how well it matches a job. React 19 + Vite on the client, Node + Express on the server, Gemini for the analysis. N…",
-      "body": "I built HireSense, a small AI recruitment helper: upload a resume, get AI feedback on how well it matches a job. React 19 + Vite on the client, Node + Express on the server, Gemini for the analysis. No database, no login, MIT licensed. HireSense is now listed on Up For Grabs, and there are 14 open issues on GitHub, several marked good first issue: removing dead config, adding test suites, reading config from the environment, validating uploads, rate-limiting the analysis endpoint, and more. Every issue has a written spec and acceptance criteria, and the contributing guide is in CONTRIBUTING.md. If you want a first open-source contribution, or you just like fixing real things, have a look: https://github.com/khizzcr7/HireSense Every PR is reviewed by me personally. Real work only.",
-      "author": "Muhammad Khizar",
+      "id": "feed-af611985e014",
+      "title": "12 Years Later, Hbo's Near-Perfect Vampire Series Still Has an Unwatchable Ending",
+      "excerpt": "Twelve years after HBO’s True Blood ended, we revisit why Bill’s death fell flat when the vampire series had already given Godric a perfect goodbye.",
+      "body": "My passion for HBO’s True Blood eventually led me to visit an alleged vampire’s grave in real life. I started watching the summer before my senior year of college in 2010, and by the time I visited Mercy Brown’s grave in Exeter, Rhode Island, I was into vampires enough to get college credit for it.",
+      "author": "Corey Plante",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": true,
+      "xpReward": 45,
+      "url": "https://www.polygon.com/true-blood-series-finale-look-back/",
+      "image": "/images/feed/feed-af611985e014.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-b3fd819c9ba3",
+      "title": "RDS for SQL Server Now Allows 500 Databases per Instance: What It Doesn't Say",
+      "excerpt": "RDS for SQL Server now supports up to 500 databases per instance, up from 100. If you run multi-tenant software with a database per customer, that is a real change to how many instances you need. It i…",
+      "body": "RDS for SQL Server now supports up to 500 databases per instance, up from 100. If you run multi-tenant software with a database per customer, that is a real change to how many instances you need. It is also a change that is easy to over-read, so here is what the announcement actually says. The limits, precisely The 500 limit applies to: instances with 4 or more vCPUs (xlarge and larger), excluding burstable classes all SQL Server versions RDS supports Single-AZ deployments of Enterprise, Enterprise Developer, Standard, Standard Developer and Web editions Multi-AZ deployments of Enterprise, Enterprise Developer (using Always On Availability Groups) and Web edition Not covered, and keeping their current limits: Multi-AZ using Database Mirroring, Multi-AZ on Standard Edition, and smaller inst…",
+      "author": "Damien Gallagher",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Database"
+      ],
+      "featured": true,
+      "xpReward": 32,
+      "url": "https://dev.to/damogallagher/rds-for-sql-server-now-allows-500-databases-per-instance-what-it-doesnt-say-403c",
+      "image": "/images/feed/feed-b3fd819c9ba3.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1b4f665f7485",
+      "title": "Device Farm Adds Emulators, Simulators and Device Connect: What to Check",
+      "excerpt": "AWS Device Farm added two things this week: Android emulators and iOS simulators alongside real devices, and Device Connect, which lets you use a remote Android device from your own machine. They solv…",
+      "body": "AWS Device Farm added two things this week: Android emulators and iOS simulators alongside real devices, and Device Connect, which lets you use a remote Android device from your own machine. They solve different problems, so I will take them one at a time. Everything here is from the launch posts, not from running it. Virtual devices: a cheaper first gate Until now, if you wanted emulators or simulators in your pipeline you ran them yourself, with Mac hosts for iOS, or you ran everything on real devices. Device Farm now offers both virtual and real devices through the same APIs, test environment, private endpoint access and test frameworks. To switch, you change only the device type.",
+      "author": "Damien Gallagher",
       "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
@@ -90,18 +90,18 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 47,
-      "url": "https://dev.to/khizzcr7/hiresense-is-now-on-up-for-grabs-good-first-issues-open-1dn4",
-      "image": "/images/feed/feed-b03d39eb5dfb.webp",
+      "xpReward": 49,
+      "url": "https://dev.to/damogallagher/device-farm-adds-emulators-simulators-and-device-connect-what-to-check-ci8",
+      "image": "/images/feed/feed-1b4f665f7485.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-74285361b061",
-      "title": "Day Three, Laptop Open, Puppy Awake",
-      "excerpt": "By lunch on day three, I had answered one email and cleaned up four puddles. Picture a kitchen table. Laptop open. Coffee going cold next to a roll of paper towels. A small pen in the corner by my fee…",
-      "body": "By lunch on day three, I had answered one email and cleaned up four puddles. Picture a kitchen table. Laptop open. Coffee going cold next to a roll of paper towels. A small pen in the corner by my feet. And a puppy who has just woken up from her nap. She stretches. She sniffs. She starts walking in slow little circles. You already know what the circling means. I didn't. Not yet. That morning I stood up from my chair maybe twenty times. Every time I sat back down, something happened. A whine. A chewed charger cord. A wet spot on the mat at the exact second my camera came on and six faces looked at me. I kept telling myself I was \"working and watching.\" The honest truth? I was doing both badly. That night I sat at the same table with a sheet of paper and two pens, one blue and one red.",
-      "author": "The Puppy Protocol",
+      "id": "feed-0d9e209c28f9",
+      "title": "CodeDeploy Can Now Suspend Auto Scaling Processes During Deployments",
+      "excerpt": "If you deploy in place to an Auto Scaling group with CodeDeploy, you have probably met this failure: the deployment is halfway through an instance, scale-in picks that same instance, and the whole thi…",
+      "body": "If you deploy in place to an Auto Scaling group with CodeDeploy, you have probably met this failure: the deployment is halfway through an instance, scale-in picks that same instance, and the whole thing falls over. The usual fix was a pair of scripts to suspend and resume processes around the deployment. CodeDeploy now does that for you. Here is what the feature does, how to turn it on, and the two things I would set up before relying on it. This is based on the launch post and the CodeDeploy user guide. I have not run it myself. What changed CodeDeploy can now suspend chosen EC2 Auto Scaling processes before an in-place deployment and resume them when the deployment succeeds, fails or is stopped.",
+      "author": "Damien Gallagher",
       "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
@@ -109,38 +109,132 @@
         "Software"
       ],
       "featured": true,
-      "xpReward": 42,
-      "url": "https://dev.to/puppyprotocol/day-three-laptop-open-puppy-awake-hbe",
-      "image": "/images/feed/feed-74285361b061.webp",
+      "xpReward": 44,
+      "url": "https://dev.to/damogallagher/codedeploy-can-now-suspend-auto-scaling-processes-during-deployments-4ldj",
+      "image": "/images/feed/feed-0d9e209c28f9.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-7caa89b03084",
-      "title": "Open Source Chrome Extension Launch: A GitHub Checklist",
-      "excerpt": "Originally published on ExtensionLaunch. An open source Chrome extension earns trust before anyone clicks \"Add to Chrome\", because people can read exactly what it does with their tabs, pages or data.…",
-      "body": "Originally published on ExtensionLaunch . An open source Chrome extension earns trust before anyone clicks \"Add to Chrome\", because people can read exactly what it does with their tabs, pages or data. But a public repo is a trust signal and a way to attract contributors. It is not a distribution channel. Here is a compact checklist for setting up the repo so it supports your launch instead of distracting from it. Do these before the first public commit Some mistakes are painful to undo once the code is public, so handle them first: Clean the entire Git history, not just HEAD. Old commits with API keys, OAuth client secrets or analytics tokens become public the moment you push. GitHub's push protection is on by default for public repos, but it only catches the secret types it knows about.",
-      "author": "ExtensionBooster",
+      "id": "feed-a6a23cef999a",
+      "title": "Podlite 3.0: a markup specification with tests next to its rules",
+      "excerpt": "Podlite 3.0 is out. Its specification now places tests beside the rules they check, and each test states what a parser must find or must not find. The tests are written in Podlite itself, so the same…",
+      "body": "Podlite 3.0 is out. Its specification now places tests beside the rules they check, and each test states what a parser must find or must not find. The tests are written in Podlite itself, so the same blocks can check other files too. For example, \"every invoice has a :number attribute\" becomes one assertion: =for assert :absent Invoice[ :!?number ] Put it in a =test block and run podlite test invoice-checks.podlite --against invoices.podlite : in this run the tool reports the invoice missing :number at invoices.podlite:4 and exits with status 1.",
+      "author": "Alexandr Zahatski",
       "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Open Source",
-        "Github"
+        "Software"
       ],
       "featured": false,
-      "xpReward": 38,
-      "url": "https://dev.to/extensionbooster/open-source-chrome-extension-launch-a-github-checklist-190",
-      "image": "/images/feed/feed-7caa89b03084.webp",
+      "xpReward": 48,
+      "url": "https://dev.to/zag/podlite-30-a-markup-specification-with-tests-next-to-its-rules-p62",
+      "image": "/images/feed/feed-a6a23cef999a.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-a646a2bb2298",
-      "title": "63 Years Later, CBS's Legendary 70-Episode Series Still Has the Only Vampire Worth Watching",
-      "excerpt": "The 1964 sitcom The Munsters is still a comey classic, with Grandpa Munster as its funniest character. Here are the five best epsiodes.",
-      "body": "It’s Fangsgiving here at Polygon, our Thanksgiving celebration of stories about fanged creatures of all types and especially vampires . I didn't want to be left out, but, to be honest, I always thought vampires were kind of dumb. They're a horror movie staple, but they’re rarely all that scary. There’s usually a romantic element to their stories that I also find tiresome . Perhaps I’ve just never seen the right vampire movies, but overall I find vampires to be pretty lame.",
-      "author": "Brian VanHooker",
+      "id": "feed-4a5c9016f0e2",
+      "title": "How the Allies Used Tank Serial Numbers to Estimate Production",
+      "excerpt": "How the Allies Used Tank Serial Numbers to Estimate Production Allied intelligence during World War II overestimated German tank production severalfold. Starting in 1943, analysts in the Economic Warf…",
+      "body": "How the Allies Used Tank Serial Numbers to Estimate Production Allied intelligence during World War II overestimated German tank production severalfold. Starting in 1943, analysts in the Economic Warfare Division of the American Embassy in London instead inferred production from serial numbers on captured equipment: according to their 1947 account, the serial-number estimate of monthly tank production for August 1942 was 327, postwar German records showed 342, and the contemporary intelligence consensus was 1550. This type of problem—inferring a total from serial numbers—later became known as the German tank problem. The Panther Ausf. G tank in Grandmenil, Manhay, Belgium, was knocked out on December 26, 1944, during the Battle of the Bulge and is now a memorial to the battle.",
+      "author": "Isaac Land",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Software"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://dev.to/landisaac1/how-the-allies-used-tank-serial-numbers-to-estimate-production-269d",
+      "image": "/images/feed/feed-4a5c9016f0e2.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-1931b94ee6d0",
+      "title": "Alan Ritchson's Reacher Officially Hits Major Milestone Ahead of Season 5",
+      "excerpt": "Alan Ritchson, as Jack Reacher, is dominating the Prime streaming charts ahead of the fifth season of Reacher.",
+      "body": "Alan Ritchson has had a busy year. Between seasons of Prime Video's Reacher , he's taken starring roles in numerous film and TV projects , including Netflix's sci-fi thriller War Machine and the action comedy Runner. But of course, his best-known role is the wandering renegade Jack Reacher, and the role has earned him praise from Amazon and MGM Studios' top executives . In a 2024 interview, Jennifer Salke, head of Amazon and MGM Studios, told The Hollywood Reporter , “ We’ll have Alan as long as he will play Jack Reacher. No end in sight for that, hopefully that’s for a very, very, very long time.”",
+      "author": "Ashley Potter",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 49,
+      "url": "https://www.polygon.com/alan-ritchson-reacher-prime-streaming-milestone/",
+      "image": "/images/feed/feed-1931b94ee6d0.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-7591d30e557e",
+      "title": "30 Years Later, Star Trek's Greatest 'Next Generation' Movie Is Officially Free to Stream",
+      "excerpt": "Star Trek: First Contact is streaming free on Pluto TV. Here's why the 30-year-old adventure remains the best Next Generation movie.",
+      "body": "Turning a successful television series into a movie isn't as easy as just giving the cast a bigger budget and adding in more explosions. What works on the small screen doesn't always translate to theaters, especially when filmmakers lose sight of what made audiences fall in love with the characters in the first place. Fortunately, Star Trek : First Contact understood that bigger could be better, provided the spectacle didn't come at the expense of the characters.",
+      "author": "Terry Terrones",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://www.polygon.com/star-trek-first-contact-best-next-generation-movie/",
+      "image": "/images/feed/feed-7591d30e557e.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-cd76919530f7",
+      "title": "The 14 Best Tech Gifts We Recommend for 2026 and Beyond",
+      "excerpt": "Top (unranked) picks from our staff.",
+      "body": "Finding the perfect gift for someone who only likes tech stuff can be a challenge. Partially because great tech gifts tend to be inherently expensive. If you&#39;re buying something for a tech-savvy person this year, it has the potential to be the only gift that truly gets them excited while also blowing a massive hole in your budget. There are exceptions to this, of course. Plenty of high-quality tech and gaming accessories are surprisingly affordable and practical. If you&#39;re looking for ideas of what to get the tech nerd in your life for Christmas, we&#39;ve rounded up some of our favorite items, in no particular order, to help you get started.",
+      "author": "Jacob Kienlen",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.ign.com/articles/best-tech-gifts-2026",
+      "image": "/images/feed/feed-cd76919530f7.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-3d22d54b4919",
+      "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM",
+      "excerpt": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
+      "body": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Simon Hill",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 53,
+      "url": "https://www.wired.com/story/best-black-friday-deals-11-28-2026/",
+      "image": "/images/feed/feed-3d22d54b4919.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-9d910c324296",
+      "title": "8 Sci-Fi Books That Get Even Better the Second Time You Read Them",
+      "excerpt": "Eight unforgettable sci-fi books packed with hidden clues and twists worth reading more than once.",
+      "body": "Science fiction is a genre built on far-out ideas, strange new worlds, and scientific possibilities that can fundamentally change how we understand our own. Some of the most unforgettable sci-fi novels offer just as much intrigue on a second reading as they do on the first. Whether it's a carefully constructed mystery, an intricate timeline, or a seemingly insignificant detail that takes on entirely new meaning once you know the ending, such books reward readers willing to go back for another speculative look.",
+      "author": "Ryan Epps",
       "date": "2026-11-28",
       "readTime": "2 min",
       "section": "gaming",
@@ -149,28 +243,162 @@
       ],
       "featured": false,
       "xpReward": 48,
-      "url": "https://www.polygon.com/the-only-vampire-i-care-about-is-grandpa-munster/",
-      "image": "/images/feed/feed-a646a2bb2298.jpg",
+      "url": "https://www.polygon.com/sci-fi-books-better-second-time/",
+      "image": "/images/feed/feed-9d910c324296.jpg",
       "source": "Polygon",
       "isLive": true
     },
     {
-      "id": "feed-bb1432725f51",
-      "title": "I found a DualSense deal that knocks 28% off this wireless PlayStation controller",
-      "excerpt": "The basic white variant is down to a record-low $54 for Black Friday, with plenty of other colors also on sale.",
-      "body": "The basic white variant is down to a record-low $54 for Black Friday, with plenty of other colors also on sale.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Playstation. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Max McHone",
+      "id": "feed-9a5fbf20bc00",
+      "title": "20 Best Black Friday Headphone Deals (2026): Up to 57% Off",
+      "excerpt": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.",
+      "body": "Get up to 57 percent off some of my favorite headphones and earbuds from Apple, Sony, Nothing, and more.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Harry Rabinowitz",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 31,
+      "url": "https://www.wired.com/story/black-friday-headphone-deals-11-28-26/",
+      "image": "/images/feed/feed-9a5fbf20bc00.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-923c8f858636",
+      "title": "I Found the Best Black Friday Deals on Phones (2026): iPhone, Pixel, and Moto Up to 50% Off",
+      "excerpt": "If you're due for an upgrade, you need to check out these tempting Black Friday phone deals.",
+      "body": "If you're due for an upgrade, you need to check out these tempting Black Friday phone deals.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Simon Hill",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Iphone"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.wired.com/story/best-black-friday-phone-deals-11-28-26/",
+      "image": "/images/feed/feed-923c8f858636.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-2642cf487246",
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "excerpt": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCl…",
+      "body": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cyber Attack"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "image": "/images/feed/feed-2642cf487246.jpg",
+      "source": "The Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-7e5160205971",
+      "title": "Corsair Discount Code: Up to 50% Off for November 2026",
+      "excerpt": "Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.",
+      "body": "Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Luke Larsen",
       "date": "2026-11-28",
       "readTime": "2 min",
       "section": "gaming",
       "tags": [
-        "Playstation"
+        "Gaming"
       ],
       "featured": false,
-      "xpReward": 37,
-      "url": "https://www.zdnet.com/home-and-office/playstation-5-dualsense-controller-black-friday-deal/",
-      "image": "/images/feed/feed-bb1432725f51.jpg",
-      "source": "ZDNet",
+      "xpReward": 42,
+      "url": "https://www.wired.com/story/corsair-coupon/",
+      "image": "/images/feed/feed-7e5160205971.png",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-2c1fc5831259",
+      "title": "5 Unnecessary Nintendo Switch 2 Accessories to Buy Yourself Before Black Friday Ends",
+      "excerpt": "Warning: You may not need these items, but you'll probably end up wanting them.",
+      "body": "Nintendo has been having some of the best Black Friday video game deals this year. Walmart was even dropping $30 first-party Switch 2 game deals at one point, and there&#39;s plenty of other discounts worth checking out if you haven&#39;t already. But if you already have a Switch 2 and plenty of games, what good are these discounts to you? If you&#39;ve had your console since day one, you may be looking to add some extra accessories to your collection instead. I&#39;m not talking about necessary accessories like controllers and gaming headsets , though. I&#39;m talking about the stuff that you don&#39;t actually need to enjoy your gaming experience. I&#39;m here to shine a light on the accessories that are truly extra in all the best ways.",
+      "author": "Jacob Kienlen",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Nintendo Switch",
+        "Nintendo"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.ign.com/articles/unnecessary-nintendo-switch-2-accessory-deals-black-friday-2026",
+      "image": "/images/feed/feed-2c1fc5831259.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-9957219fda5c",
+      "title": "APOD: 2026 November 28 – Apollo 17 VIP Site Anaglyph",
+      "excerpt": "APOD Science APOD APOD: 2026 November 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a differe…",
+      "body": "APOD Science APOD APOD: 2026 November 28 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Apollo 17 VIP Site Anaglyph Explanation: Get out your red/blue glasses and check out this stereo scene from Taurus-Littrow valley on the Moon! The color anaglyph features a detailed 3D view of Apollo 17’s Lunar Rover in the foreground. Behind it lies the Lunar Module and distant lunar hills. Because the world was going to be able to watch the Lunar Module’s ascent stage liftoff via the rover’s TV camera, this parking place was also known as the VIP Site.",
+      "author": "NASA Breaking News",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://science.nasa.gov/image-article/apod-2026-november-28-apollo-17-vip-site-anaglyph/",
+      "image": "/images/feed/feed-9957219fda5c.jpg",
+      "source": "NASA Breaking News",
+      "isLive": true
+    },
+    {
+      "id": "feed-d9da6be2184e",
+      "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+      "excerpt": "The M5-powered MacBook Air is $300 off in both size configurations for Black Friday. | Photo: Antonio G. Di Benedetto / The Verge If you’ve been holding off on buying a new MacBook Air since Apple rai…",
+      "body": "The M5-powered MacBook Air is $300 off in both size configurations for Black Friday. | Photo: Antonio G. Di Benedetto / The Verge If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June , you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest price we’ve seen since the hike. If you want a larger display, Amazon and Best Buy are also taking $300 off the otherwise identical 15-inch model with 16GB of RAM and 512GB of storage, dropping it to $1,199.",
+      "author": "Sheena Vasani",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Macbook"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "image": "/images/feed/feed-d9da6be2184e.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-f117c8d8070f",
+      "title": "Product(RED) HomePod mini 2 seemingly surfaces ahead of rumored announcement [U]",
+      "excerpt": "Earlier this week, Bloomberg reported that Apple was gearing up to launch Product(RED) versions of select products, including the HomePod mini 2. However, a retail store may have inadvertently put the…",
+      "body": "Earlier this week, Bloomberg reported that Apple was gearing up to launch Product(RED) versions of select products, including the HomePod mini 2. However, a retail store may have inadvertently put the new model on display ahead of its official announcement. Here are the details. more…",
+      "author": "Marcus Mendes",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://9to5mac.com/2026/11/27/productred-homepod-mini-2-seemingly-surfaces-ahead-of-rumored-announcement/",
+      "image": "/images/feed/feed-f117c8d8070f.jpg",
+      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -187,29 +415,10 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 46,
       "url": "https://electrek.co/2026/11/27/ionnas-got-a-50-discount-off-ev-charging-over-thanksgiving-weekend/",
       "image": "/images/feed/feed-469488f683ac.jpg",
       "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-4850c2dbdb87",
-      "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM",
-      "excerpt": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
-      "body": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Simon Hill",
-      "date": "2026-11-28",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/",
-      "image": "/images/feed/feed-4850c2dbdb87.jpg",
-      "source": "Wired",
       "isLive": true
     },
     {
@@ -225,29 +434,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 42,
       "url": "https://9to5toys.com/2026/11/27/we-buying-amazon-black-friday-deals/",
       "image": "/images/feed/feed-c1cc6597ee58.jpg",
       "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-29ceb35e7e38",
-      "title": "Don't Miss the Best Prebuilt Gaming PC Deals for Black Friday Featuring Nvidia GeForce and AMD Radeon GPUs",
-      "excerpt": "From RTX 5060 to RTX 5080, the sales are coming in, but also selling out quickly.",
-      "body": "Black Friday sales have officially gone live at Amazon, Walmart, and Best Buy. Despite the fact that PC prices are trending in the wrong direction recently, there are plenty of solid Black Friday deals to be found to help alleviate the financial sting of your next PC upgrade. I&#39;ve rounded up the best deals from the major retailers below and I will continue to update this list with more discounted configurations as they go live through Black Friday and Cyber Monday. The Best Black Friday Gaming PC Deals So Far With the price of GPUs and RAM at an all-time high, it&#39;s not a surprise that deals on Lenovo gaming PCs are extremely hard to come by. In fact, the last time I posted a deal on a Legion gaming PC was back in July .",
-      "author": "Eric Song",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 32,
-      "url": "https://www.ign.com/articles/best-black-friday-prebuilt-gaming-pc-deals-black-friday-sale-2026",
-      "image": "/images/feed/feed-29ceb35e7e38.jpg",
-      "source": "IGN",
       "isLive": true
     },
     {
@@ -263,105 +453,10 @@
         "Gadgets"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 53,
       "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
       "image": "/images/feed/feed-f8e8d69c92e9.jpg",
       "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-ff65b12f3778",
-      "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
-      "excerpt": "The fan-favorite folding design returns with the comfortable, slightly improved XM4C headphones. | Photo: John Higgins / The Verge Instead of purely looking forward with its headphone designs, Sony we…",
-      "body": "The fan-favorite folding design returns with the comfortable, slightly improved XM4C headphones. | Photo: John Higgins / The Verge Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4C, sounds nearly as good as the pricier XM6 model (currently $348), but is down to $198 during Black Friday at Amazon , Best Buy , and Walmart . That’s $100 off their October launch price. Sony WH-1000XM4C Where to Buy: $299.99 $198 at Amazon $299.99 $198 at Walmart $299.99 $199.99 at Best Buy There’s a reason why Sony went back to refine the XM4.",
-      "author": "Cameron Faulkner",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Headphones"
-      ],
-      "featured": false,
-      "xpReward": 47,
-      "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
-      "image": "/images/feed/feed-ff65b12f3778.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-20f9c73c9679",
-      "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
-      "excerpt": "Yooka-Laylee and the Impossible Lair: Definitive Edition | Image: Playtronic Games Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update…",
-      "body": "Yooka-Laylee and the Impossible Lair: Definitive Edition | Image: Playtronic Games Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners, the developer says it \"can't commit to any additional platforms for the foreseeable future.\" In a statement posted on X , Playtronic said that it understands the frustration some players may feel, but that bringing the Definitive Edition to Xbox just isn't viable \"given the technological challenges and costs,\" and reminded people that they're a small team. Hi everyone, please read the following regarding the situation for Yooka-Laylee and the … Read the full story at The Verge.",
-      "author": "Terrence O’Brien",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Xbox"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
-      "image": "/images/feed/feed-20f9c73c9679.jpg",
-      "source": "The Verge",
-      "isLive": true
-    },
-    {
-      "id": "feed-6a3c70ea0a6d",
-      "title": "The Best Black Friday Gaming Deals I’ve Found (2026)",
-      "excerpt": "Headsets, keyboards, and video games are all on sale. Here’s what we’ve found so far.",
-      "body": "Headsets, keyboards, and video games are all on sale. Here’s what we’ve found so far.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Louryn Strampe",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 48,
-      "url": "https://www.wired.com/story/black-friday-gaming-deals-11-27-2026/",
-      "image": "/images/feed/feed-6a3c70ea0a6d.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-168673a01490",
-      "title": "Apple Stays Winning as Smartphone Sales Continue to Slump",
-      "excerpt": "Memory prices continue to be a problem, especially for cheaper phone sales.",
-      "body": "Memory prices continue to be a problem, especially for cheaper phone sales.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Smartphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Omar Gallaga",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Smartphone"
-      ],
-      "featured": false,
-      "xpReward": 34,
-      "url": "https://www.cnet.com/tech/mobile/apple-wins-smartphone-sales-slump/",
-      "image": "https://www.cnet.com/wp-content/uploads/sites/2/iPhone-Air-with-Samsung-Galaxy-Z-Fold-8-and-Pixel-11-Pro-Fold.jpeg",
-      "source": "CNET",
-      "isLive": true
-    },
-    {
-      "id": "feed-5e38879423d0",
-      "title": "5 ways to make sure your console isn't holding back your GTA 6 performance",
-      "excerpt": "GTA 6 pulled a lot of tricks to run on current consoles, so you should make sure you're getting the best performance available.",
-      "body": "GTA 6 pulled a lot of tricks to run on current consoles, so you should make sure you're getting the best performance available.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "staff@engadget.com (Luke James)",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.engadget.com/2329878/gta-6-performance-ways-make-sure-console-not-holding-back/",
-      "image": "/images/feed/feed-5e38879423d0.jpg",
-      "source": "Engadget",
       "isLive": true
     },
     {
@@ -377,67 +472,10 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 45,
       "url": "https://cleantechnica.com/2026/11/27/why-european-households-are-rushing-to-buy-solar-panels-ahead-of-a-dark-cold-winter/",
       "image": "/images/feed/feed-b69eb1e10181.png",
       "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-185ebefb1dbe",
-      "title": "Jenga: Super Mario Edition Is 43% Off for Black Friday",
-      "excerpt": "Jenga: Super Mario Edition Is 43% Off for Black Friday",
-      "body": "There are so many great Mario games to check out on the Nintendo Switch . If you&#39;re like me and you&#39;ve beaten almost every Mario game out there, the next step is to look to other Mario experiences. ( The Super Mario Galaxy Movie is a fun time, too, for instance.) One of the best Black Friday deals happens to be Mario-themed, in fact, as the Jenga: Super Mario Edition is on sale for under $13, or 43% off its usual price. This fun Mushroom Kingdom-inspired board game can really shake up your next game night, so don&#39;t miss it. Jenga: Super Mario Edition for $12.49 This Super Mario version is like regular Jenga, but with a fun set of Super Mario-themed twists. For one, its blocks are modeled after those in Mario games.",
-      "author": "Noah Hunter",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 40,
-      "url": "https://www.ign.com/articles/jenga-super-mario-edition-deal-black-friday-2026",
-      "image": "/images/feed/feed-185ebefb1dbe.png",
-      "source": "IGN",
-      "isLive": true
-    },
-    {
-      "id": "feed-a62cf5252bbd",
-      "title": "It’s Officially the End of an Era for HBO’s The Last of Us",
-      "excerpt": "HBO's The Last of Us, based on the Naughty Dog PlayStation game, is ending in 2027 with season 3, as showrunner moves on to Baldur's Gate.",
-      "body": "It's officially the end of the road for The Last of Us at HBO. While the upcoming third season was already set to conclude the show's adaptation of the second game in Naughty Dog's acclaimed PlayStation series, there was some hope it could continue on after. Those hopes have now been squashed by HBO's boss.",
-      "author": "Willa Rowe",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 44,
-      "url": "https://www.polygon.com/the-last-of-us-season-3-end-finale-hbo-2027/",
-      "image": "/images/feed/feed-a62cf5252bbd.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-76dd43c9d7d2",
-      "title": "WhatsApp announces travel eSIMs, tests view-once texts and a cleaner interface",
-      "excerpt": "In addition to officially announcing support for in-app travel eSIM purchases, WhatsApp is now reportedly testing two new features on iOS. Here are the details. more…",
-      "body": "In addition to officially announcing support for in-app travel eSIM purchases, WhatsApp is now reportedly testing two new features on iOS. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Marcus Mendes",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://9to5mac.com/2026/11/27/whatsapp-announces-travel-esims-tests-view-once-texts-and-a-cleaner-interface/",
-      "image": "/images/feed/feed-76dd43c9d7d2.jpg",
-      "source": "9to5Mac",
       "isLive": true
     },
     {
@@ -453,7 +491,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 33,
       "url": "https://cleantechnica.com/2026/11/27/monta-joins-chargehubs-passport-hub-north-americas-leading-ev-roaming-platform/",
       "image": "/images/feed/feed-7c5f68d94812.png",
       "source": "CleanTechnica",
@@ -473,7 +511,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 30,
       "url": "https://cleantechnica.com/2026/11/27/gridserve-secures-420-million-financing-to-strengthen-leadership-position-in-ev-charging-support-next-phase-of-growth/",
       "image": "/images/feed/feed-f25372d4ce03.png",
       "source": "CleanTechnica",
@@ -492,7 +530,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 38,
       "url": "https://cleantechnica.com/2026/11/27/loblaw-hydrogen-truck-rockies-mobile-fuel/",
       "image": "/images/feed/feed-17c8553079c1.png",
       "source": "CleanTechnica",
@@ -512,7 +550,7 @@
         "Ev"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 38,
       "url": "https://electrek.co/2026/11/27/podcast-tesla-fsd-v15-volvo-xc60-90-phevs-porsche-boxster-ev-and-more/",
       "image": "/images/feed/feed-bf7d3215778e.jpg",
       "source": "Electrek",
@@ -531,7 +569,7 @@
         "Cars"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 39,
       "url": "https://electrek.co/2026/11/27/volvo-a40-electric-articulated-haul-trucks-get-to-work-in-the-uk/",
       "image": "/images/feed/feed-bb3e75bf3f93.jpg",
       "source": "Electrek",
@@ -550,7 +588,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 45,
       "url": "https://www.space.com/entertainment/space-toys-lego/love-star-wars-andy-weir-or-ryan-gosling-these-lego-star-wars-and-project-hail-mary-sets-are-my-favorites",
       "image": "/images/feed/feed-837070bf7866.jpg",
       "source": "Space.com",
@@ -569,7 +607,7 @@
         "Spacex"
       ],
       "featured": false,
-      "xpReward": 54,
+      "xpReward": 52,
       "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
       "image": "/images/feed/feed-56e5ae3f8bac.jpg",
       "source": "Hacker News",
@@ -588,7 +626,7 @@
         "Neural"
       ],
       "featured": false,
-      "xpReward": 35,
+      "xpReward": 51,
       "url": "https://neuralnetworksanddeeplearning.com/",
       "image": "/images/topics/topic-ai-ml.png",
       "source": "Hacker News",
@@ -607,7 +645,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 35,
       "url": "https://www.space.com/stargazing/astrophotography/the-lowest-price-ever-on-the-canon-eos-r6-ii-tops-some-of-the-best-black-friday-camera-deals-weve-seen-today",
       "image": "/images/feed/feed-a1e5859919d1.jpg",
       "source": "Space.com",
@@ -626,7 +664,7 @@
         "Cybersecurity"
       ],
       "featured": false,
-      "xpReward": 37,
+      "xpReward": 30,
       "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
       "image": "/images/feed/feed-7d1dde138b52.jpg",
       "source": "BleepingComputer",
@@ -645,7 +683,7 @@
         "Orbit"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 36,
       "url": "https://www.space.com/technology/dropping-missiles-from-orbit-2-european-companies-sign-agreement-to-study-the-idea",
       "image": "/images/feed/feed-db89edc81aa5.jpg",
       "source": "Space.com",
@@ -665,7 +703,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 52,
       "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
       "image": "/images/feed/feed-c45d6dda9f12.jpg",
       "source": "BleepingComputer",
@@ -684,7 +722,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 32,
       "url": "https://www.space.com/stargazing/skywatching-kit/i-captured-images-of-my-first-ever-solar-eclipse-with-the-unistellar-equinox-2-now-20-percent-off-for-black-friday",
       "image": "/images/feed/feed-0fe472ea423d.jpg",
       "source": "Space.com",
@@ -703,7 +741,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 46,
+      "xpReward": 31,
       "url": "https://www.space.com/entertainment/space-movies-shows/foundation-is-a-must-watch-and-this-black-friday-you-can-stream-it-and-other-apple-tv-sci-fi-shows-for-half-price",
       "image": "/images/feed/feed-934ae85bdbe0.jpg",
       "source": "Space.com",
@@ -722,29 +760,10 @@
         "Zero-day"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 31,
       "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
       "image": "/images/feed/feed-35001d51f559.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-e216e694da69",
-      "title": "Who turned the W upside down? Why Cassiopeia won't sit still",
-      "excerpt": "The queen in the northern night sky is supposedly one of the easiest constellations to recognize — you just look for a W. Or is that an M?",
-      "body": "Some constellations are like old friends. You know them well, they're always there, and they never seem to change. A case in point is Cassiopeia, the queen. Its beautiful name comes from Greek mythology — the mother of Andromeda — and its shape is said to represent a queen sitting on a throne. To a stargazer, Cassiopeia is best known as a prominent northern constellation shaped like the letter W. It's easy to find — look north, find five reasonably bright stars making a W, congratulate yourself on finding Cassiopeia and use it to get somewhere more interesting. It's so often a signpost, not a destination. But look north a few hours after dark this month, and you'll notice the W has gone.",
-      "author": " Jamie Carter ",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://www.space.com/stargazing/who-turned-the-w-upside-down-why-cassiopeia-wont-sit-still",
-      "image": "/images/feed/feed-e216e694da69.jpg",
-      "source": "Space.com",
       "isLive": true
     },
     {
@@ -760,7 +779,7 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 49,
       "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
       "image": "/images/feed/feed-d64780eb0377.jpg",
       "source": "The Hacker News",
@@ -779,7 +798,7 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 47,
       "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
       "image": "/images/feed/feed-eb2f06f2c812.jpg",
       "source": "BleepingComputer",
@@ -798,28 +817,9 @@
         "Firewall"
       ],
       "featured": false,
-      "xpReward": 36,
+      "xpReward": 35,
       "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
       "image": "/images/feed/feed-e471e04f5041.jpg",
-      "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-05fd220bbffe",
-      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
-      "excerpt": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, ident…",
-      "body": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, ident — a development drawing significant attention in the cybersecurity and digital privacy space.\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Malware. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "BleepingComputer",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Malware"
-      ],
-      "featured": false,
-      "xpReward": 38,
-      "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
-      "image": "/images/feed/feed-05fd220bbffe.jpg",
       "source": "BleepingComputer",
       "isLive": true
     },
@@ -837,7 +837,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 30,
       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -856,7 +856,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 43,
+      "xpReward": 50,
       "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
       "source": "TechCrunch",
@@ -875,7 +875,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 49,
       "url": "https://www.zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows/",
       "image": "/images/feed/feed-ef26a9acb704.jpg",
       "source": "ZDNet",
@@ -894,7 +894,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 32,
       "url": "https://www.cnet.com/tech/services-and-software/meta-muse-and-chatgpt-dots-ai-agents-save-groceries/",
       "image": "/images/feed/feed-d7dba48375d6.png",
       "source": "CNET",
@@ -913,7 +913,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 48,
+      "xpReward": 40,
       "url": "https://9to5google.com/2026/11/24/gemini-history-ai-training/",
       "image": "/images/feed/feed-3d6e23b2e727.jpg",
       "source": "9to5Mac",
@@ -932,7 +932,7 @@
         "Gemini"
       ],
       "featured": false,
-      "xpReward": 45,
+      "xpReward": 33,
       "url": "https://www.zdnet.com/innovation/gemini-wallet-personal-intelligence/",
       "image": "/images/feed/feed-42ff55b30476.jpg",
       "source": "ZDNet",
@@ -940,16 +940,16 @@
     }
   ],
   "breakingNews": [
-    "DEV.TO: Stripping the AI of Auto TP/SL: Designing 'Iron Laws' as Guardrails in Complex Trading Systems",
-    "DEV.TO: Anthropic Messages API Rust Rewrite Cuts CPU 70% — Dual-Track WASAPI Still Owns the Overlay Floor",
-    "DEV.TO: Convert PDF Formats for Downstream Processing with a Production Validation Checklist",
-    "DEV.TO: Driving Android Phones Over ADB Without Screenshot Loops or Raw XML Dumps (turbo-android-mcp)",
-    "DEV.TO: HireSense is now on Up For Grabs — good first issues open",
-    "DEV.TO: Day Three, Laptop Open, Puppy Awake",
-    "DEV.TO: Open Source Chrome Extension Launch: A GitHub Checklist",
-    "POLYGON: 63 Years Later, CBS's Legendary 70-Episode Series Still Has the Only Vampire Worth Watching",
-    "ZDNET: I found a DualSense deal that knocks 28% off this wireless PlayStation controller",
-    "ELECTREK: IONNA’s got a 50% discount off EV charging over Thanksgiving weekend"
+    "DEV.TO: CloudWatch OTel Enrichment: PromQL on AWS Metrics, and the Paid Default",
+    "DEV.TO: Neptune Graph Sessions: A Graph Per Agent That Scales to Zero",
+    "POLYGON: 12 Years Later, Hbo's Near-Perfect Vampire Series Still Has an Unwatchable Ending",
+    "DEV.TO: RDS for SQL Server Now Allows 500 Databases per Instance: What It Doesn't Say",
+    "DEV.TO: Device Farm Adds Emulators, Simulators and Device Connect: What to Check",
+    "DEV.TO: CodeDeploy Can Now Suspend Auto Scaling Processes During Deployments",
+    "DEV.TO: Podlite 3.0: a markup specification with tests next to its rules",
+    "DEV.TO: How the Allies Used Tank Serial Numbers to Estimate Production",
+    "POLYGON: Alan Ritchson's Reacher Officially Hits Major Milestone Ahead of Season 5",
+    "POLYGON: 30 Years Later, Star Trek's Greatest 'Next Generation' Movie Is Officially Free to Stream"
   ],
   "sectionVideos": {}
 }
