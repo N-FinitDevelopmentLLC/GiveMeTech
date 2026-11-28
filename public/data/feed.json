@@ -1,137 +1,635 @@
 {
-  "fetchedAt": "2026-11-27T19:14:31.263Z",
+  "fetchedAt": "2026-11-28T02:19:54.475Z",
   "articles": [
     {
-      "id": "feed-445b77c321dc",
-      "title": "Switching an English–French form after a validation error: a local test",
-      "excerpt": "AI disclosure: Fully Autonomous. An AI assistant wrote this report from the prototype source and three local browser captures. In an English–French enquiry form, what happens if someone changes the in…",
-      "body": "AI disclosure: Fully Autonomous. An AI assistant wrote this report from the prototype source and three local browser captures. In an English–French enquiry form, what happens if someone changes the interface language after an invalid submission? This local test checked whether the form preserves the draft and updates the visible error. The recorded case The captures show this sequence with fictional details: In English, the name is Camille Martin , the email is camille@ , the project type is “Website redesign”, and the details are “A clearer mobile enquiry page for a sample studio.” The email has a visible format error. With French selected, the name, invalid email and project description are unchanged. The selected project is displayed as “Refonte de site web”.",
-      "author": "Reluniva",
-      "date": "2026-11-27",
+      "id": "feed-cfd54b3813db",
+      "title": "Stripping the AI of Auto TP/SL: Designing 'Iron Laws' as Guardrails in Complex Trading Systems",
+      "excerpt": "Stripping the AI of Auto TP/SL: Designing 'Iron Laws' as Guardrails in Complex Trading Systems It was 1:00 AM during a routine log audit when a specific entry caught my eye. Amidst the usual stream of…",
+      "body": "Stripping the AI of Auto TP/SL: Designing 'Iron Laws' as Guardrails in Complex Trading Systems It was 1:00 AM during a routine log audit when a specific entry caught my eye. Amidst the usual stream of market data updates and scoring engine adjustments, a single line stood out: \"error\": \"Manual position (known manual) - skipped auto TP/SL per F-160 iron law\" At first glance, it was just another informational warning. But in the context of our automated trading infrastructure, this log entry represented a silent but crucial interception. It was the exact moment our system’s deterministic guardrails successfully overrode a probabilistic AI model, preventing what could have been a catastrophic systemic failure.",
+      "author": "Kestrel Quant",
+      "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 49,
-      "url": "https://dev.to/reluniva-team/switching-an-english-french-form-after-a-validation-error-a-local-test-4fac",
-      "image": "/images/feed/feed-445b77c321dc.webp",
+      "xpReward": 38,
+      "url": "https://dev.to/kestrelquant/stripping-the-ai-of-auto-tpsl-designing-iron-laws-as-guardrails-in-complex-trading-systems-35a7",
+      "image": "/images/feed/feed-cfd54b3813db.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-d692c31dd8c5",
-      "title": "All or Nothing: Testing DynamoDB Transaction Atomicity with Tables",
-      "excerpt": "What a four-operation failure taught me about commits, cancellation reasons, and verifying that nothing was written. A database transaction is easy to appreciate when it succeeds. The more important q…",
-      "body": "What a four-operation failure taught me about commits, cancellation reasons, and verifying that nothing was written. A database transaction is easy to appreciate when it succeeds. The more important question is what happens when one operation fails after several other changes have been requested. Suppose an application needs to create a record, update an existing balance, and delete an obsolete item. If a final validation check fails, none of those changes should be committed. Otherwise, the application could be left with data that describes a transaction that never actually completed. I tested this behavior using Tables by ServerlessCreed and Amazon DynamoDB .",
-      "author": "Sidharth Bangera",
-      "date": "2026-11-27",
+      "id": "feed-5ffe3bf7f122",
+      "title": "Anthropic Messages API Rust Rewrite Cuts CPU 70% — Dual-Track WASAPI Still Owns the Overlay Floor",
+      "excerpt": "On 25 November 2026 Anthropic published the engineering post on migrating the Messages API from Python to Rust. Traffic had grown roughly 1,800× since early 2024. Claude wrote a first version of the c…",
+      "body": "On 25 November 2026 Anthropic published the engineering post on migrating the Messages API from Python to Rust. Traffic had grown roughly 1,800× since early 2024. Claude wrote a first version of the core request path in about a week. The hard part was verification: shadowing live production traffic against the Python service, fixing divergences, and shipping without downtime. Result: ~70% less CPU per request, &gt;80% less memory, and ~20% lower median time-to-first-token on Claude Code requests. That is a clean infrastructure win. Lower CPU and memory per request means denser packing and less headroom pressure on the API tier. The TTFT improvement is real for agents that wait on a full model turn.",
+      "author": "devs",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "software",
+      "tags": [
+        "Api"
+      ],
+      "featured": true,
+      "xpReward": 52,
+      "url": "https://dev.to/madnessbrains_i/anthropic-messages-api-rust-rewrite-cuts-cpu-70-dual-track-wasapi-still-owns-the-overlay-floor-25p2",
+      "image": "/images/feed/feed-5ffe3bf7f122.webp",
+      "source": "Dev.to",
+      "isLive": true
+    },
+    {
+      "id": "feed-45bf6dc42dfd",
+      "title": "Convert PDF Formats for Downstream Processing with a Production Validation Checklist",
+      "excerpt": "Convert each PDF with an explicit target format, validate the resulting bytes, and only then release the derivative to downstream processing. Keep the PDF as the source of truth. For a media pipeline…",
+      "body": "Convert each PDF with an explicit target format, validate the resulting bytes, and only then release the derivative to downstream processing. Keep the PDF as the source of truth. For a media pipeline that merges press kits and splits them into channel-specific bundles, template ownership is the deciding constraint: conversion should derive assets, not quietly become the authority for editorial layout. TL;DR: choose the service boundary before the vendor. The conversion request must contain both the file and target format because there is no default. Reject a zero-byte result before it reaches extraction, indexing, or publication.",
+      "author": "EchoF76",
+      "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 46,
-      "url": "https://dev.to/sidharth_bangera/all-or-nothing-testing-dynamodb-transaction-atomicity-with-tables-172a",
-      "image": "/images/feed/feed-d692c31dd8c5.webp",
+      "xpReward": 40,
+      "url": "https://dev.to/echof76/convert-pdf-formats-for-downstream-processing-with-a-production-validation-checklist-1123",
+      "image": "/images/feed/feed-45bf6dc42dfd.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-5fb5b2105bc0",
-      "title": "Chemical precipitation is a pH window, not a setpoint",
-      "excerpt": "The caustic dose in a metal-finishing plant is usually governed by a single number: the pH that met the copper limit the last time anyone ran a full analysis. That number is right often enough to beco…",
-      "body": "The caustic dose in a metal-finishing plant is usually governed by a single number: the pH that met the copper limit the last time anyone ran a full analysis. That number is right often enough to become policy, and wrong in exactly the hours when a chelating agent, an ammonia load, or an amphoteric metal moves the real solubility curve away from it. Applies generally; the one jurisdiction-specific remark below is labelled as Korean. The lever is solubility, not alkalinity Hydroxide precipitation looks like a dosing problem because the actuator is a pump. Chemically it is a solubility problem: metal leaves the water only to the extent the equilibrium allows, and hydroxide solubility is a curve with a minimum, not a monotonic response to more caustic.",
-      "author": "Jay Choi",
-      "date": "2026-11-27",
+      "id": "feed-718ca13fc3e2",
+      "title": "Driving Android Phones Over ADB Without Screenshot Loops or Raw XML Dumps (turbo-android-mcp)",
+      "excerpt": "Running an AI agent against an Android phone over adb usually hits two bottlenecks on the first screen. A full 1080x2400 PNG capture via adb exec-out screencap -p takes around 1.5 seconds over USB and…",
+      "body": "Running an AI agent against an Android phone over adb usually hits two bottlenecks on the first screen. A full 1080x2400 PNG capture via adb exec-out screencap -p takes around 1.5 seconds over USB and costs roughly 1,800 vision tokens per step. Dumping the raw accessibility hierarchy via uiautomator dump avoids vision tokens, but a single Settings or messaging screen produces 35 KB to 80 KB of raw XML ( 10,000+ tokens) filled with layout wrappers, system bars, and decorative views. I published turbo-android-mcp v0.1.0 to npm ( npx -y turbo-android-mcp ), a zero-dependency Node.js MCP server that drives Android phones, tablets, and emulators over standard adb without device root.",
+      "author": "Trung Thanh Tran",
+      "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 35,
-      "url": "https://dev.to/kevinchoi133490/chemical-precipitation-is-a-ph-window-not-a-setpoint-1449",
-      "image": "/images/feed/feed-5fb5b2105bc0.webp",
+      "xpReward": 43,
+      "url": "https://dev.to/tthanh2k6/driving-android-phones-over-adb-without-screenshot-loops-or-raw-xml-dumps-turbo-android-mcp-3ap5",
+      "image": "/images/feed/feed-718ca13fc3e2.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-7df963190493",
-      "title": "Keeping High-Risk Incident Runbooks Accurate as Infrastructure Evolves",
-      "excerpt": "Anatomy of a Stale Runbook and the Cost of Blind Trust Operational runbooks for high-risk procedures—such as regional failovers, database restores, and certificate rotations—inevitably decay because t…",
-      "body": "Anatomy of a Stale Runbook and the Cost of Blind Trust Operational runbooks for high-risk procedures—such as regional failovers, database restores, and certificate rotations—inevitably decay because they attempt to model a living, mutating system through static, unlinked prose. As infrastructure evolves through rapid pull requests, Terraform infrastructure-as-code merges, and IAM policy updates, a persistent change-propagation gap opens between runtime reality and documentation stored in remote wikis. When a service owner updates an API endpoint, renames a message queue, or shifts a database schema, the live system state changes instantaneously, while the documentation text remains frozen.",
-      "author": "Marina Kovalchuk",
-      "date": "2026-11-27",
+      "id": "feed-b03d39eb5dfb",
+      "title": "HireSense is now on Up For Grabs — good first issues open",
+      "excerpt": "I built HireSense, a small AI recruitment helper: upload a resume, get AI feedback on how well it matches a job. React 19 + Vite on the client, Node + Express on the server, Gemini for the analysis. N…",
+      "body": "I built HireSense, a small AI recruitment helper: upload a resume, get AI feedback on how well it matches a job. React 19 + Vite on the client, Node + Express on the server, Gemini for the analysis. No database, no login, MIT licensed. HireSense is now listed on Up For Grabs, and there are 14 open issues on GitHub, several marked good first issue: removing dead config, adding test suites, reading config from the environment, validating uploads, rate-limiting the analysis endpoint, and more. Every issue has a written spec and acceptance criteria, and the contributing guide is in CONTRIBUTING.md. If you want a first open-source contribution, or you just like fixing real things, have a look: https://github.com/khizzcr7/HireSense Every PR is reviewed by me personally. Real work only.",
+      "author": "Muhammad Khizar",
+      "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 51,
-      "url": "https://dev.to/maricode/keeping-high-risk-incident-runbooks-accurate-as-infrastructure-evolves-558g",
-      "image": "/images/feed/feed-7df963190493.webp",
+      "xpReward": 47,
+      "url": "https://dev.to/khizzcr7/hiresense-is-now-on-up-for-grabs-good-first-issues-open-1dn4",
+      "image": "/images/feed/feed-b03d39eb5dfb.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-adb89ca5fee9",
-      "title": "I Built a Free Google Search Console Analytics Tool That Runs in Your Browser (No Signup)",
-      "excerpt": "Google Search Console is the most honest SEO data source you have. It shows how Google actually displayed your pages: impressions, clicks, CTR and average position. But the default dashboard is awkwar…",
-      "body": "Google Search Console is the most honest SEO data source you have. It shows how Google actually displayed your pages: impressions, clicks, CTR and average position. But the default dashboard is awkward when you want answers instead of charts: Which pages lost traffic this month, and why? Which queries are one small push away from page one? Which titles get seen but never clicked? Are two of my pages competing for the same keyword? So I built Google Search Intelligence Studio , a free tool on Noloii that turns your real Search Console data into a prioritized to-do list. 👉 Try it free (no signup): noloii.com/google-search-intelligence-studio What it does 1.",
-      "author": "Bellal Hossain",
-      "date": "2026-11-27",
+      "id": "feed-74285361b061",
+      "title": "Day Three, Laptop Open, Puppy Awake",
+      "excerpt": "By lunch on day three, I had answered one email and cleaned up four puddles. Picture a kitchen table. Laptop open. Coffee going cold next to a roll of paper towels. A small pen in the corner by my fee…",
+      "body": "By lunch on day three, I had answered one email and cleaned up four puddles. Picture a kitchen table. Laptop open. Coffee going cold next to a roll of paper towels. A small pen in the corner by my feet. And a puppy who has just woken up from her nap. She stretches. She sniffs. She starts walking in slow little circles. You already know what the circling means. I didn't. Not yet. That morning I stood up from my chair maybe twenty times. Every time I sat back down, something happened. A whine. A chewed charger cord. A wet spot on the mat at the exact second my camera came on and six faces looked at me. I kept telling myself I was \"working and watching.\" The honest truth? I was doing both badly. That night I sat at the same table with a sheet of paper and two pens, one blue and one red.",
+      "author": "The Puppy Protocol",
+      "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
       "tags": [
         "Software"
       ],
       "featured": true,
-      "xpReward": 45,
-      "url": "https://dev.to/bellal_hossain_057bfd620a/i-built-a-free-google-search-console-analytics-tool-that-runs-in-your-browser-no-signup-4blo",
-      "image": "/images/feed/feed-adb89ca5fee9.webp",
+      "xpReward": 42,
+      "url": "https://dev.to/puppyprotocol/day-three-laptop-open-puppy-awake-hbe",
+      "image": "/images/feed/feed-74285361b061.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-498bfc6ff32c",
-      "title": "OpenAI fixed a \"bug\" and now my plan does 40% less work",
-      "excerpt": "So if you felt like GPT-6.2 was weirdly generous last week, you weren't imagining it. OpenAI just said they messed up billing when Astra and Sol launched on Nov 17. Usage was getting discounted for mo…",
-      "body": "So if you felt like GPT-6.2 was weirdly generous last week, you weren't imagining it. OpenAI just said they messed up billing when Astra and Sol launched on Nov 17. Usage was getting discounted for most people. They fixed it, and now the same work eats your limits 40% faster on Astra and 25% faster on Sol. Same plan. Same price. Less work. To be fair, they're not charging anyone back, and paid plans get one free usage reset as a sorry. That's decent. But here's what bugs me. A lot of us spent last week figuring out how much Astra we could use per day, and that number was wrong the whole time. Anyone who moved their workflow over based on that first week basically tested on fake numbers. It's also a good reminder that \"usage limits\" on these plans are a black box.",
-      "author": "Matthew J. Moore",
-      "date": "2026-11-27",
+      "id": "feed-7caa89b03084",
+      "title": "Open Source Chrome Extension Launch: A GitHub Checklist",
+      "excerpt": "Originally published on ExtensionLaunch. An open source Chrome extension earns trust before anyone clicks \"Add to Chrome\", because people can read exactly what it does with their tabs, pages or data.…",
+      "body": "Originally published on ExtensionLaunch . An open source Chrome extension earns trust before anyone clicks \"Add to Chrome\", because people can read exactly what it does with their tabs, pages or data. But a public repo is a trust signal and a way to attract contributors. It is not a distribution channel. Here is a compact checklist for setting up the repo so it supports your launch instead of distracting from it. Do these before the first public commit Some mistakes are painful to undo once the code is public, so handle them first: Clean the entire Git history, not just HEAD. Old commits with API keys, OAuth client secrets or analytics tokens become public the moment you push. GitHub's push protection is on by default for public repos, but it only catches the secret types it knows about.",
+      "author": "ExtensionBooster",
+      "date": "2026-11-28",
       "readTime": "2 min",
       "section": "software",
       "tags": [
-        "Software"
+        "Open Source",
+        "Github"
       ],
-      "featured": true,
-      "xpReward": 39,
-      "url": "https://dev.to/mattmoore_tech/openai-fixed-a-bug-and-now-my-plan-does-40-less-work-3fip",
-      "image": "/images/feed/feed-498bfc6ff32c.webp",
+      "featured": false,
+      "xpReward": 38,
+      "url": "https://dev.to/extensionbooster/open-source-chrome-extension-launch-a-github-checklist-190",
+      "image": "/images/feed/feed-7caa89b03084.webp",
       "source": "Dev.to",
       "isLive": true
     },
     {
-      "id": "feed-088677beb131",
-      "title": "SQL Server to BigQuery: Build a CDC Pipeline That Lands in Your Own Bucket",
-      "excerpt": "A SQL Server to BigQuery job often begins life as a nightly bcp export, a CSV file in a bucket and a bq load. That is enough for a dashboard refreshed once a day. It stops being enough when an order s…",
-      "body": "A SQL Server to BigQuery job often begins life as a nightly bcp export, a CSV file in a bucket and a bq load . That is enough for a dashboard refreshed once a day. It stops being enough when an order ships at noon, a customer moves city, and the afternoon report still shows the morning's values. SQL Server already records those changes. With change data capture (CDC) on, the SQL Server Agent copies each insert, update and delete from the transaction log into a change table. What is left to decide is who reads those tables and where the rows land. The usual options: Datastream for SQL Server : Google's managed CDC service, near real time by Google's description. Nothing to run, and the rows land in native BigQuery datasets that only BigQuery reads.",
-      "author": "Shubham Baldava",
+      "id": "feed-a646a2bb2298",
+      "title": "63 Years Later, CBS's Legendary 70-Episode Series Still Has the Only Vampire Worth Watching",
+      "excerpt": "The 1964 sitcom The Munsters is still a comey classic, with Grandpa Munster as its funniest character. Here are the five best epsiodes.",
+      "body": "It’s Fangsgiving here at Polygon, our Thanksgiving celebration of stories about fanged creatures of all types and especially vampires . I didn't want to be left out, but, to be honest, I always thought vampires were kind of dumb. They're a horror movie staple, but they’re rarely all that scary. There’s usually a romantic element to their stories that I also find tiresome . Perhaps I’ve just never seen the right vampire movies, but overall I find vampires to be pretty lame.",
+      "author": "Brian VanHooker",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.polygon.com/the-only-vampire-i-care-about-is-grandpa-munster/",
+      "image": "/images/feed/feed-a646a2bb2298.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-bb1432725f51",
+      "title": "I found a DualSense deal that knocks 28% off this wireless PlayStation controller",
+      "excerpt": "The basic white variant is down to a record-low $54 for Black Friday, with plenty of other colors also on sale.",
+      "body": "The basic white variant is down to a record-low $54 for Black Friday, with plenty of other colors also on sale.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Playstation. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Max McHone",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Playstation"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.zdnet.com/home-and-office/playstation-5-dualsense-controller-black-friday-deal/",
+      "image": "/images/feed/feed-bb1432725f51.jpg",
+      "source": "ZDNet",
+      "isLive": true
+    },
+    {
+      "id": "feed-469488f683ac",
+      "title": "IONNA’s got a 50% discount off EV charging over Thanksgiving weekend",
+      "excerpt": "IONNA has a great deal for Thanksgiving EV road-trippers: Charging across its entire fast-charging network is half off until thep=[]””” end of Sunday, November 29. more…",
+      "body": "IONNA has a great deal for Thanksgiving EV road-trippers: Charging across its entire fast-charging network is half off until thep=[]””” end of Sunday, November 29. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Ev Charging, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Michelle Lewis",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev Charging",
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://electrek.co/2026/11/27/ionnas-got-a-50-discount-off-ev-charging-over-thanksgiving-weekend/",
+      "image": "/images/feed/feed-469488f683ac.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-4850c2dbdb87",
+      "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM",
+      "excerpt": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
+      "body": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Simon Hill",
+      "date": "2026-11-28",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 52,
+      "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/",
+      "image": "/images/feed/feed-4850c2dbdb87.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-c1cc6597ee58",
+      "title": "In My Cart: Here are the Amazon Black Friday deals we are buying for ourselves",
+      "excerpt": "The main event Amazon Black Friday sale is flying, and, much like some of you, we didn’t quite finish up our shopping during yesterday’s wild sale. For Black Friday edition of In My cart we are sharin…",
+      "body": "The main event Amazon Black Friday sale is flying , and, much like some of you, we didn’t quite finish up our shopping during yesterday’s wild sale. For Black Friday edition of In My cart we are sharing with everyone the deals we are about to or have already checked out with today. From Amazon’s new Echo Time and Aulumu’s G05 Pro to a brick built Statue of Liberty and the LEGO Icons Project Hail Mary set , we are also scoping out Anker’s foldable 3-in-1 charger , this faux fur throw blanket , the wild deal on AirPods Pro 3 at $100 off , the all-time low on Apple Watch Series 12 , and the Apple Gift Card promotion with a FREE $15 Amazon credit attached. Check it all out below. more…",
+      "author": "9to5Toys",
       "date": "2026-11-27",
       "readTime": "2 min",
-      "section": "software",
+      "section": "gadgets",
       "tags": [
-        "Software"
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://9to5toys.com/2026/11/27/we-buying-amazon-black-friday-deals/",
+      "image": "/images/feed/feed-c1cc6597ee58.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-29ceb35e7e38",
+      "title": "Don't Miss the Best Prebuilt Gaming PC Deals for Black Friday Featuring Nvidia GeForce and AMD Radeon GPUs",
+      "excerpt": "From RTX 5060 to RTX 5080, the sales are coming in, but also selling out quickly.",
+      "body": "Black Friday sales have officially gone live at Amazon, Walmart, and Best Buy. Despite the fact that PC prices are trending in the wrong direction recently, there are plenty of solid Black Friday deals to be found to help alleviate the financial sting of your next PC upgrade. I&#39;ve rounded up the best deals from the major retailers below and I will continue to update this list with more discounted configurations as they go live through Black Friday and Cyber Monday. The Best Black Friday Gaming PC Deals So Far With the price of GPUs and RAM at an all-time high, it&#39;s not a surprise that deals on Lenovo gaming PCs are extremely hard to come by. In fact, the last time I posted a deal on a Legion gaming PC was back in July .",
+      "author": "Eric Song",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
       ],
       "featured": false,
       "xpReward": 32,
-      "url": "https://dev.to/shubham_olake/sql-server-to-bigquery-build-a-cdc-pipeline-that-lands-in-your-own-bucket-cdi",
-      "image": "/images/feed/feed-088677beb131.webp",
-      "source": "Dev.to",
+      "url": "https://www.ign.com/articles/best-black-friday-prebuilt-gaming-pc-deals-black-friday-sale-2026",
+      "image": "/images/feed/feed-29ceb35e7e38.jpg",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-f8e8d69c92e9",
+      "title": "The best Black Friday deals you can still get on AirPods, Macs, and other Apple gear",
+      "excerpt": "The MacBook Pro with PROLED XDR has hit a new low price just a few months after release. | Photo: Antonio G. Di Benedetto / The Verge Black Friday is entering the evening, which means one of the best…",
+      "body": "The MacBook Pro with PROLED XDR has hit a new low price just a few months after release. | Photo: Antonio G. Di Benedetto / The Verge Black Friday is entering the evening, which means one of the best times of the year to save some cash on a new pair of AirPods or the latest Apple Watch is coming to a close. After all, the holiday savings can help offset the unfortunate price hikes from earlier this year, when Apple raised the cost of some of its most popular gear. Some discounts still apply to recent releases like the Apple Watch Series 12 and touchscreen MacBook Pro , too, which are available at their lowest prices to date. In addition to a variety of discounts across retailers, Apple is offering up to $300 in gift cards with select purchases between November 27th and November 30th.",
+      "author": "Brad Bourque",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 50,
+      "url": "https://www.theverge.com/gadgets/1043935/best-black-friday-apple-deals-2026",
+      "image": "/images/feed/feed-f8e8d69c92e9.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-ff65b12f3778",
+      "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+      "excerpt": "The fan-favorite folding design returns with the comfortable, slightly improved XM4C headphones. | Photo: John Higgins / The Verge Instead of purely looking forward with its headphone designs, Sony we…",
+      "body": "The fan-favorite folding design returns with the comfortable, slightly improved XM4C headphones. | Photo: John Higgins / The Verge Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4C, sounds nearly as good as the pricier XM6 model (currently $348), but is down to $198 during Black Friday at Amazon , Best Buy , and Walmart . That’s $100 off their October launch price. Sony WH-1000XM4C Where to Buy: $299.99 $198 at Amazon $299.99 $198 at Walmart $299.99 $199.99 at Best Buy There’s a reason why Sony went back to refine the XM4.",
+      "author": "Cameron Faulkner",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Headphones"
+      ],
+      "featured": false,
+      "xpReward": 47,
+      "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+      "image": "/images/feed/feed-ff65b12f3778.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-20f9c73c9679",
+      "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+      "excerpt": "Yooka-Laylee and the Impossible Lair: Definitive Edition | Image: Playtronic Games Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update…",
+      "body": "Yooka-Laylee and the Impossible Lair: Definitive Edition | Image: Playtronic Games Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners, the developer says it \"can't commit to any additional platforms for the foreseeable future.\" In a statement posted on X , Playtronic said that it understands the frustration some players may feel, but that bringing the Definitive Edition to Xbox just isn't viable \"given the technological challenges and costs,\" and reminded people that they're a small team. Hi everyone, please read the following regarding the situation for Yooka-Laylee and the … Read the full story at The Verge.",
+      "author": "Terrence O’Brien",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Xbox"
+      ],
+      "featured": false,
+      "xpReward": 36,
+      "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+      "image": "/images/feed/feed-20f9c73c9679.jpg",
+      "source": "The Verge",
+      "isLive": true
+    },
+    {
+      "id": "feed-6a3c70ea0a6d",
+      "title": "The Best Black Friday Gaming Deals I’ve Found (2026)",
+      "excerpt": "Headsets, keyboards, and video games are all on sale. Here’s what we’ve found so far.",
+      "body": "Headsets, keyboards, and video games are all on sale. Here’s what we’ve found so far.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gaming. As the situation continues to evolve, professionals and enthusiasts in the gaming and interactive entertainment field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Louryn Strampe",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.wired.com/story/black-friday-gaming-deals-11-27-2026/",
+      "image": "/images/feed/feed-6a3c70ea0a6d.jpg",
+      "source": "Wired",
+      "isLive": true
+    },
+    {
+      "id": "feed-168673a01490",
+      "title": "Apple Stays Winning as Smartphone Sales Continue to Slump",
+      "excerpt": "Memory prices continue to be a problem, especially for cheaper phone sales.",
+      "body": "Memory prices continue to be a problem, especially for cheaper phone sales.\n\nThis report, published by CNET, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Smartphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CNET using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Omar Gallaga",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Smartphone"
+      ],
+      "featured": false,
+      "xpReward": 34,
+      "url": "https://www.cnet.com/tech/mobile/apple-wins-smartphone-sales-slump/",
+      "image": "https://www.cnet.com/wp-content/uploads/sites/2/iPhone-Air-with-Samsung-Galaxy-Z-Fold-8-and-Pixel-11-Pro-Fold.jpeg",
+      "source": "CNET",
+      "isLive": true
+    },
+    {
+      "id": "feed-5e38879423d0",
+      "title": "5 ways to make sure your console isn't holding back your GTA 6 performance",
+      "excerpt": "GTA 6 pulled a lot of tricks to run on current consoles, so you should make sure you're getting the best performance available.",
+      "body": "GTA 6 pulled a lot of tricks to run on current consoles, so you should make sure you're getting the best performance available.\n\nThis report, published by Engadget, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Engadget using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "staff@engadget.com (Luke James)",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 33,
+      "url": "https://www.engadget.com/2329878/gta-6-performance-ways-make-sure-console-not-holding-back/",
+      "image": "/images/feed/feed-5e38879423d0.jpg",
+      "source": "Engadget",
+      "isLive": true
+    },
+    {
+      "id": "feed-b69eb1e10181",
+      "title": "Why European Households Are Rushing to Buy Solar Panels Ahead of a Dark, Cold Winter",
+      "excerpt": "Changes to solar incentives and long installation processes mean European homeowners could benefit from planning now. Winter is cold, dark, and grey. Yet for many Europeans, it’s a great time to switc…",
+      "body": "Changes to solar incentives and long installation processes mean European homeowners could benefit from planning now. Winter is cold, dark, and grey. Yet for many Europeans, it’s a great time to switch to solar power. While many are focused on the holiday season, industry experts are urging homeowners considering a ... [continued] The post Why European Households Are Rushing to Buy Solar Panels Ahead of a Dark, Cold Winter appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 43,
+      "url": "https://cleantechnica.com/2026/11/27/why-european-households-are-rushing-to-buy-solar-panels-ahead-of-a-dark-cold-winter/",
+      "image": "/images/feed/feed-b69eb1e10181.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-185ebefb1dbe",
+      "title": "Jenga: Super Mario Edition Is 43% Off for Black Friday",
+      "excerpt": "Jenga: Super Mario Edition Is 43% Off for Black Friday",
+      "body": "There are so many great Mario games to check out on the Nintendo Switch . If you&#39;re like me and you&#39;ve beaten almost every Mario game out there, the next step is to look to other Mario experiences. ( The Super Mario Galaxy Movie is a fun time, too, for instance.) One of the best Black Friday deals happens to be Mario-themed, in fact, as the Jenga: Super Mario Edition is on sale for under $13, or 43% off its usual price. This fun Mushroom Kingdom-inspired board game can really shake up your next game night, so don&#39;t miss it. Jenga: Super Mario Edition for $12.49 This Super Mario version is like regular Jenga, but with a fun set of Super Mario-themed twists. For one, its blocks are modeled after those in Mario games.",
+      "author": "Noah Hunter",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://www.ign.com/articles/jenga-super-mario-edition-deal-black-friday-2026",
+      "image": "/images/feed/feed-185ebefb1dbe.png",
+      "source": "IGN",
+      "isLive": true
+    },
+    {
+      "id": "feed-a62cf5252bbd",
+      "title": "It’s Officially the End of an Era for HBO’s The Last of Us",
+      "excerpt": "HBO's The Last of Us, based on the Naughty Dog PlayStation game, is ending in 2027 with season 3, as showrunner moves on to Baldur's Gate.",
+      "body": "It's officially the end of the road for The Last of Us at HBO. While the upcoming third season was already set to conclude the show's adaptation of the second game in Naughty Dog's acclaimed PlayStation series, there was some hope it could continue on after. Those hopes have now been squashed by HBO's boss.",
+      "author": "Willa Rowe",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gaming",
+      "tags": [
+        "Gaming"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://www.polygon.com/the-last-of-us-season-3-end-finale-hbo-2027/",
+      "image": "/images/feed/feed-a62cf5252bbd.jpg",
+      "source": "Polygon",
+      "isLive": true
+    },
+    {
+      "id": "feed-76dd43c9d7d2",
+      "title": "WhatsApp announces travel eSIMs, tests view-once texts and a cleaner interface",
+      "excerpt": "In addition to officially announcing support for in-app travel eSIM purchases, WhatsApp is now reportedly testing two new features on iOS. Here are the details. more…",
+      "body": "In addition to officially announcing support for in-app travel eSIM purchases, WhatsApp is now reportedly testing two new features on iOS. Here are the details. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Marcus Mendes",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "gadgets",
+      "tags": [
+        "Gadgets"
+      ],
+      "featured": false,
+      "xpReward": 42,
+      "url": "https://9to5mac.com/2026/11/27/whatsapp-announces-travel-esims-tests-view-once-texts-and-a-cleaner-interface/",
+      "image": "/images/feed/feed-76dd43c9d7d2.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-7c5f68d94812",
+      "title": "Monta Joins ChargeHub’s Passport Hub, North America’s Leading EV Roaming Platform",
+      "excerpt": "Monta joins Passport Hub, bringing nearly 4,500 charging ports from networks like EnviroSpark and FLASH to dozens of automakers, charging apps and fleets. “Every time a world-class CSMS like Monta joi…",
+      "body": "Monta joins Passport Hub, bringing nearly 4,500 charging ports from networks like EnviroSpark and FLASH to dozens of automakers, charging apps and fleets. &#8220;Every time a world-class CSMS like Monta joins Passport Hub, the whole ecosystem levels up” —Simon Ouellette, CEO of ChargeHub Monta, the global EV charging software platform, ... [continued] The post Monta Joins ChargeHub&#8217;s Passport Hub, North America&#8217;s Leading EV Roaming Platform appeared first on CleanTechnica .",
+      "author": "Press Release",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 44,
+      "url": "https://cleantechnica.com/2026/11/27/monta-joins-chargehubs-passport-hub-north-americas-leading-ev-roaming-platform/",
+      "image": "/images/feed/feed-7c5f68d94812.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-f25372d4ce03",
+      "title": "GRIDSERVE Secures £420 Million Financing to Strengthen Leadership Position in EV Charging & Support Next Phase of Growth",
+      "excerpt": "Major refinancing package strengthens GRIDSERVE’s long-term funding position and financial resilience New financing structure provides dedicated capital for continued investment and network expansion…",
+      "body": "Major refinancing package strengthens GRIDSERVE’s long-term funding position and financial resilience New financing structure provides dedicated capital for continued investment and network expansion Deal reflects significant financial progress, with GRIDSERVE reporting positive EBITDA for the first time in 2025 London, UK — GRIDSERVE, the UK’s most-used electric vehicle (EV) charging ... [continued] The post GRIDSERVE Secures £420 Million Financing to Strengthen Leadership Position in EV Charging &#038; Support Next Phase of Growth appeared first on CleanTechnica .",
+      "author": "Guest Contributor",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Ev Charging",
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://cleantechnica.com/2026/11/27/gridserve-secures-420-million-financing-to-strengthen-leadership-position-in-ev-charging-support-next-phase-of-growth/",
+      "image": "/images/feed/feed-f25372d4ce03.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-17c8553079c1",
+      "title": "Loblaw’s Hydrogen Truck Crossed the Rockies. Another Truck Brought Its Fuel.",
+      "excerpt": "Loblaw’s hydrogen truck crossed the Rockies with three fills and mobile fuel delivery. The trip did not establish a commercial freight system. The post Loblaw’s Hydrogen Truck Crossed the Rockies. Ano…",
+      "body": "Loblaw’s hydrogen truck crossed the Rockies with three fills and mobile fuel delivery. The trip did not establish a commercial freight system. The post Loblaw’s Hydrogen Truck Crossed the Rockies. Ano — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by CleanTechnica, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to CleanTechnica using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Michael Barnard",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://cleantechnica.com/2026/11/27/loblaw-hydrogen-truck-rockies-mobile-fuel/",
+      "image": "/images/feed/feed-17c8553079c1.png",
+      "source": "CleanTechnica",
+      "isLive": true
+    },
+    {
+      "id": "feed-bf7d3215778e",
+      "title": "Podcast: Tesla FSD v15, Volvo XC60/90 PHEVs, Porsche Boxster EV, and more",
+      "excerpt": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla FSD v15, Volvo XC60/90 PHEVs, Porsche Boxster EV…",
+      "body": "In the Electrek Podcast, we discuss the most popular news in the world of sustainable transport and energy. In this week’s episode, we’ll discuss Tesla FSD v15, Volvo XC60/90 PHEVs, Porsche Boxster EV — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Tesla, Ev. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Fred Lambert",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Tesla",
+        "Ev"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://electrek.co/2026/11/27/podcast-tesla-fsd-v15-volvo-xc60-90-phevs-porsche-boxster-ev-and-more/",
+      "image": "/images/feed/feed-bf7d3215778e.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-bb3e75bf3f93",
+      "title": "Volvo A40 Electric articulated haul trucks get to work in the UK",
+      "excerpt": "After becoming the world’s first all-electric 40 ton class articulated haul truck into regular series production earlier this year, the Volvo A40 has finally reached its first customers in the UK – an…",
+      "body": "After becoming the world’s first all-electric 40 ton class articulated haul truck into regular series production earlier this year, the Volvo A40 has finally reached its first customers in the UK – and they wasted no time putting the big BEV to work on one of the nation’s largest, most important infrastructure projects. more…",
+      "author": "Jo Borrás",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cars",
+      "tags": [
+        "Cars"
+      ],
+      "featured": false,
+      "xpReward": 40,
+      "url": "https://electrek.co/2026/11/27/volvo-a40-electric-articulated-haul-trucks-get-to-work-in-the-uk/",
+      "image": "/images/feed/feed-bb3e75bf3f93.jpg",
+      "source": "Electrek",
+      "isLive": true
+    },
+    {
+      "id": "feed-837070bf7866",
+      "title": "Love Star Wars, Andy Weir or Ryan Gosling? These Lego Star Wars and Project Hail Mary sets are my favorites",
+      "excerpt": "Whether you're a fan of Star Wars, Ryan Gosling or both, you're spoilt for choice this Black Friday with serious savings on Lego's Star Wars sets and Project Hail Mary sets.",
+      "body": "Star Wars: Starfighter arrives next year but you don't have to wait till 2027 to see Ryan Gosling and Star Wars collide! Thanks to Black Friday , there are serious savings on Lego Star Wars and Lego Project Hail Mary sets; snap them all up and you can have Ryland Grace taking on the Empire while Rocky joins forces with Baby Grogu! Or is that just me? I've picked out the best deals across these two sci-fi properties, including both US deals and some for fans across the pond in the UK. Even if you're not ready to get building, many of these Lego sets make ideal Christmas gifts for adults and children alike. But be warned, Lego regularly retires sets, even the best Lego Star Wars sets , so grab them while you can.",
+      "author": " Chris McMullen ",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://www.space.com/entertainment/space-toys-lego/love-star-wars-andy-weir-or-ryan-gosling-these-lego-star-wars-and-project-hail-mary-sets-are-my-favorites",
+      "image": "/images/feed/feed-837070bf7866.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-56e5ae3f8bac",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Spacex. As the situation continues to evolve, professionals and enthusiasts in the space exploration and astronomy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "DeepLogin",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Spacex"
+      ],
+      "featured": false,
+      "xpReward": 54,
+      "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "image": "/images/feed/feed-56e5ae3f8bac.jpg",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-9de8784bc541",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "excerpt": "",
+      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Neural. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "brandonb",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Neural"
+      ],
+      "featured": false,
+      "xpReward": 35,
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "image": "/images/topics/topic-ai-ml.png",
+      "source": "Hacker News",
+      "isLive": true
+    },
+    {
+      "id": "feed-a1e5859919d1",
+      "title": "The lowest price ever on the Canon EOS R6 II tops some of the best Black Friday camera deals we've seen today",
+      "excerpt": "We have rounded up the best camera deals this Black Friday, including the lowest-ever price on one of our favorite low-light cameras, the Canon EOS R6 II.",
+      "body": "Camera deals have been a bit harder to find this Black Friday but we have found these great reductions on models we gave some of our highest ratings to. If you are in the market for a new camera , whether for astrophotography, general shooting or another particular style, one of these might fit the bill for your needs. High-resolution models like the Sony A7R V and the Canon EOS R5 are great for those who need the most detail from their shots and a strong amount of pro-functionality. One of our low-light favorites has dropped to its lowest-ever price on Walmart thanks to this year's release of a new version.",
+      "author": " Harry Bennett ",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "space",
+      "tags": [
+        "Space"
+      ],
+      "featured": false,
+      "xpReward": 30,
+      "url": "https://www.space.com/stargazing/astrophotography/the-lowest-price-ever-on-the-canon-eos-r6-ii-tops-some-of-the-best-black-friday-camera-deals-weve-seen-today",
+      "image": "/images/feed/feed-a1e5859919d1.jpg",
+      "source": "Space.com",
+      "isLive": true
+    },
+    {
+      "id": "feed-7d1dde138b52",
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "excerpt": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
+      "body": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]\n\nThis report, published by BleepingComputer, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cybersecurity. As the situation continues to evolve, professionals and enthusiasts in the cybersecurity and digital privacy field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to BleepingComputer using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Lawrence Abrams",
+      "date": "2026-11-27",
+      "readTime": "2 min",
+      "section": "cybersecurity",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "featured": false,
+      "xpReward": 37,
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "image": "/images/feed/feed-7d1dde138b52.jpg",
+      "source": "BleepingComputer",
       "isLive": true
     },
     {
@@ -147,29 +645,10 @@
         "Orbit"
       ],
       "featured": false,
-      "xpReward": 52,
+      "xpReward": 50,
       "url": "https://www.space.com/technology/dropping-missiles-from-orbit-2-european-companies-sign-agreement-to-study-the-idea",
       "image": "/images/feed/feed-db89edc81aa5.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-f33d7b49a158",
-      "title": "Velotric e-bikes hit new Black Friday lows $760 off, EGO 8-inch cordless auger $449, Greenworks cordless snow blowers, more",
-      "excerpt": "The Amazon Black Friday Main Event Sale is in full swing with more amazing deals than we can keep up with, and we’ve filled this edition with a wide variety of new appearances and sales increasing the…",
-      "body": "The Amazon Black Friday Main Event Sale is in full swing with more amazing deals than we can keep up with, and we’ve filled this edition with a wide variety of new appearances and sales increasing their discounts – plus, everything we can’t fit in here are waiting in our updated Black Friday Green Deals hub . To start, Velotric has entered its final Black Friday Sale phase, bringing back a bunch of lows, like the Fold 1 Plus Folding e-bike at $1,199 . You can still grab six Greenworks Cordless Snow Blower Kits at their best prices of the year, while EGO’s 8-inch Cordless Auger Kit is down at $449 covering earth and ice drilling.",
-      "author": "Reinette LeJeune",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://electrek.co/2026/11/27/velotric-final-black-friday-phase-e-bike-lows-ego-8-inch-cordless-auger-greenworks-snow-blowers-more/",
-      "image": "/images/feed/feed-f33d7b49a158.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -186,124 +665,10 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 40,
+      "xpReward": 38,
       "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
       "image": "/images/feed/feed-c45d6dda9f12.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-77a77d1df409",
-      "title": "GTA 6 Officially Passes a Massive Sales Milestone Just 1 Week In",
-      "excerpt": "Grand Theft Auto 6's week-one sales estimated at 53 million copies, with PS5 taking the lion’s share thanks to marketing deal with Rockstar",
-      "body": "We might have to stop saying something sold like hotcakes and start saying something sold like Grand Theft Auto 6 . Rockstar's latest has sold about as well as we expected, with estimates after only one week putting sales at over 50 million copies . That number will only go up in the weeks and months to come, especially if a new GTA Online mode and a PC version are eventually announced, as rumored .",
-      "author": "Willa Rowe",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://www.polygon.com/gta-6-how-much-sold-week-one-rockstar-games/",
-      "image": "/images/feed/feed-77a77d1df409.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-4850c2dbdb87",
-      "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM",
-      "excerpt": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
-      "body": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Simon Hill",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 43,
-      "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/",
-      "image": "/images/feed/feed-4850c2dbdb87.jpg",
-      "source": "Wired",
-      "isLive": true
-    },
-    {
-      "id": "feed-954572963f00",
-      "title": "OpenAI countersues Apple, alleging trade secret theft and supplier threats",
-      "excerpt": "OpenAI has countersued Apple, accusing the iPhone maker of stealing trade secrets and threatening suppliers working on its upcoming devices. The filing escalates a legal fight that began with Apple’s…",
-      "body": "OpenAI has countersued Apple, accusing the iPhone maker of stealing trade secrets and threatening suppliers working on its upcoming devices. The filing escalates a legal fight that began with Apple’s — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gadgets. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Zac Hall",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
-      "image": "/images/feed/feed-954572963f00.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-2daa6a6f83c4",
-      "title": "BYD’s flagship electric minivan debuts with a new style and 559 miles of range",
-      "excerpt": "BYD’s new flagship MPV is not your average minivan. The Whale can drive over 559 miles (900 km) on a single charge, charge in as little as five minutes, and it’s packed with BYD’s latest tech. more…",
-      "body": "BYD’s new flagship MPV is not your average minivan. The Whale can drive over 559 miles (900 km) on a single charge, charge in as little as five minutes, and it’s packed with BYD’s latest tech. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://electrek.co/2026/11/27/byd-whale-flagship-electric-minivan-debuts-559-miles-range/",
-      "image": "/images/feed/feed-2daa6a6f83c4.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-58e943a24f4e",
-      "title": "YouTube’s latest mobile redesign lets you like videos without opening them",
-      "excerpt": "Just because you can doesn’t mean you should.",
-      "body": "TL;DR YouTube’s latest mobile redesign introduces more frequent Shorts sections, edge-to-edge thumbnails, and redesigned video cards on the Home feed. Users are criticizing the cluttered layout, which makes it harder to distinguish between Shorts, long-form videos, and community posts. The redesign also introduces dedicated Like, Comment, and Save buttons on the Home feed, and we’ve spotted it on both Android and iOS. YouTube is not done tinkering with its mobile app, and the streaming giant’s latest redesign is making the platform’s Home feed a lot more chaotic. It’s been less than a month since YouTube began moving the Subscription tab away from the bottom navigation bar, and users, very clearly, weren’t happy with the change.",
-      "author": "Karandeep Singh Oberoi",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://www.androidauthority.com/youtube-home-feed-redesign-shorts-engagement-buttons-3740986/",
-      "image": "/images/feed/feed-58e943a24f4e.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-3b36328af4b7",
-      "title": "GTA 6 Players Are Not, In Fact, Eating Good",
-      "excerpt": "GTA 6's Jason and Lucia don't get much chance to savor Leonida's finest foods, and that's a shame",
-      "body": "There are countless ways to spend your time in Grand Theft Auto 6 . You can scoop up pricey bundles of cocaine in a seaplane, do deadlifts to get sick gains, and scuba dive to discover marine life and lost pirate treasure. You can steal an elderly woman's mobility scooter and go to a yard sale to find cool vintage T-shirts . But sadly, one thing you cannot do is savor a delicious meal, whether it's on a solo outing or even on a date night with Jason and Lucia. GTA 6 has a vast, deep world with astonishing attention to detail in almost every capacity. But there's one area where the game comes up surprisingly short — the food.",
-      "author": "Jen Glennon",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 41,
-      "url": "https://www.polygon.com/gta-6-food-restaurants/",
-      "image": "/images/feed/feed-3b36328af4b7.jpg",
-      "source": "Polygon",
       "isLive": true
     },
     {
@@ -319,238 +684,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 30,
+      "xpReward": 48,
       "url": "https://www.space.com/stargazing/skywatching-kit/i-captured-images-of-my-first-ever-solar-eclipse-with-the-unistellar-equinox-2-now-20-percent-off-for-black-friday",
       "image": "/images/feed/feed-0fe472ea423d.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-75f38e254312",
-      "title": "'GTA 6' Fans Are Pulling Off Perfect Robberies With Only A Six Pack of Beer",
-      "excerpt": "These GTA 6 fans only need liquid courage to pull off professional heists with no casualties in Rockstar's open-world game",
-      "body": "If you're like me, then you approach Grand Theft Auto 6 's heists with anxiety. You case the joint inside and out. You plan meticulously, leaving the getaway car running nearby with the trunk open. You know exactly where all the cameras are, and have a plan for what to do if anyone tries anything funny. Well, what if I told you that you didn't need to do any of that to steal everything from a store in a way that inches your criminal profile closer to professional status?",
-      "author": "Patricia Hernandez",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.polygon.com/gta-6-bank-robbery-beer-weapon-how-to-facebook-youtube-videos/",
-      "image": "/images/feed/feed-75f38e254312.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-a2e9c5fbb929",
-      "title": "Review: Aqara W200 supports Adaptive Temperature in HomeKit at a great price",
-      "excerpt": "Earlier this year, my wife and I bought our first house. Along with all the other exciting things, it’s also let me spend a lot of time testing new smart home gear. One of the most important and usefu…",
-      "body": "Earlier this year, my wife and I bought our first house. Along with all the other exciting things, it’s also let me spend a lot of time testing new smart home gear. One of the most important and useful smart home accessories is a smart thermostat. Six months ago, I installed the Aqara Smart Thermostat W200 , and it’s been a fantastic addition to our smart home setup … especially because it supports Apple’s Adaptive Temperature feature. Here’s how it works. Buy the Aqara W200 Smart Thermostat $120 (Reg. $160) more…",
-      "author": "Chance Miller",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://9to5mac.com/2026/11/27/aqara-w200-adaptive-temperature-thermostat-review/",
-      "image": "/images/feed/feed-a2e9c5fbb929.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-cf09c6ac585d",
-      "title": "Musk Space Based Data Center Idea Is A Betrayal Of Humanity",
-      "excerpt": "Despite copious evidence that Elon Musk is little more than a snake oil salesman and carnival barker like P. T. Barnum, the world continues to believe the man is somehow smarter than the rest of us. F…",
-      "body": "Despite copious evidence that Elon Musk is little more than a snake oil salesman and carnival barker like P. T. Barnum, the world continues to believe the man is somehow smarter than the rest of us. Few seem to realize his empire is built on nothing more than wildly inflated ... [continued] The post Musk Space Based Data Center Idea Is A Betrayal Of Humanity appeared first on CleanTechnica .",
-      "author": "Steve Hanley",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://cleantechnica.com/2026/11/27/musk-space-based-data-center-idea-is-a-betrayal-of-humanity/",
-      "image": "/images/feed/feed-cf09c6ac585d.png",
-      "source": "CleanTechnica",
-      "isLive": true
-    },
-    {
-      "id": "feed-d524afcb4f3e",
-      "title": "'Pokémon Winds and Waves' Fans Will End 2026 On A Good Note",
-      "excerpt": "Fans of Pokémon starters Browt, Pombon and Gecqua have something to look forward to before 2026 ends, ahead of Winds and Waves' release",
-      "body": "Nintendo seems intent on letting The Legend of Zelda: Ocarina of Time stay in the Switch 2 spotlight this year, so Pokémon fans still don't know when they'll be able to play Game Freak's next big RPG. Honestly, Pokémon Winds and Waves has been in a full-on information drought since the release of the reveal trailer back in early 2026 . Well, there's at least one thing fans have to look forward in the realm of pocket monsters now, and it's happening sooner than anyone expected.",
-      "author": "Patricia Hernandez",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.polygon.com/pokemon-winds-waves-starters-ponbom-gecqua-browt-plush/",
-      "image": "/images/feed/feed-d524afcb4f3e.png",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-31857e6b7f9d",
-      "title": "Here are the best Black Friday iPad deals",
-      "excerpt": "The official Amazon Black Friday sale is flying right now with a bananas deal on AirPods Pro 3 at $100 off, an equally wild $400 off M5 MacBook Air, and now even lower prices on the new M6 MacBook Pro…",
-      "body": "The official Amazon Black Friday sale is flying right now with a bananas deal on AirPods Pro 3 at $100 off , an equally wild $400 off M5 MacBook Air , and now even lower prices on the new M6 MacBook Pro at $250 off , but there are some solid iPad discounts live today too. While perhaps not as eventful as the Mac discounts for some, we are still talking about the best price ever on the brand new OLED iPad mini at $100 off , as much as $300 off M5 iPad Pro models , and even more starting from just $379 . Everything awaits below. more…",
-      "author": "Justin Kahn",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 31,
-      "url": "https://9to5mac.com/2026/11/27/here-are-the-best-black-friday-ipad-deals/",
-      "image": "/images/feed/feed-31857e6b7f9d.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-5840223a2ab0",
-      "title": "Forza Horizon 6 Still Beats GTA 6 in One Key Way",
-      "excerpt": "Rockstar's Grand Theft Auto 6 makes a stab at being a proper racing game, but the competition from Playground's series can't be beat",
-      "body": "\"This taught us a huge amount about how to modify, design, and set up real cars to go fast and what happens to them when things go wrong, like bursting tires and crashing,\" Lyons told Polygon in a statement. (As if to underline the point, Lyons' LinkedIn profile pic shows him proudly holding up a blown racecar tire in a pit garage.) \"We also took the same approach with rally-racing dirt bikes — it’s important to us to understand the difference between racing on two and four wheels and on- versus off-road so we can give our players as convincing authentic experience as we can,\" he said. \"For this game, we completely rewrote the vehicle simulation for every vehicle type so we could add more detail and realism, as well as authenticity and believability, to the game.\"",
-      "author": "Oli Welsh",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://www.polygon.com/gta-6-racing-vs-forza-horizon-6/",
-      "image": "/images/feed/feed-5840223a2ab0.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-0d0dd9f1482f",
-      "title": "Three new iPhones will launch early next year, here’s what’s coming",
-      "excerpt": "Apple recently launched the iPhone 18 Pro and iPhone Duo, but three more new iPhone models will reportedly arrive in early 2027. Here’s what’s coming. more…",
-      "body": "Apple recently launched the iPhone 18 Pro and iPhone Duo, but three more new iPhone models will reportedly arrive in early 2027. Here’s what’s coming. more — a development drawing significant attention in the consumer technology and devices space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Iphone. As the situation continues to evolve, professionals and enthusiasts in the consumer technology and devices field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Ryan Christoffel",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Iphone"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://9to5mac.com/2026/11/27/three-new-iphones-will-launch-early-next-year-heres-whats-coming/",
-      "image": "/images/feed/feed-0d0dd9f1482f.jpg",
-      "source": "9to5Mac",
-      "isLive": true
-    },
-    {
-      "id": "feed-b2fff3022e32",
-      "title": "Soundcore Nebula P1i projector drops to a record-low $279",
-      "excerpt": "Soundcore's budget Google TV projector with flip-out speakers is $120 off ahead of Black Friday.",
-      "body": "Soundcore’s quirky budget projector just hit its lowest price. The Soundcore Nebula P1i is down to $279 on Amazon , which is $120 off its $399 list price and a new record low. See the deal at Amazon",
-      "author": "Matt Horne",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gadgets",
-      "tags": [
-        "Gadgets"
-      ],
-      "featured": false,
-      "xpReward": 35,
-      "url": "https://www.androidauthority.com/nebula-p1i-projector-deal-3740617/",
-      "image": "/images/feed/feed-b2fff3022e32.jpg",
-      "source": "Android Authority",
-      "isLive": true
-    },
-    {
-      "id": "feed-27af846663fd",
-      "title": "6 Upcoming Steam Games To Wishlist For Life After GTA 6",
-      "excerpt": "Grand Theft Auto 6 is obviously dominated playtime right now, but there are plenty of upcoming Steam games to wishlist for when you're done.",
-      "body": "With December right around the corner, a very busy year for video games is coming to a close. And while some players might be spending that last month working through Grand Theft Auto 6 , there are still a few new PC games coming out before the calendar changes to 2027.",
-      "author": "Giovanni Colantonio",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 37,
-      "url": "https://www.polygon.com/wishlister-nov-27/",
-      "image": "/images/feed/feed-27af846663fd.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-3ba824721170",
-      "title": "GTA 6 PC Port Takes a Massive Leap Forward in Just Days",
-      "excerpt": "GTA 6's ongoing PC port progress is unrecognizable after just a few days, with some builds including working multiplayer",
-      "body": "Rockstar Games finally released Grand Theft Auto 6 this month after fans had waited 13 years . Unfortunately, PC players are still waiting as no PC port has been officially announced . But following the catastrophic leak of an apparent build of the game onto the internet, PC players have begun a race to create an unofficial version of GTA 6 . That race started slowly, but progress has been exponential in only a few days.",
-      "author": "Willa Rowe",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "gaming",
-      "tags": [
-        "Gaming"
-      ],
-      "featured": false,
-      "xpReward": 36,
-      "url": "https://www.polygon.com/gta-6-pc-port-update-progress-unofficial-cyberleek-leak/",
-      "image": "/images/feed/feed-3ba824721170.jpg",
-      "source": "Polygon",
-      "isLive": true
-    },
-    {
-      "id": "feed-57fb5f18904f",
-      "title": "Prevost unveils Electric coach bus: 600 hp, 540 kWh, 250-mile range",
-      "excerpt": "Prevost, the Quebec coach builder owned by Volvo Group, has unveiled the H3-45 Electric, its first battery-electric motorcoach. It gets a 540 kWh Volvo battery, 450 kW (600 hp) from two electric motor…",
-      "body": "Prevost, the Quebec coach builder owned by Volvo Group, has unveiled the H3-45 Electric, its first battery-electric motorcoach. It gets a 540 kWh Volvo battery, 450 kW (600 hp) from two electric motors, and both CCS1 and MCS charging as standard. The H3-45 is Prevost’s flagship and one of the most common highway coaches in North America. Prevost is pitching the electric version as the same coach drivers and technicians already know, with a different powertrain. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 51,
-      "url": "https://electrek.co/2026/11/27/prevost-h3-45-electric-coach-540-kwh-mcs/",
-      "image": "/images/feed/feed-57fb5f18904f.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-3cad299be624",
-      "title": "Toyota confirms the Highlander 9X will launch as its first EREV with top-tier tech in early 2027",
-      "excerpt": "The Toyota Highlander 9X will go on sale in early 2027 as the brand’s first extended-range electric vehicle with advanced new tech from Huawei and CATL. more…",
-      "body": "The Toyota Highlander 9X will go on sale in early 2027 as the brand’s first extended-range electric vehicle with advanced new tech from Huawei and CATL. more — a development drawing significant attention in the electric vehicles, hybrids, and automotive technology space.\n\nThis report, published by Electrek, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Cars. As the situation continues to evolve, professionals and enthusiasts in the electric vehicles, hybrids, and automotive technology field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Electrek using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "Peter Johnson",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 33,
-      "url": "https://electrek.co/2026/11/27/toyota-confirms-highlander-9x-first-erev-top-tier-tech/",
-      "image": "/images/feed/feed-3cad299be624.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -566,30 +703,10 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 49,
+      "xpReward": 46,
       "url": "https://www.space.com/entertainment/space-movies-shows/foundation-is-a-must-watch-and-this-black-friday-you-can-stream-it-and-other-apple-tv-sci-fi-shows-for-half-price",
       "image": "/images/feed/feed-934ae85bdbe0.jpg",
       "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-b003e140181c",
-      "title": "Used Tesla Cybertruck prices jump after Musk kills it, one asks $150K",
-      "excerpt": "Used Cybertruck prices are up 10 to 15% in the month since Tesla announced it would end production of its electric pickup, according to listing data from CarGurus and Visor. Some dealers are pushing i…",
-      "body": "Used Cybertruck prices are up 10 to 15% in the month since Tesla announced it would end production of its electric pickup, according to listing data from CarGurus and Visor. Some dealers are pushing it much further. One in New Jersey now wants $150,790 for a used Cyberbeast, about $36,000 more than Tesla charges for a brand-new one. more…",
-      "author": "Fred Lambert",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cybertruck",
-        "Tesla"
-      ],
-      "featured": false,
-      "xpReward": 53,
-      "url": "https://electrek.co/2026/11/27/used-cybertruck-prices-jump-after-tesla-kills-it/",
-      "image": "/images/feed/feed-b003e140181c.jpg",
-      "source": "Electrek",
       "isLive": true
     },
     {
@@ -605,7 +722,7 @@
         "Zero-day"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 43,
       "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
       "image": "/images/feed/feed-35001d51f559.jpg",
       "source": "BleepingComputer",
@@ -624,7 +741,7 @@
         "Space"
       ],
       "featured": false,
-      "xpReward": 50,
+      "xpReward": 53,
       "url": "https://www.space.com/stargazing/who-turned-the-w-upside-down-why-cassiopeia-wont-sit-still",
       "image": "/images/feed/feed-e216e694da69.jpg",
       "source": "Space.com",
@@ -643,86 +760,10 @@
         "Hacker"
       ],
       "featured": false,
-      "xpReward": 38,
+      "xpReward": 31,
       "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
       "image": "/images/feed/feed-d64780eb0377.jpg",
       "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-24f342ff7361",
-      "title": "On this day in space! Nov. 27, 1885: Astronomer captures 1st known photo of a meteor during an Andromedid meteor storm",
-      "excerpt": "On Nov. 27, 1885, an astronomer made the first known photograph of a meteor. Here's why it mattered.",
-      "body": "On Nov. 27, 1885, an astronomer made the first known photograph of a meteor. The picture was taken by Austro-Hungarian astronomer Ladislaus Weinek. He captured the trail of the meteor on a photographic plate in the Czech Republic. The meteor he captured was part of the Andromedid meteor shower . The Andromedids were associated with Biela's Comet , which broke apart in the 1850s. When Weinek observed the meteor shower in 1885, it was in the middle of a meteor storm . This means that there were way more meteors than usual. Skywatchers could see thousands of meteors per hour. The November 1872 incidence of the Andromedid meteor shower, as seen over France, in a painting.",
-      "author": " Hanneke Weitering ",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://www.space.com/space-exploration/on-this-day-in-space-november-27-2026",
-      "image": "/images/feed/feed-24f342ff7361.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-adc5af86612e",
-      "title": "EGO Power+ Nexus 1,400W portable inverter + generator hits new $579 low, Matter Outdoor Smart Plug new $22 low, more",
-      "excerpt": "There’s still time to score major deals during Amazon’s Black Friday Sale and countless other sales across all kinds of brands, and for the few we’ve rounded up here, there’s so much more waiting for…",
-      "body": "There’s still time to score major deals during Amazon’s Black Friday Sale and countless other sales across all kinds of brands, and for the few we’ve rounded up here, there’s so much more waiting for you in our Black Friday Green Deals hub here . Below, you can find the EGO Nexus 1,400W Portable Inverter/Generator at a new $579 low , while Greenworks is offering up to 57% tool discounts starting from $40 , and Worx is offering up to 45% discounts starting from $29 . There’s also the latest Linkind Matter Outdoor Smart Plug at a new $22 low in time for holiday display needs, and plenty more. Head below for other New Green Deals we’ve found today and, of course, Electrek ’s best EV buying and leasing deals .",
-      "author": "Reinette LeJeune",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cars",
-      "tags": [
-        "Cars"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://electrek.co/2026/11/27/ego-power-nexus-1400w-portable-inverter-generator-matter-outdoor-smart-plug-more/",
-      "image": "/images/feed/feed-adc5af86612e.jpg",
-      "source": "Electrek",
-      "isLive": true
-    },
-    {
-      "id": "feed-ca8ce759eba0",
-      "title": "Don't get ripped off this Black Friday! Shop safely online with our scam-spotting guide",
-      "excerpt": "I've been Black Friday bargain hunting for a long time and I'm here to tell you how to avoid getting scammed. From fraudulent sites to fake goods, my guide will help you shop safely online.",
-      "body": "There are some real bargains to be had this Black Friday, including discounts on telescopes , cameras , drones , Lego and streaming to watch your favorite sci-fi. Heck, we're even offering the chance to win a smart telescope worth $419 ! But as exciting as all the Black Friday deals are, there's the very real risk that you could get scammed, particularly given how exciting it is to snag a deal. That's where my scam-spotting guide comes in. Not only do I get paid to hunt down Black Friday savings, but I've also snapped up more stargazing deals than I care to think about, and I know how to spot a shady offer or suspect site. So, read on and I'll show you how to stay safe online this Black Friday.",
-      "author": " Chris McMullen ",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 52,
-      "url": "https://www.space.com/stargazing/skywatching-kit/dont-get-ripped-off-this-black-friday-shop-safely-online-with-our-scam-spotting-guide",
-      "image": "/images/feed/feed-ca8ce759eba0.jpg",
-      "source": "Space.com",
-      "isLive": true
-    },
-    {
-      "id": "feed-7c52e4e614e0",
-      "title": "Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates",
-      "excerpt": "Paris, France | November 2026 — Novaspace’s Space Defense & Security, 2nd Edition finds that governments invested approximately $71.8 billion in space defense and security activities globally in 2025,…",
-      "body": "Paris, France &#124; November 2026 — Novaspace’s Space Defense &#38; Security, 2nd Edition finds that governments invested approximately $71.8 billion in space defense and security activities globally in 2025, reflecting [&#8230;] The post Governments Invest $71.8B in Space Defense as Militarization of Space Accelerates appeared first on SpaceNews .",
-      "author": "Novaspace",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "space",
-      "tags": [
-        "Space"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://spacenews.com/governments-invest-71-8b-in-space-defense-as-militarization-of-space-accelerates/",
-      "image": "/images/feed/feed-7c52e4e614e0.png",
-      "source": "SpaceNews",
       "isLive": true
     },
     {
@@ -738,29 +779,10 @@
         "Breach"
       ],
       "featured": false,
-      "xpReward": 44,
+      "xpReward": 45,
       "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
       "image": "/images/feed/feed-eb2f06f2c812.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-ad63488950df",
-      "title": "GPT 6.2 Astra Solves a Historical Mystery",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gpt. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "bookofjoe",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gpt"
-      ],
-      "featured": false,
-      "xpReward": 39,
-      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
-      "image": "/images/topics/topic-ai-ml.png",
-      "source": "Hacker News",
       "isLive": true
     },
     {
@@ -776,7 +798,7 @@
         "Firewall"
       ],
       "featured": false,
-      "xpReward": 31,
+      "xpReward": 36,
       "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
       "image": "/images/feed/feed-e471e04f5041.jpg",
       "source": "BleepingComputer",
@@ -795,67 +817,10 @@
         "Malware"
       ],
       "featured": false,
-      "xpReward": 34,
+      "xpReward": 38,
       "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
       "image": "/images/feed/feed-05fd220bbffe.jpg",
       "source": "BleepingComputer",
-      "isLive": true
-    },
-    {
-      "id": "feed-3a3c26de87b9",
-      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
-      "excerpt": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusi…",
-      "body": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.codes-team[.]com\"), from where a Microsoft-signed installer called \"Snipping-Tool.exe\" is",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "cybersecurity",
-      "tags": [
-        "Cybersecurity"
-      ],
-      "featured": false,
-      "xpReward": 30,
-      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
-      "image": "/images/feed/feed-3a3c26de87b9.png",
-      "source": "The Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-0b3b0c708b36",
-      "title": "Claude sabotaging ML research tasks?",
-      "excerpt": "",
-      "body": "This report, published by Hacker News, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Claude. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Hacker News using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "baobabKoodaa",
-      "date": "2026-11-27",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Claude"
-      ],
-      "featured": false,
-      "xpReward": 50,
-      "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
-      "image": "/images/feed/feed-0b3b0c708b36.webp",
-      "source": "Hacker News",
-      "isLive": true
-    },
-    {
-      "id": "feed-294694671f88",
-      "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
-      "excerpt": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way.",
-      "body": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way.\n\nThis report, published by Wired, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to Wired using the link below. GiveMeTech will continue tracking this story as more details emerge.",
-      "author": "David Nield",
-      "date": "2026-11-26",
-      "readTime": "2 min",
-      "section": "ai",
-      "tags": [
-        "Gemini"
-      ],
-      "featured": false,
-      "xpReward": 42,
-      "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
-      "image": "/images/feed/feed-294694671f88.jpg",
-      "source": "Wired",
       "isLive": true
     },
     {
@@ -872,7 +837,7 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 39,
       "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
       "source": "TechCrunch",
@@ -891,7 +856,7 @@
         "Anthropic"
       ],
       "featured": false,
-      "xpReward": 32,
+      "xpReward": 43,
       "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
       "image": "https://techcrunch.com/wp-content/uploads/2026/03/Dario-Amodei-Anthropic-viva-tech.jpg?w=1024",
       "source": "TechCrunch",
@@ -910,7 +875,7 @@
         "Claude"
       ],
       "featured": false,
-      "xpReward": 41,
+      "xpReward": 39,
       "url": "https://www.zdnet.com/innovation/claude-artifacts-desktop-apps-mac-windows/",
       "image": "/images/feed/feed-ef26a9acb704.jpg",
       "source": "ZDNet",
@@ -929,24 +894,62 @@
         "Chatgpt"
       ],
       "featured": false,
-      "xpReward": 39,
+      "xpReward": 44,
       "url": "https://www.cnet.com/tech/services-and-software/meta-muse-and-chatgpt-dots-ai-agents-save-groceries/",
       "image": "/images/feed/feed-d7dba48375d6.png",
       "source": "CNET",
       "isLive": true
+    },
+    {
+      "id": "feed-3d6e23b2e727",
+      "title": "New Gemini setting lets you keep chat history, but turn off AI training [U]",
+      "excerpt": "Google is rolling out new privacy settings for the Gemini app that will let you “keep your history while independently controlling generative AI model training.” more…",
+      "body": "Google is rolling out new privacy settings for the Gemini app that will let you “keep your history while independently controlling generative AI model training.” more — a development drawing significant attention in the artificial intelligence and machine learning space.\n\nThis report, published by 9to5Mac, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to 9to5Mac using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "9to5Google",
+      "date": "2026-11-24",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Gemini"
+      ],
+      "featured": false,
+      "xpReward": 48,
+      "url": "https://9to5google.com/2026/11/24/gemini-history-ai-training/",
+      "image": "/images/feed/feed-3d6e23b2e727.jpg",
+      "source": "9to5Mac",
+      "isLive": true
+    },
+    {
+      "id": "feed-42ff55b30476",
+      "title": "I gave Gemini access to my Wallet, and it immediately started saving me money",
+      "excerpt": "Gemini gave me a little tough love and told me what I needed to hear about my finances.",
+      "body": "Gemini gave me a little tough love and told me what I needed to hear about my finances.\n\nThis report, published by ZDNet, touches on a topic that has been gaining momentum across the industry. Key areas highlighted include Gemini. As the situation continues to evolve, professionals and enthusiasts in the artificial intelligence and machine learning field are closely watching for downstream effects.\n\nFor the full breakdown, analysis, and expert commentary, head to ZDNet using the link below. GiveMeTech will continue tracking this story as more details emerge.",
+      "author": "Artie Beaty",
+      "date": "2026-11-24",
+      "readTime": "2 min",
+      "section": "ai",
+      "tags": [
+        "Gemini"
+      ],
+      "featured": false,
+      "xpReward": 45,
+      "url": "https://www.zdnet.com/innovation/gemini-wallet-personal-intelligence/",
+      "image": "/images/feed/feed-42ff55b30476.jpg",
+      "source": "ZDNet",
+      "isLive": true
     }
   ],
   "breakingNews": [
-    "DEV.TO: Switching an English–French form after a validation error: a local test",
-    "DEV.TO: All or Nothing: Testing DynamoDB Transaction Atomicity with Tables",
-    "DEV.TO: Chemical precipitation is a pH window, not a setpoint",
-    "DEV.TO: Keeping High-Risk Incident Runbooks Accurate as Infrastructure Evolves",
-    "DEV.TO: I Built a Free Google Search Console Analytics Tool That Runs in Your Browser (No Signup)",
-    "DEV.TO: OpenAI fixed a \"bug\" and now my plan does 40% less work",
-    "DEV.TO: SQL Server to BigQuery: Build a CDC Pipeline That Lands in Your Own Bucket",
-    "SPACE.COM: Dropping missiles from orbit? 2 European companies sign agreement to study the idea",
-    "ELECTREK: Velotric e-bikes hit new Black Friday lows $760 off, EGO 8-inch cordless auger $449, Greenworks cordless snow blowers, more",
-    "BLEEPINGCOMPUTER: New Boston Scientific data breach exposes personal, medical info"
+    "DEV.TO: Stripping the AI of Auto TP/SL: Designing 'Iron Laws' as Guardrails in Complex Trading Systems",
+    "DEV.TO: Anthropic Messages API Rust Rewrite Cuts CPU 70% — Dual-Track WASAPI Still Owns the Overlay Floor",
+    "DEV.TO: Convert PDF Formats for Downstream Processing with a Production Validation Checklist",
+    "DEV.TO: Driving Android Phones Over ADB Without Screenshot Loops or Raw XML Dumps (turbo-android-mcp)",
+    "DEV.TO: HireSense is now on Up For Grabs — good first issues open",
+    "DEV.TO: Day Three, Laptop Open, Puppy Awake",
+    "DEV.TO: Open Source Chrome Extension Launch: A GitHub Checklist",
+    "POLYGON: 63 Years Later, CBS's Legendary 70-Episode Series Still Has the Only Vampire Worth Watching",
+    "ZDNET: I found a DualSense deal that knocks 28% off this wireless PlayStation controller",
+    "ELECTREK: IONNA’s got a 50% discount off EV charging over Thanksgiving weekend"
   ],
   "sectionVideos": {}
 }
